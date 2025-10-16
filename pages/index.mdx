@@ -413,7 +413,7 @@ export function GitHubStats () {
   const [animatedFollowers, setAnimatedFollowers] = useState(0)
   
   useEffect(() => {
-    const res = getGitHubStates({ username: 'nansang2000', perpage: 100, pagenum: 2 })
+    const res = getGitHubStates({ username: 'Neilouo', perpage: 100, pagenum: 2 })
     res.then((res) => {
         setStars(res.totalStars)
         setRepos(res.totalRepos)
@@ -426,7 +426,7 @@ export function GitHubStats () {
 
   useEffect(() => {
       // /users/{username}
-      fetch('https://api.github.com/users/nansang2000')
+      fetch('https://api.github.com/users/Neilouo')
         .then((res) => res.json())
         .then((res) => {
           setFollowers(res.followers)
@@ -619,7 +619,7 @@ export function WakaTime () {
           </Button>
         </motion.div>
 
-        [//]: # (<img className={'mt-10 h-20'} src="https://ghchart.rshah.org/409ba5/nansang2000" alt="GitHub Nan Sang" />)
+        [//]: # (<img className={'mt-10 h-20'} src="https://ghchart.rshah.org/409ba5/Neilouo" alt="GitHub Neil " />)
     </div>
     <div className={'w-full h-max py-6 md:py-12 mt-4 lg:mt-8'}>
         <img alt={'banner'} className={'w-full h-full max-w-md mx-auto lg:max-w-none'} src={'/banner.svg'} />
@@ -766,9 +766,9 @@ export function WakaTime () {
                     className={'w-16 h-16 md:w-20 md:h-20 rounded-full flex-shrink-0'} 
                   />
                   <div className={'flex flex-col h-max md:ml-3 pr-3 text-center md:text-left'}>
-                      <a href={'https://github.com/nansang2000'} target={'_blank'} rel="noreferrer" className={'w-full'}>
+                      <a href={'https://github.com/Neilouo'} target={'_blank'} rel="noreferrer" className={'w-full'}>
                           <div className={'text-xl md:text-2xl font-thin text-black hover:underline hover:decoration-blue-400'}>
-                              nansang2000
+                              Neilouo
                           </div>
                       </a>
                       <div className={'text-base md:text-lg font-thin text-blue-500 font-mono'}>
@@ -780,8 +780,8 @@ export function WakaTime () {
                   </div>
             </motion.div>
 
-[//]: # (<img className={'h-32'} src={'https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=nansang2000'} alt={'Github'}/>)
-            <img className={'mt-6 md:mt-10 w-full'} src="https://ghchart.rshah.org/FF5733/nansang2000" alt="GitHub nansang2000" />
+[//]: # (<img className={'h-32'} src={'https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Neilouo'} alt={'Github'}/>)
+            <img className={'mt-6 md:mt-10 w-full'} src="https://ghchart.rshah.org/FF5733/Neilouo" alt="GitHub Neilouo" />
         </div>
     </motion.div>
 </motion.div>
@@ -994,11 +994,11 @@ export function TechCards () {
           <div className={'text-base md:text-lg lg:text-5xl mr-2 md:mr-3 opacity-0 group-hover:opacity-60 transition-all ease-in-out duration-700 text-white'}>Linkedin</div>
           <img src={'/Linkedin.svg'} className={'w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 opacity-25 hover:opacity-60 transition-all ease-in-out duration-700'} />
         </a>
-        <a href={'https://github.com/nansang2000'} target={'_blank'} rel="noreferrer" className={'flex w-full justify-end items-center group'}>
+        <a href={'https://github.com/Neilouo'} target={'_blank'} rel="noreferrer" className={'flex w-full justify-end items-center group'}>
           <div className={'text-base md:text-lg lg:text-5xl mr-2 md:mr-3 opacity-0 group-hover:opacity-60 transition-all ease-in-out duration-700 text-white'}>GITHUB</div>
           <img src={'/github.svg'} className={'w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 opacity-25 hover:opacity-60 transition-all ease-in-out duration-700'} />
         </a>
-        <a href={'mailto:nansang2000@gmail.com'} target={'_blank'} rel="noreferrer" className={'flex w-full justify-end items-center group'}>
+        <a href={'mailto:Neilouuo@gmail.com'} target={'_blank'} rel="noreferrer" className={'flex w-full justify-end items-center group'}>
           <div className={'text-base md:text-lg lg:text-5xl mr-2 md:mr-3 opacity-0 group-hover:opacity-60 transition-all ease-in-out duration-700 text-white'}>Gmail</div>
           <img src={'/email.svg'} className={'w-16 h-16 md:w-20 md:h-20 lg:w-24 lg:h-24 opacity-25 hover:opacity-60 transition-all ease-in-out duration-700'} />
         </a>
