@@ -6,10 +6,13 @@ description: '记录技术学习过程中的思考与实践'
 import { motion } from 'framer-motion'
 import BlogPageWithData from '../../components/BlogPageWithData'
 
+const cardBase =
+  'group relative overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-[0_25px_90px_-50px_rgba(15,23,42,0.7)] transition duration-300 hover:-translate-y-0.5 dark:border-white/5 dark:bg-slate-900'
+
 export const stats = [
   { label: '写作年限', value: '5 年', detail: '记录产品 / 工程 / 设计交叉点' },
   { label: '更新节奏', value: 'Weekly', detail: '周末长文 + 临时闪念' },
-  { label: '读者反馈', value: '200+', detail: '邮件与 issue 中持续对话' },
+  { label: '读者反馈', value: '200+', detail: '邮件 & issue 持续对话' },
 ]
 
 export const guidingPrinciples = [
@@ -19,139 +22,164 @@ export const guidingPrinciples = [
   },
   {
     title: '把抽象落到手感',
-    description: '给出可以直接复制的流程、模板或者脚本，让灵感不止停留在概念层。',
+    description: '提供可以直接复制的流程、模板或脚本，让灵感立刻落地。',
   },
   {
     title: '留下迭代脚注',
-    description: '文章末尾会记下下一步验证计划，方便和读者一起继续推进。',
+    description: '文章末尾会标注下一步验证计划，方便读者一起推进。',
   },
 ]
 
 export const currentThemes = [
   {
-    title: '对齐 AI 体验与交互细节',
-    tagline: 'Prompt、tRPC 服务与前端状态之间的拉扯。',
+    title: 'Align AI × UX',
+    tagline: 'LLM 能力、tRPC 服务与前端状态的协同。',
   },
   {
-    title: '把设计系统用在真实交付',
-    tagline: '从 Figma token 到 React 组件，再到研发协作。',
+    title: 'Design System Shipping',
+    tagline: '从 token、组件到多团队协作的落地指南。',
   },
   {
-    title: '工程与产品双向治理',
-    tagline: 'CI/CD、成本、可观察性如何伴随产品迭代。',
+    title: 'Engineering × Product Governance',
+    tagline: 'CI/CD、观测与成本如何伴随产品演化。',
   },
 ]
 
-<div className="relative overflow-hidden bg-stone-50 pb-24 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
-  <div className="pointer-events-none absolute inset-0">
-    <div className="absolute left-1/2 top-10 h-72 w-72 -translate-x-1/2 rounded-full bg-[radial-gradient(circle,_rgba(14,165,233,0.15),_transparent_70%)] dark:bg-[radial-gradient(circle,_rgba(56,189,248,0.08),_transparent_70%)]" />
-    <div className="absolute right-10 bottom-0 h-40 w-40 rounded-full bg-[radial-gradient(circle,_rgba(248,113,113,0.12),_transparent_70%)]" />
-  </div>
+export const peekNotes = [
+  '我会把团队争论、实验失效原因、成功的小技巧都写出来。',
+  '每篇文章都会附带一份可下载的 checklist 或者 demo 链接。',
+  '如果某个想法仍在发酵，就会先以「未完贴纸」状态贴到这里。',
+]
 
-  <motion.section
-    initial={{ opacity: 0, y: 30 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.5, ease: 'easeOut' }}
-    className="relative mx-auto mt-16 max-w-5xl rounded-[32px] border border-white/70 bg-white/90 px-8 py-12 shadow-[0_30px_120px_-80px_rgba(15,23,42,0.8)] backdrop-blur-xl dark:border-white/5 dark:bg-slate-900/70"
-  >
-    <div className="flex flex-col gap-8 lg:flex-row">
-      <div className="flex-1 space-y-6">
-        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500 dark:text-slate-400">Notebook</p>
-        <h1 className="text-4xl font-black leading-tight text-slate-900 dark:text-white sm:text-5xl">
-          把技术与体验写成「可以复用的生活说明书」
-        </h1>
-        <p className="text-base text-slate-600 dark:text-slate-300">
-          这里不是新闻流，更像一份长久的工作手记：我会记录团队争论、实验失败、以及真正奏效的小技巧，希望读者能从中带走一个方法论或一个脚本。
-        </p>
+<div className="min-h-screen bg-slate-50/70 pb-24 pt-16 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+  <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 px-4 sm:px-6 lg:px-10 xl:grid-cols-3">
+    <motion.article
+      className={`${cardBase} xl:col-span-2`}
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
+    >
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(14,165,233,0.18),_transparent_55%)] dark:bg-[radial-gradient(circle_at_top,_rgba(56,189,248,0.12),_transparent_55%)]" />
+      <div className="relative flex flex-col gap-8 p-8">
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-sky-500">Notebook</p>
+          <h1 className="mt-4 text-4xl font-black leading-tight text-slate-900 dark:text-white sm:text-5xl">
+            把技术与体验写成「能用得上的生活说明书」
+          </h1>
+          <p className="mt-4 text-base text-slate-600 dark:text-slate-300">
+            不是新闻流，而是一份可以随手翻阅的工作手记：记录产品决策、交互灵感与工程折中，让读者能立即复用。
+          </p>
+        </div>
         <div className="grid gap-4 sm:grid-cols-3">
           {stats.map((item) => (
-            <div key={item.label} className="rounded-2xl border border-slate-100 bg-stone-50/80 px-4 py-5 dark:border-white/10 dark:bg-white/5">
-              <p className="text-xs uppercase tracking-[0.25em] text-slate-500 dark:text-slate-400">{item.label}</p>
+            <div key={item.label} className="rounded-2xl border border-white/60 bg-white/90 px-4 py-5 shadow-sm dark:border-white/10 dark:bg-white/5">
+              <p className="text-[0.6rem] uppercase tracking-[0.35em] text-slate-500 dark:text-slate-400">{item.label}</p>
               <p className="mt-3 text-2xl font-semibold text-slate-900 dark:text-white">{item.value}</p>
               <p className="mt-1 text-xs text-slate-500 dark:text-slate-300">{item.detail}</p>
             </div>
           ))}
         </div>
       </div>
-      <div className="relative flex-1 rounded-3xl border border-slate-200 bg-[repeating-linear-gradient(120deg,_rgba(15,23,42,0.04),_rgba(15,23,42,0.04)_8px,_transparent_8px,_transparent_16px)] p-6 dark:border-white/10 dark:bg-slate-900/60">
-        <div className="absolute -top-4 left-8 h-8 w-8 rotate-6 rounded-full border border-slate-300 bg-white text-center text-xl leading-8 shadow-sm dark:border-white/20 dark:bg-slate-900">
-          ✍️
+    </motion.article>
+
+    <motion.article
+      className={`${cardBase} xl:col-span-1`}
+      initial={{ opacity: 0, y: 30 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 0.05 }}
+    >
+      <div className="relative h-full p-8">
+        <div className="inline-flex items-center rounded-full border border-slate-200/70 px-3 py-1 text-xs uppercase tracking-[0.25em] text-slate-500 dark:border-white/10">
+          Quote
         </div>
-        <blockquote className="relative mt-6 space-y-4 text-slate-700 dark:text-slate-200">
-          <p className="text-lg font-medium">
-            “写作是我整理产品决策、交互灵感与工程实现之间张力的方式。”
-          </p>
+        <blockquote className="mt-6 space-y-4 text-lg font-medium text-slate-800 dark:text-slate-100">
+          <p>“写作是我整理产品决策、交互灵感与工程实现之间张力的方式。”</p>
           <p className="text-sm text-slate-500 dark:text-slate-400">—— Neilouo</p>
         </blockquote>
-        <div className="mt-8 rounded-2xl border border-dashed border-slate-300/80 px-4 py-3 text-xs text-slate-500 dark:border-white/20 dark:text-slate-300">
-          最近在准备一套「AI 产品体验自检」表单，欢迎邮件交流。📮
+        <div className="relative mt-8">
+          <div className="relative max-h-36 overflow-hidden rounded-2xl border border-dashed border-slate-200/80 bg-slate-50/80 p-4 text-sm leading-relaxed text-slate-600 dark:border-white/15 dark:bg-white/5 dark:text-slate-300">
+            <div className="space-y-3">
+              {peekNotes.map((note) => (
+                <p key={note}>{note}</p>
+              ))}
+            </div>
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-slate-50 via-transparent to-transparent dark:from-slate-900" />
+          </div>
+          <span className="absolute -bottom-2 right-6 rounded-full bg-amber-300/80 px-3 py-1 text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-amber-900 shadow">
+            Peek
+          </span>
         </div>
       </div>
-    </div>
-  </motion.section>
+    </motion.article>
 
-  <motion.section
-    initial={{ opacity: 0, y: 30 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true, amount: 0.2 }}
-    transition={{ duration: 0.5, delay: 0.1 }}
-    className="mx-auto mt-16 max-w-5xl px-6"
-  >
-    <div className="rounded-[28px] border border-slate-200/60 bg-white/85 p-8 shadow-[0_35px_100px_-80px_rgba(15,23,42,0.8)] dark:border-white/10 dark:bg-slate-900/70">
-      <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">Writing Principles</p>
-      <div className="mt-6 grid gap-6 md:grid-cols-3">
-        {guidingPrinciples.map((principle) => (
-          <div key={principle.title} className="rounded-2xl border border-slate-100 bg-stone-50/70 p-5 leading-relaxed shadow-sm dark:border-white/10 dark:bg-white/5">
-            <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{principle.title}</h3>
-            <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">{principle.description}</p>
-          </div>
-        ))}
-      </div>
-    </div>
-  </motion.section>
-
-  <motion.section
-    initial={{ opacity: 0, y: 30 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true, amount: 0.2 }}
-    transition={{ duration: 0.5, delay: 0.15 }}
-    className="mx-auto mt-14 max-w-5xl px-6"
-  >
-    <div className="rounded-[28px] border border-slate-200/70 bg-white/90 p-8 shadow-[0_25px_80px_-70px_rgba(15,23,42,0.8)] dark:border-white/10 dark:bg-slate-900/70">
-      <div className="flex flex-col gap-4 border-b border-slate-100 pb-6 dark:border-white/10">
-        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">Current Themes</p>
-        <h2 className="text-3xl font-bold text-slate-900 dark:text-white">近期正在琢磨的三件事</h2>
-      </div>
-      <div className="mt-6 space-y-4">
-        {currentThemes.map((theme, index) => (
-          <div key={theme.title} className="flex gap-4 rounded-2xl border border-slate-100 bg-stone-50/70 px-5 py-4 text-sm dark:border-white/10 dark:bg-white/5">
-            <span className="text-lg font-semibold text-slate-400 dark:text-slate-500">{String(index + 1).padStart(2, '0')}</span>
-            <div>
-              <p className="text-base font-medium text-slate-900 dark:text-white">{theme.title}</p>
-              <p className="mt-1 text-slate-600 dark:text-slate-300">{theme.tagline}</p>
+    <motion.article
+      className={`${cardBase} xl:col-span-1`}
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.3 }}
+      transition={{ duration: 0.5, delay: 0.1 }}
+    >
+      <div className="relative h-full p-8">
+        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">Guiding Principles</p>
+        <div className="mt-6 space-y-4">
+          {guidingPrinciples.map((principle) => (
+            <div key={principle.title} className="rounded-2xl border border-slate-100 bg-white/80 p-4 shadow-sm dark:border-white/10 dark:bg-white/5">
+              <h3 className="text-base font-semibold text-slate-900 dark:text-white">{principle.title}</h3>
+              <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">{principle.description}</p>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
-  </motion.section>
+    </motion.article>
 
-  <motion.section
-    initial={{ opacity: 0, y: 30 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true, amount: 0.2 }}
-    transition={{ duration: 0.5, delay: 0.2 }}
-    className="mx-auto mt-16 max-w-5xl px-6"
-  >
-    <div className="rounded-[30px] border border-slate-200/70 bg-white/95 p-8 shadow-[0_40px_140px_-90px_rgba(15,23,42,0.9)] dark:border-white/10 dark:bg-slate-900/80">
-      <div className="flex flex-col gap-3 border-b border-slate-100 pb-6 text-center dark:border-white/10">
-        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">Latest Writing</p>
-        <h2 className="text-3xl font-bold text-slate-900 dark:text-white">把新鲜的实验日志贴给你</h2>
-        <p className="text-sm text-slate-600 dark:text-slate-300">跟踪我在产品迭代、交互实验与工程治理上的最新推演。</p>
+    <motion.article
+      className={`${cardBase} xl:col-span-2`}
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.5, delay: 0.15 }}
+    >
+      <div className="relative h-full p-8">
+        <div className="flex items-center justify-between gap-4 border-b border-slate-100 pb-4 dark:border-white/10">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">Current Themes</p>
+            <h2 className="mt-2 text-3xl font-bold text-slate-900 dark:text-white">近期正在琢磨的三件事</h2>
+          </div>
+          <span className="rounded-full border border-slate-200/70 px-3 py-1 text-[0.65rem] uppercase tracking-[0.25em] text-slate-500 dark:border-white/10">
+            WIP
+          </span>
+        </div>
+        <div className="mt-6 space-y-4">
+          {currentThemes.map((theme, index) => (
+            <div key={theme.title} className="flex gap-4 rounded-2xl border border-slate-100 bg-slate-50/70 px-4 py-4 text-sm dark:border-white/10 dark:bg-white/5">
+              <span className="text-lg font-semibold text-slate-400 dark:text-slate-500">{String(index + 1).padStart(2, '0')}</span>
+              <div>
+                <p className="text-base font-medium text-slate-900 dark:text-white">{theme.title}</p>
+                <p className="mt-1 text-slate-600 dark:text-slate-300">{theme.tagline}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-      <div className="mt-8">
-        <BlogPageWithData />
+    </motion.article>
+
+    <motion.article
+      className={`${cardBase} xl:col-span-3`}
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, amount: 0.2 }}
+      transition={{ duration: 0.5, delay: 0.2 }}
+    >
+      <div className="relative h-full p-8">
+        <div className="flex flex-col gap-3 border-b border-slate-100 pb-6 text-center dark:border-white/10">
+          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">Latest Writing</p>
+          <h2 className="text-3xl font-bold text-slate-900 dark:text-white">把新鲜的实验日志贴给你</h2>
+          <p className="text-sm text-slate-600 dark:text-slate-300">博客列表也以卡片形式呈现，你可以快速预览一部分文字内容。</p>
+        </div>
+        <div className="mt-8">
+          <BlogPageWithData />
+        </div>
       </div>
-    </div>
-  </motion.section>
+    </motion.article>
+  </div>
 </div>
