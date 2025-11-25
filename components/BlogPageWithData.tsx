@@ -1,88 +1,109 @@
-import React, { useState, useEffect } from 'react'
-import BlogList from './BlogList'
-
-interface BlogPost {
-  slug: string
-  title: string
-  excerpt: string
-  date: string
-  readTime: string
-  tags: string[]
-  content: string
-}
+import React, { useMemo, useState } from 'react'
+import Link from 'next/link'
+import { ArrowUpRight, Filter } from 'lucide-react'
+import { externalArticles, sourceMeta, type ExternalSource } from '../data/externalArticles'
 
 const BlogPageWithData: React.FC = () => {
-  const [posts, setPosts] = useState<BlogPost[]>([])
-  const [loading, setLoading] = useState(true)
+  const [activeSource, setActiveSource] = useState<ExternalSource | 'all'>('all')
 
-  useEffect(() => {
-    const fetchPosts = async (): Promise<void> => {
-      try {
-        const response = await fetch('/api/blog-posts')
-        const data = await response.json()
-        setPosts(data.posts || [])
-      } catch (error) {
-        console.error('获取博客文章失败:', error)
-        setPosts([])
-      } finally {
-        setLoading(false)
-      }
-    }
-
-    void fetchPosts()
-  }, [])
-
-  if (loading) {
-    return (
-      <div className="relative">
-        {/* 背景装饰 */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-10 left-10 w-32 h-32 bg-blue-300 dark:bg-blue-600 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl opacity-30 animate-pulse"></div>
-          <div className="absolute top-32 right-20 w-24 h-24 bg-purple-300 dark:bg-purple-600 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl opacity-30 animate-pulse" style={{ animationDelay: '1s' }}></div>
-          <div className="absolute bottom-20 left-32 w-40 h-40 bg-pink-300 dark:bg-pink-600 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-xl opacity-30 animate-pulse" style={{ animationDelay: '2s' }}></div>
-        </div>
-        
-        <div className="relative flex flex-col justify-center items-center py-20 min-h-[400px]">
-          <div className="relative">
-            <div className="animate-spin rounded-full h-16 w-16 border-4 border-blue-200 dark:border-blue-800"></div>
-                         <div className="animate-spin rounded-full h-16 w-16 border-4 border-blue-500 border-t-transparent absolute top-0 left-0" style={{ animationDelay: '0.15s' }}></div>
-          </div>
-          <div className="mt-6 text-center">
-            <p className="text-lg text-gray-600 dark:text-gray-400 font-medium animate-pulse">
-              正在加载精彩内容...
-            </p>
-            <div className="flex justify-center mt-3 space-x-1">
-              <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce"></div>
-              <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.1s' }}></div>
-              <div className="w-2 h-2 bg-blue-500 rounded-full animate-bounce" style={{ animationDelay: '0.2s' }}></div>
-            </div>
-          </div>
-        </div>
-      </div>
+  const articles = useMemo(() => {
+    const sorted = [...externalArticles].sort(
+      (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     )
-  }
+    return activeSource === 'all'
+      ? sorted
+      : sorted.filter((article) => article.source === activeSource)
+  }, [activeSource])
 
   return (
-    <div className="relative">
-      {/* 动态背景装饰 */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-20 left-1/4 w-64 h-64 bg-gradient-to-r from-blue-300 to-purple-300 dark:from-blue-600 dark:to-purple-600 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-2xl opacity-20 animate-pulse"></div>
-        <div className="absolute top-40 right-1/3 w-48 h-48 bg-gradient-to-r from-pink-300 to-red-300 dark:from-pink-600 dark:to-red-600 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-2xl opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-32 left-1/2 w-56 h-56 bg-gradient-to-r from-green-300 to-blue-300 dark:from-green-600 dark:to-blue-600 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-2xl opacity-20 animate-pulse" style={{ animationDelay: '2s' }}></div>
-        <div className="absolute top-1/2 right-20 w-32 h-32 bg-gradient-to-r from-yellow-300 to-orange-300 dark:from-yellow-600 dark:to-orange-600 rounded-full mix-blend-multiply dark:mix-blend-screen filter blur-2xl opacity-20 animate-pulse" style={{ animationDelay: '3s' }}></div>
-        
-        {/* 浮动的装饰点 */}
-        <div className="absolute top-1/4 left-20 w-3 h-3 bg-blue-400 dark:bg-blue-300 rounded-full animate-ping opacity-60"></div>
-        <div className="absolute top-3/4 right-32 w-2 h-2 bg-purple-400 dark:bg-purple-300 rounded-full animate-ping opacity-60" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute top-1/2 left-3/4 w-4 h-4 bg-pink-400 dark:bg-pink-300 rounded-full animate-ping opacity-60" style={{ animationDelay: '2s' }}></div>
+    <div className="space-y-6">
+      <div className="flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-slate-400 dark:text-slate-500">
+            External Feed
+          </p>
+          <h3 className="text-left text-2xl font-semibold text-slate-900 dark:text-white">
+            来自 CSDN / 掘金 / 博客园 / Stack Overflow 的最新写作
+          </h3>
+        </div>
+        <div className="flex flex-wrap items-center gap-2 text-sm">
+          <span className="inline-flex items-center rounded-full border border-slate-200/70 px-3 py-1 text-slate-500 dark:border-white/10 dark:text-slate-300">
+            <Filter className="mr-1 h-3.5 w-3.5" />筛选来源
+          </span>
+          <button
+            onClick={() => setActiveSource('all')}
+            className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] transition ${
+              activeSource === 'all'
+                ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900'
+                : 'bg-white/60 text-slate-500 hover:bg-slate-100 dark:bg-white/5 dark:text-slate-300'
+            }`}
+          >
+            全部
+          </button>
+          {(Object.keys(sourceMeta) as ExternalSource[]).map((source) => (
+            <button
+              key={source}
+              onClick={() => setActiveSource(source)}
+              className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] transition ${
+                activeSource === source
+                  ? `${sourceMeta[source].accent} shadow`
+                  : `${sourceMeta[source].text} opacity-70 hover:opacity-100`
+              }`}
+            >
+              {sourceMeta[source].name}
+            </button>
+          ))}
+        </div>
       </div>
-      
-      {/* 主要内容 */}
-      <div className="relative z-10">
-        <BlogList posts={posts} />
+
+      <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        {articles.map((article) => {
+          const meta = sourceMeta[article.source]
+          return (
+            <Link key={article.id} href={article.url} target="_blank" rel="noopener noreferrer" className="group">
+              <article className="relative flex h-full flex-col rounded-3xl border border-white/60 bg-white/90 p-6 shadow-[0_25px_80px_-50px_rgba(15,23,42,0.7)] transition hover:-translate-y-1 hover:shadow-[0_35px_120px_-60px_rgba(15,23,42,0.8)] dark:border-white/10 dark:bg-slate-900/80">
+                <div className="flex items-start justify-between">
+                  <span className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] ${meta.text}`}>
+                    {meta.name}
+                  </span>
+                  <div className="relative h-8 w-8 overflow-hidden rounded-full bg-white/80 p-1 shadow-inner dark:bg-white/10">
+                    <img src={meta.logo} alt={meta.name} className="h-full w-full object-contain" />
+                  </div>
+                </div>
+
+                <div className="mt-6 space-y-3">
+                  <h3 className="text-xl font-semibold leading-snug text-slate-900 transition group-hover:text-slate-600 dark:text-white dark:group-hover:text-slate-200">
+                    {article.title}
+                  </h3>
+                  <p className="text-sm text-slate-600 line-clamp-3 dark:text-slate-300">{article.summary}</p>
+                </div>
+
+                <div className="mt-4 flex flex-wrap gap-2">
+                  {article.topics.map((topic) => (
+                    <span key={topic} className="rounded-full bg-slate-100 px-2 py-1 text-xs text-slate-500 dark:bg-white/10 dark:text-slate-200">
+                      {topic}
+                    </span>
+                  ))}
+                </div>
+
+                <div className="mt-auto flex items-center justify-between pt-6 text-sm text-slate-500 dark:text-slate-300">
+                  <div>
+                    <p>{new Date(article.publishedAt).toLocaleDateString('zh-CN')}</p>
+                    <p className="text-xs text-slate-400">
+                      {article.stats?.views ? `${article.stats.views} 次阅读` : ''}
+                      {article.stats?.likes ? ` · ${article.stats.likes} 赞` : ''}
+                      {article.stats?.comments ? ` · ${article.stats.comments} 评论` : ''}
+                    </p>
+                  </div>
+                  <ArrowUpRight className="h-4 w-4 text-slate-400 transition group-hover:text-slate-900 dark:group-hover:text-white" />
+                </div>
+              </article>
+            </Link>
+          )
+        })}
       </div>
     </div>
   )
 }
 
-export default BlogPageWithData 
+export default BlogPageWithData
