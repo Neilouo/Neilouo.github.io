@@ -6,146 +6,150 @@ description: '记录技术学习过程中的思考与实践'
 import { motion } from 'framer-motion'
 import BlogPageWithData from '../../components/BlogPageWithData'
 
-export const highlightStats = [
+export const stats = [
+  { label: '写作年限', value: '5 年', detail: '记录产品 / 工程 / 设计交叉点' },
+  { label: '更新节奏', value: 'Weekly', detail: '周末长文 + 临时闪念' },
+  { label: '读者反馈', value: '200+', detail: '邮件与 issue 中持续对话' },
+]
+
+export const guidingPrinciples = [
   {
-    label: '累计输出',
-    value: '50+',
-    detail: '技术洞察与实验记录',
+    title: '先回答 Why',
+    description: '每篇文章都从真实业务或个人困惑出发，再拆到技术实现。',
   },
   {
-    label: '平均阅读',
-    value: '6 min',
-    detail: '兼顾深度与可读性',
+    title: '把抽象落到手感',
+    description: '给出可以直接复制的流程、模板或者脚本，让灵感不止停留在概念层。',
   },
   {
-    label: '主题矩阵',
-    value: 'AI · Web · Infra',
-    detail: '跨栈复盘与实践',
-  },
-  {
-    label: '更新频率',
-    value: 'Weekly',
-    detail: '保持内容活力',
+    title: '留下迭代脚注',
+    description: '文章末尾会记下下一步验证计划，方便和读者一起继续推进。',
   },
 ]
 
-export const writingPillars = [
+export const currentThemes = [
   {
-    title: 'Systems Thinking',
-    description: '从架构、产品与工程角度拆解问题，沉淀可复用的设计策略。',
-    accent: 'from-sky-500/20 via-cyan-400/10 to-transparent',
-    icon: '🧭',
+    title: '对齐 AI 体验与交互细节',
+    tagline: 'Prompt、tRPC 服务与前端状态之间的拉扯。',
   },
   {
-    title: 'Hands-on Experiments',
-    description: '快速验证框架与工具链，通过对比实验输出可落地的最佳实践。',
-    accent: 'from-indigo-500/20 via-purple-500/10 to-transparent',
-    icon: '🧪',
+    title: '把设计系统用在真实交付',
+    tagline: '从 Figma token 到 React 组件，再到研发协作。',
   },
   {
-    title: 'Human-Centered UX',
-    description: '结合交互设计与可用性研究，让技术文章也具备优雅的阅读体验。',
-    accent: 'from-pink-500/20 via-rose-500/10 to-transparent',
-    icon: '✨',
+    title: '工程与产品双向治理',
+    tagline: 'CI/CD、成本、可观察性如何伴随产品迭代。',
   },
 ]
 
-<div className="relative w-full overflow-hidden bg-gradient-to-b from-slate-50 via-white to-slate-100 pb-24 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900">
+<div className="relative overflow-hidden bg-stone-50 pb-24 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
   <div className="pointer-events-none absolute inset-0">
-    <div className="absolute -top-24 right-0 h-96 w-96 rounded-full bg-sky-400/20 blur-3xl dark:bg-sky-500/15" />
-    <div className="absolute -bottom-32 left-10 h-80 w-80 rounded-full bg-indigo-400/15 blur-[120px] dark:bg-indigo-500/10" />
-    <div className="absolute top-40 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-pink-400/20 blur-3xl dark:bg-pink-500/15" />
+    <div className="absolute left-1/2 top-10 h-72 w-72 -translate-x-1/2 rounded-full bg-[radial-gradient(circle,_rgba(14,165,233,0.15),_transparent_70%)] dark:bg-[radial-gradient(circle,_rgba(56,189,248,0.08),_transparent_70%)]" />
+    <div className="absolute right-10 bottom-0 h-40 w-40 rounded-full bg-[radial-gradient(circle,_rgba(248,113,113,0.12),_transparent_70%)]" />
   </div>
 
   <motion.section
-    initial={{ opacity: 0, y: 40 }}
+    initial={{ opacity: 0, y: 30 }}
     animate={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.6, ease: 'easeOut' }}
-    className="relative mx-auto mt-20 max-w-6xl rounded-[48px] border border-white/10 bg-white/80 px-6 py-14 text-center shadow-[0_30px_120px_-60px_rgba(15,23,42,0.6)] backdrop-blur-2xl dark:border-white/5 dark:bg-slate-900/70"
+    transition={{ duration: 0.5, ease: 'easeOut' }}
+    className="relative mx-auto mt-16 max-w-5xl rounded-[32px] border border-white/70 bg-white/90 px-8 py-12 shadow-[0_30px_120px_-80px_rgba(15,23,42,0.8)] backdrop-blur-xl dark:border-white/5 dark:bg-slate-900/70"
   >
-    <p className="text-sm font-semibold uppercase tracking-[0.4em] text-sky-500">Blog Studio</p>
-    <h1 className="mt-6 text-4xl font-black text-slate-900 dark:text-white sm:text-5xl lg:text-6xl">
-      以系统化视角记录技术与设计的双线进化
-    </h1>
-    <p className="mx-auto mt-4 max-w-3xl text-base text-slate-600 dark:text-slate-300">
-      我将真实项目中的推导过程、踩坑记录与交互思考拆解成一篇篇文章，帮助读者迅速校准方向，搭建自己的知识支撑。
-    </p>
-
-    <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-      {highlightStats.map((stat) => (
-        <div
-          key={stat.label}
-          className="rounded-3xl border border-white/30 bg-white/70 px-5 py-6 text-left shadow-lg transition hover:-translate-y-1 hover:border-sky-300/60 dark:border-white/10 dark:bg-white/5"
-        >
-          <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">
-            {stat.label}
-          </p>
-          <p className="mt-4 text-3xl font-bold text-slate-900 dark:text-white">{stat.value}</p>
-          <p className="mt-2 text-sm text-slate-500 dark:text-slate-300">{stat.detail}</p>
-        </div>
-      ))}
-    </div>
-  </motion.section>
-
-  <motion.section
-    initial={{ opacity: 0, y: 40 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true, amount: 0.3 }}
-    transition={{ duration: 0.6, delay: 0.2 }}
-    className="relative mx-auto mt-16 max-w-6xl px-6"
-  >
-    <div className="rounded-[40px] border border-white/10 bg-gradient-to-r from-white/80 via-white/50 to-white/70 p-10 shadow-[0_20px_80px_-60px_rgba(15,23,42,0.8)] backdrop-blur-3xl dark:border-white/5 dark:from-slate-900/80 dark:via-slate-900/60 dark:to-slate-900/80">
-      <div className="flex flex-col gap-10 lg:flex-row lg:items-start">
-        <div className="lg:w-1/3">
-          <p className="text-sm font-semibold uppercase tracking-[0.4em] text-slate-500 dark:text-slate-400">
-            Writing Pillars
-          </p>
-          <h2 className="mt-4 text-3xl font-bold text-slate-900 dark:text-white">
-            文章骨架与内容策略
-          </h2>
-          <p className="mt-3 text-sm text-slate-500 dark:text-slate-300">
-            每篇文章都在「观点 → 证据 → 迁移」的叙事结构下，穿插交互草图、代码片段与复盘 checklist。
-          </p>
-        </div>
-        <div className="grid flex-1 gap-6 md:grid-cols-3">
-          {writingPillars.map((pillar) => (
-            <div
-              key={pillar.title}
-              className="group relative overflow-hidden rounded-3xl border border-white/20 bg-white/70 p-6 shadow-lg transition hover:-translate-y-1 hover:border-sky-400/60 dark:border-white/5 dark:bg-slate-900/70"
-            >
-              <div className={`pointer-events-none absolute inset-0 bg-gradient-to-br ${pillar.accent} opacity-60 transition duration-500 group-hover:opacity-100`} />
-              <div className="relative z-10">
-                <span className="text-3xl">{pillar.icon}</span>
-                <h3 className="mt-4 text-xl font-semibold text-slate-900 dark:text-white">{pillar.title}</h3>
-                <p className="mt-2 text-sm text-slate-600 dark:text-slate-200">{pillar.description}</p>
-              </div>
+    <div className="flex flex-col gap-8 lg:flex-row">
+      <div className="flex-1 space-y-6">
+        <p className="text-sm font-semibold uppercase tracking-[0.35em] text-slate-500 dark:text-slate-400">Notebook</p>
+        <h1 className="text-4xl font-black leading-tight text-slate-900 dark:text-white sm:text-5xl">
+          把技术与体验写成「可以复用的生活说明书」
+        </h1>
+        <p className="text-base text-slate-600 dark:text-slate-300">
+          这里不是新闻流，更像一份长久的工作手记：我会记录团队争论、实验失败、以及真正奏效的小技巧，希望读者能从中带走一个方法论或一个脚本。
+        </p>
+        <div className="grid gap-4 sm:grid-cols-3">
+          {stats.map((item) => (
+            <div key={item.label} className="rounded-2xl border border-slate-100 bg-stone-50/80 px-4 py-5 dark:border-white/10 dark:bg-white/5">
+              <p className="text-xs uppercase tracking-[0.25em] text-slate-500 dark:text-slate-400">{item.label}</p>
+              <p className="mt-3 text-2xl font-semibold text-slate-900 dark:text-white">{item.value}</p>
+              <p className="mt-1 text-xs text-slate-500 dark:text-slate-300">{item.detail}</p>
             </div>
           ))}
         </div>
       </div>
+      <div className="relative flex-1 rounded-3xl border border-slate-200 bg-[repeating-linear-gradient(120deg,_rgba(15,23,42,0.04),_rgba(15,23,42,0.04)_8px,_transparent_8px,_transparent_16px)] p-6 dark:border-white/10 dark:bg-slate-900/60">
+        <div className="absolute -top-4 left-8 h-8 w-8 rotate-6 rounded-full border border-slate-300 bg-white text-center text-xl leading-8 shadow-sm dark:border-white/20 dark:bg-slate-900">
+          ✍️
+        </div>
+        <blockquote className="relative mt-6 space-y-4 text-slate-700 dark:text-slate-200">
+          <p className="text-lg font-medium">
+            “写作是我整理产品决策、交互灵感与工程实现之间张力的方式。”
+          </p>
+          <p className="text-sm text-slate-500 dark:text-slate-400">—— Neilouo</p>
+        </blockquote>
+        <div className="mt-8 rounded-2xl border border-dashed border-slate-300/80 px-4 py-3 text-xs text-slate-500 dark:border-white/20 dark:text-slate-300">
+          最近在准备一套「AI 产品体验自检」表单，欢迎邮件交流。📮
+        </div>
+      </div>
     </div>
   </motion.section>
 
   <motion.section
-    initial={{ opacity: 0, y: 40 }}
+    initial={{ opacity: 0, y: 30 }}
     whileInView={{ opacity: 1, y: 0 }}
     viewport={{ once: true, amount: 0.2 }}
-    transition={{ duration: 0.6, delay: 0.2 }}
-    className="relative mx-auto mt-20 max-w-6xl px-6"
+    transition={{ duration: 0.5, delay: 0.1 }}
+    className="mx-auto mt-16 max-w-5xl px-6"
   >
-    <div className="rounded-[36px] border border-white/10 bg-white/85 p-8 shadow-[0_35px_120px_-60px_rgba(15,23,42,0.8)] backdrop-blur-2xl dark:border-white/5 dark:bg-slate-900/80">
-      <div className="flex flex-col gap-4 border-b border-white/30 pb-8 text-center dark:border-white/10">
-        <p className="text-sm font-semibold uppercase tracking-[0.4em] text-slate-500 dark:text-slate-400">
-          Latest Drops
-        </p>
-        <h2 className="text-3xl font-bold text-slate-900 dark:text-white">
-          精选文章 & 长文档案
-        </h2>
-        <p className="text-sm text-slate-500 dark:text-slate-300">
-          深入底层原理与产品决策，追踪从 idea 到 landing 的每一次跃迁。
-        </p>
+    <div className="rounded-[28px] border border-slate-200/60 bg-white/85 p-8 shadow-[0_35px_100px_-80px_rgba(15,23,42,0.8)] dark:border-white/10 dark:bg-slate-900/70">
+      <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">Writing Principles</p>
+      <div className="mt-6 grid gap-6 md:grid-cols-3">
+        {guidingPrinciples.map((principle) => (
+          <div key={principle.title} className="rounded-2xl border border-slate-100 bg-stone-50/70 p-5 leading-relaxed shadow-sm dark:border-white/10 dark:bg-white/5">
+            <h3 className="text-lg font-semibold text-slate-900 dark:text-white">{principle.title}</h3>
+            <p className="mt-3 text-sm text-slate-600 dark:text-slate-300">{principle.description}</p>
+          </div>
+        ))}
       </div>
-      <div className="mt-10">
+    </div>
+  </motion.section>
+
+  <motion.section
+    initial={{ opacity: 0, y: 30 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, amount: 0.2 }}
+    transition={{ duration: 0.5, delay: 0.15 }}
+    className="mx-auto mt-14 max-w-5xl px-6"
+  >
+    <div className="rounded-[28px] border border-slate-200/70 bg-white/90 p-8 shadow-[0_25px_80px_-70px_rgba(15,23,42,0.8)] dark:border-white/10 dark:bg-slate-900/70">
+      <div className="flex flex-col gap-4 border-b border-slate-100 pb-6 dark:border-white/10">
+        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">Current Themes</p>
+        <h2 className="text-3xl font-bold text-slate-900 dark:text-white">近期正在琢磨的三件事</h2>
+      </div>
+      <div className="mt-6 space-y-4">
+        {currentThemes.map((theme, index) => (
+          <div key={theme.title} className="flex gap-4 rounded-2xl border border-slate-100 bg-stone-50/70 px-5 py-4 text-sm dark:border-white/10 dark:bg-white/5">
+            <span className="text-lg font-semibold text-slate-400 dark:text-slate-500">{String(index + 1).padStart(2, '0')}</span>
+            <div>
+              <p className="text-base font-medium text-slate-900 dark:text-white">{theme.title}</p>
+              <p className="mt-1 text-slate-600 dark:text-slate-300">{theme.tagline}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </motion.section>
+
+  <motion.section
+    initial={{ opacity: 0, y: 30 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true, amount: 0.2 }}
+    transition={{ duration: 0.5, delay: 0.2 }}
+    className="mx-auto mt-16 max-w-5xl px-6"
+  >
+    <div className="rounded-[30px] border border-slate-200/70 bg-white/95 p-8 shadow-[0_40px_140px_-90px_rgba(15,23,42,0.9)] dark:border-white/10 dark:bg-slate-900/80">
+      <div className="flex flex-col gap-3 border-b border-slate-100 pb-6 text-center dark:border-white/10">
+        <p className="text-xs font-semibold uppercase tracking-[0.3em] text-slate-500 dark:text-slate-400">Latest Writing</p>
+        <h2 className="text-3xl font-bold text-slate-900 dark:text-white">把新鲜的实验日志贴给你</h2>
+        <p className="text-sm text-slate-600 dark:text-slate-300">跟踪我在产品迭代、交互实验与工程治理上的最新推演。</p>
+      </div>
+      <div className="mt-8">
         <BlogPageWithData />
       </div>
     </div>
