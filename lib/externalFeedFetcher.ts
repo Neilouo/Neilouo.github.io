@@ -43,7 +43,10 @@ const feedConfigs: FeedConfig[] = [
   }
 ]
 
-type CacheRecord = { data: ExternalArticle[]; expires: number }
+interface CacheRecord {
+  data: ExternalArticle[];
+  expires: number;
+}
 
 let cache: CacheRecord | null = null
 
@@ -127,7 +130,7 @@ export const fetchExternalArticlesWithCache = async (
   const maxAge = options.maxAgeMs ?? DEFAULT_CACHE_MS
   const now = Date.now()
 
-  if (cache && cache.expires > now) {
+  if (cache?.expires && cache.expires > now) {
     return cache.data
   }
 

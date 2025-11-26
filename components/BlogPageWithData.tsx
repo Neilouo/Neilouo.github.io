@@ -5,7 +5,7 @@ import {
   externalArticles as sampleArticles,
   sourceMeta,
   type ExternalArticle,
-  type ExternalSource,
+  type ExternalSource
 } from '../data/externalArticles'
 
 const BlogPageWithData: React.FC = () => {
@@ -143,10 +143,16 @@ const BlogPageWithData: React.FC = () => {
                   <div className="mt-auto flex items-center justify-between pt-6 text-sm text-slate-500 dark:text-slate-300">
                     <div>
                       <p>{new Date(article.publishedAt).toLocaleDateString('zh-CN')}</p>
-                      <p className="text-xs text-slate-400">
-                        {article.stats?.views ? `${article.stats.views} 次阅读` : ''}
-                        {article.stats?.likes ? ` · ${article.stats.likes}` : ''}
-                        {article.stats?.comments ? ` · ${article.stats.comments}` : ''}
+                      <p className=\"text-xs text-slate-400\">
+                        {article.stats?.views
+                          ? `${article.stats.views} 次阅读`
+                          : ''}
+                        {article.stats?.likes
+                          ? ` · ${article.stats.likes}`
+                          : ''}
+                        {article.stats?.comments
+                          ? ` · ${article.stats.comments}`
+                          : ''}
                       </p>
                     </div>
                     <ArrowUpRight className="h-4 w-4 text-slate-400 transition group-hover:text-slate-900 dark:group-hover:text-white" />
