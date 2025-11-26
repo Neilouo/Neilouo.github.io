@@ -50,6 +50,10 @@ interface CacheRecord {
 
 let cache: CacheRecord | null = null
 
+const isCacheFresh = (record: CacheRecord | null, timestamp: number): record is CacheRecord => {
+  return (record?.expires ?? 0) > timestamp
+}
+
 const rssItemRegex = /<item[\s\S]*?<\/item>/gi
 
 const decodeHtml = (input: string): string =>
@@ -130,8 +134,8 @@ export const fetchExternalArticlesWithCache = async (
   const maxAge = options.maxAgeMs ?? DEFAULT_CACHE_MS
   const now = Date.now()
 
-  if ((cache?.expires ?? 0) > now) {
-    return cache?.data ?? []
+  if (isCacheFresh(cache, now)) {
+    return cache.data
   }
 
   const results = await Promise.all(feedConfigs.map(fetchSource))
