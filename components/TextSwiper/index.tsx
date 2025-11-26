@@ -38,6 +38,11 @@ export function Stacks ({ stacks, direction }: { stacks: TechStacks[], direction
                   unmount: { scale: 0, y: 25 }
                 }}
                 className={'bg-gray-100 text-black dark:bg-gray-800 dark:text-white'}
+                placeholder={undefined}
+                onPointerEnterCapture={undefined}
+                onPointerLeaveCapture={undefined}
+                onResize={undefined}
+                onResizeCapture={undefined}
               >
                 <img src={stack.img} className={'w-20 h-20 mr-2 opacity-30 cursor-pointer hover:opacity-60 transition-all ease-in-out duration-700'} alt={stack.name} />
                 {/* <div className={'text-sm'}>{stack.name}</div> */}
