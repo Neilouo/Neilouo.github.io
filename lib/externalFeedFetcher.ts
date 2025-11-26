@@ -102,7 +102,7 @@ const parseRss = (xml: string, config: FeedConfig): ExternalArticle[] => {
 
 const resolveUrl = (config: FeedConfig): string | null => {
   const envUrl = process.env[config.envKey]
-  if (envUrl && envUrl.startsWith('http')) {
+  if (envUrl?.startsWith('http')) {
     return envUrl
   }
   if (!config.defaultUrl.includes('<your-id>')) {

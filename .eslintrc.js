@@ -4,6 +4,7 @@ module.exports = {
     es2021: true
   },
   extends: [
+    'next/core-web-vitals',
     'plugin:react/recommended',
     'standard-with-typescript'
   ],
@@ -47,6 +48,9 @@ module.exports = {
     '@typescript-eslint/indent': 'off'
   },
   settings: {
+    react: {
+      version: 'detect'
+    },
     'mdx/code-blocks': false,
     'mdx/language-mapper': {}
   }
