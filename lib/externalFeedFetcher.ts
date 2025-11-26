@@ -130,8 +130,8 @@ export const fetchExternalArticlesWithCache = async (
   const maxAge = options.maxAgeMs ?? DEFAULT_CACHE_MS
   const now = Date.now()
 
-  if (cache?.expires != null && cache.expires > now) {
-    return cache.data
+  if ((cache?.expires ?? 0) > now) {
+    return cache?.data ?? []
   }
 
   const results = await Promise.all(feedConfigs.map(fetchSource))
