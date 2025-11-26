@@ -9,15 +9,20 @@ interface HeroStat {
   description?: string
 }
 
+interface ActionLink {
+  label: string
+  href: string
+}
+
 interface NoteHeroProps {
   title: string
   subtitle: string
   description: string
   badges: string[]
   stats: HeroStat[]
-  primaryAction: { label: string; href: string }
-  secondaryAction: { label: string; href: string }
-  tertiaryAction?: { label: string; href: string }
+  primaryAction: ActionLink
+  secondaryAction: ActionLink
+  tertiaryAction?: ActionLink
 }
 
 const containerVariants = {

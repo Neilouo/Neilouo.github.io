@@ -33,6 +33,7 @@ module.exports = {
     '@typescript-eslint/prefer-ts-expect-error': 'off',
     'react/no-children-prop': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
+    'react/react-in-jsx-scope': 'off',
     'semi': ['error', 'never'],
     'space-before-function-paren': 'off',
     '@typescript-eslint/space-before-function-paren': 'off',
@@ -45,7 +46,8 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'off',
     '@typescript-eslint/consistent-type-imports': 'off',
     '@typescript-eslint/no-unnecessary-boolean-literal-compare': 'off',
-    '@typescript-eslint/indent': 'off'
+    '@typescript-eslint/indent': 'off',
+    '@next/next/no-img-element': 'off'
   },
   settings: {
     react: {

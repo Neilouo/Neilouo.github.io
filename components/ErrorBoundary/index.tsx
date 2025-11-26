@@ -1,5 +1,6 @@
 'use client'
 
+/* eslint-disable @typescript-eslint/promise-function-async */
 import React, { Component, ReactNode } from 'react'
 
 interface Props {
@@ -21,7 +22,8 @@ class ErrorBoundary extends Component<Props, State> {
     return { hasError: true, error }
   }
 
-  componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
+  // eslint-disable-next-line @typescript-eslint/promise-function-async
+  componentDidCatch(error: Error, errorInfo: React.ErrorInfo): void {
     console.error('ErrorBoundary caught an error:', error, errorInfo)
     
     // 在生产环境中记录更多细节

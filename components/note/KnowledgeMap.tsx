@@ -10,7 +10,7 @@ interface StatChip {
 }
 
 interface KnowledgeMapProps {
-  json: string
+  json: Record<string, unknown>
   stats: StatChip[]
 }
 

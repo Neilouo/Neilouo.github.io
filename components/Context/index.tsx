@@ -7,7 +7,7 @@ import React, { useState, useEffect } from 'react'
 import Link from 'next/link'
 
 export default function Context ({ json, title }: {
-  json: string
+  json: Record<string, unknown>
   title: string
 }): JSX.Element {
   const [isClient, setIsClient] = useState(false)

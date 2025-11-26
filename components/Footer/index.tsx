@@ -31,7 +31,7 @@ export default function Footer (): JSX.Element {
         <div className="max-w-screen-xl px-4 pt-8 mx-auto sm:px-6 lg:px-8">
           <div className="sm:flex sm:items-center sm:justify-between">
             <div className="flex justify-center text-teal-300 sm:justify-start">
-              <img className="rounded-full" src="https://sahilnetic.xyz/evilcat.png" width="40" height="40"/>
+              <img className="rounded-full" src="https://sahilnetic.xyz/evilcat.png" width="40" height="40" alt="Sahilnetic mascot" />
             </div>
 
             <p className="mt-4 text-sm text-center text-gray-400 lg:text-right lg:mt-0">

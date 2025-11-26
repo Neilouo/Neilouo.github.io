@@ -81,9 +81,9 @@ export default async function handler(
     })
 
     if (!response.ok) {
-      const errorText = await response.text()
+      const errorText: string = await response.text()
       console.error('GitHub API Error Details:', errorText)
-      throw new Error(`GitHub API error: ${response.status} - ${errorText}`)
+      throw new Error(`GitHub API error: ${String(response.status)} - ${errorText}`)
     }
 
     const repos: GitHubRepo[] = await response.json()

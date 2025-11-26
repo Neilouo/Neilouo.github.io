@@ -230,7 +230,7 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
     }
 
     void fetchRepos()
-  }, [])
+  }, [onLoaded])
 
   if (loading) {
     return (

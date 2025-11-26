@@ -39,6 +39,7 @@
     "cobe": "^0.6.3",
     "dns": "^0.2.2",
     "dotenv": "^16.4.7",
+    "eslint-config-next": "^13.2.4",
     "file-loader": "^6.2.0",
     "framer-motion": "^10.10.0",
     "fs": "0.0.1-security",
@@ -52,9 +53,9 @@
     "next-mdx-remote": "^4.4.1",
     "next-sanity": "^4.1.6",
     "nextra": "^2.13.2",
-    "nextra-theme-docs": "latest",
+    "nextra-theme-docs": "^2.13.2",
     "p5": "^1.9.0",
-    "pdfjs-dist": "2.6.347",
+    "pdfjs-dist": "^3.11.174",
     "prismjs": "^1.29.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -93,6 +94,6 @@
     "eslint-plugin-react": "^7.32.2",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.3.1",
-    "typescript": "^4.9.5"
+    "typescript": "^5.4.5"
   }
 }
