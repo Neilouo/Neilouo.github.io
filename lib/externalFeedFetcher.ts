@@ -44,8 +44,8 @@ const feedConfigs: FeedConfig[] = [
 ]
 
 interface CacheRecord {
-  data: ExternalArticle[];
-  expires: number;
+  data: ExternalArticle[],
+  expires: number
 }
 
 let cache: CacheRecord | null = null
@@ -91,7 +91,7 @@ const parseRss = (xml: string, config: FeedConfig): ExternalArticle[] => {
       url: link || config.defaultUrl,
       source: config.id,
       publishedAt,
-      topics: config.topics,
+      topics: config.topics
     }
   })
 }
@@ -130,7 +130,7 @@ export const fetchExternalArticlesWithCache = async (
   const maxAge = options.maxAgeMs ?? DEFAULT_CACHE_MS
   const now = Date.now()
 
-  if (cache?.expires && cache.expires > now) {
+  if (cache && cache.expires > now) {
     return cache.data
   }
 

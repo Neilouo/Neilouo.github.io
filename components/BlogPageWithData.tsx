@@ -105,11 +105,13 @@ const BlogPageWithData: React.FC = () => {
         </div>
       </div>
 
-      {loading ? (
+      {loading
+        ? (
         <div className="flex min-h-[220px] items-center justify-center rounded-3xl border border-white/60 bg-white/70 text-sm text-slate-500 shadow-inner dark:border-white/10 dark:bg-slate-900/60 dark:text-slate-300">
           正在同步你的外部文章…
         </div>
-      ) : (
+          )
+        : (
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
           {filteredArticles.map((article) => {
             const meta = sourceMeta[article.source]
