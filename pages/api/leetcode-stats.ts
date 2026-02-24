@@ -17,7 +17,10 @@ const QUERY = `query ($username: String!) {
   }
 }`
 
-interface CacheRecord { data: any; expires: number }
+interface CacheRecord {
+  data: unknown
+  expires: number
+}
 let cache: CacheRecord | null = null
 const CACHE_MS = 1000 * 60 * 30
 
@@ -43,7 +46,9 @@ export default async function handler(_req: NextApiRequest, res: NextApiResponse
 
     const acMap: Record<string, number> = {}
     const totalMap: Record<string, number> = {}
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     user.submitStats.acSubmissionNum.forEach((s: any) => { acMap[s.difficulty] = s.count })
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     user.submitStats.totalSubmissionNum.forEach((s: any) => { totalMap[s.difficulty] = s.count })
 
     const result = {
@@ -52,23 +57,25 @@ export default async function handler(_req: NextApiRequest, res: NextApiResponse
       avatar: user.profile.userAvatar,
       ranking: user.profile.ranking,
       solved: {
-        total: acMap['All'] || 0,
-        easy: acMap['Easy'] || 0,
-        medium: acMap['Medium'] || 0,
-        hard: acMap['Hard'] || 0
+        total: acMap.All ?? 0,
+        easy: acMap.Easy ?? 0,
+        medium: acMap.Medium ?? 0,
+        hard: acMap.Hard ?? 0
       },
       submissions: {
-        total: totalMap['All'] || 0,
-        easy: totalMap['Easy'] || 0,
-        medium: totalMap['Medium'] || 0,
-        hard: totalMap['Hard'] || 0
+        total: totalMap.All ?? 0,
+        easy: totalMap.Easy ?? 0,
+        medium: totalMap.Medium ?? 0,
+        hard: totalMap.Hard ?? 0
       },
-      contest: contest ? {
-        rating: Math.round(contest.rating),
-        globalRanking: contest.globalRanking,
-        attended: contest.attendedContestsCount,
-        totalParticipants: contest.totalParticipants
-      } : null
+      contest: contest != null
+        ? {
+            rating: Math.round(contest.rating),
+            globalRanking: contest.globalRanking,
+            attended: contest.attendedContestsCount,
+            totalParticipants: contest.totalParticipants
+          }
+        : null
     }
 
     cache = { data: result, expires: now + CACHE_MS }

@@ -66,7 +66,11 @@ const fetchJuejinArticles = async (): Promise<ExternalArticle[]> => {
     })
     if (!response.ok) throw new Error(`Juejin API error: ${response.status}`)
 
-    const json = await response.json() as { err_no: number; data: Array<{ article_info: JuejinArticleInfo; tags?: Array<{ tag_name: string }> }> }
+    interface JuejinResponse {
+      err_no: number
+      data: Array<{ article_info: JuejinArticleInfo, tags?: Array<{ tag_name: string }> }>
+    }
+    const json = await response.json() as JuejinResponse
     if (json.err_no !== 0 || !json.data) return []
 
     return json.data.map((item) => {
@@ -251,7 +255,7 @@ const fetchNotionArticles = async (): Promise<ExternalArticle[]> => {
         const topics = getNotionMultiSelectProp(page, ['Tags', 'tags', 'Topics', 'topics', '标签', '分类'])
 
         return {
-          id: `notion-${page.id}`,
+          id: `notion-${String(page.id)}`,
           title: title || 'Notion Page',
           summary: summary || '来自 Notion 的文章',
           url: url || page.url,

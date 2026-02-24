@@ -5,11 +5,23 @@ import { Award, ExternalLink, Trophy, Medal, Code2, Star, Hash } from 'lucide-re
 
 /* ── LeetCode types ────────────────────────────────────── */
 
+interface LeetCodeSolved {
+  total: number
+  easy: number
+  medium: number
+  hard: number
+}
+
+interface LeetCodeContest {
+  rating: number
+  attended: number
+}
+
 interface LeetCodeStats {
   username: string
-  solved: { total: number; easy: number; medium: number; hard: number }
+  solved: LeetCodeSolved
   submissions: { total: number }
-  contest: { rating: number; attended: number } | null
+  contest: LeetCodeContest | null
 }
 
 /* ── Ring progress (SVG) ───────────────────────────────── */
@@ -43,9 +55,14 @@ function SolvedRing({ solved }: { solved: LeetCodeStats['solved'] }) {
 
 /* ── Difficulty bar ────────────────────────────────────── */
 
-function DifficultyBar({ label, count, total, color }: {
-  label: string; count: number; total: number; color: string
-}) {
+interface DifficultyBarProps {
+  label: string
+  count: number
+  total: number
+  color: string
+}
+
+function DifficultyBar({ label, count, total, color }: DifficultyBarProps) {
   const pct = total > 0 ? (count / total) * 100 : 0
   return (
     <div className="flex items-center gap-3">
@@ -66,16 +83,23 @@ function LeetCodeCard() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('/api/leetcode-stats')
-      .then(r => r.json())
-      .then(d => setStats(d))
-      .catch(() => setStats({
-        username: 'NanSang2000',
-        solved: { total: 15, easy: 9, medium: 6, hard: 0 },
-        submissions: { total: 16 },
-        contest: null
-      }))
-      .finally(() => setLoading(false))
+    const load = async (): Promise<void> => {
+      try {
+        const r = await fetch('/api/leetcode-stats')
+        const d = await r.json() as LeetCodeStats
+        setStats(d)
+      } catch {
+        setStats({
+          username: 'NanSang2000',
+          solved: { total: 15, easy: 9, medium: 6, hard: 0 },
+          submissions: { total: 16 },
+          contest: null
+        })
+      } finally {
+        setLoading(false)
+      }
+    }
+    void load()
   }, [])
 
   if (loading || !stats) {

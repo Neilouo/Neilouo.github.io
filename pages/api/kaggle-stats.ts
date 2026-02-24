@@ -3,7 +3,10 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 const KAGGLE_USERNAME = process.env.KAGGLE_USERNAME || ''
 const KAGGLE_KEY = process.env.KAGGLE_KEY || ''
 
-interface CacheRecord { data: unknown; expires: number }
+interface CacheRecord {
+  data: unknown
+  expires: number
+}
 let cache: CacheRecord | null = null
 
 const fallbackData = {
@@ -18,6 +21,7 @@ const fallbackData = {
   configured: false
 }
 
+// eslint-disable-next-line @typescript-eslint/require-await
 export default async function handler(_req: NextApiRequest, res: NextApiResponse) {
   if (!KAGGLE_USERNAME || !KAGGLE_KEY) {
     return res.status(200).json(fallbackData)
@@ -29,9 +33,9 @@ export default async function handler(_req: NextApiRequest, res: NextApiResponse
   }
 
   try {
-    const authHeader = 'Basic ' + Buffer.from(`${KAGGLE_USERNAME}:${KAGGLE_KEY}`).toString('base64')
+    const authHeader = `Basic ${Buffer.from(`${KAGGLE_USERNAME}:${KAGGLE_KEY}`).toString('base64')}`
     const [profileRes, datasetsRes, kernelsRes] = await Promise.all([
-      fetch(`https://www.kaggle.com/api/v1/competitions/list?page=1&pageSize=1`, {
+      fetch('https://www.kaggle.com/api/v1/competitions/list?page=1&pageSize=1', {
         headers: { Authorization: authHeader }
       }),
       fetch(`https://www.kaggle.com/api/v1/datasets/list?user=${KAGGLE_USERNAME}&pageSize=100`, {

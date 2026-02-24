@@ -14,10 +14,14 @@ const GitHubStatsCard: React.FC = () => {
   const { lang } = useI18n()
 
   useEffect(() => {
-    fetch('/api/github-stats')
-      .then(r => r.json())
-      .then(setStats)
-      .catch(() => {})
+    const load = async (): Promise<void> => {
+      try {
+        const r = await fetch('/api/github-stats')
+        const d = await r.json() as GitHubStats
+        setStats(d)
+      } catch {}
+    }
+    void load()
   }, [])
 
   if (!stats) {
