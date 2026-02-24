@@ -1,18 +1,10 @@
-name: Deploy Next.js site to Pages
+name: CI Check
 
 on:
   push:
     branches: ["main"]
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  pull_request:
+    branches: ["main"]
 
 jobs:
   build:
@@ -29,55 +21,27 @@ jobs:
       - name: Install pnpm
         run: npm install -g pnpm
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-        with:
-          static_site_generator: next
-
       - name: Restore cache
         uses: actions/cache@v4
         with:
           path: |
             ~/.pnpm-store
             .next/cache
-          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ${{ runner.os }}-pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}-
+            ${{ runner.os }}-pnpm-
 
       - name: Install dependencies
         run: pnpm install --no-frozen-lockfile
 
-      - name: Add react-pdf
-        #run: pnpm add react-pdf@9.1.0
-        run: pnpm add pdfjs-dist@2.6.347 
-      
-      - name: Add PDF  
-        run: pnpm add @react-pdf-viewer/core @react-pdf-viewer/default-layout
+      - name: Type check
+        run: pnpm exec tsc --noEmit || true
 
-      - name: Build with Next.js
+      - name: Build check
         env:
           NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
           NEXT_PUBLIC_SUPABASE_KEY: ${{ secrets.NEXT_PUBLIC_SUPABASE_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "Checking environment variables..."
-          echo "SUPABASE_URL is set: $([[ -n "$NEXT_PUBLIC_SUPABASE_URL" ]] && echo "✅ YES" || echo "❌ NO")"
-          echo "SUPABASE_KEY is set: $([[ -n "$NEXT_PUBLIC_SUPABASE_KEY" ]] && echo "✅ YES" || echo "❌ NO")"
-          echo "GITHUB_TOKEN is set: $([[ -n "$GITHUB_TOKEN" ]] && echo "✅ YES" || echo "❌ NO")"      
-          pnpm run build
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .next
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: pnpm run build

@@ -4,4 +4,24 @@ const withNextra = require('nextra')({
   defaultShowCopyCode: true
 })
 
-module.exports = withNextra()
+module.exports = withNextra({
+  async redirects () {
+    return [
+      {
+        source: '/WorkExperience',
+        destination: '/about',
+        permanent: true
+      },
+      {
+        source: '/CurriculumVitae',
+        destination: '/about',
+        permanent: true
+      },
+      {
+        source: '/Research',
+        destination: '/blog',
+        permanent: true
+      }
+    ]
+  }
+})

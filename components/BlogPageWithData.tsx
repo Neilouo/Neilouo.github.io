@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
-import { ArrowUpRight, Filter } from 'lucide-react'
+import { ArrowUpRight, Filter, Clock, Flame } from 'lucide-react'
 import {
   externalArticles as sampleArticles,
   sourceMeta,
@@ -8,8 +8,19 @@ import {
   type ExternalSource
 } from '../data/externalArticles'
 
+type SortMode = 'latest' | 'popular'
+
+const parseViewCount = (views?: string): number => {
+  if (!views) return 0
+  const cleaned = views.replace(/,/g, '').trim().toLowerCase()
+  if (cleaned.endsWith('k')) return parseFloat(cleaned) * 1000
+  if (cleaned.endsWith('w') || cleaned.endsWith('万')) return parseFloat(cleaned) * 10000
+  return parseFloat(cleaned) || 0
+}
+
 const BlogPageWithData: React.FC = () => {
   const [activeSource, setActiveSource] = useState<ExternalSource | 'all'>('all')
+  const [sortMode, setSortMode] = useState<SortMode>('latest')
   const [articles, setArticles] = useState<ExternalArticle[]>(sampleArticles)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -45,22 +56,29 @@ const BlogPageWithData: React.FC = () => {
     return () => controller.abort()
   }, [])
 
-  const filteredArticles = useMemo(() => {
-    const sorted = [...articles].sort(
-      (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-    )
-    return activeSource === 'all'
-      ? sorted
-      : sorted.filter((article) => article.source === activeSource)
-  }, [activeSource, articles])
-
   const availableSources = useMemo(() => {
-    const counts = filteredArticles.reduce<Record<ExternalSource, number>>((acc, item) => {
+    return articles.reduce<Record<ExternalSource, number>>((acc, item) => {
       acc[item.source] = (acc[item.source] ?? 0) + 1
       return acc
-    }, { csdn: 0, juejin: 0, cnblogs: 0, stackoverflow: 0 })
-    return counts
-  }, [filteredArticles])
+    }, { csdn: 0, juejin: 0, cnblogs: 0, stackoverflow: 0, notion: 0 })
+  }, [articles])
+
+  const filteredArticles = useMemo(() => {
+    const filtered = activeSource === 'all'
+      ? [...articles]
+      : articles.filter((article) => article.source === activeSource)
+
+    if (sortMode === 'popular') {
+      return filtered.sort((a, b) => {
+        const scoreA = parseViewCount(a.stats?.views) + parseViewCount(a.stats?.likes) * 10
+        const scoreB = parseViewCount(b.stats?.views) + parseViewCount(b.stats?.likes) * 10
+        return scoreB - scoreA
+      })
+    }
+    return filtered.sort(
+      (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+    )
+  }, [activeSource, articles, sortMode])
 
   return (
     <div className="space-y-6">
@@ -70,38 +88,62 @@ const BlogPageWithData: React.FC = () => {
             External Feed
           </p>
           <h3 className="text-left text-2xl font-semibold text-slate-900 dark:text-white">
-            来自 CSDN / 掘金 / 博客园 / Stack Overflow 的最新写作
+            来自各平台的最新写作
           </h3>
           {error && <p className="mt-2 text-xs text-amber-500">{error}</p>}
         </div>
-        <div className="flex flex-wrap items-center gap-2 text-sm">
-          <span className="inline-flex items-center rounded-full border border-slate-200/70 px-3 py-1 text-slate-500 dark:border-white/10 dark:text-slate-300">
-            <Filter className="mr-1 h-3.5 w-3.5" />筛选来源
-          </span>
-          <button
-            onClick={() => setActiveSource('all')}
-            className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] transition ${
-              activeSource === 'all'
-                ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900'
-                : 'bg-white/60 text-slate-500 hover:bg-slate-100 dark:bg-white/5 dark:text-slate-300'
-            }`}
-          >
-            全部
-          </button>
-          {(Object.keys(sourceMeta) as ExternalSource[]).map((source) => (
+        <div className="flex flex-col items-end gap-2">
+          <div className="flex flex-wrap items-center gap-2 text-sm">
+            <span className="inline-flex items-center rounded-full border border-slate-200/70 px-3 py-1 text-slate-500 dark:border-white/10 dark:text-slate-300">
+              <Filter className="mr-1 h-3.5 w-3.5" />筛选来源
+            </span>
             <button
-              key={source}
-              onClick={() => setActiveSource(source)}
-              disabled={!availableSources[source]}
+              onClick={() => setActiveSource('all')}
               className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] transition ${
-                activeSource === source
-                  ? `${sourceMeta[source].accent} shadow`
-                  : `${sourceMeta[source].text} opacity-70 hover:opacity-100`
-              } ${!availableSources[source] ? 'opacity-40 cursor-not-allowed' : ''}`}
+                activeSource === 'all'
+                  ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900'
+                  : 'bg-white/60 text-slate-500 hover:bg-slate-100 dark:bg-white/5 dark:text-slate-300'
+              }`}
             >
-              {sourceMeta[source].name}
+              全部
             </button>
-          ))}
+            {(Object.keys(sourceMeta) as ExternalSource[]).map((source) => (
+              <button
+                key={source}
+                onClick={() => setActiveSource(source)}
+                disabled={!availableSources[source]}
+                className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] transition ${
+                  activeSource === source
+                    ? `${sourceMeta[source].accent} shadow`
+                    : `${sourceMeta[source].text} opacity-70 hover:opacity-100`
+                } ${!availableSources[source] ? 'opacity-40 cursor-not-allowed' : ''}`}
+              >
+                {sourceMeta[source].name}
+              </button>
+            ))}
+          </div>
+          <div className="flex items-center gap-1.5">
+            <button
+              onClick={() => setSortMode('latest')}
+              className={`inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium transition ${
+                sortMode === 'latest'
+                  ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900'
+                  : 'bg-white/60 text-slate-500 hover:bg-slate-100 dark:bg-white/5 dark:text-slate-300'
+              }`}
+            >
+              <Clock className="h-3 w-3" />最新
+            </button>
+            <button
+              onClick={() => setSortMode('popular')}
+              className={`inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium transition ${
+                sortMode === 'popular'
+                  ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900'
+                  : 'bg-white/60 text-slate-500 hover:bg-slate-100 dark:bg-white/5 dark:text-slate-300'
+              }`}
+            >
+              <Flame className="h-3 w-3" />热度
+            </button>
+          </div>
         </div>
       </div>
 

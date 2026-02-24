@@ -1,4 +1,4 @@
-export type ExternalSource = 'csdn' | 'juejin' | 'cnblogs' | 'stackoverflow'
+export type ExternalSource = 'csdn' | 'juejin' | 'cnblogs' | 'stackoverflow' | 'notion'
 
 export interface ExternalArticle {
   id: string
@@ -39,68 +39,74 @@ export const sourceMeta: Record<ExternalSource, { name: string; logo: string; ac
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/stackoverflow.svg',
     accent: 'bg-orange-50 text-orange-600 dark:bg-orange-500/10 dark:text-orange-200',
     text: 'bg-orange-100 text-orange-600 dark:bg-orange-500/20 dark:text-orange-100'
+  },
+  notion: {
+    name: 'Notion',
+    logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/notion.svg',
+    accent: 'bg-neutral-50 text-neutral-700 dark:bg-neutral-500/10 dark:text-neutral-200',
+    text: 'bg-neutral-100 text-neutral-700 dark:bg-neutral-500/20 dark:text-neutral-100'
   }
 }
 
 export const externalArticles: ExternalArticle[] = [
   {
-    id: 'csdn-trpc-ai-coordinator',
-    title: 'tRPC + LLM：构建一个自解释的产品联调中台',
-    summary: '记录了我在 CSDN 上分享的联调平台案例：如何在 Go tRPC 服务里托管 prompt 工作流，并让产品与工程同时调试。',
-    url: 'https://blog.csdn.net/Neilouo/article/details/143923801',
+    id: 'csdn-nvidia-rag',
+    title: 'NVIDIA AI-AGENT夏季训练营 — 墨尔本大学RAG智能对话机器人',
+    summary: '基于RAG技术，利用墨尔本大学数据资源构建智能对话机器人，提供学术咨询、课程推荐及校园信息查询服务。',
+    url: 'https://blog.csdn.net/Breatsam/article/details/141304078',
     source: 'csdn',
-    publishedAt: '2024-11-18',
-    topics: ['tRPC', 'LLM Orchestration', 'Go'],
-    stats: { views: '3.2k', likes: '128' }
+    publishedAt: '2024-08-18',
+    topics: ['RAG', 'NVIDIA', 'AI Agent'],
+    stats: { views: '500', likes: '4' }
   },
   {
-    id: 'juejin-deck-gl',
-    title: '用 deck.gl 做交互地图：设计系统与前端工程的平衡',
-    summary: '这篇掘金文章拆解了我在可视化项目中如何拆分设计 token、React 组件与工程脚手架。',
-    url: 'https://juejin.cn/post/742134987654321',
-    source: 'juejin',
-    publishedAt: '2024-10-08',
-    topics: ['前端可视化', 'Design System', 'React'],
-    stats: { views: '5.1k', likes: '236' }
-  },
-  {
-    id: 'cnblogs-blue-green',
-    title: '蓝绿发布与数据库变更：真实项目中的 checklist',
-    summary: '记录了我在博客园的复盘：如何在蓝绿发布时处理数据库变更与回滚脚本，以及团队配合要点。',
-    url: 'https://www.cnblogs.com/neilouo/p/blue-green-checklist.html',
-    source: 'cnblogs',
-    publishedAt: '2024-08-22',
-    topics: ['DevOps', '数据库', '发布策略'],
-    stats: { views: '1.8k', likes: '64', comments: '12' }
-  },
-  {
-    id: 'stackoverflow-answer-observable',
-    title: '回答：如何在 Next.js 中封装可观察的数据服务',
-    summary: '我在 Stack Overflow 上的一个长答案，示例展示了如何把可观察对象封进自定义 hook 并消除内存泄漏。',
-    url: 'https://stackoverflow.com/a/789654321/15012345',
-    source: 'stackoverflow',
-    publishedAt: '2024-07-11',
-    topics: ['Next.js', 'RxJS', 'Hook 设计'],
-    stats: { likes: '62 票', comments: '5' }
-  },
-  {
-    id: 'juejin-workflow-ai',
-    title: 'Workflow AI：把产品需求拆成可执行的 Prompt Module',
-    summary: '分享我在掘金的 AI 产品实验：如何用 Prompt Module + Supabase 记录需求演进。',
-    url: 'https://juejin.cn/post/741223445566778',
-    source: 'juejin',
-    publishedAt: '2024-05-30',
-    topics: ['Prompt Engineering', 'Supabase', '产品方法'],
-    stats: { views: '4.4k', likes: '189' }
-  },
-  {
-    id: 'csdn-front-guard',
-    title: '前端守护进程：用 Bun 写一个资源巡检 Worker',
-    summary: '结合 Bun + Cloudflare Workers 做资源巡检的实践，帮助团队第一时间感知静态资源异常。',
-    url: 'https://blog.csdn.net/Neilouo/article/details/142555210',
+    id: 'csdn-deepfake-detection',
+    title: 'The Global Multimedia Deepfake Detection',
+    summary: '全球多媒体深度伪造检测竞赛参赛心得与技术分析。',
+    url: 'https://blog.csdn.net/Breatsam/article/details/140484480',
     source: 'csdn',
-    publishedAt: '2024-03-18',
-    topics: ['Bun', 'Cloudflare', '监控'],
-    stats: { views: '2.7k', likes: '94' }
+    publishedAt: '2024-07-17',
+    topics: ['Deepfake', 'Computer Vision', 'AI'],
+    stats: { views: '190', likes: '3' }
+  },
+  {
+    id: 'csdn-nvidia-hackathon',
+    title: '第十届NVIDIA Sky Hackathon比赛心得',
+    summary: '深入了解RAG技术和NVIDIA SDK，掌握搭建对话机器人核心技能，包括Triton、TensorRT等工具链的应用。',
+    url: 'https://blog.csdn.net/Breatsam/article/details/140450660',
+    source: 'csdn',
+    publishedAt: '2024-07-15',
+    topics: ['NVIDIA', 'RAG', 'Hackathon'],
+    stats: { views: '1.1k', likes: '21' }
+  },
+  {
+    id: 'csdn-internlm-02',
+    title: '书生·浦语大模型全链路开源体系 大模型实战营02',
+    summary: '浦语·灵笔视觉-语言大模型实战，结合Lagent智能体框架，实现图文理解与创作。',
+    url: 'https://blog.csdn.net/Breatsam/article/details/136199159',
+    source: 'csdn',
+    publishedAt: '2024-02-20',
+    topics: ['LLM', 'InternLM', 'AI Agent'],
+    stats: { views: '270', likes: '2' }
+  },
+  {
+    id: 'csdn-internlm-01',
+    title: '书生·浦语大模型全链路开源体系 大模型实战营01',
+    summary: '大语言模型基础入门与书生·浦语开源体系概览。',
+    url: 'https://blog.csdn.net/Breatsam/article/details/136190101',
+    source: 'csdn',
+    publishedAt: '2024-02-20',
+    topics: ['LLM', 'InternLM', '开源'],
+    stats: { views: '318', likes: '1' }
+  },
+  {
+    id: 'csdn-vmware-mirror',
+    title: 'VMware 国内镜像站',
+    summary: '国内VMware镜像下载站点分享，方便国内用户快速获取VMware安装包。',
+    url: 'https://blog.csdn.net/Breatsam/article/details/121315601',
+    source: 'csdn',
+    publishedAt: '2021-11-13',
+    topics: ['VMware', '工具', '镜像'],
+    stats: { views: '12.7k', likes: '15' }
   }
 ]

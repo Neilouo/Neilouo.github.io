@@ -1,67 +1,111 @@
 'use client'
 
-import NoteHero from './NoteHero'
-import QuickFilters from './QuickFilters'
-import KnowledgeMap from './KnowledgeMap'
-import LearningJourney from './LearningJourney'
-import Highlights from './Highlights'
-import UtilityDeck from './UtilityDeck'
-import { noteFilters, noteJourney, noteHighlights, noteUtilities } from '../../data/noteContent'
+import Link from 'next/link'
+import { noteFilters, noteHighlights } from '../../data/noteContent'
+import { ArrowRight } from 'lucide-react'
+import { useI18n } from '../I18nProvider'
 
 const totalNotes = noteFilters.reduce((acc, item) => acc + item.count, 0)
-
-const heroStats = [
-  { label: '笔记条目', value: `${totalNotes}+`, description: '累积整理的知识密度' },
-  { label: '年度更新', value: '48', description: '2025 已发布篇章' },
-  { label: '专题轨道', value: `${noteFilters.length}`, description: '持续维护的主线' }
-]
-
-const knowledgeStatsStatic = [
-  { label: '精选入口', value: `${noteFilters.length}`, hint: 'Quick Tracks' },
-  { label: '学习阶段', value: `${noteJourney.length}`, hint: 'Journey 里程碑' }
-]
 
 interface NoteLandingProps {
   contextJson: Record<string, unknown>
 }
 
 export default function NoteLanding ({ contextJson }: NoteLandingProps): JSX.Element {
-  const areaCount = Object.values(contextJson).filter((value) => typeof value === 'string').length
-  const knowledgeStats = [
-    { label: '领域', value: `${areaCount}`, hint: '顶层分类' },
-    ...knowledgeStatsStatic
-  ]
-
+  const { t } = useI18n()
   return (
-    <div className="relative min-h-screen w-full overflow-hidden bg-gradient-to-b from-slate-950 via-slate-950 to-slate-900 text-white">
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-0 left-1/3 h-80 w-80 rounded-full bg-violet-500/20 blur-3xl" />
-        <div className="absolute -bottom-10 right-10 h-96 w-96 rounded-full bg-cyan-500/20 blur-3xl" />
-        <div className="absolute top-1/2 left-10 h-72 w-72 rounded-full bg-amber-400/10 blur-3xl" />
-      </div>
+    <div className="max-w-5xl mx-auto px-4 pt-12 pb-24">
+      <header className="mb-12">
+        <h1 className="text-3xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
+          {t('notes')}
+        </h1>
+        <p className="mt-2 text-warm-600 dark:text-warm-300">
+          {t('note_subtitle_prefix')}{totalNotes}{t('note_subtitle_suffix')}
+        </p>
+      </header>
 
-      <div className="relative z-10 mx-auto flex max-w-6xl flex-col gap-16 px-4 pb-24 pt-16">
-        <NoteHero
-          title="Note Lab · 知识实验室"
-          subtitle="NOTE SYSTEM"
-          description="以设计化视角梳理编程、架构与效率笔记，串起「学习 → 实践 → 沉淀」的闭环，打造可探索、可复用的知识图谱。"
-          badges={['Design-driven Learning', 'Continuous Delivery', 'Public Notes']}
-          stats={heroStats}
-          primaryAction={{ label: '开始探索', href: '#note-map' }}
-          secondaryAction={{ label: '查看最新', href: '#note-highlights' }}
-          tertiaryAction={{ label: '订阅更新', href: '#note-utility' }}
-        />
+      {/* Quick filters */}
+      <section className="mb-16">
+        <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+          {t('note_categories')}
+        </h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {noteFilters.map((item) => (
+            <Link
+              key={item.id}
+              href={item.href}
+              className="group flex items-start gap-4 p-5 rounded-card border border-warm-100 dark:border-warm-800 hover:border-accent/30 dark:hover:border-accent/30 bg-white dark:bg-warm-950 transition-colors"
+            >
+              <span className="text-2xl flex-shrink-0">{item.icon}</span>
+              <div className="min-w-0">
+                <div className="flex items-center gap-2">
+                  <h3 className="font-medium text-warm-900 dark:text-warm-50 group-hover:text-accent transition-colors">
+                    {item.label}
+                  </h3>
+                  <span className="text-xs text-warm-400 dark:text-warm-500">{item.count}</span>
+                </div>
+                <p className="text-sm text-warm-500 dark:text-warm-400 mt-1">{item.description}</p>
+              </div>
+            </Link>
+          ))}
+        </div>
+      </section>
 
-        <QuickFilters items={noteFilters} />
+      {/* Featured notes */}
+      <section className="mb-16">
+        <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+          {t('note_featured')}
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {noteHighlights.featured.map((item) => (
+            <Link
+              key={item.title}
+              href={item.link}
+              className="group p-6 rounded-card border border-warm-100 dark:border-warm-800 hover:border-accent/30 dark:hover:border-accent/30 bg-white dark:bg-warm-950 transition-colors"
+            >
+              <span className="inline-block px-2 py-0.5 rounded text-xs font-medium bg-accent/10 text-accent mb-3">
+                {item.tag}
+              </span>
+              <h3 className="font-medium text-warm-900 dark:text-warm-50 group-hover:text-accent transition-colors">
+                {item.title}
+              </h3>
+              <p className="text-sm text-warm-500 dark:text-warm-400 mt-2">{item.summary}</p>
+            </Link>
+          ))}
+        </div>
+      </section>
 
-        <KnowledgeMap json={contextJson} stats={knowledgeStats} />
-
-        <LearningJourney stages={noteJourney} />
-
-        <Highlights data={noteHighlights} />
-
-        <UtilityDeck items={noteUtilities} />
-      </div>
+      {/* Trending */}
+      <section>
+        <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+          {t('note_recent')}
+        </h2>
+        <div className="space-y-1">
+          {noteHighlights.trending.map((item) => (
+            <Link
+              key={item.title}
+              href={item.link}
+              className="group flex items-center justify-between py-4 border-b border-warm-100 dark:border-warm-800"
+            >
+              <div className="min-w-0 flex-1">
+                <h3 className="font-medium text-warm-900 dark:text-warm-50 group-hover:text-accent transition-colors">
+                  {item.title}
+                </h3>
+                <div className="flex items-center gap-3 mt-1 text-xs text-warm-400 dark:text-warm-500">
+                  <span>{item.updated}</span>
+                  <span>{item.minutes} min</span>
+                  {item.topics.map(topic => (
+                    <span key={topic} className="px-1.5 py-0.5 rounded bg-warm-100 dark:bg-warm-800 text-warm-600 dark:text-warm-300">
+                      {topic}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <ArrowRight className="w-4 h-4 text-warm-300 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
+            </Link>
+          ))}
+        </div>
+      </section>
     </div>
   )
 }

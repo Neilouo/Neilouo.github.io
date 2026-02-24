@@ -2,359 +2,116 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 移动端基础优化 */
+/* Mobile base */
 @media (max-width: 768px) {
-    /* 基础文字大小调整 */
-    html {
-        font-size: 14px;
-    }
-    
-    /* 滚动条优化 */
-    body {
-        overflow-x: hidden;
-        -webkit-overflow-scrolling: touch;
-        scroll-behavior: smooth;
-    }
-    
-    /* 触控优化 */
-    button, 
-    a, 
-    [role="button"] {
-        min-height: 44px;
-        min-width: 44px;
-        touch-action: manipulation;
-    }
-    
-    /* 输入框优化 */
-    input, 
-    textarea, 
-    select {
-        font-size: 16px; /* 防止iOS缩放 */
-    }
+  html {
+    font-size: 14px;
+  }
+
+  body {
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+  }
+
+  button,
+  a,
+  [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+    touch-action: manipulation;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 16px;
+  }
 }
 
-/* 超小屏幕优化 */
 @media (max-width: 480px) {
-    html {
-        font-size: 13px;
-    }
-    
-    /* 容器内边距调整 */
-    .container, 
-    .nx-container {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+  html {
+    font-size: 13px;
+  }
+
+  .container,
+  .nx-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
-.linear-gradient-text {
-    background: linear-gradient(to right, orange, orangered);
-    -webkit-background-clip: text;
-    /*background-clip: text;*/
-    color: transparent;
-}
-
-.forest-bg{
-    background-image: url("./public/forest.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-opacity: 0.5;
-}
-
-.code-bg{
-    background-image: url("./public/codes.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-opacity: 0.5;
-}
-
-.contact-bg{
-    background-image: url("./public/back_2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-opacity: 0.5;
-}
-
-/* 移动端背景图片优化 */
-@media (max-width: 768px) {
-    .forest-bg,
-    .code-bg,
-    .contact-bg {
-        background-size: cover;
-        background-position: center;
-        background-attachment: scroll; /* 避免移动端性能问题 */
-    }
-}
-
-/*::-webkit-scrollbar {*/
-/*    width: 4px;*/
-/*    height: 6px;*/
-/*}*/
-
-/*::-webkit-scrollbar-track-piece {*/
-/*    background-color: transparent;*/
-/*    border-radius: 5px;*/
-/*}*/
-
-/*::-webkit-scrollbar-thumb {*/
-/*    cursor: pointer;*/
-/*    background-color: rgba(19, 191, 255, 0.33);*/
-/*    border-radius: 20px;*/
-/*    transition: all 1s ease-in-out;*/
-/*}*/
-
-/*::-webkit-scrollbar-thumb:hover {*/
-/*    background-color: rgba(0, 193, 255, 0.89);*/
-/*}*/
-
-/*::-webkit-scrollbar-corner {*/
-/*    display: block;*/
-/*}*/
-
-.card_title {
-    content: " - ";
-}
-
-.card_title {
-    transition: all .5s ease-in-out;
-}
-
-.card_title:hover {
-    opacity: 0.7;
-}
-
-/* 移动端卡片标题优化 */
-@media (max-width: 768px) {
-    .card_title {
-        font-size: 1.1rem;
-        line-height: 1.4;
-    }
-}
-
-/*.card_title:hover::after {*/
-/*    content: "↗";*/
-/*    font-size: 1rem;*/
-/*    color: #707070;*/
-/*}*/
-
-.content_title:hover::after {
-    content: " #";
-    font-size: 1.25rem;
-    color: #ff8000;
-    font-weight: normal;
-}
-
-/* 移动端内容标题优化 */
-@media (max-width: 768px) {
-    .content_title:hover::after {
-        font-size: 1rem;
-    }
-}
-
-/*.nextra-scrollbar 的滚动条样式修改 */
-.nextra-scrollbar {
-    scrollbar-width: thin;
-    scrollbar-color: rgba(115,115,115,.4) transparent;
-}
-
-.flex-box{
-    @apply flex flex-row flex-wrap justify-center items-center;
-}
-
-/* 移动端Flex布局优化 */
-@media (max-width: 768px) {
-    .flex-box {
-        @apply flex-col gap-2;
-    }
-}
-
-article > main > h2, article > main > h3, article > main > h4, article > main > h5, article > main > h6 {
-    color: #0086E6 !important;
+/* Article headings */
+article > main > h2,
+article > main > h3,
+article > main > h4,
+article > main > h5,
+article > main > h6 {
+  color: #2563eb !important;
 }
 
 strong {
-    color: #0086E6 !important;
+  color: #2563eb !important;
 }
 
-/* 导航栏当前页面指示器样式 */
-.nextra-nav-container a,
-.nextra-navbar a,
-nav a {
-    position: relative;
-    transition: all 0.3s ease;
+/* Scrollbar */
+.nextra-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(115, 115, 115, 0.4) transparent;
 }
 
-/* 当前页面导航链接字体加粗 */
+/* Navigation active indicator */
 .nextra-nav-container a[aria-current="page"],
 .nextra-navbar a[aria-current="page"],
-nav a[aria-current="page"],
 .nextra-nav-container a[data-active="true"],
 .nextra-navbar a[data-active="true"],
-nav a[data-active="true"],
-.nextra-nav-container a.active,
-.nextra-navbar a.active,
-nav a.active,
 .nextra-nav-container a.nx-text-primary-600,
-.nextra-navbar a.nx-text-primary-600,
-nav a.nx-text-primary-600 {
-    font-weight: 700 !important;
+.nextra-navbar a.nx-text-primary-600 {
+  font-weight: 600 !important;
 }
 
-/* 当前页面的蓝色横线指示器 - 多种选择器覆盖不同场景 */
 .nextra-nav-container a[aria-current="page"]::after,
 .nextra-navbar a[aria-current="page"]::after,
-nav a[aria-current="page"]::after,
 .nextra-nav-container a[data-active="true"]::after,
 .nextra-navbar a[data-active="true"]::after,
-nav a[data-active="true"]::after,
-.nextra-nav-container a.active::after,
-.nextra-navbar a.active::after,
-nav a.active::after,
 .nextra-nav-container a.nx-text-primary-600::after,
-.nextra-navbar a.nx-text-primary-600::after,
-nav a.nx-text-primary-600::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, #2979E3, #1E40AF);
-    border-radius: 2px;
-    animation: slideIn 0.3s ease-out;
-    z-index: 1;
+.nextra-navbar a.nx-text-primary-600::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #2563eb;
+  border-radius: 1px;
 }
 
-/* 悬停时的效果 */
-.nextra-nav-container a:hover::after,
-.nextra-navbar a:hover::after,
-nav a:hover::after {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background: linear-gradient(90deg, #2979E3, #60A5FA);
-    border-radius: 1px;
-    opacity: 0.6;
-    animation: slideIn 0.2s ease-out;
-    z-index: 1;
-}
-
-/* 避免悬停时与当前页面指示器冲突 */
-.nextra-nav-container a[aria-current="page"]:hover::after,
-.nextra-navbar a[aria-current="page"]:hover::after,
-nav a[aria-current="page"]:hover::after,
-.nextra-nav-container a[data-active="true"]:hover::after,
-.nextra-navbar a[data-active="true"]:hover::after,
-nav a[data-active="true"]:hover::after,
-.nextra-nav-container a.active:hover::after,
-.nextra-navbar a.active:hover::after,
-nav a.active:hover::after {
-    height: 3px;
-    background: linear-gradient(90deg, #2979E3, #1E40AF);
-    opacity: 1;
-}
-
-/* 滑入动画 */
-@keyframes slideIn {
-    from {
-        transform: scaleX(0);
-        opacity: 0;
-    }
-    to {
-        transform: scaleX(1);
-        opacity: 1;
-    }
-}
-
-/* 针对移动端的适配 */
+/* Responsive helpers */
 @media (max-width: 768px) {
-    .nextra-nav-container a::after,
-    .nextra-navbar a::after,
-    nav a::after {
-        bottom: -1px;
-        height: 2px;
-    }
-    
-    .nextra-nav-container a[aria-current="page"]::after,
-    .nextra-navbar a[aria-current="page"]::after,
-    nav a[aria-current="page"]::after,
-    .nextra-nav-container a[data-active="true"]::after,
-    .nextra-navbar a[data-active="true"]::after,
-    nav a[data-active="true"]::after {
-        height: 3px;
-    }
-    
-    /* 移动端导航链接增大触控区域 */
-    .nextra-nav-container a,
-    .nextra-navbar a,
-    nav a {
-        padding: 0.75rem 1rem;
-        margin: 0.25rem;
-    }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  pre {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
 }
 
-/* 移动端专用样式 */
-@media (max-width: 768px) {
-    /* 图片响应式优化 */
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-    
-    /* 表格横向滚动 */
-    table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-    
-    /* 代码块优化 */
-    pre {
-        overflow-x: auto;
-        -webkit-overflow-scrolling: touch;
-    }
-    
-    /* 避免文字被截断 */
-    .truncate {
-        white-space: normal !important;
-        overflow: visible !important;
-        text-overflow: clip !important;
-    }
-}
-
-/* 中等屏幕优化 */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .container {
-        max-width: 95%;
-    }
-}
-
-/* 性能优化 - 减少不必要的动画 */
+/* Reduce motion */
 @media (prefers-reduced-motion: reduce) {
-    *,
-    *::before,
-    *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-    }
-}
-
-/* 暗色模式移动端优化 */
-@media (max-width: 768px) {
-    .dark {
-        /* 确保暗色模式下的对比度 */
-        color-scheme: dark;
-    }
-    
-    .dark img {
-        opacity: 0.9;
-    }
-    
-    .dark .bg-white {
-        background-color: rgb(17 24 39) !important;
-    }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

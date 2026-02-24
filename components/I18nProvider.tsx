@@ -27,7 +27,45 @@ const DICT: Record<string, { zh: string, en: string }> = {
   projects: { zh: '项目', en: 'Projects' },
   dream: { zh: '追逐云端的梦', en: 'Dream in the sky' },
   github_username: { zh: '桑楠', en: 'Nan Sang' },
-  project_more: { zh: '更多项目', en: 'More projects' }
+  project_more: { zh: '更多项目', en: 'More projects' },
+
+  // Homepage section texts
+  about_role: { zh: '全栈开发者 & 产品经理', en: 'Full-stack Developer & Product Manager' },
+  about_school: { zh: '就读于墨尔本大学', en: 'Studying at University of Melbourne' },
+  about_major: { zh: '数据科学专业', en: 'Major in Data Science' },
+  about_location: { zh: '现居北京', en: 'Now in Beijing, China' },
+  read_all_posts: { zh: '查看所有文章', en: 'Read all posts' },
+  notes_desc: { zh: '计算机科学、前后端系统化学习知识', en: 'Systematized learning knowledge in CS, Frontend & Backend' },
+  blog_desc: { zh: '编程经验、产品思考和生活', en: 'Coding experience, product thinking and life' },
+  cv_desc: { zh: '工作经历、技能和简历下载', en: 'Work experience, skills and resume download' },
+  visitors_count: { zh: '位访客到此一游', en: 'visitors have been here' },
+
+  // Blog page
+  blog_subtitle: { zh: '记录产品决策、交互灵感与工程折中，让读者能立即复用。', en: 'Documenting product decisions, interaction insights and engineering trade-offs for practical reuse.' },
+
+  // Projects page
+  projects_subtitle: { zh: '一些开源实践与练手项目，欢迎使用与贡献。', en: 'Open-source explorations and side projects — feel free to use and contribute.' },
+
+  // Note page
+  note_subtitle_prefix: { zh: '以设计化视角梳理编程、架构与效率笔记 — 共 ', en: 'Design-driven notes on programming, architecture & productivity — ' },
+  note_subtitle_suffix: { zh: '+ 篇', en: '+ entries' },
+  note_categories: { zh: '专题分类', en: 'Categories' },
+  note_featured: { zh: '精选推荐', en: 'Featured' },
+  note_recent: { zh: '最近更新', en: 'Recently Updated' },
+
+  // About page
+  about_title: { zh: '关于', en: 'About' },
+  about_intro: { zh: '我是桑楠，一名全栈开发者和产品经理，目前就读于墨尔本大学数据科学专业。我热衷于构建连接工程与用户体验的产品，曾在滴滴、金山云、航旅纵横等公司工作。', en: "I'm Nan Sang — a full-stack developer and product manager currently studying Data Science at the University of Melbourne. I enjoy building products that bridge engineering and user experience, and I've worked across companies like DiDi, Kingsoft Cloud, and Umetrip." },
+  work_experience: { zh: '工作经历', en: 'Work Experience' },
+  research: { zh: '研究经历', en: 'Research' },
+  latest_role: { zh: '最近工作', en: 'Latest Role' },
+  latest_research: { zh: '最近研究', en: 'Latest Research' },
+  view_full_profile: { zh: '查看完整履历', en: 'View full profile' },
+  resume: { zh: '简历', en: 'Resume' },
+  download_pdf: { zh: '下载简历 PDF', en: 'Download PDF' },
+  preview_online: { zh: '在线预览', en: 'Preview Online' },
+  frontend: { zh: '前端', en: 'Frontend' },
+  backend_tools: { zh: '后端 & 工具', en: 'Backend & Tools' }
 }
 
 export const I18nProvider = ({ children }: { children: React.ReactNode }): JSX.Element => {

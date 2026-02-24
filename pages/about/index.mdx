@@ -1,0 +1,306 @@
+import React from 'react'
+import Link from 'next/link'
+import dynamic from 'next/dynamic'
+import { FiGithub, FiLinkedin, FiMail, FiDownload, FiExternalLink } from 'react-icons/fi'
+import { Stacks } from '../../components/TextSwiper'
+import { frontEnd, OtherStacks } from '../../components/TextSwiper/data'
+import { T, useI18n } from '../../components/I18nProvider'
+import DeveloperProfile from '../../components/DeveloperProfile'
+
+export const PDFViewer = dynamic(() => import('../../components/PDFViewer'), {
+  ssr: false,
+  loading: () => (
+    <div className="flex items-center justify-center h-64 bg-warm-100 dark:bg-warm-900 rounded-card">
+      <p className="text-sm text-warm-400">Loading...</p>
+    </div>
+  )
+})
+
+export const experiences = [
+  {
+    company: 'Umetrip',
+    role: { zh: '产品经理', en: 'Product Manager' },
+    location: { zh: '北京', en: 'Beijing' },
+    period: { zh: '2025.04 - 至今', en: 'Apr 2025 - Present' },
+    highlights: {
+      zh: [
+        '对U社区平台进行日常迭代更新',
+        '新增点评板块并迭代聊天室功能',
+        '通过数据分析追踪新功能并提升DAU',
+      ],
+      en: [
+        'Daily iterative updates to the U community platform',
+        'Added review section and iterated the chat room',
+        'Track new features and increase DAU through data analysis',
+      ],
+    },
+  },
+  {
+    company: 'Kingsoft Cloud',
+    role: { zh: '产品经理', en: 'Product Manager' },
+    location: { zh: '北京', en: 'Beijing' },
+    period: { zh: '2024.12 - 2025.04', en: 'Dec 2024 - Apr 2025' },
+    highlights: {
+      zh: [
+        '迭代金山云容器 1.0 功能',
+        '调研云厂商容器组的 AI 助手',
+        '优化产品需求管理平台',
+      ],
+      en: [
+        'Iterated Kingsoft Cloud Container 1.0 functions',
+        "Researched cloud vendors' AI assistants for container group",
+        'Optimized product demand management platform',
+      ],
+    },
+  },
+  {
+    company: 'DiDi',
+    role: { zh: '后端开发工程师', en: 'Back-end Developer' },
+    location: { zh: '北京', en: 'Beijing' },
+    period: { zh: '2023.11 - 2024.04', en: 'Nov 2023 - Apr 2024' },
+    highlights: {
+      zh: [
+        '构建地理围栏系统，上车点准确率提升 35%',
+        '通过系统重构将乘客等待时间缩短 10%',
+        '创建 Mock 服务，实现澳洲地图与 Google Maps 对账',
+      ],
+      en: [
+        'Engineered a geo-fencing system, boosting pick-up accuracy by 35%',
+        'Reduced passenger wait times by 10% through system refactors',
+        'Created a mock service reconciling Australian map with Google Maps',
+      ],
+    },
+  },
+  {
+    company: 'NetEase',
+    role: { zh: '测试开发工程师', en: 'Test Development Engineer' },
+    location: { zh: '北京', en: 'Beijing' },
+    period: { zh: '2021.12 - 2022.03', en: 'Dec 2021 - Mar 2022' },
+    highlights: {
+      zh: [
+        '通过多线程自动化将数据吞吐量提升 30%',
+        '使用压力测试将 API 响应时间缩短 25%',
+        '通过白盒测试将模型精度提升 15%',
+      ],
+      en: [
+        'Boosted data throughput by 30% through multithreaded automation',
+        'Reduced API response time by 25% using load testing',
+        'Enhanced model accuracy by 15% with white-box testing',
+      ],
+    },
+  },
+]
+
+export const researchProjects = [
+  {
+    title: {
+      zh: '基于深度学习的地球化学岩石分类',
+      en: 'Geochemical rock classification powered by deep learning'
+    },
+    institution: { zh: '墨尔本大学', en: 'University of Melbourne' },
+    location: { zh: '墨尔本', en: 'Melbourne' },
+    period: { zh: '2023.02 - 至今', en: 'Feb 2023 - Present' },
+    focus: { zh: '地球化学 × AI', en: 'Geochemistry × AI' },
+    highlights: {
+      zh: [
+        '构建多分支 Transformer 模型，融合 ICP-MS、XRF 和地层数据，准确率超越传统基线 14%',
+        '实现不确定性感知标注和主动学习循环，优化昂贵实验分析的优先级',
+        '发布覆盖 40+ 真实矿床的可复现评估套件，确保部署报告的可信度',
+      ],
+      en: [
+        'Built a multi-branch Transformer blending ICP-MS, XRF, and contextual stratigraphy for 14% accuracy gain over classical baselines',
+        'Implemented uncertainty-aware labeling and active learning loops to prioritize expensive lab assays',
+        'Released reproducible evaluation suite covering 40+ real-world deposits, ensuring trustworthy deployment reports',
+      ],
+    },
+  },
+  {
+    title: {
+      zh: '基于消费级无人机的道路裂缝检测',
+      en: 'Road crack detection via consumer-grade drones'
+    },
+    institution: { zh: '北京建筑大学', en: 'Beijing University of Civil Engineering and Architecture' },
+    location: { zh: '北京', en: 'Beijing' },
+    period: { zh: '2018.09 - 2022.10', en: 'Sep 2018 - Oct 2022' },
+    focus: { zh: '基础设施视觉检测', en: 'Infra-vision ops' },
+    highlights: {
+      zh: [
+        '设计基于 DJI Mini 的自适应航线成像系统，巡检人力减少 60%',
+        '训练轻量 MobileNetV3 裂缝检测器，配合时序滤波，端侧推理 < 40ms',
+        '策划并标注 12k 帧无人机图像，引入像素级严重程度评分供下游维护团队使用',
+      ],
+      en: [
+        'Engineered a DJI Mini-based imaging rig with adaptive flight plans, cutting survey labor by 60%',
+        'Trained a lightweight MobileNetV3 crack detector with temporal filtering to keep on-device inference under 40 ms',
+        'Curated and annotated 12k UAV frames, introducing pixel-level severity scoring for downstream maintenance teams',
+      ],
+    },
+  },
+]
+
+export function ResearchTimeline() {
+  const { lang } = useI18n()
+  return (
+    <div className="space-y-8">
+      {researchProjects.map((project) => (
+        <div key={project.title.en} className="relative pl-6 border-l-2 border-warm-200 dark:border-warm-700">
+          <div className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-emerald-500" />
+          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-2">
+            <div>
+              <h3 className="font-medium text-warm-900 dark:text-warm-50">{project.title[lang]}</h3>
+              <p className="text-sm text-warm-500 dark:text-warm-400">{project.institution[lang]}</p>
+            </div>
+            <div className="flex items-center gap-2 flex-shrink-0">
+              <span className="text-xs text-warm-400 dark:text-warm-500 whitespace-nowrap">
+                {project.period[lang]} · {project.location[lang]}
+              </span>
+              <span className="px-2 py-0.5 rounded text-xs bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 border border-emerald-100 dark:border-emerald-800/50">
+                {project.focus[lang]}
+              </span>
+            </div>
+          </div>
+          <ul className="space-y-1.5 mt-3">
+            {project.highlights[lang].map((h) => (
+              <li key={h} className="flex items-start gap-2 text-sm text-warm-600 dark:text-warm-300">
+                <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-warm-300 dark:bg-warm-600 flex-shrink-0" />
+                {h}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+export function ExperienceTimeline() {
+  const { lang } = useI18n()
+  return (
+    <div className="space-y-8">
+      {experiences.map((exp) => (
+        <div key={exp.company} className="relative pl-6 border-l-2 border-warm-200 dark:border-warm-700">
+          <div className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent" />
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
+            <div>
+              <h3 className="font-medium text-warm-900 dark:text-warm-50">{exp.company}</h3>
+              <p className="text-sm text-warm-500 dark:text-warm-400">{exp.role[lang]}</p>
+            </div>
+            <p className="text-xs text-warm-400 dark:text-warm-500 whitespace-nowrap">
+              {exp.period[lang]} · {exp.location[lang]}
+            </p>
+          </div>
+          <ul className="space-y-1.5 mt-3">
+            {exp.highlights[lang].map((h) => (
+              <li key={h} className="flex items-start gap-2 text-sm text-warm-600 dark:text-warm-300">
+                <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-warm-300 dark:bg-warm-600 flex-shrink-0" />
+                {h}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+<div className="max-w-3xl mx-auto px-4 pt-12 pb-24">
+
+  {/* Header */}
+  <header className="mb-16">
+    <h1 className="text-3xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
+      <T k={'about_title'} />
+    </h1>
+    <p className="mt-3 text-warm-600 dark:text-warm-300 leading-relaxed">
+      <T k={'about_intro'} />
+    </p>
+  </header>
+
+  {/* Work Experience */}
+  <section className="mb-16">
+    <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-8">
+      <T k={'work_experience'} />
+    </h2>
+    <ExperienceTimeline />
+  </section>
+
+  {/* Research */}
+  <section className="mb-16">
+    <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-8">
+      <T k={'research'} />
+    </h2>
+    <ResearchTimeline />
+  </section>
+
+  {/* Competitive Coding & Certifications */}
+  <section id="developer-profile" className="mb-16 scroll-mt-24">
+    <DeveloperProfile />
+  </section>
+
+  {/* Tech Stack */}
+  <section className="mb-16">
+    <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+      <T k={'tech_stack'} />
+    </h2>
+    <div className="space-y-6">
+      <div>
+        <p className="text-xs text-warm-400 dark:text-warm-500 uppercase tracking-wider mb-3"><T k={'frontend'} /></p>
+        <Stacks stacks={frontEnd} />
+      </div>
+      <div>
+        <p className="text-xs text-warm-400 dark:text-warm-500 uppercase tracking-wider mb-3"><T k={'backend_tools'} /></p>
+        <Stacks stacks={OtherStacks} />
+      </div>
+    </div>
+  </section>
+
+  {/* Resume Download */}
+  <section className="mb-16">
+    <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+      <T k={'resume'} />
+    </h2>
+    <div className="flex flex-wrap gap-3">
+      <a
+        href="/myself.pdf"
+        download="NanSang_CV.pdf"
+        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-card bg-accent text-white text-sm font-medium hover:bg-accent-dark transition-colors"
+      >
+        <FiDownload className="w-4 h-4" /> <T k={'download_pdf'} />
+      </a>
+      <a
+        href="/myself.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-card border border-warm-200 dark:border-warm-700 text-warm-700 dark:text-warm-200 text-sm font-medium hover:bg-warm-50 dark:hover:bg-warm-800 transition-colors"
+      >
+        <FiExternalLink className="w-4 h-4" /> <T k={'preview_online'} />
+      </a>
+    </div>
+    <div className="mt-6 rounded-card border border-warm-100 dark:border-warm-800 overflow-hidden bg-white dark:bg-warm-950">
+      <div className="p-4">
+        <PDFViewer file="myself.pdf" />
+      </div>
+    </div>
+  </section>
+
+  {/* Contact */}
+  <section>
+    <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+      <T k={'contact'} />
+    </h2>
+    <div className="flex items-center gap-5">
+      <a href="https://github.com/Neilouo" target="_blank" rel="noreferrer"
+        className="flex items-center gap-2 text-sm text-warm-600 dark:text-warm-300 hover:text-accent transition-colors">
+        <FiGithub className="w-5 h-5" /> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/nan-sang/" target="_blank" rel="noreferrer"
+        className="flex items-center gap-2 text-sm text-warm-600 dark:text-warm-300 hover:text-accent transition-colors">
+        <FiLinkedin className="w-5 h-5" /> LinkedIn
+      </a>
+      <a href="mailto:Neilouuo@gmail.com"
+        className="flex items-center gap-2 text-sm text-warm-600 dark:text-warm-300 hover:text-accent transition-colors">
+        <FiMail className="w-5 h-5" /> Email
+      </a>
+    </div>
+  </section>
+
+</div>

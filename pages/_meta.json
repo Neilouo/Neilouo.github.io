@@ -6,37 +6,25 @@
       "sidebar": false,
       "toc": false,
       "footer": true,
-      "pagination": true,
-      "breadcrumb": false,
-      "layout": "full"
-    }
-  },
-  "note": {
-    "title": "Note",
-    "type": "page",
-    "theme": {
-      "sidebar": false,
-      "toc": false,
-      "footer": true,
-      "pagination": true,
+      "pagination": false,
       "breadcrumb": false,
       "layout": "full"
     }
   },
   "blog": {
-    "title": "Blog",
+    "title": "Writing",
     "type": "page",
     "theme": {
       "sidebar": false,
       "toc": false,
       "footer": true,
       "pagination": false,
-      "breadcrumb": true,
-      "layout": "default"
+      "breadcrumb": false,
+      "layout": "full"
     }
   },
-  "WorkExperience": {
-    "title": "Work",
+  "note": {
+    "title": "Notes",
     "type": "page",
     "theme": {
       "sidebar": false,
@@ -44,42 +32,6 @@
       "footer": true,
       "pagination": true,
       "breadcrumb": false,
-      "layout": "full"
-    }
-  },
-  "Research": {
-    "title": "Research",
-    "type": "page",
-    "theme": {
-      "sidebar": false,
-      "toc": false,
-      "footer": true,
-      "pagination": true,
-      "breadcrumb": false,
-      "layout": "full"
-    }
-  },
-  "CurriculumVitae": {
-    "title": "Resume",
-    "type": "page",
-    "theme": {
-      "sidebar": false,
-      "toc": false,
-      "footer": true,
-      "pagination": true,
-      "breadcrumb": false,
-      "layout": "full"
-    }
-  },
-  "CodeSnippets": {
-    "title": "CodeSnippet",
-    "type": "page",
-    "theme": {
-      "sidebar": false,
-      "toc": false,
-      "footer": true,
-      "pagination": true,
-      "breadcrumb": true,
       "layout": "full"
     }
   },
@@ -90,21 +42,36 @@
       "sidebar": false,
       "toc": false,
       "footer": true,
-      "pagination": true,
+      "pagination": false,
       "breadcrumb": false,
       "layout": "full"
     }
   },
-  "nav": {
-    "title": "Navigation",
+  "about": {
+    "title": "About",
     "type": "page",
     "theme": {
       "sidebar": false,
       "toc": false,
       "footer": true,
-      "pagination": true,
+      "pagination": false,
       "breadcrumb": false,
       "layout": "full"
     }
+  },
+  "WorkExperience": {
+    "display": "hidden"
+  },
+  "Research": {
+    "display": "hidden"
+  },
+  "CurriculumVitae": {
+    "display": "hidden"
+  },
+  "CodeSnippets": {
+    "display": "hidden"
+  },
+  "nav": {
+    "display": "hidden"
   }
 }

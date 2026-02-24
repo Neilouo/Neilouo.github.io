@@ -1,12 +1,12 @@
 {
   "index": {
-    "title": "index",
+    "title": "Blog",
     "theme": {
-      "layout": "default",
+      "layout": "full",
       "sidebar": false,
       "toc": false,
       "footer": true,
-      "breadcrumb": true
+      "breadcrumb": false
     }
   }
 } 
