@@ -30,8 +30,8 @@ const DICT: Record<string, { zh: string, en: string }> = {
   project_more: { zh: '更多项目', en: 'More projects' },
 
   // Homepage section texts
-  about_role: { zh: '全栈开发者 & 产品经理', en: 'Full-stack Developer & Product Manager' },
-  about_school: { zh: '就读于墨尔本大学', en: 'Studying at University of Melbourne' },
+  about_role: { zh: '全栈开发者 & AI产品经理', en: 'Full-stack Developer & Product Manager' },
+  about_school: { zh: '墨尔本大学毕业', en: 'Graduated from University of Melbourne' },
   about_major: { zh: '数据科学专业', en: 'Major in Data Science' },
   about_location: { zh: '现居北京', en: 'Now in Beijing, China' },
   read_all_posts: { zh: '查看所有文章', en: 'Read all posts' },
@@ -55,7 +55,7 @@ const DICT: Record<string, { zh: string, en: string }> = {
 
   // About page
   about_title: { zh: '关于', en: 'About' },
-  about_intro: { zh: '我是桑楠，一名全栈开发者和产品经理，目前就读于墨尔本大学数据科学专业。我热衷于构建连接工程与用户体验的产品，曾在滴滴、金山云、航旅纵横等公司工作。', en: "I'm Nan Sang — a full-stack developer and product manager currently studying Data Science at the University of Melbourne. I enjoy building products that bridge engineering and user experience, and I've worked across companies like DiDi, Kingsoft Cloud, and Umetrip." },
+  about_intro: { zh: '我是桑楠，一名全栈开发者和产品经理，目前就读于墨尔本大学数据科学专业。我热衷于构建连接工程与用户体验的产品，曾在腾讯、顺丰、滴滴、金山云、航旅纵横等公司工作。', en: "I'm Nan Sang — a full-stack developer and product manager currently studying Data Science at the University of Melbourne. I enjoy building products that bridge engineering and user experience, and I've worked across companies like Tencent、SF、DiDi, Kingsoft Cloud, and Umetrip." },
   work_experience: { zh: '工作经历', en: 'Work Experience' },
   research: { zh: '研究经历', en: 'Research' },
   latest_role: { zh: '最近工作', en: 'Latest Role' },
