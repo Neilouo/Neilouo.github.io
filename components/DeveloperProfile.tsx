@@ -91,8 +91,8 @@ function LeetCodeCard() {
       } catch {
         setStats({
           username: 'NanSang2000',
-          solved: { total: 15, easy: 9, medium: 6, hard: 0 },
-          submissions: { total: 16 },
+          solved: { total: 303, easy: 201, medium: 68, hard: 34 },
+          submissions: { total: 1431 },
           contest: null
         })
       } finally {
