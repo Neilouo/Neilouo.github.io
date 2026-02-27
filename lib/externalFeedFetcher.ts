@@ -59,8 +59,8 @@ const fetchJuejinArticles = async (): Promise<ExternalArticle[]> => {
       headers: {
         'Content-Type': 'application/json',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-        'Referer': 'https://juejin.cn/',
-        'Origin': 'https://juejin.cn'
+        Referer: 'https://juejin.cn/',
+        Origin: 'https://juejin.cn'
       },
       body: JSON.stringify({
         user_id: JUEJIN_USER_ID,
