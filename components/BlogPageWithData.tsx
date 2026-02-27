@@ -41,7 +41,7 @@ const BlogPageWithData: React.FC = () => {
       } catch (err) {
         if (!controller.signal.aborted) {
           console.error('加载外部文章失败:', err)
-          setError('外部文章暂时不可用，已展示示例内容。')
+          setError('外部文章暂时不可用。')
           setArticles(sampleArticles)
         }
       } finally {

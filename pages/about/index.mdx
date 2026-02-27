@@ -1,24 +1,16 @@
 import React from 'react'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
-import { FiGithub, FiLinkedin, FiMail, FiDownload, FiExternalLink } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
 import { Stacks } from '../../components/TextSwiper'
 import { frontEnd, OtherStacks } from '../../components/TextSwiper/data'
 import { T, useI18n } from '../../components/I18nProvider'
 import DeveloperProfile from '../../components/DeveloperProfile'
-
-export const PDFViewer = dynamic(() => import('../../components/PDFViewer'), {
-  ssr: false,
-  loading: () => (
-    <div className="flex items-center justify-center h-64 bg-warm-100 dark:bg-warm-900 rounded-card">
-      <p className="text-sm text-warm-400">Loading...</p>
-    </div>
-  )
-})
+import ResumeSection from '../../components/ResumeSection'
 
 export const experiences = [
     {
-    company: 'SF',
+    company: 'S.F.Express',
     role: { zh: '数据产品经理', en: 'Data Product Manager' },
     location: { zh: '深圳', en: 'Shenzhen' },
     period: { zh: '2026.01 - 至今', en: 'Jan 2026 - Present' },
@@ -286,33 +278,7 @@ export function ExperienceTimeline() {
   </section>
 
   {/* Resume Download */}
-  <section className="mb-16">
-    <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
-      <T k={'resume'} />
-    </h2>
-    <div className="flex flex-wrap gap-3">
-      <a
-        href="/myself.pdf"
-        download="NanSang_CV.pdf"
-        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-card bg-accent text-white text-sm font-medium hover:bg-accent-dark transition-colors"
-      >
-        <FiDownload className="w-4 h-4" /> <T k={'download_pdf'} />
-      </a>
-      <a
-        href="/myself.pdf"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 px-5 py-2.5 rounded-card border border-warm-200 dark:border-warm-700 text-warm-700 dark:text-warm-200 text-sm font-medium hover:bg-warm-50 dark:hover:bg-warm-800 transition-colors"
-      >
-        <FiExternalLink className="w-4 h-4" /> <T k={'preview_online'} />
-      </a>
-    </div>
-    <div className="mt-6 rounded-card border border-warm-100 dark:border-warm-800 overflow-hidden bg-white dark:bg-warm-950">
-      <div className="p-4">
-        <PDFViewer file="myself.pdf" />
-      </div>
-    </div>
-  </section>
+  <ResumeSection />
 
   {/* Contact */}
   <section>
