@@ -88,7 +88,7 @@ const BlogPageWithData: React.FC = () => {
             External Feed
           </p>
           <h3 className="text-left text-2xl font-semibold text-slate-900 dark:text-white">
-            来自各平台的最新写作
+            各平台的最新文章
           </h3>
           {error && <p className="mt-2 text-xs text-amber-500">{error}</p>}
         </div>
@@ -150,7 +150,7 @@ const BlogPageWithData: React.FC = () => {
       {loading
         ? (
         <div className="flex min-h-[220px] items-center justify-center rounded-3xl border border-white/60 bg-white/70 text-sm text-slate-500 shadow-inner dark:border-white/10 dark:bg-slate-900/60 dark:text-slate-300">
-          正在同步你的外部文章…
+          你的外部文章…
         </div>
           )
         : (

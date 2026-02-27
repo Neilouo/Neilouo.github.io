@@ -64,6 +64,8 @@ const DICT: Record<string, { zh: string, en: string }> = {
   resume: { zh: '简历', en: 'Resume' },
   download_pdf: { zh: '下载简历 PDF', en: 'Download PDF' },
   preview_online: { zh: '在线预览', en: 'Preview Online' },
+  resume_lang_zh: { zh: '中文简历', en: 'Chinese Resume' },
+  resume_lang_en: { zh: '英文简历', en: 'English Resume' },
   frontend: { zh: '前端', en: 'Frontend' },
   backend_tools: { zh: '后端 & 工具', en: 'Backend & Tools' }
 }
