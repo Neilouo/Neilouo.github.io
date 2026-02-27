@@ -29,28 +29,6 @@ export default function ResumeSection() {
       </h2>
 
       <div className="flex flex-col gap-4">
-        <div className="flex gap-2">
-          <button
-            onClick={() => setResumeLang('zh')}
-            className={`px-4 py-2 text-sm font-medium rounded-card transition-colors ${
-              resumeLang === 'zh'
-                ? 'bg-accent text-white'
-                : 'bg-warm-100 dark:bg-warm-800 text-warm-600 dark:text-warm-300 hover:bg-warm-200 dark:hover:bg-warm-700'
-            }`}
-          >
-            <T k={'resume_lang_zh'} />
-          </button>
-          <button
-            onClick={() => setResumeLang('en')}
-            className={`px-4 py-2 text-sm font-medium rounded-card transition-colors ${
-              resumeLang === 'en'
-                ? 'bg-accent text-white'
-                : 'bg-warm-100 dark:bg-warm-800 text-warm-600 dark:text-warm-300 hover:bg-warm-200 dark:hover:bg-warm-700'
-            }`}
-          >
-            <T k={'resume_lang_en'} />
-          </button>
-        </div>
 
         <div className="flex flex-wrap gap-3">
           <a
