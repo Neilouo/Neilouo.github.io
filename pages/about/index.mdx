@@ -10,7 +10,7 @@ import ResumeSection from '../../components/ResumeSection'
 
 export const experiences = [
     {
-    company: 'S.F.Express',
+    company: { zh: '顺丰科技', en: 'S.F.Express' },
     role: { zh: '数据产品经理', en: 'Data Product Manager' },
     location: { zh: '深圳', en: 'Shenzhen' },
     period: { zh: '2026.01 - 至今', en: 'Jan 2026 - Present' },
@@ -25,9 +25,25 @@ export const experiences = [
       ],
     },
   },
+  {
+    company: { zh: '芒果TV', en: 'MangoTV' },
+    role: { zh: 'AI搜索产品经理', en: 'AI Search Product Manager' },
+    location: { zh: '长沙', en: 'Changsha' },
+    period: { zh: '2025.12 - 2026.02', en: 'Dec 2025 - Feb 2026' },
+    highlights: {
+      zh: [
+        '负责AI搜索功能的产品化迭代，围绕召回排序效果进行问题分析与方案优化，优化搜索结果的相关性与用户满意度。',
+        '参与搜索排序体验优化讨论，结合竞品搜索入口设计和结果呈现，输出对比分析报告，为搜索优化提供数据支持。',
+      ],
+      en: [
+       'Focused on optimizing search recall and ranking algorithms to enhance search result relevance and user satisfaction.',
+       'Collaborated with product teams to understand user needs and iterate search features based on feedback.',
+      ],
+    },
+  },
     {
-    company: 'Tencent',
-    role: { zh: '产品技术经理', en: 'Product Technology Manager' },
+    company: { zh: '腾讯', en: 'Tencent' },
+    role: { zh: '技术产品', en: 'Product Technology Manager' },
     location: { zh: '北京', en: 'Beijing' },
     period: { zh: '2025.09 - 2025.12', en: 'Sep 2025 - Dec 2025' },
     highlights: {
@@ -42,7 +58,7 @@ export const experiences = [
     },
   },
   {
-    company: 'Umetrip',
+    company: { zh: '航旅纵横', en: 'Umetrip' },
     role: { zh: '产品经理', en: 'Product Manager' },
     location: { zh: '北京', en: 'Beijing' },
     period: { zh: '2025.04 - 2025.08', en: 'Apr 2025 - Aug 2025' },
@@ -60,7 +76,7 @@ export const experiences = [
     },
   },
   {
-    company: 'Kingsoft Cloud',
+    company: { zh: '金山云', en: 'Kingsoft Cloud' },
     role: { zh: '产品经理', en: 'Product Manager' },
     location: { zh: '北京', en: 'Beijing' },
     period: { zh: '2024.12 - 2025.04', en: 'Dec 2024 - Apr 2025' },
@@ -78,7 +94,7 @@ export const experiences = [
     },
   },
   {
-    company: 'DiDi',
+    company: { zh: '滴滴', en: 'DiDi' },
     role: { zh: '后端开发工程师', en: 'Back-end Developer' },
     location: { zh: '北京', en: 'Beijing' },
     period: { zh: '2023.11 - 2024.04', en: 'Nov 2023 - Apr 2024' },
@@ -96,7 +112,7 @@ export const experiences = [
     },
   },
   {
-    company: 'NetEase',
+    company: { zh: '网易', en: 'NetEase' },
     role: { zh: '测试开发工程师', en: 'Test Development Engineer' },
     location: { zh: '北京', en: 'Beijing' },
     period: { zh: '2021.12 - 2022.03', en: 'Dec 2021 - Mar 2022' },
