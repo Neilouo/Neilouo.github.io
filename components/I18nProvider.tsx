@@ -30,12 +30,12 @@ const DICT: Record<string, { zh: string, en: string }> = {
   project_more: { zh: '更多项目', en: 'More projects' },
 
   // Homepage section texts
-  about_role: { zh: '全栈开发者 & AI产品经理', en: 'Full-stack Developer & Product Manager' },
-  about_school: { zh: '墨尔本大学毕业', en: 'Graduated from University of Melbourne' },
+  about_role: { zh: '全栈开发者 & AI产品经理 & 数据科学家', en: 'Full-stack Developer & AI Product Manager & Data Scientist' },
+  about_school: { zh: '毕业于墨尔本大学', en: 'Graduated from University of Melbourne' },
   about_major: { zh: '数据科学专业', en: 'Major in Data Science' },
-  about_location: { zh: '现居北京', en: 'Now in Beijing, China' },
+  about_location: { zh: '现居深圳', en: 'Now in Shenzhen, China' },
   read_all_posts: { zh: '查看所有文章', en: 'Read all posts' },
-  notes_desc: { zh: '计算机科学、前后端系统化学习知识', en: 'Systematized learning knowledge in CS, Frontend & Backend' },
+  notes_desc: { zh: '计算机科学、数据科学、前后端系统化学习知识', en: 'Systematized learning knowledge in Computer Science, Data Science, Frontend & Backend' },
   blog_desc: { zh: '编程经验、产品思考和生活', en: 'Coding experience, product thinking and life' },
   cv_desc: { zh: '工作经历、技能和简历下载', en: 'Work experience, skills and resume download' },
   visitors_count: { zh: '位访客到此一游', en: 'visitors have been here' },
