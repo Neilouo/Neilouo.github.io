@@ -41,7 +41,7 @@ const DICT: Record<string, { zh: string, en: string }> = {
   visitors_count: { zh: '位访客到此一游', en: 'visitors have been here' },
 
   // Blog page
-  blog_subtitle: { zh: '记录产品决策、交互灵感与工程折中，让读者能立即复用。', en: 'Documenting product decisions, interaction insights and engineering trade-offs for practical reuse.' },
+  blog_subtitle: { zh: '记录产品决策、交互灵感与工程思考。', en: 'Documenting product decisions, interaction insights and engineering trade-offs.' },
 
   // Projects page
   projects_subtitle: { zh: '一些开源实践与练手项目，欢迎使用与贡献。', en: 'Open-source explorations and side projects — feel free to use and contribute.' },
