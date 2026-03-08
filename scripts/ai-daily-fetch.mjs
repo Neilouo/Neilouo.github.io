@@ -115,7 +115,7 @@ async function fetchArxiv (dateStr) {
   const day = y + m + d
   const query = `(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV OR cat:cs.MA OR cat:stat.ML OR cat:eess.AS OR cat:eess.IV) AND submittedDate:[${day}0000 TO ${day}2359]`
   const url = `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(query)}&start=0&max_results=150&sortBy=submittedDate&sortOrder=descending`
-  const res = await got(url, { responseType: 'text' })
+  const res = await got(url, { responseType: 'text', timeout: { request: 60000 } })
   const raw = parseArxivAtom(res.body)
   return raw.map((e) => ({
     type: 'paper',
@@ -131,9 +131,11 @@ async function fetchArxiv (dateStr) {
   }))
 }
 
+const FEED_TIMEOUT_MS = 60000 // 单条链接超时 1 分钟，超时则跳过该源
+
 async function fetchRss (feedUrl) {
   const parser = new Parser({
-    timeout: 15000,
+    timeout: FEED_TIMEOUT_MS,
     headers: { 'User-Agent': 'AI-Radar-Bot/1.0 (https://github.com/Neilouo/Neilouo.github.io)' },
   })
   const feed = await parser.parseURL(feedUrl)
