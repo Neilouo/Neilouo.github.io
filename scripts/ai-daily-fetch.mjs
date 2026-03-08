@@ -33,25 +33,25 @@ const ARXIV_CAT_TO_AREA = {
 
 const DEFAULT_AREA = '其他'
 
-// AI 新闻与博客 RSS（官方研究机构 + 科技媒体 + 社区，按需增删）
+// AI 新闻 RSS（仅保留已测试可用的源，与文档列表一致）
 const RSS_FEEDS = [
-  // 官方研究机构博客
-  'https://ai.googleblog.com/atom.xml',
-  'https://ai.meta.com/blog/rss/',
-  'https://www.microsoft.com/en-us/research/feed/',
-  'https://deepmind.com/blog/feed/',
-  'https://openai.com/blog/rss/',
+  // 官方研究机构
   'https://huggingface.co/blog/feed.xml',
   // 科技媒体
   'https://www.technologyreview.com/topic/artificial-intelligence/feed/',
   'https://venturebeat.com/category/ai/feed/',
   'https://techcrunch.com/category/artificial-intelligence/feed/',
+  'https://www.wired.com/category/artificial-intelligence/feed/',
   'https://www.theverge.com/ai-artificial-intelligence/rss',
   // 专业 AI 新闻
   'https://www.artificialintelligence-news.com/feed/rss/',
+  'https://analyticsindiamag.com/feed/',
+  'https://ai-techpark.com/feed',
+  'https://rsshub.app/sspai/series/379', // 三花AI快讯
   // 社区
   'https://www.reddit.com/r/MachineLearning/.rss',
   'https://www.reddit.com/r/artificial/.rss',
+  'https://rsshub.app/github/trending/ai', // GitHub Trending AI
 ]
 
 function getTargetDate () {
