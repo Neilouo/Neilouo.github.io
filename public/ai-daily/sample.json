@@ -1,0 +1,65 @@
+{
+  "date": "2025-03-07",
+  "items": [
+    {
+      "type": "paper",
+      "title": "Scaling Laws for Multilingual Neural Machine Translation",
+      "summary": "We study how model size and training data affect translation quality across 30 languages, and derive scaling exponents for both dimensions.",
+      "authors": ["M. Johnson", "L. Zhang", "K. Chen et al."],
+      "affiliations": ["Google DeepMind", "University of Edinburgh"],
+      "primaryArea": "LLM / 对话模型",
+      "tags": ["NMT", "Scaling", "Multilingual"],
+      "url": "https://arxiv.org/abs/2501.12345",
+      "source": "arXiv",
+      "publishedAt": "2025-03-06"
+    },
+    {
+      "type": "paper",
+      "title": "Efficient Agent Tool Use via Latent Plan Compression",
+      "summary": "A method to compress agent plans into latent codes, reducing API calls and improving response time for tool-augmented LLMs.",
+      "authors": ["A. Smith", "B. Lee"],
+      "affiliations": ["OpenAI", "MIT"],
+      "primaryArea": "智能体 & 工具调用",
+      "tags": ["Agents", "Tool Use", "Efficiency"],
+      "url": "https://arxiv.org/abs/2501.12346",
+      "source": "arXiv",
+      "publishedAt": "2025-03-06"
+    },
+    {
+      "type": "news",
+      "title": "Claude 3.5 Sonnet gets new long-context and coding features",
+      "summary": "Anthropic expands context window and improves code generation; API and Claude.ai updated.",
+      "authors": ["Anthropic"],
+      "affiliations": ["Anthropic"],
+      "primaryArea": "LLM / 对话模型",
+      "tags": ["Claude", "Product"],
+      "url": "https://www.anthropic.com/news",
+      "source": "Blog",
+      "publishedAt": "2025-03-06"
+    },
+    {
+      "type": "paper",
+      "title": "Diffusion Models with Structured Latent State for 3D Scene Synthesis",
+      "summary": "We introduce a diffusion model that operates on a structured scene graph latent, enabling controllable 3D scene generation.",
+      "authors": ["C. Wang", "D. Liu", "E. Yang et al."],
+      "affiliations": ["NVIDIA", "Stanford"],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": ["Diffusion", "3D", "Scene Graph"],
+      "url": "https://arxiv.org/abs/2501.12347",
+      "source": "arXiv",
+      "publishedAt": "2025-03-06"
+    },
+    {
+      "type": "news",
+      "title": "Open-source LLM inference benchmarks: vLLM vs SGLang",
+      "summary": "Community benchmark compares throughput and latency for popular inference servers on A100 and H100.",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "系统 & 工程",
+      "tags": ["Inference", "Benchmark", "Open Source"],
+      "url": "https://example.com/benchmark",
+      "source": "Hacker News",
+      "publishedAt": "2025-03-06"
+    }
+  ]
+}

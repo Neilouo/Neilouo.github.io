@@ -11,6 +11,18 @@
       "layout": "full"
     }
   },
+  "ai-radar": {
+    "title": "AI Radar",
+    "type": "page",
+    "theme": {
+      "sidebar": false,
+      "toc": false,
+      "footer": true,
+      "pagination": false,
+      "breadcrumb": false,
+      "layout": "full"
+    }
+  },
   "blog": {
     "title": "Writing",
     "type": "page",

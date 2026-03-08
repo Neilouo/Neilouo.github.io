@@ -1,0 +1,3206 @@
+{
+  "date": "2025-03-05",
+  "items": [
+    {
+      "type": "paper",
+      "title": "Data-driven identification of nonlinear dynamical systems with LSTM autoencoders and Normalizing Flows",
+      "summary": "While linear systems have been useful in solving problems across different fields, the need for improved performance and efficiency has prompted them to operate in nonlinear modes. As a result, nonlinear models are now essential for the design and control of these systems. However, identifying a non…",
+      "authors": [
+        "Abdolvahhab Rostamijavanani",
+        "Shanwu Li",
+        "Yongchao Yang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03977v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Towards Modality- and Sampling-Universal Learning Strategies for Accelerating Cardiovascular Imaging: Summary of the CMRxRecon2024 Challenge",
+      "summary": "Cardiovascular health is vital to human well-being, and cardiac magnetic resonance (CMR) imaging is considered the {clinical reference standard} for diagnosing cardiovascular disease. However, its adoption is hindered by long scan times, complex contrasts, and inconsistent quality. While deep learni…",
+      "authors": [
+        "Fanwen Wang",
+        "Zi Wang",
+        "Yan Li",
+        "Jun Lyu",
+        "Chen Qin"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "eess.IV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03971v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Enhancing Collective Intelligence in Large Language Models Through Emotional Integration",
+      "summary": "This research investigates the integration of emotional diversity into Large Language Models (LLMs) to enhance collective intelligence. Inspired by the human wisdom of crowds phenomenon, where group decisions often outperform individual judgments, we fine-tuned the DarkIdol-Llama-3.1-8B model using …",
+      "authors": [
+        "Likith Kadiyala",
+        "Ramteja Sajja",
+        "Yusuf Sermet",
+        "Ibrahim Demir"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CY",
+        "cs.HC",
+        "cs.MA"
+      ],
+      "url": "https://arxiv.org/abs/2503.04849v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Preliminary Report: Enhancing Role Differentiation in Conversational HCI Through Chromostereopsis",
+      "summary": "We propose leveraging chromostereopsis, a perceptual phenomenon inducing depth perception through color contrast, as a novel approach to visually differentiating conversational roles in text-based AI interfaces. This method aims to implicitly communicate role hierarchy and add a subtle sense of phys…",
+      "authors": [
+        "Matteo Grella"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.HC",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.03968v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "All-atom Diffusion Transformers: Unified generative modelling of molecules and materials",
+      "summary": "Diffusion models are the standard toolkit for generative modelling of 3D atomic systems. However, for different types of atomic systems -- such as molecules and materials -- the generative processes are usually highly specific to the target system despite the underlying physics being the same. We in…",
+      "authors": [
+        "Chaitanya K. Joshi",
+        "Xiang Fu",
+        "Yi-Lun Liao",
+        "Vahe Gharakhanyan",
+        "Benjamin Kurt Miller"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03965v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Generative Learning of Densities on Manifolds",
+      "summary": "A generative modeling framework is proposed that combines diffusion models and manifold learning to efficiently sample data densities on manifolds. The approach utilizes Diffusion Maps to uncover possible low-dimensional underlying (latent) spaces in the high-dimensional data (ambient) space. Two ap…",
+      "authors": [
+        "Dimitris G. Giovanis",
+        "Ellis Crabtree",
+        "Roger G. Ghanem",
+        "Ioannis G. Kevrekidis"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03963v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "On the Acquisition of Shared Grammatical Representations in Bilingual Language Models",
+      "summary": "Crosslingual transfer is crucial to contemporary language models' multilingual capabilities, but how it occurs is not well understood. We ask what happens to a monolingual language model when it begins to be trained on a second language. Specifically, we train small bilingual models for which we con…",
+      "authors": [
+        "Catherine Arnett",
+        "Tyler A. Chang",
+        "James A. Michaelov",
+        "Benjamin K. Bergen"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.03962v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "A Little Depth Goes a Long Way: The Expressive Power of Log-Depth Transformers",
+      "summary": "Recent theoretical results show transformers cannot express sequential reasoning problems over long inputs, intuitively because their computational depth is bounded. However, prior work treats the depth as a constant, leaving it unclear to what degree bounded depth may suffice for solving problems o…",
+      "authors": [
+        "William Merrill",
+        "Ashish Sabharwal"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.CC"
+      ],
+      "url": "https://arxiv.org/abs/2503.03961v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Performance Comparison of Large Language Models on Advanced Calculus Problems",
+      "summary": "This paper presents an in-depth analysis of the performance of seven different Large Language Models (LLMs) in solving a diverse set of math advanced calculus problems. The study aims to evaluate these models' accuracy, reliability, and problem-solving capabilities, including ChatGPT 4o, Gemini Adva…",
+      "authors": [
+        "In Hak Moon"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.03960v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Improving the Temporal Resolution of SOHO/MDI Magnetograms of Solar Active Regions Using a Deep Generative Model",
+      "summary": "We present a novel deep generative model, named GenMDI, to improve the temporal resolution of line-of-sight (LOS) magnetograms of solar active regions (ARs) collected by the Michelson Doppler Imager (MDI) on board the Solar and Heliospheric Observatory (SOHO). Unlike previous studies that focus prim…",
+      "authors": [
+        "Jialiang Li",
+        "Vasyl Yurchyshyn",
+        "Jason T. L. Wang",
+        "Haimin Wang",
+        "Yasser Abduallah"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "astro-ph.SR",
+        "astro-ph.IM",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03959v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Enhancing Autonomous Driving Safety with Collision Scenario Integration",
+      "summary": "Autonomous vehicle safety is crucial for the successful deployment of self-driving cars. However, most existing planning methods rely heavily on imitation learning, which limits their ability to leverage collision data effectively. Moreover, collecting collision or near-collision data is inherently …",
+      "authors": [
+        "Zi Wang",
+        "Shiyi Lan",
+        "Xinglong Sun",
+        "Nadine Chang",
+        "Zhenxin Li"
+      ],
+      "affiliations": [],
+      "primaryArea": "具身 / 机器人",
+      "tags": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03957v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Dyads: Artist-Centric, AI-Generated Dance Duets",
+      "summary": "Existing AI-generated dance methods primarily train on motion capture data from solo dance performances, but a critical feature of dance in nearly any genre is the interaction of two or more bodies in space. Moreover, many works at the intersection of AI and dance fail to incorporate the ideas and n…",
+      "authors": [
+        "Zixuan Wang",
+        "Luis Zerkowski",
+        "Ilya Vidrin",
+        "Mariel Pettee"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.CY"
+      ],
+      "url": "https://arxiv.org/abs/2503.03954v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "WIP: Assessing the Effectiveness of ChatGPT in Preparatory Testing Activities",
+      "summary": "This innovative practice WIP paper describes a research study that explores the integration of ChatGPT into the software testing curriculum and evaluates its effectiveness compared to human-generated testing artifacts. In a Capstone Project course, students were tasked with generating preparatory te…",
+      "authors": [
+        "Susmita Haldar",
+        "Mary Pierce",
+        "Luiz Fernando Capretz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03951v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Three tiers of computation in transformers and in brain architectures",
+      "summary": "Human language and logic abilities are computationally quantified within the well-studied grammar-automata hierarchy. We identify three hierarchical tiers and two corresponding transitions and show their correspondence to specific abilities in transformer-based language models (LMs). These emergent …",
+      "authors": [
+        "E Graham",
+        "R Granger"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.NE",
+        "q-bio.NC"
+      ],
+      "url": "https://arxiv.org/abs/2503.04848v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "COARSE: Collaborative Pseudo-Labeling with Coarse Real Labels for Off-Road Semantic Segmentation",
+      "summary": "Autonomous off-road navigation faces challenges due to diverse, unstructured environments, requiring robust perception with both geometric and semantic understanding. However, scarce densely labeled semantic data limits generalization across domains. Simulated data helps, but introduces domain adapt…",
+      "authors": [
+        "Aurelio Noca",
+        "Xianmei Lei",
+        "Jonathan Becktor",
+        "Jeffrey Edlund",
+        "Anna Sabel"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2503.03947v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Deep ARTMAP: Generalized Hierarchical Learning with Adaptive Resonance Theory",
+      "summary": "This paper presents Deep ARTMAP, a novel extension of the ARTMAP architecture that generalizes the self-consistent modular ART (SMART) architecture to enable hierarchical learning (supervised and unsupervised) across arbitrary transformations of data. The Deep ARTMAP framework operates as a divisive…",
+      "authors": [
+        "Niklas M. Melton",
+        "Leonardo Enzo Brito da Silva",
+        "Sasha Petrenko",
+        "Donald. C. Wunsch"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.AI",
+        "cs.NE"
+      ],
+      "url": "https://arxiv.org/abs/2503.07641v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "GuardDoor: Safeguarding Against Malicious Diffusion Editing via Protective Backdoors",
+      "summary": "The growing accessibility of diffusion models has revolutionized image editing but also raised significant concerns about unauthorized modifications, such as misinformation and plagiarism. Existing countermeasures largely rely on adversarial perturbations designed to disrupt diffusion model outputs.…",
+      "authors": [
+        "Yaopei Zeng",
+        "Yuanpu Cao",
+        "Lu Lin"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03944v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "BrainNet-MoE: Brain-Inspired Mixture-of-Experts Learning for Neurological Disease Identification",
+      "summary": "The Lewy body dementia (LBD) is the second most common neurodegenerative dementia after Alzheimer's disease (AD). Early differentiation between AD and LBD is crucial because they require different treatment approaches, but this is challenging due to significant clinical overlap, heterogeneity, compl…",
+      "authors": [
+        "Jing Zhang",
+        "Xiaowei Yu",
+        "Tong Chen",
+        "Chao Cao",
+        "Mingheng Chen"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.AI",
+        "q-bio.NC"
+      ],
+      "url": "https://arxiv.org/abs/2503.07640v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "SurgiSAM2: Fine-tuning a foundational model for surgical video anatomy segmentation and detection",
+      "summary": "Background: We evaluate SAM 2 for surgical scene understanding by examining its semantic segmentation capabilities for organs/tissues both in zero-shot scenarios and after fine-tuning. Methods: We utilized five public datasets to evaluate and fine-tune SAM 2 for segmenting anatomical tissues in surg…",
+      "authors": [
+        "Devanish N. Kamtam",
+        "Joseph B. Shrager",
+        "Satya Deepya Malla",
+        "Xiaohan Wang",
+        "Nicole Lin"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03942v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Passive Sonar Sensor Placement for Undersea Surveillance",
+      "summary": "Detection of undersea threats is a complex problem of considerable importance for maritime regional surveillance and security. Multistatic sonar systems can provide a means to monitor for underwater threats, where fixed sensors, towed arrays and dipping sonars may be utilised for this purpose. Howev…",
+      "authors": [
+        "Graham V. Weinberg",
+        "Martijn van der Merwe"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "eess.SP",
+        "eess.IV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03940v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Towards Resilient and Sustainable Global Industrial Systems: An Evolutionary-Based Approach",
+      "summary": "This paper presents a new complex optimization problem in the field of automatic design of advanced industrial systems and proposes a hybrid optimization approach to solve the problem. The problem is multi-objective as it aims at finding solutions that minimize CO2 emissions, transportation time, an…",
+      "authors": [
+        "Václav Jirkovský",
+        "Jiří Kubalík",
+        "Petr Kadera",
+        "Arnd Schirrmann",
+        "Andreas Mitschke"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.NE",
+        "cs.LG",
+        "math.OC"
+      ],
+      "url": "https://arxiv.org/abs/2503.11688v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "LLM-Powered Prediction of Hyperglycemia and Discovery of Behavioral Treatment Pathways from Wearables and Diet",
+      "summary": "Postprandial hyperglycemia, marked by the blood glucose level exceeding the normal range after consuming a meal, is a critical indicator of progression toward type 2 diabetes in people with prediabetes and in healthy individuals. A key metric for understanding blood glucose dynamics after eating is …",
+      "authors": [
+        "Abdullah Mamun",
+        "Asiful Arefeen",
+        "Susan B. Racette",
+        "Dorothy D. Sears",
+        "Corrie M. Whisner"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03935v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Tec-Habilidad: Skill Classification for Bridging Education and Employment",
+      "summary": "Job application and assessment processes have evolved significantly in recent years, largely due to advancements in technology and changes in the way companies operate. Skill extraction and classification remain an important component of the modern hiring process as it provides a more objective way …",
+      "authors": [
+        "Sabur Butt",
+        "Hector G. Ceballos",
+        "Diana P. Madera"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.03932v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "\"Impressively Scary:\" Exploring User Perceptions and Reactions to Unraveling Machine Learning Models in Social Media Applications",
+      "summary": "Machine learning models deployed locally on social media applications are used for features, such as face filters which read faces in-real time, and they expose sensitive attributes to the apps. However, the deployment of machine learning models, e.g., when, where, and how they are used, in social m…",
+      "authors": [
+        "Jack West",
+        "Bengisu Cagiltay",
+        "Shirley Zhang",
+        "Jingjie Li",
+        "Kassem Fawaz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.HC",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2503.03927v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "De-skilling, Cognitive Offloading, and Misplaced Responsibilities: Potential Ironies of AI-Assisted Design",
+      "summary": "The rapid adoption of generative AI (GenAI) in design has sparked discussions about its benefits and unintended consequences. While AI is often framed as a tool for enhancing productivity by automating routine tasks, historical research on automation warns of paradoxical effects, such as de-skilling…",
+      "authors": [
+        "Prakash Shukla",
+        "Phuong Bui",
+        "Sean S Levy",
+        "Max Kowalski",
+        "Ali Baigelenov"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03924v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Improved Robust Estimation for Erdős-Rényi Graphs: The Sparse Regime and Optimal Breakdown Point",
+      "summary": "We study the problem of robustly estimating the edge density of Erdős-Rényi random graphs $G(n, d^\\circ/n)$ when an adversary can arbitrarily add or remove edges incident to an $η$-fraction of the nodes. We develop the first polynomial-time algorithm for this problem that estimates $d^\\circ$ up to a…",
+      "authors": [
+        "Hongjie Chen",
+        "Jingqiu Ding",
+        "Yiding Hua",
+        "Stefan Tiegel"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.DS",
+        "stat.ML"
+      ],
+      "url": "https://arxiv.org/abs/2503.03923v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "CREStE: Scalable Mapless Navigation with Internet Scale Priors and Counterfactual Guidance",
+      "summary": "We introduce CREStE, a scalable learning-based mapless navigation framework to address the open-world generalization and robustness challenges of outdoor urban navigation. Key to achieving this is learning perceptual representations that generalize to open-set factors (e.g. novel semantic classes, t…",
+      "authors": [
+        "Arthur Zhang",
+        "Harshit Sikchi",
+        "Amy Zhang",
+        "Joydeep Biswas"
+      ],
+      "affiliations": [],
+      "primaryArea": "具身 / 机器人",
+      "tags": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03921v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Personalized Federated Fine-tuning for Heterogeneous Data: An Automatic Rank Learning Approach via Two-Level LoRA",
+      "summary": "We study the task of personalized federated fine-tuning with heterogeneous data in the context of language models, where clients collaboratively fine-tune a language model (e.g., BERT, GPT) without sharing their local data, achieving personalization simultaneously. While recent efforts have applied …",
+      "authors": [
+        "Jie Hao",
+        "Yuman Wu",
+        "Ali Payani",
+        "Myungjin Lee",
+        "Mingrui Liu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.03920v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Safe LLM-Controlled Robots with Formal Guarantees via Reachability Analysis",
+      "summary": "The deployment of Large Language Models (LLMs) in robotic systems presents unique safety challenges, particularly in unpredictable environments. Although LLMs, leveraging zero-shot learning, enhance human-robot interaction and decision-making capabilities, their inherent probabilistic nature and lac…",
+      "authors": [
+        "Ahmad Hafez",
+        "Alireza Naderi Akhormeh",
+        "Amr Hegazy",
+        "Amr Alanwar"
+      ],
+      "affiliations": [],
+      "primaryArea": "具身 / 机器人",
+      "tags": [
+        "cs.RO",
+        "cs.LG",
+        "eess.SY"
+      ],
+      "url": "https://arxiv.org/abs/2503.03911v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Multimodal Stock Price Prediction: A Case Study of the Russian Securities Market",
+      "summary": "Classical asset price forecasting methods primarily rely on numerical data, such as price time series, trading volumes, limit order book data, and technical analysis indicators. However, the news flow plays a significant role in price formation, making the development of multimodal approaches that c…",
+      "authors": [
+        "Kasymkhan Khubiev",
+        "Mikhail Semenov"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "q-fin.ST",
+        "cs.LG",
+        "q-fin.CP"
+      ],
+      "url": "https://arxiv.org/abs/2503.08696v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "On the Convergence of Adam-Type Algorithm for Bilevel Optimization under Unbounded Smoothness",
+      "summary": "Adam has become one of the most popular optimizers for training modern deep neural networks, such as transformers. However, its applicability is largely restricted to single-level optimization problems. In this paper, we aim to extend vanilla Adam to tackle bilevel optimization problems, which have …",
+      "authors": [
+        "Xiaochuan Gong",
+        "Jie Hao",
+        "Mingrui Liu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "math.OC"
+      ],
+      "url": "https://arxiv.org/abs/2503.03908v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Neural Descriptors: Self-Supervised Learning of Robust Local Surface Descriptors Using Polynomial Patches",
+      "summary": "Classical shape descriptors such as Heat Kernel Signature (HKS), Wave Kernel Signature (WKS), and Signature of Histograms of OrienTations (SHOT), while widely used in shape analysis, exhibit sensitivity to mesh connectivity, sampling patterns, and topological noise. While differential geometry offer…",
+      "authors": [
+        "Gal Yona",
+        "Roy Velich",
+        "Ron Kimmel",
+        "Ehud Rivlin"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03907v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "The Signed Two-Space Proximity Model for Learning Representations in Protein-Protein Interaction Networks",
+      "summary": "Accurately predicting complex protein-protein interactions (PPIs) is crucial for decoding biological processes, from cellular functioning to disease mechanisms. However, experimental methods for determining PPIs are computationally expensive. Thus, attention has been recently drawn to machine learni…",
+      "authors": [
+        "Nikolaos Nakis",
+        "Chrysoula Kosma",
+        "Anastasia Brativnyk",
+        "Michail Chatzianastasis",
+        "Iakovos Evdaimon"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "q-bio.MN"
+      ],
+      "url": "https://arxiv.org/abs/2503.03904v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "LensDFF: Language-enhanced Sparse Feature Distillation for Efficient Few-Shot Dexterous Manipulation",
+      "summary": "Learning dexterous manipulation from few-shot demonstrations is a significant yet challenging problem for advanced, human-like robotic systems. Dense distilled feature fields have addressed this challenge by distilling rich semantic features from 2D visual foundation models into the 3D domain. Howev…",
+      "authors": [
+        "Qian Feng",
+        "David S. Martinez Lema",
+        "Jianxiang Feng",
+        "Zhaopeng Chen",
+        "Alois Knoll"
+      ],
+      "affiliations": [],
+      "primaryArea": "具身 / 机器人",
+      "tags": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03890v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Pretrained LLMs as Real-Time Controllers for Robot Operated Serial Production Line",
+      "summary": "The manufacturing industry is undergoing a transformative shift, driven by cutting-edge technologies like 5G, AI, and cloud computing. Despite these advancements, effective system control, which is crucial for optimizing production efficiency, remains a complex challenge due to the intricate, knowle…",
+      "authors": [
+        "Muhammad Waseem",
+        "Kshitij Bhatta",
+        "Chen Li",
+        "Qing Chang"
+      ],
+      "affiliations": [],
+      "primaryArea": "具身 / 机器人",
+      "tags": [
+        "cs.RO",
+        "cs.LG",
+        "eess.SY"
+      ],
+      "url": "https://arxiv.org/abs/2503.03889v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Seldonian Reinforcement Learning for Ad Hoc Teamwork",
+      "summary": "Most offline RL algorithms return optimal policies but do not provide statistical guarantees on desirable behaviors. This could generate reliability issues in safety-critical applications, such as in some multiagent domains where agents, and possibly humans, need to interact to reach their goals wit…",
+      "authors": [
+        "Edoardo Zorzi",
+        "Alberto Castellini",
+        "Leonidas Bakopoulos",
+        "Georgios Chalkiadakis",
+        "Alessandro Farinelli"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03885v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Role of Databases in GenAI Applications",
+      "summary": "Generative AI (GenAI) is transforming industries by enabling intelligent content generation, automation, and decision-making. However, the effectiveness of GenAI applications depends significantly on efficient data storage, retrieval, and contextual augmentation. This paper explores the critical rol…",
+      "authors": [
+        "Santosh Bhupathi"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.DB",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.04847v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "IC-Mapper: Instance-Centric Spatio-Temporal Modeling for Online Vectorized Map Construction",
+      "summary": "Online vector map construction based on visual data can bypass the processes of data collection, post-processing, and manual annotation required by traditional map construction, which significantly enhances map-building efficiency. However, existing work treats the online mapping task as a local ran…",
+      "authors": [
+        "Jiangtong Zhu",
+        "Zhao Yang",
+        "Yinan Shi",
+        "Jianwu Fang",
+        "Jianru Xue"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03882v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "LEWIS (LayEr WIse Sparsity) -- A Training Free Guided Model Merging Approach",
+      "summary": "As specialized large language models (LLMs) become increasingly prevalent, model merging methods are being used to combine them to create a single multi-task model without requiring any additional data or training. However, these approaches fall short when the objective of merging is to increase the…",
+      "authors": [
+        "Hetarth Chopra",
+        "Vidhi Rambhia",
+        "Vikram Adve"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.CL",
+        "stat.ML"
+      ],
+      "url": "https://arxiv.org/abs/2503.03874v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Learning to Negotiate via Voluntary Commitment",
+      "summary": "The partial alignment and conflict of autonomous agents lead to mixed-motive scenarios in many real-world applications. However, agents may fail to cooperate in practice even when cooperation yields a better outcome. One well known reason for this failure comes from non-credible commitments. To faci…",
+      "authors": [
+        "Shuhui Zhu",
+        "Baoxiang Wang",
+        "Sriram Ganapathi Subramanian",
+        "Pascal Poupart"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.AI",
+        "cs.GT",
+        "cs.LG",
+        "cs.MA"
+      ],
+      "url": "https://arxiv.org/abs/2503.03866v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Not-Just-Scaling Laws: Towards a Better Understanding of the Downstream Impact of Language Model Design Decisions",
+      "summary": "Improvements in language model capabilities are often attributed to increasing model size or training data, but in some cases smaller models trained on curated data or with different architectural decisions can outperform larger ones trained on more tokens. What accounts for this? To quantify the im…",
+      "authors": [
+        "Emmy Liu",
+        "Amanda Bertsch",
+        "Lintang Sutawika",
+        "Lindia Tjuatja",
+        "Patrick Fernandes"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03862v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Vision-Language Models Struggle to Align Entities across Modalities",
+      "summary": "Cross-modal entity linking refers to the ability to align entities and their attributes across different modalities. While cross-modal entity linking is a fundamental skill needed for real-world applications such as multimodal code generation, fake news detection, or scene understanding, it has not …",
+      "authors": [
+        "Iñigo Alonso",
+        "Gorka Azkune",
+        "Ander Salaberria",
+        "Jeremy Barnes",
+        "Oier Lopez de Lacalle"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.03854v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Nexar Dashcam Collision Prediction Dataset and Challenge",
+      "summary": "This paper presents the Nexar Dashcam Collision Prediction Dataset and Challenge, designed to support research in traffic event analysis, collision prediction, and autonomous vehicle safety. The dataset consists of 1,500 annotated video clips, each approximately 40 seconds long, capturing a diverse …",
+      "authors": [
+        "Daniel C. Moura",
+        "Shizhan Zhu",
+        "Orly Zvitia"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03848v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Task-Agnostic Attacks Against Vision Foundation Models",
+      "summary": "The study of security in machine learning mainly focuses on downstream task-specific attacks, where the adversarial example is obtained by optimizing a loss function specific to the downstream task. At the same time, it has become standard practice for machine learning practitioners to adopt publicl…",
+      "authors": [
+        "Brian Pulfer",
+        "Yury Belousov",
+        "Vitaliy Kinakh",
+        "Teddy Furon",
+        "Slava Voloshynovskiy"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03842v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Market-based Architectures in RL and Beyond",
+      "summary": "Market-based agents refer to reinforcement learning agents which determine their actions based on an internal market of sub-agents. We introduce a new type of market-based algorithm where the state itself is factored into several axes called ``goods'', which allows for greater specialization and par…",
+      "authors": [
+        "Abhimanyu Pallavi Sudhir",
+        "Long Tran-Thanh"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.AI",
+        "econ.TH"
+      ],
+      "url": "https://arxiv.org/abs/2503.05828v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Decoupling the components of geometric understanding in Vision Language Models",
+      "summary": "Understanding geometry relies heavily on vision. In this work, we evaluate whether state-of-the-art vision language models (VLMs) can understand simple geometric concepts. We use a paradigm from cognitive science that isolates visual understanding of simple geometry from the many other capabilities …",
+      "authors": [
+        "Eliza Kosoy",
+        "Annya Dahmani",
+        "Andrew K. Lampinen",
+        "Iulia M. Comsa",
+        "Soojin Jeong"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03840v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "The optical and infrared are connected",
+      "summary": "Galaxies are often modelled as composites of separable components with distinct spectral signatures, implying that different wavelength ranges are only weakly correlated. They are not. We present a data-driven model which exploits subtle correlations between physical processes to accurately predict …",
+      "authors": [
+        "Christian K. Jespersen",
+        "Peter Melchior",
+        "David N. Spergel",
+        "Andy D. Goulding",
+        "ChangHoon Hahn"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "astro-ph.GA",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03816v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Non-Gaussianities in Collider Metric Binning",
+      "summary": "Metrics for rigorously defining a distance between two events have been used to study the properties of the dataspace manifold of particle collider physics. The probability distribution of pairwise distances on this dataspace is unique with probability 1, and so this suggests a method to search for …",
+      "authors": [
+        "Andrew J. Larkoski"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "hep-ph",
+        "cs.LG",
+        "hep-ex"
+      ],
+      "url": "https://arxiv.org/abs/2503.03809v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "GEN3C: 3D-Informed World-Consistent Video Generation with Precise Camera Control",
+      "summary": "We present GEN3C, a generative video model with precise Camera Control and temporal 3D Consistency. Prior video models already generate realistic videos, but they tend to leverage little 3D information, leading to inconsistencies, such as objects popping in and out of existence. Camera control, if i…",
+      "authors": [
+        "Xuanchi Ren",
+        "Tianchang Shen",
+        "Jiahui Huang",
+        "Huan Ling",
+        "Yifan Lu"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "url": "https://arxiv.org/abs/2503.03751v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "The MASK Benchmark: Disentangling Honesty From Accuracy in AI Systems",
+      "summary": "As large language models (LLMs) become more capable and agentic, the requirement for trust in their outputs grows significantly, yet at the same time concerns have been mounting that models may learn to lie in pursuit of their goals. To address these concerns, a body of work has emerged around the n…",
+      "authors": [
+        "Richard Ren",
+        "Arunim Agarwal",
+        "Mantas Mazeika",
+        "Cristina Menghini",
+        "Robert Vacareanu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "url": "https://arxiv.org/abs/2503.03750v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "PacketCLIP: Multi-Modal Embedding of Network Traffic and Language for Cybersecurity Reasoning",
+      "summary": "Traffic classification is vital for cybersecurity, yet encrypted traffic poses significant challenges. We present PacketCLIP, a multi-modal framework combining packet data with natural language semantics through contrastive pretraining and hierarchical Graph Neural Network (GNN) reasoning. PacketCLI…",
+      "authors": [
+        "Ryozo Masukawa",
+        "Sanggeon Yun",
+        "Sungheon Jeong",
+        "Wenjun Huang",
+        "Yang Ni"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03747v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Process-based Self-Rewarding Language Models",
+      "summary": "Large Language Models have demonstrated outstanding performance across various downstream tasks and have been widely applied in multiple scenarios. Human-annotated preference data is used for training to further improve LLMs' performance, which is constrained by the upper limit of human performance.…",
+      "authors": [
+        "Shimao Zhang",
+        "Xiao Liu",
+        "Xin Zhang",
+        "Junxiao Liu",
+        "Zheheng Luo"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03746v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Constrained Gaussian Wasserstein Optimal Transport with Commutative Covariance Matrices",
+      "summary": "Optimal transport has found widespread applications in signal processing and machine learning. Among its many equivalent formulations, optimal transport seeks to reconstruct a random variable/vector with a prescribed distribution at the destination while minimizing the expected distortion relative t…",
+      "authors": [
+        "Jun Chen",
+        "Jia Wang",
+        "Ruibin Li",
+        "Han Zhou",
+        "Wei Dong"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.IT",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03744v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "CHOP: Mobile Operating Assistant with Constrained High-frequency Optimized Subtask Planning",
+      "summary": "The advancement of visual language models (VLMs) has enhanced mobile device operations, allowing simulated human-like actions to address user requirements. Current VLM-based mobile operating assistants can be structured into three levels: task, subtask, and action. The subtask level, linking high-le…",
+      "authors": [
+        "Yuqi Zhou",
+        "Shuai Wang",
+        "Sunhao Dai",
+        "Qinglin Jia",
+        "Zhaocheng Du"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03743v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "EgoLife: Towards Egocentric Life Assistant",
+      "summary": "We introduce EgoLife, a project to develop an egocentric life assistant that accompanies and enhances personal efficiency through AI-powered wearable glasses. To lay the foundation for this assistant, we conducted a comprehensive data collection study where six participants lived together for one we…",
+      "authors": [
+        "Jingkang Yang",
+        "Shuai Liu",
+        "Hongming Guo",
+        "Yuhao Dong",
+        "Xiamengwei Zhang"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03803v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "RiskAgent: Synergizing Language Models with Validated Tools for Evidence-Based Risk Prediction",
+      "summary": "Large Language Models (LLMs) achieve competitive results compared to human experts in medical examinations. However, it remains a challenge to apply LLMs to complex clinical decision-making, which requires a deep understanding of medical knowledge and differs from the standardized, exam-style scenar…",
+      "authors": [
+        "Fenglin Liu",
+        "Jinge Wu",
+        "Hongjian Zhou",
+        "Xiao Gu",
+        "Jiayuan Zhu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "url": "https://arxiv.org/abs/2503.03802v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Opportunistic Routing in Wireless Communications via Learnable State-Augmented Policies",
+      "summary": "This paper addresses the challenge of packet-based information routing in large-scale wireless communication networks. The problem is framed as a constrained statistical learning task, where each network node operates using only local information. Opportunistic routing exploits the broadcast nature …",
+      "authors": [
+        "Sourajit Das",
+        "Kirtan Gopal Panda",
+        "Navid NaderiAlizadeh"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "eess.SP",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03736v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "OTTER: A Vision-Language-Action Model with Text-Aware Visual Feature Extraction",
+      "summary": "Vision-Language-Action (VLA) models aim to predict robotic actions based on visual observations and language instructions. Existing approaches require fine-tuning pre-trained visionlanguage models (VLMs) as visual and language features are independently fed into downstream policies, degrading the pr…",
+      "authors": [
+        "Huang Huang",
+        "Fangchen Liu",
+        "Letian Fu",
+        "Tingfan Wu",
+        "Mustafa Mukadam"
+      ],
+      "affiliations": [],
+      "primaryArea": "具身 / 机器人",
+      "tags": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03734v4",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Rethinking Deep Clustering Paradigms: Self-Supervision Is All You Need",
+      "summary": "The recent advances in deep clustering have been made possible by significant progress in self-supervised and pseudo-supervised learning. However, the trade-off between self-supervision and pseudo-supervision can give rise to three primary issues. The joint training causes Feature Randomness and Fea…",
+      "authors": [
+        "Amal Shaheena",
+        "Nairouz Mrabahb",
+        "Riadh Ksantinia",
+        "Abdulla Alqaddoumia"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03733v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Towards Understanding Distilled Reasoning Models: A Representational Approach",
+      "summary": "In this paper, we investigate how model distillation impacts the development of reasoning features in large language models (LLMs). To explore this, we train a crosscoder on Qwen-series models and their fine-tuned variants. Our results suggest that the crosscoder learns features corresponding to var…",
+      "authors": [
+        "David D. Baek",
+        "Max Tegmark"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03730v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Graph-Augmented LSTM for Forecasting Sparse Anomalies in Graph-Structured Time Series",
+      "summary": "Detecting anomalies in time series data is a critical task across many domains. The challenge intensifies when anomalies are sparse and the data are multivariate with relational dependencies across sensors or nodes. Traditional univariate anomaly detectors struggle to capture such cross-node depende…",
+      "authors": [
+        "Sneh Pillai"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03729v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Narrative Context Protocol: An Open-Source Storytelling Framework for Generative AI",
+      "summary": "Here we introduce Narrative Context Protocol (NCP), an open-source narrative standard designed to enable narrative interoperability, AI-driven authoring tools, real-time emergent narratives, and more. By encoding a story's structure in a \"Storyform,\" which is a structured register of its narrative f…",
+      "authors": [
+        "Hank Gerba"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.04844v5",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Active 6D Pose Estimation for Textureless Objects using Multi-View RGB Frames",
+      "summary": "Estimating the 6D pose of textureless objects from RGB images is an important problem in robotics. Due to appearance ambiguities, rotational symmetries, and severe occlusions, single-view based 6D pose estimators are still unable to handle a wide range of objects, motivating research towards multi-v…",
+      "authors": [
+        "Jun Yang",
+        "Wenjie Xue",
+        "Sahar Ghavidel",
+        "Steven L. Waslander"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2503.03726v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Deep Causal Behavioral Policy Learning: Applications to Healthcare",
+      "summary": "We present a deep learning-based approach to studying dynamic clinical behavioral regimes in diverse non-randomized healthcare settings. Our proposed methodology - deep causal behavioral policy learning (DC-BPL) - uses deep learning algorithms to learn the distribution of high-dimensional clinical a…",
+      "authors": [
+        "Jonas Knecht",
+        "Anna Zink",
+        "Jonathan Kolstad",
+        "Maya Petersen"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "stat.ML",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03724v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Machine Learning in Biomechanics: Key Applications and Limitations in Walking, Running, and Sports Movements",
+      "summary": "This chapter provides an overview of recent and promising Machine Learning applications, i.e. pose estimation, feature estimation, event detection, data exploration &amp; clustering, and automated classification, in gait (walking and running) and sports biomechanics. It explores the potential of Mac…",
+      "authors": [
+        "Carlo Dindorf",
+        "Fabian Horst",
+        "Djordje Slijepčević",
+        "Bernhard Dumphart",
+        "Jonas Dully"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03717v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Handling Uncertainty in Health Data using Generative Algorithms",
+      "summary": "Understanding and managing uncertainty is crucial in machine learning, especially in high-stakes domains like healthcare, where class imbalance can impact predictions. This paper introduces RIGA, a novel pipeline that mitigates class imbalance using generative AI. By converting tabular healthcare da…",
+      "authors": [
+        "Mahdi Arab Loodaricheh",
+        "Neh Majmudar",
+        "Anita Raja",
+        "Ansaf Salleb-Aouissi"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03715v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Improving LLM Safety Alignment with Dual-Objective Optimization",
+      "summary": "Existing training-time safety alignment techniques for large language models (LLMs) remain vulnerable to jailbreak attacks. Direct preference optimization (DPO), a widely deployed alignment method, exhibits limitations in both experimental and theoretical contexts as its loss function proves subopti…",
+      "authors": [
+        "Xuandong Zhao",
+        "Will Cai",
+        "Tianneng Shi",
+        "David Huang",
+        "Licong Lin"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03710v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Rethinking Video Tokenization: A Conditioned Diffusion-based Approach",
+      "summary": "Existing video tokenizers typically use the traditional Variational Autoencoder (VAE) architecture for video compression and reconstruction. However, to achieve good performance, its training process often relies on complex multi-stage training tricks that go beyond basic reconstruction loss and KL …",
+      "authors": [
+        "Nianzu Yang",
+        "Pandeng Li",
+        "Liming Zhao",
+        "Yang Li",
+        "Chen-Wei Xie"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03708v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Curating Demonstrations using Online Experience",
+      "summary": "Many robot demonstration datasets contain heterogeneous demonstrations of varying quality. This heterogeneity may benefit policy pre-training, but can hinder robot performance when used with a final imitation learning objective. In particular, some strategies in the data may be less reliable than ot…",
+      "authors": [
+        "Annie S. Chen",
+        "Alec M. Lessing",
+        "Yuejiang Liu",
+        "Chelsea Finn"
+      ],
+      "affiliations": [],
+      "primaryArea": "具身 / 机器人",
+      "tags": [
+        "cs.RO",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03707v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Enhancing LLM Knowledge Learning through Generalization",
+      "summary": "As Large language models (LLMs) are increasingly deployed in diverse applications, faithfully integrating evolving factual knowledge into these models remains a critical challenge. Continued pre-training on paraphrased data has shown empirical promise for enhancing knowledge acquisition. However, th…",
+      "authors": [
+        "Mingkang Zhu",
+        "Xi Chen",
+        "Zhongdao Wang",
+        "Bei Yu",
+        "Hengshuang Zhao"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03705v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Memory Injection Attacks on LLM Agents via Query-Only Interaction",
+      "summary": "Agents powered by large language models (LLMs) have demonstrated strong capabilities in a wide range of complex, real-world applications. However, LLM agents with a compromised memory bank may easily produce harmful outputs when the past records retrieved for demonstration are malicious. In this pap…",
+      "authors": [
+        "Shen Dong",
+        "Shaochen Xu",
+        "Pengfei He",
+        "Yige Li",
+        "Jiliang Tang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03704v5",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "SoftMatcha: A Soft and Fast Pattern Matcher for Billion-Scale Corpus Searches",
+      "summary": "Researchers and practitioners in natural language processing and computational linguistics frequently observe and analyze the real language usage in large-scale corpora. For that purpose, they often employ off-the-shelf pattern-matching tools, such as grep, and keyword-in-context concordancers, whic…",
+      "authors": [
+        "Hiroyuki Deguchi",
+        "Go Kamoda",
+        "Yusuke Matsushita",
+        "Chihiro Taguchi",
+        "Kohei Suenaga"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.03703v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Developing and Utilizing a Large-Scale Cantonese Dataset for Multi-Tasking in Large Language Models",
+      "summary": "High-quality data resources play a crucial role in learning large language models (LLMs), particularly for low-resource languages like Cantonese. Despite having more than 85 million native speakers, Cantonese is still considered a low-resource language in the field of natural language processing (NL…",
+      "authors": [
+        "Jiyue Jiang",
+        "Alfred Kar Yin Truong",
+        "Yanyu Chen",
+        "Qinghang Bao",
+        "Sheng Wang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.03702v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Self-Supervised Z-Slice Augmentation for 3D Bio-Imaging via Knowledge Distillation",
+      "summary": "Three-dimensional biological microscopy has significantly advanced our understanding of complex biological structures. However, limitations due to microscopy techniques, sample properties or phototoxicity often result in poor z-resolution, hindering accurate cellular measurements. Here, we introduce…",
+      "authors": [
+        "Alessandro Pasqui",
+        "Sajjad Mahdavi",
+        "Benoit Vianay",
+        "Alexandra Colin",
+        "Alex McDougall"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "eess.IV",
+        "q-bio.QM"
+      ],
+      "url": "https://arxiv.org/abs/2503.04843v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "ILLC: Iterative Layer-by-Layer Compression for Enhancing Structural Faithfulness in SpArX",
+      "summary": "In the field of Explainable Artificial Intelligence (XAI), argumentative XAI approaches have been proposed to represent the internal reasoning process of deep neural networks in a more transparent way by interpreting hidden nodes as arguements. However, as the number of layers increases, existing co…",
+      "authors": [
+        "Ungsik Kim"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03693v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Mixture of Experts Made Intrinsically Interpretable",
+      "summary": "Neurons in large language models often exhibit \\emph{polysemanticity}, simultaneously encoding multiple unrelated concepts and obscuring interpretability. Instead of relying on post-hoc methods, we present \\textbf{MoE-X}, a Mixture-of-Experts (MoE) language model designed to be \\emph{intrinsically} …",
+      "authors": [
+        "Xingyi Yang",
+        "Constantin Venhoff",
+        "Ashkan Khakzar",
+        "Christian Schroeder de Witt",
+        "Puneet K. Dokania"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.07639v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Replicating Human Social Perception in Generative AI: Evaluating the Valence-Dominance Model",
+      "summary": "As artificial intelligence (AI) continues to advance--particularly in generative models--an open question is whether these systems can replicate foundational models of human social perception. A well-established framework in social cognition suggests that social judgments are organized along two pri…",
+      "authors": [
+        "Necdet Gurkan",
+        "Kimathi Njoki",
+        "Jordan W. Suchow"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.04842v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "DualDiff+: Dual-Branch Diffusion for High-Fidelity Video Generation with Reward Guidance",
+      "summary": "Accurate and high-fidelity driving scene reconstruction demands the effective utilization of comprehensive scene information as conditional inputs. Existing methods predominantly rely on 3D bounding boxes and BEV road maps for foreground and background control, which fail to capture the full complex…",
+      "authors": [
+        "Zhao Yang",
+        "Zezhong Qian",
+        "Xiaofan Li",
+        "Weixiang Xu",
+        "Gongpeng Zhao"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03689v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "MAS-GPT: Training LLMs to Build LLM-based Multi-Agent Systems",
+      "summary": "LLM-based multi-agent systems (MAS) have shown significant potential in tackling diverse tasks. However, to design effective MAS, existing approaches heavily rely on manual configurations or multiple calls of advanced LLMs, resulting in inadaptability and high inference costs. In this paper, we simp…",
+      "authors": [
+        "Rui Ye",
+        "Shuo Tang",
+        "Rui Ge",
+        "Yaxin Du",
+        "Zhenfei Yin"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.MA"
+      ],
+      "url": "https://arxiv.org/abs/2503.03686v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Towards Trustworthy Federated Learning",
+      "summary": "This paper develops a comprehensive framework to address three critical trustworthy challenges in federated learning (FL): robustness against Byzantine attacks, fairness, and privacy preservation. To improve the system's defense against Byzantine attacks that send malicious information to bias the s…",
+      "authors": [
+        "Alina Basharat",
+        "Yijun Bian",
+        "Ping Xu",
+        "Zhi Tian"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.CR",
+        "cs.DC"
+      ],
+      "url": "https://arxiv.org/abs/2503.03684v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Quantification of Tenseness in English and Japanese Tense-Lax Vowels: A Lagrangian Model with Indicator θ1 and Force of Tenseness Ftense(t)",
+      "summary": "The concept of vowel tenseness has traditionally been examined through the binary distinction of tense and lax vowels. However, no universally accepted quantitative definition of tenseness has been established in any language. Previous studies, including those by Jakobson, Fant, and Halle (1951) and…",
+      "authors": [
+        "Tatsuya Ishizaki"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.SD",
+        "eess.AS"
+      ],
+      "url": "https://arxiv.org/abs/2503.03681v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Multi-Agent Systems Powered by Large Language Models: Applications in Swarm Intelligence",
+      "summary": "This work examines the integration of large language models (LLMs) into multi-agent simulations by replacing the hard-coded programs of agents with LLM-driven prompts. The proposed approach is showcased in the context of two examples of complex systems from the field of swarm intelligence: ant colon…",
+      "authors": [
+        "Cristian Jimenez-Romero",
+        "Alper Yegenoglu",
+        "Christian Blum"
+      ],
+      "affiliations": [],
+      "primaryArea": "智能体 & 工具调用",
+      "tags": [
+        "cs.MA",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03800v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Optimally Installing Strict Equilibria",
+      "summary": "In this work, we develop a reward design framework for installing a desired behavior as a strict equilibrium across standard solution concepts: dominant strategy equilibrium, Nash equilibrium, correlated equilibrium, and coarse correlated equilibrium. We also extend our framework to capture the Mark…",
+      "authors": [
+        "Jeremy McMahan",
+        "Young Wu",
+        "Yudong Chen",
+        "Xiaojin Zhu",
+        "Qiaomin Xie"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.GT",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03676v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Attentive Reasoning Queries: A Systematic Method for Optimizing Instruction-Following in Large Language Models",
+      "summary": "We present Attentive Reasoning Queries (ARQs), a novel structured reasoning approach that significantly improves instruction-following in Large Language Models through domain-specialized reasoning blueprints. While LLMs demonstrate remarkable capabilities across diverse tasks, they often fail to mai…",
+      "authors": [
+        "Bar Karov",
+        "Dor Zohar",
+        "Yam Marcovitz"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03669v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Framing the Game: How Context Shapes LLM Decision-Making",
+      "summary": "Large Language Models (LLMs) are increasingly deployed across diverse contexts to support decision-making. While existing evaluations effectively probe latent model capabilities, they often overlook the impact of context framing on perceived rational decision-making. In this study, we introduce a no…",
+      "authors": [
+        "Isaac Robinson",
+        "John Burden"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.GT"
+      ],
+      "url": "https://arxiv.org/abs/2503.04840v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Analogical Reasoning Inside Large Language Models: Concept Vectors and the Limits of Abstraction",
+      "summary": "Analogical reasoning relies on conceptual abstractions, but it is unclear whether Large Language Models (LLMs) harbor such internal representations. We explore distilled representations from LLM activations and find that function vectors (FVs; Todd et al., 2024) - compact representations for in-cont…",
+      "authors": [
+        "Gustaw Opiełka",
+        "Hannes Rosenbusch",
+        "Claire E. Stevenson"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03666v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "A Generative Approach to High Fidelity 3D Reconstruction from Text Data",
+      "summary": "The convergence of generative artificial intelligence and advanced computer vision technologies introduces a groundbreaking approach to transforming textual descriptions into three-dimensional representations. This research proposes a fully automated pipeline that seamlessly integrates text-to-image…",
+      "authors": [
+        "Venkat Kumar R",
+        "Deepak Saravanan"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03664v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "LION-FS: Fast &amp; Slow Video-Language Thinker as Online Video Assistant",
+      "summary": "First-person video assistants are highly anticipated to enhance our daily lives through online video dialogue. However, existing online video assistants often sacrifice assistant efficacy for real-time efficiency by processing low-frame-rate videos with coarse-grained visual features.To overcome the…",
+      "authors": [
+        "Wei Li",
+        "Bing Hu",
+        "Rui Shao",
+        "Leyang Shen",
+        "Liqiang Nie"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03663v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Chunking the Critic: A Transformer-based Soft Actor-Critic with N-Step Returns",
+      "summary": "We introduce a sequence-conditioned critic for Soft Actor--Critic (SAC) that models trajectory context with a lightweight Transformer and trains on aggregated $N$-step targets. Unlike prior approaches that (i) score state--action pairs in isolation or (ii) rely on actor-side action chunking to handl…",
+      "authors": [
+        "Dong Tian",
+        "Onur Celik",
+        "Gerhard Neumann"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03660v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Conformal prediction of future insurance claims in the regression problem",
+      "summary": "In the current insurance literature, prediction of insurance claims in the regression problem is often performed with a statistical model. This model-based approach may potentially suffer from several drawbacks: (i) model misspecification, (ii) selection effect, and (iii) lack of finite-sample valid…",
+      "authors": [
+        "Liang Hong"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "stat.ML",
+        "cs.LG",
+        "stat.AP"
+      ],
+      "url": "https://arxiv.org/abs/2503.03659v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Robust Learning of Diverse Code Edits",
+      "summary": "Software engineering activities frequently involve edits to existing code. However, contemporary code language models (LMs) lack the ability to handle diverse types of code-edit requirements. In this work, we attempt to overcome this shortcoming through (1) a novel synthetic data generation pipeline…",
+      "authors": [
+        "Tushar Aggarwal",
+        "Swayam Singh",
+        "Abhijeet Awasthi",
+        "Aditya Kanade",
+        "Nagarajan Natarajan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03656v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Improving 6D Object Pose Estimation of metallic Household and Industry Objects",
+      "summary": "6D object pose estimation suffers from reduced accuracy when applied to metallic objects. We set out to improve the state-of-the-art by addressing challenges such as reflections and specular highlights in industrial applications. Our novel BOP-compatible dataset, featuring a diverse set of metallic …",
+      "authors": [
+        "Thomas Pöllabauer",
+        "Michael Gasser",
+        "Tristan Wirth",
+        "Sarah Berkei",
+        "Volker Knauthe"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03655v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Advancing Multimodal In-Context Learning in Large Vision-Language Models with Task-aware Demonstrations",
+      "summary": "Multimodal in-context learning (ICL) has emerged as a key capability of Large Vision-Language Models (LVLMs), driven by their increasing scale and applicability. Despite its promise, effective ICL in the multimodal setting remains challenging due to the inherent complexity of image-text inputs and t…",
+      "authors": [
+        "Yanshu Li"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.04839v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Improving Neutral Point-of-View Generation with Data- and Parameter-Efficient RL",
+      "summary": "The paper shows that parameter-efficient reinforcement learning (PE-RL) is a highly effective training regime to improve large language models' (LLMs) ability to answer queries on sensitive topics with a Neutral Point of View (NPOV), i.e. to provide significantly more informative, diverse and impart…",
+      "authors": [
+        "Jessica Hoffmann",
+        "Christiane Ahlheim",
+        "Zac Yu",
+        "Aria Walfrand",
+        "Jarvis Jin"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03654v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Token-Level Privacy in Large Language Models",
+      "summary": "The use of language models as remote services requires transmitting private information to external providers, raising significant privacy concerns. This process not only risks exposing sensitive data to untrusted service providers but also leaves it vulnerable to interception by eavesdroppers. Exis…",
+      "authors": [
+        "Re'em Harel",
+        "Niv Gilboa",
+        "Yuval Pinter"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2503.03652v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "DoraCycle: Domain-Oriented Adaptation of Unified Generative Model in Multimodal Cycles",
+      "summary": "Adapting generative models to specific domains presents an effective solution for satisfying specialized requirements. However, adapting to some complex domains remains challenging, especially when these domains require substantial paired data to capture the targeted distributions. Since unpaired da…",
+      "authors": [
+        "Rui Zhao",
+        "Weijia Mao",
+        "Mike Zheng Shou"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03651v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Limits of nonlinear and dispersive fiber propagation for an optical fiber-based extreme learning machine",
+      "summary": "We report a generalized nonlinear Schrödinger equation simulation model of an extreme learning machine (ELM) based on optical fiber propagation. Using the MNIST handwritten digit dataset as a benchmark, we study how accuracy depends on propagation dynamics, as well as parameters governing spectral e…",
+      "authors": [
+        "Andrei V. Ermolaev",
+        "Mathilde Hary",
+        "Lev Leybov",
+        "Piotr Ryczkowski",
+        "Anas Skalli"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "physics.optics",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03649v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Psy-Copilot: Visual Chain of Thought for Counseling",
+      "summary": "Large language models (LLMs) are becoming increasingly popular in the field of psychological counseling. However, when human therapists work with LLMs in therapy sessions, it is hard to understand how the model gives the answers. To address this, we have constructed Psy-COT, a graph designed to visu…",
+      "authors": [
+        "Keqi Chen",
+        "Zekai Sun",
+        "Huijun Lian",
+        "Yingming Gao",
+        "Ya Li"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.03645v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "DongbaMIE: A Multimodal Information Extraction Dataset for Evaluating Semantic Understanding of Dongba Pictograms",
+      "summary": "Dongba pictographic is the only pictographic script still in use in the world. Its pictorial ideographic features carry rich cultural and contextual information. However, due to the lack of relevant datasets, research on semantic understanding of Dongba hieroglyphs has progressed slowly. To this end…",
+      "authors": [
+        "Xiaojun Bi",
+        "Shuo Li",
+        "Junyao Xing",
+        "Ziyue Wang",
+        "Fuwen Luo"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03644v4",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "An Adaptive Underwater Image Enhancement Framework via Multi-Domain Fusion and Color Compensation",
+      "summary": "Underwater optical imaging is severely degraded by light absorption, scattering, and color distortion, hindering visibility and accurate image analysis. This paper presents an adaptive enhancement framework integrating illumination compensation, multi-domain filtering, and dynamic color correction. …",
+      "authors": [
+        "Yuezhe Tian",
+        "Kangchen Yao",
+        "Xiaoyang Yu"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03640v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "L2RDaS: Synthesizing 4D Radar Tensors for Model Generalization via Dataset Expansion",
+      "summary": "4-dimensional (4D) radar is increasingly adopted in autonomous driving for perception tasks, owing to its robustness under adverse weather conditions. To better utilize the spatial information inherent in 4D radar data, recent deep learning methods have transitioned from using sparse point cloud to …",
+      "authors": [
+        "Woo-Jin Jung",
+        "Dong-Hee Paek",
+        "Seung-Hyun Kong"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "eess.IV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03637v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Feature Matching Intervention: Leveraging Observational Data for Causal Representation Learning",
+      "summary": "A major challenge in causal discovery from observational data is the absence of perfect interventions, making it difficult to distinguish causal features from spurious ones. We propose an innovative approach, Feature Matching Intervention (FMI), which uses a matching procedure to mimic perfect inter…",
+      "authors": [
+        "Haoze Li",
+        "Jun Xie"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "stat.ML",
+        "cs.LG",
+        "stat.ME"
+      ],
+      "url": "https://arxiv.org/abs/2503.03634v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "DeepGrav: Anomalous Gravitational-Wave Detection Through Deep Latent Features",
+      "summary": "This work introduces a novel deep learning-based approach for gravitational wave anomaly detection, aiming to overcome the limitations of traditional matched filtering techniques in identifying unknown waveform gravitational wave signals. We introduce a modified convolutional neural network architec…",
+      "authors": [
+        "Jianqi Yan",
+        "Alex P. Leung",
+        "Zhiyuan Pei",
+        "David C. Y. Hui",
+        "Sangin Kim"
+      ],
+      "affiliations": [
+        "The University of Hong Kong",
+        "Macau University of Science and Technology",
+        "Chungnam National University"
+      ],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "astro-ph.HE",
+        "gr-qc"
+      ],
+      "url": "https://arxiv.org/abs/2503.03799v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Deterministic Global Optimization of the Acquisition Function in Bayesian Optimization: To Do or Not To Do?",
+      "summary": "Bayesian Optimization (BO) with Gaussian Processes relies on optimizing an acquisition function to determine sampling. We investigate the advantages and disadvantages of using a deterministic global solver (MAiNGO) compared to conventional local and stochastic global solvers (L-BFGS-B and multi-star…",
+      "authors": [
+        "Anastasia Georgiou",
+        "Daniel Jungen",
+        "Luise Kaven",
+        "Verena Hunstig",
+        "Constantine Frangakis"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "math.OC",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03625v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "It's My Data Too: Private ML for Datasets with Multi-User Training Examples",
+      "summary": "We initiate a study of algorithms for model training with user-level differential privacy (DP), where each example may be attributed to multiple users, which we call the multi-attribution model. We first provide a carefully chosen definition of user-level DP under the multi-attribution model. Traini…",
+      "authors": [
+        "Arun Ganesh",
+        "Ryan McKenna",
+        "Brendan McMahan",
+        "Adam Smith",
+        "Fan Wu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03622v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "CLIP is Strong Enough to Fight Back: Test-time Counterattacks towards Zero-shot Adversarial Robustness of CLIP",
+      "summary": "Despite its prevalent use in image-text matching tasks in a zero-shot manner, CLIP has been shown to be highly vulnerable to adversarial perturbations added onto images. Recent studies propose to finetune the vision encoder of CLIP with adversarial samples generated on the fly, and show improved rob…",
+      "authors": [
+        "Songlong Xing",
+        "Zhengyu Zhao",
+        "Nicu Sebe"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03613v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Psy-Insight: Explainable Multi-turn Bilingual Dataset for Mental Health Counseling",
+      "summary": "The in-context learning capabilities of large language models (LLMs) show great potential in mental health support. However, the lack of counseling datasets, particularly in Chinese corpora, restricts their application in this field. To address this, we constructed Psy-Insight, the first mental heal…",
+      "authors": [
+        "Keqi Chen",
+        "Zekai Sun",
+        "Yuhua Wen",
+        "Huijun Lian",
+        "Yingming Gao"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.03607v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Decoupled Recommender Systems: Exploring Alternative Recommender Ecosystem Designs",
+      "summary": "Recommender ecosystems are an emerging subject of research. Such research examines how the characteristics of algorithms, recommendation consumers, and item providers influence system dynamics and long-term outcomes. One architectural possibility that has not yet been widely explored in this line of…",
+      "authors": [
+        "Anas Buhayh",
+        "Elizabeth McKinnie",
+        "Robin Burke"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.IR",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "url": "https://arxiv.org/abs/2503.03606v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Review of Machine Learning for Micro-Electronic Design Verification",
+      "summary": "Microelectronic design verification remains a critical bottleneck in device development, traditionally mitigated by expanding verification teams and computational resources. Since the late 1990s, machine learning (ML) has been proposed to enhance verification efficiency, yet many techniques have not…",
+      "authors": [
+        "Christopher Bennett",
+        "Kerstin Eder"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.AR",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.11687v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Feature-Level Insights into Artificial Text Detection with Sparse Autoencoders",
+      "summary": "Artificial Text Detection (ATD) is becoming increasingly important with the rise of advanced Large Language Models (LLMs). Despite numerous efforts, no single algorithm performs consistently well across different types of unseen text or guarantees effective generalization to new LLMs. Interpretabili…",
+      "authors": [
+        "Kristian Kuznetsov",
+        "Laida Kushnareva",
+        "Polina Druzhinina",
+        "Anton Razzhigaev",
+        "Anastasia Voznyuk"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.IT"
+      ],
+      "url": "https://arxiv.org/abs/2503.03601v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "REGRACE: A Robust and Efficient Graph-based Re-localization Algorithm using Consistency Evaluation",
+      "summary": "Loop closures are essential for correcting odometry drift and creating consistent maps, especially in the context of large-scale navigation. Current methods using dense point clouds for accurate place recognition do not scale well due to computationally expensive scan-to-scan comparisons. Alternativ…",
+      "authors": [
+        "Débora N. P. Oliveira",
+        "Joshua Knights",
+        "Sebastián Barbas Laina",
+        "Simon Boche",
+        "Wolfram Burgard"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2503.03599v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Towards Understanding Text Hallucination of Diffusion Models via Local Generation Bias",
+      "summary": "Score-based diffusion models have achieved incredible performance in generating realistic images, audio, and video data. While these models produce high-quality samples with impressive details, they often introduce unrealistic artifacts, such as distorted fingers or hallucinated texts with no meanin…",
+      "authors": [
+        "Rui Lu",
+        "Runzhe Wang",
+        "Kaifeng Lyu",
+        "Xitai Jiang",
+        "Gao Huang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03595v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Small but Mighty: Enhancing Time Series Forecasting with Lightweight LLMs",
+      "summary": "While LLMs have demonstrated remarkable potential in time series forecasting, their practical deployment remains constrained by excessive computational demands and memory footprints. Existing LLM-based approaches typically suffer from three critical limitations: Inefficient parameter utilization in …",
+      "authors": [
+        "Haoran Fan",
+        "Bin Li",
+        "Yixuan Weng",
+        "Shoujun Zhou"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03594v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "A Comparative Analysis of Generalised Echo and Interference Cancelling and Extended Multichannel Wiener Filtering for Combined Noise Reduction and Acoustic Echo Cancellation",
+      "summary": "Two algorithms for combined acoustic echo cancellation (AEC) and noise reduction (NR) are analysed, namely the generalised echo and interference canceller (GEIC) and the extended multichannel Wiener filter (MWFext). Previously, these algorithms have been examined for linear echo paths, and assuming …",
+      "authors": [
+        "Arnout Roebben",
+        "Toon van Waterschoot",
+        "Marc Moonen"
+      ],
+      "affiliations": [],
+      "primaryArea": "多模态",
+      "tags": [
+        "eess.AS",
+        "cs.SD"
+      ],
+      "url": "https://arxiv.org/abs/2503.03593v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "English K_Quantization of LLMs Does Not Disproportionately Diminish Multilingual Performance",
+      "summary": "For consumer usage of locally deployed LLMs, the GGUF format and k\\_quantization are invaluable tools for maintaining the performance of the original model while reducing it to sizes deployable with consumer-grade hardware. The number of bits dedicated to each weight from the original model is reduc…",
+      "authors": [
+        "Karl Audun Borgersen",
+        "Morten Goodwin"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03592v4",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "PowerAttention: Exponentially Scaling of Receptive Fields for Effective Sparse Attention",
+      "summary": "Large Language Models (LLMs) face efficiency bottlenecks due to the quadratic complexity of the attention mechanism when processing long contexts. Sparse attention methods offer a promising solution, but existing approaches often suffer from incomplete effective context and/or require complex implem…",
+      "authors": [
+        "Lida Chen",
+        "Dong Xu",
+        "Chenxin An",
+        "Xintao Wang",
+        "Yikai Zhang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03588v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Scaling Crowdsourced Election Monitoring: Construction and Evaluation of Classification Models for Multilingual and Cross-Domain Classification Settings",
+      "summary": "The adoption of crowdsourced election monitoring as a complementary alternative to traditional election monitoring is on the rise. Yet, its reliance on digital response volunteers to manually process incoming election reports poses a significant scaling bottleneck. In this paper, we address the chal…",
+      "authors": [
+        "Jabez Magomere",
+        "Scott Hale"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.03582v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "A Generative System for Robot-to-Human Handovers: from Intent Inference to Spatial Configuration Imagery",
+      "summary": "We propose a novel system for robot-to-human object handover that emulates human coworker interactions. Unlike most existing studies that focus primarily on grasping strategies and motion planning, our system focus on 1. inferring human handover intents, 2. imagining spatial handover configuration. …",
+      "authors": [
+        "Hanxin Zhang",
+        "Abdulqader Dhafer",
+        "Zhou Daniel Hao",
+        "Hongbiao Dong"
+      ],
+      "affiliations": [],
+      "primaryArea": "具身 / 机器人",
+      "tags": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03579v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Human Preferences for Constructive Interactions in Language Model Alignment",
+      "summary": "As large language models (LLMs) enter the mainstream, aligning them to foster constructive dialogue rather than exacerbate societal divisions is critical. Using an individualized and multicultural alignment dataset of over 7,500 conversations of individuals from 74 countries engaging with 21 LLMs, w…",
+      "authors": [
+        "Yara Kyrychenko",
+        "Jon Roozenbeek",
+        "Brandon Davidson",
+        "Sander van der Linden",
+        "Ramit Debnath"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.HC",
+        "cs.AI",
+        "cs.CL",
+        "cs.CY"
+      ],
+      "url": "https://arxiv.org/abs/2503.16480v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Optimal Decision Tree Pruning Revisited: Algorithms and Complexity",
+      "summary": "We present a comprehensive classical and parameterized complexity analysis of decision tree pruning operations, extending recent research on the complexity of learning small decision trees. Thereby, we offer new insights into the computational challenges of decision tree simplification, a crucial as…",
+      "authors": [
+        "Juha Harviainen",
+        "Frank Sommer",
+        "Manuel Sorge",
+        "Stefan Szeider"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03576v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Olympus: A Jumping Quadruped for Planetary Exploration Utilizing Reinforcement Learning for In-Flight Attitude Control",
+      "summary": "Exploring planetary bodies with lower gravity, such as the moon and Mars, allows legged robots to utilize jumping as an efficient form of locomotion thus giving them a valuable advantage over traditional rovers for exploration. Motivated by this fact, this paper presents the design, simulation, and …",
+      "authors": [
+        "Jørgen Anker Olsen",
+        "Grzegorz Malczyk",
+        "Kostas Alexis"
+      ],
+      "affiliations": [],
+      "primaryArea": "具身 / 机器人",
+      "tags": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03574v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Domain Consistent Industrial Decarbonisation of Global Coal Power Plants",
+      "summary": "Machine learning and optimisation techniques (MLOPT) hold significant potential to accelerate the decarbonisation of industrial systems by enabling data-driven operational improvements. However, the practical application of MLOPT in industrial settings is often hindered by a lack of domain complianc…",
+      "authors": [
+        "Waqar Muhammad Ashraf",
+        "Vivek Dua",
+        "Ramit Debnath"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG",
+        "eess.SY"
+      ],
+      "url": "https://arxiv.org/abs/2503.03571v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Probabilistic Insights for Efficient Exploration Strategies in Reinforcement Learning",
+      "summary": "We investigate efficient exploration strategies of environments with unknown stochastic dynamics and sparse rewards. Specifically, we analyze first the impact of parallel simulations on the probability of reaching rare states within a finite time budget. Using simplified models based on random walks…",
+      "authors": [
+        "Ernesto Garcia",
+        "Paola Bermolen",
+        "Matthieu Jonckheere",
+        "Seva Shneer"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "math.PR",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03565v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "VoiceGRPO: Modern MoE Transformers with Group Relative Policy Optimization GRPO for AI Voice Health Care Applications on Voice Pathology Detection",
+      "summary": "This research introduces a novel AI techniques as Mixture-of-Experts Transformers with Group Relative Policy Optimization (GRPO) for voice health care applications on voice pathology detection. With the architectural innovations, we adopt advanced training paradigms inspired by reinforcement learnin…",
+      "authors": [
+        "Enkhtogtokh Togootogtokh",
+        "Christian Klasen"
+      ],
+      "affiliations": [],
+      "primaryArea": "多模态",
+      "tags": [
+        "cs.SD",
+        "cs.AI",
+        "eess.AS"
+      ],
+      "url": "https://arxiv.org/abs/2503.03797v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "A Conceptual Model for Attributions in Event-Centric Knowledge Graphs",
+      "summary": "The use of narratives as a means of fusing information from knowledge graphs (KGs) into a coherent line of argumentation has been the subject of recent investigation. Narratives are especially useful in event-centric knowledge graphs in that they provide a means to connect different real-world event…",
+      "authors": [
+        "Florian Plötzky",
+        "Katarina Britz",
+        "Wolf-Tilo Balke"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.DB",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03563v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Combined Physics and Event Camera Simulator for Slip Detection",
+      "summary": "Robot manipulation is a common task in fields like industrial manufacturing. Detecting when objects slip from a robot's grasp is crucial for safe and reliable operation. Event cameras, which register pixel-level brightness changes at high temporal resolution (called ``events''), offer an elegant fea…",
+      "authors": [
+        "Thilo Reinold",
+        "Suman Ghosh",
+        "Guillermo Gallego"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2503.04838v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "FedPalm: A General Federated Learning Framework for Closed- and Open-Set Palmprint Verification",
+      "summary": "Current deep learning (DL)-based palmprint verification models rely on centralized training with large datasets, which raises significant privacy concerns due to biometric data's sensitive and immutable nature. Federated learning~(FL), a privacy-preserving distributed learning paradigm, offers a com…",
+      "authors": [
+        "Ziyuan Yang",
+        "Yingyu Chen",
+        "Chengrui Gao",
+        "Andrew Beng Jin Teoh",
+        "Bob Zhang"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "url": "https://arxiv.org/abs/2503.04837v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Towards Visual Discrimination and Reasoning of Real-World Physical Dynamics: Physics-Grounded Anomaly Detection",
+      "summary": "Humans detect real-world object anomalies by perceiving, interacting, and reasoning based on object-conditioned physical knowledge. The long-term goal of Industrial Anomaly Detection (IAD) is to enable machines to autonomously replicate this skill. However, current IAD algorithms are largely develop…",
+      "authors": [
+        "Wenqiao Li",
+        "Yao Gu",
+        "Xintao Chen",
+        "Xiaohao Xu",
+        "Ming Hu"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03562v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Transformer-Based Power Optimization for Max-Min Fairness in Cell-Free Massive MIMO",
+      "summary": "Power allocation is an important task in wireless communication networks. Classical optimization algorithms and deep learning methods, while effective in small and static scenarios, become either computationally demanding or unsuitable for large and dynamic networks with varying user loads. This let…",
+      "authors": [
+        "Irched Chafaa",
+        "Giacomo Bacci",
+        "Luca Sanguinetti"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "eess.SY",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03561v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "High-Quality Virtual Single-Viewpoint Surgical Video: Geometric Autocalibration of Multiple Cameras in Surgical Lights",
+      "summary": "Occlusion-free video generation is challenging due to surgeons' obstructions in the camera field of view. Prior work has addressed this issue by installing multiple cameras on a surgical light, hoping some cameras will observe the surgical field with less occlusion. However, this special camera setu…",
+      "authors": [
+        "Yuna Kato",
+        "Mariko Isogawa",
+        "Shohei Mori",
+        "Hideo Saito",
+        "Hiroki Kajita"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03558v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Afford-X: Generalizable and Slim Affordance Reasoning for Task-oriented Manipulation",
+      "summary": "Object affordance reasoning, the ability to infer object functionalities based on physical properties, is fundamental for task-oriented planning and activities in both humans and Artificial Intelligence (AI). This capability, required for planning and executing daily activities in a task-oriented ma…",
+      "authors": [
+        "Xiaomeng Zhu",
+        "Yuyang Li",
+        "Leiyao Cui",
+        "Pengfei Li",
+        "Huan-ang Gao"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2503.03556v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "PGAD: Prototype-Guided Adaptive Distillation for Multi-Modal Learning in AD Diagnosis",
+      "summary": "Missing modalities pose a major issue in Alzheimer's Disease (AD) diagnosis, as many subjects lack full imaging data due to cost and clinical constraints. While multi-modal learning leverages complementary information, most existing methods train only on complete data, ignoring the large proportion …",
+      "authors": [
+        "Yanfei Li",
+        "Teng Yin",
+        "Wenyi Shang",
+        "Jingyu Liu",
+        "Xi Wang"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "eess.IV",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.04836v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Distilling Dataset into Neural Field",
+      "summary": "Utilizing a large-scale dataset is essential for training high-performance deep learning models, but it also comes with substantial computation and storage costs. To overcome these challenges, dataset distillation has emerged as a promising solution by compressing the large-scale dataset into a smal…",
+      "authors": [
+        "Donghyeok Shin",
+        "HeeSun Bae",
+        "Gyuwon Sim",
+        "Wanmo Kang",
+        "Il-Chul Moon"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.04835v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Human Implicit Preference-Based Policy Fine-tuning for Multi-Agent Reinforcement Learning in USV Swarm",
+      "summary": "Multi-Agent Reinforcement Learning (MARL) has shown promise in solving complex problems involving cooperation and competition among agents, such as an Unmanned Surface Vehicle (USV) swarm used in search and rescue, surveillance, and vessel protection. However, aligning system behavior with user pref…",
+      "authors": [
+        "Hyeonjun Kim",
+        "Kanghoon Lee",
+        "Junho Park",
+        "Jiachen Li",
+        "Jinkyoo Park"
+      ],
+      "affiliations": [],
+      "primaryArea": "智能体 & 工具调用",
+      "tags": [
+        "cs.MA",
+        "cs.AI",
+        "cs.LG",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2503.03796v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Simulation-Based Performance Evaluation of 3D Object Detection Methods with Deep Learning for a LiDAR Point Cloud Dataset in a SOTIF-related Use Case",
+      "summary": "Safety of the Intended Functionality (SOTIF) addresses sensor performance limitations and deep learning-based object detection insufficiencies to ensure the intended functionality of Automated Driving Systems (ADS). This paper presents a methodology examining the adaptability and performance evaluat…",
+      "authors": [
+        "Milin Patel",
+        "Rolf Jung"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.LG",
+        "eess.SY"
+      ],
+      "url": "https://arxiv.org/abs/2503.03548v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Intermediate Domain-guided Adaptation for Unsupervised Chorioallantoic Membrane Vessel Segmentation",
+      "summary": "The chorioallantoic membrane (CAM) model is a widely used in vivo platform for studying angiogenesis, especially in relation to tumor growth, drug delivery, and vascular biology.Since the topology and morphology of developing blood vessels is a key evaluation metric, accurate vessel segmentation is …",
+      "authors": [
+        "Pengwu Song",
+        "Zhiping Wang",
+        "Peng Yao",
+        "Liang Xu",
+        "Shuwei Shen"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "eess.IV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03546v4",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Joint Group Profiling and Recommendation via Deep Neural Network-based Multi-Task Learning",
+      "summary": "Group recommender systems aim to generate recommendations that align with the collective preferences of a group, introducing challenges that differ significantly from those in individual recommendation scenarios. This paper presents Joint Group Profiling and Recommendation via Deep Neural Network-ba…",
+      "authors": [
+        "Ngoc Luyen Le",
+        "Marie-Hélène Abel"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.IR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2504.06274v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Revisiting the Role of Relearning in Semantic Dementia",
+      "summary": "Patients with semantic dementia (SD) present with remarkably consistent atrophy of neurons in the anterior temporal lobe and behavioural impairments, such as graded loss of category knowledge. While relearning of lost knowledge has been shown in acute brain injuries such as stroke, it has not been w…",
+      "authors": [
+        "Devon Jarvis",
+        "Verena Klar",
+        "Richard Klein",
+        "Benjamin Rosman",
+        "Andrew Saxe"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03545v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Extrapolation Merging: Keep Improving With Extrapolation and Merging",
+      "summary": "Large Language Models (LLMs) require instruction fine-tuning to perform different downstream tasks. However, the instruction fine-tuning phase still demands significant computational resources and labeled data, lacking a paradigm that can improve model performance without additional computational po…",
+      "authors": [
+        "Yiguan Lin",
+        "Bin Xu",
+        "Yinghao Li",
+        "Yang Gao"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.04834v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "A self-supervised cyclic neural-analytic approach for novel view synthesis and 3D reconstruction",
+      "summary": "Generating novel views from recorded videos is crucial for enabling autonomous UAV navigation. Recent advancements in neural rendering have facilitated the rapid development of methods capable of rendering new trajectories. However, these methods often fail to generalize well to regions far from the…",
+      "authors": [
+        "Dragos Costea",
+        "Alina Marcu",
+        "Marius Leordeanu"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03543v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "A Criterion for Extending Continuous-Mixture Identifiability Results",
+      "summary": "Mixture distributions provide a versatile and widely used framework for modeling random phenomena, and are particularly well-suited to the analysis of geoscientific processes and their attendant risks to society. For continuous mixtures of random variables, we specify a simple criterion - generating…",
+      "authors": [
+        "Michael R. Powers",
+        "Jiaxin Xu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "stat.ML",
+        "math.PR",
+        "stat.AP"
+      ],
+      "url": "https://arxiv.org/abs/2503.03536v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Unified Human Localization and Trajectory Prediction with Monocular Vision",
+      "summary": "Conventional human trajectory prediction models rely on clean curated data, requiring specialized equipment or manual labeling, which is often impractical for robotic applications. The existing predictors tend to overfit to clean observation affecting their robustness when used with noisy inputs. In…",
+      "authors": [
+        "Po-Chien Luan",
+        "Yang Gao",
+        "Celine Demonsant",
+        "Alexandre Alahi"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "url": "https://arxiv.org/abs/2503.03535v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "AI-Enabled Conversational Journaling for Advancing Parkinson's Disease Symptom Tracking",
+      "summary": "Journaling plays a crucial role in managing chronic conditions by allowing patients to document symptoms and medication intake, providing essential data for long-term care. While valuable, traditional journaling methods often rely on static, self-directed entries, lacking interactive feedback and re…",
+      "authors": [
+        "Mashrur Rashik",
+        "Shilpa Sweth",
+        "Nishtha Agrawal",
+        "Saiyyam Kochar",
+        "Kara M Smith"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03532v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "E$^2$AT: Multimodal Jailbreak Defense via Dynamic Joint Optimization for Multimodal Large Language Models",
+      "summary": "Research endeavors have been made in learning robust Multimodal Large Language Models (MLLMs) against jailbreak attacks. However, existing methods for improving MLLMs' robustness still face critical challenges: \\ding{172} how to efficiently tune massive weight parameters and \\ding{173} how to ensure…",
+      "authors": [
+        "Liming Lu",
+        "Xiang Gu",
+        "Shuchao Pang",
+        "Siyuan Liang",
+        "Haotian Zhu"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.04833v3",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "AdaSin: Enhancing Hard Sample Metrics with Dual Adaptive Penalty for Face Recognition",
+      "summary": "In recent years, the emergence of deep convolutional neural networks has positioned face recognition as a prominent research focus in computer vision. Traditional loss functions, such as margin-based, hard-sample mining-based, and hybrid approaches, have achieved notable performance improvements, wi…",
+      "authors": [
+        "Qiqi Guo",
+        "Zhuowen Zheng",
+        "Guanghua Yang",
+        "Zhiquan Liu",
+        "Xiaofan Li"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "url": "https://arxiv.org/abs/2503.03528v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Intrinsic and Extrinsic Factor Disentanglement for Recommendation in Various Context Scenarios",
+      "summary": "In recommender systems, the patterns of user behaviors (e.g., purchase, click) may vary greatly in different contexts (e.g., time and location). This is because user behavior is jointly determined by two types of factors: intrinsic factors, which reflect consistent user preference, and extrinsic fac…",
+      "authors": [
+        "Yixin Su",
+        "Wei Jiang",
+        "Fangquan Lin",
+        "Cheng Yang",
+        "Sarah M. Erfani"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.IR",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03524v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "O-RAN xApps Conflict Management using Graph Convolutional Networks",
+      "summary": "The lack of a unified mechanism to coordinate and prioritize the actions of different applications can create three types of conflicts (direct, indirect, and implicit). Conflict management in O-RAN refers to the process of identifying and resolving conflicts between network applications. In our pape…",
+      "authors": [
+        "Maryam Al Shami",
+        "Jun Yan",
+        "Emmanuel Thepie Fapi"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [
+        "cs.NI",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03523v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "Do ImageNet-trained models learn shortcuts? The impact of frequency shortcuts on generalization",
+      "summary": "Frequency shortcuts refer to specific frequency patterns that models heavily rely on for correct classification. Previous studies have shown that models trained on small image datasets often exploit such shortcuts, potentially impairing their generalization performance. However, existing methods for…",
+      "authors": [
+        "Shunxin Wang",
+        "Raymond Veldhuis",
+        "Nicola Strisciuglio"
+      ],
+      "affiliations": [],
+      "primaryArea": "视觉 & 生成图像",
+      "tags": [
+        "cs.CV"
+      ],
+      "url": "https://arxiv.org/abs/2503.03519v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "DO-IQS: Dynamics-Aware Offline Inverse Q-Learning for Optimal Stopping with Unknown Gain Functions",
+      "summary": "We consider the Inverse Optimal Stopping (IOS) problem where, based on stopped expert trajectories, one aims to recover the optimal stopping region through the continuation and stopping gain functions approximation. The uniqueness of the stopping region allows the use of IOS in real-world applicatio…",
+      "authors": [
+        "Anna Kuchko"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "stat.ML",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03515v2",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "paper",
+      "title": "An Aspect Extraction Framework using Different Embedding Types, Learning Models, and Dependency Structure",
+      "summary": "Aspect-based sentiment analysis has gained significant attention in recent years due to its ability to provide fine-grained insights for sentiment expressions related to specific features of entities. An important component of aspect-based sentiment analysis is aspect extraction, which involves iden…",
+      "authors": [
+        "Ali Erkan",
+        "Tunga Güngör"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL",
+        "cs.LG"
+      ],
+      "url": "https://arxiv.org/abs/2503.03512v1",
+      "source": "arXiv",
+      "publishedAt": "2025-03-05"
+    },
+    {
+      "type": "news",
+      "title": "Is the Pentagon allowed to surveil Americans with AI?",
+      "summary": "The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question: Does the law actually allow the US government to conduct mass surveillance on Americans? Surprisingly, the answer is not straightforward. More than a decade after E…",
+      "authors": [
+        "Michelle Kim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-06"
+    },
+    {
+      "type": "news",
+      "title": "Online harassment is entering its AI era",
+      "summary": "Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library that he helps manage. Like many open-source projects, matplotlib has been overwhelmed by a glut of AI code contributions, and so Shambaugh and his fellow maintainers have institute…",
+      "authors": [
+        "Grace Huckins"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-05"
+    },
+    {
+      "type": "news",
+      "title": "Bridging the operational AI gap",
+      "summary": "The transformational potential of AI is already well established. Enterprise use cases are building momentum and organizations are transitioning from pilot projects to AI in production. Companies are no longer just talking about AI; they are redirecting budgets and resources to make it happen. Many …",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/04/1133642/bridging-the-operational-ai-gap/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-04"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI’s “compromise” with the Pentagon is what Anthropic feared",
+      "summary": "On February 28, OpenAI announced it had reached a deal that will allow the US military to use its technologies in classified settings. CEO Sam Altman said the negotiations, which the company began pursuing only after the Pentagon’s public reprimand of Anthropic, were “definitely rushed.” In its anno…",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/02/1133850/openais-compromise-with-the-pentagon-is-what-anthropic-feared/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-02"
+    },
+    {
+      "type": "news",
+      "title": "I checked out one of the biggest anti-AI protests yet",
+      "summary": "Pull the plug! Pull the plug! Stop the slop! Stop the slop! For a few hours this Saturday, February 28, I watched as a couple of hundred anti-AI protesters marched through London’s King’s Cross tech hub, home to the UK headquarters of OpenAI, Meta, and Google DeepMind, chanting slogans and waving si…",
+      "authors": [
+        "Will Douglas Heaven"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/02/1133814/i-checked-out-londons-biggest-ever-anti-ai-protest/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-02"
+    },
+    {
+      "type": "news",
+      "title": "AI is rewiring how the world’s best Go players think",
+      "summary": "Burrowed in the alleys of Hongik-dong, a hushed residential neighborhood in eastern Seoul, is a faded stone-tiled building stamped “Korea Baduk Association,” the governing body for professional Go. The game is an ancient one, with sacred stature in South Korea. But inside the building, rooms once fi…",
+      "authors": [
+        "Michelle Kim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/02/27/1133624/ai-is-rewiring-how-the-worlds-best-go-players-think/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-02-27"
+    },
+    {
+      "type": "news",
+      "title": "Finding value with AI and Industry 5.0 transformation",
+      "summary": "For years, Industry 4.0 transformation has centered on the convergence of intelligent technologies like AI, cloud, the internet of things, robotics, and digital twins. Industry 5.0 marks a pivotal shift from integrating emerging technologies to orchestrating them at scale. With Industry 5.0, the pur…",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/02/26/1133707/finding-value-with-ai-and-industry-5-0-transformation/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-02-26"
+    },
+    {
+      "type": "news",
+      "title": "The human work behind humanoid robots is being hidden",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. In January, Nvidia’s Jensen Huang, the head of the world’s most valuable company, proclaimed that we are entering the era of physical AI, when artificial intellig…",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/02/23/1133508/the-human-work-behind-humanoid-robots-is-being-hidden/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-02-23"
+    },
+    {
+      "type": "news",
+      "title": "Microsoft has a new plan to prove what’s real and what’s AI online",
+      "summary": "AI-enabled deception now permeates our online lives. There are the high-profile cases you may easily spot, like when White House officials recently shared a manipulated image of a protester in Minnesota and then mocked those asking about it. Other times, it slips quietly into social media feeds and …",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/02/19/1133360/microsoft-has-a-new-plan-to-prove-whats-real-and-whats-ai-online/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-02-19"
+    },
+    {
+      "type": "news",
+      "title": "Google DeepMind wants to know if chatbots are just virtue signaling",
+      "summary": "Google DeepMind is calling for the moral behavior of large language models—such as what they do when called on to act as companions, therapists, medical advisors, and so on—to be scrutinized with the same kind of rigor as their ability to code or do math. As LLMs improve, people are asking them to p…",
+      "authors": [
+        "Will Douglas Heaven"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/02/18/1133299/google-deepmind-wants-to-know-if-chatbots-are-just-virtue-signaling/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-02-18"
+    },
+    {
+      "type": "news",
+      "title": "Railway secures $100 million to challenge AWS with AI-native cloud infrastructure",
+      "summary": "Railway, a San Francisco-based cloud platform that has quietly amassed two million developers without spending a dollar on marketing, announced Thursday that it raised $100 million in a Series B funding round, as surging demand for artificial intelligence applications exposes the limitations of lega…",
+      "authors": [
+        "michael.nunez@venturebeat.com (Michael Nuñez)"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://venturebeat.com/infrastructure/railway-secures-usd100-million-to-challenge-aws-with-ai-native-cloud",
+      "source": "AI | VentureBeat",
+      "publishedAt": "2026-01-22"
+    },
+    {
+      "type": "news",
+      "title": "Claude Code costs up to $200 a month. Goose does the same thing for free.",
+      "summary": "The artificial intelligence coding revolution comes with a catch: it's expensive. Claude Code, Anthropic's terminal-based AI agent that can write, debug, and deploy code autonomously, has captured the imagination of software developers worldwide. But its pricing — ranging from $20 to $200 per month …",
+      "authors": [
+        "michael.nunez@venturebeat.com (Michael Nuñez)"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://venturebeat.com/infrastructure/claude-code-costs-up-to-usd200-a-month-goose-does-the-same-thing-for-free",
+      "source": "AI | VentureBeat",
+      "publishedAt": "2026-01-19"
+    },
+    {
+      "type": "news",
+      "title": "Listen Labs raises $69M after viral billboard hiring stunt to scale AI customer interviews",
+      "summary": "Alfred Wahlforss was running out of options. His startup, Listen Labs, needed to hire over 100 engineers, but competing against Mark Zuckerberg's $100 million offers seemed impossible. So he spent $5,000 — a fifth of his marketing budget — on a billboard in San Francisco displaying what looked like …",
+      "authors": [
+        "michael.nunez@venturebeat.com (Michael Nuñez)"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://venturebeat.com/technology/listen-labs-raises-usd69m-after-viral-billboard-hiring-stunt-to-scale-ai",
+      "source": "AI | VentureBeat",
+      "publishedAt": "2026-01-16"
+    },
+    {
+      "type": "news",
+      "title": "Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI",
+      "summary": "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company's workplace assistant, transforming it from a simple notification tool into what executives describe as a fully powered AI agent capable of searching enterprise data, drafting documents, and taking action on behalf o…",
+      "authors": [
+        "michael.nunez@venturebeat.com (Michael Nuñez)"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and",
+      "source": "AI | VentureBeat",
+      "publishedAt": "2026-01-13"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic launches Cowork, a Claude Desktop agent that works in your files — no coding required",
+      "summary": "Anthropic released Cowork on Monday, a new AI agent capability that extends the power of its wildly successful Claude Code tool to non-technical users — and according to company insiders, the team built the entire feature in approximately a week and a half, largely using Claude Code itself. The laun…",
+      "authors": [
+        "michael.nunez@venturebeat.com (Michael Nuñez)"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://venturebeat.com/technology/anthropic-launches-cowork-a-claude-desktop-agent-that-works-in-your-files-no",
+      "source": "AI | VentureBeat",
+      "publishedAt": "2026-01-12"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-03-06",
+  "items": [
+    {
+      "type": "news",
+      "title": "Is the Pentagon allowed to surveil Americans with AI?",
+      "summary": "The ongoing public feud between the Department of Defense and the AI company Anthropic has raised a deep and still unanswered question: Does the law actually allow the US government to conduct mass surveillance on Americans? Surprisingly, the answer is not straightforward. More than a decade after E…",
+      "authors": [
+        "Michelle Kim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/06/1134012/is-the-pentagon-allowed-to-surveil-americans-with-ai/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-06"
+    },
+    {
+      "type": "news",
+      "title": "Online harassment is entering its AI era",
+      "summary": "Scott Shambaugh didn’t think twice when he denied an AI agent’s request to contribute to matplotlib, a software library that he helps manage. Like many open-source projects, matplotlib has been overwhelmed by a glut of AI code contributions, and so Shambaugh and his fellow maintainers have institute…",
+      "authors": [
+        "Grace Huckins"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/05/1133962/online-harassment-is-entering-its-ai-era/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-05"
+    }
+  ]
+}
