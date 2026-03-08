@@ -29,6 +29,7 @@ const DICT: Record<string, { zh: string, en: string }> = {
   ai_radar_load_failed: { zh: '加载失败', en: 'Failed to load' },
   ai_radar_no_data: { zh: '暂无数据', en: 'No data' },
   ai_radar_no_content: { zh: '该日暂无内容', en: 'No content for this day' },
+  ai_radar_sample_notice: { zh: '当前为示例数据，每日 7:30 更新真实数据', en: 'Showing sample data; real data updates daily at 7:30' },
   ai_radar_type_paper: { zh: '论文', en: 'Paper' },
   ai_radar_type_news: { zh: '新闻', en: 'News' },
   notes: { zh: '笔记', en: 'Notes' },

@@ -30,25 +30,47 @@ function getYesterdayISO (): string {
   return d.toISOString().slice(0, 10)
 }
 
+/** 生成最近 N 天的日期列表（含昨天），用于依次尝试拉取 */
+function getRecentDates (days = 5): string[] {
+  const out: string[] = []
+  const d = new Date()
+  for (let i = 0; i < days; i++) {
+    d.setDate(d.getDate() - 1)
+    out.push(d.toISOString().slice(0, 10))
+  }
+  return out
+}
+
 export default function AiRadarFeed () {
   const { t } = useI18n()
   const [data, setData] = useState<AiRadarDay | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
   const [dateLabel, setDateLabel] = useState('')
+  const [isSampleData, setIsSampleData] = useState(false)
   const [typeFilter, setTypeFilter] = useState<'all' | 'paper' | 'news'>('all')
 
   useEffect(() => {
-    const yesterday = getYesterdayISO()
-    setDateLabel(yesterday)
-
     const load = async () => {
       try {
-        let res = await fetch(`/ai-daily/${yesterday}.json`)
-        if (!res.ok) res = await fetch('/ai-daily/sample.json')
-        if (!res.ok) throw new Error('No data')
+        const datesToTry = getRecentDates(5)
+        let res: Response | null = null
+        let usedDate = ''
+        for (const date of datesToTry) {
+          res = await fetch(`/ai-daily/${date}.json`)
+          if (res.ok) {
+            usedDate = date
+            break
+          }
+        }
+        if (!res?.ok) {
+          res = await fetch('/ai-daily/sample.json')
+          if (res.ok) setIsSampleData(true)
+        }
+        if (!res?.ok) throw new Error('No data')
         const json: AiRadarDay = await res.json()
         setData(json)
+        setDateLabel(usedDate || json.date)
       } catch (e) {
         setError(e instanceof Error ? e.message : 'ai_radar_load_failed')
       } finally {
@@ -95,6 +117,11 @@ export default function AiRadarFeed () {
 
   return (
     <div className="space-y-8">
+      {isSampleData && (
+        <div className="rounded-card border border-amber-200 dark:border-amber-800 bg-amber-50 dark:bg-amber-900/30 px-4 py-2.5 text-sm text-amber-800 dark:text-amber-200">
+          {t('ai_radar_sample_notice')}
+        </div>
+      )}
       <div className="flex flex-wrap items-center gap-4">
         <span className="text-sm text-warm-500 dark:text-warm-400">
           {dateLabel} · {t('ai_radar_count').replace('%s', String(filtered.length))}

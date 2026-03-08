@@ -33,10 +33,25 @@ const ARXIV_CAT_TO_AREA = {
 
 const DEFAULT_AREA = '其他'
 
-// 可配置的新闻 RSS（可后续在环境变量或配置文件扩展）
+// AI 新闻与博客 RSS（官方研究机构 + 科技媒体 + 社区，按需增删）
 const RSS_FEEDS = [
+  // 官方研究机构博客
+  'https://ai.googleblog.com/atom.xml',
+  'https://ai.meta.com/blog/rss/',
+  'https://www.microsoft.com/en-us/research/feed/',
+  'https://deepmind.com/blog/feed/',
+  'https://openai.com/blog/rss/',
+  'https://huggingface.co/blog/feed.xml',
+  // 科技媒体
   'https://www.technologyreview.com/topic/artificial-intelligence/feed/',
   'https://venturebeat.com/category/ai/feed/',
+  'https://techcrunch.com/category/artificial-intelligence/feed/',
+  'https://www.theverge.com/ai-artificial-intelligence/rss',
+  // 专业 AI 新闻
+  'https://www.artificialintelligence-news.com/feed/rss/',
+  // 社区
+  'https://www.reddit.com/r/MachineLearning/.rss',
+  'https://www.reddit.com/r/artificial/.rss',
 ]
 
 function getTargetDate () {
@@ -117,7 +132,10 @@ async function fetchArxiv (dateStr) {
 }
 
 async function fetchRss (feedUrl) {
-  const parser = new Parser({ timeout: 15000 })
+  const parser = new Parser({
+    timeout: 15000,
+    headers: { 'User-Agent': 'AI-Radar-Bot/1.0 (https://github.com/Neilouo/Neilouo.github.io)' },
+  })
   const feed = await parser.parseURL(feedUrl)
   const dateStr = getTargetDate()
   const items = (feed.items || []).slice(0, 20).map((item) => ({
