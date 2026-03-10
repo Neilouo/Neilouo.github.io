@@ -115,7 +115,11 @@ async function fetchArxiv (dateStr) {
   const day = y + m + d
   const query = `(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV OR cat:cs.MA OR cat:stat.ML OR cat:eess.AS OR cat:eess.IV) AND submittedDate:[${day}0000 TO ${day}2359]`
   const url = `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(query)}&start=0&max_results=150&sortBy=submittedDate&sortOrder=descending`
-  const res = await got(url, { responseType: 'text', timeout: { request: 60000 } })
+  const res = await withTimeout(
+    got(url, { responseType: 'text', timeout: { request: FEED_TIMEOUT_MS } }),
+    FEED_TIMEOUT_MS,
+    'arXiv'
+  )
   const raw = parseArxivAtom(res.body)
   return raw.map((e) => ({
     type: 'paper',
@@ -131,15 +135,25 @@ async function fetchArxiv (dateStr) {
   }))
 }
 
-const FEED_TIMEOUT_MS = 60000 // 单条链接超时 1 分钟，超时则跳过该源
+const FEED_TIMEOUT_MS = 60000   // 单条链接超时 1 分钟
+const SCRIPT_TIMEOUT_MS = 180000 // 整体脚本最多 3 分钟，防止卡死
+
+/** 为 Promise 加硬超时，超时则 reject，避免库内部不生效导致一直挂起 */
+function withTimeout (p, ms, label = '') {
+  const t = new Promise((_, reject) => {
+    const id = setTimeout(() => reject(new Error(`timeout ${ms}ms${label ? ' ' + label : ''}`)), ms)
+    p.finally(() => clearTimeout(id)).catch(() => {})
+  })
+  return Promise.race([p, t])
+}
 
 async function fetchRss (feedUrl) {
   const parser = new Parser({
     timeout: FEED_TIMEOUT_MS,
     headers: { 'User-Agent': 'AI-Radar-Bot/1.0 (https://github.com/Neilouo/Neilouo.github.io)' },
   })
-  const feed = await parser.parseURL(feedUrl)
   const dateStr = getTargetDate()
+  const feed = await withTimeout(parser.parseURL(feedUrl), FEED_TIMEOUT_MS, feedUrl)
   const items = (feed.items || []).slice(0, 20).map((item) => ({
     type: 'news',
     title: (item.title || '').trim(),
@@ -164,13 +178,19 @@ async function main () {
     return []
   })
 
+  // 所有 RSS 并行拉取，每条带 1 分钟硬超时，总耗时约 1 分钟内
+  const rssResults = await Promise.allSettled(
+    RSS_FEEDS.map((feedUrl) =>
+      withTimeout(fetchRss(feedUrl), FEED_TIMEOUT_MS, feedUrl).then((items) => ({ feedUrl, items }))
+    )
+  )
   let news = []
-  for (const feedUrl of RSS_FEEDS) {
-    const items = await fetchRss(feedUrl).catch((e) => {
-      console.warn('RSS fetch failed', feedUrl, e.message)
-      return []
-    })
-    news = news.concat(items)
+  for (const r of rssResults) {
+    if (r.status === 'fulfilled') {
+      news = news.concat(r.value.items)
+    } else {
+      console.warn('RSS skip:', r.reason?.message || r.reason)
+    }
   }
 
   // 新闻按日期过滤：只保留目标日或前一天的（RSS 可能没有精确日期）
@@ -178,7 +198,12 @@ async function main () {
   d0.setUTCDate(d0.getUTCDate() - 1)
   const dayBefore = d0.toISOString().slice(0, 10)
   news = news.filter((n) => n.publishedAt === dateStr || n.publishedAt === dayBefore)
-  if (news.length === 0) news = (await Promise.all(RSS_FEEDS.map((u) => fetchRss(u).catch(() => [])))).flat().slice(0, 15)
+  if (news.length === 0) {
+    const fallback = rssResults
+      .filter((r) => r.status === 'fulfilled' && r.value.items?.length)
+      .flatMap((r) => r.value.items)
+    news = fallback.slice(0, 15)
+  }
 
   const payload = {
     date: dateStr,
@@ -191,7 +216,22 @@ async function main () {
   console.log('Wrote', outPath, '| papers:', papers.length, '| news:', news.length)
 }
 
-main().catch((e) => {
-  console.error(e)
+// 全局“保险丝”：无论内部是否有挂起的网络请求，超过 SCRIPT_TIMEOUT_MS 直接强制退出，
+// 避免在 CI / GitHub Actions 中无限挂起导致 workflow 超时。
+const globalTimeoutId = setTimeout(() => {
+  console.error(`Global timeout ${SCRIPT_TIMEOUT_MS}ms, force exit.`)
   process.exit(1)
-})
+}, SCRIPT_TIMEOUT_MS)
+
+main()
+  .then(() => {
+    clearTimeout(globalTimeoutId)
+    // 成功完成时显式退出，避免 Node 因为残留的网络连接 / 定时器而不退出
+    process.exit(0)
+  })
+  .catch((e) => {
+    clearTimeout(globalTimeoutId)
+    console.error(e.message || e)
+    process.exit(1)
+  })
+

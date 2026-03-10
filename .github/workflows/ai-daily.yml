@@ -29,6 +29,7 @@ jobs:
         run: pnpm install --no-frozen-lockfile
 
       - name: Fetch AI daily (arXiv + RSS) and push
+        continue-on-error: true
         env:
           TZ: Asia/Shanghai
         run: |
