@@ -1,15 +1,4 @@
 import NoteLanding from '../../components/note/NoteLanding'
 import contextJson from './_meta.json'
-import WritingTabs from '../../components/WritingTabs'
 
-<div className="max-w-5xl mx-auto px-4 pt-12 pb-24">
-  <header className="mb-8">
-    <h1 className="text-3xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
-      Notes
-    </h1>
-  </header>
-
-  <WritingTabs />
-
-  <NoteLanding contextJson={contextJson} />
-</div>
+<NoteLanding contextJson={contextJson} />

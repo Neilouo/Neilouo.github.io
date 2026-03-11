@@ -5,10 +5,9 @@ description: '记录技术学习过程中的思考与实践'
 
 import BlogPageWithData from '../../components/BlogPageWithData'
 import { T } from '../../components/I18nProvider'
-import WritingTabs from '../../components/WritingTabs'
 
 <div className="max-w-5xl mx-auto px-4 pt-12 pb-24">
-  <header className="mb-8">
+  <header className="mb-12">
     <h1 className="text-3xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
       <T k={'blog'} />
     </h1>
@@ -16,8 +15,6 @@ import WritingTabs from '../../components/WritingTabs'
       <T k={'blog_subtitle'} />
     </p>
   </header>
-
-  <WritingTabs />
 
   <BlogPageWithData />
 </div>

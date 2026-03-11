@@ -5,10 +5,9 @@ description: '昨日 AI 论文与新闻，按方向分类'
 
 import { T } from '../../components/I18nProvider'
 import AiRadarFeed from '../../components/AiRadarFeed'
-import WritingTabs from '../../components/WritingTabs'
 
 <div className="max-w-5xl mx-auto px-4 pt-12 pb-24">
-  <header className="mb-8">
+  <header className="mb-12">
     <h1 className="text-3xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
       <T k={'ai_radar'} />
     </h1>
@@ -16,8 +15,6 @@ import WritingTabs from '../../components/WritingTabs'
       <T k={'ai_radar_desc'} />
     </div>
   </header>
-
-  <WritingTabs />
 
   <AiRadarFeed />
 </div>
