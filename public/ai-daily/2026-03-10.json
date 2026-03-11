@@ -1,0 +1,469 @@
+{
+  "date": "2026-03-10",
+  "items": [
+    {
+      "type": "news",
+      "title": "How NVIDIA Builds Open Data for AI",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/nvidia/open-data-for-ai",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Introducing Storage Buckets on the Hugging Face Hub",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/storage-buckets",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Keep the Tokens Flowing: Lessons from 16 Open-Source RL Libraries",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/async-rl-training-landscape",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Granite 4.0 1B Speech: Compact, Multilingual, and Built for the Edge",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-speech",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "Ulysses Sequence Parallelism: Training with Million-Token Contexts",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ulysses-sp",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "LeRobot v0.5.0: Scaling Every Dimension",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/lerobot-release-v050",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "How Pokémon Go is giving delivery robots an inch-perfect view of the world",
+      "summary": "Pokémon Go was the world’s first augmented-reality megahit. Released in 2016 by the Google spinout Niantic, the AR twist on the juggernaut Pokémon franchise fast became a global phenomenon. From Chicago to Oslo to Enoshima, players hit the streets in the urgent hope of catching a Jigglypuff or a Squ…",
+      "authors": [
+        "Will Douglas Heaven"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/10/1134099/how-pokemon-go-is-helping-robots-deliver-pizza-on-time/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "How AI is turning the Iran conflict into theater",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. “Anyone wanna host a get together in SF and pull this up on a 100 inch TV?” The author of that post on X was referring to an online intelligence dashboard followi…",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/09/1134063/how-ai-is-turning-the-iran-conflict-into-theater/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "Amazon launches its healthcare AI assistant on its website and app",
+      "summary": "Health AI can answer questions, explain health records, manage prescription renewals, book appointments, and more.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/amazon-launches-its-healthcare-ai-assistant-on-its-website-and-app/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "AI-powered apps struggle with long-term retention, new report shows",
+      "summary": "AI can drive stronger early monetization for apps, but sustaining value remains the challenge, RevenueCat's latest report finds.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/ai-powered-apps-struggle-with-long-term-retention-new-report-shows/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "ChatGPT can now create interactive visuals to help you understand math and science concepts",
+      "summary": "Instead of just reading an explanation or looking at a static diagram, users can now engage directly with interactive visuals.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/chatgpt-can-now-create-interactive-visuals-to-help-you-understand-math-and-science-concepts/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "AgentMail raises $6M to build an email service for AI agents",
+      "summary": "AgentMail provides an API platform that lets you give AI agents their own email inboxes, with support for two-way conversations, parsing, threading, labeling, searching, and replying.",
+      "authors": [
+        "Ram Iyer"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/agentmail-raises-6m-to-build-an-email-service-for-ai-agents/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Thinking Machines Lab inks massive compute deal with Nvidia",
+      "summary": "The multi-year deal involves at least a gigawatt of compute power and also includes a strategic investment from Nvidia.",
+      "authors": [
+        "Rebecca Szkutak"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/thinking-machines-lab-inks-massive-compute-deal-with-nvidia/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Google gives in to users’ complaints over AI-powered ‘Ask Photos’ search feature",
+      "summary": "The option appears on the Google Photos Search screen and lets users pick which experience they want.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/google-gives-in-to-users-complaints-over-ai-powered-ask-photos-search-feature/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Legora reaches $5.55 billion valuation as AI legal tech boom endures",
+      "summary": "Legora, an AI platform for lawyers, is now valued at $5.55 billion following a $550 million Series D led by Accel to fuel its growth in the U.S.",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/legora-reaches-5-55-billion-valuation-as-ai-legaltech-boom-endures/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Meta acquired Moltbook, the AI agent social network that went viral because of fake posts",
+      "summary": "Meta says that Moltbook's approach to \"connecting agents through an always-on-directory\" is novel.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/meta-acquired-moltbook-the-ai-agent-social-network-that-went-viral-because-of-fake-posts/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "YouTube expands AI deepfake detection to politicians, government officials, and journalists",
+      "summary": "YouTube's AI deepfake detection tool is becoming available to politicians, journalists, and officials, letting them flag unauthorized likenesses for removal.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/youtube-expands-ai-deepfake-detection-to-politicians-government-officials-and-journalists/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Adobe is debuting an AI assistant for Photoshop",
+      "summary": "Adobe is also adding new AI-powered image-editing features to Firefly.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/adobe-is-debuting-an-ai-assistant-for-photoshop/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Zoom introduces an AI-powered office suite, says AI avatars for meetings arrive this month",
+      "summary": "Zoom is also introducing real-time deepfake detection tech for meetings.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/zoom-launches-an-ai-powered-office-suite-says-ai-avatars-for-meetings-are-coming-soon/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Google rolls out new Gemini capabilities to Docs, Sheets, Slides, and Drive",
+      "summary": "The idea behind the new features is to make the apps more personal and capable to help users get things done faster, right within the platforms themselves.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/google-rolls-out-new-gemini-capabilities-to-docs-sheets-slides-and-drive/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Sandbar secures $23M Series A for its AI note-taking ring",
+      "summary": "Sandbar aims to ship the Stream, which can be used to take notes, chat with an AI assistant, and for media playback, this summer.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/10/sandbar-secures-23m-series-a-for-its-ai-note-taking-ring/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Yann LeCun’s AMI Labs raises $1.03B to build world models",
+      "summary": "“My prediction is that ‘world models’ will be the next buzzword,” AMI Labs CEO Alexandre LeBrun told TechCrunch. “In six months, every company will call itself a world model to raise funding.”",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI and Google employees rush to Anthropic’s defense in DOD lawsuit",
+      "summary": "More than 30 OpenAI and Google DeepMind employees signed onto a statement supporting Anthropic's lawsuit against the Defense Department after the agency labeled the AI firm a supply-chain risk, according to court filings.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/09/openai-and-google-employees-rush-to-anthropics-defense-in-dod-lawsuit/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic launches code review tool to check flood of AI-generated code",
+      "summary": "Anthropic launched Code Review in Claude Code, a multi-agent system that automatically analyzes AI-generated code, flags logic errors, and helps enterprise developers manage the growing volume of code produced with AI.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI acquires Promptfoo to secure its AI agents",
+      "summary": "This deal underscores how frontier labs are scrambling to prove their technology can be used safely in critical business operations.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/09/openai-acquires-promptfoo-to-secure-its-ai-agents/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic sues Defense Department over supply-chain risk designation",
+      "summary": "Anthropic filed suit against the Department of Defense on Monday after the agency labeled it a supply-chain risk. The complaint calls the DOD's actions \"unprecedented and unlawful.\"",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/09/anthropic-sues-defense-department-over-supply-chain-risk-designation/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "Qualcomm’s partnership with Neura Robotics is just the beginning",
+      "summary": "Neura Robotics is going to build new robots on top of Qualcomm's new IQ10 processors that were released at CES.",
+      "authors": [
+        "Rebecca Szkutak"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/09/qualcomms-partnership-with-neura-robotics-is-just-the-beginning/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "Sandberg, Clegg join Nscale board as this ‘Stargate Norway’ startup hits $14.6B  valuation",
+      "summary": "Nvidia-backed British AI infrastructure startup Nscale has raised another megaround of $2 billion.",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/09/sandberg-clegg-join-nscale-board-as-this-stargate-norway-startup-hits-14-6b-valuation/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "ABB: Physical AI simulation boosts ROI for factory automation",
+      "summary": "A new ABB and NVIDIA partnership shows physical AI simulation is driving real ROI in factory automation and solving production hurdles. Manufacturers have often found it difficult to make intelligent robotics work reliably outside testing environments. The core issue is the gap between digital train…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/abb-physical-ai-simulation-secures-factory-automation-roi/",
+      "source": "AI News",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Agentic AI in finance speeds up operational automation",
+      "summary": "In finance, achieving operational automation by integrating agentic AI requires a data-centric foundation to drive real value. Financial infrastructure provider SEI has engaged IBM to modernise its internal operations via AI and automation. The joint initiative focuses on process redesign and target…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/agentic-ai-in-finance-speeds-up-operational-automation/",
+      "source": "AI News",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "Mastercard brings agentic payments to life in Singapore with DBS and UOB",
+      "summary": "Mastercard has completed its first live, authenticated agent-based payment transaction in Singapore, a milestone that advances autonomous AI commerce from proof of concept to everyday use. Announced on March 4, 2026, the transaction was carried out in partnership with DBS and UOB, two of Southeast A…",
+      "authors": [
+        "Dashveenjit Kaur"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/mastercard-agentic-payments-singapore-dbs-uob/",
+      "source": "AI News",
+      "publishedAt": "2026-03-10"
+    },
+    {
+      "type": "news",
+      "title": "AI insurance underwriting is past the pitch deck—Gradient AI just got the capital to prove it",
+      "summary": "AI insurance underwriting has been called the next frontier of insurtech for years. The difference now is that the money backing it has moved from venture bets into institutional conviction. On March 3, Boston-based Gradient AI securedgrowth capital financing from CIBC Innovation Banking, a lender w…",
+      "authors": [
+        "Dashveenjit Kaur"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/gradient-ai-cibc-ai-insurance-underwriting-growth-capital/",
+      "source": "AI News",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "UK sovereign AI fund to build up domestic computing infrastructure",
+      "summary": "The UK sovereign AI fund intends to secure advantages by providing a domestic alternative to external computing infrastructure. Backed by a £500 million budget from the Department for Science, Innovation and Technology, the unit formally launches on April 16th at 6pm GMT. James Wise, Partner at Bald…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/uk-sovereign-ai-fund-build-domestic-computing-infrastructure/",
+      "source": "AI News",
+      "publishedAt": "2026-03-09"
+    },
+    {
+      "type": "news",
+      "title": "City Union Bank launches AI centre to support banking operations",
+      "summary": "Banks have spent years buying analytics tools and automation software. Now some are taking a different step: building internal spaces where AI can be tested directly on real banking problems. One example emerged in India this month. City Union Bank recently entered a four-party agreement to create a…",
+      "authors": [
+        "Muhammad Zulhusni"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/city-union-bank-launches-ai-centre-to-support-banking-operations/",
+      "source": "AI News",
+      "publishedAt": "2026-03-09"
+    }
+  ]
+}
