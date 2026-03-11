@@ -8,7 +8,7 @@ import { T } from './I18nProvider'
 const TABS = [
   { href: '/ai-radar', key: 'ai_radar' },
   { href: '/note', key: 'notes' },
-  { href: '/blog', key: 'blog' },
+  { href: '/blog', key: 'blog' }
 ]
 
 export default function WritingTabs (): JSX.Element {
