@@ -1,0 +1,563 @@
+{
+  "date": "2026-03-12",
+  "items": [
+    {
+      "type": "news",
+      "title": "How NVIDIA AI-Q Reached \\#1 on DeepResearch Bench I and II",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/nvidia/how-nvidia-won-deepresearch-bench",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "A defense official reveals how AI chatbots could be used for targeting decisions",
+      "summary": "The US military might use generative AI systems to rank lists of targets and make recommendations—which would be vetted by humans—about which to strike first, according to a Defense Department official with knowledge of the matter. The disclosure about how the military may use AI chatbots comes as t…",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/12/1134243/defense-official-military-use-ai-chatbots-targeting-decisions/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Pragmatic by design: Engineering AI for the real world",
+      "summary": "The impact of artificial intelligence extends far beyond the digital world and into our everyday lives, across the cars we drive, the appliances in our homes, and medical devices that keep people alive. More and more, product engineers are turning to AI to enhance, validate, and streamline the desig…",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/12/1133675/pragmatic-by-design-engineering-ai-for-the-real-world/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Hustlers are cashing in on China’s OpenClaw AI craze",
+      "summary": "Feng Qingyang had always hoped to launch his own company, but he never thought this would be how—or that the day would come this fast. Feng, a 27-year-old software engineer based in Beijing, started tinkering with OpenClaw, a popular new open-source AI tool that can take over a device and autonomous…",
+      "authors": [
+        "Caiwei Chen"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/11/1134179/china-openclaw-gold-rush/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "How to watch Jensen Huang’s Nvidia GTC 2026 keynote",
+      "summary": "Nvidia kicks off its GTC conference with Huang's keynote on Monday, which can be watched in person or via livestream.",
+      "authors": [
+        "Rebecca Szkutak"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/how-to-watch-jensen-huangs-nvidia-gtc-2026-keynote/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Sales automation startup Rox AI hits $1.2B valuation, sources say",
+      "summary": "Rox, founded in 2024 by the former chief growth officer of New Relic, offers an AI-native alternative to CRM tools.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/sales-automation-startup-rox-ai-hits-1-2b-valuation-sources-say/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Facebook Marketplace now lets Meta AI respond to buyers’ messages",
+      "summary": "When buyers inquire about an item’s availability, sellers can use Meta AI to automatically draft replies using information from their listing, such as the description, availability, pickup location, and price.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/facebook-marketplace-now-lets-meta-ai-respond-to-buyers-messages/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Tinder tries to lure people back to online dating with IRL events, virtual speed dating",
+      "summary": "Tinder just got a major revamp as it attempts to reengage its user base and attract younger daters. This includes in-person events, AI enhancements, and even virtual speed dating.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/tinder-tries-to-lure-people-back-to-online-dating-with-irl-events-virtual-speed-dating/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Atlassian follows Block’s footsteps and cuts staff in the name of AI",
+      "summary": "Atlassian laid off 10% of its workforce, around 1,600 people, as the company looks to funnel more funds to AI.",
+      "authors": [
+        "Rebecca Szkutak"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/atlassian-follows-blocks-footsteps-and-cuts-staff-in-the-name-of-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Bumble to launch an AI dating assistant, ‘Bee’",
+      "summary": "Bumble's new AI assistant Bee will move the dating app beyond the swipe by matching people based on compatibility and goals.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/bumble-to-launch-an-ai-dating-assistant-bee/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "A writer is suing Grammarly for turning her and other authors into ‘AI editors’ without consent",
+      "summary": "Journalist Julia Angwin is leading a class action lawsuit against Grammarly for violating her privacy and publicity rights.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/a-writer-is-suing-grammarly-for-turning-her-and-other-authors-into-ai-editors-without-consent/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Gumloop lands $50M from Benchmark to turn every employee into an AI agent builder",
+      "summary": "As companies race to adopt AI, Benchmark general partner Everett Randle believes the key to success lies in empowering every worker with AI superpowers, and Gumloop’s intuitive agent builder is an example of the kind of tool that will unlock that potential.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/gumloop-lands-50m-from-benchmark-to-turn-every-employee-into-an-ai-agent-builder/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Alexa+ gets a new ‘adults only’ personality option that curses but won’t get into NSFW content",
+      "summary": "The new Sassy style can curse and roast you, but the fun ends there.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/alexa-gets-a-new-adults-only-personality-option-that-curses-but-wont-get-into-nsfw-content/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Wonderful raises $150M Series B at $2B valuation",
+      "summary": "The funding round, led by Insight Partners, comes just four months after Wonderful raised a $100 million Series A.",
+      "authors": [
+        "Ram Iyer"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Google is using old news reports and AI to predict flash floods",
+      "summary": "A new way to solve data scarcity: Turning qualitative reports into quantitative data with an LLM.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/google-is-using-old-news-reports-and-ai-to-predict-flash-floods/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Google Maps is getting an AI ‘Ask Maps’ feature and upgraded ‘immersive’ navigation",
+      "summary": "The tech giant says the \"Immersive Navigation\" launch is the biggest update to Maps in over a decade.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/12/google-maps-is-getting-an-ai-ask-maps-feature-and-upgraded-immersive-navigation/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "AI ‘actor’ Tilly Norwood put out the worst song I’ve ever heard",
+      "summary": "This song is an AI actor's rallying cry to other AI actors, urging them to keep going despite the naysayers who doubt their humanity. Literally no one can relate to this.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/11/ai-actor-tilly-norwood-put-out-the-worst-song-ive-ever-heard/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "Ford’s new AI assistant will help fleet owners know if seatbelts are being used",
+      "summary": "Ford Pro AI debuted at Work Truck Week in Indianapolis and is now available to all of its U.S.-based Pro telematics subscribers.",
+      "authors": [
+        "Kirsten Korosec"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/11/fords-new-ai-assistant-will-help-fleet-owners-know-if-seatbelts-are-being-used/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "Zendesk acquires agentic customer service startup Forethought",
+      "summary": "Forethought was years ahead of its time and the 2018 winner of TechCrunch Battlefield.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/11/zendesk-acquires-agentic-customer-service-startup-forethought/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "Netflix may have paid $600 million for Ben Affleck’s AI startup",
+      "summary": "This deal could rank as among the streaming giant's largest acquisitions ever.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/11/netflix-may-have-paid-600-million-for-ben-afflecks-ai-startup/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "Lovable says it added $100M in revenue last month alone, with just 146 employees",
+      "summary": "Swedish vibe-coding unicorn Lovable crossed $400 million in annual recurring revenue (ARR) in February.",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/11/lovable-says-it-added-100m-in-revenue-last-month-alone-with-just-146-employees/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "Replit snags $9B valuation 6 months after hitting $3B",
+      "summary": "Replit raised a new $400 million round and said it hopes to have $1B in ARR by year's end.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/11/replit-snags-9b-valuation-6-months-after-hitting-3b/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "WordPress debuts a private workspace that runs in your browser via a new service, my.WordPress.net",
+      "summary": "WordPress’s new browser-based service lets users create private sites without hosting or signing up, turning the platform into a personal workspace for writing, research, and AI tools.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/11/wordpress-debuts-a-private-workspace-that-runs-in-your-browser-via-a-new-service-my-wordpress-net/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "Rivian spin-out Mind Robotics raises $500M for industrial AI-powered robots",
+      "summary": "The startup, which was created by Rivian founder RJ Scaringe, is looking to train on data from, and deploy in, Rivian's factory.",
+      "authors": [
+        "Sean O'Kane"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/11/rivian-mind-robotics-series-a-500m-fund-raise-industrial-ai-powered-robots/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "How multi-agent AI economics influence business automation",
+      "summary": "Managing the economics of multi-agent AI now dictates the financial viability of modern business automation workflows. Organisations progressing past standard chat interfaces into multi-agent applications face two primary constraints. The first issue is the thinking tax; complex autonomous agents ne…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/how-multi-agent-ai-economics-business-automation/",
+      "source": "AI News",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "FIFA is rebuilding world football operations on AI. The World Cup is just the first test",
+      "summary": "When Romy Gai, FIFA’s chief business officer, described the operational challenge of running a 48-team World Cup across Canada, Mexico and the United States, he was not talking about technology. He was talking about complexity. Previous World Cups relied on local organising committees to absorb much…",
+      "authors": [
+        "Dashveenjit Kaur"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/fifa-ai-world-cup-2026-lenovo/",
+      "source": "AI News",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Ai2: Building physical AI with virtual simulation data",
+      "summary": "Virtual simulation data is driving the development of physical AI across corporate environments, led by initiatives like Ai2’s MolmoBot. Instructing hardware to interact with the real world has historically relied on highly expensive and manually-collected demonstrations. Technology providers buildi…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/ai2-building-physical-ai-with-virtual-simulation-data/",
+      "source": "AI News",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "New partnership to offer smart robots for dangerous environments",
+      "summary": "ADLINK Technology has signed a strategic alliance and joint development agreement with Under Control Robotics, the company behind the robotics startup Noble Machines. The two firms will combine ADLINK’s edge AI platforms with Noble Machines’ autonomy software to create a new generation of general-pu…",
+      "authors": [
+        "AI News"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/new-partnership-to-offer-ai-for-robotics-for-work-in-dangerous-environments/",
+      "source": "AI News",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "Manulife moves AI agents into core financial workflows",
+      "summary": "Large financial firms have spent years testing artificial intelligence in small projects, often limited to data analysis or customer support tools. The next phase appears to involve something more operational: systems that can take action in business workflows. Canadian insurer Manulife is moving in…",
+      "authors": [
+        "Muhammad Zulhusni"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/manulife-moves-ai-agents-into-core-financial-workflows/",
+      "source": "AI News",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "How physical AI integration accelerates vehicle innovation",
+      "summary": "The integration of physical AI into vehicles remains a primary objective for automakers looking to accelerate innovation. A technical collaboration between Qualcomm and Wayve offers a framework for how hardware and software providers can consolidate their efforts to supply production-ready advanced …",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/how-physical-ai-integration-accelerates-vehicle-innovation/",
+      "source": "AI News",
+      "publishedAt": "2026-03-11"
+    },
+    {
+      "type": "news",
+      "title": "Genesis AI Vivian Sun to Advance Commercialization",
+      "summary": "Sun joins as Vice President of Commercial and Strategy to build Genesis AI’s commercialization strategy and global partnerships as the company enters its next phase. Genesis AI, a global full-stack robotics company, today announced that Vivian Sun has joined the company as Vice President of Commerci…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/genesis-ai-vivian-sun-to-advance-commercialization/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Mend.io Announced the Launch of System Prompt Hardening",
+      "summary": "Debuts AI Weakness Enumeration (AIWE) to bring measurable risk scoring and automated refinement to previously ungoverned system prompts Mend.io, a leader in application security, today announced the launch of System Prompt Hardening within Mend AI, the first dedicated solution built to detect, score…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/mend-io-announced-the-launch-of-system-prompt-hardening/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Vijil Unveils Platform Enabling AI Agents to Adapt to Attacks and Failures",
+      "summary": "New capability allows enterprises to continuously improve agent resilience Vijil today announced its trust infrastructure designed to help enterprises evolve AI agents in business-critical roles. The new Vijil Darwin module closes the loop from production telemetry to agent development, transforming…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/vijil-unveils-platform-enabling-ai-agents-to-adapt-to-attacks-and-failures/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "QuantHealth Achieves 8x Financial Growth Across Life Sciences Engagements",
+      "summary": "The Company Has Established the Industry’s Most Advanced Portfolio of Clinical Trial Simulation Capabilities for Pharmaceutical and Biotechnology Companies QuantHealth, a pioneer in AI-driven clinical trial simulations, today announced a record year of growth, with sales increasing 8x through new an…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/quanthealth-achieves-8x-financial-growth-across-life-sciences-engagements/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Innovaccer, Databricks Partner to Operationalize Healthcare AI",
+      "summary": "Built on Validation confirms Gravity’s production use of Databricks SQL, Managed MLflow, and Delta Lake, enabling healthcare organizations to accelerate AI innovation and integrate agentic workflows into practice. Innovaccer Inc., a leading healthcare AI company, today announced it has achieved Buil…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/innovaccer-databricks-partner-to-operationalize-healthcare-ai/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "CharmHealth Releases Multi-Agent AI Copilot Built Directly Into Its EHR",
+      "summary": "CharmCopilot Moves Beyond Ambient Transcription to Support Triage, Charting, Lab Review, Billing, and Workflow Navigation CharmHealth, a leader in healthcare technology solutions for providers, today announced its latest AI-powered solution, CharmCopilot, a multi-agent assistant embedded directly wi…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/charmhealth-releases-multi-agent-ai-copilot-built-directly-into-its-ehr/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Orca Security Announced the Appointment of Rachel Nislick as CMO",
+      "summary": "Established cybersecurity marketing leader to accelerate global growth and advance Orca’s AI-first cloud security vision Orca Security, the pioneer of agentless cloud security, today announced the appointment of Rachel Nislick as Chief Marketing Officer. Nislick brings more than 25 years of experien…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/orca-security-announced-the-appointment-of-rachel-nislick-as-cmo/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Medisolv Announced the Acquisition of Lilac Software",
+      "summary": "Collaboration brings together clinical and claims-based quality intelligence with agentic AI to help healthcare organizations close care gaps and succeed in value-based care Medisolv, Inc., a national leader in healthcare quality data management, today announced the acquisition of Lilac Software, In…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/medisolv-announced-the-acquisition-of-lilac-software/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "K1 Invests in Spin.AI, a Leader in AI-Powered Cloud Security, Data Protection",
+      "summary": "Trusted by 1,500+ organizations worldwide, Spin.AI delivers AI-driven threat detection and automated response across Google Workspace, Microsoft 365, Salesforce, and Slack K1 Investment Management, LLC (“K1”), one of the largest investors in small-cap AI-powered software, today officially announced …",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/k1-invests-in-spin-ai-a-leader-in-ai-powered-cloud-security-data-protection/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-12"
+    },
+    {
+      "type": "news",
+      "title": "Phosphorus Sweeps SC Awards Finalist Spots for Innovation and Leadership",
+      "summary": "Company Named Finalist for Best Vulnerability Management Solution; Founder Chris Rouland Named Security Executive of the Year Finalist Phosphorus, the leading provider of proactive security and management for the extended Internet of Things (xIoT), is proud to announce that it has been named a final…",
+      "authors": [
+        "GlobeNewswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/phosphorus-sweeps-sc-awards-finalist-spots-for-innovation-and-leadership/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-12"
+    }
+  ]
+}
