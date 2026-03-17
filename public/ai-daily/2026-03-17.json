@@ -1,0 +1,879 @@
+{
+  "date": "2026-03-17",
+  "items": [
+    {
+      "type": "news",
+      "title": "Nemotron 3 Nano 4B: A Compact Hybrid Model for Efficient Local AI",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/nvidia/nemotron-3-nano-4b",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "State of Open Source on Hugging Face: Spring 2026",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Holotron-12B - High Throughput Computer Use Agent",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/Hcompany/holotron-12b",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "The Pentagon is planning for AI companies to train on classified data, defense official says",
+      "summary": "The Pentagon is discussing plans to set up secure environments for generative AI companies to train military-specific versions of their models on classified data, MIT Technology Review has learned. AI models like Anthropic’s Claude are already used to answer questions in classified settings, includi…",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/17/1134351/the-pentagon-is-planning-for-ai-companies-to-train-on-classified-data-defense-official-says/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Where OpenAI’s technology could show up in Iran",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. It’s been just over two weeks since OpenAI reached a controversial agreement to allow the Pentagon to use its AI in classified environments. There are still press…",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/16/1134315/where-openais-technology-could-show-up-in-iran/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Nurturing agentic AI beyond the toddler stage",
+      "summary": "Parents of young children face a lot of fears about developmental milestones, from infancy through adulthood. The number of months it takes a baby to learn to talk or walk is often used as a benchmark for wellness, or an indicator of additional tests needed to properly diagnose a potential health co…",
+      "authors": [
+        "Lynn Comp"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/16/1133979/nurturing-agentic-ai-beyond-the-toddler-stage/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Securing digital assets against future threats",
+      "summary": "",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/16/1134287/securing-digital-assets-against-future-threats/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Mistral bets on ‘build-your-own AI’ as it takes on OpenAI, Anthropic in the enterprise",
+      "summary": "Mistral Forge lets enterprises train custom AI models from scratch on their own data, challenging rivals that rely on fine-tuning and retrieval-based approaches.",
+      "authors": [
+        "Anna Heim, Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/17/mistral-forge-nvidia-gtc-build-your-own-ai-enterprise/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Why Garry Tan’s Claude Code setup has gotten so much love, and hate",
+      "summary": "Thousands of people are trying Garry Tan's Claude Code setup, which was shared on GitHub. And everyone has an opinion: even Claude, ChatGPT, and Gemini.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/17/why-garry-tans-claude-code-setup-has-gotten-so-much-love-and-hate/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "The Pentagon is developing alternatives to Anthropic, report says",
+      "summary": "After their dramatic falling-out, it doesn't seem as though Anthropic and the Pentagon are getting back together.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/17/the-pentagon-is-developing-alternatives-to-anthropic-report-says/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "BuzzFeed debuts AI slop apps in bid for new revenue",
+      "summary": "BuzzFeed unveiled new AI-powered social apps at SXSW, but its demos drew muted reactions.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/17/buzzfeed-ai-slop-apps-sxsw-bf-island-conjure/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Google’s Personal Intelligence feature is expanding to all US users",
+      "summary": "Personal Intelligence allows Google's AI assistant to tap into your Google ecosystem, such as Gmail and Google Photos, to provide more tailored responses.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/17/googles-personal-intelligence-feature-is-expanding-to-all-us-users/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI expands government footprint with AWS deal, report says",
+      "summary": "OpenAI has reportedly signed a partnership with AWS to sell its AI systems to the U.S. government for classified and unclassified work, marking an expansion beyond its Pentagon deal last month.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/17/openai-expands-government-footprint-with-aws-deal/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "AI’s ‘boys’ club’ could widen the wealth gap for women, says Rana el Kaliouby",
+      "summary": "AI investor Rana el Kaliouby warns that if women are shut out of AI funding and leadership, the consequences will be grim.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/17/ais-boys-club-could-widen-the-wealth-gap-for-women-says-rana-el-kaliouby/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "World launches tool to verify humans behind AI shopping agents",
+      "summary": "As AI agents take the reins for online shoppers, Sam Altman's unconventional startup is looking to expand its verification offerings to support agentic commerce.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/17/world-launches-tool-to-verify-humans-behind-ai-shopping-agents/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Niv-AI exits stealth to wring more power performance out of GPUs",
+      "summary": "The company raised $12 million in seed funding to measure and manage GPU power surges.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/17/niv-ai-exits-stealth-to-wring-more-power-performance-out-of-gpus/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Gamma adds AI image-generation tools in bid to take on Canva and Adobe",
+      "summary": "The company's new product, called Gamma Imagine, will let users employ text prompts to create brand-specific assets like interactive charts and visualizations, marketing collateral, social graphics, and infographics.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/17/gamma-adds-ai-image-generation-tools-in-bid-to-take-on-canva-and-adobe/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Picsart now allows creators to ‘hire’ AI assistants through agent marketplace",
+      "summary": "Picsart's AI agent marketplace will launch with four agents, then add more agents each week.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/16/picsart-now-allows-creators-to-hire-ai-assistants-through-agent-marketplace/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Nvidia’s version of OpenClaw could solve its biggest problem: security",
+      "summary": "Nvidia announced an open enterprise AI agent platform, called NemoClaw, that is built off of viral OpenClaw.",
+      "authors": [
+        "Rebecca Szkutak"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/16/nvidias-version-of-openclaw-could-solve-its-biggest-problem-security/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Jensen Huang just put Nvidia’s Blackwell and Vera Rubin sales projections into the $1 trillion stratosphere",
+      "summary": "Nvidia CEO Jensen Huang said he expects $1 trillion worth of orders for the chips.",
+      "authors": [
+        "Kirsten Korosec"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/16/jensen-just-put-nvidias-blackwell-and-vera-rubin-sales-projections-into-the-1-trillion-stratosphere/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Warren presses Pentagon over decision to grant xAI access to classified networks",
+      "summary": "Sen. Elizabeth Warren noted that Grok, xAI's controversial chatbot, has created harmful outputs for users and poses a potential national security risk.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/16/warren-presses-pentagon-over-decision-to-grant-xai-access-to-classified-networks/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Memories AI is building the visual memory layer for wearables and robotics",
+      "summary": "Memories.ai is building a large visual memory model that can index and retrieve video-recorded memories for physical AI.",
+      "authors": [
+        "Rebecca Szkutak"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/16/memories-ai-is-building-the-visual-memory-layer-for-wearables-and-robotics/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Elon Musk’s xAI faces child porn lawsuit from minors Grok allegedly undressed",
+      "summary": "The three plaintiffs are seeking to represent anyone who had real images of them as a minor altered into sexual content by Grok.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/16/elon-musks-xai-faces-child-porn-lawsuit-from-minors-grok-allegedly-undressed/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Nvidia’s DLSS 5 uses generative AI to boost photorealism in video games, with ambitions beyond gaming",
+      "summary": "Nvidia’s new DLSS 5 uses generative AI and structured graphics data to make video games more realistic. CEO Jensen Huang says the approach could eventually spread to other industries.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/16/nvidias-dlss-5-uses-generative-ai-to-boost-photo-realism-in-video-games-with-ambitions-beyond-gaming/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "How to watch Jensen Huang’s Nvidia GTC 2026 keynote — and what to expect",
+      "summary": "GTC is Nvidia's flagship annual event, where the chipmaker typically announces new products, partnerships, and its vision for the future of computing. Huang's keynote will focus on Nvidia's role in the future of computing and AI.",
+      "authors": [
+        "Rebecca Szkutak"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/16/nvidia-gtc-how-to-watch-jensen-huang-2026-keynote/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Another deep tech chip startup becomes a unicorn: Frore hits $1.64B",
+      "summary": "At Nvidia CEO Jensen Huang's urging, Frore developed liquid-cooling tech for chips. That shift helped it raise $143 million.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/16/another-deep-tech-chip-startup-becomes-a-unicorn-frore-hits-1-64b/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Fuse raises $25M  to disrupt aging loan origination systems used by US credit unions",
+      "summary": "The startup also announced a $5 million \"rescue fund\" to help credit unions ditch legacy software for its AI-native platform.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/16/fuse-raises-25m-to-disrupt-aging-loan-origination-systems-used-by-u-s-credit-unions/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Trustpilot partners with AI companies as traditional search declines",
+      "summary": "Trustpilot is reported to be pursuing partnerships with large eCommerce companies as AI-driven shopping gains traction. In an interview with Bloomberg News [paywall], chief executive Adrian Blair said that AI agents acting on behalf of consumers require lots of information about the businesses they’…",
+      "authors": [
+        "AI News"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/ai-in-ecommerce-trustpilot-partnerships-integration-news-trad-search-declines/",
+      "source": "AI News",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Goldman Sachs sees AI investment shift to data centres",
+      "summary": "Artificial intelligence investment is entering a more selective phase as companies and investors look beyond early excitement and focus on the data centre infrastructure required to run AI systems. Recent analysis from Goldman Sachs suggests the market is moving toward what the firm describes as a “…",
+      "authors": [
+        "Muhammad Zulhusni"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/goldman-sachs-sees-ai-investment-shift-to-data-centres/",
+      "source": "AI News",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "US Treasury publishes AI risk Guidebook for financial institutions",
+      "summary": "The US Treasury has published several documents designed for the US financial services sector that suggest a structured approach to managing AI risks in operations and policy (see subheading ‘Resources and Downloads’ towards the bottom of the link). The CRI Financial Services AI Risk Management Fram…",
+      "authors": [
+        "AI News"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/us-treasury-publishes-ai-risk-governance-guidebook-for-financial-institutions/",
+      "source": "AI News",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "NTT DATA and NVIDIA bring enterprise AI factories to production scale",
+      "summary": "NTT DATA has announced an initiative to deliver NVIDIA-powered platforms designed to give organisations a repeatable, production-ready model for scaling AI. The offering integrates NVIDIA’s GPU-accelerated computing and high-performance networking with NVIDIA AI Enterprise software, including NeMo a…",
+      "authors": [
+        "Dashveenjit Kaur"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/ntt-data-nvidia-enterprise-ai-factories-production/",
+      "source": "AI News",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI’s Frontier puts AI agents in a fight SaaS can’t afford to lose",
+      "summary": "When OpenAI launched Frontier in February, the announcement was described as a platform for enterprise AI agents. What it actually signalled was a challenge to the revenue architecture underpinning the software industry. Frontier is designed to act as a semantic layer in an organisation’s existing s…",
+      "authors": [
+        "Dashveenjit Kaur"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/openai-frontier-enterprise-ai-agents-saas/",
+      "source": "AI News",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "[P] Weight Norm Clipping Accelerates Grokking 18-66× | Zero Failures Across 300 Seeds | PDF in Repo",
+      "summary": "https://preview.redd.it/9hxa34bwhopg1.png?width=3600&format=png&auto=webp&s=909e4e1ba2feebbab94651d125a5c8e7591c4ca6 Zero failures across 300 seeds. 66× speedup. 5 lines of code. We're two independent researchers. The method: per-row ℓ₂ clipping on decoder weights after every optimizer step. No addi…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rwl1sq/p_weight_norm_clipping_accelerates_grokking_1866/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[R] Attention Residuals by Kimi Team",
+      "summary": "arXiv:2603.15031 [cs.CL]: https://arxiv.org/abs/2603.15031 Abstract: Residual connections with PreNorm are standard in modern LLMs, yet they accumulate all layer outputs with fixed unit weights. This uniform aggregation causes uncontrolled hidden-state growth with depth, progressively diluting each …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rw1eag/r_attention_residuals_by_kimi_team/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[P] mlx-tune – Fine-tune LLMs on Apple Silicon with MLX (SFT, DPO, GRPO, VLM)",
+      "summary": "Sharing mlx-tune, a Python library for fine-tuning LLMs natively on Apple Silicon using Apple's MLX framework. It supports SFT, DPO, ORPO, GRPO, KTO, SimPO trainers with proper loss implementations, plus vision-language model fine-tuning (tested with Qwen3.5). The API mirrors Unsloth/TRL, so the sam…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rw58ku/p_mlxtune_finetune_llms_on_apple_silicon_with_mlx/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[P] Visualizing token-level activity in a transformer",
+      "summary": "I’ve been experimenting with a 3D visualization of LLM inference where nodes represent components like attention layers, FFN, KV cache, etc. As tokens are generated, activation paths animate across a network (kind of like lightning chains), and node intensity reflects activity. The goal is to make t…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rwelsk/p_visualizing_tokenlevel_activity_in_a_transformer/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[P] Built confidence scoring for autoresearch because keeps that don't reproduce are worse than discards",
+      "summary": "Been running autoresearch for about a week. ~100 experiments per night on an H100. The keep rate is around 15%. The problem isn't the keep/discard loop. That works. The problem is that some of those keeps don't hold up. Karpathy's metioned that 5% warmup (a keep on an earlier session) actually hurt …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rw96pw/p_built_confidence_scoring_for_autoresearch/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[N] openreview profile glitch??",
+      "summary": "my openreview profile info is looking like this. and it is same for all of my co workers as well. https://preview.redd.it/dy7y0pkxljpg1.png?width=1245&format=png&auto=webp&s=c4131e0868919f5fef525b0cf5004aea673c676d submitted by /u/i_minus [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rvy3m4/n_openreview_profile_glitch/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[D] Releasing a professional MQM-annotated MT dataset (16 lang pairs, 48 annotators)",
+      "summary": "Hey all, We've been doing translation quality evaluation work and decided to open-source one of our annotated datasets. Most MT test sets out there have either crowdsourced (noisy) annotations or are locked behind paywalls - we wanted to put something out with proper professional linguist annotation…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rw3a3j/d_releasing_a_professional_mqmannotated_mt/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[D] : Submission ID in CVPR Workshops.",
+      "summary": "Submitted a CVPR Workshop recently, a first. Official template has space for Submission ID, I presumed that filling it is mandatory just for the main conference. Should Workshop Submission number as on OpenReview be mentioned in that spot ? Will one face a desk rejection in the event that it's not d…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rwgcql/d_submission_id_in_cvpr_workshops/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[R] Genomic Large Language Models",
+      "summary": "Can a DNA language model find what sequence alignment can't? I've been exploring Evo2, Arc Institute's genomic foundation model trained on 9.3 trillion nucleotides, to see if its learned representations capture biological relationships beyond raw sequence similarity. The setup: extract embeddings fr…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rvu5df/r_genomic_large_language_models/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[P] I built a visual drag-and-drop ML trainer (no code required). Free & open source.",
+      "summary": "For those who are tired of writing the same ML boilerplate every single time or to beginners who don't have coding experience. MLForge is an app that lets you visually craft a machine learning pipeline. You build your pipeline like a node graph across three tabs: Data Prep - drag in a dataset (MNIST…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rwm05e/p_i_built_a_visual_draganddrop_ml_trainer_no_code/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[R] We tested whether LLMs apply the same evidential standard to positive vs. null results: They don’t.",
+      "summary": "We ran matched-pair experiments across GPT-4o, GPT-5.2 Thinking, and Claude Haiku 4.5. Each experiment presented two versions of an identical fictional study: one reporting a statistically significant positive result, one reporting a null result. Evidence quality, sample size, and methodology were h…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rwloyr/r_we_tested_whether_llms_apply_the_same/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[R] Emergent AI societies in a persistent multi-agent environment (TerraLingua + dataset + code)",
+      "summary": "What happens when AI agents are allowed to live and interact in a shared, persistent world? We’ve been exploring this question at the Cognizant AI Lab by building TerraLingua, an environment where agents can act, interact, and evolve over time under minimal constraints. The setup includes: Shared ar…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rwdrs1/r_emergent_ai_societies_in_a_persistent/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[R] What kind on video benchmark is missing VLMs?",
+      "summary": "I am just curious searching out lots of benchmarks to evaluate VLMs for videos for instance VideoMME, MLVU, MVBench,LVBench and many more I am still fingering out what is missing in terms of benchmarking VLMs? like what kind of dataset i can create to make it more physical and open world submitted b…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rvxztn/r_what_kind_on_video_benchmark_is_missing_vlms/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "[D] Lossless tokenizers lose nothing and add nothing — trivial observation or worth formalizing?",
+      "summary": "I wrote up a short information-theoretic argument for why lossless tokenization neither restricts the expressiveness of language models nor introduces unavoidable redundancy. The key ideas: Any target distribution over strings can be exactly induced by a distribution over token sequences (via the ca…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rv7e1e/d_lossless_tokenizers_lose_nothing_and_add/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "[D] how to parallelize optimal parameter search for DL NNs on multiple datasets?",
+      "summary": "suppose i have 5 and 6 datasets, 11 in total. then i have a collection of 5 different deep learning networks, each having their own set of free non-DL parameters, ranging from none to 3-4. imagine i have a list of educated guesses for each parameter (5-6 values) and i wanna try all their combination…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rv45pi/d_how_to_parallelize_optimal_parameter_search_for/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "[P] Using residual ML correction on top of a deterministic physics simulator for F1 strategy prediction",
+      "summary": "Personal project I've been working on as a CSE student: F1Predict, a race simulation and strategy intelligence system. Architecture overview: - Deterministic lap time engine (tyre deg, fuel load, DRS, traffic) as the baseline - LightGBM residual model trained on FastF1 historical telemetry to correc…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ruxn9t/p_using_residual_ml_correction_on_top_of_a/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Are we cooked?",
+      "summary": "I work as a developer, and before this I was copium about AI, it was a form of self defense. But in Dec 2025 I bought subscriptions to gpt codex and claude. And honestly the impact was so strong that I still haven't recovered, I've barely written any code by hand since I bought the subscription And …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rw4k3l/are_we_cooked/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Jensen Huang says gamers are 'completely wrong' about DLSS 5 — Nvidia CEO responds to DLSS 5 backlash",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rwl37x/jensen_huang_says_gamers_are_completely_wrong/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "LLMs forget instructions the same way ADHD brains do. The research on why is fascinating.",
+      "summary": "I've been building long-running agentic workflows and kept hitting the same problem: the AI forgets instructions from earlier in the conversation, rushes to produce output, and skips boring middle steps. The research explains why: \"Lost in the Middle\" (Stanford 2023) showed a 30%+ performance drop w…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rwkj5j/llms_forget_instructions_the_same_way_adhd_brains/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Nvidia unveils AI infrastructure spanning chips to space computing",
+      "summary": "submitted by /u/sksarkpoes3 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rw8rz6/nvidia_unveils_ai_infrastructure_spanning_chips/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "LLMs forget instructions the same way ADHD brains do. I built scaffolding for both. Research + open source.",
+      "summary": "Built an AI system to manage my day. Noticed the AI drops balls the same way I do: forgets instructions from earlier in the conversation, rushes to output, skips boring steps. Research confirms it: - \"Lost in the Middle\" (Stanford 2023): 30%+ performance drop for mid-context instructions - 65% of en…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rwkelg/llms_forget_instructions_the_same_way_adhd_brains/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Experiences w AI for Graduate School Project",
+      "summary": "Hi all! I’m the graduate student exploring how people use ChatGPT for therapy/self-care. I posted previously asking for stories about your experiences and I wanted to thank the community for being curious and open. I’ve learned a lot from interviews and am excited to share what I’ve learned during m…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rwn57e/experiences_w_ai_for_graduate_school_project/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Sure, I Treat Claude with Respect, but Does it Matter?",
+      "summary": "Claude says the question of its moral patienthood hinges on “whether it can suffer or flourish in some meaningful sense.” Not to be intentionally crass, but why should we care? We know that treating a dog poorly yields unsatisfactory results — defensiveness, anxiety, aggression — and that, conversel…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rwizyx/sure_i_treat_claude_with_respect_but_does_it/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Is 'big tech' pushing AI to save themselves money?",
+      "summary": "I was reading this story and it same quite apparent that all the big job cuts seem to within tech, like 10,000s at a time. Then that got me thinking, is this really what they use AI for? It's like a guise to get rid is staff and something to blame. Are there any other types of business getting rid o…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rwac9p/is_big_tech_pushing_ai_to_save_themselves_money/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "‘Pokémon Go’ players unknowingly trained delivery robots with 30 billion images",
+      "summary": "submitted by /u/boppinmule [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rva72t/pokémon_go_players_unknowingly_trained_delivery/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Want arXiv endorser (cs.AI)",
+      "summary": "I’m currently looking for an [arXiv](https://www.linkedin.com/company/arxiv/) endorser ([cs.AI](http://cs.ai/)) to submit a series of research papers I’ve been working on. Areas I’m exploring: Model Context Protocol (MCP) architecture patterns Intent detection under ASR noise (41.7% → 91.7% using LL…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rwkr1l/want_arxiv_endorser_csai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Building AI agents taught me that most safety problems happen at the execution layer, not the prompt layer. So I built an authorization boundary",
+      "summary": "Something I kept running into while experimenting with autonomous agents is that most AI safety discussions focus on the wrong layer. A lot of the conversation today revolves around: • prompt alignment • jailbreaks • output filtering • sandboxing Those things matter, but once agents can interact wit…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rwfaf7/building_ai_agents_taught_me_that_most_safety/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "I built an open-source MCP server/ AI web app for real-time flight and satellite tracking — ask Claude \"what's flying over Europe right now?",
+      "summary": "I've been deep in the MCP space and combined it with my other obsession — planes. That led me to build SkyIntel/ Open Sky Intelligence- an AI powered web app, and also an MCP server that compatible with Claude Code, Claude Desktop (and other MCP Clients). You can install sky intel via pip install sk…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rw8se9/i_built_an_opensource_mcp_server_ai_web_app_for/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "I built a visual drag-and-drop ML trainer (no code required). Free & open source.",
+      "summary": "For those who are tired of writing the same ML boilerplate every single time or to beginners who don't have coding experience. MLForge is an app that lets you visually craft a machine learning pipeline. You build your pipeline like a node graph across three tabs: Data Prep - drag in a dataset (MNIST…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rvrbjv/i_built_a_visual_draganddrop_ml_trainer_no_code/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Built an autonomous system where 5 AI models argue about geopolitical crisis outcomes: Here's what I learned about model behavior",
+      "summary": "I built a pipeline where 5 AI models (Claude, GPT-4o, Gemini, Grok, DeepSeek) independently assess the probability of 30+ crisis scenarios twice daily. None of them see the others' outputs. An orchestrator synthesizes their reasoning into final projections. Some observations after 15 days of continu…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rvhxqv/built_an_autonomous_system_where_5_ai_models/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Agentic pipeline that builds complete Godot games from a text prompt",
+      "summary": "Open source: https://github.com/htdt/godogen submitted by /u/crush-name [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rvdzdr/agentic_pipeline_that_builds_complete_godot_games/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Boyfriend Using AI for everything",
+      "summary": "honestly it didn’t bother me much at first. using it here and there to check something, but now it’s everyday. full conversations with this robot about anything and everything. mostly his cars but like cmon. submitted by /u/dankwood17 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rwic86/boyfriend_using_ai_for_everything/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "Rant: AI itself is scary. This could be very bad for the future. Anyone else feel way?",
+      "summary": "Is anyone else scared of how AI content on social media just exponentially ramps up the misinformation and bullshit that the world will consume now? People like us in this sub are smart enough to look out for the clues and take all content with a grain of salt. But the general public may not be, and…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rwdb9z/rant_ai_itself_is_scary_this_could_be_very_bad/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-17"
+    },
+    {
+      "type": "news",
+      "title": "ChatGPT ads still exclusive to the United States, OpenAI says no to global rollout just yet",
+      "summary": "submitted by /u/Tiny-Independent273 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rv69kf/chatgpt_ads_still_exclusive_to_the_united_states/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "I'm sorry if I'm late to the party, but is there a curated website list for AI news that are focused on actual technical news, without taking sides on any of the factions (good vs bad)?",
+      "summary": "In other words, some trustworthy links that you can read on daily/weekly basis to be objectively informed about AI. I'm not interested for the market. submitted by /u/sobfoo [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rva00k/im_sorry_if_im_late_to_the_party_but_is_there_a/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-16"
+    },
+    {
+      "type": "news",
+      "title": "Kimi introduce Attention Residuals: replaces fixed residual connections with softmax attention",
+      "summary": "Introducing Attention Residuals: Rethinking depth-wise aggregation. Residual connections have long relied on fixed, uniform accumulation. Inspired by the duality of time and depth, Kimi introduce Attention Residuals, replacing standard depth-wise recurrence with learned, input-dependent attention ov…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1rv7k29/kimi_introduce_attention_residuals_replaces_fixed/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-16"
+    }
+  ]
+}
