@@ -1,0 +1,493 @@
+{
+  "date": "2026-03-19",
+  "items": [
+    {
+      "type": "news",
+      "title": "**Introducing SPEED-Bench: A Unified and Diverse Benchmark for Speculative Decoding**",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/nvidia/speed-bench",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Jeff Bezos reportedly wants $100 billion to buy and transform old manufacturing firms with AI",
+      "summary": "The Amazon magnate has a new project centered around acquiring industrial firms and revamping them with AI technology.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/19/jeff-bezos-reportedly-wants-100-billion-to-buy-and-transform-old-manufacturing-firms-with-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Online bot traffic will exceed human traffic by 2027, Cloudflare CEO says",
+      "summary": "AI bots may outnumber humans online by 2027, says Cloudflare CEO Matthew Prince, as generative AI agents dramatically increase web traffic and infrastructure demands.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/19/online-bot-traffic-will-exceed-human-traffic-by-2027-cloudflare-ceo-says/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Meta rolls out new AI content enforcement systems while reducing reliance on third-party vendors",
+      "summary": "Meta believes these AI systems can detect more violations with greater accuracy, better prevent scams, respond more quickly to real-world events, and reduce over-enforcement.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/19/meta-rolls-out-new-ai-content-enforcement-systems-while-reducing-reliance-on-third-party-vendors/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "DoorDash launches a new ‘Tasks’ app that pays couriers to submit videos to train AI",
+      "summary": "Delivery couriers will be able to earn money by completing activities like filming everyday tasks or recording themselves speaking in another language.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/19/doordash-launches-a-new-tasks-app-that-pays-couriers-to-submit-videos-to-train-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "TechCrunch Startup Battlefield 200 nominations are still open",
+      "summary": "Nominate your startup, or one you know, for TechCrunch Startup Battlefield 200 before May 27. Chance to win $100,000 equity-free funding and VC access.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/19/techcrunch-startup-battlefield-200-nominations-are-still-open/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Amazon brings Alexa+ to the UK",
+      "summary": "The company is currently letting users in the U.K. try out Alexa+ for free via an early access program.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/19/amazon-brings-alexa-to-the-uk/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Multiverse Computing pushes its compressed AI models into the mainstream",
+      "summary": "After compressing models from major AI labs, including OpenAI, Meta, DeepSeek, and Mistral AI, Multiverse Computing has launched both an app that showcases the capabilities of its compressed models and an API that makes them more widely available.",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/19/multiverse-computing-pushes-its-compressed-ai-models-into-the-mainstream/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Meta is having trouble with rogue AI agents",
+      "summary": "A rogue AI agent inadvertently exposed Meta company and user data to engineers who didn't have permission to see it.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/18/meta-is-having-trouble-with-rogue-ai-agents/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "Sam Altman’s thank-you to coders draws the memes",
+      "summary": "Altman expresses gratitude for people who knew how to write their code from scratch. The internet replies with salty jokes.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/18/sam-altmans-thank-you-to-coders-draws-the-memes/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "Nothing CEO Carl Pei says smartphone apps will disappear as AI agents take their place",
+      "summary": "Nothing CEO Carl Pei says AI agents will eventually replace apps, shifting smartphones toward systems that understand intent and act on a user's behalf.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/18/nothing-ceo-carl-pei-says-smartphone-apps-will-disappear-as-ai-agents-take-their-place/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "Nvidia is quietly building a multibillion-dollar behemoth to rival its chips business",
+      "summary": "Nvidia's networking business raked in $11 billion last quarter despite getting significantly less fanfare than chips and gaming.",
+      "authors": [
+        "Rebecca Szkutak"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/18/nvidia-networking-division-building-a-multibillion-dollar-behemoth-to-rival-its-chips-business/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "Patreon CEO calls AI companies’ fair use argument ‘bogus,’ says creators should be paid",
+      "summary": "Patreon CEO Jack Conte says AI companies should pay creators for training data, arguing their fair use defense falls apart when they license content from major publishers.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/18/patreon-ceo-calls-ai-companies-fair-use-argument-bogus-says-creators-should-be-paid/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "Rebel Audio is a new AI podcasting tool aimed at first-time creators",
+      "summary": "Rebel Audio is a new all-in-one podcasting tool that allows creators to record podcasts, edit, clip content for social, and publish episodes, all without ever leaving the platform.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/18/rebel-audio-is-a-new-ai-podcasting-tool-aimed-at-first-time-creators/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "The Gemini-powered features in Google Workspace that are worth using",
+      "summary": "From summarizing emails, drafting content, organizing data, and tracking meetings, here are all the best Gemini features in Google Workspace.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/18/the-gemini-powered-features-in-google-workspace-that-are-worth-using/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "The leaderboard “you can’t game,” funded by the companies it ranks",
+      "summary": "Artificial intelligence models are multiplying fast, and competition is stiff. With so many players crowding the space, which one will be the best — and who decides that? Arena, formerly LM Arena, has emerged as the de facto public leaderboard for frontier LLMs, influencing funding, launches, and PR…",
+      "authors": [
+        "Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/video/the-leaderboard-you-cant-game-funded-by-the-companies-it-ranks/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "This startup wants to make enterprise software look more like a prompt",
+      "summary": "The company has raised $12 million in seed funding to build an AI operating system for enterprise.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/18/this-startup-wants-to-make-enterprise-software-look-more-like-a-prompt/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "Sequen snags $16M to bring TikTok-style personalization tech to any consumer company",
+      "summary": "With its Series A, Sequen is bringing its proprietary AI ranking and personalization technology to large consumer business.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/18/sequen-snags-16m-to-bring-tiktok-style-personalization-tech-to-any-consumer-company/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "Microsoft hires the team of Sequoia-backed AI collaboration platform, Cove",
+      "summary": "AI collaboration startup Cove is shutting down after its team joined Microsoft, with service ending April 1 and customer data set for deletion.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/18/microsoft-hires-the-team-of-sequioa-backed-ai-collaboration-platform-cove/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "The PhD students who became the judges of the AI industry",
+      "summary": "Artificial intelligence models are multiplying fast, and competition is stiff. With so many players crowding the space, which one will be the best — and who decides that? Arena, formerly LM Arena, has emerged as the de facto public leaderboard for frontier LLMs, influencing funding, launches, and PR…",
+      "authors": [
+        "Rebecca Bellan, Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/the-phd-students-who-became-the-judges-of-the-ai-industry/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "DOD says Anthropic’s ‘red lines’ make it an ‘unacceptable risk to national security’",
+      "summary": "The Defense Department said concerns that Anthropic might \"attempt to disable its technology\" during \"warfighting operations\" validate its decision to label the AI firm a supply-chain risk.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "Visa prepares payment systems for AI agent-initiated transactions",
+      "summary": "Payments rely on a simple model: a person decides to buy something, and a bank or card network processes the transaction. That model is starting to change as Visa tests how AI agents can initiate payments. New work in the banking sector suggests that, in some cases, software agents may soon take on …",
+      "authors": [
+        "Muhammad Zulhusni"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/visa-prepares-payment-systems-for-ai-agent-initiated-transactions/",
+      "source": "AI News",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "NVIDIA wants enterprise AI agents safer to deploy",
+      "summary": "The NVIDIA Agent Toolkit is Jensen Huang’s answer to the question enterprises keep asking: how do we put AI agents to work without losing control of our data and our liability? Announced at GTC 2026 in San Jose on March 16, the NVIDIA Agent Toolkit is an open-source software stack designed to help e…",
+      "authors": [
+        "Dashveenjit Kaur"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/nvidia-agent-toolkit-enterprise-ai-agents/",
+      "source": "AI News",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Mastercard keeps tabs on fraud with new foundation model",
+      "summary": "Mastercard has developed a large tabular model (an LTM as opposed to an LLM) that’s trained on transaction data rather than text or images to help it address security and authenticity issues in digital payments. The company has trained a foundation model on billions of card transactions, with the in…",
+      "authors": [
+        "AI News"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/mastercards-ltm-keeps-tabs-on-fraud-with-a-new-foundation-model/",
+      "source": "AI News",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "For effective AI, insurance needs to get its data house in order",
+      "summary": "A report from Autorek, a provider of AI solutions to the insurance industry has produced a report that describes operational drag in companies’ internal processes that not only affect overall efficiency but cause an impediment to the effective implementation of AI in insurance concerns. Insurance Op…",
+      "authors": [
+        "AI News"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/for-effective-ai-insurance-needs-a-better-data-layer-and-integration/",
+      "source": "AI News",
+      "publishedAt": "2026-03-18"
+    },
+    {
+      "type": "news",
+      "title": "NetApp Unveils New High-Performance EF-Series Models",
+      "summary": "New systems deliver proven and affordable high-performance for most demanding workloads including AI, HPC and databases NetApp® (NASDAQ: NTAP), the Intelligent Data Infrastructure company, today announced the release of the next generation of NetApp EF-Series storage systems, built to power the most…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/netapp-unveils-new-high-performance-ef-series-models/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "GTC 2026: MSI Bridges Cloud and Edge for End-to-End AI",
+      "summary": "MSI, a global leader in high-performance server solutions and Edge AI, unveils its comprehensive AI ecosystem at NVIDIA GTC 2026. In addition to launching the servers based on NVIDIA MGX architecture and powered by the NVIDIA Blackwell GPUs, MSI introduces the XpertStation WS300, built on NVIDIA DGX…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/gtc-2026-msi-bridges-cloud-and-edge-for-end-to-end-ai/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Connection Wins Zebra Technologies’ 2025 Partner of the Year Award",
+      "summary": "Company Recognized as Top Revenue Growth National Solutions Provider Connection (PC Connection, Inc.; NASDAQ: CNXN), a leading provider of information technology solutions to business, government, healthcare, and education markets, has been named Zebra Technologies’ 2025 Partner of the Year—Top Reve…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/connection-wins-zebra-technologies-2025-partner-of-the-year-award/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Lookout Uncovers DarkSword iOS Exploit Chain, Exposes New Mobile Threats",
+      "summary": "World’s Largest Mobile Threat Intelligence Dataset Powers Discovery of Hit-and-Run Exploit Targeting iOS Users and Cryptocurrency Assets Lookout, Inc., the leader in mobile security, today announced the discovery of DarkSword, a sophisticated, full iOS exploit chain and infostealer that signals a ne…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/lookout-uncovers-darksword-ios-exploit-chain-exposes-new-mobile-threats/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Singulr AI Names Richard Bird Chief Security and Strategy Officer",
+      "summary": "Dual role reflects Singulr’s focus on pairing AI governance, security, and market strategy as enterprises scale agentic AI Singulr AI (Singulr), a rising leader in AI governance and security, today announced that Richard Bird has expanded his role at the company and will now serve as both Chief Secu…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/singulr-ai-names-richard-bird-chief-security-and-strategy-officer/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Keysight Announced the Launch of SBOM Manager",
+      "summary": "New solution streamlines SBOM generation, vulnerability intelligence, and secure sharing to support compliance with the EU Cyber Resilience Act and global cybersecurity mandates Keysight Technologies, Inc. (NYSE: KEYS) announced the launch of Keysight SBOM Manager, a new solution designed to help or…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/keysight-announced-the-launch-of-sbom-manager/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "ZeroTier Wins Cybersecurity Excellence for Best Software Industry Solution",
+      "summary": "The ZeroTier platform is recognized for its leadership and platform innovation, delivering end-to-end cybersecurity software built for today’s enterprises facing tomorrow’s attacks ZeroTier, one of the world’s top software-defined networking companies, announced today it was named a winner in the So…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/zerotier-wins-cybersecurity-excellence-for-best-software-industry-solution/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "Asheet Mehta Joins Unqork’s Board of Directors",
+      "summary": "Unqork, the leading AI-first enterprise development platform, today announced the appointment of Asheet Mehta to its Board of Directors as a Series B Director. The founder and CEO of ResFi.ai and a former McKinsey Senior Partner, Mehta brings more than 30 years of experience advising global institut…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/asheet-mehta-joins-unqorks-board-of-directors/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "ZeroBiometrics Announced the Launch of ZeroSentinel",
+      "summary": "Today ZeroBiometrics is announcing ZeroSentinel, a product suite that cryptographically binds humans, AI agents, and their human-delegated permissions. ZeroSentinel uses industry-standard tools to link every consequential AI action to a verified, authenticated human decision-maker, with full traceab…",
+      "authors": [
+        "GlobeNewswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/zerobiometrics-announced-the-launch-of-zerosentinel/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-19"
+    },
+    {
+      "type": "news",
+      "title": "AV-Comparatives Publishes APT Detection Coverage 2026 for Consumers",
+      "summary": "Independent research shows strong protection against known APT threats, while highlighting challenges in detecting modified variants AV-Comparatives, the independent cybersecurity testing organisation, has published its APT Detection Coverage 2026 report, an in-depth evaluation of how effectively co…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/av-comparatives-publishes-apt-detection-coverage-2026-for-consumers/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-19"
+    }
+  ]
+}
