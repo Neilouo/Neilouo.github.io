@@ -1,0 +1,383 @@
+{
+  "date": "2026-03-23",
+  "items": [
+    {
+      "type": "news",
+      "title": "The hardest question to answer about AI-fueled delusions",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. I was originally going to write this week’s newsletter about AI and Iran, particularly the news we broke last Tuesday that the Pentagon is making plans for AI com…",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/23/1134527/the-hardest-question-to-answer-about-ai-fueled-delusions/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "The Bay Area’s animal welfare movement wants to recruit AI",
+      "summary": "In early February, animal welfare advocates and AI researchers gathered in stocking feet at Mox, a scrappy, shoes-free coworking space in San Francisco. Yellow and red canopies billowed overhead, Persian rugs blanketed the floor, and mosaic lamps glowed beside potted plants. In the common area, a wi…",
+      "authors": [
+        "Michelle Kim, Grace Huckins"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/23/1134491/the-bay-areas-animal-welfare-movement-wants-to-recruit-ai/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Air Street becomes one of the largest solo VCs in Europe with $232M fund",
+      "summary": "London’s Air Street Capital has raised a large Fund III with eyes locked on backing early-stage European and North American AI companies.",
+      "authors": [
+        "Dominic-Madori Davis"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/23/air-street-becomes-one-of-the-largest-solo-vcs-in-europe-with-232m-fund/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Bernie Sanders’ AI ‘gotcha’ video flops, but the memes are great",
+      "summary": "Sen. Bernie Sanders thinks he's tricked Claude into revealing the AI industry's secrets, but he really just exposed how agreeable chatbots can become.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/23/bernie-sanders-ai-gotcha-video-flops-but-the-memes-are-great/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Vibe-coding startup Lovable is on the hunt for acquisitions",
+      "summary": "Lovable's founder said the fast-growing vibe-coding startup is looking for startups and teams to join its company.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/23/vibe-coding-startup-lovable-is-on-the-hunt-for-acquisitions/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Apple sets June date for WWDC 2026, teasing ‘AI advancements’",
+      "summary": "Apple will host its next Worldwide Developers Conference the week of June 8. The company is expected to announce major updates to Siri with advanced AI capabilities.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/23/apple-wwdc-june-8-12-ai-advancements-siri-developers-conference/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Startup Gimlet Labs is solving the AI inference bottleneck in a surprisingly elegant way",
+      "summary": "Gimlet Labs just raised an $80 million Series A for tech that lets AI run across NVIDIA, AMD, Intel, ARM, Cerebras and d-Matrix chips, simultaneously.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/23/startup-gimlet-labs-is-solving-the-ai-inference-bottleneck-in-a-surprisingly-elegant-way/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Littlebird raises $11M for its AI-assisted ‘recall’ tool that reads your computer screen",
+      "summary": "Littlebird is building an AI that reads your screen in real time to capture context, answer questions, and automate tasks, without relying on screenshots.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/23/littlebird-raises-11m-to-capture-context-from-your-computer-so-you-can-query-your-data/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Elizabeth Warren calls Pentagon’s decision to bar Anthropic ‘retaliation’",
+      "summary": "In a letter to Defense Secretary Pete Hegseth, Senator Elizabeth Warren (D-MA) equated the DOD's decision to label Anthropic a \"supply-chain risk\" as retaliation, arguing that the Pentagon could simply have terminated its contract with the AI lab.",
+      "authors": [
+        "Ram Iyer"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/23/elizabeth-warren-anthropic-pentagon-defense-supply-chain-risk-retaliation/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Sam Altman-backed fusion startup Helion in talks to sell power to OpenAI",
+      "summary": "OpenAI CEO Sam Altman is stepping down as board chair of Helion. His departure comes as reports that the two companies are negotiating a deal that would see Helion sell 12.5% of its power output to OpenAI.",
+      "authors": [
+        "Tim De Chant"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/23/sam-altman-openai-fusion-energy-board-helion/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Do you want to build a robot snowman?",
+      "summary": "On the latest episode of the Equity podcast, we recapped CEO Jensen Huang’s GTC keynote and debated what it means for Nvidia’s future.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/22/do-you-want-to-build-a-robot-snowman/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-22"
+    },
+    {
+      "type": "news",
+      "title": "Cursor admits its new coding model was built on top of Moonshot AI’s Kimi",
+      "summary": "Building on top of a Chinese model feels particularly fraught right now.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/22/cursor-admits-its-new-coding-model-was-built-on-top-of-moonshot-ais-kimi/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-22"
+    },
+    {
+      "type": "news",
+      "title": "Elon Musk unveils chip manufacturing plans for SpaceX and Tesla",
+      "summary": "Elon Musk recently outlined ambitious plans for a chip-building collaboration Tesla and SpaceX — but he has a history of overpromising.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/22/elon-musk-unveils-chip-manufacturing-plans-for-spacex-and-tesla/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-22"
+    },
+    {
+      "type": "news",
+      "title": "Delve accused of misleading customers with ‘fake compliance’",
+      "summary": "An anonymous Substack post accuses compliance startup Delve of “falsely” convincing “hundreds of customers they were compliant” with privacy and security regulations.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/22/delve-accused-of-misleading-customers-with-fake-compliance/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-22"
+    },
+    {
+      "type": "news",
+      "title": "An exclusive tour of Amazon’s Trainium lab, the chip that’s won over Anthropic, OpenAI, even Apple",
+      "summary": "Shortly after Amazon announced its $50 billion investment in OpenAI, AWS invited me on a private tour of the chip lab at the heart of the deal.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/22/an-exclusive-tour-of-amazons-trainium-lab-the-chip-thats-won-over-anthropic-openai-even-apple/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-22"
+    },
+    {
+      "type": "news",
+      "title": "Are AI tokens the new signing bonus or just a cost of doing business?",
+      "summary": "Maybe tokens really will become the fourth pillar of engineering compensation. But engineers might want to hold the line before embracing this as a straightforward win.",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/21/are-ai-tokens-the-new-signing-bonus-or-just-a-cost-of-doing-business/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-22"
+    },
+    {
+      "type": "news",
+      "title": "Palantir AI to support UK finance operations",
+      "summary": "UK authorities believe improving efficiency across national finance operations requires applying AI platforms from vendors like Palantir. The country’s financial regulator, the FCA, has initiated a project leveraging AI to identify illicit activities. The FCA is currently testing the Foundry platfor…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/palantir-ai-to-support-uk-finance-operations/",
+      "source": "AI News",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Teleport Launches Beams, Trusted Agent Runtimes For Infrastructure",
+      "summary": "Teleport today announced Beams, a trusted runtime designed to solve the security and IAM challenges blocking teams from designing and running AI agents in production infrastructure. Beams runs each agent in an isolated Firecracker VM with built-in identity. Each Beam has policy-controlled, tracked, …",
+      "authors": [
+        "GlobeNewswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/teleport-launches-beams-trusted-agent-runtimes-for-infrastructure/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Versa Introduces Inbound SSE™",
+      "summary": "New capability extends Security Service Edge to inspect and secure inbound internet traffic before it reaches enterprise and service provider applications News Summary Versa, the global leader in unified security and networking, today announced Versa Inbound SSE™, a new cloud-delivered security capa…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/versa-introduces-inbound-sse/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Lightedge Secures AWS MSP Designation for the 9th Year",
+      "summary": "Lightedge, a leading provider of managed services specializing in secure, compliant, hybrid cloud infrastructure solutions announced today that it has achieved its Amazon Web Services (AWS) Managed Service Provider (MSP) Partner Program designation for the ninth year. The AWS MSP Partner validation …",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/lightedge-secures-aws-msp-designation-for-the-9th-year/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "eSentire Appoints Cybersecurity Industry Veteran James C. Foster as CEO",
+      "summary": "Proven CEO Brings 25+ Years of AI and Cybersecurity Leadership to the Authority in AI-Powered Managed Detection and Response eSentire, The Authority in AI-powered Managed Detection and Response (MDR), today announced the appointment of James C. Foster as Chief Executive Officer. Foster assumes the r…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/esentire-appoints-cybersecurity-industry-veteran-james-c-foster-as-ceo/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Rafay Systems, DataDirect Networks Partner to Support AI Infra Deploymentsv",
+      "summary": "Collaboration focused on helping enterprises and neocloud providers operationalize large-scale AI environments Rafay Systems, a provider of infrastructure platform services for modern compute environments, and DataDirect Networks (DDN), a global leader in AI and data intelligence platforms, today an…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/rafay-systems-datadirect-networks-partner-to-support-ai-infra-deploymentsv/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Automus FAiS AI adds FAiS Convert, FAiS Connect to portfolio",
+      "summary": "Automus Consulting, Inc., a leading Oracle Cloud partner specializing in ERP implementations and AI-driven solutions, today announced the evolution and expansion of its FAiS AI brand. This includes rebranding and enhancing two flagship tools: FAiS Connect (formerly Automus Integration Hub) and FAiS …",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/automus-fais-ai-adds-fais-convert-fais-connect-to-portfolio/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "The Impact of AI on Marketing, Sales, and Customer Insights",
+      "summary": "The impact of AI on marketing and sales is rewriting the playbook. Stop reacting and start using data-driven precision to outpace the competition. The boardroom is currently a house divided between those who worship the dashboard and those who are terrified of it. We’ve reached a point where the per…",
+      "authors": [
+        "AI TechPark"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/the-impact-of-ai-on-marketing/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "StorPool Announced the Launch of StorPool One",
+      "summary": "StorPool Storage, a leader in software-defined primary data storage solutions, today announced the launch of StorPool One. It is a fully integrated KVM-based cloud platform that helps organizations regain control of infrastructure costs while achieving enterprise-grade reliability and performance. S…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/storpool-announced-the-launch-of-storpool-one/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "Xage Security Drives Growth with Zero Trust for AI Infrastructure",
+      "summary": "Zero Trust leader reports 81% revenue growth, driven by a global shift from perimeter-based tools to identity-driven protection for AI infrastructure and critical systems Xage Security, a global leader in Zero Trust access and protection, today reported 81% year-over-year revenue growth and 102% yea…",
+      "authors": [
+        "GlobeNewswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/xage-security-drives-growth-with-zero-trust-for-ai-infrastructure/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-23"
+    },
+    {
+      "type": "news",
+      "title": "BigID Achieves FedRAMP Certification Partnering with Knox Systems",
+      "summary": "Certification authorizes federal use of BigID’s platform to manage sensitive data, support Zero Trust, and govern AI under federal security requirements BigID, the leader in data security, privacy, and AI governance, today announced it has achieved Federal Risk and Authorization Management Program (…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/bigid-achieves-fedramp-certification-partnering-with-knox-systems/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-23"
+    }
+  ]
+}
