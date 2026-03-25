@@ -1,0 +1,535 @@
+{
+  "date": "2026-03-25",
+  "items": [
+    {
+      "type": "news",
+      "title": "A New Framework for Evaluating Voice Agents (EVA)",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "type": "news",
+      "title": "This startup wants to change how mathematicians do math",
+      "summary": "Axiom Math, a startup based in Palo Alto, California, has released a free new AI tool for mathematicians, designed to discover mathematical patterns that could unlock solutions to long-standing problems. The tool, called Axplorer, is a redesign of an existing one called PatternBoost that François Ch…",
+      "authors": [
+        "Will Douglas Heaven"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/25/1134642/this-startup-wants-to-change-how-mathematicians-do-math/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Agentic commerce runs on truth and context",
+      "summary": "Imagine telling a digital agent, “Use my points and book a family trip to Italy. Keep it within budget, pick hotels we’ve liked before, and handle the details.” Instead of returning a list of links, the agent assembles an itinerary and executes the purchase. That shift, from assistance to execution,…",
+      "authors": [
+        "Andrew Reiskind, Manish Sood"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/25/1134516/agentic-commerce-runs-on-truth-and-context/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "The AI Hype Index: AI goes to war",
+      "summary": "AI is at war. Anthropic and the Pentagon feuded over how to weaponize Anthropic’s AI model Claude; then OpenAI swept the Pentagon off its feet with an “opportunistic and sloppy” deal. Users quit ChatGPT in droves. People marched through London in the biggest protest against AI to date. If you’re kee…",
+      "authors": [
+        "Michelle Kim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/25/1134571/the-ai-hype-index-ai-goes-to-war/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
+      "summary": "Anthropic finds AI isn’t replacing jobs yet, but early data shows growing inequality as experienced users gain an edge, raising concerns about future displacement and workforce divides.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Google unveils TurboQuant, a new AI memory compression algorithm — and yes, the internet is calling it ‘Pied Piper’",
+      "summary": "Google’s TurboQuant has the internet joking about Pied Piper from HBO's \"Silicon Valley.\" The compression algorithm promises to shrink AI’s “working memory” by up to 6x, but it’s still just a lab experiment for now.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/google-turboquant-ai-memory-compression-silicon-valley-pied-piper/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Melania Trump wants a robot to homeschool your child",
+      "summary": "The first lady sees AI and robotics playing a prominent role in the future of American education.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/melania-trump-wants-a-robot-to-homeschool-your-child/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Bernie Sanders and AOC propose a ban on data center construction",
+      "summary": "Senator Bernie Sanders and Rep. Alexandria Ocasio-Cortez introduced companion legislation to halt construction on new data centers until Congress passes comprehensive AI regulation.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/bernie-sanders-and-aoc-propose-a-ban-on-data-center-construction/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Google launches Lyria 3 Pro music generation model",
+      "summary": "Google is launching Lyria 3 Pro, an upgraded music model that generates longer, more customizable tracks, as it expands AI music tools across Gemini, enterprise products, and other services.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/google-launches-lyria-3-pro-music-generation-model/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Reddit takes on the bots with new ‘human verification’ requirements for fishy behavior",
+      "summary": "Reddit will require suspected automated accounts to verify they’re human, as it ramps up efforts to curb bot-driven spam and manipulation.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/reddit-bots-new-human-verification-requirements/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Harvey confirms $11B valuation: Sequoia triples down",
+      "summary": "Investors like Sequoia, Andreessen Horowitz, Kleiner Perkins, and Elad Gil can't get enough of AI legal tech startup Harvey.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/harvey-confirms-11b-valuation-sequoia-triples-down/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Granola raises $125M, hits $1.5B valuation as it expands from meeting notetaker to enterprise AI app",
+      "summary": "Granola's valuation jumped from $250 million to $1.5 billion with this round, and it has added more support for AI agents after users previously complained.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Meta launches new initiative to support entrepreneurship, drive AI adoption",
+      "summary": "Meta CEO Mark Zuckerberg said in a memo to staff that small businesses have always been a big part of the company's business model, and that while tens of millions of entrepreneurs already use its platforms to grow and connect with customers, the company wants to do more in the space.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/meta-launches-new-initiative-to-support-entrepreneurship-drive-ai-adoption/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Meta turns to AI to make shopping easier on Instagram and Facebook",
+      "summary": "Meta is using generative AI to provide more product and brand information to consumers when they're shopping in its apps.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/meta-turns-to-ai-to-make-shopping-easier-on-instagram-and-facebook/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "With Sift, two ex-SpaceX engineers are bringing the software that helped launch rockets to the factory floor",
+      "summary": "Sift is building the data infrastructure for advanced manufacturing.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/with-sift-stack-two-ex-spacex-engineers-are-bringing-the-software-that-helped-launch-rockets-to-the-factory-floor/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Lucid Bots raises $20M to keep up with demand for its window-washing drones",
+      "summary": "Lucid Bots has seen demand accelerate over the last year for its window-cleaning drones and power-washing robots.",
+      "authors": [
+        "Rebecca Szkutak"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/25/lucid-bots-raises-20m-to-keep-up-with-demand-for-its-window-washing-drones/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "With $3.5B in fresh capital, Kleiner Perkins is going all in on AI",
+      "summary": "The fundraise includes $1 billion for investing in early-stage startups and $2.5 billion for late-stage growth businesses.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/24/with-3-5b-in-fresh-capital-kleiner-perkins-is-going-all-in-on-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI’s Sora was the creepiest app on your phone — now it’s shutting down",
+      "summary": "Though the underlying Sora 2 video- and audio-generation model is scarily impressive, there was not sustained interest in an AI-only social feed.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/24/openais-sora-was-the-creepiest-app-on-your-phone-now-its-shutting-down/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "type": "news",
+      "title": "Kentucky woman rejects $26M offer to turn her farm into a data center",
+      "summary": "A \"major artificial intelligence company\" reportedly offered a Kentucky family $26 million to build a data center on their farm.",
+      "authors": [
+        "Graham Starr"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/24/kentucky-woman-rejects-26-million-offer-to-turn-her-farm-into-a-data-center/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic hands Claude Code more control, but keeps it on a leash",
+      "summary": "Anthropic’s new auto mode for Claude Code lets AI execute tasks with fewer approvals, reflecting a broader shift toward more autonomous tools that balance speed with safety through built-in safeguards.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "type": "news",
+      "title": "Spotify tests new tool to stop AI slop from being attributed to real artists",
+      "summary": "The idea behind the new tool is to give artists more control over which tracks are associated with their name on Spotify.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/24/spotify-tests-new-tool-to-stop-ai-slop-from-being-attributed-to-real-artists/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "type": "news",
+      "title": "Databricks bought two startups to underpin its new AI security product",
+      "summary": "With an overflowing war chest from its recent $5 billion raise, Databricks is buying startups and looking for more. It acquired Antimatter and SiftD.ai.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/24/databricks-buys-two-startups-lakewatch-antimatter-siftd-ai-security/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "type": "news",
+      "title": "Arm is releasing the first in-house chip in its 35-year history",
+      "summary": "Arm is producing its own CPU for the first time. It developed the CPU with Meta, which is also the chip's first customer.",
+      "authors": [
+        "Rebecca Szkutak"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/24/arm-is-releasing-its-first-in-house-chip-in-its-35-year-history/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI’s plans to make ChatGPT more like Amazon aren’t going so well",
+      "summary": "OpenAI says it's moving away from Instant Checkout, which allowed users to buy items directly through the ChatGPT interface.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/24/openais-plans-to-make-chatgpt-more-like-amazon-arent-going-so-well/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "type": "news",
+      "title": "Ocorian: Family offices turn to AI for financial data insights",
+      "summary": "To gain financial data insights, the majority of family offices now turn to AI, according to new research from Ocorian. The global study reveals 86 percent of these private wealth groups are utilising AI to improve their daily operations and data analysis. Representing a combined wealth of $119.37 b…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/ocorian-family-offices-ai-for-financial-data-insights/",
+      "source": "AI News",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "AI agents enter banking roles at Bank of America",
+      "summary": "AI agents are starting to take on a more direct role in how financial advice is delivered, as large banks move into systems that support client interactions. Bank of America is now deploying an internal AI-powered advisory platform to a subset of financial advisers, rolled out to around 1,000 financ…",
+      "authors": [
+        "Muhammad Zulhusni"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/ai-agents-enter-banking-roles-at-bank-of-america/",
+      "source": "AI News",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Automating complex finance workflows with multimodal AI",
+      "summary": "Finance leaders are automating their complex workflows by actively adopting powerful new multimodal AI frameworks. Extracting text from unstructured documents presents a frequent headache for developers. Historically, standard optical character recognition systems failed to accurately digitise compl…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/automating-complex-finance-workflows-with-multimodal-ai/",
+      "source": "AI News",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "type": "news",
+      "title": "Securing AI systems under today’s and tomorrow’s conditions",
+      "summary": "Evidence cited in an eBook titled “AI Quantum Resilience”, published by Utimaco [email wall], shows organisations consider security risks as the leading barrier to effective adoption of AI on data they hold. AI’s value depends on data amassed by an organisation. However, there are security risks to …",
+      "authors": [
+        "AI News"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/quantum-resilient-ai-needs-migration-and-hardware-protected-data-enclaves/",
+      "source": "AI News",
+      "publishedAt": "2026-03-24"
+    },
+    {
+      "type": "news",
+      "title": "Cyera Closes Major Gaps in Securing Enterprise AI",
+      "summary": "With the new Browser Shield for AI and Data Lineage products, security teams can now stop data exposure at the prompt and see exactly what AI is doing with their sensitive files Cyera, the AI Security Platform built for the age of agents, today announced a new set of capabilities:... The post Cyera …",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/cyera-closes-major-gaps-in-securing-enterprise-ai/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Endpoint Security USA Launches New Site, Expands Endpoint Protection Services",
+      "summary": "A newly launched platform by Endpoint Security USA strengthens access to advanced cybersecurity solutions across the United States. Endpoint Security USA, a recognized managed security services provider and MSSP, has officially launched its new website, reinforcing its role in delivering nationwide …",
+      "authors": [
+        "GlobeNewswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/endpoint-security-usa-launches-new-site-expands-endpoint-protection-services/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "AssureCare Unveils Aktivate™: An Intelligent Patient Activation Platform",
+      "summary": "Aktivate’s Responsible AI turns fragmented outreach into continuous, personalized patient activation AssureCare®, a leading healthcare technology company delivering an integrated population health management platform that connects payers, providers, and pharmacies, today announced the launch of Akti…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/assurecare-unveils-aktivate-an-intelligent-patient-activation-platform/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Drata Unveils Agentic AI to Transform Enterprise Trust Workflows",
+      "summary": "New capabilities across the Risk Management and Security Assurance categories enable Drata customers to reduce manual work, increase time to value, and prove trust at scale Drata, the leading agentic trust management platform, today unveiled an industry-first set of agentic AI capabilities designed …",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/drata-unveils-agentic-ai-to-transform-enterprise-trust-workflows/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Hopper OS Acquires Efferent to Expand Its Intelligent Healthcare OS",
+      "summary": "Acquisition strengthens hopper OS’ digital leadership and growth strategy Hopper OS, the configurable intelligent healthcare operating system powering better performance, experiences and outcomes across the care continuum, today announced its acquisition of Efferent, a healthcare informatics company…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/hopper-os-acquires-efferent-to-expand-its-intelligent-healthcare-os/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "NetSTAR and Varist Announce Alliance to Combat AI-Driven Cyber Threats",
+      "summary": "NetSTAR Global Inc. (NetSTAR), the global leader in OEM web categorization, IP reputation, and threat intelligence solutions, and Varist, a pioneer in AI-scale malware detection, today announced a strategic alliance designed to strengthen cybersecurity defenses in response to the rapid rise of gener…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/netstar-and-varist-announce-alliance-to-combat-ai-driven-cyber-threats/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Pellera Technologies Named to CRN Tech Elite 250 For 2026",
+      "summary": "Pellera Technologies, a leader in enterprise IT solutions, is pleased to announce that CRN, a brand of The Channel Company, has recognized Pellera on its 2026 Tech Elite 250 list. This annual list highlights North American solution providers that are committed to excellence and distinguish themselve…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/pellera-technologies-named-to-crn-tech-elite-250-for-2026/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "Generative AI, Automation, and the Next Wave of Tech Innovation",
+      "summary": "Over the past few years, generative AI and AI-based automation have shifted their base from merely being experimental and pilot projects to also being the strategic basis of enterprise technology. Organizations around the globe are implementing these abilities to rethink the process of how work is a…",
+      "authors": [
+        "AI TechPark"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/ai-automation-innovation/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "GrayMatters Health Announces Appointment of Five Expert Advisors",
+      "summary": "Contributing unique expertise to support Prism commercial growth GrayMatters Health (GMH), the pioneers of digital brain biomarkers for mental healthcare, today announced the addition of five expert advisors. Each one of the advisors was selected for their expertise in policy, reimbursement and clin…",
+      "authors": [
+        "PR Newswire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/graymatters-health-announces-appointment-of-five-expert-advisors/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-25"
+    },
+    {
+      "type": "news",
+      "title": "F5, Forcepoint Team Up to Secure AI from Data to Runtime",
+      "summary": "Collaboration connects data discovery and classification with runtime protection and continuous assurance to help organizations securely operationalize AI F5 (NASDAQ: FFIV), the global leader in delivering and securing every app and API, and Forcepoint, a global leader in data security, today announ…",
+      "authors": [
+        "Business Wire"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://ai-techpark.com/f5-forcepoint-team-up-to-secure-ai-from-data-to-runtime/",
+      "source": "AI-Tech Park",
+      "publishedAt": "2026-03-25"
+    }
+  ]
+}
