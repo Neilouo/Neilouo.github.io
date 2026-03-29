@@ -4,7 +4,6 @@
  * 不传日期时使用「昨日」(UTC)；CI 建议传 TZ=Asia/Shanghai 的昨日。
  */
 
-import got from 'got'
 import Parser from 'rss-parser'
 import { writeFileSync, mkdirSync } from 'fs'
 import { join, dirname } from 'path'
@@ -73,66 +72,65 @@ function truncate (s, max = 300) {
   return t.length <= max ? t : t.slice(0, max) + '…'
 }
 
-// 从 arXiv Atom XML 中解析 entry 列表（不引入 XML 库，用简单正则）
-function parseArxivAtom (xml) {
-  const entries = []
-  const entryBlobs = xml.split(/<entry>|<\/entry>/).filter(Boolean)
-  for (const blob of entryBlobs) {
-    if (!blob.includes('<id>') || !blob.includes('arxiv.org')) continue
-    const title = (/<title[^>]*>([\s\S]*?)<\/title>/i.exec(blob) || [])[1]
-    const link = (/<link[^>]+href="(https:\/\/arxiv\.org\/abs\/[^"]+)"[^>]*rel="alternate"/i.exec(blob) || [])[1]
-    const summary = (/<summary[^>]*>([\s\S]*?)<\/summary>/i.exec(blob) || [])[1]
-    const published = (/<published>([^<]+)<\/published>/i.exec(blob) || [])[1]
-    const primaryCat = (/arxiv:primary_category[^>]+term="([^"]+)"/i.exec(blob) || [])[1] ||
-      (/<category[^>]+term="([^"]+)"[^>]*scheme="http:\/\/arxiv\.org\/schemas\/atom"/i.exec(blob) || [])[1]
-    const authors = []
-    const affiliations = []
-    const authorBlocks = blob.match(/<author>[\s\S]*?<\/author>/gi) || []
-    for (const ab of authorBlocks) {
-      const name = (/<name>([\s\S]*?)<\/name>/i.exec(ab) || [])[1]
-      if (name) authors.push(stripHtml(name))
-      const aff = (/arxiv:affiliation>([\s\S]*?)<\/arxiv:affiliation>/i.exec(ab) || [])[1]
-      if (aff) affiliations.push(stripHtml(aff))
-    }
-    const categoryTerms = (blob.match(/<category[^>]+term="([^"]+)"/gi) || []).map(m => (m.match(/term="([^"]+)"/) || [])[1]).filter(Boolean)
-    if (!title || !link) continue
-    entries.push({
-      title: stripHtml(title),
-      summary: truncate(stripHtml(summary || '')),
-      link,
-      published: (published || '').slice(0, 10),
-      primaryCategory: primaryCat || (categoryTerms[0] || ''),
-      categoryTerms,
-      authors,
-      affiliations: [...new Set(affiliations)],
-    })
-  }
-  return entries
-}
+// arXiv RSS feeds（按分类），比 Atom API 更轻量稳定，返回最近一期论文
+const ARXIV_RSS_FEEDS = [
+  { url: 'https://arxiv.org/rss/cs.AI', cat: 'cs.AI' },
+  { url: 'https://arxiv.org/rss/cs.LG', cat: 'cs.LG' },
+  { url: 'https://arxiv.org/rss/cs.CL', cat: 'cs.CL' },
+  { url: 'https://arxiv.org/rss/cs.CV', cat: 'cs.CV' },
+  { url: 'https://arxiv.org/rss/cs.MA', cat: 'cs.MA' },
+  { url: 'https://arxiv.org/rss/stat.ML', cat: 'stat.ML' }
+]
 
 async function fetchArxiv (dateStr) {
-  const [y, m, d] = dateStr.split('-')
-  const day = y + m + d
-  const query = `(cat:cs.AI OR cat:cs.LG OR cat:cs.CL OR cat:cs.CV OR cat:cs.MA OR cat:stat.ML OR cat:eess.AS OR cat:eess.IV) AND submittedDate:[${day}0000 TO ${day}2359]`
-  const url = `https://export.arxiv.org/api/query?search_query=${encodeURIComponent(query)}&start=0&max_results=150&sortBy=submittedDate&sortOrder=descending`
-  const res = await withTimeout(
-    got(url, { responseType: 'text', timeout: { request: FEED_TIMEOUT_MS } }),
-    FEED_TIMEOUT_MS,
-    'arXiv'
+  const parser = new Parser({
+    timeout: FEED_TIMEOUT_MS,
+    customFields: { item: [['dc:creator', 'dcCreator']] },
+    headers: { 'User-Agent': 'AI-Radar-Bot/1.0 (https://github.com/Neilouo/Neilouo.github.io)' }
+  })
+
+  const results = await Promise.allSettled(
+    ARXIV_RSS_FEEDS.map(({ url, cat }) =>
+      withTimeout(parser.parseURL(url), FEED_TIMEOUT_MS, url)
+        .then(feed => ({ cat, items: feed.items || [] }))
+    )
   )
-  const raw = parseArxivAtom(res.body)
-  return raw.map((e) => ({
-    type: 'paper',
-    title: e.title,
-    summary: e.summary,
-    authors: e.authors.slice(0, 5),
-    affiliations: e.affiliations.slice(0, 3),
-    primaryArea: ARXIV_CAT_TO_AREA[e.primaryCategory] || ARXIV_CAT_TO_AREA[e.categoryTerms?.[0]] || DEFAULT_AREA,
-    tags: e.categoryTerms?.slice(0, 5) || [],
-    url: e.link,
-    source: 'arXiv',
-    publishedAt: e.published,
-  }))
+
+  const seen = new Set()
+  const papers = []
+
+  for (const r of results) {
+    if (r.status !== 'fulfilled') {
+      console.warn('arXiv RSS skip:', r.reason?.message || r.reason)
+      continue
+    }
+    const { cat, items } = r.value
+    for (const item of items) {
+      const url = item.link || ''
+      if (!url || seen.has(url)) continue
+      seen.add(url)
+      const authors = (item.dcCreator || '')
+        .split(/,\s*|\s+and\s+/i)
+        .map(s => s.trim())
+        .filter(Boolean)
+        .slice(0, 5)
+      papers.push({
+        type: 'paper',
+        title: stripHtml(item.title || '').replace(/\s*\([^)]*\)\s*$/, '').trim(),
+        summary: truncate(stripHtml(item.contentSnippet || item.content || item.summary || '')),
+        authors,
+        affiliations: [],
+        primaryArea: ARXIV_CAT_TO_AREA[cat] || DEFAULT_AREA,
+        tags: [cat],
+        url,
+        source: 'arXiv',
+        publishedAt: dateStr
+      })
+    }
+  }
+
+  console.log(`arXiv RSS: fetched ${papers.length} papers`)
+  return papers
 }
 
 const FEED_TIMEOUT_MS = 60000   // 单条链接超时 1 分钟
