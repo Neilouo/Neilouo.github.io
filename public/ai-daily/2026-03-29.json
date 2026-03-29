@@ -1,0 +1,75 @@
+{
+  "date": "2026-03-29",
+  "items": [
+    {
+      "type": "news",
+      "title": "Sora’s shutdown could be a reality check moment for AI video",
+      "summary": "Is this just normal corporate strategy, or are we about to see a broader pullback on AI-generated video?",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-29"
+    },
+    {
+      "type": "news",
+      "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+      "summary": "Bluesky’s new app Attie uses AI to help people build custom feeds the open social networking protocol atproto.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-28"
+    },
+    {
+      "type": "news",
+      "title": "Stanford study outlines dangers of asking AI chatbots for personal advice",
+      "summary": "While there’s been plenty of debate about AI sycophancy, a new study by Stanford computer scientists attempts to measure how harmful that tendency might be.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-28"
+    },
+    {
+      "type": "news",
+      "title": "Elon Musk’s last co-founder reportedly leaves xAI",
+      "summary": "All but two of Musk's 11 xAI co-founders departed before this week.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/28/elon-musks-last-co-founder-reportedly-leaves-xai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-28"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic’s Claude popularity with paying consumers is skyrocketing",
+      "summary": "Estimates for total Claude consumer users are all over the map (we've seen figures ranging from 18 million to 30 million). Anthropic hasn't disclosed this data, but a spokesperson did tell TechCrunch that Claude paid subscriptions have more than doubled this year.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/28/anthropics-claude-popularity-with-paying-consumers-is-skyrocketing/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-28"
+    }
+  ]
+}
