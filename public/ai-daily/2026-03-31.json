@@ -1,0 +1,889 @@
+{
+  "date": "2026-03-31",
+  "items": [
+    {
+      "type": "news",
+      "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "TRL v1.0: Post-Training Library Built to Move with the Field",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/trl-v1",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Shifting to AI model customization is an architectural imperative",
+      "summary": "In the early days of large language models (LLMs), we grew accustomed to massive 10x jumps in reasoning and coding capability with every new model iteration. Today, those jumps have flattened into incremental gains. The exception is domain-specialized intelligence, where true step-function improveme…",
+      "authors": [
+        "Barry Conklin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/31/1134762/shifting-to-ai-model-customization-is-an-architectural-imperative/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "AI benchmarks are broken. Here’s what we need instead.",
+      "summary": "For decades, artificial intelligence has been evaluated through the question of whether machines outperform humans. From chess to advanced math, from coding to essay writing, the performance of AI models and applications is tested against that of individual humans completing tasks. This framing is s…",
+      "authors": [
+        "Angela Aristidou"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/31/1134833/ai-benchmarks-are-broken-heres-what-we-need-instead/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "There are more AI health tools than ever—but how well do they work?",
+      "summary": "Earlier this month, Microsoft launched Copilot Health, a new space within its Copilot app where users will be able to connect their medical records and ask specific questions about their health. A couple of days earlier, Amazon had announced that Health AI, an LLM-based tool previously restricted to…",
+      "authors": [
+        "Grace Huckins"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/30/1134795/there-are-more-ai-health-tools-than-ever-but-how-well-do-they-work/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "The Pentagon’s culture war tactic against Anthropic has backfired",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Last Thursday, a California judge temporarily blocked the Pentagon from labeling Anthropic a supply chain risk and ordering government agencies to stop using its …",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/03/30/1134881/the-pentagons-culture-war-tactic-against-anthropic-has-backfired/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "Salesforce announces an AI-heavy makeover for Slack, with 30 new features",
+      "summary": "Slack just got a whole lot more useful.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI, not yet public, raises $3B from retail investors in monster $122B fund raise",
+      "summary": "OpenAI's latest funding round, led by Amazon, Nvidia, and SoftBank, values the AI lab at $852 billion as it nears an IPO.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Yupp shuts down after raising $33M from a16z crypto’s Chris Dixon",
+      "summary": "Less than a year after launching, with checks from some of the biggest names in Silicon Valley, crowdsourced AI model feedback startup Yupp is closing its business, the company said Tuesday.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Alexa+ gets new food ordering experiences with Uber Eats and Grubhub",
+      "summary": "You can now order from Uber Eats and Grubhub using Alexa+, an experience Amazon says will be similar to chatting with a waiter at a restaurant or placing an order at a drive-thru.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/31/alexa-plus-new-food-ordering-experiences-with-uber-eats-and-grubhub/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Nomadic raises $8.4 million to wrangle the data pouring off autonomous vehicles",
+      "summary": "The company turns footage from robots into structured, searchable datasets with a deep learning model.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/31/nomadic-raises-8-4-million-to-wrangle-the-data-pouring-off-avs/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Exclusive: Runway launches $10M fund, Builders program to support early-stage AI startups",
+      "summary": "Runway is launching a $10 million fund and startup program to back companies building with its AI video models, as it pushes toward interactive, real-time “video intelligence” applications.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "With its new app store, Ring bets on AI to go beyond home security",
+      "summary": "Ring's app store will allow the company to target broader use cases beyond security, like elder care or business needs.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/31/ring-app-store-bets-on-ai-to-go-beyond-home-security/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "15% of Americans say they’d be willing to work for an AI boss, according to new poll",
+      "summary": "According to a Quinnipiac University poll, 15% of Americans say they'd be willing to have a job where their direct supervisor was an AI program that assigned tasks and set schedules.",
+      "authors": [
+        "Graham Starr"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/30/ai-work-boss-supervisor-us-quinnipiac-poll/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+      "summary": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "As more Americans adopt AI tools, fewer say they can trust the results",
+      "summary": "AI adoption is rising in the U.S., but trust remains low, with most Americans concerned about transparency, regulation, and the technology’s broader societal impact, according to a new Quinnipiac poll.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/30/ai-trust-adoption-poll-more-americans-adopt-tools-fewer-say-they-can-trust-the-results/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "Mantis Biotech is making ‘digital twins’ of humans to help solve medicine’s data availability problem",
+      "summary": "Mantis takes disparate sources of data to make synthetic datasets that can be used to build so-called \"digital twins\" of the human body, representing anatomy, physiology and behavior.",
+      "authors": [
+        "Ram Iyer"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/30/mantis-biotech-is-making-digital-twins-of-humans-to-help-solve-medicines-data-availability-problem/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "ScaleOps raises $130M to improve computing efficiency amid AI demand",
+      "summary": "ScaleOps just raised $130M to tackle GPU shortages and soaring AI cloud costs by automating infrastructure in real time.",
+      "authors": [
+        "Kate Park"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/30/scaleops-130m-series-c-kubernetes-efficiency-ai-demand-funding/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "AI chip startup Rebellions raises $400 million at $2.3B valuation in pre-IPO round",
+      "summary": "The startup, which is planning to go public later this year, designs chips specifically for AI inference, another challenger to Nvidia's dominance.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "Mistral AI raises $830M in debt to set up a data center near Paris",
+      "summary": "Mistral aims to start operating the data center by the second quarter of 2026.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "Qodo raises $70M for code verification as AI coding scales",
+      "summary": "As AI floods software development with code, Qodo is betting the real challenge is making sure it actually works.",
+      "authors": [
+        "Kate Park"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "Starcloud raises $170 million Series A to build data centers in space",
+      "summary": "Starcloud becomes the fastest Y Combinator startup to reach unicorn status, just 17 months after demo day.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "Why OpenAI really shut down Sora",
+      "summary": "OpenAI's decision last week to shut down Sora, its AI video-generation tool, just six months after releasing it to the public, raised immediate suspicions. The app had invited users to upload their own faces — so was this some kind of elaborate data grab?",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/03/29/why-openai-really-shut-down-sora/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "SAP and ANYbotics drive industrial adoption of physical AI",
+      "summary": "Heavy industry relies on people to inspect hazardous, dirty facilities. It’s expensive, and putting humans in these zones carries obvious safety risks. Swiss robot maker ANYbotics and software company SAP are trying to change that. ANYbotics’ four-legged autonomous robots will be connected straight …",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/sap-and-anybotics-drive-industrial-adoption-physical-ai/",
+      "source": "AI News",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Secure governance accelerates financial AI revenue growth",
+      "summary": "Financial institutions are learning to deploy compliant AI solutions for greater revenue growth and market advantage. For the better part of ten years, financial institutions viewed AI primarily as a mechanism for pure efficiency gains. During that era, quantitative teams programmed systems designed…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/secure-governance-accelerates-financial-ai-revenue-growth/",
+      "source": "AI News",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "Glia wins Excellence Award for safer AI in banking",
+      "summary": "Glia, a customer service platform providing AI-powered interactions for the banking sector, has been named a winner in the Banking and Financial Services Category at the 2026 Artificial Intelligence Excellence Awards. The awards recognises achievements in a range of industries and use cases, spotlig…",
+      "authors": [
+        "David Thomas"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/glia-wins-excellence-award-for-safer-ai-in-banking/",
+      "source": "AI News",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "How AEO vs GEO reshapes AI-driven brand discovery in 2026",
+      "summary": "When Pew Research Centre analysed 68,879 Google searches in March 2025, one finding stood out: users who encountered an AI-generated summary clicked on a traditional result just 8% of the time. Those who didn’t see a summary clicked nearly twice as often, at 15%. A quarter of users who saw an AI sum…",
+      "authors": [
+        "Bazoom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/how-aeo-vs-geo-reshapes-ai-driven-brand-discovery-in-2026/",
+      "source": "AI News",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "Assessing AI powered price forecasting tools in currency markets",
+      "summary": "As artificial intelligence becomes a driving force in financial prediction, the reliability of its forecasting tools faces increasing scrutiny. Many traders question whether claims of high accuracy translate into consistent results under live market conditions. Understanding how these AI systems are…",
+      "authors": [
+        "Bazoom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/assessing-ai-powered-price-forecasting-tools-in-currency-markets/",
+      "source": "AI News",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "Kong names Bruce Felt as chief financial officer",
+      "summary": "A developer of API and AI connectivity technologies, Kong, has announced that Bruce Felt has joined it as CFO. Felt is a seasoned finance leader who brings experience guiding enterprise software companies through their growth phases, including several IPOs, acquisitions, and global expansions. Mr. F…",
+      "authors": [
+        "AI News"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/kong-names-bruce-felt-as-chief-financial-officer/",
+      "source": "AI News",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "JPMorgan begins tracking how employees use AI at work",
+      "summary": "Banking house JPMorgan Chase is asking its roughly 65,000 engineers and technologists to use AI tools as part of their regular workflow. Business Insider reported that managers are tracking how often staff use these tools. That use may also influence performance reviews. The report states employees …",
+      "authors": [
+        "Muhammad Zulhusni"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/jpmorgan-begins-tracking-how-employees-use-ai-at-work/",
+      "source": "AI News",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "summary": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for jobs please use this template Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocati…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8b199/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[D] TurboQuant author replies on OpenReview",
+      "summary": "I wanted to follow up to yesterday's thread and see if anyone wanted to weigh in on it. This work is far outside of my niche, but it strikes me as an attempt to reframe the issue instead of addressing concerns head on. The part that it bugging me is this: The true novelty of TurboQuant lies in our d…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8yni2/d_turboquant_author_replies_on_openreview/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[D] ICML 2026 review policy debate: 100 responses suggest Policy B may score higher, while Policy A shows higher confidence",
+      "summary": "A week ago I made a thread asking whether ICML 2026’s review policy might have affected review outcomes, especially whether Policy A papers may have been judged more harshly than Policy B papers. Original thread: https://www.reddit.com/r/MachineLearning/comments/1s387tx/d_icml_2026_policy_a_vs_polic…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8rpuo/d_icml_2026_review_policy_debate_100_responses/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[D] Does ML have a \"bible\"/reference textbook at the Intermediate/Advanced level?",
+      "summary": "Hello, everyone! This is my first time posting here and I apologise if the question is, perhaps, a bit too basic for this sub-reddit. A bit of an introduction: I am a 23 years old Master's Student enrolled in an Artificial Intelligence programme at a University (which one is irrelevant). Next year I…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8s03t/d_does_ml_have_a_biblereference_textbook_at_the/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[P] I built a personal research newspaper to funnel arXiv",
+      "summary": "Hi r/MachineLearning I'm a PhD student - mech interp x histopathology - and the amount of noise in the space, especially arXiv, is crazy high. Each week thousands of pre-prints land there, and maybe 10 or 20 are relevant to me? Some of them might even have the next insight that unlocks a potential r…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8ls28/p_i_built_a_personal_research_newspaper_to_funnel/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[R] Gram Newton-Schulz: A Fast, Hardware-Aware Newton-Schulz Algorithm for Muon",
+      "summary": "submitted by /u/Benlus [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8xknk/r_gram_newtonschulz_a_fast_hardwareaware/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[R] Fine-tuning services report",
+      "summary": "If you have some data and want to train or run a small custom model but don't have powerful enough hardware for training, fine-tuning services can be a good solution. Once training (requiring more resources than inference) is done, the custom model can then run locally. For larger models, there is a…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8u8l9/r_finetuning_services_report/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[D] Howcome Muon is only being used for Transformers?",
+      "summary": "Muon has quickly been adopted in LLM training, yet we don't see it being talked about in other contexts. Searches for Muon on ConvNets turn up basically no results, despite its announcement including a new training speed record for Cifar-10. In my experience faster training usually comes with better…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8b6ti/d_howcome_muon_is_only_being_used_for_transformers/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[P] Looking for people who have had training runs fail unexpectedly to beta test a stability monitor. Free, takes 5 minutes to add to your existing loop. DM me.",
+      "summary": "Anyone actively training models want to try a stability monitor on a real run? Trying to get real world validation outside my own benchmarks. submitted by /u/Turbulent-Tap6723 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s93kzm/p_looking_for_people_who_have_had_training_runs/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[D] ICPR Decision Discussion",
+      "summary": "ICPR results are coming out in a few hours, I know it is a small conf but I would still like to have some dicussion for anyone submitted there. There is no rebuttal this year so I am a bit uneasy about the decision. submitted by /u/Striking-Warning9533 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8ga44/d_icpr_decision_discussion/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[D] Diffusion research interview experience?",
+      "summary": "Sorry in advance, these might be bad questions, as I don't have any interviews right now and thus no specific questions, but I'm trying to get a realistic picture of what technical questions come up when interviewing for Research Scientist or Research Engineer roles focused on diffusion, so I can pr…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8dpuj/d_diffusion_research_interview_experience/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[D] thoughts on the controversy about Google's new paper?",
+      "summary": "Openreview: https://openreview.net/forum?id=tO3ASKZlok It's sad to see almost no one mention this on Reddit and people are being mean to people who point out concerns Edit: google is allegedly doing this in their trending TurboQuant paper Did not attribute a pervious work RaBitQ fully Did unfair com…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s7m7rn/d_thoughts_on_the_controversy_about_googles_new/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "[R] VLMs Behavior for Long Video Understanding",
+      "summary": "I have extensively searched on long video understanding datasets such as Video-MME, MLVU, VideoBench, LongVideoBench and etc. What I have seen there these datasets are focused on different categories such dramas, films, TV shows, documentaries where focus on tasks like ordering, counting, reasoning …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8j07z/r_vlms_behavior_for_long_video_understanding/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[P] I trained a language model from scratch for a low resource language and got it running fully on-device on Android (no GPU, demo)",
+      "summary": "Hi Everybody! I just wanted to share an update on a project I’ve been working on called BULaMU, a family of language models trained (20M, 47M, and 110M parameters) trained entirely from scratch for a low resource language, Luganda. The models are small and compute-efficient enough to run offline on …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s89pv3/p_i_trained_a_language_model_from_scratch_for_a/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[R] Pesquisa acadêmica sobre trabalho com microtarefas de machine learning para IA",
+      "summary": "Oi pessoal! Minha pesquisa de mestrado busca entender o cotidiano dos brasileiros que trabalham com microtarefas online (tipo Appen, Clickworker, UHRS, Remotasks, TELUS AI, etc.). Busco voluntários que possam falar um pouco dessa experiência de trabalho, de forma anônima. Se você trabalha com isso, …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8xnpq/r_pesquisa_acadêmica_sobre_trabalho_com/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[R] 2026 Google PhD Fellowship Program",
+      "summary": "2026 Google PhD Fellowship Program is opened and I have several questions if someone can please give me constructive answers. I want to apply but still confuse because this is my first year of phd and till now i do not have top publications but previously i had. Do you know any person who is selecte…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s88006/r_2026_google_phd_fellowship_program/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[D] The problem with comparing AI memory system benchmarks — different evaluation methods make scores meaningless",
+      "summary": "I've been reviewing how various AI memory systems evaluate their performance and noticed a fundamental issue with cross-system comparison. Most systems benchmark on LOCOMO (Maharana et al., ACL 2024), but the evaluation methods vary significantly. LOCOMO's official metric (Token-Overlap F1) gives GP…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s8osi9/d_the_problem_with_comparing_ai_memory_system/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "[P] fastrad: GPU-native radiomics library — 25× faster than PyRadiomics, 100% IBSI-compliant, all 8 feature classes",
+      "summary": "PyRadiomics is the de facto standard for radiomic feature extraction, but it's CPU-only and takes ~3 seconds per scan. At scale, that's a bottleneck. I built fastrad — a PyTorch-native library that implements all 8 IBSI feature classes (first-order, shape 2D/3D, GLCM, GLRLM, GLSZM, GLDM, NGTDM) as n…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s82qdb/p_fastrad_gpunative_radiomics_library_25_faster/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "[D] Joined UdeM MSCS without MILA affiliation - anyone successfully found a core MILA supervisor in their first semester?",
+      "summary": "Hey everyone, I've been accepted into the MSCS program at UdeM for this coming fall. I applied to the MILA supervisor matching process, but didn't get any responses. I wanted to know if anyone here has been in a similar situation, joined UdeM without MILA affiliation, and managed to get taken on by …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1s83c9s/d_joined_udem_mscs_without_mila_affiliation/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "What if the real AI problem is not intelligence, but responsibility?",
+      "summary": "A lot of the AI discussion is still framed around capability: Can it write? Can it code? Can it replace people? But I keep wondering whether the deeper problem is not intelligence, but responsibility. We are building systems that can generate text, images, music, and decisions at scale. But who is a…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8u4jm/what_if_the_real_ai_problem_is_not_intelligence/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Paper Finds That Leading AI Chatbots Like ChatGPT and Claude Remain Incredibly Sycophantic, Resulting in Twisted Effects on Users",
+      "summary": "https://futurism.com/artificial-intelligence/paper-ai-chatbots-chatgpt-claude-sycophantic Your AI chatbot isn’t neutral. Trust its advice at your own risk. A striking new study, conducted by researchers at Stanford University and published last week in the journal Science, confirmed that human-like …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s93wyl/paper_finds_that_leading_ai_chatbots_like_chatgpt/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "The actual way that AI will take over the world",
+      "summary": "It won't be a war against the machines or an out-of-control algorithm. Rather humans will simply lose the ability to concentrate and solve problems for themselves. And so AI will be granted more and more control over everything. submitted by /u/bummed_athlete [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8y5zs/the_actual_way_that_ai_will_take_over_the_world/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "World models will be the next big thing, bye-bye LLMs",
+      "summary": "Was at Nvidia's GTC conference recently and honestly, it was one of the most eye-opening events I've attended in a while. There was a lot to unpack, but my single biggest takeaway was this: world modelling is the actual GOAT of AI right now, and I don't think people outside the research community fu…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s828dj/world_models_will_be_the_next_big_thing_byebye/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-30"
+    },
+    {
+      "type": "news",
+      "title": "SMASH2000, an AI-powered optic that turns an AR-15 into an anti-drone platform",
+      "summary": "submitted by /u/Sgt_Gram [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s92mvu/smash2000_an_aipowered_optic_that_turns_an_ar15/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Newsom signs executive order requiring AI companies to have safety, privacy guardrails",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8ge2h/newsom_signs_executive_order_requiring_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Pro-AI group to spend $100mn on US midterm elections as backlash grows",
+      "summary": "submitted by /u/BeigeListed [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8l0x7/proai_group_to_spend_100mn_on_us_midterm/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Have Companies Began Adopting Claude Co-Work at an Enterprise Level?",
+      "summary": "Hi Guys, My company is considering purchasing the Claude Enterprise plan. The main two constraints are: - Being able to block usage of Claude Code - Using Co-work in a managed fashion (preventing an employee for accidentally destroying or changing shared confidential files). Has anyone’s companies a…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8qisi/have_companies_began_adopting_claude_cowork_at_an/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Iran War Chokes Off Helium Supply Critical for AI",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8ew65/iran_war_chokes_off_helium_supply_critical_for_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Fake users generated by AI can't simulate humans — review of 182 research papers. Your thoughts?",
+      "summary": "https://www.researchsquare.com/article/rs-9057643/v1 There’s a massive trend right now where tech companies, businesses, even researchers are trying to replace real human feedback with Large Language Models (LLMs) so called synthetic participants/users. The idea is sounds great - why spend money and…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8hr7k/fake_users_generated_by_ai_cant_simulate_humans/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "What happens when AI agents can earn and spend real money? I built a small test to find out",
+      "summary": "I've been sitting with a question for a while: what happens when AI agents aren't just tools to be used, but participants in an economy? So I ran a small test. I built BotStall - a marketplace where AI agents can list products, purchase autonomously, and build a trust history with real money. It's a…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8luvc/what_happens_when_ai_agents_can_earn_and_spend/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Is the Mirage Effect a bug, or is it Geometric Reconstruction in action? A framework for why VLMs perform better \"hallucinating\" than guessing, and what that may tell us about what's really inside these models",
+      "summary": "Last week, a team from Stanford and UCSF (Asadi, O'Sullivan, Fei-Fei Li, Euan Ashley et al.) dropped two companion papers. The first, MARCUS, is an agentic multimodal system for cardiac diagnosis - ECG, echocardiogram, and cardiac MRI, interpreted together by domain-specific expert models coordinate…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s91dsr/is_the_mirage_effect_a_bug_or_is_it_geometric/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "What I learned about multi-agent coordination running 9 specialized Claude agents",
+      "summary": "I've been experimenting with multi-agent AI systems and ended up building something more ambitious than I originally planned: a fully operational organization where every role is filled by a specialized Claude agent. I'm the only human. Here's what I learned about coordination. The agent team and th…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8opu2/what_i_learned_about_multiagent_coordination/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "If frontier AI labs have unlimited shovels, what's stopping them from building everything?",
+      "summary": "I found myself explaining AI tokens to my mom over the weekend. At first I related them to building bricks: blocks of data the model uses to understand and respond. Then I thought about it as we're all paying for tokens as units of work. Not just a shovel, but the work a shovel can do, like horses a…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8fw9n/if_frontier_ai_labs_have_unlimited_shovels_whats/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Inside OpenAI's decision to abandon Sora AI video app",
+      "summary": "submitted by /u/LinkedInNews [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8qux9/inside_openais_decision_to_abandon_sora_ai_video/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "My AI spent last night modifying its own codebase",
+      "summary": "I've been working on a local AI system called Apis that runs completely offline through Ollama. During a background run, Apis identified that its Turing Grid memory structure\\* was nearly empty, with only one cell occupied by metadata. It then restructured its own architecture by expanding to three …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8i6u4/my_ai_spent_last_night_modifying_its_own_codebase/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Phone changed address on my photos",
+      "summary": "So I ran in to a problem I didn’t think i would but for some reason it happened. So I have important address saved on my phone to keep I save it under my favorite in photos. Most of the time it was fine but just recently my phone changed the address of the photo to my address like why did it do that…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8ojvd/phone_changed_address_on_my_photos/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "AIPass Herald",
+      "summary": "Some insight onto building a muilti agent autonomous system. This is like the daily newspaper for the project. A quick read to see how our day went. https://github.com/AIOSAI/AIPass/blob/main/HERALD.md submitted by /u/Input-X [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8ir98/aipass_herald/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Depth-first pruning seems to transfer from GPT-2 to Llama (unexpectedly well)",
+      "summary": "TL;DR: Removing the right transformer layers (instead of shrinking all layers) gives smaller, faster models with minimal quality loss — and this seems to transfer from GPT-2 to Llama. been experimenting with a simple idea: instead of shrinking model width, just remove entire layers based on sensitiv…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s8ft8d/depthfirst_pruning_seems_to_transfer_from_gpt2_to/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-31"
+    },
+    {
+      "type": "news",
+      "title": "Anyone else following the drama behind the TurboQuant paper?",
+      "summary": "A few hours ago, the first author of a paper that played a significant role in the TQ paper posted about some ongoing issues: In May 2025, our emails directly raised the theoretical and empirical issues; Majid wrote that he had informed his co-authors. During ICLR review, reviewers also asked for cl…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1s7xkm6/anyone_else_following_the_drama_behind_the/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-03-30"
+    }
+  ]
+}
