@@ -1,0 +1,75 @@
+{
+  "date": "2026-04-12",
+  "items": [
+    {
+      "type": "news",
+      "title": "Trump officials may be encouraging banks to test Anthropic’s Mythos model",
+      "summary": "The report is particularly surprising since the Department of Defense recently declared Anthropic a supply-chain risk.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/12/trump-officials-may-be-encouraging-banks-to-test-anthropics-mythos-model/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-12"
+    },
+    {
+      "type": "news",
+      "title": "Apple reportedly testing four designs for upcoming smart glasses",
+      "summary": "These glasses are a step back from an ambitious plan that once called for Apple to launch a variety of mixed and augmented reality devices.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-12"
+    },
+    {
+      "type": "news",
+      "title": "From LLMs to hallucinations, here’s a simple guide to common AI terms",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "authors": [
+        "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/12/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-12"
+    },
+    {
+      "type": "news",
+      "title": "At the HumanX conference, everyone was talking about Claude",
+      "summary": "Anthropic was the star of the show at San Francisco's AI-centric conference.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-12"
+    },
+    {
+      "type": "news",
+      "title": "Sam Altman responds to ‘incendiary’ New Yorker article after attack on his home",
+      "summary": "The OpenAI CEO's new blog post responds to both an apparent attack on his home and an in-depth New Yorker profile raising questions about his trustworthiness.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-11"
+    }
+  ]
+}
