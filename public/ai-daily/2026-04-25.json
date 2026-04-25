@@ -1,0 +1,283 @@
+{
+  "date": "2026-04-25",
+  "items": [
+    {
+      "type": "news",
+      "title": "DeepSeek-V4: a million-token context that agents can actually use",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/deepseekv4",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "Three reasons why DeepSeek’s new model matters",
+      "summary": "On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. Notably, the model can process much longer prompts than its last generation, thanks to a new design that helps it handle large amounts of text more efficiently. Like DeepSeek’s previous models, V4 is o…",
+      "authors": [
+        "Caiwei Chen"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/04/24/1136422/why-deepseeks-v4-matters/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic created a test marketplace for agent-on-agent commerce",
+      "summary": "In a recent experiment, Anthropic created a classified marketplace where AI agents represented both buyers and sellers, striking real deals for real goods and real money.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-25"
+    },
+    {
+      "type": "news",
+      "title": "Maine’s governor vetoes data center moratorium",
+      "summary": "L.D. 307 would have imposed the country’s first statewide moratorium on new data centers — lasting, in this case, until November 1, 2027.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-25"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI CEO apologizes to Tumbler Ridge community",
+      "summary": "In a letter to the residents of Tumbler Ridge, Canada, OpenAI CEO Sam Altman said he is “deeply sorry” that his company failed to alert law enforcement about the suspect in a recent mass shooting.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-25"
+    },
+    {
+      "type": "news",
+      "title": "Why Cohere is merging with Aleph Alpha",
+      "summary": "Canadian AI startup Cohere is taking over Germany-based Aleph Alpha with support from Lidl’s owner, Schwarz Group. With the blessing of their governments, the companies intend to offer a sovereign alternative to enterprises in an AI landscape dominated by American players.",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-25"
+    },
+    {
+      "type": "news",
+      "title": "Why Tokyo is the most important tech destination of 2026",
+      "summary": "SusHi Tech Tokyo 2026 has four tightly defined technology domains, each backed by live demonstrations, dedicated exhibit floors, and sessions featuring the people actually building and funding these technologies globally.",
+      "authors": [
+        "Cindy Zackney"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-25"
+    },
+    {
+      "type": "news",
+      "title": "Apple under Ternus: what comes next for the tech giant’s hardware strategy",
+      "summary": "John Ternus, Apple's incoming CEO, is a hardware guy, signaling Apple may be putting devices back at the center of its strategy.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-25"
+    },
+    {
+      "type": "news",
+      "title": "Meta’s loss is Thinking Machines’ gain",
+      "summary": "Meta has been poaching talent from Thinking Machines Lab. But it's a two-way street.",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/24/metas-loss-is-thinking-machines-gain/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "ComfyUI hits $500M valuation as creators seek more control over AI-generated media",
+      "summary": "ComfyUI, whose tools give creators more control over AI image, video, and audio generation, just raised $30 million.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "Google to invest up to $40B in Anthropic in cash and compute",
+      "summary": "Google plans up to $40B investment in Anthropic as AI rivals race to secure massive compute capacity, following the limited release of its powerful, cybersecurity-focused Mythos model.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "Apple’s new CEO, and why Elon Musk wants to buy Cursor for $60B",
+      "summary": "A new era is on the way for Apple as Tim Cook plans to step down from his CEO role in September, handing the reins to hardware chief John Ternus. Ternus may be inheriting one of the most durable businesses in tech, but he’s also stepping into a very different ecosystem than the one Cook spent decade…",
+      "authors": [
+        "Theresa Loconsolo, Kirsten Korosec, Anthony Ha, Sean O'Kane"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/apples-new-ceo-and-why-elon-musk-wants-to-buy-cursor-for-60b/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "Marked-up Mac minis flood eBay amid shortages driven by AI",
+      "summary": "Apple’s sold-out Mac mini is spawning marked-up eBay listings as demand surges for the compact desktop, now favored for running local AI models and tools.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "Uber CTO Praveen Neppalli Naga joins stacked StrictlyVC SF lineup for April 30 event",
+      "summary": "Surprise! StrictlyVC San Francisco, which will kick off this year’s events lineup for TechCrunch on April 30 at the Sentro Filipino Cultural Center, is getting a new addition to its increasingly stacked lineup of speakers. Uber CTO Praveen Neppalli Naga will join the rest of the lineup to discuss op…",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/24/uber-cto-praveen-neppalli-naga-joins-stacked-strictlyvc-sf-lineup-for-april-30-event/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "Tim Cook is stepping down. What happens to Apple now?",
+      "summary": "Tim Cook plans to step down from his CEO role in September, handing the reins to hardware chief John Ternus. Ternus may be inheriting one of the most durable businesses in tech, but he’s also stepping into a very different ecosystemthan the one Cook spent decades shaping. The App Store’s 30% cut is …",
+      "authors": [
+        "Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/video/tim-cook-is-stepping-down-what-happens-to-apple-now/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "Nothing introduces an AI-powered dictation tool",
+      "summary": "Nothing's new on-device dictation tool supports over 100 languages.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/24/nothing-introduces-an-ai-powered-dictation-tool/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "DeepSeek previews new AI model that ‘closes the gap’ with frontier models",
+      "summary": "DeepSeek says both models are more efficient and performant than DeepSeek V3.2 due to architectural improvements, and have almost \"closed the gap\" with current leading models, both open and closed, on reasoning benchmarks.",
+      "authors": [
+        "Ram Iyer"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/24/deepseek-previews-new-ai-model-that-closes-the-gap-with-frontier-models/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "In another wild turn for AI chips, Meta signs deal for millions of Amazon AI CPUs",
+      "summary": "Meta has commandeered a big chunk of Amazon's homegrown CPUs (not GPUs) for AI agentic workloads, signaling that a new kind of chip race has begun.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/04/24/in-another-wild-turn-for-ai-chips-meta-signs-deal-for-millions-of-amazon-ai-cpus/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "Why AI agents need interaction infrastructure",
+      "summary": "To stop automation waste, enterprises must deploy interaction infrastructure that physically governs how independent AI agents operate. AI agents now populate corporate networks, reasoning through tasks and executing decisions with increasing autonomy. Yet, when these independent actors attempt to c…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/why-ai-agents-need-interaction-infrastructure/",
+      "source": "AI News",
+      "publishedAt": "2026-04-24"
+    },
+    {
+      "type": "news",
+      "title": "How AI models use real-time cryptocurrency data to interpret market behaviour",
+      "summary": "AI systems are increasingly built around data that does not really pause. Financial markets are an obvious example, where inputs keep updating, not arriving in fixed batches. In that kind of setup, something like the BNB price stops being a single figure and starts to look more like a stream that ke…",
+      "authors": [
+        "Sadie Smith"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/how-ai-models-use-real-time-cryptocurrency-data-to-interpret-market-behaviour/",
+      "source": "AI News",
+      "publishedAt": "2026-04-24"
+    }
+  ]
+}
