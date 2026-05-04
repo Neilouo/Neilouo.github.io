@@ -1,0 +1,61 @@
+{
+  "date": "2026-05-03",
+  "items": [
+    {
+      "type": "news",
+      "title": "‘This is fine’ creator says AI startup stole his art",
+      "summary": "The ad comes from Artisan, the AI startup behind billboards urging businesses to \"stop hiring humans.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-03"
+    },
+    {
+      "type": "news",
+      "title": "In Harvard study, AI offered more accurate emergency room diagnoses than two human doctors",
+      "summary": "A new study examines how large language models perform in a variety of medical contexts, including real emergency room cases — where at least one model seemed to be more accurate than human doctors.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/03/in-harvard-study-ai-offered-more-accurate-diagnoses-than-emergency-room-doctors/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-03"
+    },
+    {
+      "type": "news",
+      "title": "AI-generated actors and scripts are now ineligible for Oscars",
+      "summary": "Bad news for Tilly Norwood.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/02/ai-generated-actors-and-scripts-are-now-ineligible-for-oscars/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-02"
+    },
+    {
+      "type": "news",
+      "title": "The best AI dictation apps, tested and ranked",
+      "summary": "AI-powered dictation apps are useful for replying to emails, taking notes, and even coding through your voice",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/02/the-best-ai-powered-dictation-apps-of-2025/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-02"
+    }
+  ]
+}
