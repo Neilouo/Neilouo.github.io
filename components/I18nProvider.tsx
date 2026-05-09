@@ -45,7 +45,7 @@ const DICT: Record<string, { zh: string, en: string }> = {
   about_role: { zh: '全栈开发者 & AI产品经理 & 数据科学家', en: 'Full-stack Developer & AI Product Manager & Data Scientist' },
   about_school: { zh: '毕业于墨尔本大学', en: 'Graduated from University of Melbourne' },
   about_major: { zh: '数据科学专业', en: 'Major in Data Science' },
-  about_location: { zh: '现居深圳', en: 'Now in Shenzhen, China' },
+  about_location: { zh: '现居北京', en: 'Now in Beijing, China' },
   read_all_posts: { zh: '查看所有文章', en: 'Read all posts' },
   notes_desc: { zh: '计算机科学、数据科学、前后端系统化学习知识', en: 'Systematized learning knowledge in Computer Science, Data Science, Frontend & Backend' },
   blog_desc: { zh: '编程经验、产品思考和生活', en: 'Coding experience, product thinking and life' },
