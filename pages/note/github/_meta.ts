@@ -1,0 +1,3 @@
+export default {
+  github: 'git 和 github 使用指南'
+}

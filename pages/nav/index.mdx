@@ -3,6 +3,7 @@ import { Aside } from '../../components/aside'
 import { NavData } from '../../data/data'
 import Content from '../../components/content'
 import { Top } from '../../components/Top'
+import { T } from '../../components/I18nProvider'
 
 {/* 导航 Nav */}
 <div id='content-start' className={'w-full'}>
@@ -12,7 +13,7 @@ import { Top } from '../../components/Top'
       Navigation
     </h1>
     <div className={'mt-6'}>
-      站点收藏及常用导航
+      <T k="nav_desc" />
     </div>
   </div>
   <div className='w-full relative py-5 flex border-t-2 border-gray-300 dark:border-gray-700 border-dashed '>

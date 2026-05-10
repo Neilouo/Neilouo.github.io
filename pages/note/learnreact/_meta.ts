@@ -1,0 +1,5 @@
+export default {
+  start: '引入',
+  basic: '语法基础',
+  advance: '进阶'
+}

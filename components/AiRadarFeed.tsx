@@ -107,7 +107,7 @@ export default function AiRadarFeed () {
   })
 
   const byArea = filtered.reduce<Record<string, AiRadarItem[]>>((acc, item) => {
-    const area = item.primaryArea || '其他'
+    const area = item.primaryArea || t('other_area')
     if (!acc[area]) acc[area] = []
     acc[area].push(item)
     return acc

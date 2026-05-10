@@ -11,6 +11,12 @@ const config = {
       <meta name="description" content="南桑｜个人网站：项目、博客、笔记与简历。Nan Sang | Personal site: projects, blog, notes and CV." />
       <meta property="og:title" content="Nan Sang · Portfolio & Blog" />
       <meta property="og:description" content="个人项目与技术文章，数据科学与全栈工程。" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://neilouo.github.io" />
+      <meta property="og:image" content="https://avatars.githubusercontent.com/u/125345731" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Nan Sang · Portfolio & Blog" />
+      <meta name="twitter:description" content="个人项目与技术文章，数据科学与全栈工程。" />
       <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       <link rel="alternate icon" href="/favicon.png" type="image/png" />
       <link rel="apple-touch-icon" href="/favicon.png" />

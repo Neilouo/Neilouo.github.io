@@ -1,0 +1,12 @@
+export default {
+  index: {
+    title: 'Blog',
+    theme: {
+      layout: 'full',
+      sidebar: false,
+      toc: false,
+      footer: true,
+      breadcrumb: false
+    }
+  }
+}

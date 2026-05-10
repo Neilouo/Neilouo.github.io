@@ -5,7 +5,7 @@
  */
 
 import Parser from 'rss-parser'
-import { writeFileSync, mkdirSync } from 'fs'
+import { writeFileSync, mkdirSync, readdirSync, unlinkSync } from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
 
@@ -212,6 +212,20 @@ async function main () {
   const outPath = join(OUT_DIR, `${dateStr}.json`)
   writeFileSync(outPath, JSON.stringify(payload, null, 2), 'utf8')
   console.log('Wrote', outPath, '| papers:', papers.length, '| news:', news.length)
+
+  // Clean up files older than 14 days
+  try {
+    const cutoff = Date.now() - 14 * 24 * 60 * 60 * 1000
+    const files = readdirSync(OUT_DIR).filter(f => f.endsWith('.json') && f !== 'sample.json')
+    for (const f of files) {
+      const datePart = f.replace('.json', '')
+      const fileDate = new Date(datePart).getTime()
+      if (!isNaN(fileDate) && fileDate < cutoff) {
+        unlinkSync(join(OUT_DIR, f))
+        console.log('Cleaned up old file:', f)
+      }
+    }
+  } catch {}
 }
 
 // 全局“保险丝”：无论内部是否有挂起的网络请求，超过 SCRIPT_TIMEOUT_MS 直接强制退出，

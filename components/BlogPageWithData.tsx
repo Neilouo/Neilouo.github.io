@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import Link from 'next/link'
 import { ArrowUpRight, Filter, Clock, Flame } from 'lucide-react'
+import { useI18n } from './I18nProvider'
 import {
   externalArticles as sampleArticles,
   sourceMeta,
@@ -19,6 +20,7 @@ const parseViewCount = (views?: string): number => {
 }
 
 const BlogPageWithData: React.FC = () => {
+  const { t, lang } = useI18n()
   const [activeSource, setActiveSource] = useState<ExternalSource | 'all'>('all')
   const [sortMode, setSortMode] = useState<SortMode>('latest')
   const [articles, setArticles] = useState<ExternalArticle[]>(sampleArticles)
@@ -40,8 +42,8 @@ const BlogPageWithData: React.FC = () => {
         }
       } catch (err) {
         if (!controller.signal.aborted) {
-          console.error('加载外部文章失败:', err)
-          setError('外部文章暂时不可用。')
+          console.error('Failed to load external articles:', err)
+          setError(t('external_unavailable'))
           setArticles(sampleArticles)
         }
       } finally {
@@ -85,17 +87,17 @@ const BlogPageWithData: React.FC = () => {
       <div className="flex flex-wrap items-center justify-between gap-4">
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-slate-400 dark:text-slate-500">
-            External Feed
+            {t('external_feed')}
           </p>
           <h3 className="text-left text-2xl font-semibold text-slate-900 dark:text-white">
-            各平台的最新文章
+            {t('external_articles')}
           </h3>
           {error && <p className="mt-2 text-xs text-amber-500">{error}</p>}
         </div>
         <div className="flex flex-col items-end gap-2">
           <div className="flex flex-wrap items-center gap-2 text-sm">
             <span className="inline-flex items-center rounded-full border border-slate-200/70 px-3 py-1 text-slate-500 dark:border-white/10 dark:text-slate-300">
-              <Filter className="mr-1 h-3.5 w-3.5" />筛选来源
+              <Filter className="mr-1 h-3.5 w-3.5" />{t('filter_source')}
             </span>
             <button
               onClick={() => setActiveSource('all')}
@@ -105,7 +107,7 @@ const BlogPageWithData: React.FC = () => {
                   : 'bg-white/60 text-slate-500 hover:bg-slate-100 dark:bg-white/5 dark:text-slate-300'
               }`}
             >
-              全部
+              {t('all')}
             </button>
             {(Object.keys(sourceMeta) as ExternalSource[]).map((source) => (
               <button
@@ -131,7 +133,7 @@ const BlogPageWithData: React.FC = () => {
                   : 'bg-white/60 text-slate-500 hover:bg-slate-100 dark:bg-white/5 dark:text-slate-300'
               }`}
             >
-              <Clock className="h-3 w-3" />最新
+              <Clock className="h-3 w-3" />{t('latest')}
             </button>
             <button
               onClick={() => setSortMode('popular')}
@@ -141,7 +143,7 @@ const BlogPageWithData: React.FC = () => {
                   : 'bg-white/60 text-slate-500 hover:bg-slate-100 dark:bg-white/5 dark:text-slate-300'
               }`}
             >
-              <Flame className="h-3 w-3" />热度
+              <Flame className="h-3 w-3" />{t('popular')}
             </button>
           </div>
         </div>
@@ -150,7 +152,7 @@ const BlogPageWithData: React.FC = () => {
       {loading
         ? (
         <div className="flex min-h-[220px] items-center justify-center rounded-3xl border border-white/60 bg-white/70 text-sm text-slate-500 shadow-inner dark:border-white/10 dark:bg-slate-900/60 dark:text-slate-300">
-          Loading Blog Articles...
+          {t('loading_articles')}
         </div>
           )
         : (
@@ -186,10 +188,10 @@ const BlogPageWithData: React.FC = () => {
 
                   <div className="mt-auto flex items-center justify-between pt-6 text-sm text-slate-500 dark:text-slate-300">
                     <div>
-                      <p>{new Date(article.publishedAt).toLocaleDateString('zh-CN')}</p>
+                      <p>{new Date(article.publishedAt).toLocaleDateString(lang === 'zh' ? 'zh-CN' : 'en-US')}</p>
                       <p className="text-xs text-slate-400">
                         {article.stats?.views
-                          ? `${article.stats.views} 次阅读`
+                          ? `${article.stats.views} ${t('views')}`
                           : ''}
                         {article.stats?.likes
                           ? ` · ${article.stats.likes}`

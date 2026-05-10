@@ -11,7 +11,7 @@ const CHART_URL = 'https://ghchart.rshah.org/FF5733/Neilouo'
 
 const GitHubStatsCard: React.FC = () => {
   const [stats, setStats] = useState<GitHubStats | null>(null)
-  const { lang } = useI18n()
+  const { t } = useI18n()
 
   useEffect(() => {
     const load = async (): Promise<void> => {
@@ -19,7 +19,9 @@ const GitHubStatsCard: React.FC = () => {
         const r = await fetch('/api/github-stats')
         const d = await r.json() as GitHubStats
         setStats(d)
-      } catch {}
+      } catch {
+        // Stats unavailable — component shows skeleton until data loads
+      }
     }
     void load()
   }, [])
@@ -68,17 +70,17 @@ const GitHubStatsCard: React.FC = () => {
         <div className="overflow-x-auto">
           <img
             src={CHART_URL}
-            alt={lang === 'zh' ? 'GitHub 贡献热力图' : 'GitHub contribution chart'}
+            alt={t('github_heatmap')}
             className="w-full min-w-[660px] h-auto dark:invert dark:hue-rotate-180 dark:brightness-90 dark:contrast-90"
           />
         </div>
         <div className="mt-3 flex items-center justify-between">
           <span className="text-xs text-warm-400 dark:text-warm-500">
-            {lang === 'zh' ? 'GitHub 每日活跃记录' : 'GitHub daily activity'}
+            {t('github_daily')}
           </span>
           <div className="flex items-center gap-1">
             <span className="text-xs text-warm-400 dark:text-warm-500 mr-1">
-              {lang === 'zh' ? '少' : 'Less'}
+              {t('less')}
             </span>
             {['#EEEEEE', '#ffa480', '#ff8a66', '#FF5733', '#cc4629'].map((color) => (
               <span
@@ -88,7 +90,7 @@ const GitHubStatsCard: React.FC = () => {
               />
             ))}
             <span className="text-xs text-warm-400 dark:text-warm-500 ml-1">
-              {lang === 'zh' ? '多' : 'More'}
+              {t('more')}
             </span>
           </div>
         </div>

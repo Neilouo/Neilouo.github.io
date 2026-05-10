@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import ProjectCard, { ProjectMeta } from './ProjectCard'
 import ProjectCarousel from './ProjectCarousel'
+import { useI18n } from './I18nProvider'
 
 interface GitHubRepo {
   id: number
@@ -33,6 +34,7 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
   intervalMs = 4000,
   limit
 }) => {
+  const { t } = useI18n()
   const [repos, setRepos] = useState<GitHubRepo[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
@@ -69,7 +71,7 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
   if (error) {
     return (
       <div className="text-center py-12">
-        <p className="text-warm-500 dark:text-warm-400">加载失败: {error}</p>
+        <p className="text-warm-500 dark:text-warm-400">{t('load_failed')}: {error}</p>
       </div>
     )
   }
@@ -77,7 +79,7 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
   if (repos.length === 0) {
     return (
       <div className="text-center py-12">
-        <p className="text-warm-500 dark:text-warm-400">暂无公开项目</p>
+        <p className="text-warm-500 dark:text-warm-400">{t('no_projects')}</p>
       </div>
     )
   }

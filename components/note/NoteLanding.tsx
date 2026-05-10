@@ -1,11 +1,9 @@
 'use client'
 
 import Link from 'next/link'
-import { noteFilters, noteHighlights } from '../../data/noteContent'
+import { getNoteFilters, getNoteHighlights } from '../../data/noteContent'
 import { ArrowRight } from 'lucide-react'
 import { useI18n } from '../I18nProvider'
-
-const totalNotes = noteFilters.reduce((acc, item) => acc + item.count, 0)
 
 interface NoteLandingProps {
   contextJson: Record<string, unknown>
@@ -13,6 +11,9 @@ interface NoteLandingProps {
 
 export default function NoteLanding ({ contextJson }: NoteLandingProps): JSX.Element {
   const { t } = useI18n()
+  const noteFilters = getNoteFilters(t)
+  const noteHighlights = getNoteHighlights(t)
+  const totalNotes = noteFilters.reduce((acc, item) => acc + item.count, 0)
   return (
     <div className="max-w-5xl mx-auto px-4 pt-12 pb-24">
       <header className="mb-12">

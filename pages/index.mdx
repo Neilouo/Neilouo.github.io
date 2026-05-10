@@ -75,7 +75,7 @@ export function VisitorLine () {
 }
 
 export function LatestHighlights () {
-  const { lang } = useI18n()
+  const { lang, t } = useI18n()
   const work = {
     company: {zh: '顺丰科技', en: 'S.F.Express'},
     role: { zh: '数据产品经理', en: 'Data Product Manager' },
@@ -102,7 +102,7 @@ export function LatestHighlights () {
         <div className="flex items-center gap-2 mb-2">
           <FiBriefcase className="w-4 h-4 text-accent flex-shrink-0" />
           <span className="text-xs font-medium text-accent uppercase tracking-wider">
-            {lang === 'zh' ? '最近工作' : 'Latest Role'}
+            {t('latest_role')}
           </span>
         </div>
         <h4 className="text-sm font-semibold text-warm-900 dark:text-warm-50">
@@ -115,7 +115,7 @@ export function LatestHighlights () {
         <div className="flex items-center gap-2 mb-2">
           <FiCpu className="w-4 h-4 text-emerald-500 flex-shrink-0" />
           <span className="text-xs font-medium text-emerald-500 uppercase tracking-wider">
-            {lang === 'zh' ? '最近研究' : 'Latest Research'}
+            {t('latest_research')}
           </span>
         </div>
         <h4 className="text-sm font-semibold text-warm-900 dark:text-warm-50">
@@ -196,7 +196,7 @@ export function LatestHighlights () {
           </Link>
         ))}
         <Link href="/about#developer-profile" className="text-xs text-warm-400 dark:text-warm-500 hover:text-accent transition-colors">
-          +{certifications.length - 3} more
+          +{certifications.length - 3} <T k="more_certifications" />
         </Link>
       </div>
       <div className="mt-4">

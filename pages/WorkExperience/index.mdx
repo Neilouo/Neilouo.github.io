@@ -1,77 +1,114 @@
 import React from 'react'
 import { Top } from '../../components/Top'
 import { motion } from 'framer-motion'
+import { useI18n, T } from '../../components/I18nProvider'
 
 export const experiences = [
   {
-    company: 'Umetrip',
+    company: { zh: '航旅纵横', en: 'Umetrip' },
     logo:
       'https://img0.baidu.com/it/u=610977220,2909857421&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500',
-    role: 'Product Manager',
-    location: 'Beijing',
-    period: 'April 2025 - Present',
-    focus: 'Community growth',
-    highlights: [
-      'Carry out daily iterative updates to the U community',
-      'Added a new review section and iterated the chat room',
-      'Track new features and increase DAU through data analysis',
-    ],
+    role: { zh: '产品经理', en: 'Product Manager' },
+    location: { zh: '北京', en: 'Beijing' },
+    period: { zh: '2025.04 - 至今', en: 'Apr 2025 - Present' },
+    focus: { zh: '社区增长', en: 'Community growth' },
+    highlights: {
+      zh: [
+        '对U社区平台进行日常迭代更新',
+        '新增点评板块并迭代聊天室功能',
+        '通过数据分析追踪新功能并提升DAU',
+      ],
+      en: [
+        'Carry out daily iterative updates to the U community',
+        'Added a new review section and iterated the chat room',
+        'Track new features and increase DAU through data analysis',
+      ],
+    },
   },
   {
-    company: 'Kingsoft Cloud',
+    company: { zh: '金山云', en: 'Kingsoft Cloud' },
     logo: '/companies/kingsoft.svg',
-    role: 'Product Manager',
-    location: 'Beijing',
-    period: 'Dec 2024 - April 2025',
-    focus: 'Cloud native & AI',
-    highlights: [
-      'Iterate the functions of Kingsoft Cloud Container 1.0 to meet customer needs',
-      'Research cloud vendors’ AI assistants to help AI land in Kingsoft Cloud’s container group',
-      'Optimize the product demand management platform to ensure on-time delivery of customer needs',
-    ],
+    role: { zh: '产品经理', en: 'Product Manager' },
+    location: { zh: '北京', en: 'Beijing' },
+    period: { zh: '2024.12 - 2025.04', en: 'Dec 2024 - Apr 2025' },
+    focus: { zh: '云原生 & AI', en: 'Cloud native & AI' },
+    highlights: {
+      zh: [
+        '迭代金山云容器 1.0 功能',
+        '调研云厂商容器组的 AI 助手',
+        '优化产品需求管理平台',
+      ],
+      en: [
+        'Iterate the functions of Kingsoft Cloud Container 1.0 to meet customer needs',
+        'Research cloud vendors\' AI assistants to help AI land in Kingsoft Cloud\'s container group',
+        'Optimize the product demand management platform to ensure on-time delivery of customer needs',
+      ],
+    },
   },
   {
-    company: 'AW3C',
+    company: { zh: 'AW3C', en: 'AW3C' },
     logo:
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAAAAABXZoBIAAAA5UlEQVR4AWJgxQMGrSQDCGBQACbIEAZhIAiC44N3aCxeIFF4gay3SGQ1DoWqF/h6hW2CT6pqzzS5/xzbpv9BbS4z2WxuY5NZamAw8xb62eaODXKNlGc4KAKInOJUYR8eb3gpPnAPz2OphZQ8LjBljxsMcp4V3qROcA5PAbtwj32FH6kdvBU9PBRfgRXCoh7BVN7AKNhW2OoaoVGrwXFRqfAr+KBM7tbJ24fYL+oOslrPZXKBT6kDZfJF5YkKR6l31smvMnl7PKe/nx1gVlwr7PTlHlo3G6BJZtNvsOjAHlsQMLRSHwCKSbzTeC3BegAAAABJRU5ErkJggg==',
-    role: 'Game Developer',
-    location: 'Melbourne',
-    period: 'Nov 2024 - Dec 2024',
-    focus: 'Immersive gameplay',
-    highlights: [
-      'Developed a Unity-based game with a cross-functional squad',
-      'Coordinated gameplay delivery with six teammates across time zones',
-      'Collaborated with design partners to align art direction and mechanics',
-    ],
+    role: { zh: '游戏开发者', en: 'Game Developer' },
+    location: { zh: '墨尔本', en: 'Melbourne' },
+    period: { zh: '2024.11 - 2024.12', en: 'Nov 2024 - Dec 2024' },
+    focus: { zh: '沉浸式游戏', en: 'Immersive gameplay' },
+    highlights: {
+      zh: [
+        '与跨职能团队共同开发基于 Unity 的游戏',
+        '协调跨时区的六人团队进行游戏交付',
+        '与设计伙伴合作统一美术方向与游戏机制',
+      ],
+      en: [
+        'Developed a Unity-based game with a cross-functional squad',
+        'Coordinated gameplay delivery with six teammates across time zones',
+        'Collaborated with design partners to align art direction and mechanics',
+      ],
+    },
   },
   {
-    company: 'DiDi',
+    company: { zh: '滴滴', en: 'DiDi' },
     logo:
       'https://th.bing.com/th/id/ODLS.7cf64e8f-4f76-42b1-b13d-ae1719e3ae61?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2',
-    role: 'Back-end Developer',
-    location: 'Beijing',
-    period: 'Nov 2023 - April 2024',
-    focus: 'Geo-fencing & mapping',
-    highlights: [
-      "Leveraged DiDi's proprietary Go framework, Nvwa, to engineer a geo-fencing system, boosting valid pick-up accuracy by 35%",
-      'Reduced passenger wait times by 10% through system refactors',
-      "Created a mock service to reconcile DiDi's Australian map with Google Maps, improving navigation accuracy by 25%",
-    ],
+    role: { zh: '后端开发工程师', en: 'Back-end Developer' },
+    location: { zh: '北京', en: 'Beijing' },
+    period: { zh: '2023.11 - 2024.04', en: 'Nov 2023 - Apr 2024' },
+    focus: { zh: '地理围栏与地图', en: 'Geo-fencing & mapping' },
+    highlights: {
+      zh: [
+        '构建地理围栏系统，上车点准确率提升 35%',
+        '通过系统重构将乘客等待时间缩短 10%',
+        '创建 Mock 服务，实现澳洲地图与 Google Maps 对账',
+      ],
+      en: [
+        'Leveraged DiDi\'s proprietary Go framework, Nvwa, to engineer a geo-fencing system, boosting valid pick-up accuracy by 35%',
+        'Reduced passenger wait times by 10% through system refactors',
+        'Created a mock service to reconcile DiDi\'s Australian map with Google Maps, improving navigation accuracy by 25%',
+      ],
+    },
   },
   {
-    company: 'NetEase',
+    company: { zh: '网易', en: 'NetEase' },
     logo:
       'https://th.bing.com/th/id/ODLS.4d265cc3-5f42-421b-ab59-b1708c260de0?w=32&h=32&qlt=90&pcl=fffffa&o=6&pid=1.2',
-    role: 'Test Development Engineer',
-    location: 'Beijing',
-    period: 'Dec 2021 - Mar 2022',
-    focus: 'Automation & quality',
-    highlights: [
-      'Boosted data throughput by 30% through multithreaded Shell and Python automation',
-      'Reduced API response time by 25% using JMeter and SoapUI load testing',
-      'Enhanced model accuracy by 15% with white-box testing of the ELO algorithm',
-      'Improved data access speed by 20% by optimizing SQL queries on remote Linux servers',
-    ],
+    role: { zh: '测试开发工程师', en: 'Test Development Engineer' },
+    location: { zh: '北京', en: 'Beijing' },
+    period: { zh: '2021.12 - 2022.03', en: 'Dec 2021 - Mar 2022' },
+    focus: { zh: '自动化与质量', en: 'Automation & quality' },
+    highlights: {
+      zh: [
+        '通过多线程自动化将数据吞吐量提升 30%',
+        '使用压力测试将 API 响应时间缩短 25%',
+        '通过白盒测试将模型精度提升 15%',
+        '通过优化远程 Linux 服务器上的 SQL 查询，数据访问速度提升 20%',
+      ],
+      en: [
+        'Boosted data throughput by 30% through multithreaded Shell and Python automation',
+        'Reduced API response time by 25% using JMeter and SoapUI load testing',
+        'Enhanced model accuracy by 15% with white-box testing of the ELO algorithm',
+        'Improved data access speed by 20% by optimizing SQL queries on remote Linux servers',
+      ],
+    },
   },
 ]
 
@@ -82,81 +119,88 @@ export const accentPalette = [
   'from-fuchsia-400/35 via-purple-500/10 to-transparent',
 ]
 
-<div className="w-full pb-24">
-  <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white via-white/90 to-orange-50 px-6 py-12 text-center shadow-[0_35px_120px_-60px_rgba(15,23,42,0.9)] dark:border-white/5 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900">
-    <div className="pointer-events-none absolute -right-16 -top-16 h-80 w-80 rounded-full bg-orange-400/30 blur-3xl dark:bg-orange-500/20" />
-    <div className="pointer-events-none absolute -left-12 bottom-0 h-64 w-64 rounded-full bg-sky-400/20 blur-3xl dark:bg-sky-500/20" />
-    <p className="text-sm font-semibold uppercase tracking-[0.4em] text-orange-400">Journey</p>
-    <h1 className="mt-4 text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
-      Intern & Work Experience
-    </h1>
-    <p className="mx-auto mt-4 max-w-2xl text-base text-slate-600 dark:text-slate-300">
-      A curated timeline of the teams, products, and missions that shaped my craft.
-    </p>
-  </div>
+export function WorkExperiencePage() {
+  const { lang } = useI18n()
+  return (
+    <div className="w-full pb-24">
+      <div className="relative overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-white via-white/90 to-orange-50 px-6 py-12 text-center shadow-[0_35px_120px_-60px_rgba(15,23,42,0.9)] dark:border-white/5 dark:from-slate-900 dark:via-slate-950 dark:to-slate-900">
+        <div className="pointer-events-none absolute -right-16 -top-16 h-80 w-80 rounded-full bg-orange-400/30 blur-3xl dark:bg-orange-500/20" />
+        <div className="pointer-events-none absolute -left-12 bottom-0 h-64 w-64 rounded-full bg-sky-400/20 blur-3xl dark:bg-sky-500/20" />
+        <p className="text-sm font-semibold uppercase tracking-[0.4em] text-orange-400"><T k="journey_label" /></p>
+        <h1 className="mt-4 text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+          <T k="work_title" />
+        </h1>
+        <p className="mx-auto mt-4 max-w-2xl text-base text-slate-600 dark:text-slate-300">
+          <T k="work_subtitle" />
+        </p>
+      </div>
 
-  <div className="relative mt-16">
-    <div className="absolute left-6 top-0 hidden h-full w-px bg-gradient-to-b from-transparent via-orange-400/40 to-transparent lg:block" />
-    <div className="space-y-12">
-      {experiences.map((experience, index) => (
-        <div key={experience.company} className="relative pl-0 lg:pl-16">
-          <span className="absolute left-4 top-12 hidden h-4 w-4 -translate-x-1/2 rounded-full bg-orange-400 shadow-[0_0_25px_rgba(251,146,60,0.8)] ring-4 ring-orange-400/30 lg:inline-flex" />
-          <motion.div
-            className="group relative overflow-hidden rounded-3xl border border-white/20 bg-white/80 p-8 shadow-2xl backdrop-blur-xl transition duration-500 hover:-translate-y-1.5 hover:border-orange-400/60 dark:border-white/10 dark:bg-slate-900/60"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.5, delay: index * 0.05 }}
-          >
-            <div
-              className={`pointer-events-none absolute inset-0 bg-gradient-to-br ${accentPalette[index % accentPalette.length]} opacity-60 transition duration-500 group-hover:opacity-100 dark:opacity-50`}
-            />
-            <div className="relative z-10 flex flex-col gap-6 md:flex-row md:items-start">
-              <div className="flex flex-col gap-4 md:w-1/3">
-                <div className="flex items-center gap-4">
-                  <div className="relative h-20 w-20 flex-shrink-0">
-                    <div className="absolute inset-0 rounded-2xl bg-white/40 blur-2xl" />
-                    <img
-                      src={experience.logo}
-                      alt={`${experience.company} Logo`}
-                      className="relative z-10 h-full w-full rounded-2xl border border-white/40 bg-white/70 object-contain p-3 shadow-lg dark:bg-slate-900/60"
-                    />
+      <div className="relative mt-16">
+        <div className="absolute left-6 top-0 hidden h-full w-px bg-gradient-to-b from-transparent via-orange-400/40 to-transparent lg:block" />
+        <div className="space-y-12">
+          {experiences.map((experience, index) => (
+            <div key={experience.company.en} className="relative pl-0 lg:pl-16">
+              <span className="absolute left-4 top-12 hidden h-4 w-4 -translate-x-1/2 rounded-full bg-orange-400 shadow-[0_0_25px_rgba(251,146,60,0.8)] ring-4 ring-orange-400/30 lg:inline-flex" />
+              <motion.div
+                className="group relative overflow-hidden rounded-3xl border border-white/20 bg-white/80 p-8 shadow-2xl backdrop-blur-xl transition duration-500 hover:-translate-y-1.5 hover:border-orange-400/60 dark:border-white/10 dark:bg-slate-900/60"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, amount: 0.3 }}
+                transition={{ duration: 0.5, delay: index * 0.05 }}
+              >
+                <div
+                  className={`pointer-events-none absolute inset-0 bg-gradient-to-br ${accentPalette[index % accentPalette.length]} opacity-60 transition duration-500 group-hover:opacity-100 dark:opacity-50`}
+                />
+                <div className="relative z-10 flex flex-col gap-6 md:flex-row md:items-start">
+                  <div className="flex flex-col gap-4 md:w-1/3">
+                    <div className="flex items-center gap-4">
+                      <div className="relative h-20 w-20 flex-shrink-0">
+                        <div className="absolute inset-0 rounded-2xl bg-white/40 blur-2xl" />
+                        <img
+                          src={experience.logo}
+                          alt={`${experience.company[lang]} Logo`}
+                          className="relative z-10 h-full w-full rounded-2xl border border-white/40 bg-white/70 object-contain p-3 shadow-lg dark:bg-slate-900/60"
+                        />
+                      </div>
+                      <div>
+                        <p className="text-xs font-semibold uppercase tracking-[0.35em] text-orange-400">#{index + 1}</p>
+                        <h2 className="text-2xl font-bold text-slate-900 dark:text-white">{experience.company[lang]}</h2>
+                        <p className="text-sm text-slate-600 dark:text-slate-300">{experience.location[lang]}</p>
+                      </div>
+                    </div>
+                    <div className="inline-flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-slate-300">
+                      <span className="rounded-full border border-white/30 bg-white/60 px-3 py-1 text-slate-900 dark:border-white/20 dark:bg-white/5 dark:text-white/80">
+                        {experience.role[lang]}
+                      </span>
+                      <span className="rounded-full border border-white/30 bg-white/60 px-3 py-1 text-slate-900 dark:border-white/20 dark:bg-white/5 dark:text-white/80">
+                        {experience.period[lang]}
+                      </span>
+                    </div>
+                    <span className="w-max rounded-full bg-orange-500/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-orange-500">
+                      {experience.focus[lang]}
+                    </span>
                   </div>
-                  <div>
-                    <p className="text-xs font-semibold uppercase tracking-[0.35em] text-orange-400">#{index + 1}</p>
-                    <h2 className="text-2xl font-bold text-slate-900 dark:text-white">{experience.company}</h2>
-                    <p className="text-sm text-slate-600 dark:text-slate-300">{experience.location}</p>
+
+                  <div className="md:flex-1">
+                    <ul className="space-y-3 text-left text-base text-slate-600 dark:text-slate-200">
+                      {experience.highlights[lang].map((highlight) => (
+                        <li key={highlight} className="flex items-start gap-3">
+                          <span className="mt-1 h-2 w-2 flex-shrink-0 rounded-full bg-orange-400" />
+                          <span>{highlight}</span>
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
-                <div className="inline-flex flex-wrap gap-2 text-xs font-semibold uppercase tracking-wide text-slate-600 dark:text-slate-300">
-                  <span className="rounded-full border border-white/30 bg-white/60 px-3 py-1 text-slate-900 dark:border-white/20 dark:bg-white/5 dark:text-white/80">
-                    {experience.role}
-                  </span>
-                  <span className="rounded-full border border-white/30 bg-white/60 px-3 py-1 text-slate-900 dark:border-white/20 dark:bg-white/5 dark:text-white/80">
-                    {experience.period}
-                  </span>
-                </div>
-                <span className="w-max rounded-full bg-orange-500/15 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-orange-500">
-                  {experience.focus}
-                </span>
-              </div>
-
-              <div className="md:flex-1">
-                <ul className="space-y-3 text-left text-base text-slate-600 dark:text-slate-200">
-                  {experience.highlights.map((highlight) => (
-                    <li key={highlight} className="flex items-start gap-3">
-                      <span className="mt-1 h-2 w-2 flex-shrink-0 rounded-full bg-orange-400" />
-                      <span>{highlight}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+              </motion.div>
             </div>
-          </motion.div>
+          ))}
         </div>
-      ))}
-    </div>
-  </div>
+      </div>
 
-  <Top />
-</div>
+      <Top />
+    </div>
+  )
+}
+
+<WorkExperiencePage />

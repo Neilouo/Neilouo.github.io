@@ -47,14 +47,6 @@ export default async function handler(
   }
 
   try {
-    // 添加详细的环境信息日志
-    console.log('GitHub API Debug Info:', {
-      username: GITHUB_USERNAME,
-      hasToken: !!GITHUB_TOKEN,
-      tokenLength: GITHUB_TOKEN?.length || 0,
-      nodeEnv: process.env.NODE_ENV
-    })
-
     const headers: Record<string, string> = {
       Accept: 'application/vnd.github.v3+json',
       'User-Agent': 'Portfolio-Website-NanSang2000'
@@ -73,12 +65,6 @@ export default async function handler(
         signal: AbortSignal.timeout(10000) // 10秒超时
       }
     )
-
-    console.log('GitHub API Response:', {
-      status: response.status,
-      statusText: response.statusText,
-      headers: Object.fromEntries(response.headers.entries())
-    })
 
     if (!response.ok) {
       const errorText: string = await response.text()

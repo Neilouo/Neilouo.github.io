@@ -11,7 +11,12 @@ import ErrorBoundary from '../components/ErrorBoundary'
 import { I18nProvider } from '../components/I18nProvider'
 
 const myFont = localFont({
-  src: '../public/fonts/PingFangSC.ttf'
+  src: [
+    { path: '../public/fonts/PingFangSC.woff2', style: 'normal', weight: '400' },
+    { path: '../public/fonts/PingFangSC.ttf', style: 'normal', weight: '400' }
+  ],
+  display: 'swap',
+  preload: true
 })
 
 export default function App ({ Component, pageProps }: AppProps): JSX.Element {

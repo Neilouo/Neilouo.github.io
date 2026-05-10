@@ -10,6 +10,7 @@ import { motion } from 'framer-motion'
 import { Calendar, Clock, Tag, ArrowLeft, Share2 } from 'lucide-react'
 import Link from 'next/link'
 import Head from 'next/head'
+import { useI18n } from '../../components/I18nProvider'
 
 interface BlogPostProps {
   post: {
@@ -17,13 +18,14 @@ interface BlogPostProps {
     title: string
     content: string
     date: string
-    readTime: string
+    readTime: number
     tags: string[]
     excerpt: string
   }
 }
 
 const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
+  const { t, lang } = useI18n()
   const shareUrl = typeof window !== 'undefined' ? window.location.href : ''
 
   const handleShare = async (): Promise<void> => {
@@ -35,12 +37,11 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
           url: shareUrl
         })
       } catch (err) {
-        console.log('分享失败:', err)
+        console.log('Share failed:', err)
       }
     } else {
-      // 回退到复制链接
       void navigator.clipboard.writeText(shareUrl)
-      alert('链接已复制到剪贴板')
+      alert(t('link_copied'))
     }
   }
 
@@ -68,7 +69,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
               className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors duration-200 group"
             >
               <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform duration-200" />
-              返回博客列表
+              {t('back_to_blog')}
             </Link>
           </motion.div>
 
@@ -91,7 +92,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
               </div>
               <div className="flex items-center">
                 <Clock className="w-4 h-4 mr-2" />
-                {post.readTime}
+                {post.readTime} {t('min_read')}
               </div>
               <button
                 onClick={() => {
@@ -100,7 +101,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
                 className="flex items-center hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
               >
                 <Share2 className="w-4 h-4 mr-2" />
-                分享
+                {t('share')}
               </button>
             </div>
 
@@ -218,7 +219,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
               className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
-              查看更多文章
+              {t('view_more_posts')}
             </Link>
           </motion.div>
         </div>
@@ -269,16 +270,16 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       .substring(0, 150) + '...'
 
     // 计算阅读时间
-    const readTime = `${Math.max(1, Math.ceil(content.length / 200 / 5))} 分钟阅读`
+    const readTime = Math.max(1, Math.ceil(content.length / 200 / 5))
 
     // 提取标签
-    const tags = data.tags || ['技术']
+    const tags = data.tags || []
 
     const post = {
       slug,
       title: data.title || content.match(/^# (.+)$/m)?.[1] || slug,
       content,
-      date: data.date || new Date().toLocaleDateString('zh-CN'),
+      date: data.date || new Date().toISOString().slice(0, 10),
       readTime,
       tags,
       excerpt

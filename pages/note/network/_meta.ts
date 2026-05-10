@@ -1,0 +1,4 @@
+export default {
+  restfulapi: 'Restful API',
+  computernet: '计算机网络'
+}

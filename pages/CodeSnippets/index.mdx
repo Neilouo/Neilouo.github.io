@@ -1,6 +1,7 @@
-import dt from './_meta.json'
+import dt from './_meta'
 import Context from '../../components/Context'
 import { motion } from 'framer-motion'
+import { T } from '../../components/I18nProvider'
 
 <div className="relative min-h-screen w-full overflow-hidden">
   {/* 动态背景装饰 */}
@@ -47,7 +48,7 @@ import { motion } from 'framer-motion'
           className="relative"
         >
           <div className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent text-xl md:text-2xl font-semibold max-w-3xl mx-auto leading-relaxed mb-8">
-            💾 一些实用的代码片段和速查手册 ⚡
+            💾 <T k="code_snippets_desc" /> ⚡
           </div>
           
           {/* 特色标签 */}

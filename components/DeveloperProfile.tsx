@@ -142,7 +142,7 @@ function LeetCodeCard() {
 /* ── Kaggle Card ───────────────────────────────────────── */
 
 function KaggleCard() {
-  const { lang } = useI18n()
+  const { t } = useI18n()
   const kg = kaggleProfile
 
   if (!kg.username) {
@@ -155,7 +155,7 @@ function KaggleCard() {
           <span className="text-sm font-medium text-warm-900 dark:text-warm-50">Kaggle</span>
         </div>
         <p className="text-xs text-warm-400 dark:text-warm-500">
-          {lang === 'zh' ? '即将接入…' : 'Coming soon…'}
+          {t('coming_soon')}
         </p>
       </div>
     )
@@ -184,7 +184,7 @@ function KaggleCard() {
       <div className="flex items-center gap-3 mb-3">
         <span className={`text-sm font-semibold ${tierColors[kg.tier] || 'text-warm-500'}`}>{kg.tier}</span>
         <span className="flex items-center gap-1 text-xs text-warm-400 dark:text-warm-500">
-          <Star className="w-3 h-3" />{kg.badges.length} {lang === 'zh' ? '枚徽章' : 'badges'}
+          <Star className="w-3 h-3" />{kg.badges.length} {t('badges')}
         </span>
       </div>
 
@@ -196,7 +196,7 @@ function KaggleCard() {
               <div className="min-w-0">
                 <p className="text-warm-700 dark:text-warm-200 leading-snug line-clamp-1">{comp.name}</p>
                 <p className="text-warm-400 dark:text-warm-500">
-                  {lang === 'zh' ? '排名' : 'Rank'} {comp.rank}/{comp.total}
+                  {t('rank')} {comp.rank}/{comp.total}
                   <span className="ml-1 text-warm-300 dark:text-warm-600">
                     (top {Math.round(comp.rank / comp.total * 100)}%)
                   </span>
@@ -226,14 +226,14 @@ function KaggleCard() {
 /* ── Certifications ────────────────────────────────────── */
 
 function CertificationsGrid() {
-  const { lang } = useI18n()
+  const { t } = useI18n()
 
   return (
     <div className="space-y-3">
       <div className="flex items-center gap-2 mb-1">
         <Award className="w-4 h-4 text-warm-400 dark:text-warm-500" />
         <h4 className="text-sm font-medium text-warm-700 dark:text-warm-200">
-          {lang === 'zh' ? '专业认证' : 'Certifications'}
+          {t('certifications_title')}
         </h4>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -278,12 +278,12 @@ function CertificationsGrid() {
 /* ── Main export ───────────────────────────────────────── */
 
 export default function DeveloperProfile() {
-  const { lang } = useI18n()
+  const { t } = useI18n()
 
   return (
     <section className="space-y-6">
       <h3 className="text-lg font-semibold text-warm-900 dark:text-warm-50">
-        {lang === 'zh' ? '开发者档案' : 'Developer Profile'}
+        {t('developer_profile')}
       </h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
