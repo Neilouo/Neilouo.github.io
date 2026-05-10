@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-09",
+  "items": [
+    {
+      "type": "news",
+      "title": "\"OncoAgent: A Dual-Tier Multi-Agent Framework for Privacy-Preserving Oncology Clinical Decision Support\"",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/lablab-ai-amd-developer-hackathon/oncoagent-official-paper",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-05-09"
+    },
+    {
+      "type": "news",
+      "title": "EMO: Pretraining mixture of experts for emergent modularity",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/allenai/emo",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-05-08"
+    },
+    {
+      "type": "news",
+      "title": "Musk v. Altman week 2: OpenAI fires back, and Shivon Zilis reveals that Musk tried to poach Sam Altman",
+      "summary": "In the second week of the landmark trial between Elon Musk and OpenAI, Musk’s motivations for bringing the suit were under scrutiny. Last week, Musk took the stand, alleging that OpenAI CEO Sam Altman and president Greg Brockman had deceived him into donating $38 million to the company. He claimed t…",
+      "authors": [
+        "Michelle Kim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/05/08/1137008/musk-v-altman-week-2-openai-fires-back-and-shivon-zilis-reveals-that-musk-tried-to-poach-sam-altman/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-05-08"
+    },
+    {
+      "type": "news",
+      "title": "So you’ve heard these AI terms and nodded along; let’s fix that",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "authors": [
+        "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/09/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-09"
+    },
+    {
+      "type": "news",
+      "title": "Nvidia has already committed $40B to equity AI deals this year",
+      "summary": "Nvidia continues to be a big investor in the AI ecosystem.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/09/nvidia-has-already-committed-40b-to-equity-ai-deals-this-year/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-09"
+    },
+    {
+      "type": "news",
+      "title": "Laid-off Oracle workers tried to negotiate better severance. Oracle said no.",
+      "summary": "Some found out they didn't qualify for WARN Act protections like two-months notice because the company had classified them as remote workers.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/08/laid-off-oracle-workers-tried-to-negotiate-better-severance-oracle-said-no/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-08"
+    },
+    {
+      "type": "news",
+      "title": "Intel’s comeback story is even wilder than it seems",
+      "summary": "Intel's stock has risen a stunning 490% over the past year, a bet by Wall Street that may be running well ahead of the company's actual turnaround.",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/08/intels-comeback-story-is-even-wilder-than-it-seems/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-08"
+    },
+    {
+      "type": "news",
+      "title": "Cloudflare says AI made 1,100 jobs obsolete, even as revenue hit a record high",
+      "summary": "Cloudflare announced its first large-scale layoff. CEO Matthew Prince says because of AI efficiency gains, the company doesn't need as many support roles.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/08/cloudflare-says-ai-made-1100-jobs-obsolete-even-as-revenue-hit-a-record-high/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-08"
+    },
+    {
+      "type": "news",
+      "title": "The “people’s airline” and the enterprise AI gold rush",
+      "summary": "Everyone wants a piece of the enterprise AI pie, and this week, we saw a string of companies making their moves. From Anthropic and OpenAI announcing new joint ventures targeting enterprise AI deployment to SAP dropping $1B on German AI startup Prior Labs, it’s becoming clear that if you’re a startu…",
+      "authors": [
+        "Kirsten Korosec, Anthony Ha, Sean O'Kane, Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/the-peoples-airline-and-the-enterprise-ai-gold-rush/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-08"
+    },
+    {
+      "type": "news",
+      "title": "Last 24 hours to get 50% off a second pass to TechCrunch Disrupt 2026",
+      "summary": "Last day to buy one pass and get a second one at 50% off to TechCrunch Disrupt 2026. Bring a partner, co-founder, or colleague at half off. Register now.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/08/last-24-hours-to-get-50-off-a-second-pass-to-techcrunch-disrupt-2026/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-08"
+    },
+    {
+      "type": "news",
+      "title": "The fax machine is the bottleneck in US healthcare, and VCs are starting to notice",
+      "summary": "Like many AI companies automating work that humans currently do, Basata will eventually face a harder question about where the line is between augmenting workers and displacing them. For now, the founders say the administrative staff they work with aren't worried about that; they're more worried abo…",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/07/the-back-office-problem-that-explains-why-specialists-never-call-you-back/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-08"
+    },
+    {
+      "type": "news",
+      "title": "RingCentral adds Shopify, Calendly, and WhatsApp to AI Receptionist",
+      "summary": "RingCentral has expanded its AI Receptionist product with new links to Shopify, Calendly and WhatsApp, as the communications software company tries to push the product beyond basic call answering and into more routine customer service tasks. The company said AI Receptionist, known as AIR, can now ha…",
+      "authors": [
+        "AI News"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/ringcentral-ai-adds-shopify-calendly-and-whatsapp-to-ai-receptionist/",
+      "source": "AI News",
+      "publishedAt": "2026-05-08"
+    }
+  ]
+}
