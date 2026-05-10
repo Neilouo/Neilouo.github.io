@@ -122,6 +122,7 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
       {displayProjects.map((project, index) => (
         <div
           key={project.id}
+          className="h-full"
           onMouseEnter={() => {
             setActiveIndex(index)
             onActiveChange?.(index, repos[index])

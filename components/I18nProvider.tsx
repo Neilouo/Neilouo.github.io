@@ -80,6 +80,10 @@ const DICT: Record<string, { zh: string, en: string }> = {
   resume_lang_en: { zh: '英文简历', en: 'English Resume' },
   frontend: { zh: '前端', en: 'Frontend' },
   backend_tools: { zh: '后端 & 工具', en: 'Backend & Tools' },
+  language_skills: { zh: '编程语言', en: 'Languages' },
+  proficiency_advanced: { zh: '精通', en: 'Advanced' },
+  proficiency_intermediate: { zh: '熟练', en: 'Intermediate' },
+  proficiency_beginner: { zh: '入门', en: 'Beginner' },
 
   // Blog slug page
   back_to_blog: { zh: '返回博客列表', en: 'Back to blog' },
