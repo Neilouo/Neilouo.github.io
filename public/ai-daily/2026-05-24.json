@@ -1,0 +1,73 @@
+{
+  "date": "2026-05-24",
+  "items": [
+    {
+      "type": "news",
+      "title": "Towards Speed-of-Light Text Generation with Nemotron-Labs Diffusion Language Models",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/nvidia/nemotron-labs-diffusion",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-05-23"
+    },
+    {
+      "type": "news",
+      "title": "Everyone is navigating AI security in real time — even Google",
+      "summary": "We're in the transition period -- all of us.",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/24/everyone-is-navigating-ai-security-in-real-time-even-google/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-24"
+    },
+    {
+      "type": "news",
+      "title": "I tried Amazon’s Bee wearable and am both intrigued and slightly creeped out",
+      "summary": "Like other AI wearables, Amazon's Bee offers an odd combination of convenience and privacy anxiety.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/24/i-tried-amazons-bee-wearable-and-am-both-intrigued-and-slightly-creeped-out/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-24"
+    },
+    {
+      "type": "news",
+      "title": "Ferrari is using IBM’s AI to create F1 superfans",
+      "summary": "IBM and Scuderia Ferrari HP take TechCrunch inside how they are redefining the fan experience.",
+      "authors": [
+        "Dominic-Madori Davis"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-23"
+    },
+    {
+      "type": "news",
+      "title": "Elon Musk has given up on solar power (on Earth)",
+      "summary": "Elon Muks's xAI has gone all in on natural gas, while SpaceX is obsessed with orbital data centers. What happened to the \"solar-electric economy\" he promised?",
+      "authors": [
+        "Tim De Chant"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-05-23"
+    }
+  ]
+}
