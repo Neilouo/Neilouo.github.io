@@ -1,0 +1,103 @@
+{
+  "date": "2026-06-07",
+  "items": [
+    {
+      "type": "news",
+      "title": "Is this the dawn of the Tokenpocalypse?",
+      "summary": "We're likely to see more price increases as the big AI companies plan to go public.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/07/is-this-the-dawn-of-the-tokenpocalypse/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-07"
+    },
+    {
+      "type": "news",
+      "title": "Notion restores access to Anthropic after service disruption",
+      "summary": "Notion's head of product said he was \"astonished\" at “the amount of people RT-ing this.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/07/notion-restores-access-to-anthropic-after-service-disruption/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-07"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI is still working on that ‘super app’",
+      "summary": "\"Chat is dead\" — at least, according to a senior OpenAI employee.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-07"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI unveils Lockdown Mode to protect sensitive data from prompt injection attacks",
+      "summary": "Even with Lockdown Mode, ChatGPT could be still vulnerable to prompt injections, but the goal is to reduce the likelihood that sensitive data gets shared in the process.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-06"
+    },
+    {
+      "type": "news",
+      "title": "What to expect from WWDC 2026: Siri’s highly anticipated revamp and Apple Intelligence updates",
+      "summary": "Apple's WWDC nears: Here's what you can look forward to.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-06"
+    },
+    {
+      "type": "news",
+      "title": "Sriram Krishnan is leaving his role as White House AI advisor",
+      "summary": "Krishnan is reportedly starting a new institution to continue shaping Trump's AI policy.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-06"
+    },
+    {
+      "type": "news",
+      "title": "The Trump administration might take an equity stake in OpenAI",
+      "summary": "President Donald Trump said he's discussing deals \"where the American people can benefit from the success of AI.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-06"
+    }
+  ]
+}
