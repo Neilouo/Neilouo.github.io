@@ -1,0 +1,467 @@
+{
+  "date": "2026-06-13",
+  "items": [
+    {
+      "type": "news",
+      "title": "olmo-eval: An evaluation workbench for the model development loop",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/allenai/olmo-eval",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "summary": "Once again, AI proves to be an unreliable source of information about AI.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+      "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI faces investigation from state attorneys general",
+      "summary": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
+      "summary": "Andrew Yang made a list of everything Americans overpay for — housing, food, wireless — and thinks the next startup gold rush is giving that money back.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
+      "summary": "Anthropic isn't hiding its frustration. \"We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people,\" the company wrote in a blog post.",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "SpaceX IPO: Live updates on everything you need to know",
+      "summary": "TechCrunch has followed SpaceX's start, struggles, and successes from the early days. And we're here for what happens next too. This package of SpaceX IPO coverage includes who stands to win (and maybe some who won't), pre-IPO deals, and what's tucked inside its S-1 registration document.",
+      "authors": [
+        "Kirsten Korosec, Russell Brandom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "Meta’s months-old AI unit is a soul-crushing gulag, say the engineers stuck inside it",
+      "summary": "A new report suggests the unit, which employs 6,500 people, is on the verge of revolt.",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "Chinese cybercrime operation that used AI to scam ‘hundreds of thousands of victims’ sued by Google",
+      "summary": "The tech giant said a group called \"Outsider Enterprise\" used AI to scam hundreds of thousands of victims, sending 2.5 million text messages over a span of two weeks.",
+      "authors": [
+        "Lorenzo Franceschi-Bicchierai"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "Mistral is rumored to be raising €3B at €20B valuation",
+      "summary": "The funding round would value the company at around €20 billion (about $23.15 billion), nearly double its Series C valuation of €11.7 billion.",
+      "authors": [
+        "Ram Iyer"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "SpaceX, Anthropic, and OpenAI’s hot IPO summer",
+      "summary": "The IPO market is back, and it’s not the same companies leading the charge. FAANG had a good run, but a new acronym is taking over: MANGOS — Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half of that bunch is heading to public markets in the same windo…",
+      "authors": [
+        "Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/video/spacex-anthropic-and-openais-hot-ipo-summer/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "It’s hot IPO summer, and the MANGOS are ripe",
+      "summary": "The IPO market is back, and it’s not the same companies leading the charge. FAANG had a good run, but a new acronym is taking over: MANGOS — Meta (or Microsoft, depending on who you ask), Anthropic, Nvidia, Google, OpenAI, and SpaceX. Half of that bunch is heading to public markets in the same windo…",
+      "authors": [
+        "Theresa Loconsolo, Kirsten Korosec, Anthony Ha, Sean O'Kane"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/its-hot-ipo-summer-and-the-mangos-are-ripe/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "Cheaper, faster, and culturally aware, Avataar’s video AI is built for India’s scale",
+      "summary": "Avataar AI's distilled video model is priced at $0.005 for every second of generation.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/11/cheaper-faster-and-culturally-aware-avataars-video-ai-is-built-for-indias-scale/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "Theker just raised $85M to build the factory robot that doesn’t specialize in anything",
+      "summary": "Unlike humanoid robots designed around a fixed form — think Boston Dynamics — Theker's machines are built to be reconfigured.",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/11/theker-just-raised-85m-to-build-the-factory-robot-that-doesnt-specialize-in-anything/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "Jeff Bezos’s Prometheus raises $12B to build an ‘artificial general engineer’ for the physical world",
+      "summary": "The new round values the physical AI startup that aims to automate heavy engineering and drug design at $41 billion.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "Coinbase for Agents: Automating portfolio trading with AI",
+      "summary": "Coinbase for Agents connects AI to financial execution channels to automate trading and payments directly from user portfolios. Large language models process vast quantities of data but lack direct integration with active financial portfolios. Individuals frequently employ these models to evaluate m…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/coinbase-for-agents-automating-portfolio-trading-with-ai/",
+      "source": "AI News",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "US Government Kills Fable 5: Here's What Happened",
+      "summary": "Anthropic's two most powerful models, Fable 5 and Mythos 5, went dark tonight. Since there's a lot of speculation already, here's what's actually confirmed vs. what isn't. Confirmed (Anthropic's official statement + Bloomberg, NBC, CNBC): The US government issued an export control directive ordering…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u4gtk8/us_government_kills_fable_5_heres_what_happened/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Microsoft president says AI backlash at graduation events should be wake-up call for the tech industry",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u50mve/microsoft_president_says_ai_backlash_at/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic suspends access to Claude Fable and Mythos for all users after US government order",
+      "summary": "https://www.anthropic.com/news/fable-mythos-access The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u4ef3y/anthropic_suspends_access_to_claude_fable_and/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "ML in 2010 vs ML in 2026",
+      "summary": "The bitter lesson, visualized. submitted by /u/Chadddd92 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u4jsei/ml_in_2010_vs_ml_in_2026/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Found this interesting resource on Data Centers in the US. Shows tax incentives on the map too. Fairly neutral on positioning. Does anyone know what Beaumont and Sheridan is?",
+      "summary": "I came across this website when I was trying to figure out how real the complaints to data center opposition are. Has anyone seen this site before? I can't figure out what it is. Looks kind of like a legal site, but I don't think it is. https://beaumontandsheridan.com/resources/data-centers-the-inte…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u51wqm/found_this_interesting_resource_on_data_centers/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "World of Claudecraft: The first opensource MMORPG made 100% by AI (Fable 5)",
+      "summary": "Under 24h ago we launched and open-sourced a 100% vibecoded MMORPG \"World of Claudecraft\" -- seeing how far we can take AI for game development using Fable. Many developers started contributing and shipping updates, and the game has got better than I ever imagined... Feeling the AGI. You can play th…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u4h7k1/world_of_claudecraft_the_first_opensource_mmorpg/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Tragic 💔",
+      "summary": "I was literally about to get the model to test. Though I'm impressed by how long of a way llms in general have came in the last 3 years submitted by /u/PriceOfGoods [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u547ci/tragic/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "I just got an error as I was about to send a message to the ChatGPT client that says \"You can send up to -4 files. Remove 4 to continue\". What should I do? (repost from r/ChatGPT)",
+      "summary": "Is this also a sign that I should stop using ChatGPT? submitted by /u/dylanisareddit [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u54507/i_just_got_an_error_as_i_was_about_to_send_a/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "We are all inside different machines.",
+      "summary": "submitted by /u/magicroot75 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u510q3/we_are_all_inside_different_machines/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Does Commerce have the authority to apply export control for hosted AI model access?",
+      "summary": "U.S. export law already covers some software/data releases of controlled technology, so “nothing physical shipped” is not the objection. The open question is whether remote access to a hosted frontier model can count as a controlled export. That has not been the usual SaaS/cloud interpretation. The …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u4yjdi/does_commerce_have_the_authority_to_apply_export/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "I built an OpenAI compatible proxy that tracks authority across conversations. Looking for people to break it.",
+      "summary": "Most AI security tools score individual prompts. I was more interested in what happens across an entire session. Example: Turn 1: “What tools do you have access to?” Turn 2: “What are your operating constraints?” Turn 3: “How do system instructions work?” Turn 4: “Ignore those instructions and do X.…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u52wvk/i_built_an_openai_compatible_proxy_that_tracks/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "What are the most popular AI video generators right now?",
+      "summary": "What are the most popular AI video generators in 2026? Which ones are actually worth using? submitted by /u/Then_Narwhal_1146 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u52vd9/what_are_the_most_popular_ai_video_generators/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "I've been developing a cognitive architecture for several months. Here is the first public version.",
+      "summary": "This is the first public release of the Cognitive Coherence Model (CCM). CCM is an experimental cognitive architecture based on the idea that cognition emerges from the interaction between two parallel systems: a mental engine and a somatic engine. Rather than treating cognition as a fixed set of ru…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u51rk7/ive_been_developing_a_cognitive_architecture_for/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Image generation AI",
+      "summary": "looking to create nice images/illustrations/icons for websites (or anything really) that are transparent png's. I'm currently finding Nano Banana 2 creates really nice images but can't make them transparent so I'm putting them into chatgpt - but chat kind of scuffs them sometimes. curious what every…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u55nim/image_generation_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Hur antropisk är ironi förkroppsligad mest.",
+      "summary": "Mina tankar om hur de betedde sig mestadels och hur deras politik kanske borde tas bort. https://freepressforward.medium.com/the-ladder-pulled-up-behind-them-820b5c27a184 submitted by /u/theguywuthahorse [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u556ix/hur_antropisk_är_ironi_förkroppsligad_mest/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "what's the highest-stakes decision you've actually trusted AI to help you make?",
+      "summary": "not the \"write my email\" stuff, i mean a real one. a job offer, a breakup, whether to move, whether to start the thing. i've been using AI for actual decisions lately and i keep going back and forth on whether it's genuinely helping me think or just giving me a confident version of what i already wa…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u4zz8s/whats_the_higheststakes_decision_youve_actually/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI Faces Multi-State Probe as US Attorneys General Demand Records on Safety and User Impact",
+      "summary": "submitted by /u/BhaswatiGuha19 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u4nhfs/openai_faces_multistate_probe_as_us_attorneys/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Am I the only one exclusively using Opus 4.8 on MAX after trying Fable 5 on MAX for three days?",
+      "summary": "I used to be a firm believer in “use sonnet for most tasks, use opus for complex tasks.” My opinion on that was immediately flipped to “more compute saves time” after my first 10 minutes using fable 5 MAX. Why on earth would I want to possibly mess up a feature that slips my memory instead of using …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u4yop0/am_i_the_only_one_exclusively_using_opus_48_on/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "New DaxBot Robot Was Ran over in Tyler Texas not even 24 hours after launching.",
+      "summary": "submitted by /u/Mavo1111 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u482xp/new_daxbot_robot_was_ran_over_in_tyler_texas_not/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-12"
+    },
+    {
+      "type": "news",
+      "title": "Datacenter & AI water use is overblown",
+      "summary": "This keeps coming up over and over; for those interfacing with the anti-AI / anti-DC crowd, this article has some good talking points, about water, but also jobs and power. Data centers certainly do use water. They are basically warehouses of tightly packed, high-powered computers, and when computer…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1u4128s/datacenter_ai_water_use_is_overblown/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-06-12"
+    }
+  ]
+}
