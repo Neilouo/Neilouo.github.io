@@ -1,0 +1,225 @@
+{
+  "date": "2026-06-14",
+  "items": [
+    {
+      "type": "news",
+      "title": "As AI companies race to go public, who else is along for the ride?",
+      "summary": "Startups are trying to \"ride that SpaceX IPO wave.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/14/as-ai-companies-race-to-go-public-who-else-is-along-for-the-ride/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-14"
+    },
+    {
+      "type": "news",
+      "title": "As Anthropic suspends access to new models, India debates its AI future",
+      "summary": "Tech leaders debate whether the Anthropic episode is a wake-up call for India’s AI ambitions.",
+      "authors": [
+        "Jagmeet Singh"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-14"
+    },
+    {
+      "type": "news",
+      "title": "Meta reportedly moves to unwind $2B Manus deal after Beijing’s demand",
+      "summary": "Meta starts dismantling its $2 billion Manus acquisition after Beijing ordered the deal reversed.",
+      "authors": [
+        "Kate Park"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/13/meta-reportedly-moves-to-unwind-2b-manus-deal-after-beijings-demand/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-14"
+    },
+    {
+      "type": "news",
+      "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+      "summary": "Once again, AI proves to be an unreliable source of information about AI.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Amazon CEO reportedly raised Anthropic model concerns before government crackdown",
+      "summary": "Amazon CEO Andy Jassy may have been the source of security concerns that led Anthropic to cut off worldwide access to two models on Friday.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI faces investigation from state attorneys general",
+      "summary": "It's not clear which states are involved, but they're asking about everything from OpenAI's ad policies to its handling of health data.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Andrew Yang thinks the next big startup opportunity is lowering the cost of living",
+      "summary": "Andrew Yang made a list of everything Americans overpay for — housing, food, wireless — and thinks the next startup gold rush is giving that money back.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/12/andrew-yang-thinks-the-next-big-startup-opportunity-is-lowering-the-cost-of-living/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic’s safety warnings may have just backfired — the government has pulled the plug on its most powerful AI",
+      "summary": "Anthropic isn't hiding its frustration. \"We disagree that the finding of a narrow potential jailbreak should be cause for recalling a commercial model deployed to hundreds of millions of people,\" the company wrote in a blog post.",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/12/anthropics-safety-warnings-may-have-just-backfired-the-government-has-pulled-the-plug-on-its-most-powerful-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "ICML Poster [D]",
+      "summary": "Does anyone know when is the ICML poster deadline? It says it’s tomorrow but is it AoE? submitted by /u/misplacedlion [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u5y6il/icml_poster_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-14"
+    },
+    {
+      "type": "news",
+      "title": "I built an open-source Knowledge Graph pipeline with hybrid retrieval to improve LLM multi-hop reasoning [P]",
+      "summary": "Hey everyone, I built an open-source full-stack pipeline (Django + React) that constructs a Knowledge Graph from raw text, detects thematic communities, and uses hybrid search to solve the \"lost in the middle\" problem in standard vector retrieval. The Pipeline: Ingestion & Chunking: Raw text is clea…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u5yyyl/i_built_an_opensource_knowledge_graph_pipeline/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-14"
+    },
+    {
+      "type": "news",
+      "title": "Coherent Context Can Silently Shift LLMs Into a Different Internal Regime — And Current Safety Systems Are Blind To It [D]",
+      "summary": "I’m an independent researcher currently exploring what I believe is an important phenomenon for both mechanistic interpretability and AI safety. Core idea: A strong, coherent target text can move the model into a different internal regime — before the final output is produced. The model can still ap…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u5xnxg/coherent_context_can_silently_shift_llms_into_a/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-14"
+    },
+    {
+      "type": "news",
+      "title": "I’m building a free bilingual machine-learning notebook course — looking for feedback on structure and coverage [R]",
+      "summary": "Hi everyone, I’m building an open-source machine-learning tutorial repository in Jupyter Notebook format: https://github.com/mohammadijoo/Machine_Learning_Tutorials The course is bilingual: English and Persian/Farsi versions are organized in parallel. The goal is to make a practical, notebook-first …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u4zbld/im_building_a_free_bilingual_machinelearning/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "The Verifier Tax: Horizon-Dependent Safety–Success Tradeoffs in Tool-Using LLM Agents [R]",
+      "summary": "We recently presented a paper at ACM CAIS 2026 on safety evaluation for tool-using LLM agents. The core issue is that task completion alone can be misleading: an agent may complete a task while violating a safety or policy constraint. We separate outcomes into safe success, unsafe success, and failu…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u58mkq/the_verifier_tax_horizondependent_safetysuccess/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-14"
+    },
+    {
+      "type": "news",
+      "title": "PaddleOCR (v3/v4/v5/v6) implemented in C++ with ncnn [P]",
+      "summary": "Hi, About a year ago I shared my PaddleOCR implementation here. Since then I've made many improvements, and it now supports PP-OCR v3 through the latest v6 models. The official Paddle C++ runtime has a lot of dependencies and is very complex to deploy. To keep things simple I use ncnn for inference,…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u4hy2x/paddleocr_v3v4v5v6_implemented_in_c_with_ncnn_p/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Confused, where to start [D]",
+      "summary": "Hello community, I am a backend + big data dev. I want to learn about the llms that generate voices. I also read some articles but almost everyone of them starts from regression. There are so much resources available right now that I am now confused where to begin with. submitted by /u/paklupapito00…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u5cimu/confused_where_to_start_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-14"
+    },
+    {
+      "type": "news",
+      "title": "Anomaly Detection vs Classification for Visually Similar Cancer vs Mimics? [P]",
+      "summary": "I'm working on a paper and would love some input on model choice. Suppose you're trying to detect a specific type of cancer, but the negative samples are visually and morphologically very similar (i.e., “mimics” of the cancer). In this setting, would it make more sense to approach the problem as: An…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u4obgy/anomaly_detection_vs_classification_for_visually/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-13"
+    },
+    {
+      "type": "news",
+      "title": "Derivative-Free Neural Network Optimization: MNIST Case [R]",
+      "summary": "A direct optimization test was conducted on a neural network for MNIST image classification. The network features a 784-32-10 architecture with a total of 25,450 continuous parameters (weights and biases). Instead of employing backpropagation or gradient information, the parameters were optimized us…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1u4fc16/derivativefree_neural_network_optimization_mnist/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-13"
+    }
+  ]
+}
