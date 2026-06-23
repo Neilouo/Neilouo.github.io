@@ -1,0 +1,305 @@
+{
+  "date": "2026-06-22",
+  "items": [
+    {
+      "type": "news",
+      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Three things to watch amid Anthropic’s latest feud with the government",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said it had built an AI mode…",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "The AI world is getting ‘loopy’",
+      "summary": "The loop takes agentic AI a step further by authorizing a swarm of agents to work continuously in the background, endlessly.",
+      "authors": [
+        "Russell Brandom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
+      "summary": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
+      "summary": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants.",
+      "authors": [
+        "Tim De Chant"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
+      "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
+      "authors": [
+        "Dominic-Madori Davis"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Amazon is testing Alexa+ in India with Hindi support",
+      "summary": "Amazon is planning to increase the footprint of its new conversational AI assistant Alexa+ to India and is inviting users in the country to test out a Hindi-language version.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
+      "summary": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
+      "authors": [
+        "Kirsten Korosec"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "The founder conference built for growth: TechCrunch Founder Summit pass rates increase June 26",
+      "summary": "Save up to $190 on your pass to TechCrunch Founder Summit 2026 by June 26, 11:59 p.m. PT. Designed for founders first on November 4 in Boston. Register today.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "When the Trump administration cracks down on Anthropic, who benefits?",
+      "summary": "On the new episode of Equity, we discussed what actually prompted the administration's latest moves against Anthropic, and what this might mean for the AI ecosystem.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/21/when-the-trump-administration-cracks-down-on-anthropic-who-benefits/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "type": "news",
+      "title": "Beyond Siri: Here are the practical AI features coming to your iPhone in iOS 27",
+      "summary": "Siri’s AI overhaul may have grabbed the headlines at WWDC, but some of Apple’s most useful AI features are arriving elsewhere in iOS 27.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/21/beyond-siri-here-are-the-practical-ai-features-coming-to-your-iphone-in-ios-27/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "type": "news",
+      "title": "Mitigating vendor lock-in with Sakana AI Fugu multi-agent models",
+      "summary": "Sakana AI launched Fugu to orchestrate multi-agent operations and mitigate single-vendor dependency risks in enterprise deployments. Enterprises face operational vulnerabilities when relying entirely on monolithic AI APIs. Japanese AI firm Sakana AI designed Fugu as a response to these concentration…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/mitigating-vendor-lock-in-sakana-ai-fugu-multi-agent-models/",
+      "source": "AI News",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "L’Oréal brings Maybelline virtual try-on to ChatGPT",
+      "summary": "L’Oréal has announced a collaboration with OpenAI that will bring Maybelline New York’s virtual makeup try-on feature into ChatGPT. The announcement was made at VivaTech 2026. The partnership covers consumer-facing shopping tools, product discovery, advertising pilots, research, and internal content…",
+      "authors": [
+        "Muhammad Zulhusni"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/loreal-maybelline-virtual-try-on-chatgpt/",
+      "source": "AI News",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Some new updates to Papers with Code [P]",
+      "summary": "Hi folks, Niels here from the open-source team at Hugging Face. I continue working on a revival of paperswithcode.co as we're back to the \"age of research\" per Ilya Sutskever! Hence, it's important to discover each other's research and build on each other's work, so we can collectively build the nex…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Syntactically robust NLI for semantics of imperfectly generated text? [R]",
+      "summary": "Hi all, I'm looking for literature on relatively specific tooling. In autoregressive LLMs, there is substantial published work that used NLI on sub-claims produced by LLMs to gauge correctness of LLM answers. In diffusion (or D-) LLMs, the SoTA model generations that I see (outside of perhaps LLaDA)…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ucy7p3/syntactically_robust_nli_for_semantics_of/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Non-deterministic Vulnerability Detection Benchmark System [P]",
+      "summary": "I work in firmware adjacent to AI, so not an ML guy exactly, so that's why I've come here. For work we got a bit concerned about Mythos and all the hype made me explore some benchmarking work. I now have this pretty cool benchmark that's about 80% done sitting around and haven't had the time to poli…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Recommendations for speech annotation tools [D]",
+      "summary": "I'm looking for human-in-the-loop platforms that allow you to automatically transcribe audio followed by manually fixing the transcriptions and fine tuning the model. Is there a local (not an online service) installable platform for doing this? submitted by /u/neuralbeans [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "An Update on Matrix Recurrent Units, an Attention Alternative [R]",
+      "summary": "I recently revisited my matrix recurrent units algorithm (the MRU), a novel linear-time sequence architecture I created as an alternative to attention. I explain it in depth at the repo, but the gist is the MRU works by transforming the embedding into an input state matrix, cumulatively multiplying …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ubz5o8/an_update_on_matrix_recurrent_units_an_attention/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "type": "news",
+      "title": "[ECCV 2026] Paper Decision Appeals Discussion [D]",
+      "summary": "With the release of meta-reviews, ECCV sent out a google form for dissatisfied authors to submit an appeal for the following reasons: Policy errors, e.g., reviewers or Area Chairs applied a policy that does not exist, or reviewers or Area Chairs applied policies that are not applicable for the contr…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uc0m1e/eccv_2026_paper_decision_appeals_discussion_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "type": "news",
+      "title": "A slightly improved DVD-JEPA demo [P]",
+      "summary": "Hey! I came across this post, which I found quite neat as a minimal demonstration of JEPA. However, as the comments pointed out, there was some room for improvement. So I added a few things such as environment noise and a fair* comparison to a pixel-space baseline. I think the inclusion of environme…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ubtf09/a_slightly_improved_dvdjepa_demo_p/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "type": "news",
+      "title": "Best current methods for finetuning whisper on domain specific vocabulary? [P]",
+      "summary": "Hey everyone, I’m wondering whether there are any newer or more effective methods for fine tuning whisper on domain specific speech. I’m working on a project where the model needs to reliably detect certain specific words and technical terms. The vocabulary and context are mostly in spanish. Does an…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ubvmdx/best_current_methods_for_finetuning_whisper_on/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "type": "news",
+      "title": "EMA on LoRA ? [R]",
+      "summary": "Hi guys Does anyone know of papers where EMA on LoRA adapters has been used successfully? Im interested in cases where the EMA adapter acts as a self-teacher generating soft labels for the trainable adapter. On-policy self-distillation [1] uses ema for the teacher. However, they seem to fully fine-t…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ubv0f5/ema_on_lora_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "type": "news",
+      "title": "Data-centric debugging for teams training neural nets [P]",
+      "summary": "We just did a big revamp of WeightsLab and wanted to share it here. If you’ve ever spent hours debugging a training run only to discover it was a data problem all along, this is for you. WeightsLab lets you pause training mid-run, inspect your live loss signals, and catch mislabels, class imbalance …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ubwcat/datacentric_debugging_for_teams_training_neural/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-21"
+    }
+  ]
+}
