@@ -1,0 +1,463 @@
+{
+  "date": "2026-06-23",
+  "items": [
+    {
+      "type": "news",
+      "title": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/huggingface-hub-release-ci",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/cross-origin-storage",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "We got local models to triage the OpenClaw repo for FREE!*",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/local-models-pr-triage",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "The $400 million machine powering the future of chipmaking",
+      "summary": "Jos Benschop is climbing a ladder to get to the top of his newest machine. It’s a bit of a schlep. The contraption is the size of a double-decker bus—more than 150 tons of gleaming precision-milled aluminum covered in thousands of snaking tubes, colored cables, and pressurized tanks. From the ground…",
+      "authors": [
+        "Clive Thompson"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/06/23/1138837/asml-400-million-dollar-machine-powering-future-of-chipmaking/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Three things to watch amid Anthropic’s latest feud with the government",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said it had built an AI mode…",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "India’s MoEngage bets that the future of marketing is millions of AI agents",
+      "summary": "The all-cash deal gives MoEngage access to technology that assigns AI agents to individual customers.",
+      "authors": [
+        "Jagmeet Singh"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/23/indias-moengage-bets-marketings-future-on-millions-of-ai-agents/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic’s Claude Tag is learning your company, one Slack message at a time",
+      "summary": "Anthropic’s new Claude Tag brings an always-on AI teammate to Slack. But beyond productivity, the feature is a strategic play to capture organizational context, institutional knowledge, and enterprise workflows.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "4 days left to save up to $190 on TechCrunch Founder Summit 2026",
+      "summary": "Four days left to save up to $190 on your pass to TechCrunch Founder Summit 2026 — the ultimate founder bootcamp — before Early Bird rates end on June 26 at 11:59 p.m. PT. Register today.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/23/4-days-left-to-save-up-to-190-on-techcrunch-founder-summit-2026/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Fika Jobs raises $4M to build a video-first hiring platform where AI agents interview candidates",
+      "summary": "Stockholm-based startup Fika Jobs is building a video-first hiring platform that combines AI interview agents with short-form video profiles, creating something that feels like a cross between LinkedIn and TikTok.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/23/fika-jobs-raises-4m-to-build-a-video-first-hiring-platform-where-ai-agents-interview-candidates/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "The running list: major tech layoffs in 2026 where employers cited AI",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "authors": [
+        "Rebecca Bellan, Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI launches new initiative to help find and patch open source bugs",
+      "summary": "OpenAI is using AI to help the open source community better protect itself.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "The AI world is getting ‘loopy’",
+      "summary": "The loop takes agentic AI a step further by authorizing a swarm of agents to work continuously in the background, endlessly.",
+      "authors": [
+        "Russell Brandom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal",
+      "summary": "What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Nvidia wants to cut data center water use, but that’s not the same as fixing AI’s water problem",
+      "summary": "Nvidia announced a new cooling system that cuts water use inside the data center. But it does nothing to address AI's biggest water use — fossil fuel power plants.",
+      "authors": [
+        "Tim De Chant"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Google DeepMind bets $75M on AI’s future in Hollywood with A24 deal",
+      "summary": "Google DeepMind and A24 are teaming up to build AI filmmaking tools.",
+      "authors": [
+        "Dominic-Madori Davis"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Amazon is testing Alexa+ in India with Hindi support",
+      "summary": "Amazon is planning to increase the footprint of its new conversational AI assistant Alexa+ to India and is inviting users in the country to test out a Hindi-language version.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/amazon-is-testing-alexa-in-india-with-hindi-support/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "SpaceX inks compute deal with Reflection AI, an open source AI lab",
+      "summary": "Reflection AI will pay $150 million a month beginning July 1, 2026 through 2029 for immediate access to Nvidia's latest GB300 AI chips and supporting hardware across SpaceX's Colossus 2 data center near Memphis, Tennessee.",
+      "authors": [
+        "Kirsten Korosec"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/spacex-inks-compute-deal-with-reflection-ai-an-open-source-ai-lab/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "The founder conference built for growth: TechCrunch Founder Summit pass rates increase June 26",
+      "summary": "Save up to $190 on your pass to TechCrunch Founder Summit 2026 by June 26, 11:59 p.m. PT. Designed for founders first on November 4 in Boston. Register today.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/22/the-founder-conference-built-for-growth-techcrunch-founder-summit-pass-rates-increase-june-26/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Omio scales travel product development using OpenAI models",
+      "summary": "Omio integrates OpenAI models across its engineering operations to accelerate travel product development and launch booking interfaces. The multimodal travel platform coordinates operations with over 3,000 transportation providers across 47 countries. Omio explicitly rejects the superficial addition…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/omio-scales-travel-product-development-using-openai-models/",
+      "source": "AI News",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Top spy agencies say AI cyber threats will impact you within months. Here’s why",
+      "summary": "The global surge in AI cyber threats is no longer a distant problem for corporate data centres, according to an urgent public warning from the world’s most powerful intelligence alliance. On June 22, 2026, the cybersecurity chiefs of the Five Eyes nations—comprising the US, UK, Canada, Australia, an…",
+      "authors": [
+        "Dashveenjit Kaur"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/five-eyes-warning-ai-cyber-threats/",
+      "source": "AI News",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Mitigating vendor lock-in with Sakana AI Fugu multi-agent models",
+      "summary": "Sakana AI launched Fugu to orchestrate multi-agent operations and mitigate single-vendor dependency risks in enterprise deployments. Enterprises face operational vulnerabilities when relying entirely on monolithic AI APIs. Japanese AI firm Sakana AI designed Fugu as a response to these concentration…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/mitigating-vendor-lock-in-sakana-ai-fugu-multi-agent-models/",
+      "source": "AI News",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "L’Oréal brings Maybelline virtual try-on to ChatGPT",
+      "summary": "L’Oréal has announced a collaboration with OpenAI that will bring Maybelline New York’s virtual makeup try-on feature into ChatGPT. The announcement was made at VivaTech 2026. The partnership covers consumer-facing shopping tools, product discovery, advertising pilots, research, and internal content…",
+      "authors": [
+        "Muhammad Zulhusni"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/loreal-maybelline-virtual-try-on-chatgpt/",
+      "source": "AI News",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Are model security risks (extraction, poisoning) actually being tested in production? [R]",
+      "summary": "Talk to a lot of ML teams who ship models but skip any adversarial testing before deployment. Feels like security review for models is way behind where it is for regular software. Anyone here actually doing this at their job? submitted by /u/Xorphian [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uddtws/are_model_security_risks_extraction_poisoning/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "What's your biggest pain point when choosing between cloud GPU providers for LLM inference?[R]",
+      "summary": "Trying to understand how other people make this decision. Do you compare $/hr, $/token, throughput, reliability? Is there a tool or resource you rely on, or are you just doing the math manually? Asking because I'm an ML engineer who's been doing this in spreadsheets and wondering if I'm missing some…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1udfovh/whats_your_biggest_pain_point_when_choosing/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Just landed a Computer Vision internship, here's the preparation list I used [D]",
+      "summary": "Hey everyone, I recently landed a Computer Vision internship after prepping with this checklist I put together. It starts with core math and ML fundamentals, then moves into the specialized CV topics that actually come up in interviews. I compressed it into just 7 days due to time pressure, so it's …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ud8ovs/just_landed_a_computer_vision_internship_heres/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "WACV supp. mat. video [R]",
+      "summary": "Hello, WACV conference submission deadline is by the end of this week, good luck everyone! Does anyone know what the expected format/duration of the video for the supp. mat. is? The guidelines only mention: The supplementary material can be either PDF or ZIP only (maximum 200MB). Supplementary mater…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1udgv9h/wacv_supp_mat_video_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Miccai grants results [D]",
+      "summary": "Do you guys get a miccai grants result? I do not receive any mail. Don’t I accept? submitted by /u/CrazyIndependent7436 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1udneyh/miccai_grants_results_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Some new updates to Papers with Code [P]",
+      "summary": "Hi folks, Niels here from the open-source team at Hugging Face. I continue working on a revival of paperswithcode.co as we're back to the \"age of research\" per Ilya Sutskever! Hence, it's important to discover each other's research and build on each other's work, so we can collectively build the nex…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ucm508/some_new_updates_to_papers_with_code_p/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Will I be desk rejected for this[R]",
+      "summary": "so I submitted a paper to a conference, and literally went one line on a 2 column submission so literally half a line over the page limit. im really paranoid that this will be a desk rejection.. has anyone ever had this happen before? will it be desk rejected? edit: if it matters it’s been over a we…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1udsfgk/will_i_be_desk_rejected_for_thisr/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Syntactically robust NLI for semantics of imperfectly generated text? [R]",
+      "summary": "Hi all, I'm looking for literature on relatively specific tooling. In autoregressive LLMs, there is substantial published work that used NLI on sub-claims produced by LLMs to gauge correctness of LLM answers. In diffusion (or D-) LLMs, the SoTA model generations that I see (outside of perhaps LLaDA)…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ucy7p3/syntactically_robust_nli_for_semantics_of/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Non-deterministic Vulnerability Detection Benchmark System [P]",
+      "summary": "I work in firmware adjacent to AI, so not an ML guy exactly, so that's why I've come here. For work we got a bit concerned about Mythos and all the hype made me explore some benchmarking work. I now have this pretty cool benchmark that's about 80% done sitting around and haven't had the time to poli…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ud0rft/nondeterministic_vulnerability_detection/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-22"
+    },
+    {
+      "type": "news",
+      "title": "Found a potential mistake in an ICLR 2026 blogpost [D]",
+      "summary": "I think I found a mistake in an ICLR 2026 blog post. I created an issue and have been trying to contact the author and organizers, but I haven't received a response after several weeks. Could anyone please take a look and let me know your thoughts? (I'm just curious and would like to know if my unde…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ud9i2g/found_a_potential_mistake_in_an_iclr_2026/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-23"
+    },
+    {
+      "type": "news",
+      "title": "Recommendations for speech annotation tools [D]",
+      "summary": "I'm looking for human-in-the-loop platforms that allow you to automatically transcribe audio followed by manually fixing the transcriptions and fine tuning the model. Is there a local (not an online service) installable platform for doing this? submitted by /u/neuralbeans [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ucuohi/recommendations_for_speech_annotation_tools_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-22"
+    }
+  ]
+}
