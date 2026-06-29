@@ -1,0 +1,223 @@
+{
+  "date": "2026-06-28",
+  "items": [
+    {
+      "type": "news",
+      "title": "Ford rehires ‘gray beard’ engineers after AI falls short",
+      "summary": "\"Mistakenly we thought that by just introducing artificial intelligence ... that would produce a high-quality product.”",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-28"
+    },
+    {
+      "type": "news",
+      "title": "Why Wall Street thinks US memory maker Micron is the next Nvidia",
+      "summary": "Eager to find more public AI-related companies that may do as well as Nvidia, Wall Street investors think they've found a winner with Micron.",
+      "authors": [
+        "Kirsten Korosec"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/28/why-wall-street-thinks-us-memory-maker-micron-is-the-next-nvidia/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-28"
+    },
+    {
+      "type": "news",
+      "title": "SoftBank’s CEO isn’t the only one with questions about Elon Musk’s orbital data center hype",
+      "summary": "Not everyone is buying Elon Musk’s vision for orbital data centers.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/27/softbanks-ceo-isnt-the-only-one-with-questions-about-elon-musks-orbital-data-center-hype/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "type": "news",
+      "title": "Apple Vision Pro exec is reportedly leaving for OpenAI",
+      "summary": "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "type": "news",
+      "title": "The fittest founder in the room got cancer. Here’s how he used AI to fight back.",
+      "summary": "When confronted with cancer, Connor Christou fed everything tied tied to his regime — blood results, scan data, wearable output, journal entries — into Claude.",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/27/the-fittest-founder-in-the-room-got-cancer-heres-how-he-used-ai-to-fight-back/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "type": "news",
+      "title": "Asian AI startups launch Mythos-like  models as Anthropic’s export ban drags on",
+      "summary": "New models are launching in Asia that promise Mythos-like capabilities without fear of an export ban. U.S. AI labs may never recover this enormous market.",
+      "authors": [
+        "Kate Park"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "type": "news",
+      "title": "Trump Admin releases Anthropic Mythos to be used by more than 100 US companies, agencies",
+      "summary": "Over 100 companies and government agencies are reportedly authorized to use Mythos 5, including their non-American employees.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/06/26/trump-admin-releases-anthropic-mythos-to-be-used-by-more-than-100-us-companies-agencies/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "type": "news",
+      "title": "I shrank a transformer until every number fitted on the screen and made the weights editable [R]",
+      "summary": "I've been teaching myself how LLMs actually work, not at the API level, but down to the matrix multiplications. To force myself to really understand the forward pass, I first built a complete transformer by hand in a spreadsheet from embeddings through to the loss. Then I turned the forward pass int…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhw7fu/i_shrank_a_transformer_until_every_number_fitted/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-28"
+    },
+    {
+      "type": "news",
+      "title": "MathFormer: Testing whether symbolic math is pattern matching or reasoning [D]",
+      "summary": "Repo link and results - https://github.com/Abhinand20/MathFormer Task: Given a factorized expression like (7-3*z)*(-5*z-9), predict the expanded form -> 15*z\\*2-8\\*z-63 Key takeaway: A tiny (4M param) seq2seq model trained with no math knowledge reaches ~98.6% accuracy on symbolic math tasks, sugges…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhatw8/mathformer_testing_whether_symbolic_math_is/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "type": "news",
+      "title": "Evaluating long-term memory limits in stateless LLM chatbots — feedback needed [D]",
+      "summary": "Hi all, I’m working on a research project exploring how stateless LLM-based chatbots handle long conversations and whether important earlier information is still reliably retained over time. My idea is to: Run a chatbot using an LLM API without any external memory system Introduce key facts early in…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ui27i1/evaluating_longterm_memory_limits_in_stateless/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-28"
+    },
+    {
+      "type": "news",
+      "title": "NagaTranslate: Building a translation and voice pipeline for low-resource Nagaland creoles (Whisper, VITS, LLMs) [P]",
+      "summary": "Hello r/MachineLearning , I wanted to share the architecture and challenges behind a project I’ve been building called NagaTranslate. The goal is to build a translation and speech pipeline for the low-resource languages of Nagaland, India (currently supporting Nagamese, Ao, and Sema). Since Nagamese…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhlvjv/nagatranslate_building_a_translation_and_voice/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-28"
+    },
+    {
+      "type": "news",
+      "title": "Hiding messages in the least significant mantissa bits of fine-tuned ONNX model weights [P]",
+      "summary": "Hey everyone, I'd like to share my project along with a short explanation of the process and why it came about in the first place. To start off, I'm not exactly the best at cryptography/steganography, in my case it's always been something that sat in the background, as one of the sub-fields needed f…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uh61uw/hiding_messages_in_the_least_significant_mantissa/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "type": "news",
+      "title": "Built an LLM training framework that actually runs on older GPUs without crashing [P]",
+      "summary": "Hey guys, I was playing around with Nanotron recently and got super frustrated by how many heavy, hardware-specific dependencies it imports at the module level ( flash-attn , triton, functorch , etc.). If you try to run it on older or budget GPUs like a T4 or V100, it just crashes on import. So I wr…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uh7ib3/built_an_llm_training_framework_that_actually/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "type": "news",
+      "title": "I silently break training codes or configs so I made pybench [P]",
+      "summary": "It is like pytest but for statistical tests: it ensures no regression of your metrics at a statistical level. It manages tedious things such that seeds, past benchmark results, ... Simple CLI working like pytest but with benchmarks/ directory instead of tests/: pybench # 1st time: samples seeds, sav…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ugv7u3/i_silently_break_training_codes_or_configs_so_i/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "type": "news",
+      "title": "Do we still need to study algorithms now that AI writes most of our code? [D]",
+      "summary": "I've been thinking about this for a while. AI can now write functions, explain code, refactor projects, generate tests, and even solve many programming problems better than many junior developers. I've also noticed that Stack Overflow seems far less active than it used to be because many developers …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uhdydj/do_we_still_need_to_study_algorithms_now_that_ai/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "type": "news",
+      "title": "Late Submission of NeurIPS Review [R]",
+      "summary": "I submitted one of my NeurIPS review ~6 hrs later than the official deadline. Will this still affect my own submission? Asking because I’m a first time reviewer. I pinged the AC a day before that I might be a few hours late, but didn’t hear back. So wondering if I might have triggered something that…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ugtjov/late_submission_of_neurips_review_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-27"
+    },
+    {
+      "type": "news",
+      "title": "Showcase: Building ML models that \"watch\" MMA fights and label events and positional changes making these moments all searchable on a timeline [P]",
+      "summary": "Hey all, a bit of background - I'm an ex Amateur MMA fighter and BJJ brown belt and am also in the AI/ML space ... weird combo but wanted to know if anyone else was at the intersection of ML/AI and MMA/BJJ. In short, I'm building AI models that \"watch\" fights and are able to detect positions and mom…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1ugwrmz/showcase_building_ml_models_that_watch_mma_fights/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-06-27"
+    }
+  ]
+}
