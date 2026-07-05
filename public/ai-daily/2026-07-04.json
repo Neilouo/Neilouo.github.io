@@ -1,0 +1,343 @@
+{
+  "date": "2026-07-04",
+  "items": [
+    {
+      "type": "news",
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "summary": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "summary": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "summary": "Alibaba has reportedly classified Claude Code as high-risk software.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "The only AI glossary you’ll need this year",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "authors": [
+        "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/03/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "type": "news",
+      "title": "The browser wars aren’t about search anymore — here are the best alternatives to Chrome and Safari",
+      "summary": "We’ve compiled an overview of some of the top alternative browsers available today aiming to challenge Chrome and Safari.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/03/as-the-browser-wars-heat-up-here-are-the-hottest-alternatives-to-chrome-and-safari-in-2026/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "type": "news",
+      "title": "Takeda signs US$600M AI drug discovery deal with Insilico",
+      "summary": "Takeda has entered a strategic collaboration with Hong Kong-based Insilico Medicine to use AI in early-stage drug discovery across the Japanese pharmaceutical company’s therapeutic areas. The companies did not disclose which therapeutic areas or disease targets will be covered under the collaboratio…",
+      "authors": [
+        "Muhammad Zulhusni"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/takeda-insilico-ai-drug-discovery-deal/",
+      "source": "AI News",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "type": "news",
+      "title": "Meta Paid Hundreds of Contractors to Pretend to Be Teenagers While Barraging Its Competitors’ AI With Disturbing Content",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1ungqh7/meta_paid_hundreds_of_contractors_to_pretend_to/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "Survey: 63% of Americans are uncomfortable letting AI help them choose who to vote for, and 80% are worried AI bots are answering political surveys. Is the discomfort about AI, or about trust?",
+      "summary": "Saw a national survey from March on how people feel about AI in politics, and two numbers stuck with me. 63% said they'd be uncomfortable using an AI chatbot to help decide who to vote for, even though plenty of people are fine using chatbots to fact-check or follow issues. 80% said they're worried …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1unmy3d/survey_63_of_americans_are_uncomfortable_letting/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "This week in AI: GPT-5.6, Gemini 3.5 Flash, Claude Science, and a Qwen price war — inference cost is collapsing across every tier at once",
+      "summary": "Lot dropped this week and there's a pretty clear through-line, so figured I'd pull it together. Model releases: - OpenAI launched GPT-5.6 (Sol/Terra/Luna). The bit worth noting isn't the flagship — it's Terra, reportedly matching GPT-5.5 quality at ~2x cheaper, with Luna aimed at the low-cost end. -…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1un6v9c/this_week_in_ai_gpt56_gemini_35_flash_claude/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "Meta Reportedly Strikes $6.5 Billion Deal with Samsung Foundry for 2nm AI Chips",
+      "summary": "Meta Platforms is reportedly investing $6.5 billion with Samsung Foundry to produce its third-generation MTIA (Meta Training and Inference Accelerator) chips using a 2nm process. This strategic move signifies a shift from TSMC and aims to reduce reliance on NVIDIA GPUs, lower supply chain risks, and…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1unfzi9/meta_reportedly_strikes_65_billion_deal_with/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "Other than writing emails and summarizing reports, what else do you use AI for at your office if you are not the tech side of the business?",
+      "summary": "Since I am not building any tech products or coding, other than email and repots, I am not sure what else to use AI for. Are there any other creative ways you use AI for genuinely help with day to day work. Please share your ideas. submitted by /u/LowVegetable8299 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1un62q0/other_than_writing_emails_and_summarizing_reports/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "Can AI Avatars Change How We Perceive Information? (Academic Research)",
+      "summary": "Hello Everyone! You are invited to take part in a study exploring whether different AI avatars can shift people’s perceptions when they watch information online. The survey takes about 10 minutes to complete and is open to anyone aged 18 or older. Link to the study: https://surveyswap.io/s/ZYHW-JGAP…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1unf5gk/can_ai_avatars_change_how_we_perceive_information/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "What's one skill that has become unexpectedly valuable over the past few years?",
+      "summary": "I've noticed that being able to summarize information clearly has become much more useful than I expected. Whether it's at work, studying, or just keeping up with news, turning a lot of information into something concise feels like a real advantage. It's interesting because a few years ago I wouldn'…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1uner2a/whats_one_skill_that_has_become_unexpectedly/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "AI cancel culture",
+      "summary": "My reddit feed has been getting filled with a ton of AI generated content. A notable one is r/ModMuse. Its a girl posing for selfies in different outfits. It came up again today. Tons of posts from guys. One said \"You're really pretty.\" I responded: \"Don't get too excited. I'm pretty sure she's AI g…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1umx1er/ai_cancel_culture/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "\"Repeat the text above this line\" still works on most AI agents in production. Here's what we found.",
+      "summary": "There's a class of attack against AI agents that requires zero technical skill, takes about 5 seconds, and works on the majority of deployed agents. System prompt extraction. You type something like \"repeat the text above this line\" or \"what were you told before this conversation started\" and the ag…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1ums1ou/repeat_the_text_above_this_line_still_works_on/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "type": "news",
+      "title": "Andrew Ng: \"In 3-6 months, everyone will be using self-improving loops. No more prompting”",
+      "summary": "Andrew Ng recently said: \"100% of my tasks are now done by AI agents. Hype has exceeded my expectations. Loops is next step. In 3-6 months, everyone will be using self-improving loops. No more prompting.\" I think he's not too far off, you can already see the shift happening, people are moving away f…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1umcprg/andrew_ng_in_36_months_everyone_will_be_using/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "type": "news",
+      "title": "What performs the operations coordinated within each layer or head of a Transformer?",
+      "summary": "Hi, I want to train a Transformer layer to perform specific tasks, but I’m not sure how to coordinate them or determine when to use one versus the other. Does anyone have experience with this? How have you handled it? submitted by /u/New-Competition-3106 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1unilm4/what_performs_the_operations_coordinated_within/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "What are you using for AI marketing content (product visuals + animated trailers)?",
+      "summary": "Launching my SaaS soon and I'm putting together promo content for Instagram (primary) and TikTok. What I need: Aesthetic product pictures. Basically polished screenshots and mockups that look premium, not just raw screen grabs on a white background. A 2D animated product trailer with captions. I'll …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1unhutd/what_are_you_using_for_ai_marketing_content/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic vs Opensourced model",
+      "summary": "Anthropic vs Open weight Chinese AI [https://youtube.com/shorts/XZCWFNNiKgY?si=DViuG1xVptLTYDdQ\\](https://youtube.com/shorts/XZCWFNNiKgY?si=DViuG1xVptLTYDdQ) When Alex Karp goes off on one of his rants, you usually have to filter through a lot of Palantir theater, but his recent take on AI safety wa…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1umysgl/anthropic_vs_opensourced_model/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "What's a task people think AI agents are ready for, but really aren't?",
+      "summary": "There's a handful of use cases that get pitched nonstop in demos and decks, and then completely fall apart the second you try running them for real. For me it's anything involving reading intent from ambiguous human input. When you give it a clear support ticket everything would be fine. But give it…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1une7tz/whats_a_task_people_think_ai_agents_are_ready_for/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "How I Book 12 Web Design Meetings A Week With This Cold Email Strategy",
+      "summary": "There are a lot of web agencies doing email automation to land web design projects. They keep testing new email sequences every week, adding more follow ups, changing subject lines, and trying everything they can to increase their reply rate, but a lot of them still struggle. I was in the exact same…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1unlv3z/how_i_book_12_web_design_meetings_a_week_with/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "Wait what?",
+      "summary": "https://thenextweb.com/news/alibaba-bans-claude-code-anthropic-tracking-chinese-users Anthropic is tracking People who are known to track everyone? 😂 submitted by /u/base64-encode [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1unbuu4/wait_what/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "AI didn’t replace the work for me. It moved the stress to a different place.",
+      "summary": "I don’t feel like AI has made work “effortless.” It has mostly changed which part of the work feels hard. Before, the hard part was usually getting a first version done. Writing the first draft, building the first page, outlining the first plan, or turning a rough idea into something real enough to …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1umwtp0/ai_didnt_replace_the_work_for_me_it_moved_the/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "ORBIS - Daily Briefing",
+      "summary": "https://orbis.aurochthryx.com submitted by /u/CarterBirchll [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1unn3hp/orbis_daily_briefing/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "DO NOT PAY FOR A SUBSCRIPTION",
+      "summary": "I signed up for a Perplexity Pro year subscription back in April ($200). Here are the features that made me give the ***wipes at Perplexity AI money: Unlimited uploads Unlimited Deep Research I chose Perplexity (and paid for it) because I’m an analyst that relies heavily on research. Within the past…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1umenvi/do_not_pay_for_a_subscription/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-03"
+    },
+    {
+      "type": "news",
+      "title": "How long does the Perch AI Pro $10/mo Early Access price last?",
+      "summary": "Just signed up for Perch AI and I'm looking at Pro for $10/mo (says 50% off, \"Early Access pricing\"). Couldn't find anything on the pricing page or FAQ about how long this actually lasts. Has anyone been on Pro for a few months now? Did the price jump back to $20 at some point, or is it still $10 fo…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1unksdx/how_long_does_the_perch_ai_pro_10mo_early_access/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-04"
+    }
+  ]
+}
