@@ -1,0 +1,171 @@
+{
+  "date": "2026-07-05",
+  "items": [
+    {
+      "type": "news",
+      "title": "Amazon will stop accepting new customers for Mechanical Turk",
+      "summary": "These may be the last days of Amazon’s Mechanical Turk.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/05/amazon-will-stop-accepting-new-customers-for-mechanical-turk/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "type": "news",
+      "title": "New Google commercial imagines a Declaration of Independence written with help from AI",
+      "summary": "Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial asks: What if the Founding Fathers had access to Google Workspace?",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/04/new-google-commercial-imagines-a-declaration-of-independence-written-with-help-from-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "Midjourney wants Hollywood studios to reveal the details of their AI usage",
+      "summary": "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/04/midjourney-wants-hollywood-studios-to-reveal-the-details-of-their-ai-usage/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "Alibaba reportedly bans employees from using Claude Code",
+      "summary": "Alibaba has reportedly classified Claude Code as high-risk software.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "What is Mistral AI? Everything to know about the OpenAI competitor",
+      "summary": "Mistral AI, which offers some open source AI models, has raised significant funding since its creation in 2023, with the ambition to “put frontier AI in the hands of everyone.”",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/04/what-is-mistral-ai-everything-to-know-about-the-openai-competitor/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-04"
+    },
+    {
+      "type": "news",
+      "title": "Is Intrinsic Motivation a Viable PhD Topic in 2026? [D]",
+      "summary": "I started a PhD in CS about a year an a half ago. Generally speaking my topic is on intrinsic motivation (more commonly people refer to it as unsupervised RL). Intrinsic motivation (IM) is a niche field within AI. It seeks to develop reward signals which are not specific to any task but rather somet…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uo5kg6/is_intrinsic_motivation_a_viable_phd_topic_in/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "type": "news",
+      "title": "If DeepMind or Anthropic is doing your exact research topic, do you still continue? [D]",
+      "summary": "As someone who is not affiliated with any of the big tech companies, I find it particularly difficult to have the confidence or enthusiasm to approach any ML problem with an attitude that my professors probably had at my stage in life. I'm sure I am not the only one having the following thoughts: \"M…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1unt64q/if_deepmind_or_anthropic_is_doing_your_exact/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "type": "news",
+      "title": "Best models for generating red-team attacks? Also looking for public datasets [R]",
+      "summary": "Hi everyone, I'm currently working on a framework to evaluate the security of LLM applications and AI agents, and I've been stuck on one part for a while. Most red-teaming frameworks rely on an LLM to generate adversarial prompts. My question is more about which model to use. Which closed-source mod…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uoejrl/best_models_for_generating_redteam_attacks_also/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "type": "news",
+      "title": "I built an open, from-scratch MT pipeline + parallel corpus for Tunisian Darija (Arabizi) early baseline, and I'm growing it into a curated community corpus [P]",
+      "summary": "I'm an 18-year-old independent student from Tunisia. I built and I'm leading an open, from-scratch machine-translation pipeline and parallel corpus for Tunisian Darija. Sharing it for feedback. Why: Tunisian Darija, written in Arabizi (Latin letters + numerals like 3/7/9/5 for Arabic phonemes), has …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uo92vz/i_built_an_open_fromscratch_mt_pipeline_parallel/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "type": "news",
+      "title": "Is machine learning research worth it for now? [D]",
+      "summary": "I am a scientist who just applied machine learning to my research (JEPA/Representation/Geometric branch) and it did wonder! Allowed me to see so many papers that I am still struggling to write up. From what I see, there are clearly a million possibilities not done yet, e.g., industrial data, pattern…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uo0dqi/is_machine_learning_research_worth_it_for_now_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "type": "news",
+      "title": "Competence Gate: gating tool-use on a small model's internal confidence signal instead of its verbalised one — Qwen3.5-4B, open weights [P]",
+      "summary": "I made a 10MB LoRA adapter for Qwen3.5-4B plus a small orchestration layer. It decides, per query, whether to answer directly, search the web, or retrieve from your own local documents and it refuses to make things up when it can't verify an answer. It runs locally (Apple Silicon / MLX, with a GGUF …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1unw5un/competence_gate_gating_tooluse_on_a_small_models/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "type": "news",
+      "title": "ECCV travel support program [D]",
+      "summary": "Has anyone gotten a response from the eccv travel support program listed on their website? https://eccv.ecva.net/Conferences/2026/DEI Edit: also have anyone applied for this program as an accepted author? I have an independent research paper accepted and am currently looking for funds for paying for…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1unx5f8/eccv_travel_support_program_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-05"
+    },
+    {
+      "type": "news",
+      "title": "Proposal: Use semantic compression as input diffusion to read sessions larger than the context window [R]",
+      "summary": "I've been trying to come up with a solution for keeping extremely long ai sessions coherent. Sometimes there is too much substance to risk compaction. With so much buzz around diffusion going on it got me thinking, what if we treat the context like a progressive render, blurry>sharp. The practical w…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1un63hv/proposal_use_semantic_compression_as_input/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-04"
+    }
+  ]
+}
