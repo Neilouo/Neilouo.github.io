@@ -1,0 +1,209 @@
+{
+  "date": "2026-07-19",
+  "items": [
+    {
+      "type": "news",
+      "title": "What to watch for after Jensen Huang’s Japan visit",
+      "summary": "Jensen Huang left Tokyo with deals spanning Japan's entire tech ecosystem.",
+      "authors": [
+        "Kate Park"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "type": "news",
+      "title": "Can an Apple lawsuit derail OpenAI’s hardware plans?",
+      "summary": "On the latest episode of Equity, we debate whether Apple's lawsuit will cast over OpenAi's much-discussed plans to get into hardware and go public.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/19/can-an-apple-lawsuit-derail-openais-hardware-plans/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "type": "news",
+      "title": "‘Odyssey’ director Christopher Nolan calls AI an obvious ‘Trojan horse’",
+      "summary": "\"Everybody knows the Greeks are inside.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/19/odyssey-director-christopher-nolan-calls-ai-an-obvious-trojan-horse/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "type": "news",
+      "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+      "summary": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+      "authors": [
+        "Kate Park"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "type": "news",
+      "title": "Kimi: Threat or menace?",
+      "summary": "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/18/kimi-threat-or-menace/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "type": "news",
+      "title": "Neil Rimer thinks the AI money is coming back out",
+      "summary": "Neil Rimer, the venture capitalist who co-founded Index Ventures, predicts the historic wealth AI is generating in Silicon Valley will have to be redistributed, voluntarily or involuntarily.",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "type": "news",
+      "title": "Am I focusing on the wrong skills as a CS student in the AI era? (Need brutally honest advice) [D]",
+      "summary": "I'm a Computer Science student about to start my 4th semester this September in Pakistan. My long-term goals are: - Maintain a high GPA because I want to pursue a fully funded Master's abroad. - Eventually work at a top tech company (FAANG or similar). - Become a genuinely good software engineer rat…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v0pc9u/am_i_focusing_on_the_wrong_skills_as_a_cs_student/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "type": "news",
+      "title": "Follow up: GPT-2's vocabulary as a hyperbolic tree — 32,070 tokens in a Poincaré ball you can fly through [P]",
+      "summary": "GPT-2's vocabulary as a hyperbolic tree: 32,070 tokens inside a Poincaré ball that you can explore. Link : https://aethereos.net/static/tinny66666.html Link named after a reddit user disappointed with my 2D projection ... It uses the same data as the flat map, GPT-2-small's raw token embeddings and …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v0pv45/follow_up_gpt2s_vocabulary_as_a_hyperbolic_tree/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "type": "news",
+      "title": "Did blatant AI Slop just win a 25K USD Deepmind / Kaggle Grand Prize? [D]",
+      "summary": "The Google DeepMind-sponsored Kaggle challenge \"Measuring Progress Toward AGI - Cognitive Abilities\" asked participants to design new cognitive-science-based AI benchmarks and they just announced the results this week. In my two posts I present evidence that deepmind & kaggle rewarded a nonsensical …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzyf66/did_blatant_ai_slop_just_win_a_25k_usd_deepmind/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "type": "news",
+      "title": "GPT-2 Small’s embedding geometry around “Trump”: discretized vs. continuous nearest neighbours [P]",
+      "summary": "This visualization looks at the token “Trump” in GPT-2 Small’s static embedding table, before attention or context is applied. The top plot is a t-SNE projection of 32,070 alphabetic tokens with at least two characters. The two graphs below compare Trump’s nearest neighbours under two representation…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v07xai/gpt2_smalls_embedding_geometry_around_trump/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "type": "news",
+      "title": "Passing the Swedish Medical Licensing Exam by Post-Training Open-Weight LLMs with SFT and RLVR [P]",
+      "summary": "submitted by /u/AccomplishedCat4770 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v0pnoq/passing_the_swedish_medical_licensing_exam_by/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-19"
+    },
+    {
+      "type": "news",
+      "title": "Interactive map of GPT-2's token embedding space - tap any token and explore [P]",
+      "summary": "32,070 alphabetic tokens from GPT-2-small's WTE, no forward pass and no context. Works on mobile. Pinch to zoom, tap a token to see its nearest connections, tap a neighbour to walk the graph. Search box to jump anywhere. Layout is t-SNE over a compressed representation of the embedding table; edges …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v09muj/interactive_map_of_gpt2s_token_embedding_space/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "type": "news",
+      "title": "AAAI 27 AI Alignment track [D]",
+      "summary": "How to submit to AI alignment track? I can only see these at openReview: AAAI 2027 AAAI 2027 Artificial Intelligence for Social Impact Track AAAI 2027 Conference AAAI 2027 Innovative Applications of AI submitted by /u/Silencer_Wasd [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzxrn4/aaai_27_ai_alignment_track_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "type": "news",
+      "title": "Deep learning tackles single-cell analysis – A survey of deep learning for scRNA-seq analysis [R]",
+      "summary": "Hello, I recently finished reading this survey paper: Deep learning tackles single-cell analysis – A survey of deep learning for scRNA-seq analysis, which comprehensively covers 25 different methods across 6 subcategories for applying deep learning to scRNA-seq analysis. To summarize the methods fro…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v06nc1/deep_learning_tackles_singlecell_analysis_a/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "type": "news",
+      "title": "TabFM Studio: point-and-click predictions on spreadsheets with tabular foundation models, fully local [P]",
+      "summary": "I built a small web app that lets you run tabular foundation models (currently just Google's TabFM) on spreadsheets without writing any code. Just drop in a CSV/Excel file, click a column header to mark what to predict, hit predict. Rows where the target cell is filled become the in-context examples…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzx1el/tabfm_studio_pointandclick_predictions_on/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-18"
+    },
+    {
+      "type": "news",
+      "title": "Tried testing qwen 35b moe model on s26 ultra , without compromising on precision [R] ,[D]",
+      "summary": "Started testing a private qwen 35B moe capacity LLM runtime on s26 ultra, early testing shows that active model footprint can fit within the device’s memory limits.( not sharing the methods or architecture used) and results suggest roughly 90 input processing t/s achievable after optimisation and ou…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1uzik5s/tried_testing_qwen_35b_moe_model_on_s26_ultra/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-18"
+    }
+  ]
+}
