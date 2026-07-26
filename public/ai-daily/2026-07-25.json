@@ -1,0 +1,389 @@
+{
+  "date": "2026-07-25",
+  "items": [
+    {
+      "type": "news",
+      "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+      "summary": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+      "summary": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+      "authors": [
+        "Tim De Chant"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+      "summary": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+      "summary": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+      "summary": "The acquisition brings Poke’s conversational style and interaction model to Cognition’s coding agent Devin, reflecting a growing belief that how AI assistants interact with users is as important as the models powering them.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic launches Opus 5",
+      "summary": "Opus 5 will be both cheaper and less restrictive than Fable, likely making it preferable in most use cases.",
+      "authors": [
+        "Russell Brandom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "As US weighs response to Chinese AI, industry urges against broad open-weight restrictions",
+      "summary": "AI companies, including Nvidia and Mistral, urge policymakers to avoid broad restrictions on open-weight AI models as Washington debates responses to Chinese AI and alleged model distillation.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "Bluesky’s AI assistant Attie expands into an open social research tool",
+      "summary": "Users can now ask Attie questions about news, trends, and conversations on Bluesky and other apps on the AT Protocol.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "Midjourney acquired the astrology app Co-Star",
+      "summary": "The AI lab Midjourney continues to expand its purview beyond image and video generation.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "‘AI communism’, rogue models, and the why Kimi K3 spooked Wall Street",
+      "summary": "Chinese AI lab Moonshot’s open model Kimi went viral this week for reasons that had less to do with the model itself and more to do with how the U.S. AI industry reacted to it. Meanwhile, an unreleased OpenAI model wandered outside its test environment and ended up connected to a real security breac…",
+      "authors": [
+        "Theresa Loconsolo, Kirsten Korosec, Anthony Ha, Sean O'Kane"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/ai-communism-rogue-models-and-the-why-kimi-k3-spooked-wall-street/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI’s new voice mode makes it to the ChatGPT desktop app",
+      "summary": "ChatGPT Voice on desktop can work with both ChatGPT Work and Codex to complete tasks and control agents.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/24/openais-new-voice-mode-makes-it-to-the-chatgpt-desktop-app/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
+      "summary": "We spoke with several cybersecurity researchers, who look for unknown vulnerabilities and develop tools to exploit them, about how OpenAI’s and Anthropic’s guardrails affect their work.",
+      "authors": [
+        "Lorenzo Franceschi-Bicchierai"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/23/how-ai-guardrails-are-impeding-the-work-of-offensive-cybersecurity-researchers/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "Americans Are Pushing Back Against Flock AI Cameras Regardless of Their Politics",
+      "summary": "submitted by /u/Sgt_Gram [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6d644/americans_are_pushing_back_against_flock_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "We released an abliterated + fine-tuned GLM-5.2. High scores on adversarial benchmarks while keeping coding performance.",
+      "summary": "We just shipped abliterated-model-large. It is GLM-5.2 with the refusal directions removed, then fine-tuned specifically for long adversarial and agent-style tasks. The goal was a model that does not bail out when the work gets technical or offensive in nature. Numbers from our evals: CyberGym: 84.2…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6i979/we_released_an_abliterated_finetuned_glm52_high/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "There's Always Another Apocalypse- Why Catrastrophism Is a Continuation of a Long Trend",
+      "summary": "submitted by /u/anonymouse11394 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6jwgp/theres_always_another_apocalypse_why/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "Opus 5's effort dial is not monotonic. Above \"high\", coding scores go down, and Anthropic's own migration guide says so.",
+      "summary": "Opus 5 comes with five effort settings: low, medium, high, xhigh, max. Most people seem to be reaching straight for max, and at least on coding work that looks like the wrong move. On FrontierCode, scores fall above the high setting. The stated reason is that the model starts making unnecessary refa…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v60pga/opus_5s_effort_dial_is_not_monotonic_above_high/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "White House offers its science blueprint: More AI, less life sciences. ‘Science: A New Golden Age’ report calls for shifting billions from universities to tech companies",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v5on2l/white_house_offers_its_science_blueprint_more_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "Partnership with AI Guide updated to v9",
+      "summary": "Same link as before: link This one's a bigger jump than usual, so a few highlights instead of just \"updated\": Core findings now scale-validated from 7B all the way to 72B parameters. The effects don't shrink as models get bigger — they grow, sometimes by an order of magnitude. Still one model family…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6f9w7/partnership_with_ai_guide_updated_to_v9/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "From Silicon Valley to DC, the tech world is suddenly obsessed with one concept in AI: Distillation",
+      "summary": "submitted by /u/simrobwest [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6e698/from_silicon_valley_to_dc_the_tech_world_is/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "Slapshot AI created an account using my email address without my permission.",
+      "summary": "I am guessing these companies will resort to any trick to claim that they have a large userbase. Now I have to jump through hoops to close this account. submitted by /u/Anymous2314 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6hr8p/slapshot_ai_created_an_account_using_my_email/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "Why good AI agents still produce bad system outputs",
+      "summary": "One thing I've learned from building multi agent AI systems is that the biggest problems rarely come from the model itself. Most pipelines fail during the handoff between agents. You can have a research agent, an analysis agent, and a reporting agent that all perform well on their own. Their individ…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6gz8o/why_good_ai_agents_still_produce_bad_system/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "AI moves into family life",
+      "summary": "submitted by /u/gamersecret2 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6b2r8/ai_moves_into_family_life/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "Learning ai",
+      "summary": "Everytime i hear people saying that you should learn about ai because that's the future but idk where to start and what they mean by that. Do they mean going uni and study ai or self learn? Thanks in advance. submitted by /u/West-King-9612 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6fxlf/learning_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "Warning shot or publicity stunt - how worried should we be about the OpenAI hack?",
+      "summary": "This week the tech world was gripped by a story that has it all - and which started like a sci-fi thriller. submitted by /u/Spirited-Sir-3034 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6eq34/warning_shot_or_publicity_stunt_how_worried/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "Bipartisan bill would require companies to tell users when they're talking to AI",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v5jk23/bipartisan_bill_would_require_companies_to_tell/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "Whisper Live - A nearly-live implementation of Open AI's Whisper, free & open-source",
+      "summary": "submitted by /u/brand_momentum [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6dbat/whisper_live_a_nearlylive_implementation_of_open/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "Changing robot arms usually breaks the boring part first",
+      "summary": "When a new robot arm changes joint names, camera topics, or control frequency, a failed demo tends to get blamed on the policy. The logs may show something much less interesting: an adapter mapped a valid action into the wrong device convention. Claude Opus 4.8 could read the SDK docs and draft the …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v6cot8/changing_robot_arms_usually_breaks_the_boring/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "How much of what you generate, actually makes it out of the door?",
+      "summary": "I did something slightly depressing on sunday. i went through my last month of ai outputs, all of it, drafts and images and scripts and little snippets, and counted how many actually got used somewhere real. published, sent, shipped, shown to a client. the number was eleven. out of roughly three hun…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v62ww6/how_much_of_what_you_generate_actually_makes_it/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "Users tried to object to their chatgpt logs being handed to the NYT. the court ruled they were \"non-parties\" to their own conversations.",
+      "summary": "in the openai copyright case, a court ordered every chatgpt output log preserved, including chats people had deleted. some users tried to intervene to protect their own conversations. the court ruled they were non-parties. they had no standing over things they personally typed. two weeks ago the pub…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v5b04p/users_tried_to_object_to_their_chatgpt_logs_being/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-24"
+    },
+    {
+      "type": "news",
+      "title": "China’s open AI strategy is changing the race",
+      "summary": "Moonshot AI’s Kimi K3 shows how opening a model to outsiders can turn other companies’ computing power into a competitive advantage submitted by /u/scientificamerican [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1v5c06c/chinas_open_ai_strategy_is_changing_the_race/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-07-24"
+    }
+  ]
+}
