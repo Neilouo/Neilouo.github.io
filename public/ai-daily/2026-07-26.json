@@ -1,0 +1,245 @@
+{
+  "date": "2026-07-26",
+  "items": [
+    {
+      "type": "news",
+      "title": "Making sense of the panic over Chinese AI",
+      "summary": "On the latest episode of Equity, we discussed why Moonshot AI's Kimi seemed to panic Silicon Valley and Wall Street.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack",
+      "summary": "\"The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+      "summary": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
+      "authors": [
+        "Rebecca Bellan, Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+      "summary": "At libraries around the country, \"Avoiding AI\" workshops have elicited unprecedented demand.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "One fallen power line exposed a growing AI data center problem. Here’s how to fix it.",
+      "summary": "A close call in Northern Virginia revealed just how poorly data centers respond to grid disruptions. Here's how to fix the problem.",
+      "authors": [
+        "Tim De Chant"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/25/one-fallen-power-line-exposed-a-growing-ai-data-center-problem-heres-how-to-fix-it/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone else",
+      "summary": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "I implemented the YOLO26n model inference from scratch using ARM64 Assembly Language (No framework) [P]",
+      "summary": "This was my Bachelor's Final Project: implementing YOLO26n inference completely from scratch using ARM64 Assembly Language and C, without relying on existing inference frameworks. The goal was to understand how modern neural network inference engines work at a low level and explore optimization tech…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6w394/i_implemented_the_yolo26n_model_inference_from/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "Neurips 2026 Main Track Theory Paper Tracker- Discussion Thread [D]",
+      "summary": "Curious about the initial review distribution for Main Track theory papers this year. Our paper received 4/3/3 with confidence 3/3/3. From previous years, I've had the impression that theory papers often receive more conservative initial scores than some other areas, and I've also heard people sayin…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v77r9s/neurips_2026_main_track_theory_paper_tracker/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "CICD / KAFKA / KUBERNETES / Interview questions (MLE) [R]",
+      "summary": "What questions should i prepare for during a technical interview for a live streaming deployments? (asking for a friend) submitted by /u/trouble_sleeping_ [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v7jvsx/cicd_kafka_kubernetes_interview_questions_mle_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "Open-weight 4B models approach o3-level medical question answering in Swedish [P]",
+      "summary": "I have been running some experiments with smaller open-weight LLMs on multiple-choice questions of Swedish medical licensing exams. On a dataset called MedQA-SWE, GPT-4 scored 84% accuracy in 2024 and o3 scored 88% in 2025 on a smaller, overlapping dataset. With post-training (SFT) on data from earl…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v71wds/openweight_4b_models_approach_o3level_medical/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "Link plots/figures in NeurIPS rebuttal [R]",
+      "summary": "Reviewers requested additional experiments. In table format, I fear the results would not be as digestible as in a figure/plot. Links are \"technically\" not allowed as per the official website, but for those with experience, can/should I still go ahead and link my plots/figures ? If this goes badly, …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6qt8l/link_plotsfigures_in_neurips_rebuttal_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "Multi-Tenant SaaS: Which Architecture Would You Choose? [D]",
+      "summary": "NOTE -> I expect answer from people who actually have experience and strong understanding of these. please give something beneficial. I'm building a SaaS platform in Sri Lanka that handles documents and other sensitive data. Each user can upload their own documents and information, and the platform …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v794kw/multitenant_saas_which_architecture_would_you/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "We compared different LLMs on IMO 2026 [R]",
+      "summary": "There are a few reasons why problems from International Mathematical Olympiad function as a good benchmark for LLMs: - The problems are new, not included in the training data of any model - Hard math problems are quite a good proxy for general intelligence capability - These are complex multi-step t…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6wskz/we_compared_different_llms_on_imo_2026_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "Paper lengths, and reasonable assumptions in ML conferences. [D]",
+      "summary": "I've usually been commenting on threads on conference reviews. I'm now expressing my observations here. To the best of my knowledge, paper lengths have been held constant at many conferences, and some conferences have \"unlimited appendices\" (e.g. NeurIPS / ICML / AAAI / ....) Historically, this was …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6gh43/paper_lengths_and_reasonable_assumptions_in_ml/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "Missed AAAI reciprocal reviewer nomination deadline — risk of desk rejection? [D]",
+      "summary": "I submitted an abstract to AAAI AISI and accidentally missed the field asking authors to nominate a reciprocal reviewer by the July 21 AoE deadline. At the time of submission, I knew that I personally did not meet the publication requirements to serve as a reviewer. After adding my graduate-student …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v7hgrh/missed_aaai_reciprocal_reviewer_nomination/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "Understanding GPU Inference Workloads [D]",
+      "summary": "Hey everyone, I have been looking into how people source compute for their Inference workloads (and in general). I wanted to understand some specific pain points here. If you've used online services like runpod or vast.ai, your perspective is extremely valuable. Please share your experience in the c…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v6sjiu/understanding_gpu_inference_workloads_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "I want to use AI coding agents for machine learning projects [D]",
+      "summary": "I'm a software engineer who mainly builds softwaes/applications, and I'm starting to work on machine learning projects. Since ML workloads often require GPUs, I know services like Google Colab and Kaggle exist. but, I'm looking for something a bit different. Is there a platform where I can use AI co…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v758ek/i_want_to_use_ai_coding_agents_for_machine/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-26"
+    },
+    {
+      "type": "news",
+      "title": "I still didn't get my NeurIPS meta review [D]",
+      "summary": "About to be over 36 hours now? Nothing on the website, twitter, anywhere. What the hell? Is anyone else facing the same issue what do I do? submitted by /u/Specialist-Manager67 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v5wcy3/i_still_didnt_get_my_neurips_meta_review_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-25"
+    },
+    {
+      "type": "news",
+      "title": "Neurips Position Track Rebuttal and Reviews [R]",
+      "summary": "Hello! This is my first time submitting an actual conference paper (only done workshops so far). Got a 3/3/5/7 for the Position Paper Track. Reviews all seem quite addressable. Meta review also seemed kinda positive? Included wording such as \"a revision should include...\" followed by actionable stuf…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1v5ykl8/neurips_position_track_rebuttal_and_reviews_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-25"
+    }
+  ]
+}
