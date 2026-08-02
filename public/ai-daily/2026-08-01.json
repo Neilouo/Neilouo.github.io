@@ -1,0 +1,407 @@
+{
+  "date": "2026-08-01",
+  "items": [
+    {
+      "type": "news",
+      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "summary": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+      "summary": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "Sam Altman is still making the case for parenting via ChatGPT",
+      "summary": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "This $9 key physically locks your most addictive apps",
+      "summary": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI reportedly finds evidence that more of its agents ran amok",
+      "summary": "OpenAI has reportedly found evidence of additional agent misbehavior as it looks into the incident that occurred with Hugging Face.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/31/openai-reportedly-finds-evidence-that-more-of-its-agents-ran-amok/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "India is starting to pay for apps, not just download them",
+      "summary": "India's app market generated a record $345 million in Q2.",
+      "authors": [
+        "Jagmeet Singh"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/31/india-is-starting-to-pay-for-apps-not-just-download-them/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "Google nixes its Earth AI feature one day after launch, amid criticism it would spread misinformation",
+      "summary": "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/31/google-nixes-its-earth-ai-feature-one-day-after-launch-amid-criticism-it-would-spread-misinformation/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "Sam Altman isn’t the only one who wants to pump the brakes on AI",
+      "summary": "After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself. The comments came just days after one of OpenAI’s own models broke out of its test environment and got tangled up in a breach at Hugging Face — though as Equity’s hosts poi…",
+      "authors": [
+        "Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/video/sam-altman-isnt-the-only-one-who-wants-to-pump-the-brakes-on-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "Snapchat no longer rewards fully AI-generated Spotlight content",
+      "summary": "Snapchat has adjusted its recommendation systems to ensure that only videos created by real people are eligible for Spotlight recommendations, taking a stance against AI slop.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/31/snapchat-no-longer-rewards-fully-ai-generated-spotlight-content/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "Siri AI could come with a paywall for power users",
+      "summary": "Apple CEO Tim Cook envisions users being able to buy more compute for Siri AI via Apple's existing iCloud+ subscriptions.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/31/siri-ai-could-come-with-a-paywall-for-power-users/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "SpaceX won’t remove all of xAI’s unpermitted turbines for another year",
+      "summary": "SpaceX is building a new power plant for xAI's Colossus data centers, but it won't remove existing, unpermitted turbines for many more months.",
+      "authors": [
+        "Tim De Chant"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "Smallest.ai raises $13M to build ultra-fast voice AI that sounds genuinely human",
+      "summary": "The startup is building voice models designed to make AI phone calls pass the Turing test.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/31/smallest-ai-raises-13m-to-build-ultra-fast-voice-ai-that-sounds-genuinely-human/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "AI labs want to pump the brakes, but Amazon and SpaceX are still blasting off",
+      "summary": "After years of pushing full speed ahead on AI, OpenAI CEO Sam Altman says maybe it’s time for the AI industry to “pace” itself. The comments came just days after one of OpenAI’s own models broke out of its test environment and got tangled up in a breach at Hugging Face — though as Equity’s hosts poi…",
+      "authors": [
+        "Kirsten Korosec, Sean O'Kane, Anthony Ha, Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/ai-labs-want-to-pump-the-brakes-but-amazon-and-spacex-are-still-blasting-off/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic says its own AI models breached three companies during security tests",
+      "summary": "After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents.",
+      "authors": [
+        "Kirsten Korosec"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI aligns safety practices with EU AI Act’s GPAI Code",
+      "summary": "OpenAI has outlined how it aligns safety, security, and transparency work with the EU AI Act’s GPAI Code as enforcement approaches. The company has contributed to and endorsed the EU’s General-Purpose AI (GPAI) Code of Practice and the Code of Practice on Transparency of AI-Generated Content. Both e…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/openai-aligns-safety-practices-with-eu-ai-act-gpai-code/",
+      "source": "AI News",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "[D] Simple Questions Thread",
+      "summary": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. Thanks to everyone for answering questions in the previous thread! submitted …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcpms3/d_simple_questions_thread/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "summary": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for jobs please use this template Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocati…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbdygo/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "Question about NeurIPS discussion phase [D]",
+      "summary": "One reviewer said all concerns were resolved during discussion but hasn’t updated their score yet. The other reviewers haven’t engaged. In previous NeurIPS cycles, how common is it for reviewers to update scores after saying concerns are resolved? What have others observed? My ratings/confidences ar…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcykc5/question_about_neurips_discussion_phase_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "I have trained a model to predict my blood sugar [P]",
+      "summary": "It's an encoder-only transformer that consumes past(blood glucose + carbs + insulin) and future(carbs + insulin) and predicts future blood glucose for the next 2 hours. Announced meals and boluses/basal are used to condition its predictions. The context size is variable (8 - 24 hours), and model can…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vc1txc/i_have_trained_a_model_to_predict_my_blood_sugar_p/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "How Symmetric Are the Insides of a Go Network? [R]",
+      "summary": "I just now posted a small research / ML interp study on symmetries inside the neural nets for an open source Go-playing program that I maintain (\"KataGo\"). The rules of Go are completely symmetric under rotation/reflection, but such symmetry is not enforced in the models - the only thing we do for t…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcrki2/how_symmetric_are_the_insides_of_a_go_network_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "VLMs can score well on benchmarks, while silently erasing meaningful terms and including hallucinate bias [P]",
+      "summary": "While working with VLMs for report generation on chest x-rays (RRG), we noticed that evaluation metrics are flawed. Flawed in a sense where they rewarded repetitive templates, reports without clinical terms and reports which were \"normal\" with high scores on benchmark metrics. Also, clinically meani…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcipzz/vlms_can_score_well_on_benchmarks_while_silently/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "ARR May Meta Review[D]",
+      "summary": "This time we have seen the worst meta reviews...may be people are unintersted to do reviews...in my case they did not acknowledge the report at all as well the entire rebuttal. How many are facing the same thing? submitted by /u/Historical_Pause247 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcb4zw/arr_may_meta_reviewd/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "Github repo to learn the OPD/OPSD and how they perform compared to GRPO, on a consumer grade GPU [P]",
+      "summary": "I am trying to learn concepts like On Policy Distillation (OPD), On Policy Self Distillation (OPSD) and how do they compare to RL algorithms like GRPO. There are a lot of papers on this, but because of limited compute I cannot try these papers out and learn them by implementing them myself. If someo…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vclrah/github_repo_to_learn_the_opdopsd_and_how_they/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "Learning path to fully understand the Kimi K3 technical report?[D]",
+      "summary": "Hi everyone, Can anyone suggest a learning path to fully understand the technical report for Kimi K3? My background: - I've taken a graduate-level deep learning course. - I understand the Transformer architecture, attention, and the basics of LLMs. - I'm familiar with DeepSeek's OCR models but I hav…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbvlft/learning_path_to_fully_understand_the_kimi_k3/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "EMNLP vs AACL commitment: Meta 3.5, reviews 3/3/4, what to do?[D]",
+      "summary": "I'm trying to decide whether to commit my ARR May 2026 paper to EMNLP or AACL. (first time solo independent author). Final reviews after rebuttal (OA/Confidence/Excitement ): R1: 2.5 → 3 /3/2.5 R2: 2.5 → 3 /4/2.5 R3: 4 /4 /3 Meta: 3.5 (Borderline Conference) The meta-review was overall positive and …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcsv1s/emnlp_vs_aacl_commitment_meta_35_reviews_334_what/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "ACL ARR May 2026 Meta-Reviews are out [D]",
+      "summary": "Meta-Reviews are out. How did it work out for you? Are you happy with your reviews? submitted by /u/H4RZ3RK4S3 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbtgz8/acl_arr_may_2026_metareviews_are_out_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "Detecting *whether* text exists in an image? [D]",
+      "summary": "Hi, I was looking to be able to very quickly detect *whether* text exists in an image (binary classification). Being a simple-ish task, there isn't substantial dedicated research on it, so I was looking for adjacent topics or models, but I'm not sure of any. I know there's an issue of scale toleranc…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbzwp9/detecting_whether_text_exists_in_an_image_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "If reviewing is mandatory for paper submissions, low-quality reviews can no longer be justified as “volunteer work” [D]",
+      "summary": "Several artificial intelligence conferences have recently introduced systems that require authors who submit papers to complete a certain number of reviews. Under such a system, reviewing is not optional volunteer work. It is an obligation that researchers must fulfill in exchange for having their o…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbeqhw/if_reviewing_is_mandatory_for_paper_submissions/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "What should we do for EMNLP commitment deadline? [R]",
+      "summary": "We received the reviews, but they don't mention whether we should submit a revised version. Should we prepare one? I also couldn't find anywhere to upload a revision. What exactly is the EMNLP commitment deadline? I had assumed we were supposed to upload an updated version. Do you know what they're …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vc6ngy/what_should_we_do_for_emnlp_commitment_deadline_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "Thoughts on Sustainable Computing: Informatics and Systems (SUSCOM) [D]",
+      "summary": "I was planning on submitting a work of mine to SUSCOM and wanted opinions as of how good is this journal and if it's well reputed and respected ? submitted by /u/Practical-Buddy6323 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vbtw9o/thoughts_on_sustainable_computing_informatics_and/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-31"
+    },
+    {
+      "type": "news",
+      "title": "Meta score EMNLP 2026 [D]",
+      "summary": "Any one got meta score 2.5 (borderline finding) and still accepted to findings previously?? In my case meta review didnot acknowledge the reporting against a wrong review submitted by /u/Historical_Pause247 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vc3uit/meta_score_emnlp_2026_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-07-31"
+    }
+  ]
+}
