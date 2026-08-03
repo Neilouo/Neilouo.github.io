@@ -1,0 +1,255 @@
+{
+  "date": "2026-08-02",
+  "items": [
+    {
+      "type": "news",
+      "title": "Sam Altman and AI’s decel debate",
+      "summary": "On the latest episode of Equity, we discuss why Sam Altman has calling on the industry to \"pace the rate of AI development.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "type": "news",
+      "title": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+      "summary": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "YouTuber Hank Green says his AI usage is ‘not healthy’",
+      "summary": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "Sam Altman is still making the case for parenting via ChatGPT",
+      "summary": "OpenAI's CEO seemed excited to share a \"cool use case\" for parents.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "This $9 key physically locks your most addictive apps",
+      "summary": "This $9 NFC key requires you to physically scan it to unlock distracting apps on your phone.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/01/this-9-key-physically-locks-your-most-addictive-apps/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "[D] Self-Promotion Thread",
+      "summary": "Please post your personal projects, startups, product placements, collaboration needs, blogs etc. Please mention the payment and pricing requirements for products and services. Please do not post link shorteners, link aggregator websites , or auto-subscribe links. -- Any abuse of trust will lead to …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vd5kqk/d_selfpromotion_thread/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "type": "news",
+      "title": "neurips 2026: ACs and reviewers have disappeared [D]",
+      "summary": "we submitted our rebuttal via the \"Rebuttal\" button before the author/reviewer/AC discussion period officially opened (Jul 27 AoE). since then, we've gotten complete silence from all four reviewers and the AC several of us are also reviewing this cycle. when the discussion period opened on Jul 27 Ao…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdu92a/neurips_2026_acs_and_reviewers_have_disappeared_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "type": "news",
+      "title": "Neurips 2026: does every metareview recommend accept/reject? [D]",
+      "summary": "I see some people say their metareview already contains a decision/recommendation (all of them were rejections). Ours doesn’t. Even though our avg score is 3, the metareview seems optimistic and finishes with “a convincing response would be an important consideration while discussing the paper.” I w…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdvkp5/neurips_2026_does_every_metareview_recommend/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "type": "news",
+      "title": "No replies to rebuttals and comments even by AC [D]",
+      "summary": "Not even the AC, nor reviewers, is responding to our comments in rebuttals, and they were all submitted well before the discussion period started. What is one to do in this case? submitted by /u/bricklerex [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdeae3/no_replies_to_rebuttals_and_comments_even_by_ac_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "type": "news",
+      "title": "Conference Reviews: Asking Too Much? [D]",
+      "summary": "There's a kind of review that asks for lengthy additions, usually extending the scope of the paper beyond the stated, even though the submission is at page limit. Naturally, such additions in the case of top-tier conferences have to go into the supplemental materials or appendices. My question here …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdl461/conference_reviews_asking_too_much_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "type": "news",
+      "title": "Context degradation in LLMs: what the papers actually show, and the habits I built for long analysis sessions [R]",
+      "summary": "submitted by /u/usernamehere93 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdsgcj/context_degradation_in_llms_what_the_papers/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "type": "news",
+      "title": "ARR August Cycle [D]",
+      "summary": "Mine was just submitted, and the submission count shown is still under 500. Does anyone know whether this count is meaningful for identifying the intended venue, possibly EACL, or whether it is simply low because many authors have not submitted yet or the counter is incomplete? I know the count alon…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdgpha/arr_august_cycle_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "type": "news",
+      "title": "[R] CausalVLBench: Benchmarking Visual Causal Reasoning in Large VLMs.",
+      "summary": "submitted by /u/moschles [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdd7ty/r_causalvlbench_benchmarking_visual_causal/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "type": "news",
+      "title": "Looking for the right pipeline to convert academic textbook figures into interactive/editable assets [R]",
+      "summary": "Hi everyone, I'm working on a document understanding project and would appreciate some advice on the right technical direction. The input will be scanned pages or images from academic books. I don't know in advance what kind of figures they'll contain—they could be biology diagrams, anatomy illustra…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vdlj8j/looking_for_the_right_pipeline_to_convert/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-02"
+    },
+    {
+      "type": "news",
+      "title": "Question about NeurIPS discussion phase [D]",
+      "summary": "One reviewer said all concerns were resolved during discussion but hasn’t updated their score yet. The other reviewers haven’t engaged. In previous NeurIPS cycles, how common is it for reviewers to update scores after saying concerns are resolved? What have others observed? My ratings/confidences ar…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcykc5/question_about_neurips_discussion_phase_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "How Symmetric Are the Insides of a Go Network? [R]",
+      "summary": "I just now posted a small research / ML interp study on symmetries inside the neural nets for an open source Go-playing program that I maintain (\"KataGo\"). The rules of Go are completely symmetric under rotation/reflection, but such symmetry is not enforced in the models - the only thing we do for t…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcrki2/how_symmetric_are_the_insides_of_a_go_network_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "VLMs can score well on benchmarks, while silently erasing meaningful terms and including hallucinate bias [P]",
+      "summary": "While working with VLMs for report generation on chest x-rays (RRG), we noticed that evaluation metrics are flawed. Flawed in a sense where they rewarded repetitive templates, reports without clinical terms and reports which were \"normal\" with high scores on benchmark metrics. Also, clinically meani…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcipzz/vlms_can_score_well_on_benchmarks_while_silently/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "EMNLP vs AACL commitment: Meta 3.5, reviews 3/3/4, what to do?[D]",
+      "summary": "I'm trying to decide whether to commit my ARR May 2026 paper to EMNLP or AACL. (first time solo independent author). Final reviews after rebuttal (OA/Confidence/Excitement ): R1: 2.5 → 3 /3/2.5 R2: 2.5 → 3 /4/2.5 R3: 4 /4 /3 Meta: 3.5 (Borderline Conference) The meta-review was overall positive and …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcsv1s/emnlp_vs_aacl_commitment_meta_35_reviews_334_what/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "ARR May Meta Review[D]",
+      "summary": "This time we have seen the worst meta reviews...may be people are unintersted to do reviews...in my case they did not acknowledge the report at all as well the entire rebuttal. How many are facing the same thing? submitted by /u/Historical_Pause247 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcb4zw/arr_may_meta_reviewd/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    },
+    {
+      "type": "news",
+      "title": "[D] Simple Questions Thread",
+      "summary": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. Thanks to everyone for answering questions in the previous thread! submitted …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vcpms3/d_simple_questions_thread/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-01"
+    }
+  ]
+}
