@@ -1,0 +1,3209 @@
+{
+  "date": "2026-08-08",
+  "items": [
+    {
+      "type": "paper",
+      "title": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
+      "summary": "arXiv:2608.05151v1 Announce Type: new Abstract: Wastewater operators need answers grounded in how their plant's variables interact and how fast effects propagate, not in generic pretraining text, when asking causal questions such as \"why is N2O rising?\" or \"what happens if I cut aeration by 20%?\". W…",
+      "authors": [
+        "Gary Simethy",
+        "Daniel Ortiz Arroyo",
+        "Petar Durdevic"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05151",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models",
+      "summary": "arXiv:2608.05152v1 Announce Type: new Abstract: Large language models (LLMs) with chain-of-thought reasoning have been widely applied in recent years, and theoretical explanations of their behavior may help deepen our understanding and guide model optimization. In this study, we introduce a framewor…",
+      "authors": [
+        "Hao Ai"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05152",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability",
+      "summary": "arXiv:2608.05153v1 Announce Type: new Abstract: GraphRAG underperforms vector RAG on citation precision in many reports, but where and why have remained corpus-bound. We present a triple-robustness analysis that holds the retrieval architecture fixed and varies three orthogonal axes embedder (local …",
+      "authors": [
+        "Meftun Akarsu",
+        "Burak Ozdemir"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05153",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates",
+      "summary": "arXiv:2608.05154v1 Announce Type: new Abstract: Rotary positional encoding (RoPE) is a core component of modern language models and has been extended to multimodal LLMs through multidimensional variants such as multimodal RoPE (M-RoPE), which split positional channels into temporal, height, and widt…",
+      "authors": [
+        "Donggen Li"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05154",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation",
+      "summary": "arXiv:2608.05155v1 Announce Type: new Abstract: Traditional sentiment analysis (SA) models, while effective for polarity classification, provide limited insight into the rhetorical, ideological, and framing dimensions of political discourse -- dimensions that are central to research in the social sc…",
+      "authors": [
+        "Maryam Fooladi",
+        "Federico Bottino"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05155",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs",
+      "summary": "arXiv:2608.05156v1 Announce Type: new Abstract: Post-training of large language models optimizes only parameters, while inference-time procedural scaffolds are typically designed independently of parameter training. This disconnect makes it difficult to automatically acquire and internalize complex …",
+      "authors": [
+        "Fei Ding",
+        "Yongkang Zhang",
+        "Runhao Liu",
+        "Yuhao Liao",
+        "Zijian Zeng"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05156",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Large Language Models Threaten Double-blind Review",
+      "summary": "arXiv:2608.05157v1 Announce Type: new Abstract: Double blind peer review serves as the scientific community primary defense against status and affiliation bias. Its effectiveness rests on the assumption that anonymized manuscripts convey scientific merit without revealing their authors. While author…",
+      "authors": [
+        "Bulambo Mwendelwa Gloire",
+        "Prasenjit Mitra"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05157",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Safe Evolution with Circuit Anchors",
+      "summary": "arXiv:2608.05158v1 Announce Type: new Abstract: In biological evolution, unconstrained mutation can lead to catastrophic outcomes: organisms may evolve enhanced capabilities while losing essential functions for survival. Nature's solution is \\textit{developmental constraints}, where core regulatory …",
+      "authors": [
+        "Yan Liu",
+        "Jie Fu",
+        "Tsung-Yi Ho"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05158",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "SemiAdapt-Instruct: Extensible Instruction Tuning via Latent Domain-Specialised Adapters",
+      "summary": "arXiv:2608.05161v1 Announce Type: new Abstract: Instruction-tuned LLMs are deployed into environments where domains evolve, yet extending a fine-tuned model's capabilities without full retraining remains an unsolved practical challenge. We present SemiAdapt-Instruct, a modular framework that discove…",
+      "authors": [
+        "Josh McGiff",
+        "Salma Mekaoui",
+        "Robert Shanahan",
+        "Nikola S. Nikolov"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05161",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "PoolBench: A Benchmark for Pooling Strategies in Concept Representation Evaluation for Decoder-Only LLMs",
+      "summary": "arXiv:2608.05162v1 Announce Type: new Abstract: Pooling is a consequential but under-examined design choice in decoder-only concept representation work: practitioners must collapse token-level hidden states into a passage-level vector, yet no shared protocol exists for comparing this choice across c…",
+      "authors": [
+        "Ayushi Agarwal"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05162",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Where Privacy Risk Lives in English-Source Multilingual RAG: A Stage-Decomposed Audit Across Five Query Languages",
+      "summary": "arXiv:2608.05163v1 Announce Type: new Abstract: A common assumption holds that switching to a non-English language makes a multilingual RAG system easier to attack for personal information. We test this on an English-source synthetic-PII corpus with five query languages and a two-stage defence (LLM …",
+      "authors": [
+        "Yanhang Li",
+        "Zhichao Fan",
+        "Zexin Zhuang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05163",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Cross-Architecture Steering Transfer in Language Models: A Systematic Empirical Study",
+      "summary": "arXiv:2608.05164v1 Announce Type: new Abstract: Independently trained large language models may develop shared internal representations of semantic concepts despite architectural differences -- but whether this geometric similarity has functional consequences for cross-model behavioural control rema…",
+      "authors": [
+        "Ayushi Agarwal"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05164",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "A Study of ASR Adaptation and Representation Dimensionality Reduction in Persian Speech Emotion Recognition Using Whisper",
+      "summary": "arXiv:2608.05165v1 Announce Type: new Abstract: Speech Emotion Recognition (SER) in low-resource languages remains a challenging problem due to limited labeled data. In this work, we study the use of Whisper for Persian SER with a particular focus on representation dimensionality reduction and langu…",
+      "authors": [
+        "Ali Shendabadi",
+        "Parnia Izadirad",
+        "Mostafa Salehi"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05165",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Conditional Cognitive Biases in LLMs: How Biased User Turns Modulate In-Context Reasoning",
+      "summary": "arXiv:2608.05166v1 Announce Type: new Abstract: We present an evaluation of cognitive bias expression in state-of-the-art instruction-tuned LLMs under realistic multi-turn interaction settings. Our work introduces a novel three-condition experimental framework that disentangles the effect of exposur…",
+      "authors": [
+        "Sachini Weerasekara",
+        "Sagar Kamarthi",
+        "Jacqueline Isaacs"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05166",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "CNM-BERT: A Drop-In Structural Embedding for Chinese Characters via Ideographic Description Sequences",
+      "summary": "arXiv:2608.05167v1 Announce Type: new Abstract: Token-based encoders like BERT treat Chinese characters as atomic identifiers, ignoring their recursive orthographic structure. Consequently, models rely on contextual co-occurrence, degrading performance on rare and out-of-vocabulary (OOV) characters.…",
+      "authors": [
+        "Thomas Sing-wing Wu",
+        "Liqian Yan"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05167",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "ConWriter: Transition-Constrained Stateful Long-Form Story Generation with Lightweight Neuro-Symbolic Consistency Control",
+      "summary": "arXiv:2608.05169v1 Announce Type: new Abstract: Long-form story generation requires models to preserve narrative consistency across extended contexts, yet existing prompting-based methods often accumulate temporal, factual, character, commonsense, and stylistic errors as the story grows. We propose …",
+      "authors": [
+        "Jindong Li",
+        "Yang Yang",
+        "Zihao Liu",
+        "Yutao Yue",
+        "Menglin Yang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05169",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "DREAM: LLM-based Dynamic Role-playing via Event-Aware Memory Graph",
+      "summary": "arXiv:2608.05170v1 Announce Type: new Abstract: Role-playing agents (RPAs) have emerged as a key application of large language models, enabling immersive and high-fidelity character simulation. Accurate role-playing of established characters requires not only stylistic imitation but also temporally …",
+      "authors": [
+        "Zhihao Xiao",
+        "Mengting Li",
+        "Xintao Wang",
+        "Linfeng Li",
+        "Limin Shui"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05170",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Position: It's Time to Optimize LLMs for Self-Consistency",
+      "summary": "arXiv:2608.05188v1 Announce Type: new Abstract: Despite ever-increasing sophistication in language model (LM) pre- and post-training pipelines, many important failures persist: models overcondition on user framing (\"sycophancy\"), exhibit incomplete logical generalization, and produce confident but i…",
+      "authors": [
+        "Itamar Pres",
+        "Belinda Z. Li",
+        "Laura Ruis",
+        "Zifan Carl Guo",
+        "Keya Hu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05188",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Analysis of Numerical Localisation in LLM Translations",
+      "summary": "arXiv:2608.05232v1 Announce Type: new Abstract: The work of Tang et. al. (2025) on numerical translation is extended by analysing the capability of five large language models (LLMs) for the localisation of times, numbers, and dates instead of translation. Models were selected that could be loaded on…",
+      "authors": [
+        "Patrizia Kaye"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05232",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Constraint-First Reasoning: A Training-Free Protocol for Exploiting Answer-Space Constraints in Mathematical Problem Solving",
+      "summary": "arXiv:2608.05254v1 Announce Type: new Abstract: Large language models can derive a plausible mathematical object yet still violate explicit requirements--for example, by omitting a modular reduction, returning a non-integer, or using the wrong encoded answer form. We introduce Constraint-First Reaso…",
+      "authors": [
+        "Hongbo Ma",
+        "Bangji Yang",
+        "Yunqian Selina Cheng",
+        "Jiajun Fan",
+        "Hanwen Zhang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05254",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Evidence Lock Before Commitment: A Frozen Interface Degrades LLM-as-Judge Evaluation",
+      "summary": "arXiv:2608.05353v1 Announce Type: new Abstract: LLM judges are often asked to extract criteria and evidence before choosing between candidate answers. This workflow assumes that the intermediate record preserves the information needed for a later verdict. For reasoning-capable models, visible field …",
+      "authors": [
+        "Divyansh Singh"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05353",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "The interface of intonation and lexical tone: Boundary phenomena in Mandarin varieties",
+      "summary": "arXiv:2608.05364v1 Announce Type: new Abstract: This chapter explores the intricate interplay between intonation and tone in Mandarin Chinese varieties, focusing on f0, the primary acoustic cue for both intonation and tone. The main empirical base is intonation boundary phenomena, where intonation a…",
+      "authors": [
+        "Cong Zhang",
+        "Yiya Chen"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05364",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Mood Matters: How Syntactic Sensitivity Undermines Safety Alignment",
+      "summary": "arXiv:2608.05409v1 Announce Type: new Abstract: Large language models typically undergo post-training to align them with safety policies but there exist many sophisticated jailbreaks that sidestep established safeguards. For instance, prior work by Andriushchenko et al. (2025) has found that changin…",
+      "authors": [
+        "Alina Klerings",
+        "Jannik Brinkmann",
+        "Heiner Stuckenschmidt",
+        "Simone Paolo Ponzetto"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05409",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Example-Guided Prompting for Document-Level Text Simplification",
+      "summary": "arXiv:2608.05447v1 Announce Type: new Abstract: Document-level text simplification requires large language models (LLMs) to rewrite complex documents while preserving meaning, readability, and discourse coherence. Although prompt-based LLMs have shown promising performance, they often produce incons…",
+      "authors": [
+        "Marina Litvak",
+        "Ariel Perstin",
+        "Ilan Shtilman",
+        "Michael F\\\"arber"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05447",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "DBLAST: Dependent Block Drafting for Stochastic Speculative Decoding",
+      "summary": "arXiv:2608.05448v1 Announce Type: new Abstract: Speculative decoding accelerates large language models' inference by using a lightweight drafter to propose multiple future tokens and a target model to verify them. While recent block and diffusion-style drafters can predict several positions in a sin…",
+      "authors": [
+        "Amirmohammad Karimi",
+        "Chao Gao",
+        "Negar Hassanpour"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05448",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Different Perturbations, Different Mechanisms: Understanding Continued Pre-training for Zero-Shot Dialect Robustness",
+      "summary": "arXiv:2608.05510v1 Announce Type: new Abstract: Dialectal variation remains a major challenge for multilingual language models. Perturbation-based continued pre-training (CPT) has emerged as a promising approach to improving robustness, yet existing work largely evaluates individual perturbation str…",
+      "authors": [
+        "Aarohi Srivastava",
+        "David Chiang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05510",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Where Models Converge and Humans Diverge: A Coverage Framework for Distributional Pluralism in Open-Ended Generation",
+      "summary": "arXiv:2608.05576v1 Announce Type: new Abstract: When a large language model (LLM) writes Harry Potter fanfiction, it reliably produces fundamental elements of the Hogwarts universe, such as recognizable places and characters. Human-written Harry Potter fanfictions, however, typically include these f…",
+      "authors": [
+        "Zini Yang",
+        "Emily Wenger",
+        "Richard So"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05576",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "SkillZip: Contract-Preserving Graph Compression for Scalable Agent Skill Libraries",
+      "summary": "arXiv:2608.05604v1 Announce Type: new Abstract: Large Language Models (LLMs) increasingly act as agents whose procedural knowledge is stored in reusable skill packages and loaded at inference time. As skill libraries grow, a central challenge is to expose the smallest sufficient executable context u…",
+      "authors": [
+        "Xingyu Tan",
+        "Xiaoyang Wang",
+        "Qing Liu",
+        "Xiwei Xu",
+        "Xin Yuan"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05604",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "FOCUS: Decoupling Expert Personas in LLMs to Enhance Domain Expert Capabilities",
+      "summary": "arXiv:2608.05611v1 Announce Type: new Abstract: Large Language Models (LLMs) can exhibit diverse personas, and activating expert personas has been shown to improve domain expertise and task accuracy. However, existing persona control methods often suffer from cross-domain coupling, which may lead to…",
+      "authors": [
+        "Guanyu Wang",
+        "Zidi Zhang",
+        "Xu Chu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05611",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Human-Like Anaphor Resolution in Large Language Models",
+      "summary": "arXiv:2608.05630v1 Announce Type: new Abstract: Anaphors are expressions that refer to other expressions, called antecedents. The process of connecting the two is called resolution. Cognitive science has identified multiple factors that affect the speed and success of anaphor resolution, including d…",
+      "authors": [
+        "Keane Zhang",
+        "Varshini Chinta",
+        "Raj Sanjay Shah",
+        "Sashank Varma"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05630",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Relay, Don't Route: Adaptive Population Handoff for Cost-Efficient LLM-Driven Evolution",
+      "summary": "arXiv:2608.05651v1 Announce Type: new Abstract: Large language model (LLM)-driven evolution has shown promise for program search and algorithm discovery, but relying on strong models throughout long evolutionary runs is costly. A natural alternative is to combine cheap and strong models under a fixe…",
+      "authors": [
+        "Sichun Luo",
+        "Yi Huang",
+        "Guanzhi Deng",
+        "Haibo Wang",
+        "Haochen Luo"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05651",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Answer First, Reason Later: Commitment Order in Diffusion LLMs",
+      "summary": "arXiv:2608.05687v1 Announce Type: new Abstract: Masked diffusion language models (dLLMs) can commit tokens in any order -- a freedom marketed as their core advantage over autoregressive decoding. We show that on reasoning tasks this freedom is instead the axis of failure. Logging every commitment du…",
+      "authors": [
+        "Jewon Yeom",
+        "Jaewon Sok",
+        "Seonghyeon Park",
+        "Jeongjae Park",
+        "Hwiyeong Lee"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05687",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Sparse Mutual Information Graph Averaging for Improving Random Indexing Embeddings",
+      "summary": "arXiv:2608.05724v1 Announce Type: new Abstract: Sparse word embedding pipelines can avoid dense co-occurrence matrix materialization, dense factorization, and gradient training while still relying on sparse global corpus statistics. This paper studies Random Indexing (RI) vectors refined by weighted…",
+      "authors": [
+        "Sriram Loganathan",
+        "Gokul Anand",
+        "Aung Bo Bo",
+        "Yourui Shao",
+        "William B. Andreopoulos"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05724",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Mitigating Scoring Bias in LLM-as-a-Judge via Random Number Generation",
+      "summary": "arXiv:2608.05726v1 Announce Type: new Abstract: Large Language Models (LLMs) are often used as evaluators of text quality, known as LLM-as-a-Judge, which can outperform conventional automatic evaluation metrics that rely on reference texts. However, LLM evaluators tend to generate particular scores …",
+      "authors": [
+        "Yuma Asato",
+        "Kiyoaki Shirai",
+        "Natthawut Kertkeidkachorn"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05726",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Once a Response, Always a Response: Detecting LLM-generated Text via Latent Prompt Restoration",
+      "summary": "arXiv:2608.05741v1 Announce Type: new Abstract: Large language models (LLMs) can generate fluent and convincing text at scale, creating growing risks for misinformation dissemination, educational misuse, and platform governance. These concerns make robust detection of machine-generated text increasi…",
+      "authors": [
+        "Hongrui Bao",
+        "Yubing Ren",
+        "Yanan Cao",
+        "Jinhan You",
+        "Fang Fang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05741",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "How to Recognize New Words: A Comparison Between Context Biasing Methods and Speech LLMs",
+      "summary": "arXiv:2608.05759v1 Announce Type: new Abstract: Recognizing new and rare words - named entities, acronyms, domain specific special words, and other items scarce in training data - remains a key challenge for automatic speech recognition (ASR). We compare two strategies for this: context biasing meth…",
+      "authors": [
+        "Christian Huber",
+        "Alexander Waibel"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05759",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Task-Conditional Flow Matching for Balanced Multilingual Text Embedding Adaptation",
+      "summary": "arXiv:2608.05785v1 Announce Type: new Abstract: Multilingual text embedding models are commonly adapted using a single training objective across diverse tasks, despite different tasks requiring fundamentally different optimization strategies. We introduce Task-Conditional Flow Matching (TCFM), a mul…",
+      "authors": [
+        "Tirth Bhatt",
+        "Naren Kumar S",
+        "Mayank Singh"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05785",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "On-Policy Delta Distillation for Multilingual Math Reasoning",
+      "summary": "arXiv:2608.05802v1 Announce Type: new Abstract: On-Policy Distillation (OPD) is emerging as a promising alternative to reinforcement learning for LLM post-training, yet its effectiveness in multilingual settings remains underexplored. We study OPD and its advanced variant, On-Policy Delta Distillati…",
+      "authors": [
+        "Byeongho Heo",
+        "Jaehui Hwang",
+        "Sangdoo Yun",
+        "Dongyoon Han"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05802",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Hierarchical Latent Prediction for Language Models",
+      "summary": "arXiv:2608.05806v1 Announce Type: new Abstract: While standard Next-Token Prediction (NTP) lays the foundation of language model pre- training, its teacher-forced training paradigm may not be optimal for long-horizon reasoning and planning. Recent works such as Multi-Token Prediction (MTP) and Next-…",
+      "authors": [
+        "Chang Shi",
+        "Tim Pearce",
+        "Manan Tomar",
+        "Siddhartha Sen",
+        "John Langford"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05806",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "M$^3$R-Bench: A Unified Benchmark for Evidence-Grounded Multimodal Metaphor Understanding",
+      "summary": "arXiv:2608.05817v1 Announce Type: new Abstract: Metaphor enables the understanding of abstract concepts through cross-domain mappings while conveying affective attitudes. In multimodal scenarios, visual and textual information jointly construct Target--Source mappings, requiring both conceptual unde…",
+      "authors": [
+        "Hong Jiang",
+        "Junnan Zhu",
+        "Jingwang Huang",
+        "Xiao Sun",
+        "Yuming Yang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05817",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Decomposed Entailment for Factuality Checking and Hallucination Detection",
+      "summary": "arXiv:2608.05823v1 Announce Type: new Abstract: The reliability of Large Language Models (LLMs) is often compromised by factual inconsistencies, including hallucinations---cases where generated content is not supported by the underlying source. We present HallDetect, a lightweight, reference-free, a…",
+      "authors": [
+        "Achir Oukelmoun",
+        "Nasredine Semmar",
+        "Ga\\\"el De Chalendar"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05823",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "MoCA: Implicit Social Context Analysis",
+      "summary": "arXiv:2608.05825v1 Announce Type: new Abstract: Human social communication, such as affection and intent, is often conveyed in highly implicit ways, where underlying meanings are expressed through indirect, socially and culturally grounded signals rather than explicit statements. Such implicit socia…",
+      "authors": [
+        "Wenhao Xu",
+        "Kaiwen Zhang",
+        "Hao Li",
+        "Maowei You",
+        "Yongzheng Ji"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05825",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Enhancing Social Intelligence in LLMs with Hierarchical Reasoning and Utterance-Level Goal Rewarding",
+      "summary": "arXiv:2608.05832v1 Announce Type: new Abstract: Large language models (LLMs) excel in structured tasks but struggle with dynamic social interactions, where success requires long-term goal coordination and rapid adaptation. Current methods often apply uniform goal-based rewards to every utterance, ov…",
+      "authors": [
+        "Xiaofeng Wang",
+        "Kakam Chong",
+        "Shuai Xiao",
+        "DeXin Kong",
+        "Qingyuan Tian"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05832",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "MameLoshnLM: Yiddish Language Model and Evaluation Benchmark",
+      "summary": "arXiv:2608.05850v1 Announce Type: new Abstract: We present MameLoshnLM, the first open-source 8B-parameter language model built specifically for Yiddish. Despite Yiddish's rich textual tradition, its limited digital presence and the scarcity of reliable evaluation resources have constrained progress…",
+      "authors": [
+        "Uri Katz",
+        "Omer Goldman",
+        "Tomasz Limisiewicz",
+        "Reut Tsarfaty",
+        "Noah A. Smith"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05850",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Mapping Similarity Spaces across Embedding Models with Synthetic Query Probing",
+      "summary": "arXiv:2608.05857v1 Announce Type: new Abstract: Retrieval-Augmented Generation systems rely on similarity scores to retrieve relevant content, yet scores are not directly comparable across embedding models due to differing geometric properties, complicating model migration and limiting threshold reu…",
+      "authors": [
+        "Marcin Rozmus",
+        "Peter van der Putten"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05857",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "MACRO: Markov Chain Routing of Transformer Layers",
+      "summary": "arXiv:2608.05872v1 Announce Type: new Abstract: Standard Large Language Models (LLMs) execute layers sequentially. Dynamic layer routing, i.e. search for a different execution path through layers involving layer repetitions, skips and other moves, can improve performance. Existing routing approaches…",
+      "authors": [
+        "Pawe{\\l} Batorski",
+        "Abtin Pourhadi",
+        "Akylgali Aitaza",
+        "Przemys{\\l}aw Spurek",
+        "Paul Swoboda"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05872",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Causal Episodic Memory for Feedback-Driven Agent Repair",
+      "summary": "arXiv:2608.05906v1 Announce Type: new Abstract: LLM agents that repair failures often discard successful corrections, forcing later episodes to rediscover similar solutions. We study whether finalized repair outcomes can improve subsequent Text-to-SQL episodes without parameter updates. We introduce…",
+      "authors": [
+        "Khang Nhat Hoang Vo",
+        "Tam Minh Chu",
+        "Anh Trac Duc Dinh",
+        "Thuyen Vinh Ha Bui",
+        "Tho Quan"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05906",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Clinical Communication Processing with Models Trained on LLM-Generated Synthetic Data: A Structured Survey and Novel Application Case Studies",
+      "summary": "arXiv:2608.05993v1 Announce Type: new Abstract: Much clinical value is conveyed not through structured records but through communication: exchanges in which patients describe symptoms, clinicians reason and give instructions, ambulances hand over to emergency departments, and nurses pass on a shift.…",
+      "authors": [
+        "Alexander Apartsin",
+        "Yehudit Aperstein"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05993",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "EpiBench: Can LLMs Understand Epitopes for Antibody Drug Discovery?",
+      "summary": "arXiv:2608.06022v1 Announce Type: new Abstract: Epitopes determine where antibodies bind antigens and shape downstream therapeutic properties such as functional blockade and escape resistance, making epitope understanding central to antibody drug discovery. Although large language models (LLMs) have…",
+      "authors": [
+        "Zirui Wang",
+        "Jiaqi Wang",
+        "Qinghan Wang",
+        "Yuzhi Xu",
+        "Gang Du"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06022",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "FormBharo: Designing and Evaluating a Voice Agent for Conversational Form Filling in Rural India",
+      "summary": "arXiv:2608.06027v1 Announce Type: new Abstract: In India, almost every social benefit starts with a form, yet the people who need these benefits most are often unable to read or write. Reaching them requires a spoken conversation. Today that work falls to frontline health workers who enroll benefici…",
+      "authors": [
+        "Aman Dalmia",
+        "Sanskriti Midha",
+        "Jigar Doshi"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06027",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Training-Free Token-Level Steering for LLM Personalized Co-Writing",
+      "summary": "arXiv:2608.06069v1 Announce Type: new Abstract: While Large Language Models (LLMs) show great promise for personalization, they often lack specialized domain knowledge. Conventional solutions like fine-tuning struggle with high computational costs and rapid data updates, while Retrieval-Augmented Ge…",
+      "authors": [
+        "Wenhao Mao",
+        "Chengbin Hou",
+        "Weixiao Wang",
+        "Jialiang Zhu",
+        "Min Liu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06069",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Beyond Sequence Order: Syntax-Informed Positional Embeddings for Transformers",
+      "summary": "arXiv:2608.06111v1 Announce Type: new Abstract: Positional embeddings (PE) in Transformers encode token distance and order but are largely agnostic to \\textit{syntactic structure}. We introduce \\textbf{S}yntax-\\textbf{i}nformed \\textbf{P}ositional \\textbf{E}mbeddings (\\textbf{SiPE}), which learns a …",
+      "authors": [
+        "Haris Riaz",
+        "Hyungji Kim",
+        "Mihai Surdeanu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06111",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Decolonizing Linguistic Policies in Automated Speech Recognition: A Framework for Cross-Culturally Competent Speech AI",
+      "summary": "arXiv:2608.06141v1 Announce Type: new Abstract: This paper focuses on automatic speech recognition (ASR) and ASR-mediated voice interfaces that shape access to public services, healthcare, and education. We argue that persistent failures for low-resource, Indigenous, and non-standard language variet…",
+      "authors": [
+        "Jay L. Cunningham",
+        "Mark Atta Mensah",
+        "Richard Martinez",
+        "Joao Vieira da Silva Neto",
+        "Efi Dawodu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06141",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Routing Is Least Learnable Where It Is Most Valuable: Bounds on Representation Routing for Web Agents",
+      "summary": "arXiv:2608.06171v1 Announce Type: new Abstract: Web agents observe a browser through text, pixels, or both, and the choice is usually fixed once for all tasks. We measure six observation modes across eight site-model combinations (cells) on VisualWebArena and WebArena and ask what choosing per task …",
+      "authors": [
+        "Jiaming Wei",
+        "Zekun Wu",
+        "Adriano Koshiyama",
+        "Maria Perez-Ortiz"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06171",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "NeSy-RAG: Neuro-Symbolic RAG for Explainable Question Answering",
+      "summary": "arXiv:2608.06292v1 Announce Type: new Abstract: Retrieval-augmented generation (RAG) improves question answering by grounding large language models (LLMs) in external knowledge such as text corpora. However, its reasoning process remains largely opaque: intermediate reasoning steps are difficult to …",
+      "authors": [
+        "Jonas Gann",
+        "Michael Gertz"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06292",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents",
+      "summary": "arXiv:2608.06312v1 Announce Type: new Abstract: Large language models (LLMs) increasingly support complex professional tasks, yet their capabilities in rule-intensive document review remain insufficiently evaluated. National standard documents, such as China GB/T standards, offer a representative te…",
+      "authors": [
+        "Tao Wang",
+        "Qihao Yang",
+        "Rongjiao Liang",
+        "Lianghong Lin",
+        "Haitao Wang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06312",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents",
+      "summary": "arXiv:2608.06329v1 Announce Type: new Abstract: Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. Poor benchmarks may contain inconsistent tasks, simplistic scenarios, or limited policy coverage, leading t…",
+      "authors": [
+        "Noam Koren",
+        "Roy Bar-Haim",
+        "Abigail Goldsteen"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06329",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "RP-OPSD: Reasoning-Pivot-Guided On-Policy Self-Distillation for Multilingual Reasoning Transfer",
+      "summary": "arXiv:2608.06347v1 Announce Type: new Abstract: Multilingual reasoning transfer is crucial for extending reasoning capabilities of large language models (LLMs) beyond high-resource languages. On-policy self-distillation (OPSD) and its variants have emerged as a promising paradigm, providing dense to…",
+      "authors": [
+        "Xinye Wang",
+        "Junxiao Liu",
+        "Shujian Huang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06347",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "The Bitter Lesson of Tool Calling",
+      "summary": "arXiv:2608.06370v1 Announce Type: new Abstract: Tool use transforms LLMs into agents that act beyond their training data, and for code-capable models, programmatic tool calling extends this further by replacing rigid JSON calls with scripts that chain and parallelize naturally. However, a systematic…",
+      "authors": [
+        "Ishan Patel",
+        "Sahil Sen",
+        "Elias Lumer",
+        "Vamse Kumar Subbiah"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06370",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Learning When to Trust via Selective Context Preference Optimization",
+      "summary": "arXiv:2608.06377v1 Announce Type: new Abstract: Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context lo…",
+      "authors": [
+        "Xian Sun",
+        "Wei Chow",
+        "Yingshuo Wang",
+        "Junhao Liu",
+        "Wei Gao"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06377",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "A Study of LLMs' Preferences for Libraries and Programming Languages",
+      "summary": "arXiv:2503.17181v4 Announce Type: cross Abstract: Despite the rapid progress of large language models (LLMs) in code generation, existing evaluations focus on functional correctness or syntactic validity, overlooking how LLMs make critical design choices such as which library or programming language…",
+      "authors": [
+        "Lukas Twist",
+        "Mark Harman",
+        "Don Syme",
+        "Joost Noppen",
+        "Helen Yannakoudakis"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2503.17181",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+      "summary": "arXiv:2608.05159v1 Announce Type: cross Abstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources …",
+      "authors": [
+        "Xi Wang",
+        "Kun Li",
+        "Xianyao Ling",
+        "Gang Yin",
+        "Liang Zhang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05159",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
+      "summary": "arXiv:2608.05160v1 Announce Type: cross Abstract: We introduce the Ignition Index (I), a validated scalar metric that operationalizes Global Workspace Theory's (GWT) all-or-none ignition prediction in transformer language models. The metric fits a four-parameter sigmoid to per-layer linear probe acc…",
+      "authors": [
+        "Saman Rahbar"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05160",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
+      "summary": "arXiv:2608.05168v1 Announce Type: cross Abstract: Large language models often fail on reasoning tasks despite possessing the capability to solve them. We argue that many such failures arise from localized reasoning bugs in intermediate steps rather than from global incompetence. We show that these b…",
+      "authors": [
+        "Dayu Wang",
+        "Jiaye Yang",
+        "Weikang Li",
+        "Jiahui Liang",
+        "Yang Li"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05168",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "TriQua: Reconciling Granularity and Context in Factuality Evaluation",
+      "summary": "arXiv:2608.05228v1 Announce Type: cross Abstract: The \"decompose-then-verify\" paradigm for LLM factuality evaluation faces a fundamental trade-off: atomic facts, i.e., one sentence conveying one unit of information, often omit essential context, while broader statements lack the granularity needed f…",
+      "authors": [
+        "Jin Liu",
+        "Steffen Thoma",
+        "Achim Rettinger"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05228",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "EdgeXpert: An Edge Device for Memory-Efficient LLM Inference with Mixture-of-Experts and Speculative Decoding",
+      "summary": "arXiv:2608.05303v1 Announce Type: cross Abstract: On-device deployment of Large Language Models (LLMs) has become essential for personalized edge applications. A primary bottleneck is external memory access (EMA) in feed-forward network (FFN) layers. Speculative decoding and mixture-of-experts (MoE)…",
+      "authors": [
+        "Sangwoo Ha",
+        "Hyunwoo Seo",
+        "Yurim Jo",
+        "Youngjin Moon",
+        "Hoi-Jun Yoo"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05303",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "QEvict: Recoverable Quantized KV Eviction for Attention-Drift-Robust Long-Context Decoding",
+      "summary": "arXiv:2608.05326v1 Announce Type: cross Abstract: Autoregressive large language model inference is increasingly constrained by the memory footprint of the Key-Value (KV) cache. A dominant line of work reduces this footprint by evicting tokens that appear unimportant under attention-derived scores. H…",
+      "authors": [
+        "Ayushman Garg",
+        "Akshita Gupta",
+        "Shaswata Bhattacharya",
+        "Abhishek Gupta",
+        "Sandeep Kumar"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05326",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents",
+      "summary": "arXiv:2608.05446v1 Announce Type: cross Abstract: Long-horizon LLM agents increasingly rely on external execution support to maintain state, track progress, invoke tools, verify outcomes, and reuse experience across interactions. However, effective harness use raises two coupled challenges: state fo…",
+      "authors": [
+        "Xuying Ning",
+        "Dongqi Fu",
+        "Tianxin Wei",
+        "Hanqing Zeng",
+        "Yuanchen Bei"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05446",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "GenGA: Editable and Data-Grounded Graphical Abstract Generation for Academic Papers",
+      "summary": "arXiv:2608.05478v1 Announce Type: cross Abstract: Graphical Abstracts (GAs) visually summarize the key findings of academic papers, playing a crucial role in facilitating the understanding of research content. Recently, advancements in vision-language models and image generation models have enabled …",
+      "authors": [
+        "Takuro Kawada",
+        "Shunsuke Kitada",
+        "Hitoshi Iyatomi"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05478",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Learning Context-Free Grammars for Grammar-Constrained Decoding via Declarative Agentic Programming with Guarantees",
+      "summary": "arXiv:2608.05493v1 Announce Type: cross Abstract: Language models (LMs) are increasingly used to interact with external services via programs written in domain-specific languages (DSLs). Unfortunately, since DSLs are often low-resource and esoteric, LMs frequently produce syntactically invalid progr…",
+      "authors": [
+        "Kevin Cheang",
+        "Geoff Hulette",
+        "Rahul Kumar",
+        "Felipe R. Monteiro",
+        "Federico Mora"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05493",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "EcoAgent-Bench: Evaluating Economic Decision-Making in Budget-Constrained LLM Agents",
+      "summary": "arXiv:2608.05519v1 Announce Type: cross Abstract: Agent benchmarks usually measure task completion and treat resource use as an auxiliary statistic. In deployment, however, the choice among a local lookup, broad search, composite research tool, stronger model, or human escalation is part of the task…",
+      "authors": [
+        "Jie Wu",
+        "Ming Gong",
+        "Feixiang Cheng",
+        "Qinqin Zhao"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05519",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "From Sports to Safety: Benchmarking Proactive Risk Inference in MLLMs",
+      "summary": "arXiv:2608.05560v1 Announce Type: cross Abstract: Timely anticipation of physical hazards is essential for real-world safety, yet existing MLLM evaluations focus on harmful content or general risks, leaving proactive physical hazard prediction underexplored. Sports provide a well-suited testbed: acc…",
+      "authors": [
+        "Jiawei Qiu",
+        "Yichen Xu",
+        "Jianzhe Ma",
+        "Mingyang Yu",
+        "Wenbin Zhu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05560",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Measuring and Detecting Harmful AI Sycophancy",
+      "summary": "arXiv:2608.05624v1 Announce Type: cross Abstract: Sycophantic responses are becoming pervasive in large language models (LLMs), and prior work has pointed out that some of them could be harmful. This paper focuses on one harmful sycophancy: preference-induced stance reversal sycophancy (PSRS), where…",
+      "authors": [
+        "Bohan Jiang",
+        "Dawei Li",
+        "Yasin Silva",
+        "Huan Liu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05624",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Refining Over Resampling: Test-Time Self-Correction for LLM Reasoning",
+      "summary": "arXiv:2608.05643v1 Announce Type: cross Abstract: Test-time scaling improves LLM reasoning by using additional inference compute, but wider sampling alone can suffer from diminishing returns: new rollouts often repeat existing answer patterns instead of adding useful reasoning diversity. Verifier-ba…",
+      "authors": [
+        "Ahsan Bilal",
+        "Muhammad Ahmed Mohsin",
+        "Muhammad Umer",
+        "Lena Trigg",
+        "Ali Subhan"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05643",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Reasoning Errors Have a Region and a Direction in the Residual-Stream Trajectory of LLMs",
+      "summary": "arXiv:2608.05660v1 Announce Type: cross Abstract: As language models are increasingly used for tasks that require verifiable reasoning, reliably distinguishing sound reasoning from flawed reasoning has become an important practical problem. Recent trajectory-based methods seek this signal in layerwi…",
+      "authors": [
+        "Hamed Damirchi",
+        "Ignacio Meza De la Jara",
+        "Damith Ranasinghe",
+        "Yuhang Liu",
+        "Javen Shi"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05660",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model",
+      "summary": "arXiv:2608.05695v1 Announce Type: cross Abstract: As large language model (LLM) agents increasingly invoke external tools and interact with real-world systems, unsafe actions may cause irreversible consequences on external states, user data, and downstream services. Recent runtime guardrails mitigat…",
+      "authors": [
+        "Wenhao Lin",
+        "Chenyu Yu",
+        "Xingwei Lin",
+        "Sicong Cao",
+        "Xiang Chen"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05695",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Unified Agent: Managing Interactions across Devices",
+      "summary": "arXiv:2608.05729v1 Announce Type: cross Abstract: As capabilities rapidly increase, AI agents can move from running inside one app to acting across a user's devices over time. Yet existing agent systems still fall short in this scenario. This is because observations are scattered across devices and …",
+      "authors": [
+        "Xinshuang Liu",
+        "Runfa Blark Li",
+        "Shaoxiu Wei",
+        "Xin Lin",
+        "Truong Nguyen"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05729",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "GROM: Gradient-Free Rapid One-Shot Machine Unlearning",
+      "summary": "arXiv:2608.05783v1 Announce Type: cross Abstract: Machine unlearning has become a critical capability for safely removing specific, sensitive knowledge from large language models (LLMs). Current state-of-the-art approaches primarily rely on iterative, training-time unlearning via fine-tuning. Howeve…",
+      "authors": [
+        "Pawe{\\l} Batorski",
+        "Przemys{\\l}aw Spurek",
+        "Paul Swoboda"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05783",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Predicting Task Difficulty Without Rollouts",
+      "summary": "arXiv:2608.05797v1 Announce Type: cross Abstract: Task difficulty dictates an agent's likelihood of success, and estimating it without rollouts means forecasting this directly from a task description before executing costly simulations in stateful environments. Reliable estimates would therefore all…",
+      "authors": [
+        "Stefan Krsteski",
+        "Charlotte Meyer"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05797",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "When Self-Evolution Backfires: Pre-Commit Gating against Skill Contamination in LLM Agents",
+      "summary": "arXiv:2608.05810v1 Announce Type: cross Abstract: Self-evolving agents accumulate capability by distilling reusable skills from their execution trajectories, but we find this process is not monotonic: past a critical pool size, newly added skills degrade performance instead of improving it. We forma…",
+      "authors": [
+        "Linfang Shang",
+        "Ming Xu",
+        "Yiding Sun",
+        "Tianle Xia",
+        "Lingxiang Hu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05810",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Personalized Deep Research Query Refinement with Graph-Scaffolded Evidence Grounding",
+      "summary": "arXiv:2608.05876v1 Announce Type: cross Abstract: User requests serve as research specifications for deep research agents, shaping what evidence to seek and how to synthesize it. In personalized deep research, these specifications must additionally reflect user goals, constraints, preferences, and e…",
+      "authors": [
+        "Soojin Yoon",
+        "Dongha Lee"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05876",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "The Vulnerability With No CVE: Managing Persistent Gaps Between Mandate and Authority in AI Coding Agents",
+      "summary": "arXiv:2608.05884v1 Announce Type: cross Abstract: Existing guidance identifies excessive agency, excessive permission, weak task-bound authorization, and inadequate agent controls as important risks. Control frameworks also describe capabilities for constraining, authorizing, observing, validating, …",
+      "authors": [
+        "Shayell Aharon Salomon Amir Shaked Matan Noga"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05884",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "The em-dash em-beds in Congress: A population-level rise in em-dash frequency in U.S. congressional press releases at the dawn of the large-language-model era, 2021-2025",
+      "summary": "arXiv:2608.05889v1 Announce Type: cross Abstract: Large language models (LLMs) can leave small stylistic traces in text written with their help. The most discussed is the em-dash (U+2014), especially the unspaced form word---word, which is normal in typeset English prose but unusual in U.S. press wr…",
+      "authors": [
+        "Przemys{\\l}aw Czuma (Polish Association for Artificial Intelligence in Medicine)"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05889",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "AppDeltaWorld: Transition-Grounded Delta Code World Model for Mobile GUI Agents",
+      "summary": "arXiv:2608.05891v1 Announce Type: cross Abstract: Mobile GUI agents can operate apps through pixel perception and touch actions, making them a promising interface for collecting and improving long-horizon mobile interaction policies. However, real trajectories are difficult to obtain for sensitive a…",
+      "authors": [
+        "Weikai Xu",
+        "Yunren Feng",
+        "Haoxiang Lei",
+        "Kun Huang",
+        "Yuxuan Liu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.05891",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs",
+      "summary": "arXiv:2608.06041v1 Announce Type: cross Abstract: Large language models (LLMs) have been shown to exhibit strong Python preferences when generating project-level code, but there is currently no systematic way to measure this behaviour across new models. To bridge this gap, we introduce LangChoiceBen…",
+      "authors": [
+        "Lukas Twist",
+        "Twm Stone",
+        "Helen Yannakoudakis",
+        "Jie M. Zhang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06041",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "ECHO: A Locally-Deployable Agentic Health Assistant with Temporal Memory, Safety Guardrails, and Speech Assessment",
+      "summary": "arXiv:2608.06110v1 Announce Type: cross Abstract: This paper presents ECHO (Enhanced Care \\& Health Observer), a locally-deployable conversational health assistant for long-term chronic care management. ECHO integrates three complementary software modules developed under shared supervision as a unif…",
+      "authors": [
+        "Abdulkadir K\\\"ul\\c{c}e",
+        "Alihan Esen",
+        "Ca\\u{g}la Fikir",
+        "Berke Kurt",
+        "Kuzey Arar"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06110",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-Layered Architecture for Hospital AI Systems",
+      "summary": "arXiv:2608.06112v1 Announce Type: cross Abstract: Hospitals are rapidly adopting artificial intelligence for triage, imaging, scheduling etc., yet most deployments remain isolated point solutions locked inside departmental silos, resulting in duplicated effort, hidden risks, and unrealized enterpris…",
+      "authors": [
+        "Manideep Dhar",
+        "Ritwik Singh",
+        "Sharat Chandra Kumar Manikonda"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06112",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts",
+      "summary": "arXiv:2608.06123v1 Announce Type: cross Abstract: Measuring political bias in large language models (LLMs) remains challenging as it can manifest through subtle differences in framing, argumentation, and legal reasoning that are difficult to capture with a single metric. In this work, we introduce P…",
+      "authors": [
+        "Massi-Nissa Abboud",
+        "Aladin Djuhera",
+        "Elena Cabrio",
+        "Holger Boche"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06123",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Schema-Guided Hierarchical Information Extraction and Semantic Evaluation Using Generative AI",
+      "summary": "arXiv:2608.06167v1 Announce Type: cross Abstract: We present a schema-based framework for extracting complex, structured information from unstructured text documents using generative AI, followed by automated semantic evaluation of the extracted information against a gold standard. The schema, servi…",
+      "authors": [
+        "Modhurita Mitra",
+        "Jan-Willem Versteeg",
+        "Maarten D. Schermer",
+        "Shiva Nadi Najafabadi",
+        "Marie L. De Bruin"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06167",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+      "summary": "arXiv:2608.06301v1 Announce Type: cross Abstract: As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding them. This makes automated harness…",
+      "authors": [
+        "Varun Ursekar",
+        "Apaar Shanker",
+        "Yash Maurya",
+        "Shehab Yasser",
+        "Vijay S. Kalmath"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06301",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations",
+      "summary": "arXiv:2608.06305v1 Announce Type: cross Abstract: Retrieval-augmented generation over long documents is dominated by one design: chunk the text, embed the chunks, and surface the top-k nearest neighbours of the query. We argue that for an important class of documents -- financial statements, audit r…",
+      "authors": [
+        "Sagar Tamang",
+        "Ayush Vyas",
+        "Tabarakul Hazarika"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06305",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "RRC: Unlocking Generative Reward Models in LLM Reinforcement Learning via Ranking-Based Reward Construction",
+      "summary": "arXiv:2608.06310v1 Announce Type: cross Abstract: Recent advances in reward modeling show a paradigm shift from discriminative reward models to generative reward models. However, despite their strong capabilities in response ranking, generative reward models have not realized their potential in rein…",
+      "authors": [
+        "Chenglong Wang",
+        "Ziming Zhu",
+        "Yifu Huo",
+        "Bei Li",
+        "Qiaozhi He"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06310",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "CalibForge: Adversarial Solver Calibration for Scaling Learnable Terminal Tasks",
+      "summary": "arXiv:2608.06352v1 Announce Type: cross Abstract: Training terminal agents requires executable and verifiable tasks that are not merely solvable, but appropriately challenging for learning. Executable validation establishes feasibility, yet does not reveal how a task behaves relative to a given solv…",
+      "authors": [
+        "Fanzhe Meng",
+        "Guoxin Chen",
+        "Jiale Zhao",
+        "Shuang Sun",
+        "Zhiyu Lin"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06352",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+      "summary": "arXiv:2608.06362v1 Announce Type: cross Abstract: Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the r…",
+      "authors": [
+        "Boning Li",
+        "Yu Chen",
+        "Longbo Huang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.06362",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Integrating Human Linguistic Insights into AI: Theory-Driven Representation for Multilingual Text-to-Speech",
+      "summary": "arXiv:2204.07228v2 Announce Type: replace Abstract: This paper explores the integration of human linguistic insights into multilingual text-to-speech (TTS) systems by evaluating the Featurally Underspecified Lexicon (FUL) as a theory-driven input representation. Unlike data-intensive end-to-end mode…",
+      "authors": [
+        "Cong Zhang",
+        "Huinan Zeng",
+        "Huang Liu",
+        "Jiewen Zheng"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2204.07228",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Text Generation: A Systematic Literature Review of Tasks, Evaluation, and Challenges",
+      "summary": "arXiv:2405.15604v4 Announce Type: replace Abstract: Text generation has become more accessible than ever, and the growing interest in these systems, especially those using large language models, has spurred a surge in related publications. We provide a systematic literature review comprising 257 pap…",
+      "authors": [
+        "Jonas Becker",
+        "Jan Philip Wahle",
+        "Bela Gipp",
+        "Terry Ruas"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2405.15604",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Explanations of Large Language Models Explain Language Representations in the Brain",
+      "summary": "arXiv:2502.14671v4 Announce Type: replace Abstract: Large Language Model (LLM) representations are known to align with brain activity during language processing, but it remains unclear what drives this alignment. We test whether explainable AI (XAI) can help answer this: using attribution methods, w…",
+      "authors": [
+        "Maryam Rahimi",
+        "Mohammad Reza Daliri",
+        "Yadollah Yaghoobzadeh"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2502.14671",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Zero-Shot Multi-Disease Labeling of Chest, Abdomen, and Pelvis CT Reports Using Open-Weight Large Language Models: The Effect of Labeling Conventions",
+      "summary": "arXiv:2506.03259v3 Announce Type: replace Abstract: Purpose: To compare five lightweight open-weight large language models (LLMs) with a rule-based algorithm (RBA) and fine-tuned RadBERT for zero-shot labeling of chest-abdomen-pelvis (CAP) CT reports, and to examine how labeling conventions affect m…",
+      "authors": [
+        "Michael E. Garcia-Alcoser",
+        "Mobina Ghojoghnejad",
+        "Fakrul Islam Tushar",
+        "David Kim",
+        "Kyle J. Lafata"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2506.03259",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Shrinking the Generation-Verification Gap with Weak Verifiers",
+      "summary": "arXiv:2506.18203v3 Announce Type: replace Abstract: Verifiers can improve language model capabilities by scoring and ranking responses from generated candidates. Currently, high-quality verifiers are either unscalable (e.g., humans) or limited in utility (e.g., tools like Lean). While LM judges and …",
+      "authors": [
+        "Jon Saad-Falcon",
+        "E. Kelly Buchanan",
+        "Mayee F. Chen",
+        "Tzu-Heng Huang",
+        "Brendan McLaughlin"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2506.18203",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Building Open-Retrieval Conversational Question Answering Systems by Generating Synthetic Data and Decontextualizing User Questions",
+      "summary": "arXiv:2507.04884v2 Announce Type: replace Abstract: We consider open-retrieval conversational question answering (OR-CONVQA), an extension of question answering where system responses need to be (i) aware of dialog history and (ii) grounded in documents (or document fragments) retrieved per question…",
+      "authors": [
+        "Christos Vlachos",
+        "Nikolaos Stylianou",
+        "Alexandra Fiotaki",
+        "Spiros Methenitis",
+        "Elisavet Palogiannidi"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2507.04884",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "CPC-CMS: Cognitive Pairwise Comparison Classification Model Selection Framework for Document-level Sentiment Analysis",
+      "summary": "arXiv:2507.14022v2 Announce Type: replace Abstract: This study proposes the Cognitive Pairwise Comparison Classification Model Selection (CPC-CMS) framework for document-level sentiment analysis. The CPC, based on expert knowledge judgment, is used to calculate the weights of evaluation criteria, in…",
+      "authors": [
+        "Jianfei Li",
+        "Kevin Kam Fung Yuen"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2507.14022",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Robust Native Language Identification through Agentic Decomposition",
+      "summary": "arXiv:2509.16666v2 Announce Type: replace Abstract: Large language models (LLMs) often achieve high performance in native language identification (NLI) benchmarks by leveraging superficial contextual clues such as names, locations, and cultural stereotypes, rather than the underlying linguistic patt…",
+      "authors": [
+        "Ahmet Yavuz Uluslu",
+        "Tannon Kew",
+        "Tilia Ellendorff",
+        "Gerold Schneider",
+        "Rico Sennrich"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2509.16666",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Mapping Patient-Perceived Physician Traits from Nationwide Online Reviews with LLMs",
+      "summary": "arXiv:2510.03997v2 Announce Type: replace Abstract: Understanding how patients perceive their physicians is essential to improving trust, communication, and satisfaction. Patients increasingly consult large language models (LLMs) to summarize physician reviews and shape provider choices, yet the nat…",
+      "authors": [
+        "Junjie Luo",
+        "Rui Han",
+        "Arshana Welivita",
+        "Zeleikun Di",
+        "Jingfu Wu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2510.03997",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "When Large Language Models Know the Table: A Framework for Assessing Data Contamination in Tabular Datasets",
+      "summary": "arXiv:2510.20351v4 Announce Type: replace Abstract: Large language models (LLMs) are increasingly exposed to data contamination, i.e., performance gains driven by prior exposure of test datasets rather than generalization. However, in the context of tabular data, this problem is largely unexplored. …",
+      "authors": [
+        "Matteo Silvestri",
+        "Fabiano Veglianti",
+        "Flavio Giorgi",
+        "Fabrizio Silvestri",
+        "Gabriele Tolomei"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2510.20351",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Predicting Social Media User Actions: A Hybrid Approach for Common and Rare Behavior Prediction on Bluesky",
+      "summary": "arXiv:2511.17241v2 Announce Type: replace Abstract: Understanding and predicting user behavior on social media platforms is crucial for content recommendation and platform design. While existing approaches focus primarily on common actions like retweeting and liking, the prediction of rare but signi…",
+      "authors": [
+        "Benjamin White",
+        "Anastasia Shimorina"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2511.17241",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Layer-wise Positional Bias in Short-Context Language Modeling",
+      "summary": "arXiv:2601.04098v2 Announce Type: replace Abstract: Transformer language models systematically prefer tokens at specific input positions regardless of semantic relevance---a phenomenon known as positional bias. Prior work characterizes this bias in model behavior through performance drops in long-co…",
+      "authors": [
+        "Maryam Rahimi",
+        "Mahdi Nouri",
+        "Yadollah Yaghoobzadeh"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2601.04098",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "LELA: an LLM-based Entity Linking Approach with Zero-Shot Domain Adaptation",
+      "summary": "arXiv:2601.05192v2 Announce Type: replace Abstract: Entity linking (mapping ambiguous mentions in text to entities in a knowledge base) is a foundational step in tasks such as knowledge graph construction, question-answering, and information extraction. Our method, LELA, is a modular coarse-to-fine …",
+      "authors": [
+        "Samy Haffoudhi",
+        "Fabian M. Suchanek",
+        "Nils Holzenberger"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2601.05192",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Can Deep Research Agents Retrieve and Organize? Evaluating the Synthesis Gap with Expert Taxonomies",
+      "summary": "arXiv:2601.12369v5 Announce Type: replace Abstract: Deep Research Agents increasingly automate survey writing, yet existing benchmarks do not jointly test whether they retrieve the papers experts consider essential and organize those papers into paper-grounded taxonomies. We introduce TaxoBench, a b…",
+      "authors": [
+        "Ming Zhang",
+        "Jiabao Zhuang",
+        "Wenqing Jing",
+        "Kexin Tan",
+        "Ziyu Kong"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2601.12369",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "STATe-of-Thoughts: Structured Action Templates for Tree-of-Thoughts",
+      "summary": "arXiv:2602.14265v3 Announce Type: replace Abstract: Inference-Time-Compute (ITC) methods like Best-of-$n$ and Tree-of-Thoughts are meant to produce output candidates that are both high-quality and diverse, but their use of high-temperature sampling often fails to achieve meaningful output diversity.…",
+      "authors": [
+        "Zachary Bamberger",
+        "Till R. Saenger",
+        "Gilad Morad",
+        "Ofra Amir",
+        "Brandon M. Stewart"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2602.14265",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Memory in the LLM Era: Modular Architectures and Strategies in a Unified Framework",
+      "summary": "arXiv:2604.01707v3 Announce Type: replace Abstract: Memory emerges as the core module in the large language model (LLM)-based agents for long-horizon complex tasks (e.g., multi-turn dialogue, game playing, scientific discovery), where memory can enable knowledge accumulation, iterative reasoning and…",
+      "authors": [
+        "Yanchen Wu",
+        "Tenghui Lin",
+        "Yingli Zhou",
+        "Fangyuan Zhang",
+        "Qintian Guo"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2604.01707",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "The Impossibility Triangle of Long-Context Modeling",
+      "summary": "arXiv:2605.05066v2 Announce Type: replace Abstract: We identify and prove a fundamental trade-off governing long-sequence models: no model can simultaneously achieve (i) per-step computation independent of sequence length (Efficiency), (ii) state size independent of sequence length (Compactness), an…",
+      "authors": [
+        "Yan Zhou"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2605.05066",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Correct Answers from Sound Reasoning: Verifiable Process Supervision for Language Models",
+      "summary": "arXiv:2605.12519v2 Announce Type: replace Abstract: Training language models to produce both correct answers and sound reasoning remains an open challenge. Reinforcement learning with verifiable rewards typically optimizes only final outcomes, which can improve task accuracy at the expense of reason…",
+      "authors": [
+        "Kyuyoung Kim",
+        "Kevin Wang",
+        "Yunfei Xie",
+        "Peiyang Xu",
+        "Peiyao Sheng"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2605.12519",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "RICE-PO: Turning Retrieval Interactions into Credit Signals for Reasoning Agents",
+      "summary": "arXiv:2605.26352v3 Announce Type: replace Abstract: Retrieval is increasingly moving from one-shot matching toward interactive reasoning, where language agents iteratively inspect evidence, reformulate queries, and search again. Training such agents raises a credit-assignment challenge: executable a…",
+      "authors": [
+        "Mingchen Li",
+        "Hansi Zeng",
+        "Zhuo Qian",
+        "Jiatan Huang",
+        "Sunjae Kwon"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2605.26352",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "BenHalluEval: A Multi-Task Hallucination Evaluation Framework for Large Language Models on Bengali",
+      "summary": "arXiv:2605.31483v4 Announce Type: replace Abstract: Despite Bengali being the sixth most spoken language in the world, no prior work has systematically evaluated hallucination in large language models (LLMs) for Bengali. We introduce BenHalluEval, a fine-grained hallucination evaluation framework fo…",
+      "authors": [
+        "Shefayat E Shams Adib",
+        "Ahmed Alfey Sani",
+        "Ekramul Alam Esham",
+        "Ajwad Abrar",
+        "Ishmam Tashdeed"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2605.31483",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Topics as Proxies for Sociodemographics: How Conversational Context Affects LLM Answers",
+      "summary": "arXiv:2606.02776v4 Announce Type: replace Abstract: When large language models (LLMs) are used in high-stakes scenarios, such as legal, medical and financial advice, even a single conversation history is enough to drive differences in outcomes between users. Prior work has demonstrated that this res…",
+      "authors": [
+        "Vera Neplenbroek",
+        "Gabriele Sarti",
+        "Arianna Bisazza",
+        "Raquel Fern\\'andez"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.02776",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Trace Only What You Need: Structure-Aware On-Demand Hypergraph Memory for Long-Document Question Answering",
+      "summary": "arXiv:2606.10921v2 Announce Type: replace Abstract: Long-document question answering (QA) requires large language models (LLMs) to reason over evidence scattered across lengthy documents, where answers often depend on event order, section-level context, and cross-part evidence connections. Although …",
+      "authors": [
+        "Xiangjun Zai",
+        "Xingyu Tan",
+        "Chen Chen",
+        "Xiaoyang Wang",
+        "Wenjie Zhang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.10921",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "PolyAlign: Conditional Human-Distribution Alignment",
+      "summary": "arXiv:2606.13227v2 Announce Type: replace Abstract: Post-training methods such as supervised fine-tuning (SFT) and preference optimization typically align language models toward a single global assistant behavior. While effective for improving average helpfulness, this can suppress the natural varia…",
+      "authors": [
+        "L. D. M. S. Sai Teja",
+        "Ufaq Khan",
+        "Sathira Silva",
+        "Xiao Wu",
+        "Muhammad Haris Khan"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.13227",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Who Checks the Citations? Benchmarking Legal Hallucination Detection",
+      "summary": "arXiv:2606.21155v2 Announce Type: replace Abstract: Attorneys, judges, and pro se filers increasingly use AI to draft legal documents, yet these tools frequently fabricate citations. Despite predictions that newer models would hallucinate less or that court sanctions would deter negligent filers, we…",
+      "authors": [
+        "Patty Liu",
+        "Dominik Stammbach",
+        "Peter Henderson"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.21155",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "LMs as Task-Specific Knowledge Bases: An Interpretability Analysis",
+      "summary": "arXiv:2606.27237v2 Announce Type: replace Abstract: Language models (LMs) capture large amounts of factual knowledge applicable to a wide range of tasks, motivating the view of their parameters as a knowledge base. An important property of knowledge bases is that different queries for the same fact …",
+      "authors": [
+        "Amit Elhelo",
+        "Amir Globerson",
+        "Mor Geva"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.27237",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "CrossHallu: Do Hallucination Signals Generalize Across Languages and Domains in Large Language Model's Internals?",
+      "summary": "arXiv:2607.04029v2 Announce Type: replace Abstract: Recent hallucination detection techniques in large language models (LLMs) focus on directly extracting features from a model's internal representations and training a classifier on these features to detect hallucinations, demonstrating promising re…",
+      "authors": [
+        "Aisha Alansari",
+        "Malak Alkhorasani",
+        "Hamzah Luqman"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2607.04029",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "SkillCorpus: Consolidating and Evaluating the Open Skill Ecosystem for Real-World LLM Agents",
+      "summary": "arXiv:2607.15557v5 Announce Type: replace Abstract: Agent skills, SKILL files that package reusable procedural knowledge for an LLM agent, are a popular mechanism for extending agent capabilities. Public repositories now host them in large and growing numbers, yet these artifacts are fragmented, red…",
+      "authors": [
+        "Yanze Wang",
+        "Pengfei Yao",
+        "Tianyi Sun",
+        "Chuanrui Hu",
+        "Yan Xiao"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2607.15557",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "An Early Warning of Emerging Biosecurity Risks in Frontier LLMs",
+      "summary": "arXiv:2607.18056v2 Announce Type: replace Abstract: Frontier large language models (LLMs) are increasingly integrated into scientific workflows, yet their growing biological capabilities may outpace current safeguards. To assess the biological risks of frontier models, we develop Intern-BioBreaker, …",
+      "authors": [
+        "Zhida He",
+        "Xia Hu",
+        "Baichen Le",
+        "Chunxiao Li",
+        "Jiajia Li"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2607.18056",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Role Steering of Language Models for Social Simulations",
+      "summary": "arXiv:2608.00023v2 Announce Type: replace Abstract: Social simulations built from language-model agents need role-conditioned behavior that can be checked before agents are placed into a simulated population. We introduce an activation-steering screening workflow for role-conditioned agents: define …",
+      "authors": [
+        "Isaac Song",
+        "Mohammed Rehan Parwani",
+        "Glenn Matlin",
+        "Emile Anand",
+        "Akhil Theerthala"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.00023",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Same Task, Different Work: Prompt-Induced Waste in Coding Agents",
+      "summary": "arXiv:2608.01347v3 Announce Type: replace Abstract: Two prompts can request the same code change and produce the same correct patch, yet cause a coding agent to perform radically different kinds and amounts of work. We study this effect in a preregistered benchmark spanning 4,644 valid runs, 24 dete…",
+      "authors": [
+        "Sarel Weinberger",
+        "Amir Hozez"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.01347",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "OpenAI Privacy Filter: A Cross-Lingual, Cross-Domain PII Evaluation Across 32 Benchmarks",
+      "summary": "arXiv:2608.02616v2 Announce Type: replace Abstract: We present what is, to our knowledge, the first systematic evaluation of OpenAI's Privacy Filter (OPF), a 1.5B-parameter model that converts an autoregressive language model into a bidirectional PII detector, across 32 benchmarks spanning 14 langua…",
+      "authors": [
+        "Rohith Uppala"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.02616",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Activation-Guided Neuron Intervention to Induce Alzheimer's-Related Computational Language Phenotypes in a Large Language Model",
+      "summary": "arXiv:2608.03067v2 Announce Type: replace Abstract: Changes in spontaneous speech provide an early signal of cognitive dysfunction in Alzheimer's disease (AD) that large language models (LLMs) can detect. However, detection alone cannot establish whether the underlying model representations contribu…",
+      "authors": [
+        "Rui He",
+        "Ercong Nie",
+        "Hong Jiang",
+        "Iris E. Sommer",
+        "Philipp Homan"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.03067",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "HomoEnsNER: Does Language Alignment Outperform Architectural Complexity in Gujarati Named Entity Recognition?",
+      "summary": "arXiv:2608.03105v3 Announce Type: replace Abstract: Named Entity Recognition (NER) for Gujarati remains underexplored, hindered by the absence of capitalization cues, rich morphology, lexical ambiguity, and free word order. Prior ensemble work has emphasized architectural diversity by combining hete…",
+      "authors": [
+        "Chandrakant K. Bhogayata"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.03105",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "SFT Conflicts, RL Coexists: A Theoretical and Empirical Analysis of Multi-Task Learning for LLMs",
+      "summary": "arXiv:2608.03573v2 Announce Type: replace Abstract: Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) exhibit fundamentally different behaviors in enhancing multi-task reasoning for large language models (LLMs). Our preliminary experiments revealed a phenomenon: SFT suffers from severe ta…",
+      "authors": [
+        "Kejian Zhu",
+        "Zhuoran Jin",
+        "Shangqing Tu",
+        "Hongbang Yuan",
+        "Yushi Bai"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.03573",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Large Language Models for Low-Resource Languages: A Conceptual Framework for an Electronic Explanatory Dictionary of the Tajik Language",
+      "summary": "arXiv:2608.04186v2 Announce Type: replace Abstract: This paper presents a conceptual framework for developing an electronic explanatory dictionary of the Tajik language using large language models (LLMs). The relevance of the work stems from the absence of a comprehensive digital lexicographic resou…",
+      "authors": [
+        "Mullosharaf K. Arabov",
+        "S. S. Pirov",
+        "B. Sultonov"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.04186",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "RESPClinBench: Benchmarking Multimodal Clinical Decision-Making and Longitudinal Disease Management in Respiratory Specialty Care",
+      "summary": "arXiv:2608.04514v2 Announce Type: replace Abstract: Background: Respiratory specialty care requires multimodal interpretation, longitudinal risk assessment, guideline-concordant intervention, and whole-course management, which are poorly represented by examination-oriented medical benchmarks. Object…",
+      "authors": [
+        "Mouxiao Bian",
+        "Zhi Chen",
+        "Ruiyao Chen",
+        "Lu Lu",
+        "Hengrui Liang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.04514",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "EuroExec: Frontier Language Models Fall Short of Expert Judgment on European Executive Decision Tasks",
+      "summary": "arXiv:2608.04549v2 Announce Type: replace Abstract: Frontier LLMs are increasingly put to use on open-ended complex questions, different in nature from the ones they are typically evaluated on. We dedicate more than 4,000 human expert hours to evaluate a selection of six frontier LLMs on a member of…",
+      "authors": [
+        "Pau Arnal",
+        "Khaled Denfir",
+        "Danylo Smahliuk",
+        "Amrut Avhad",
+        "Marcus A. Castro"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.04549",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Breaking the Curse of Multilinguality in Many-to-Many Speech-to-Text Translation via a Resource-Aware Mixture of Speech Encoders",
+      "summary": "arXiv:2608.04586v2 Announce Type: replace Abstract: Multimodal large language models (MLLMs) have achieved significant success in speech-to-text translation (S2TT). However, when processing multilingual speech inputs, a single speech encoder shared across all languages suffers from the curse of mult…",
+      "authors": [
+        "Yexing Du",
+        "Kaiyuan Liu",
+        "Youcheng Pan",
+        "Bo Yang",
+        "Chengpeng Fu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.04586",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "InsightEmb: Learning Action-Intent Embeddings for Agentic Insight Retrieval",
+      "summary": "arXiv:2608.04761v2 Announce Type: replace Abstract: Self-improving agents accumulate reusable insights from prior trajectories, making retrieval increasingly important for turning accumulated experience into actionable guidance. At each decision step, retrieving the right insight can help the agent …",
+      "authors": [
+        "Tsz Ting Chung",
+        "Jiangnan Li",
+        "Jie Zhou",
+        "Mo Yu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.04761",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Preverbal Uninflected and Underived Roots in Mapudungun. Wuno and Its Implications",
+      "summary": "arXiv:2608.04869v2 Announce Type: replace Abstract: This study examines the grammatical status of preverbal uninflected and underived roots in Mapudungun, with particular focus on wuno 'return/re-'. Through a critical review of scholarly classifications--auxiliaries (Smeets, 2008), modal prefixes (L…",
+      "authors": [
+        "Andres Chandia"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.04869",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "A-SR: Self-Evolving Agentic LLMs for Symbolic Regression via Hierarchical Coordination",
+      "summary": "arXiv:2608.04872v2 Announce Type: replace Abstract: Symbolic regression aims to discover closed-form equations from data, but existing LLM-guided methods often rely on a unified proposal loop that compresses heterogeneous search failures into a scalar score and a single prompt. We propose A-SR, a se…",
+      "authors": [
+        "Wenxiao Zhao",
+        "Dong Liu",
+        "Kaiyi Xu",
+        "Feng Liu",
+        "Zhen Zhao"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.04872",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Strengthening Target-Language Features: SAE-Based Steering for Multilingual Inference",
+      "summary": "arXiv:2608.04904v2 Announce Type: replace Abstract: Multilingual large language models exhibit substantial performance differences across languages, while existing adaptation methods often require parameter updates and considerable multilingual training data. We propose an inference-time multilingua…",
+      "authors": [
+        "Hongsheng Wang",
+        "Philipp Koehn"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.04904",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "CRINN: Contrastive Reinforcement Learning for Approximate Nearest Neighbor Search",
+      "summary": "arXiv:2508.02091v4 Announce Type: replace-cross Abstract: Approximate nearest-neighbor search (ANNS) algorithms have become increasingly critical for recent AI applications, particularly in retrieval-augmented generation (RAG) and agent-based LLM applications. In this paper, we present CRINN, a new …",
+      "authors": [
+        "Xiaoya Li",
+        "Albert Wang",
+        "Guoyin Wang",
+        "Chris Shum",
+        "Jiwei Li"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2508.02091",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Test-Time Scaling in Reasoning Models Is Not Effective for Knowledge-Intensive Tasks Yet",
+      "summary": "arXiv:2509.06861v3 Announce Type: replace-cross Abstract: Test-time scaling increases inference-time computation through longer reasoning chains and has shown strong performance gains across many domains. However, frontier models still suffer from factuality hallucinations, raising the question of w…",
+      "authors": [
+        "James Xu Zhao",
+        "Bryan Hooi",
+        "See-Kiong Ng"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2509.06861",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "All-Quadrant Bounded Clipping GRPO: Closing the Unbounded Blind Spot for Stable and Generalizable Training",
+      "summary": "arXiv:2601.03895v2 Announce Type: replace-cross Abstract: Group Relative Policy Optimization (GRPO) has emerged as a popular algorithm for reinforcement learning with large language models (LLMs). However, GRPO inherits PPO's token-level clipping while replacing token-level advantages with a single …",
+      "authors": [
+        "Chi Liu",
+        "Xin Chen"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2601.03895",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Online Reasoning Calibration: Test-Time Training Enables Generalizable Conformal LLM Reasoning",
+      "summary": "arXiv:2604.01170v2 Announce Type: replace-cross Abstract: While test-time scaling has enabled large language models to solve highly difficult tasks, state-of-the-art results come at exorbitant compute costs. These inefficiencies can be attributed to the miscalibration of post-trained language models…",
+      "authors": [
+        "Cai Zhou",
+        "Zekai Wang",
+        "Menghua Wu",
+        "Qianyu Julie Zhu",
+        "Flora C. Shi"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2604.01170",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Look Twice: Training-Free Evidence Highlighting for Knowledge-based Visual Question Answering",
+      "summary": "arXiv:2604.01280v2 Announce Type: replace-cross Abstract: Knowledge-based Visual Question Answering (KB-VQA) requires Multimodal Large Language Models (MLLMs) to identify and combine fine-grained visual cues with retrieved textual evidence. However, retrieval often introduces noisy and partially rel…",
+      "authors": [
+        "Marco Morini",
+        "Sara Sarto",
+        "Marcella Cornia",
+        "Lorenzo Baraldi",
+        "Rita Cucchiara"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2604.01280",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "CREBench: Evaluating Large Language Models in Cryptographic Binary Reverse Engineering",
+      "summary": "arXiv:2604.03750v2 Announce Type: replace-cross Abstract: Reverse engineering (RE) is central to software security, particularly for cryptographic programs that handle sensitive data and are highly prone to vulnerabilities. It supports critical tasks such as vulnerability discovery and malware analy…",
+      "authors": [
+        "Baicheng Chen",
+        "Yu Wang",
+        "Ziheng Zhou",
+        "Xiangru Liu",
+        "Juanru Li"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2604.03750",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "SODA: Semi On-Policy Black-Box Distillation for Large Language Models",
+      "summary": "arXiv:2604.03873v5 Announce Type: replace-cross Abstract: Black-box knowledge distillation for large language models presents a strict trade-off. Simple off-policy methods (e.g., sequence-level knowledge distillation) struggle to correct the student's inherent errors. Fully on-policy methods (e.g., …",
+      "authors": [
+        "Xiwen Chen",
+        "Jingjing Wang",
+        "Wenhui Zhu",
+        "Peijie Qiu",
+        "Xuanzhao Dong"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2604.03873",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "CT Open: An Open-Access, Uncontaminated, Live Platform for the Open Challenge of Clinical Trial Outcome Prediction",
+      "summary": "arXiv:2604.16742v2 Announce Type: replace-cross Abstract: Scientists have long sought to accurately predict outcomes of real-world events before they happen. Can AI systems do so more reliably? We study this question through clinical trial outcome prediction, a high-stakes open challenge even for do…",
+      "authors": [
+        "Jianyou Wang",
+        "Youze Zheng",
+        "Longtian Bao",
+        "Hanyuan Zhang",
+        "Qirui Zheng"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2604.16742",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Behavioral Canaries: Auditing Private Retrieved Context Usage in RL Fine-Tuning",
+      "summary": "arXiv:2604.22191v2 Announce Type: replace-cross Abstract: In agentic workflows, LLMs frequently process retrieved contexts that are legally protected from further training. However, auditors currently lack a reliable way to verify if a provider has violated the terms of service by incorporating thes…",
+      "authors": [
+        "Chaoran Chen",
+        "Dayu Yuan",
+        "Peter Kairouz"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2604.22191",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "MoDAl: Self-Supervised Neural Modality Discovery via Decorrelation for Speech Neuroprosthesis",
+      "summary": "arXiv:2605.00025v3 Announce Type: replace-cross Abstract: Speech neuroprosthesis systems decode intended speech from neural activity in the absence of audible output, offering a path to restoring communication for individuals with speech-impairing conditions. Current approaches decode predominantly …",
+      "authors": [
+        "Yuanhao Chen",
+        "Peter Chin"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2605.00025",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Reducing Hallucination in Vision-Language Models via Stage-wise Preference Optimization under Distribution Shift",
+      "summary": "arXiv:2605.16411v2 Announce Type: replace-cross Abstract: Hallucination remains a fundamental challenge in vision-language models (VLMs), where autoregressive generation may produce linguistically plausible yet physically inconsistent or visually ungrounded responses due to likelihood maximization u…",
+      "authors": [
+        "Qinwu Xu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2605.16411",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "CP-MoE: Consistency-Preserving Mixture-of-Experts for Continual Learning",
+      "summary": "arXiv:2605.20247v2 Announce Type: replace-cross Abstract: Catastrophic forgetting remains a major obstacle to continual learning in large language models (LLMs) and vision--language models (VLMs). Although Mixture-of-Experts (MoE) architectures offer an efficient path to scaling, existing LoRA-based…",
+      "authors": [
+        "Yang Liu",
+        "Toan Nguyen",
+        "Flora D. Salim"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2605.20247",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Persona-Pruner: Sculpting Lightweight Models for Role-Playing",
+      "summary": "arXiv:2606.14695v2 Announce Type: replace-cross Abstract: Language Models (LMs) have shown remarkable potential as role-playing chatbots, delivering consistent, stylized interactions when given a specification of a character or user persona. However, applying these capabilities to real-world applica…",
+      "authors": [
+        "Jinsu Kim",
+        "Jihoon Tack",
+        "Noah Lee",
+        "Jongheon Jeong"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.14695",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Right Knowledge, Wrong Answer: Characterizing Parametric Temporal Conflict in Open-Weight Language Models",
+      "summary": "arXiv:2606.20959v3 Announce Type: replace-cross Abstract: Language models may encode both outdated facts and their newer replacements. We introduce Parametric Temporal Conflict (PTC), where the newer fact is present and recoverable, but the default forward pass prefers the outdated one. We release a…",
+      "authors": [
+        "Elias Hossain",
+        "Sourav Saha",
+        "Tasfia Nuzhat Ornee",
+        "Sanjeda Sara Jennifer",
+        "Umesh Chandra Biswas"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2606.20959",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
+      "summary": "arXiv:2607.28609v2 Announce Type: replace-cross Abstract: Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA evaluation, data curation,…",
+      "authors": [
+        "Qiushi Sun",
+        "Kanzhi Cheng",
+        "Yian Wang",
+        "Bowen Yang",
+        "Hang Yan"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2607.28609",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "summary": "arXiv:2607.28617v2 Announce Type: replace-cross Abstract: System prompts are instructions configured by developers to govern the behaviors of foundation models in AI applications. They are used throughout commercial AI products, but are rarely disclosed to the public or regulators, creating a seriou…",
+      "authors": [
+        "Xiangning Lin",
+        "Shenzhe Zhu",
+        "Shu Yang",
+        "Zhenyu Zhang",
+        "Haoqian Zhang"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2607.28617",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "Token-Native Storage: Read and Write in your Agent's Language",
+      "summary": "arXiv:2608.02376v2 Announce Type: replace-cross Abstract: Search and database engines still store text as UTF-8, a format built for humans. But the systems that increasingly read and write that text (embedders, rerankers, and language-model agents) work with token IDs, not characters, so every acces…",
+      "authors": [
+        "Kumar Shivendu"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.02376",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "paper",
+      "title": "AI Security Leaderboard: Methodology, Results and Minimal Standard",
+      "summary": "arXiv:2608.03070v2 Announce Type: replace-cross Abstract: The AI Security Leaderboard is an independent benchmark that ranks the safeguards of frontier AI models from least to most secure. It tests models against the FAR$.$AI Minimal Standard for Safeguards, which represents a minimum bar for securi…",
+      "authors": [
+        "Jasper Timm",
+        "Lukas Struppek",
+        "Ziwei Xu",
+        "Grace Cheong",
+        "Oscar Mata"
+      ],
+      "affiliations": [],
+      "primaryArea": "LLM / 对话模型",
+      "tags": [
+        "cs.CL"
+      ],
+      "url": "https://arxiv.org/abs/2608.03070",
+      "source": "arXiv",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/allenai/tutormoments",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "summary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "summary": "NextSlide says its team members are now working on ChatGPT.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI says it slowed Astra model development over security concerns",
+      "summary": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
+      "authors": [
+        "Kirsten Korosec"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+      "summary": "After its own AI usage wake-up call, Rippling this week unveiled AI Spend Console, a product that tracks individual and team employee AI spending.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "Cloudflare launches Kitesurf, a browser built for AI agents",
+      "summary": "Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "Airbnb says AI is helping it ship features faster as it tests a new search function",
+      "summary": "Airbnb will debut a new AI-powered search experience with a toggle.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/07/airbnb-says-ai-is-helping-it-ship-features-faster-as-it-tests-a-new-search-function/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "Jill Lepore on the ‘Artificial State’ and why Silicon Valley’s leaders are bad sci-fi readers",
+      "summary": "Historian Jill Lepore has a theory about why tech companies often use soaring language to describe their products — almost as if they’re forming a new government. And whether you’re thinking of Twitter’s old “town hall in your pocket” or Anthropic’s Claude constitution, it’s a theory that doesn’t pa…",
+      "authors": [
+        "Anthony Ha, Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/jill-lepore-on-the-artificial-state-and-why-silicon-valleys-leaders-are-bad-sci-fi-readers/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "New Mexico court orders Meta to pay additional $567M in child safety case",
+      "summary": "Meta's total fine has racked up to $942 million in this case.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/07/new-mexico-court-orders-meta-to-pay-additional-567m-in-child-safety-case/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "73 NeurIPS workshops, and not a single one on Causality [R]",
+      "summary": "Is this it for Causal Inference? Looks like the field continues to be of interest only at UAI/AISTATS/CLeaR. All good venues, but LLMs/Agents/etc seem to have eaten much of the lunch of several other subfields at the top 3 conferences. God help us all. **p.s.** the list: https://danyaljj.github.io/n…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj8lag/73_neurips_workshops_and_not_a_single_one_on/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "NeurIPS OpenReview Modified Timeline [D]",
+      "summary": "I just wonder if “modified: 04 Aug 2026 at 22:21” time part in the Reviewer’s official review still remain unchanged, then is that mean reviewer not add final justification, or any change of their rating? submitted by /u/Responsible-Read-138 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj6ov3/neurips_openreview_modified_timeline_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "NeurIPS AI Assisted Review authors/reviewers? [D]",
+      "summary": "Out of curiosity, if you were a reviewer or author, how did the review period go? For me, it was weird, because I gave reviews with specific details (what specifically could have been better, how to fix it), but realized other reviewers gave similar superficial reviews. Even the paper which was a co…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj3oqr/neurips_ai_assisted_review_authorsreviewers_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "Evaluation metrics - [D]",
+      "summary": "I wanted to ask about the selection of evaluation metrics. In which scenario we use ROC-AUC score and in which scenario we use f1 score as an evaluation metric in a classification problem to define the model's performance on a specific dataset. submitted by /u/okbro_9 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj1ke5/evaluation_metrics_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "Synthesizing and formally verifying a SWAR bit-hack for INT4 dot products using Z3 and Lean 4 [P]",
+      "summary": "INT4 quantization is ubiquitous in ML right now, but evaluating dot products on hardware without native SIMD/vector instructions (like WebAssembly or older ARM chips) usually requires slow sequential loops. A classic workaround is SWAR (SIMD Within A Register), but deriving the bitwise operations by…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj870x/synthesizing_and_formally_verifying_a_swar/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "AACL-IJCNLP Commitment Submission Number [D]",
+      "summary": "What's your commitment submission ID? My submission number is ~150 (submitted two days ago) and I'm wondering what the total number of commitments is. Did anyone commit near the deadline? submitted by /u/hepiga [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1viyloc/aaclijcnlp_commitment_submission_number_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "ICDE Results [D]",
+      "summary": "Hello! Let's use this thread to discuss ICDE results which should be coming out shortly today (hopefully). submitted by /u/mythrowaway0852 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vj1oq6/icde_results_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "Real-Time Conversational Agents (RTCA) Workshop @ NeurIPS 2026 — submissions now open, deadline Aug 29 AoE [N]",
+      "summary": "Real-Time Conversational Agents (RTCA) workshop at NeurIPS 2026 (Sydney, Dec 11–12). Submissions are now open on OpenReview. What the workshop is about Conversational AI has crossed into real-time deployment — voice modes, embodied avatars, full-duplex speech agents — but the published record is sti…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vir5t6/realtime_conversational_agents_rtca_workshop/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "2026 NeurIPS: Where are you going? [D]",
+      "summary": "To all those in the US: Are you planning to go Sydney or Atlanta this year for NeurIPS? submitted by /u/rsesrsfh [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vi5xz7/2026_neurips_where_are_you_going_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "Imagenet-1k Classifier trained entirely on an Android [P]",
+      "summary": "It's an MLP architecture with around 500K total parameters. Top1 Training accuracy: 5.11% Validation accuracy 4.59% Detailed Validation accuracy numbers: Top-1 Acc: 4.59% Top-3 Acc: 9.44% Top-5 Acc: 12.68% Top-10 Acc: 18.53% The model was trained on a downscaled version of the Imagenet-1k dataset (3…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vhwwfr/imagenet1k_classifier_trained_entirely_on_an/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "What is currently considered the theoretically optimal quantization bit-width for LLMs? [D]",
+      "summary": "I’m curious whether there is now a theoretical or empirical “sweet spot” for LLM quantization, preferably research done using open-source formats like GGUF Suppose you have a fixed memory/compute budget and can choose the model size freely. For example, instead of a smaller model at 8-bit or 4-bit, …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vi6im4/what_is_currently_considered_the_theoretically/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "Improved compression of Bad Apple into a Neural Network [P]",
+      "summary": "I played a bit with the SIREN network from the other post and found that it could be improved by a using a different sampler for batch generation. By feeding pixels across the entire video and not only a limited set of frames, we can a much more faithful reproduction of the video. The model is exact…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vhvfws/improved_compression_of_bad_apple_into_a_neural/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "CIKM 2026 decisions [R]",
+      "summary": "CIKM 2026 decisions will be announced today. The resource track outcomes have started going out. How did you go with CIKM 2026? submitted by /u/Happy-Hustler [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vhtto1/cikm_2026_decisions_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "CIKM '26 Notification [D]",
+      "summary": "The results are out today! Let’s share them, guys. From my batch - 3/6 full papers - 1/3 short papers are accepted Cheers! submitted by /u/snu95 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vhmw48/cikm_26_notification_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "On the ACM Multimedia 2026 Conference Registration and APC [D]",
+      "summary": "Having two papers accepted at two different workshops and planning to attend the main conference, I contacted the organizers by email. It is now clear that I need to register twice, using the same personal details, to cover both papers. The minimum cost would therefore be one full registration plus …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vhtrz2/on_the_acm_multimedia_2026_conference/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-07"
+    },
+    {
+      "type": "news",
+      "title": "​Built a tool to generate slides from research papers using local LLMs (because I hate formatting decks and privacy matters) [P]",
+      "summary": "​​Hi guys, ​Every time I had to prepare a presentation based on a paper or research doc, I found the process super tedious. Plus, I really dislike uploading unpublished stuff or sensitive data to online AI services just to get a draft. ​So I put together a tool called academi\\_slide to automate this…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vi0c4k/built_a_tool_to_generate_slides_from_research/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-07"
+    }
+  ]
+}
