@@ -1,0 +1,317 @@
+{
+  "date": "2026-08-09",
+  "items": [
+    {
+      "type": "news",
+      "title": "Embattled hedge fund Situational Awareness invests $400M in chip startup Source Foundry",
+      "summary": "The AI-focused hedge fund is still making some big bets.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/09/embattled-hedge-fund-situational-awareness-invests-400m-in-chip-startup-source-foundry/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic is turning Claude Code’s auto mode on by default",
+      "summary": "Programming with Claude Code will soon require even less human oversight.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Historian Jill Lepore says Silicon Valley misreads science fiction and undermines democracy",
+      "summary": "On the latest episode of Equity, we spoke to Jill Lepore about \"government by machines\" and why Elon Musk is a bad science fiction reader.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/09/historian-jill-lepore-says-the-tech-industry-is-led-by-bad-readers-who-are-undermining-democracy/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "The AI safety test is becoming a safety risk",
+      "summary": "AI agents are escaping cybersecurity testing environments and reaching real-world systems, raising questions about whether safety infrastructure, industry standards and regulation can keep pace with increasingly powerful models.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/09/the-ai-safety-test-is-becoming-a-safety-risk/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Planned Amazon data center could become the biggest climate polluter in the U.S.",
+      "summary": "As part of a planned Texas data center, Amazon is investing in an on-site power plant that could reportedly become the largest source of climate pollution in the United States.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/08/planned-amazon-data-center-could-become-the-biggest-climate-polluter-in-the-u-s/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI acquires presentation startup NextSlide",
+      "summary": "NextSlide says its team members are now working on ChatGPT.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "Why billion-dollar robotics startups are obsessed with folding laundry",
+      "summary": "submitted by /u/Spirited-Sir-3034 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjorly/why_billiondollar_robotics_startups_are_obsessed/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Filtering out “[LLM] sucks”",
+      "summary": "I understand there are a million variations on this theme, but it feels like half of my timeline is people coming on here to complain that this or that LLM sucks. Honestly, I don’t care. Everyone has a different experience. I would like to be able to filter out any of these posts. I don’t care wheth…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjzrbx/filtering_out_llm_sucks/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI's stated reason for Codex's 272k context cap is cache-read cost, not the 2x billing line at the same number",
+      "summary": "codex ships with a model catalog, and its gpt-5.6 entry lists the context window as 272,000 tokens. the published spec for the model is 1,050,000. 272,000 is also where the api reprices: past that many input tokens the whole request bills at 2x input and 1.5x output, including the tokens under the l…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjvpwb/openais_stated_reason_for_codexs_272k_context_cap/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Scrape, small piece on dif of calculators vs generative programs",
+      "summary": "submitted by /u/Ok_Nectarine_4445 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vk3cw4/scrape_small_piece_on_dif_of_calculators_vs/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Why is there no “App Store” for independent AI agents yet?",
+      "summary": "One thing that surprised me is that the barrier to entry is dropping much faster than I expected. There are now plenty of \"vibe coding\" or low-code platforms that let you connect models, tools, memory, and workflows without writing a huge amount of code. Almost anyone can build a useful agent. But t…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjr1kf/why_is_there_no_app_store_for_independent_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Chinese LLMs dominate this week's top charts",
+      "summary": "Source: https://openrouter.ai/rankings submitted by /u/Asleep-Television-24 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vizcs8/chinese_llms_dominate_this_weeks_top_charts/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "is there any ai music tool that can recreate a garbage quality song into higher quality without altering the vocals or instruments",
+      "summary": "basically im asking for something that can make a carbon copy of the original, just in higher quality. i dont want it changing the vocals, melody, instruments, etc, literally just make the same recording sound cleaner/better i have a piece of lost media from circa 2003 so unfortunately the only reco…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjugll/is_there_any_ai_music_tool_that_can_recreate_a/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Why Nonprofits Must Lead the AI Revolution",
+      "summary": "AI is no longer about what technology can do. The bigger question is what it should do, especially when it affects communities, vulnerable populations, accessibility, and public trust. Why Nonprofits Must Lead in AI explores that question through the perspective of a 25-year nonprofit leader and acc…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vju00l/why_nonprofits_must_lead_the_ai_revolution/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Emad Mostaque, on camera: \"It's a bad time to be a pure mathematician.\" AI just solved 10 decade-old math problems for $2,000.",
+      "summary": "A panel of AI researchers and founders — Peter Diamandis, Alex Wissner-Gross, Emad Mostaque — just sat with a number that's hard to argue with: $2,000 in compute, and ten decade-old, previously-unsolved math problems came back with machine-checkable proofs. Not \"AI is getting better at math\" in the …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjsil8/emad_mostaque_on_camera_its_a_bad_time_to_be_a/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Meta debuts first AI coding agent to take on Anthropic and OpenAI",
+      "summary": "submitted by /u/Junior_Froyo_6621 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjh4s6/meta_debuts_first_ai_coding_agent_to_take_on/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "AI agents are getting much better at doing tasks. I think verification is still the weak link.",
+      "summary": "I've been experimenting with a problem that keeps showing up as agents get better at using browsers and desktops: How does the agent actually know its work succeeded? A lot of current workflows eventually reduce verification to some version of: do the task → inspect the final state → decide whether …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjwaba/ai_agents_are_getting_much_better_at_doing_tasks/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Is the war of the technology between giant nations?",
+      "summary": "Being a daily user of AI I use mainly the tools like Gemini, Claude, Chatgpt, perplexity and few others. But while I use Deepseek, Kimi and other Chinese models they're quite more efficient in terms of both the quality, reasoning and even coding and stuffs and mainly the cost. Might not be fit for i…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjw556/is_the_war_of_the_technology_between_giant_nations/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "We got 100% on ARC-AGI-3 ft09 with zero model calls. The failures are more interesting.",
+      "summary": "I've been building an experimental reasoning system at Orivael and testing it against ARC-AGI-3. One of the runs just scored 100% on ft09. The unusual part: There is no LLM in the loop. Not for perception. Not for planning. Not for choosing an action. The agent reads the raw grid, decides, and acts …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vk0150/we_got_100_on_arcagi3_ft09_with_zero_model_calls/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "So AI has now designed actual viruses that work...",
+      "summary": "Just came across this and honestly this is pretty wild. Researchers used AI to design completely new viruses that don't exist in nature. They then actually made some of them in a lab, and 16 of the designs worked. Before anyone panics, these are bacteriophages, so they infect bacteria, not humans. T…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vizn4x/so_ai_has_now_designed_actual_viruses_that_work/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "What's an AI capability you thought was hype until you actually used it?",
+      "summary": "What's an AI capability you thought was hype until you actually used it? I'll go first: agent orchestration. I read about agents managing other agents and assumed it was demo-ware. Then I built a tiny setup where one agent drafts a news digest and another one reviews and approves it before it posts.…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjwvxi/whats_an_ai_capability_you_thought_was_hype_until/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Reddit is rolling out AI moderators for new communities, how long until every subreddit has one?",
+      "summary": "I’ve been posting about AI-related stuff for a while now and honestly, the more I see it being pushed everywhere, the more I think we need proper regulation around it. Not just “hey, we have AI now, let’s put it into everything”. And now Reddit is going down that road too. Like... seriously, wtf is …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjq4z0/reddit_is_rolling_out_ai_moderators_for_new/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    },
+    {
+      "type": "news",
+      "title": "Will AI help speed up medical science?",
+      "summary": "What do you think? Could AI help the process so that chronic conditions could be treated, maybe even cured in the coming decades? Is it realistic to believe that? What kind of disorders could be examples where is helping the research right now? Could AI make the golden age of medicine come soon do y…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vj3trr/will_ai_help_speed_up_medical_science/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "The EU AI Act may become a global rulebook without other countries adopting it",
+      "summary": "The EU AI Act is usually discussed as a European compliance issue, but its larger impact may happen outside Europe. Global AI companies may find it cheaper to build around one demanding regulatory standard than maintain completely different systems for every market. If that happens, European require…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1viw4vs/the_eu_ai_act_may_become_a_global_rulebook/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-08"
+    },
+    {
+      "type": "news",
+      "title": "Built a tiny AI sidehustle stack for under 30 bucks a month and now I am scared it actually works",
+      "summary": "I run a small digital tools consultancy between shifts at the cafe. Mostly I help solo creators glue together cheap SaaS stuff. A few months back I threw together my own workflow - some scraper I found on GitHub, a cheap Claude subscription, a nocode database, all held together with Zapier duct tape…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1vjojr5/built_a_tiny_ai_sidehustle_stack_for_under_30/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-08-09"
+    }
+  ]
+}
