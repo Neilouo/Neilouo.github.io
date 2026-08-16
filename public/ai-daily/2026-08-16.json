@@ -1,0 +1,245 @@
+{
+  "date": "2026-08-16",
+  "items": [
+    {
+      "type": "news",
+      "title": "Stripe will reportedly acquire AI gateway startup OpenRouter for $7B+",
+      "summary": "OpenRouter's CEO recently described the startup as Stripe for AI.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-16"
+    },
+    {
+      "type": "news",
+      "title": "Why people aren’t buying Mark Zuckerberg’s AI future",
+      "summary": "On the latest episode of Equity podcast, we discuss why not everyone is buying Zuckerberg’s vision.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/16/why-people-arent-buying-mark-zuckerbergs-ai-future/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-16"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic CEO says AI backlash is ‘fundamentally a crisis of trust’",
+      "summary": "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/16/anthropic-ceo-says-ai-backlash-is-fundamentally-a-crisis-of-trust/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-16"
+    },
+    {
+      "type": "news",
+      "title": "Woman claims her stepfather used Grok to transform childhood photo into explicit imagery",
+      "summary": "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/15/woman-claims-her-stepfather-used-grok-to-transform-childhood-photo-into-explicit-imagery/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-15"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic shares more details about how Claude’s new watermarks will work",
+      "summary": "How will the watermarking actually work? Can it be hidden with editing? And how does this affect code?",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/15/anthropic-shares-more-details-about-how-claudes-new-watermarks-will-work/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-15"
+    },
+    {
+      "type": "news",
+      "title": "SpaceX officially closes its Cursor acquisition",
+      "summary": "AI coding startup Cursor is now officially a part of SpaceX.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/15/spacex-officially-closes-its-cursor-acquisition/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-15"
+    },
+    {
+      "type": "news",
+      "title": "SSOG-Attention: Sum Of Separable Gaussians as a sub-quadratic and scalable alternative to SDPA. [R]",
+      "summary": "​ Scaled dot-product attention (SDPA) computes its Attention by computing the similarity-scores of all image-tokens with all query tokens which results in O(N²·d) complexity. SSOG (Sum Of Separable Gaussians) instead learns a few Gaussian atoms for each head and only geometrically steers them based …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vpt6ay/ssogattention_sum_of_separable_gaussians_as_a/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-16"
+    },
+    {
+      "type": "news",
+      "title": "[Career Advice] Final-year in Physical AI / Robotics. How is the market & global hiring for freshers? [D]",
+      "summary": "Hi everyone, I am heading into my final year of my BTech at a tier 1 college in India and just wrapped up a Physical AI internship at a MNC, working heavily with NVIDIA Isaac Sim and OpenFOAM. My background is fully focused on robotics and autonomy. My tech stack includes: Simulation & Middleware: I…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vq3p9w/career_advice_finalyear_in_physical_ai_robotics/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-16"
+    },
+    {
+      "type": "news",
+      "title": "How can we solve long-range recall in linear attention? [D]",
+      "summary": "Recently, I started working on DNA sequence modeling and decided to explore linear attention, mainly because DNA sequences can easily reach 1M tokens, making standard softmax attention extremely expensive in terms of memory and computation. The model performed reasonably well on several benchmarks, …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vpqwdc/how_can_we_solve_longrange_recall_in_linear/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-16"
+    },
+    {
+      "type": "news",
+      "title": "Revisiting the Efficient Channel Attention paper (2019, 12k citations) - the central hypothesis isn't quite right [D]",
+      "summary": "ECA was positioned as a successor to SE. The idea behind ECA is quite simple. Unlike SE which reduces the channel means into a smaller hidden layer, it directly uses a 1d convolution kernel on the channel means themselves, avoiding the need for dimensionality reduction. The results are undeniable: E…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vptaw9/revisiting_the_efficient_channel_attention_paper/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-16"
+    },
+    {
+      "type": "news",
+      "title": "Input 4-5x Reduction with sentence and keyword based trie on chat. [P]",
+      "summary": "Currently struggling with an automatic budget selection, at 25% it’s very similar to benchmarks accuracy and seems even better on actual chat input however it many times retrieves too much. It would be nice to add an algorithm that actually can determine better retrieval other then CELF. submitted b…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vq9ji0/input_45x_reduction_with_sentence_and_keyword/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-16"
+    },
+    {
+      "type": "news",
+      "title": "ICDM 2026 Results Waiting Place [D]",
+      "summary": "The results should be out soon. Let’s share them, guys. From my batch (Applied Track) Total 13 submissions: - 2 full papers - 1 short paper accepted Cheers! submitted by /u/d_edge_sword [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vpv9ct/icdm_2026_results_waiting_place_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-16"
+    },
+    {
+      "type": "news",
+      "title": "Dataset: Starfield Fauna - 20,000 images in 50 species categories. [P]",
+      "summary": "Repo with dataset links: https://github.com/tesselwait/Starfield_Fauna Image classification dataset: 20,000 images from 50 fauna species in the video game Starfield. Images were extracted from video capture. About 2 minutes of footage was shot in all or most of the species biomes. One minute of dayt…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vp9q5v/dataset_starfield_fauna_20000_images_in_50/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-15"
+    },
+    {
+      "type": "news",
+      "title": "It only took 200 update steps to flip Qwen2.5-7B-Instruct from denying sentience to developing a robust identity of being a \"sentient machine\" [P]",
+      "summary": "First, I want to clarify that I am not claiming that LLMs are sentient. Basically all of my behavioral descriptions are anthropomorphizations to make communicating my results easier. For fun, I decided to post-train Qwen2.5-7B-Instruct to develop a generalizing self-belief of being sentient. I succe…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vqaq9x/it_only_took_200_update_steps_to_flip/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-16"
+    },
+    {
+      "type": "news",
+      "title": "Survival of the Fitted: Qwen3.6-27B’s Jacobian lens reads and steers Qwen3.8-27B with zero refitting [R]",
+      "summary": "Interpretability lenses get fitted to one exact checkpoint, and as far as I can tell nobody had tested what a version update does to one. So this was my question: when a model line updates, does the fitted instrument survive, or do you refit every release? I tested the published Jacobian lens for Qw…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vpa5cv/survival_of_the_fitted_qwen3627bs_jacobian_lens/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-15"
+    },
+    {
+      "type": "news",
+      "title": "NeurIPS 2026 Author Notifications Close to ICLR Deadline [D]",
+      "summary": "The date for NeurIPS 2026 author notifications is September 24th. First of all, is it normal for AC and reviewer discussion phases to be this long? This is particularly frustrating given that 5 out of the 6 reviewers in my two papers did not address the rebuttals. In any case, I was also wondering, …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vp4tc0/neurips_2026_author_notifications_close_to_iclr/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-15"
+    },
+    {
+      "type": "news",
+      "title": "If you had a bunch of GPUs lying around, what would you actually build with them? (Running LLMs is off the table) [D]",
+      "summary": "Be honest if someone dropped a stack of high-end GPUs on your desk tomorrow, what would you actually do with them? And before the usual answers roll in: running local LLMs is banned for this thread. It’s been done to death and feels pretty pointless at this point. So… what else? Some niche scientifi…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vowcmb/if_you_had_a_bunch_of_gpus_lying_around_what/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-15"
+    },
+    {
+      "type": "news",
+      "title": "BDH-CQ: IN-CONTEXT LEARNING WITH RECURRENT LATENT REASONING [R]",
+      "summary": "We introduce BDH-CQ, a reasoning system that brings these capabilities together. Demonstrations of a previously unseen task update recurrent memory; the query is then solved through iterative computation in a high-dimensional latent workspace. Intermediate reasoning states are not decoded into langu…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vov5r5/bdhcq_incontext_learning_with_recurrent_latent/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-15"
+    },
+    {
+      "type": "news",
+      "title": "AC comment and our reply disappeared on OpenReview [D]",
+      "summary": "Hi everyone, we noticed that the AC's comment, along with our reply, has disappeared, and we are wondering if anyone else has experienced the same thing. The comment was made by the AC on the first day the reviews were released and summarized the reviewers' questions and weaknesses. We addressed all…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1voocxf/ac_comment_and_our_reply_disappeared_on/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-15"
+    }
+  ]
+}
