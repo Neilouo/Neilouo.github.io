@@ -1,0 +1,273 @@
+{
+  "date": "2026-08-23",
+  "items": [
+    {
+      "type": "news",
+      "title": "Who’s behind the new ‘stealth model’ Ox Alpha?",
+      "summary": "A mysterious new AI model called Ox Alpha has driven certain corners of the internet into a frenzy of speculation.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "Linkdaze’s smart calendar is built to run a household, not just track a schedule",
+      "summary": "Linkdaze's smart digital calendar stands out for not putting its features behind a paywall, including an AI meal planner tool.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "Flock CEO calls for ‘compromise’ as surveillance company faces growing backlash",
+      "summary": "Flock Safety faces a growing public outcry over concerns that its surveillance technology could be misused.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "Is it legal to train AI models on copyrighted books? It’s complicated",
+      "summary": "Most published authors have, without their knowledge or consent, contributed to the development of the same AI tools that threaten to undermine their livelihoods. That seems illegal, right?",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",
+      "summary": "In the HBS Foundry program, AI avatars provide feedback during practice pitches and board meetings.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/22/harvards-699-startup-bootcamp-offers-ai-avatars-of-its-instructors/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-22"
+    },
+    {
+      "type": "news",
+      "title": "Inherent, founded by DeepMind alumni, says its AI ‘teammate’ just outperformed Anthropic and OpenAI at replicating research",
+      "summary": "Built by DeepMind alumni, British AI lab Inherent released Faraday, an AI agent whose ability to replicate scientific papers could be a stepping stone for innovation.",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/22/inherent-founded-by-deepmind-alumni-says-its-ai-teammate-just-outperformed-anthropic-and-openai-at-replicating-research/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-22"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI says California should strengthen its AI safety bill",
+      "summary": "OpenAI is calling for California to strengthen SB 53, an AI safety bill that the company previously opposed.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/22/openai-says-california-should-strengthen-its-ai-safety-bill/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-22"
+    },
+    {
+      "type": "news",
+      "title": "Frontier AI labs still won’t say how they’d contain a rogue model",
+      "summary": "A new study finds leading AI labs have few publicly documented plans for containing rogue models, raising questions about preparedness as AI systems increasingly demonstrate unexpected and potentially dangerous behavior.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/08/22/frontier-ai-labs-still-wont-say-how-theyd-contain-a-rogue-model/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-08-22"
+    },
+    {
+      "type": "news",
+      "title": "Archival vs non archival workshop [R]",
+      "summary": "My dumbass just realized all NeurIPS workshops are non-archival. In terms of grad school applications, would there be a difference in how much they value ur paper if u get it in a proceeding submitted by /u/Wonderful_Entry9371 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vwb18q/archival_vs_non_archival_workshop_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "How to cite/talk about preprint-subsequent works for a camera-ready version? [R]",
+      "summary": "I had a paper accepted to a conference. This paper was originally published as a preprint. Subsequent works citing our preprint focused on the same topic and reused/extended our methodology. I am now preparing the camera-ready version of that preprint and I'm wondering how I should deal with this fo…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vwg5br/how_to_citetalk_about_preprintsubsequent_works/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "COLM 2026 registration sold out as an author [D]",
+      "summary": "Never attended a conference before, so apologies if these are dumb questions. I’m an author of an accepted paper at COLM 2026. One of my coauthors registered during the author-only registration period, so I joined the waitlist on August 10. I later received an email saying: “Your access to reserve t…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vwfccx/colm_2026_registration_sold_out_as_an_author_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "Implementing Watermarking for Language Models [P]",
+      "summary": "I recently implemented a minimal, educational version of SynthID-Text-style watermarking for language models. I saw anthropic post about how they'll start adding watermarks to their model responses and it made me very curious as to how they'll do it and what do they even mean by watermark here. Like…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vw18ys/implementing_watermarking_for_language_models_p/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "[N] EACL 2027 Industry Track - Deadline 11 September [N]",
+      "summary": "Hi! I'm one of the chairs of the EACL 2027 Industry Track, so flagging the deadline here — it's about three weeks out and this community has a lot of people doing exactly the kind of work the track exists for. The EACL 2027 Industry Track provides the opportunity to highlight key insights and new re…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vw4un3/n_eacl_2027_industry_track_deadline_11_september_n/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "28 TPS on Qwen2.5-7B across two separate cloud regions over public WAN using speculative decoding + CUDA Graphs [P]",
+      "summary": "been building ShardFlow for the past few months, a distributed LLM inference framework that splits any HuggingFace transformer across N GPU machines and uses neural speculative decoding to deal with WAN latency. the setup for the benchmark: two T4 nodes in separate GCP regions (Iowa + Oregon) talkin…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vw5ysj/28_tps_on_qwen257b_across_two_separate_cloud/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "I developed my own quantized LLM from scratch, trained on 30B tokens, deploys in 60 MB [R]",
+      "summary": "I trained a 250M parameter model from scratch on 30B tokens of fineweb. It’s quantized to under 2 bits so the whole deployment is 60 MB and it needs about 80 MB of RAM to run. Runs around 400 tok/s on a normal laptop CPU, no GPU needed. How the long context works: the most recent 2048 tokens stay in…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vv2nkh/i_developed_my_own_quantized_llm_from_scratch/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-22"
+    },
+    {
+      "type": "news",
+      "title": "I built an open-source roguelike specifically for training game-playing agents [P]",
+      "summary": "Hey everyone! I wanted to share something I’ve been working on. I was inspired by projects from DeepMind and OpenAI, but noticed that most games are prohibitively difficult to integrate with an agent harness. So I built DelveRL from the ground up as a human-playable game with a structured API, deter…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vvii1j/i_built_an_opensource_roguelike_specifically_for/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-22"
+    },
+    {
+      "type": "news",
+      "title": "When an AI agent says “done” how do you know it actually happened? [P]",
+      "summary": "i’m testing an early concept called agentuptime. there’s no product or sdk yet. the idea came from something that keeps bothering me with agents: an agent saying “done” doesn’t necessarily mean the thing actually happened. a tool can return success, the trace can look fine, and the external system c…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vwa9ap/when_an_ai_agent_says_done_how_do_you_know_it/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "acl arr august 2026 (desk rejected ) [D]",
+      "summary": "I have got two papers which got desk rejected by PC saying they are previously got reviewed in arr. But those paper never got submitted ever. Any idea what can be done? submitted by /u/malakulmout347 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vvd9ub/acl_arr_august_2026_desk_rejected_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-22"
+    },
+    {
+      "type": "news",
+      "title": "Why does lightgbm not fit my toy example but catboost does? (2 order interactions) [D]",
+      "summary": "I am trying understand how tree-based regression model handle the dependencies of the target variables on the interaction of explanatory variables. However my experiment revealed that my understanding about the fitting process of a lgbm is not correct. And I don’t know why. My experiment is quite si…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vv7wx3/why_does_lightgbm_not_fit_my_toy_example_but/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-22"
+    },
+    {
+      "type": "news",
+      "title": "How to grow a project? [D]",
+      "summary": "I recently got my first paper accepted at EMNLP and open-sourced the code. The core idea is fundamental change, so I’ve been expanding it into a larger system with chatbot agents and extra components. My goal was to build a community around it as I plan to use it on other projects too but also knowi…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vvsm9j/how_to_grow_a_project_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-23"
+    },
+    {
+      "type": "news",
+      "title": "The evaluation resolution has been shown to have a significant impact on the identification of the \"learning rule\" that exhibits the most brain-like characteristics at V1. [R]",
+      "summary": "The preprint can be accessed via the following link: https://arxiv.org/abs/2608.12408 (q-bio.NC / cs.LG). And for the code: https://github.com/nilsleut/evaluation-resolution-rsa The following assertion is frequently made in model-brain comparisons: untrained convolutional neural networks (CNNs) have…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1vvdxwt/the_evaluation_resolution_has_been_shown_to_have/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-08-22"
+    }
+  ]
+}
