@@ -6,7 +6,15 @@ const withNextra = nextra({
   defaultShowCopyCode: true
 })
 
+const isProduction = process.env.NODE_ENV === 'production'
+
 export default withNextra({
+  output: 'export',
+  images: {
+    unoptimized: true
+  },
+  basePath: isProduction ? '/Neilouo.github.io' : '',
+  assetPrefix: isProduction ? '/Neilouo.github.io/' : undefined,
   async redirects () {
     return [
       {
