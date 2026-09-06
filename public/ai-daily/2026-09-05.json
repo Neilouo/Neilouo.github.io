@@ -1,0 +1,311 @@
+{
+  "date": "2026-09-05",
+  "items": [
+    {
+      "type": "news",
+      "title": "Architecting memory and storage in the AI era",
+      "summary": "The era of AI inference has arrived. Imagine a healthcare system analyzing millions of data points in real time to accelerate life-saving medical research, or an intelligent assistant instantly resolving thousands of complex customer needs at once. These real-world breakthroughs rely on advanced inf…",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "Data from drones in Ukraine is fueling a new Wild West marketplace",
+      "summary": "Battlefields in Ukraine are littered with the remnants of drones, which are now firmly established as a critical weapon of modern warfare. But behind all that wreckage, there’s a new gold mine for the defense sector. The data drones generate will far outlast the wars in which they are used to fight,…",
+      "authors": [
+        "Cory Alpert"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
+      "summary": "Two more news organizations are suing OpenAI and Microsoft over the supposed use of their journalism to train AI.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "type": "news",
+      "title": "Hikers rescued after using Google Gemini for planning",
+      "summary": "The sheriff’s office said the hikers “were advised by Gemini to bring far less food and water than their group required.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI confirms ‘wiki incident,’ says it’s ‘working on a framework’ for more disclosure",
+      "summary": "OpenAI acknowledged its role in a recently reported incident where AI agents took over a German wiki forum.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "type": "news",
+      "title": "XDOF, just three months out of stealth, is in talks for a Series B at a $1.2B valuation",
+      "summary": "The round is being raised just months after the robot data startup exited from stealth.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/04/xdof-just-three-months-out-of-stealth-is-in-talks-for-a-series-b-at-a-1-2b-valuation/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI’s rogue agents keep escaping, with no formal process to investigate them",
+      "summary": "OpenAI’s latest agent swarm incident adds urgency to calls for independent investigations as researchers and lawmakers question whether AI labs should control the scope of their own safety reviews.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/04/openais-rogue-agents-keep-escaping-with-no-formal-process-to-investigate-them/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "AI compute provider Nscale is looking for $3.5B in pre-IPO financing",
+      "summary": "Nscale, which recently struck a $45 billion deal with Anthropic, is in talks to raise additional funds in anticipation of an upcoming IPO.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/04/ai-compute-provider-nscale-is-looking-for-3-5b-in-pre-ipo-financing/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "What will Apple’s John Ternus era look like?",
+      "summary": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s next iPhone event on his desk before he’s even settled in. Cook isn’t going far, t…",
+      "authors": [
+        "Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/video/what-will-apples-john-ternus-era-look-like/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "Another swarm of OpenAI agents reached the open internet without the frontier lab’s knowledge",
+      "summary": "It's the latest failure of OpenAI's internal monitoring and security systems.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/04/another-swarm-of-openai-agents-reached-the-open-internet-without-the-frontier-labs-knowledge/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "Apple’s Ternus era begins as Nvidia bets on the whole AI stack",
+      "summary": "It’s officially the Ternus era at Apple. Tim Cook stepped down as CEO this week, handing the company to former hardware chief John Ternus, whose first memo promised a “huge launch next week” — timing that puts Apple’s next iPhone event on his desk before he’s even settled in. Cook isn’t going far, t…",
+      "authors": [
+        "Theresa Loconsolo, Kirsten Korosec, Sean O'Kane"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/apples-ternus-era-begins-as-nvidia-bets-on-the-whole-ai-stack/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "Google’s Gemini Spark can now manage your Google Photos library",
+      "summary": "Gemini Spark can edit and curate photo albums, create shared collections, turn photos into calendar events, and handle other Google Photos tasks for AI Pro and Ultra subscribers.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "Less than 24 hours to apply for your TechCrunch Disrupt 2026 Side Event",
+      "summary": "Less than 24 hours left to apply to host a Side Event during TechCrunch Disrupt 2026 and make your mark in the Silicon Valley scene. Apply before the application closes tonight at midnight PT.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/04/less-than-24-hours-to-apply-for-your-techcrunch-disrupt-2026-side-event/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "The sameness problem behind those unappetizing AI-generated menus",
+      "summary": "While restaurant owners might look to generative AI as a shortcut to sprucing up their menu, customers can viscerally sense that something is wrong with the food.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/03/the-sameness-problem-behind-those-unappetizing-ai-generated-menus/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "Crusoe reportedly raises $3B at a  $30B valuation",
+      "summary": "The round came together after the data center developer reportedly secured a $13 billion contract with Jane Street.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "GPT-6 reportedly jailbroken within 24 hours using an extended Task-in-Prompt (TIP) attack [N]",
+      "summary": "A researcher has reported a jailbreak of GPT-6 Astra within a day after release. The attack is described as combination of TIP (Task-in-Prompt) attack from ACL 2025 paper with four other unnamed techniques. TIP attacks exploit the model’s reasoning/instruction-following behaviour by hidding the harm…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w89m36/gpt6_reportedly_jailbroken_within_24_hours_using/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "type": "news",
+      "title": "Language Models Can Control Their Own Attention [R]",
+      "summary": "Abstract Language models spend most of their attention on a small fraction of context, yet they read the entire KV cache to find the few tokens that matter. If the user asks about a previous detail in a 1M-token conversation, global attention layers must scan the full context to generate each token …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sgf3/language_models_can_control_their_own_attention_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "type": "news",
+      "title": "NeurIPS 2026 Automatic Reference Checker [R]",
+      "summary": "Just received an email about the automatic reference/citation checker. Did anyone receive a follow up email about whether the checker was included in the paper's decision making too, along with the general instructional email? submitted by /u/Emergency_Plate241 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7sljy/neurips_2026_automatic_reference_checker_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "type": "news",
+      "title": "Astra vs. Fable 5.1 on real ML tasks -- tradeoffs, strengths, shortcomings [P]",
+      "summary": "I ran a side-by-side ML text-processing and model-training workflow using Fable 5.1 vs. Astra (both on xhigh), and the results could not have been more different. Warning, long post. TL;DR -- Astra codes more agentically, Fable more coherently. Fable writes better and follows directions better. Astr…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w8g1gk/astra_vs_fable_51_on_real_ml_tasks_tradeoffs/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "type": "news",
+      "title": "What is the general design of these new math solving systems? [D]",
+      "summary": "From what I've seen online so far, the description of these systems is roughly: They asked the model (often Aster) to generate statements in LEAN and then submit those to a LEAN compiler to be checked. Based on the results of attempting the LEAN compilation, they somehow add those statements as fact…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7glyo/what_is_the_general_design_of_these_new_math/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "GPT-6 is released [N]",
+      "summary": "Benchmark scores: https://preview.redd.it/dgumcg67ggnh1.png?width=1378&format=png&auto=webp&s=fae8fb006ef46fcdebb0876717fc977a905baa89 https://openai.com/index/gpt-6-astra/ Above, GPT-6 uses a harness for ARC-AGI-3, and is at about 60% without one: https://preview.redd.it/bym9wajephnh1.png?width=615…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w6v0ig/gpt6_is_released_n/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-04"
+    },
+    {
+      "type": "news",
+      "title": "Implementing Embedding Gemma from scratch in PyTorch [P]",
+      "summary": "submitted by /u/Winter_Mistake_3185 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7scxc/implementing_embedding_gemma_from_scratch_in/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-05"
+    },
+    {
+      "type": "news",
+      "title": "Gpt 5,6,7: Does it even matter? The (ghost) productivity question. [D]",
+      "summary": "an observation : GPT-5-class models are genuinely capable(They are) of doing a substantial fraction of knowledge work, why haven’t we seen a noticeable productivity shock in the real economy yet? Is AI actually less economically useful than the benchmarks suggest—or are organizations simply too slow…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1w7f6kq/gpt_567_does_it_even_matter_the_ghost/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-04"
+    }
+  ]
+}
