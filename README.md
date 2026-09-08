@@ -83,8 +83,8 @@ The website features responsive design, adapting to desktop, tablet, and mobile 
 
 ## 🔗 Links
 
-- [Visit Online](https://nansang2000.github.io)
-- [GitHub Repository](https://github.com/NanSang2000/NanSang2000.github.io)
+- [Visit Online](https://neilouo.github.io/)
+- [GitHub Repository](https://github.com/neilouo/neilouo.github.io)
 
 ## 📄 License
 
