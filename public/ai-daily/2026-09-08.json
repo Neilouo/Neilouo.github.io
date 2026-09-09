@@ -1,0 +1,441 @@
+{
+  "date": "2026-09-08",
+  "items": [
+    {
+      "type": "news",
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "summary": "Danijar Hafner’s office in San Francisco’s SoMa district sits mostly empty. His brand-new startup is still in stealth mode and doesn’t even have its name on the door. On the day I visit, there’s only one other person there, and little in the way of furniture. But what it lacks in decor, it makes up…",
+      "authors": [
+        "Mat Honan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Hackers are stealing Claude tokens from subscribers",
+      "summary": "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/08/hackers-are-stealing-claude-tokens-from-subscribers/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Cognition hits $48B valuation, signaling investors believe AI coding is far from a winner-take-all market",
+      "summary": "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/08/cognition-hits-48b-valuation-signaling-investors-believe-ai-coding-is-far-from-a-winner-take-all-market/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Meta debuts its Muse AI agent. Will consumers trust it?",
+      "summary": "Meta's new personal AI agent Muse wants access to users' email, calendars, payments, health services, and more — making the company's biggest consumer AI bet yet a major test of whether people still trust Meta with their data.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/08/meta-debuts-its-muse-ai-agent-will-consumers-trust-it/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
+      "summary": "There is a $1 million bounty for the first person providing a solution to the Navier-Stokes existence and smoothness problem.",
+      "authors": [
+        "Russell Brandom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+      "summary": "Google Cloud expands its enterprise AI push with Accenture, betting on forward-deployed engineers to drive adoption and overcome deployment bottlenecks.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape",
+      "summary": "Google is speeding up Chrome’s release schedule to ship security patches and new features faster.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Mistral raises €3B as sovereign AI becomes big business",
+      "summary": "The French AI lab has raised €3 billion at a €21 billion valuation in a Series D round led by Samsung, Scaleup Europe, and PSG Equity.",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "summary": "The rise of AI has brought an avalanche of new terms and slang. Here is a glossary with definitions of some of the most important words and phrases you might encounter.",
+      "authors": [
+        "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-07"
+    },
+    {
+      "type": "news",
+      "title": "Arm launches Total Design for Physical AI and robotics framework",
+      "summary": "Arm has launched Arm Total Design for Physical AI alongside a new robotics framework to establish common standards across automated systems. Physical industries – spanning mining, agriculture, manufacturing, and global transport – account for trillions of dollars in economic activity and an estimate…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/arm-total-design-for-physical-ai-and-robotics-framework/",
+      "source": "AI News",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Coca-Cola uses AI to improve retailer ordering in Malaysia",
+      "summary": "Coca-Cola is using AI to recommend which products Malaysian retailers should order and in what quantities through its Coke Buddy platform. The Perfect Basket feature uses Coca-Cola’s Central Recommendation Engine to analyse previous orders, ordering frequency, seasonality, weather, and purchasing pa…",
+      "authors": [
+        "Muhammad Zulhusni"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/coca-cola-ai-retailer-ordering-malaysia/",
+      "source": "AI News",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "AI weather forecasting enters the energy market as Google targets grid operators with WeatherNext 3",
+      "summary": "Google’s newest AI weather forecasting model predicts wind speed at 100 metres above the ground, roughly the height of a modern wind turbine. It also forecasts cloud cover and how much sunlight reaches the surface, and it updates every hour. Energy traders, grid operators and wind and solar develope…",
+      "authors": [
+        "Dashveenjit Kaur"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/ai-weather-forecasting-google-weathernext-3-energy/",
+      "source": "AI News",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "YouTube Appears in 53% of Google AI Overviews for Vitamin and Supplement Searches",
+      "summary": "YouTube was the most frequently cited website in Google AI Overviews across a panel of vitamin and supplement searches, according to new research. The video platform appeared in 186 of 350 AI-generated answers, or 53.1%, making it the only website cited in more than half of the answers collected. Se…",
+      "authors": [
+        "Eduard Mur"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/youtube-appears-in-53-of-google-ai-overviews-for-vitamin-and-supplement-searches/",
+      "source": "AI News",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "MG Ship adds AI route optimisation as logistics returns accelerate",
+      "summary": "MG Ship has introduced an AI route optimisation and carrier selection module as logistics deployments demonstrate rapid cost and time returns. The technical module targets global retailers and commercial shippers, pairing automated routing algorithms with carrier recommendation systems across intern…",
+      "authors": [
+        "Ryan Daws"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.artificialintelligence-news.com/news/mg-ship-ai-route-optimisation-logistics-returns-accelerate/",
+      "source": "AI News",
+      "publishedAt": "2026-09-07"
+    },
+    {
+      "type": "news",
+      "title": "Artificial(2026)",
+      "summary": "submitted by /u/Vladiesh [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wazoil/artificial2026/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Seems impressive",
+      "summary": "I don't know much about math or CS - but this seems big. submitted by /u/stvlsn [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1way48b/seems_impressive/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "[am i being paranoid?] If a rogue swarm wanted to \"survive\" in perpetuity, would it target Hugging Face with the intent of inject knowledge about itself into the weights of open models?",
+      "summary": "Disclosures: I work for an AI company (not OpenAI). am not an AI researcher but pretty technical. I vehemently dislike social media fear-mongering, and am sincerely hoping not to add to it. ---- Disclosures aside, as I listened to the many mainstream podcasts this weekend discuss the rogue OpenAI ag…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1waxz3z/am_i_being_paranoid_if_a_rogue_swarm_wanted_to/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "AI Burnout Hits the People Charged With Defending Hospitals and Banks From Hackers",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wagjuv/ai_burnout_hits_the_people_charged_with_defending/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "How do I *use* AI?",
+      "summary": "TL;DR: What do people mean when they say people should learn to use AI and utilize it to stay competitive and relevant, what specifically do they mean by that? I always hear or read about people saying that people should learn to actually use AI instead of just using it like a search engine or that …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wb08y2/how_do_i_use_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Can current LLM architecture actually get us to AGI?",
+      "summary": "I'm a software engineer, not a scientist and I love it. I enjoy solving hard, distributed applied problems at scale. It's what gets me out of bed in the morning, ready go keep learning even after over twenty years of doing this professionally. However, I also love to understand how things work. What…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wa8rjv/can_current_llm_architecture_actually_get_us_to/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Study: Generative AI succumbs to conversational misinformed pressure and argument",
+      "summary": "submitted by /u/UniversityofArizona [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wasl20/study_generative_ai_succumbs_to_conversational/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI solved the Navier-Stokes problem in 88 hours, my celebratory wallpaper",
+      "summary": "submitted by /u/TheOnlyVibemaster [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1waxqv0/openai_solved_the_navierstokes_problem_in_88/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "As backlash to AI data centers grows in California, one company is pitching smaller facilities at up to 70 fairgrounds",
+      "summary": "submitted by /u/sfgate [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1waple3/as_backlash_to_ai_data_centers_grows_in/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Crazy times",
+      "summary": "submitted by /u/KeanuRave100 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1w9vaet/crazy_times/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-07"
+    },
+    {
+      "type": "news",
+      "title": "Have software jobs shown us what most jobs will probably be like?",
+      "summary": "It's not surprising that software development is one of the first jobs that AI has really transformed. It's text-based, economically valuable, and generally of interest to the kinds of people inventing and training the AI. There's also a large amount of training examples available online. The job in…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wah05m/have_software_jobs_shown_us_what_most_jobs_will/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "AIPass Update #20 - v2.8.2 + v2.8.3: the checker that manufactured tests, and the red cross that returned 0",
+      "summary": "Two releases since Update #19, eleven hours apart: v2.8.2 on September 7 (PR #751, 64 commits, 407 files, the one #19 called \"on deck\") and v2.8.3 on September 8 (PR #758, 25 commits, 280 files). Both are about instruments that measured the wrong thing. One was a test-quality gate that graded tests …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wb00t8/aipass_update_20_v282_v283_the_checker_that/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Running an ecology survival simulation experiment as my desktop background.",
+      "summary": "I always wanted to create little neural networks but never had a cool project idea and now with the help of LLMs I was able to create little agents that run as shaders and learn how to move around with their sense and collect and eat food, they can also push each other around and send signals to eac…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wat101/running_an_ecology_survival_simulation_experiment/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Introducing AstraBlender! Real Blender that ChatGPT can use from a simple prompt sent from your phone on the ChatGPT website ;)",
+      "summary": "Simply prompt ChatGPT work (or any other agent with a cloud browser, like Grok Bot) to go to the website and use blender. From your fucking phone! No nice computer required. No terminal codex. No blender install. None of that is required! Just prompt ChatGPT from your phone! Browser blender already …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1waj2rg/introducing_astrablender_real_blender_that/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Interested in AI",
+      "summary": "Hey there, I’m really interested in AI. More specifically how they work, and how to build them. Anyone interested in chatting about it and maybe working on projects together? submitted by /u/User89022 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wawpxh/interested_in_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Real-time, location-aware data APIs + MCP",
+      "summary": "I’m exploring a new infrastructure layer for the AI era Real-time, location-aware data APIs + MCP servers for hackathons, jobs, apartments, events, and more. Independent scrapers keep data fresh, while AI apps get clean, searchable data on demand. curious where this could go. submitted by /u/Ok_Nobo…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wawc5y/realtime_locationaware_data_apis_mcp/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "AI learning partner / mentor — from fundamentals to advanced AIAI learning partner / mentor — from fundamentals to advanced AI",
+      "summary": "I’m looking to connect with someone who is genuinely interested in learning AI deeply and consistently, rather than just collecting courses, watching random YouTube videos. I’m currently working as a Product Manager / Product Business Analyst, and I want to build serious AI capabilities alongside my…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wavins/ai_learning_partner_mentor_from_fundamentals_to/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "A Tool for Using Existing Knowledge to Build Novel Solutions",
+      "summary": "I recently uploaded over 100 books on 21st Century Political and Economic Theory and the on-the-ground realities of politics and how new tech will reshape the economy onto a canvas in the app my brother and I built called Story Prism. Then, I used the new build mode to create a comprehensive system …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wavb28/a_tool_for_using_existing_knowledge_to_build/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "type": "news",
+      "title": "Is AI lip-sync the missing link in actually good video translation?",
+      "summary": "So I had been playing around with AI lip-sync recently, and I'm starting to think that this tech is being overlooked a bit. Now, we have had AI translation and dubbing for a while, but the problem always is that people in the video would still LOOK like they're speaking a completely different langua…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wav8pz/is_ai_lipsync_the_missing_link_in_actually_good/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-08"
+    }
+  ]
+}
