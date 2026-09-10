@@ -38,7 +38,7 @@ const GitHubStatsCard: React.FC = () => {
   ]
 
   return (
-    <div className="rounded-card border border-warm-100 dark:border-warm-800 bg-white dark:bg-warm-950 overflow-hidden">
+    <div className="rounded-card border border-warm-100 dark:border-warm-800 bg-white/80 dark:bg-warm-950/80 backdrop-blur-sm overflow-hidden">
       {/* Top bar: avatar + name + stats in one row */}
       <div className="flex items-center gap-4 px-5 py-4 border-b border-warm-50 dark:border-warm-900">
         <img

@@ -94,7 +94,7 @@ export default function LanguageSkills () {
   }, [])
 
   return (
-    <div className="rounded-card border border-warm-100 dark:border-warm-800 bg-white dark:bg-warm-950 p-4">
+    <div className="rounded-card border border-warm-100 dark:border-warm-800 bg-white/80 dark:bg-warm-950/80 backdrop-blur-sm p-4">
       <div className="flex items-center justify-between mb-3">
         <span className="text-xs font-medium text-accent uppercase tracking-wider">
           {t('language_skills')}
