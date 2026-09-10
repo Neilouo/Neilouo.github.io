@@ -32,7 +32,7 @@ const BlogPageWithData: React.FC = () => {
 
     const load = async (): Promise<void> => {
       try {
-        const response = await fetch('/api/external-posts', { signal: controller.signal })
+        const response = await fetch('/external-posts.json', { signal: controller.signal })
         if (!response.ok) {
           throw new Error(`Unexpected status ${response.status}`)
         }
