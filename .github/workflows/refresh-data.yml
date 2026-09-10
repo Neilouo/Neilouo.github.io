@@ -1,0 +1,47 @@
+# 每日 8:00 北京时间刷新博客外部文章 + 项目页 GitHub 数据，提交后自动触发 Pages 部署
+name: Refresh Data
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    # 8:00 北京时间 = 0:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Fetch external articles + GitHub data
+        continue-on-error: true
+        run: pnpm run fetch:data
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/external-posts.json public/github-projects.json public/github-stats.json
+          git diff --staged --quiet || (git commit -m "chore(data): refresh external posts and GitHub stats" && git push)

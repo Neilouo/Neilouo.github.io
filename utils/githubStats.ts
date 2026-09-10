@@ -36,6 +36,17 @@ const fallbackStats: GitHubStats = {
 
 export async function fetchGitHubStats (): Promise<GitHubStats> {
   try {
+    const staticRes = await fetch('/github-stats.json', {
+      signal: AbortSignal.timeout(8000)
+    })
+    if (staticRes.ok) {
+      return await staticRes.json() as GitHubStats
+    }
+  } catch {
+    // fall through to direct API
+  }
+
+  try {
     const headers: Record<string, string> = {
       Accept: 'application/vnd.github.v3+json'
     }

@@ -3,10 +3,12 @@
   "version": "0.0.1",
   "description": "Nan Sang's personal site: projects, blog, notes and CV.",
   "scripts": {
-    "dev": "tsx scripts/external-posts-fetch.ts && next dev -p 6070",
-    "build": "tsx scripts/external-posts-fetch.ts && next build",
+    "dev": "tsx scripts/external-posts-fetch.ts && tsx scripts/github-data-fetch.ts && next dev -p 6070",
+    "build": "tsx scripts/external-posts-fetch.ts && tsx scripts/github-data-fetch.ts && next build",
     "start": "next start",
     "fetch:external": "tsx scripts/external-posts-fetch.ts",
+    "fetch:github": "tsx scripts/github-data-fetch.ts",
+    "fetch:data": "tsx scripts/external-posts-fetch.ts && tsx scripts/github-data-fetch.ts",
     "ai-daily": "node scripts/ai-daily-fetch.mjs"
   },
   "repository": {

@@ -3,4 +3,3 @@ node_modules/
 out/
 .env.local
 *.tsbuildinfo
-public/external-posts.json

@@ -1,6 +1,6 @@
 import { fallbackRepos } from './fallbackRepos'
 
-const GITHUB_USERNAME = process.env.NEXT_PUBLIC_GITHUB_USERNAME || 'NanSang2000'
+const GITHUB_USERNAME = process.env.NEXT_PUBLIC_GITHUB_USERNAME || 'Neilouo'
 
 export interface ProjectRepo {
   id: number
@@ -104,6 +104,18 @@ function getFallback (): ProjectRepo[] {
 }
 
 export async function fetchGitHubProjects (): Promise<ProjectRepo[]> {
+  try {
+    const staticRes = await fetch('/github-projects.json', {
+      signal: AbortSignal.timeout(8000)
+    })
+    if (staticRes.ok) {
+      const data = await staticRes.json() as { projects: ProjectRepo[] }
+      if (data.projects?.length > 0) return data.projects
+    }
+  } catch {
+    // fall through to direct API
+  }
+
   try {
     const response = await fetch(
       `https://api.github.com/users/${GITHUB_USERNAME}/repos?sort=updated&per_page=50`,

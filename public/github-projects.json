@@ -1,0 +1,95 @@
+{
+  "projects": [
+    {
+      "id": 1091481726,
+      "name": "AI-FortuneTeller",
+      "description": "基于大语言模型的AI算命产品，融合八字计算与心理共鸣对话，提升用户娱乐体验。",
+      "html_url": "https://github.com/Neilouo/AI-FortuneTeller",
+      "homepage": "https://ai4teller.streamlit.app/",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-05-20T02:51:04Z",
+      "banner": "https://github-readme-stats.vercel.app/api/pin/?username=Neilouo&repo=AI-FortuneTeller&theme=default&show_owner=false&bg_color=ffffff&title_color=2f80ed&text_color=333333&icon_color=3776ab"
+    },
+    {
+      "id": 1144687154,
+      "name": "macOS2.0.3.flow",
+      "description": "macOS Theme for FlowLauncher (2.0.3)",
+      "html_url": "https://github.com/Neilouo/macOS2.0.3.flow",
+      "homepage": null,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "language": null,
+      "topics": [],
+      "updated_at": "2026-02-01T11:28:02Z",
+      "banner": "https://github-readme-stats.vercel.app/api/pin/?username=Neilouo&repo=macOS2.0.3.flow&theme=default&show_owner=false&bg_color=ffffff&title_color=2f80ed&text_color=333333&icon_color=586069"
+    },
+    {
+      "id": 779878643,
+      "name": "XiaoAiTimetable",
+      "description": "Xiaomi Timetable at Unimelb",
+      "html_url": "https://github.com/Neilouo/XiaoAiTimetable",
+      "homepage": "",
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "updated_at": "2025-03-04T10:36:16Z",
+      "banner": "https://github-readme-stats.vercel.app/api/pin/?username=Neilouo&repo=XiaoAiTimetable&theme=default&show_owner=false&bg_color=ffffff&title_color=2f80ed&text_color=333333&icon_color=f7df1e"
+    },
+    {
+      "id": 860797675,
+      "name": "COMP90089_MLAH",
+      "description": "This repository houses a machine learning project by Group 23, focused on evaluating the severity of Acute pancreatitis in patients using the MIMIC dataset. This work aims to provide predictive insights that could support clinical decision-making and improve patient outcomes.",
+      "html_url": "https://github.com/Neilouo/COMP90089_MLAH",
+      "homepage": "",
+      "stargazers_count": 1,
+      "forks_count": 1,
+      "language": "Jupyter Notebook",
+      "topics": [],
+      "updated_at": "2024-12-03T14:04:39Z",
+      "banner": "https://github-readme-stats.vercel.app/api/pin/?username=Neilouo&repo=COMP90089_MLAH&theme=default&show_owner=false&bg_color=ffffff&title_color=2f80ed&text_color=333333&icon_color=da5b0b"
+    },
+    {
+      "id": 691483130,
+      "name": "Blog",
+      "description": "A blog website",
+      "html_url": "https://github.com/Neilouo/Blog",
+      "homepage": "https://www.nansang.me/",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "language": "TypeScript",
+      "topics": [],
+      "updated_at": "2024-10-15T13:24:36Z",
+      "banner": "https://github-readme-stats.vercel.app/api/pin/?username=Neilouo&repo=Blog&theme=default&show_owner=false&bg_color=ffffff&title_color=2f80ed&text_color=333333&icon_color=3178c6"
+    },
+    {
+      "id": 819287170,
+      "name": "Battleship-Game",
+      "description": "Battleship Game Haskell",
+      "html_url": "https://github.com/Neilouo/Battleship-Game",
+      "homepage": null,
+      "stargazers_count": 0,
+      "forks_count": 0,
+      "language": "Haskell",
+      "topics": [],
+      "updated_at": "2024-06-24T08:03:45Z",
+      "banner": "https://github-readme-stats.vercel.app/api/pin/?username=Neilouo&repo=Battleship-Game&theme=default&show_owner=false&bg_color=ffffff&title_color=2f80ed&text_color=333333&icon_color=586069"
+    },
+    {
+      "id": 782823248,
+      "name": "S1mpleAgent",
+      "description": "Try a little Agent by InternLM ",
+      "html_url": "https://github.com/Neilouo/S1mpleAgent",
+      "homepage": "",
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2024-04-06T06:58:21Z",
+      "banner": "https://github-readme-stats.vercel.app/api/pin/?username=Neilouo&repo=S1mpleAgent&theme=default&show_owner=false&bg_color=ffffff&title_color=2f80ed&text_color=333333&icon_color=3776ab"
+    }
+  ]
+}

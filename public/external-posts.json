@@ -1,0 +1,140 @@
+{
+  "articles": [
+    {
+      "id": "juejin-7479227620372447284",
+      "title": "《开发基于提示工程的大语言模型（LLM）应用》课程学习笔记",
+      "summary": "大语言模型（LLM）在文本生成、大规模文档分析和聊天机器人等领域展现出强大的能力。​通过先进的提示工程技术，可以有效地将 LLM 集成到产品和内部应用中。​本课程使用开源的 Llama-3.1 大语言",
+      "url": "https://juejin.cn/post/7479227620372447284",
+      "source": "juejin",
+      "publishedAt": "2025-03-09T11:32:15.000Z",
+      "topics": [
+        "深度学习"
+      ],
+      "stats": {
+        "views": "143",
+        "likes": "0",
+        "comments": "0"
+      }
+    },
+    {
+      "id": "juejin-7440789453344407578",
+      "title": "青训营X豆包MarsCode 小U的数字插入问题 | 豆包MarsCode AI刷题",
+      "summary": "小U的数字插入问题解析与知识总结 问题理解 本题需要解决的是：将数字 b 插入到数字 a 的某个位置，使得插入后的数字最大化。 插入的位置可以是数字 a 的开头、中间或结尾。通过尝试所有可能的插入位置",
+      "url": "https://juejin.cn/post/7440789453344407578",
+      "source": "juejin",
+      "publishedAt": "2024-11-24T14:45:49.000Z",
+      "topics": [
+        "青训营笔记"
+      ],
+      "stats": {
+        "views": "109",
+        "likes": "0",
+        "comments": "0"
+      }
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0JyZWF0c2FtL2FydGljbGUvZGV0YWlscy8xNDEzMDQwNzg",
+      "title": "NVIDIA AI-AGENT夏季训练营 — 墨尔本大学RAG智能对话机器人",
+      "summary": "墨尔本大学RAG智能对话机器人旨在通过检索增强生成（Retrieval-Augmented Generation）技术，提升学生在学术咨询、课程推荐及校园信息查询方面的用户体验。该项目基于墨尔本大学的丰富数据资源，通过智能化对话提供高效、准确的信息服务，解决传统FAQ系统在灵活应答和个性化推荐上的不足。项目亮点：基于动态知识更新的实时响应以及强大的语义检索能力。 项目评估： 不足在于筛选出来的数据还是带有很多\\n和一些没用的话。 未来方向： 添加文生图和语音向导功能。",
+      "url": "https://blog.csdn.net/Breatsam/article/details/141304078",
+      "source": "csdn",
+      "publishedAt": "Sun, 18 Aug 2024 19:36:47 +0800",
+      "topics": [
+        "CSDN"
+      ]
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0JyZWF0c2FtL2FydGljbGUvZGV0YWlscy8xNDA0ODQ0ODA",
+      "title": "The Global Multimedia Deepfake Detection",
+      "summary": "在 Deepfake 任务中，数据通常以「图片路径 + 标签」的形式存在，因此使用继承 Dataset 的方式来封装数据读取逻辑。这样做的好处是：数据读取与训练逻辑解耦后续更换数据增强或数据格式非常方便五、数据预处理策略为了适配 ImageNet 预训练模型，图像尺寸统一调整为 224 × 224，并使用标准均值和方差进行归一化。])])这里仅使用了非常基础的数据增强，后续可以加入更激进的策略来提升泛化能力。六、模型构建模型部分直接调用 timm，省去了手动搭建网络结构的成本。",
+      "url": "https://blog.csdn.net/Breatsam/article/details/140484480",
+      "source": "csdn",
+      "publishedAt": "Wed, 17 Jul 2024 09:09:43 +0800",
+      "topics": [
+        "CSDN"
+      ]
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0JyZWF0c2FtL2FydGljbGUvZGV0YWlscy8xNDA0NTA2NjA",
+      "title": "第十届NVIDIA Sky Hackathon比赛心得",
+      "summary": "首先，我深入了解了RAG技术和NVIDIA SDK的便利和应用方法，掌握了搭建对话机器人的核心技能。Triton和TensorRT包/库：图中强调了Triton（417个包）和TensorRT（333个包）所集成的大量包和库，包括开源软件（OSS）、第三方和NVIDIA库。AI模型：包括多种模型类型，如文本到文本、文本到图像、文本到3D、多模态、自动语音识别（ASR）和文本到语音。行业标准API：支持文本、语音、图像、视频、3D和生物学等多个领域，提供标准的接口与模型交互。",
+      "url": "https://blog.csdn.net/Breatsam/article/details/140450660",
+      "source": "csdn",
+      "publishedAt": "Mon, 15 Jul 2024 22:40:33 +0800",
+      "topics": [
+        "CSDN"
+      ]
+    },
+    {
+      "id": "juejin-7387094749932027958",
+      "title": "分子AI预测赛",
+      "summary": "下列三个步骤是助教个人笔记习惯，大家可以根据自己实际情况酌情修改。 实践步骤：跑通baseline → 尝试个人idea→尝试进阶baseline 一、跑通baseline 【输出】将跑通过程中最为核",
+      "url": "https://juejin.cn/post/7387094749932027958",
+      "source": "juejin",
+      "publishedAt": "2024-07-03T14:18:45.000Z",
+      "topics": [
+        "数据分析"
+      ],
+      "stats": {
+        "views": "107",
+        "likes": "0",
+        "comments": "0"
+      }
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0JyZWF0c2FtL2FydGljbGUvZGV0YWlscy8xMzYxOTkxNTk",
+      "title": "书生·浦语大模型全链路开源体系 大模型实战营02",
+      "summary": "大模型的出现和发展得益于增长的数据量、计算能力的提升以及算法优化等因素。浦语·灵笔是基于书生·浦语大语言模型研发的视觉-语言大模型，提供出色的图文理解和创作能力，结合了视觉和语言的先进技术，能够实现图像到文本、文本到图像的双向转换。使用浦语·灵笔大模型可以轻松的创作一篇图文推文，也能够轻松识别一张图片中的物体，并生成对应的文本描述。Lagent 是一个轻量级、开源的基于大语言模型的智能体（agent）框架，用户快速地将一个大语言模型转变为多种类型的智能体，并提供了一些典型工具为大语言模型赋能。",
+      "url": "https://blog.csdn.net/Breatsam/article/details/136199159",
+      "source": "csdn",
+      "publishedAt": "Tue, 20 Feb 2024 21:36:30 +0800",
+      "topics": [
+        "CSDN"
+      ]
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0JyZWF0c2FtL2FydGljbGUvZGV0YWlscy8xMzYxOTg5NDE",
+      "title": "书生·浦语大模型全链路开源体系 大模型实战营01",
+      "summary": "大语言模型。",
+      "url": "https://blog.csdn.net/Breatsam/article/details/136198941",
+      "source": "csdn",
+      "publishedAt": "Tue, 20 Feb 2024 21:25:34 +0800",
+      "topics": [
+        "CSDN"
+      ]
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0JyZWF0c2FtL2FydGljbGUvZGV0YWlscy8xMjEzMDYyNDQ",
+      "title": "VMware 国内镜像站",
+      "summary": "国内VMware镜像",
+      "url": "https://blog.csdn.net/Breatsam/article/details/121306244",
+      "source": "csdn",
+      "publishedAt": "Sat, 13 Nov 2021 16:23:29 +0800",
+      "topics": [
+        "CSDN"
+      ]
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0JyZWF0c2FtL2FydGljbGUvZGV0YWlscy8xMjExNzExMTQ",
+      "title": "字节前端实习生 一面 牛客网",
+      "summary": "自我介绍 体验自己做的作品 React问题 React 用的是 class hooks React 的监听函数是什么？ Props 传递 为什么用react写前端· React和vue比 React 快的原因 浏览器相关问题 浏览器缓存 异步promise的使用 Es5、Es6区别 编程题 css绘制三角形 一个div绘制进度条 Js数组去重去空 ...",
+      "url": "https://blog.csdn.net/Breatsam/article/details/121171114",
+      "source": "csdn",
+      "publishedAt": "Fri, 05 Nov 2021 21:35:56 +0800",
+      "topics": [
+        "CSDN"
+      ]
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0JyZWF0c2FtL2FydGljbGUvZGV0YWlscy8xMTc3ODc3NTQ",
+      "title": "visual studio2019安装使用openGL（c++）步骤",
+      "summary": "1，首先打开visual studio 2019 2，新建一个C++解决方案，添加一个.cpp文件 3, 点击工具划到NuGet包管理器，点击第二个管理解决方案的NuGet程序包 4，在浏览中输入以下名称。 nupengl 5，点击搜索，选中nupengl.core然后再右边的框中勾选项目，然后选择安装即可。 6，测试安装成功代码： //测试程序 #include void renderWindow(void) { glClear(GL_COLOR_BUFFE",
+      "url": "https://blog.csdn.net/Breatsam/article/details/117787754",
+      "source": "csdn",
+      "publishedAt": "Thu, 10 Jun 2021 17:51:13 +0800",
+      "topics": [
+        "CSDN"
+      ]
+    }
+  ]
+}
