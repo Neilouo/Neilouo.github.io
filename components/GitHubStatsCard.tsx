@@ -5,7 +5,7 @@ import { AiFillStar } from 'react-icons/ai'
 import { BiGitRepoForked } from 'react-icons/bi'
 import { FiBox, FiEye } from 'react-icons/fi'
 import { useI18n } from './I18nProvider'
-import type { GitHubStats } from '../pages/api/github-stats'
+import { fetchGitHubStats, type GitHubStats } from '../utils/githubStats'
 
 const CHART_URL = 'https://ghchart.rshah.org/FF5733/Neilouo'
 
@@ -14,16 +14,14 @@ const GitHubStatsCard: React.FC = () => {
   const { t } = useI18n()
 
   useEffect(() => {
+    let cancelled = false
     const load = async (): Promise<void> => {
-      try {
-        const r = await fetch('/api/github-stats')
-        const d = await r.json() as GitHubStats
-        setStats(d)
-      } catch {
-        // Stats unavailable — component shows skeleton until data loads
-      }
+      const data = await fetchGitHubStats()
+      if (cancelled) return
+      setStats(data)
     }
     void load()
+    return () => { cancelled = true }
   }, [])
 
   if (!stats) {
