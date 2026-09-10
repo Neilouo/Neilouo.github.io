@@ -17,6 +17,25 @@ export const fadeIn = {
   transition: { duration: 0.4 }
 }
 
+export const reveal = {
+  initial: { opacity: 0, y: 16 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, margin: '-80px' },
+  transition: { duration: 0.5, ease: 'easeOut' }
+}
+
+export const stagger = {
+  initial: {},
+  whileInView: { transition: { staggerChildren: 0.07 } },
+  viewport: { once: true, margin: '-80px' }
+}
+
+export const item = {
+  initial: { opacity: 0, y: 16 },
+  whileInView: { opacity: 1, y: 0 },
+  transition: { duration: 0.45, ease: 'easeOut' }
+}
+
 export function MiniGlobe () {
   const canvasRef = useRef()
   const { t } = useI18n()
@@ -99,34 +118,38 @@ export function LatestHighlights () {
     }
   }
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
-      <Link href="/about#work-experience" className="group p-4 rounded-card border border-warm-100 dark:border-warm-800 hover:border-accent/30 dark:hover:border-accent/30 bg-white dark:bg-warm-950 transition-colors">
-        <div className="flex items-center gap-2 mb-2">
-          <FiBriefcase className="w-4 h-4 text-accent flex-shrink-0" />
-          <span className="text-xs font-medium text-accent uppercase tracking-wider">
-            {t('latest_role')}
-          </span>
-        </div>
-        <h4 className="text-sm font-semibold text-warm-900 dark:text-warm-50">
-          {work.company[lang]} · {work.role[lang]}
-        </h4>
-        <p className="text-xs text-warm-400 dark:text-warm-500 mt-0.5">{work.period[lang]}</p>
-        <p className="text-sm text-warm-600 dark:text-warm-300 mt-2 leading-relaxed">{work.desc[lang]}</p>
-      </Link>
-      <Link href="/about#research" className="group p-4 rounded-card border border-warm-100 dark:border-warm-800 hover:border-emerald-400/30 dark:hover:border-emerald-400/30 bg-white dark:bg-warm-950 transition-colors">
-        <div className="flex items-center gap-2 mb-2">
-          <FiCpu className="w-4 h-4 text-emerald-500 flex-shrink-0" />
-          <span className="text-xs font-medium text-emerald-500 uppercase tracking-wider">
-            {t('latest_research')}
-          </span>
-        </div>
-        <h4 className="text-sm font-semibold text-warm-900 dark:text-warm-50">
-          {research.title[lang]}
-        </h4>
-        <p className="text-xs text-warm-400 dark:text-warm-500 mt-0.5">{research.institution[lang]}</p>
-        <p className="text-sm text-warm-600 dark:text-warm-300 mt-2 leading-relaxed">{research.desc[lang]}</p>
-      </Link>
-    </div>
+    <motion.div {...stagger} className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+      <motion.div {...item}>
+        <Link href="/about#work-experience" className="group p-4 rounded-card border border-warm-100 dark:border-warm-800 hover:border-accent/30 dark:hover:border-accent/30 bg-white dark:bg-warm-950 transition-colors">
+          <div className="flex items-center gap-2 mb-2">
+            <FiBriefcase className="w-4 h-4 text-accent flex-shrink-0" />
+            <span className="text-xs font-medium text-accent uppercase tracking-wider">
+              {t('latest_role')}
+            </span>
+          </div>
+          <h4 className="text-sm font-semibold text-warm-900 dark:text-warm-50">
+            {work.company[lang]} · {work.role[lang]}
+          </h4>
+          <p className="text-xs text-warm-400 dark:text-warm-500 mt-0.5">{work.period[lang]}</p>
+          <p className="text-sm text-warm-600 dark:text-warm-300 mt-2 leading-relaxed">{work.desc[lang]}</p>
+        </Link>
+      </motion.div>
+      <motion.div {...item}>
+        <Link href="/about#research" className="group p-4 rounded-card border border-warm-100 dark:border-warm-800 hover:border-emerald-400/30 dark:hover:border-emerald-400/30 bg-white dark:bg-warm-950 transition-colors">
+          <div className="flex items-center gap-2 mb-2">
+            <FiCpu className="w-4 h-4 text-emerald-500 flex-shrink-0" />
+            <span className="text-xs font-medium text-emerald-500 uppercase tracking-wider">
+              {t('latest_research')}
+            </span>
+          </div>
+          <h4 className="text-sm font-semibold text-warm-900 dark:text-warm-50">
+            {research.title[lang]}
+          </h4>
+          <p className="text-xs text-warm-400 dark:text-warm-500 mt-0.5">{research.institution[lang]}</p>
+          <p className="text-sm text-warm-600 dark:text-warm-300 mt-2 leading-relaxed">{research.desc[lang]}</p>
+        </Link>
+      </motion.div>
+    </motion.div>
   )
 }
 
@@ -172,26 +195,26 @@ export function LatestHighlights () {
 
 {/* ── Section 2: About + Globe + Highlights ── */}
 
-<motion.section {...fadeIn} className="py-16 border-t border-warm-100 dark:border-warm-800">
+<motion.section {...reveal} className="py-16 border-t border-warm-100 dark:border-warm-800">
   <div className="flex flex-col md:flex-row md:items-start gap-10">
     <div className="flex-1">
       <h2 className="text-2xl font-semibold text-warm-900 dark:text-warm-50">
         <T k={'about'} />
       </h2>
-      <div className="space-y-3 mt-4">
-        <div className="flex items-center gap-3 text-warm-700 dark:text-warm-300">
+      <motion.div {...stagger} className="space-y-3 mt-4">
+        <motion.div {...item} className="flex items-center gap-3 text-warm-700 dark:text-warm-300">
           <FiCommand className="w-5 h-5 text-accent flex-shrink-0" />
           <span><T k={'about_role'} /></span>
-        </div>
-        <div className="flex items-center gap-3 text-warm-700 dark:text-warm-300">
+        </motion.div>
+        <motion.div {...item} className="flex items-center gap-3 text-warm-700 dark:text-warm-300">
           <FiGlobe className="w-5 h-5 text-accent flex-shrink-0" />
           <span><T k={'about_school'} /></span>
-        </div>
-        <div className="flex items-center gap-3 text-warm-700 dark:text-warm-300">
+        </motion.div>
+        <motion.div {...item} className="flex items-center gap-3 text-warm-700 dark:text-warm-300">
           <FiBookOpen className="w-5 h-5 text-accent flex-shrink-0" />
           <span><T k={'about_major'} /></span>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
       <LatestHighlights />
       <div className="mt-6">
         <LanguageSkills />
@@ -222,7 +245,7 @@ export function LatestHighlights () {
 
 {/* ── Section 3: Featured Projects (top 3 + stats) ── */}
 
-<motion.section {...fadeIn} className="py-16 border-t border-warm-100 dark:border-warm-800">
+<motion.section {...reveal} className="py-16 border-t border-warm-100 dark:border-warm-800">
   <div className="flex items-center justify-between mb-8">
     <h2 className="text-2xl font-semibold text-warm-900 dark:text-warm-50">
       <T k={'projects'} />
@@ -239,7 +262,7 @@ export function LatestHighlights () {
 
 {/* ── Section 4: Writing & Content ── */}
 
-<motion.section {...fadeIn} className="py-16 border-t border-warm-100 dark:border-warm-800">
+<motion.section {...reveal} className="py-16 border-t border-warm-100 dark:border-warm-800">
   <div className="flex items-center justify-between mb-8">
     <h2 className="text-2xl font-semibold text-warm-900 dark:text-warm-50">
       <T k={'blog'} />
@@ -248,49 +271,57 @@ export function LatestHighlights () {
       <T k={'read_all_posts'} /> <FiArrowRight className="w-3.5 h-3.5" />
     </Link>
   </div>
-  <div className="space-y-1">
-    <Link href="/ai-radar" className="group flex items-center justify-between py-4 border-b border-warm-100 dark:border-warm-800">
-      <div>
-        <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
-          <T k={'ai_radar'} />
+  <motion.div {...stagger} className="space-y-1">
+    <motion.div {...item}>
+      <Link href="/ai-radar" className="group flex items-center justify-between py-4 border-b border-warm-100 dark:border-warm-800">
+        <div>
+          <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
+            <T k={'ai_radar'} />
+          </div>
+          <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'ai_radar_desc'} /></p>
         </div>
-        <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'ai_radar_desc'} /></p>
-      </div>
-      <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
-    </Link>
-    <Link href="/note" className="group flex items-center justify-between py-4 border-b border-warm-100 dark:border-warm-800">
-      <div>
-        <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
-          <T k={'notes'} />
+        <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
+      </Link>
+    </motion.div>
+    <motion.div {...item}>
+      <Link href="/note" className="group flex items-center justify-between py-4 border-b border-warm-100 dark:border-warm-800">
+        <div>
+          <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
+            <T k={'notes'} />
+          </div>
+          <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'notes_desc'} /></p>
         </div>
-        <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'notes_desc'} /></p>
-      </div>
-      <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
-    </Link>
-    <Link href="/blog" className="group flex items-center justify-between py-4 border-b border-warm-100 dark:border-warm-800">
-      <div>
-        <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
-          <T k={'blog'} />
+        <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
+      </Link>
+    </motion.div>
+    <motion.div {...item}>
+      <Link href="/blog" className="group flex items-center justify-between py-4 border-b border-warm-100 dark:border-warm-800">
+        <div>
+          <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
+            <T k={'blog'} />
+          </div>
+          <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'blog_desc'} /></p>
         </div>
-        <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'blog_desc'} /></p>
-      </div>
-      <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
-    </Link>
-    <Link href="/about" className="group flex items-center justify-between py-4">
-      <div>
-        <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
-          <T k={'cv'} />
+        <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
+      </Link>
+    </motion.div>
+    <motion.div {...item}>
+      <Link href="/about" className="group flex items-center justify-between py-4">
+        <div>
+          <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
+            <T k={'cv'} />
+          </div>
+          <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'cv_desc'} /></p>
         </div>
-        <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'cv_desc'} /></p>
-      </div>
-      <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
-    </Link>
-  </div>
+        <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
+      </Link>
+    </motion.div>
+  </motion.div>
 </motion.section>
 
 {/* ── Section 5: Contact + Visitors ── */}
 
-<motion.section {...fadeIn} className="py-16 border-t border-warm-100 dark:border-warm-800">
+<motion.section {...reveal} className="py-16 border-t border-warm-100 dark:border-warm-800">
   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
     <div className="flex items-center gap-5">
       <a href="https://github.com/Neilouo" target="_blank" rel="noreferrer" className="text-warm-500 hover:text-accent transition-colors" aria-label="GitHub">
