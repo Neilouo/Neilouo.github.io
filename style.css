@@ -217,21 +217,27 @@ strong {
   opacity: 0.05;
 }
 
-/* Cursor spotlight — warm glow that follows the pointer */
-.ambient-spotlight {
-  position: absolute;
-  inset: 0;
-  --mx: 50%;
-  --my: 50%;
-  background: radial-gradient(620px circle at var(--mx) var(--my), rgba(255, 244, 224, 0.55), rgba(255, 244, 224, 0) 60%);
+/* Cursor glow — large gaussian-blurred light trailing the pointer */
+.cursor-glow {
+  width: 560px;
+  height: 560px;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(251, 146, 60, 0.22) 0%, rgba(251, 146, 60, 0.10) 35%, rgba(251, 146, 60, 0) 70%);
+  filter: blur(20px);
   mix-blend-mode: screen;
+  will-change: transform;
+  opacity: 0;
+  animation: cursor-glow-in 0.6s ease-out 0.2s forwards;
 }
-.dark .ambient-spotlight {
-  background: radial-gradient(620px circle at var(--mx) var(--my), rgba(251, 146, 60, 0.20), rgba(251, 146, 60, 0) 60%);
+.dark .cursor-glow {
+  background: radial-gradient(circle, rgba(251, 146, 60, 0.35) 0%, rgba(251, 146, 60, 0.14) 35%, rgba(251, 146, 60, 0) 70%);
+}
+@keyframes cursor-glow-in {
+  to { opacity: 1; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .ambient-blob { animation: none !important; }
   .ambient-blobs { transform: none !important; }
-  .ambient-spotlight { display: none; }
+  .cursor-glow { display: none; }
 }

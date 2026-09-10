@@ -8,7 +8,6 @@ import { useEffect, useRef } from 'react'
  * respects prefers-reduced-motion and degrades on touch (pointer: coarse).
  */
 export default function AmbientBackground (): JSX.Element {
-  const spotRef = useRef<HTMLDivElement>(null)
   const blobsRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -30,10 +29,6 @@ export default function AmbientBackground (): JSX.Element {
     const loop = (): void => {
       cx += (tx - cx) * 0.08
       cy += (ty - cy) * 0.08
-      if (spotRef.current != null) {
-        spotRef.current.style.setProperty('--mx', `${cx}px`)
-        spotRef.current.style.setProperty('--my', `${cy}px`)
-      }
       if (blobsRef.current != null) {
         const dx = (cx / window.innerWidth - 0.5) * 2
         const dy = (cy / window.innerHeight - 0.5) * 2
@@ -59,7 +54,6 @@ export default function AmbientBackground (): JSX.Element {
         <span className="ambient-blob blob-4" />
       </div>
       <div className="ambient-grain" />
-      <div ref={spotRef} className="ambient-spotlight" />
     </div>
   )
 }

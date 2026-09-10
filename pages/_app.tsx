@@ -10,6 +10,7 @@ import { Analytics } from '@vercel/analytics/react'
 import ErrorBoundary from '../components/ErrorBoundary'
 import { I18nProvider } from '../components/I18nProvider'
 import AmbientBackground from '../components/AmbientBackground'
+import CursorGlow from '../components/CursorGlow'
 
 const myFont = localFont({
   src: [
@@ -25,6 +26,7 @@ export default function App ({ Component, pageProps }: AppProps): JSX.Element {
     <ErrorBoundary>
       <I18nProvider>
         <AmbientBackground />
+        <CursorGlow />
         <main className={myFont.className}>
           <Component {...pageProps} />
           <Analytics />
