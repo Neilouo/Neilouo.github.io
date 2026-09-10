@@ -3,17 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import { useI18n } from './I18nProvider'
 import { Github } from 'lucide-react'
-
-interface LanguageData {
-  name: string
-  bytes: number
-  percentage: number
-}
-
-interface ApiResponse {
-  languages: LanguageData[]
-  source: 'github' | 'fallback'
-}
+import { fetchGitHubLanguages, LanguageData } from '../utils/githubLanguages'
 
 const LANG_META: Record<string, { icon?: string, color: string, bgColor: string }> = {
   TypeScript: { icon: '/stack/typescript.svg', color: 'bg-blue-500', bgColor: 'bg-blue-50 dark:bg-blue-900/20' },
@@ -92,17 +82,15 @@ export default function LanguageSkills () {
   const [source, setSource] = useState<'github' | 'fallback'>('fallback')
 
   useEffect(() => {
+    let cancelled = false
     const load = async (): Promise<void> => {
-      try {
-        const res = await fetch('/api/github-languages')
-        const json: ApiResponse = await res.json()
-        setData(json.languages)
-        setSource(json.source)
-      } catch {
-        // Silently fail — skeleton stays
-      }
+      const { languages, source: src } = await fetchGitHubLanguages()
+      if (cancelled) return
+      setData(languages)
+      setSource(src)
     }
     void load()
+    return () => { cancelled = true }
   }, [])
 
   return (
