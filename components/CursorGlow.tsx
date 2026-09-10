@@ -43,5 +43,5 @@ export default function CursorGlow (): JSX.Element | null {
     }
   }, [])
 
-  return <div ref={ref} aria-hidden className="cursor-glow fixed top-0 left-0 -z-10 pointer-events-none" />
+  return <div ref={ref} aria-hidden className="cursor-glow fixed top-0 left-0 z-[9999] pointer-events-none" />
 }

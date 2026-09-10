@@ -219,18 +219,18 @@ strong {
 
 /* Cursor glow — large gaussian-blurred light trailing the pointer */
 .cursor-glow {
-  width: 560px;
-  height: 560px;
+  width: 480px;
+  height: 480px;
   border-radius: 9999px;
-  background: radial-gradient(circle, rgba(251, 146, 60, 0.22) 0%, rgba(251, 146, 60, 0.10) 35%, rgba(251, 146, 60, 0) 70%);
-  filter: blur(20px);
+  background: radial-gradient(circle, rgba(251, 146, 60, 0.35) 0%, rgba(251, 146, 60, 0.15) 35%, rgba(251, 146, 60, 0) 70%);
+  filter: blur(24px);
   mix-blend-mode: screen;
   will-change: transform;
   opacity: 0;
   animation: cursor-glow-in 0.6s ease-out 0.2s forwards;
 }
 .dark .cursor-glow {
-  background: radial-gradient(circle, rgba(251, 146, 60, 0.35) 0%, rgba(251, 146, 60, 0.14) 35%, rgba(251, 146, 60, 0) 70%);
+  background: radial-gradient(circle, rgba(251, 146, 60, 0.45) 0%, rgba(251, 146, 60, 0.18) 35%, rgba(251, 146, 60, 0) 70%);
 }
 @keyframes cursor-glow-in {
   to { opacity: 1; }
