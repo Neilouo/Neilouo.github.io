@@ -179,7 +179,7 @@ export function getNoteUtilities (t: TFn): NoteUtilityCard[] {
       title: t('note_utility_subscribe_title'),
       description: t('note_utility_subscribe_desc'),
       actionLabel: t('note_utility_subscribe_action'),
-      href: 'mailto:nansang2000@gmail.com?subject=Subscribe%20Note%20Lab',
+      href: 'mailto:Neilouuo@gmail.com?subject=Subscribe%20Note%20Lab',
       icon: '✉️',
       hint: t('note_utility_subscribe_hint')
     },
@@ -187,7 +187,7 @@ export function getNoteUtilities (t: TFn): NoteUtilityCard[] {
       title: t('note_utility_github_title'),
       description: t('note_utility_github_desc'),
       actionLabel: t('note_utility_github_action'),
-      href: 'https://github.com/nansang2000',
+      href: 'https://github.com/Neilouo',
       icon: '⭐',
       hint: t('note_utility_github_hint')
     },
@@ -203,7 +203,7 @@ export function getNoteUtilities (t: TFn): NoteUtilityCard[] {
       title: t('note_utility_chat_title'),
       description: t('note_utility_chat_desc'),
       actionLabel: t('note_utility_chat_action'),
-      href: 'mailto:nansang2000@gmail.com?subject=Note%20Consult',
+      href: 'mailto:Neilouuo@gmail.com?subject=Note%20Consult',
       icon: '🤝'
     }
   ]

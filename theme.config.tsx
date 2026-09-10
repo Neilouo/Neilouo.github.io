@@ -23,9 +23,9 @@ const config = {
     </>
   ),
   project: {
-    link: 'https://github.com/NanSang2000/NanSang2000.github.io'
+    link: 'https://github.com/Neilouo/Neilouo.github.io'
   },
-  docsRepositoryBase: 'https://github.com/NanSang2000/NanSang2000.github.io',
+  docsRepositoryBase: 'https://github.com/Neilouo/Neilouo.github.io',
   banner: {
     key: 'closed',
     text: null

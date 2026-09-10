@@ -49,7 +49,7 @@ export default function Content ({ nav }: { nav: NavCatagory[] }): JSX.Element {
                           className={'relative overflow-hidden w-full h-24 my-1 mr-1  bg-orange-100 dark:bg-orange-900 hover:bg-gray-50 hover:dark:bg-gray-800 rounded-md flex flex-col py-2 px-3 transition-all ease duration-700 cursor-pointer'}
                           onClick={() => {
                             if (typeof window !== 'undefined') {
-                              window.open('https://github.com/NanSang2000/Blog/issues/1', '_blank', 'noopener,noreferrer')
+                              window.open('https://github.com/Neilouo/Neilouo.github.io/issues', '_blank', 'noopener,noreferrer')
                             }
                           }}
                         >
