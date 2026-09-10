@@ -2,24 +2,11 @@ import React, { useEffect, useState } from 'react'
 import ProjectCard, { ProjectMeta } from './ProjectCard'
 import ProjectCarousel from './ProjectCarousel'
 import { useI18n } from './I18nProvider'
-
-interface GitHubRepo {
-  id: number
-  name: string
-  description: string
-  html_url: string
-  homepage: string | null
-  stargazers_count: number
-  language: string | null
-  topics: string[]
-  updated_at: string
-  banner: string
-  forks_count?: number
-}
+import { fetchGitHubProjects, ProjectRepo } from '../utils/githubProjects'
 
 interface GitHubProjectsProps {
-  onActiveChange?: (index: number, repo: GitHubRepo) => void
-  onLoaded?: (repos: GitHubRepo[]) => void
+  onActiveChange?: (index: number, repo: ProjectRepo) => void
+  onLoaded?: (repos: ProjectRepo[]) => void
   variant?: 'grid' | 'carousel'
   autoPlay?: boolean
   intervalMs?: number
@@ -35,26 +22,21 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
   limit
 }) => {
   const { t } = useI18n()
-  const [repos, setRepos] = useState<GitHubRepo[]>([])
+  const [repos, setRepos] = useState<ProjectRepo[]>([])
   const [loading, setLoading] = useState(true)
-  const [error, setError] = useState<string | null>(null)
   const [activeIndex, setActiveIndex] = useState(0)
 
   useEffect(() => {
-    const fetchRepos = async () => {
-      try {
-        const response = await fetch('/api/github-repos')
-        if (!response.ok) throw new Error('Failed to fetch repositories')
-        const data = await response.json()
-        onLoaded?.(data)
-        setRepos(data)
-      } catch (err) {
-        setError(err instanceof Error ? err.message : 'Unknown error')
-      } finally {
-        setLoading(false)
-      }
+    let cancelled = false
+    const load = async () => {
+      const data = await fetchGitHubProjects()
+      if (cancelled) return
+      onLoaded?.(data)
+      setRepos(data)
+      setLoading(false)
     }
-    void fetchRepos()
+    void load()
+    return () => { cancelled = true }
   }, [onLoaded])
 
   if (loading) {
@@ -64,14 +46,6 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
         {[...Array(skeletonCount)].map((_, i) => (
           <div key={i} className="h-48 rounded-card bg-warm-100 dark:bg-warm-900 animate-pulse" />
         ))}
-      </div>
-    )
-  }
-
-  if (error) {
-    return (
-      <div className="text-center py-12">
-        <p className="text-warm-500 dark:text-warm-400">{t('load_failed')}: {error}</p>
       </div>
     )
   }
