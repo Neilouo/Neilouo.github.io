@@ -3,18 +3,22 @@ title: 'AI Radar'
 description: '昨日 AI 论文与新闻，按方向分类'
 ---
 
+import { motion } from 'framer-motion'
 import { T } from '../../components/I18nProvider'
 import AiRadarFeed from '../../components/AiRadarFeed'
+import { reveal } from '../../lib/motion'
 
 <div className="max-w-5xl mx-auto px-4 pt-12 pb-24">
-  <header className="mb-12">
+  <motion.header {...reveal} className="mb-12">
     <h1 className="text-3xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
       <T k={'ai_radar'} />
     </h1>
     <div className="mt-2 text-warm-600 dark:text-warm-300">
       <T k={'ai_radar_desc'} />
     </div>
-  </header>
+  </motion.header>
 
-  <AiRadarFeed />
+  <motion.div {...reveal}>
+    <AiRadarFeed />
+  </motion.div>
 </div>
