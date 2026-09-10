@@ -115,3 +115,123 @@ strong {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* ── Ambient background ── */
+.ambient-layer {
+  z-index: -10;
+}
+
+.ambient-blobs {
+  position: absolute;
+  inset: -12%;
+  will-change: transform;
+}
+
+.ambient-blob {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(64px);
+  will-change: transform;
+  opacity: 0.55;
+}
+
+/* Light: warm cream / amber / gold */
+.blob-1 {
+  top: -12%;
+  left: -6%;
+  width: 46vw;
+  height: 46vw;
+  background: radial-gradient(circle at 30% 30%, rgba(251, 146, 60, 0.50), rgba(251, 146, 60, 0) 70%);
+  animation: ambient-drift-a 24s ease-in-out infinite alternate;
+}
+.blob-2 {
+  top: 14%;
+  right: -10%;
+  width: 40vw;
+  height: 40vw;
+  background: radial-gradient(circle at 60% 40%, rgba(245, 158, 11, 0.42), rgba(245, 158, 11, 0) 70%);
+  animation: ambient-drift-b 28s ease-in-out infinite alternate;
+}
+.blob-3 {
+  bottom: -18%;
+  left: 8%;
+  width: 52vw;
+  height: 52vw;
+  background: radial-gradient(circle at 50% 50%, rgba(217, 119, 6, 0.32), rgba(217, 119, 6, 0) 70%);
+  animation: ambient-drift-c 32s ease-in-out infinite alternate;
+}
+.blob-4 {
+  bottom: 6%;
+  right: 4%;
+  width: 34vw;
+  height: 34vw;
+  background: radial-gradient(circle at 50% 50%, rgba(252, 211, 77, 0.38), rgba(252, 211, 77, 0) 70%);
+  animation: ambient-drift-d 26s ease-in-out infinite alternate;
+}
+
+/* Dark: deep amber, with one subtle indigo echo of the accent blue */
+.dark .blob-1 {
+  background: radial-gradient(circle at 30% 30%, rgba(180, 83, 9, 0.50), rgba(180, 83, 9, 0) 70%);
+  opacity: 0.6;
+}
+.dark .blob-2 {
+  background: radial-gradient(circle at 60% 40%, rgba(120, 53, 15, 0.50), rgba(120, 53, 15, 0) 70%);
+  opacity: 0.6;
+}
+.dark .blob-3 {
+  background: radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.26), rgba(37, 99, 235, 0) 70%);
+  opacity: 0.55;
+}
+.dark .blob-4 {
+  background: radial-gradient(circle at 50% 50%, rgba(146, 64, 14, 0.46), rgba(146, 64, 14, 0) 70%);
+  opacity: 0.6;
+}
+
+@keyframes ambient-drift-a {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  100% { transform: translate3d(4vw, 3vh, 0) scale(1.08); }
+}
+@keyframes ambient-drift-b {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  100% { transform: translate3d(-3vw, 4vh, 0) scale(1.10); }
+}
+@keyframes ambient-drift-c {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  100% { transform: translate3d(3vw, -3vh, 0) scale(1.06); }
+}
+@keyframes ambient-drift-d {
+  0%   { transform: translate3d(0, 0, 0) scale(1); }
+  100% { transform: translate3d(-4vw, -2vh, 0) scale(1.09); }
+}
+
+/* Fine grain overlay for tactile depth */
+.ambient-grain {
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  opacity: 0.04;
+  mix-blend-mode: overlay;
+}
+.dark .ambient-grain {
+  opacity: 0.05;
+}
+
+/* Cursor spotlight — warm glow that follows the pointer */
+.ambient-spotlight {
+  position: absolute;
+  inset: 0;
+  --mx: 50%;
+  --my: 50%;
+  background: radial-gradient(620px circle at var(--mx) var(--my), rgba(255, 244, 224, 0.55), rgba(255, 244, 224, 0) 60%);
+  mix-blend-mode: screen;
+}
+.dark .ambient-spotlight {
+  background: radial-gradient(620px circle at var(--mx) var(--my), rgba(251, 146, 60, 0.20), rgba(251, 146, 60, 0) 60%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ambient-blob { animation: none !important; }
+  .ambient-blobs { transform: none !important; }
+  .ambient-spotlight { display: none; }
+}

@@ -9,6 +9,7 @@ import type { AppProps } from 'next/app'
 import { Analytics } from '@vercel/analytics/react'
 import ErrorBoundary from '../components/ErrorBoundary'
 import { I18nProvider } from '../components/I18nProvider'
+import AmbientBackground from '../components/AmbientBackground'
 
 const myFont = localFont({
   src: [
@@ -23,6 +24,7 @@ export default function App ({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <ErrorBoundary>
       <I18nProvider>
+        <AmbientBackground />
         <main className={myFont.className}>
           <Component {...pageProps} />
           <Analytics />

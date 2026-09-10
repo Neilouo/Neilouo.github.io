@@ -9,6 +9,7 @@ import LanguageSkills from '../components/LanguageSkills'
 import GitHubStatsCard from '../components/GitHubStatsCard'
 import Visitors from '../components/Visitor'
 import { certifications } from '../data/developerProfile'
+import Magnetic from '../components/Magnetic'
 
 export const fadeIn = {
   initial: { opacity: 0, y: 8 },
@@ -141,18 +142,22 @@ export function LatestHighlights () {
         <T k={'hero_sub'} />
       </p>
       <div className="mt-6 flex flex-wrap gap-3">
-        <Link
-          href="/projects"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-card bg-accent text-white text-sm font-medium hover:bg-accent-dark transition-colors"
-        >
-          <T k={'projects'} /> <FiArrowRight className="w-4 h-4" />
-        </Link>
-        <Link
-          href="/blog"
-          className="inline-flex items-center gap-2 px-5 py-2.5 rounded-card border border-warm-200 dark:border-warm-700 text-warm-700 dark:text-warm-200 text-sm font-medium hover:bg-warm-50 dark:hover:bg-warm-800 transition-colors"
-        >
-          <T k={'blog'} /> <FiArrowRight className="w-4 h-4" />
-        </Link>
+        <Magnetic>
+          <Link
+            href="/projects"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-card bg-accent text-white text-sm font-medium hover:bg-accent-dark transition-colors"
+          >
+            <T k={'projects'} /> <FiArrowRight className="w-4 h-4" />
+          </Link>
+        </Magnetic>
+        <Magnetic>
+          <Link
+            href="/blog"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-card border border-warm-200 dark:border-warm-700 text-warm-700 dark:text-warm-200 text-sm font-medium hover:bg-warm-50 dark:hover:bg-warm-800 transition-colors"
+          >
+            <T k={'blog'} /> <FiArrowRight className="w-4 h-4" />
+          </Link>
+        </Magnetic>
       </div>
     </div>
     <div className="flex-shrink-0">
