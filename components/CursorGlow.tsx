@@ -75,7 +75,7 @@ export default function CursorGlow (): JSX.Element | null {
           vy: vy * 0.18 + Math.sin(ang) * spread - 0.3,
           life: baseLife,
           maxLife: baseLife,
-          size: 4 + Math.random() * 10 + Math.min(speed * 0.25, 8),
+          size: 9 + Math.random() * 18 + Math.min(speed * 0.4, 14),
           hue: 22 + Math.random() * 28
         })
       }
@@ -144,13 +144,13 @@ export default function CursorGlow (): JSX.Element | null {
       }
 
       if (active) {
-        const cg = ctx.createRadialGradient(mx, my, 0, mx, my, 36)
+        const cg = ctx.createRadialGradient(mx, my, 0, mx, my, 56)
         cg.addColorStop(0, 'rgba(255, 180, 90, 0.55)')
         cg.addColorStop(0.5, 'rgba(251, 146, 60, 0.18)')
         cg.addColorStop(1, 'rgba(251, 146, 60, 0)')
         ctx.fillStyle = cg
         ctx.beginPath()
-        ctx.arc(mx, my, 36, 0, Math.PI * 2)
+        ctx.arc(mx, my, 56, 0, Math.PI * 2)
         ctx.fill()
       }
 
