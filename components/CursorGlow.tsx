@@ -3,156 +3,169 @@
 import { useEffect, useRef } from 'react'
 
 /**
- * Multi-layer custom cursor:
- *  - halo:   large gaussian-blurred light, slow inertial trailing (screen blend)
- *  - trail:  comet tail of N sparks, each chasing the previous (decreasing lerp)
- *  - ring:   crisp ring with medium lag, scales up on interactive hover
- *  - dot:    precise core pinned to the pointer, shrinks on press
- *  - ripple: expanding ring burst on click
- *
- * Native cursor is hidden only on fine-pointer devices without reduced-motion,
- * and only after JS adds `.cursor-custom` to <body> (graceful fallback).
+ * Fluid particle cursor: a canvas particle system that trails the pointer.
+ * Particles spawn proportional to movement velocity, drift outward with
+ * drag + slight turbulence, then fade and shrink — like glowing fluid/smoke.
+ * Additive blending gives a luminous, water-like glow over content.
+ * Degrades on touch / reduced-motion (canvas stays empty).
  */
-const TRAIL_COUNT = 16
-const HOVER_SELECTOR = 'a, button, [role="button"], .cursor-pointer, input, textarea, select, summary, [data-cursor="hover"]'
+
+interface Particle {
+  x: number
+  y: number
+  vx: number
+  vy: number
+  life: number
+  maxLife: number
+  size: number
+  hue: number
+}
+
+const MAX_PARTICLES = 600
 
 export default function CursorGlow (): JSX.Element | null {
-  const haloRef = useRef<HTMLDivElement>(null)
-  const ringRef = useRef<HTMLDivElement>(null)
-  const dotRef = useRef<HTMLDivElement>(null)
-  const fxRef = useRef<HTMLDivElement>(null)
+  const canvasRef = useRef<HTMLCanvasElement>(null)
 
   useEffect(() => {
-    const el0 = haloRef.current
-    const el1 = ringRef.current
-    const el2 = dotRef.current
-    const fxl = fxRef.current
-    if (el0 == null || el1 == null || el2 == null || fxl == null) return
+    const canvas = canvasRef.current
+    if (canvas == null) return
+    const ctx = canvas.getContext('2d', { alpha: true })
+    if (ctx == null) return
 
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
     const fine = window.matchMedia('(pointer: fine)').matches
     if (reduce || !fine) return
 
-    document.body.classList.add('cursor-custom')
+    let dpr = Math.min(window.devicePixelRatio || 1, 2)
+    let w = window.innerWidth
+    let h = window.innerHeight
 
-    let tx = window.innerWidth / 2
-    let ty = window.innerHeight / 2
-    let haloX = tx
-    let haloY = ty
-    let ringX = tx
-    let ringY = ty
-    const trail = Array.from({ length: TRAIL_COUNT }, () => ({ x: tx, y: ty }))
+    const resize = (): void => {
+      dpr = Math.min(window.devicePixelRatio || 1, 2)
+      w = window.innerWidth
+      h = window.innerHeight
+      canvas.width = Math.floor(w * dpr)
+      canvas.height = Math.floor(h * dpr)
+      canvas.style.width = `${w}px`
+      canvas.style.height = `${h}px`
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0)
+    }
+    resize()
+
+    let mx = w / 2
+    let my = h / 2
+    let pmx = mx
+    let pmy = my
+    let active = false
     let raf = 0
-    let hovering = false
-    let pressing = false
-    let visible = false
 
-    const sparks: HTMLSpanElement[] = []
-    for (let i = 0; i < TRAIL_COUNT; i++) {
-      const s = document.createElement('span')
-      s.className = 'cursor-spark'
-      s.style.opacity = '0'
-      fxl.appendChild(s)
-      sparks.push(s)
-    }
+    const particles: Particle[] = []
 
-    const show = (): void => {
-      if (visible) return
-      visible = true
-      document.body.classList.add('cursor-visible')
-    }
-
-    const hide = (): void => {
-      visible = false
-      document.body.classList.remove('cursor-visible')
+    const spawn = (x: number, y: number, vx: number, vy: number, count: number): void => {
+      const speed = Math.hypot(vx, vy)
+      for (let i = 0; i < count; i++) {
+        if (particles.length >= MAX_PARTICLES) particles.shift()
+        const ang = Math.random() * Math.PI * 2
+        const spread = Math.random() * 1.6
+        const baseLife = 0.7 + Math.random() * 0.8
+        particles.push({
+          x: x + (Math.random() - 0.5) * 6,
+          y: y + (Math.random() - 0.5) * 6,
+          vx: vx * 0.18 + Math.cos(ang) * spread,
+          vy: vy * 0.18 + Math.sin(ang) * spread - 0.3,
+          life: baseLife,
+          maxLife: baseLife,
+          size: 4 + Math.random() * 10 + Math.min(speed * 0.25, 8),
+          hue: 22 + Math.random() * 28
+        })
+      }
     }
 
     const onMove = (e: MouseEvent): void => {
-      tx = e.clientX
-      ty = e.clientY
-      show()
-      const t = e.target as HTMLElement | null
-      hovering = !!(t?.closest(HOVER_SELECTOR))
+      mx = e.clientX
+      my = e.clientY
+      active = true
     }
 
-    const onDown = (e: MouseEvent): void => {
-      pressing = true
-      const r = document.createElement('span')
-      r.className = 'cursor-ripple'
-      r.style.left = `${e.clientX}px`
-      r.style.top = `${e.clientY}px`
-      fxl.appendChild(r)
-      r.addEventListener('animationend', () => { r.remove() }, { once: true })
-    }
+    const onLeave = (): void => { active = false }
+    const onEnter = (): void => { active = true }
 
-    const onUp = (): void => { pressing = false }
+    window.addEventListener('resize', resize, { passive: true })
+    window.addEventListener('mousemove', onMove, { passive: true })
+    document.addEventListener('mouseleave', onLeave)
+    document.addEventListener('mouseenter', onEnter)
 
     const loop = (): void => {
-      haloX += (tx - haloX) * 0.085
-      haloY += (ty - haloY) * 0.085
-      ringX += (tx - ringX) * 0.28
-      ringY += (ty - ringY) * 0.28
+      const dx = mx - pmx
+      const dy = my - pmy
+      const speed = Math.hypot(dx, dy)
 
-      el0.style.transform = `translate3d(${haloX}px, ${haloY}px, 0) translate(-50%, -50%)`
-
-      const rs = hovering ? 1.8 : (pressing ? 0.7 : 1)
-      el1.style.transform = `translate3d(${ringX}px, ${ringY}px, 0) translate(-50%, -50%) scale(${rs})`
-      if (hovering) {
-        el1.style.borderColor = 'rgba(251,146,60,0.95)'
-        el1.style.backgroundColor = 'rgba(251,146,60,0.10)'
-      } else {
-        el1.style.borderColor = 'rgba(251,146,60,0.55)'
-        el1.style.backgroundColor = 'transparent'
+      if (active && speed > 0.4) {
+        const count = Math.min(8, Math.ceil(speed * 0.45))
+        spawn(mx, my, dx, dy, count)
+      } else if (active && speed <= 0.4) {
+        if (Math.random() < 0.3) spawn(mx, my, 0, 0, 1)
       }
 
-      const ds = pressing ? 0.5 : (hovering ? 0.35 : 1)
-      el2.style.transform = `translate3d(${tx}px, ${ty}px, 0) translate(-50%, -50%) scale(${ds})`
+      pmx = mx
+      pmy = my
 
-      let px = tx
-      let py = ty
-      for (let i = 0; i < TRAIL_COUNT; i++) {
-        const p = trail[i]
-        const k = 0.42 - i * 0.02
-        p.x += (px - p.x) * k
-        p.y += (py - p.y) * k
-        px = p.x
-        py = p.y
-        const s = sparks[i]
-        if (s != null) {
-          const f = 1 - i / TRAIL_COUNT
-          s.style.transform = `translate3d(${p.x}px, ${p.y}px, 0) translate(-50%, -50%) scale(${0.55 * f + 0.08})`
-          s.style.opacity = String(f * 0.6)
+      ctx.clearRect(0, 0, w, h)
+      ctx.globalCompositeOperation = 'lighter'
+
+      for (let i = particles.length - 1; i >= 0; i--) {
+        const p = particles[i]
+        p.vx *= 0.94
+        p.vy *= 0.94
+        p.vy -= 0.04
+        p.x += p.vx
+        p.y += p.vy
+        p.life -= 0.016
+
+        if (p.life <= 0) {
+          particles.splice(i, 1)
+          continue
         }
+
+        const t = p.life / p.maxLife
+        const r = p.size * t
+        if (r < 0.3) continue
+
+        const grad = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, r)
+        const a = t * 0.7
+        grad.addColorStop(0, `hsla(${p.hue}, 95%, 62%, ${a})`)
+        grad.addColorStop(0.4, `hsla(${p.hue}, 90%, 55%, ${a * 0.5})`)
+        grad.addColorStop(1, `hsla(${p.hue}, 90%, 55%, 0)`)
+
+        ctx.fillStyle = grad
+        ctx.beginPath()
+        ctx.arc(p.x, p.y, r, 0, Math.PI * 2)
+        ctx.fill()
+      }
+
+      if (active) {
+        const cg = ctx.createRadialGradient(mx, my, 0, mx, my, 36)
+        cg.addColorStop(0, 'rgba(255, 180, 90, 0.55)')
+        cg.addColorStop(0.5, 'rgba(251, 146, 60, 0.18)')
+        cg.addColorStop(1, 'rgba(251, 146, 60, 0)')
+        ctx.fillStyle = cg
+        ctx.beginPath()
+        ctx.arc(mx, my, 36, 0, Math.PI * 2)
+        ctx.fill()
       }
 
       raf = requestAnimationFrame(loop)
     }
-
-    window.addEventListener('mousemove', onMove, { passive: true })
-    window.addEventListener('mousedown', onDown, { passive: true })
-    window.addEventListener('mouseup', onUp, { passive: true })
-    document.addEventListener('mouseleave', hide)
-    document.addEventListener('mouseenter', show)
     raf = requestAnimationFrame(loop)
 
     return () => {
+      window.removeEventListener('resize', resize)
       window.removeEventListener('mousemove', onMove)
-      window.removeEventListener('mousedown', onDown)
-      window.removeEventListener('mouseup', onUp)
-      document.removeEventListener('mouseleave', hide)
-      document.removeEventListener('mouseenter', show)
+      document.removeEventListener('mouseleave', onLeave)
+      document.removeEventListener('mouseenter', onEnter)
       cancelAnimationFrame(raf)
-      sparks.forEach(s => s.remove())
-      document.body.classList.remove('cursor-custom', 'cursor-visible')
     }
   }, [])
 
-  return (
-    <>
-      <div ref={haloRef} aria-hidden className="cursor-halo" />
-      <div ref={fxRef} aria-hidden className="cursor-fx" />
-      <div ref={ringRef} aria-hidden className="cursor-ring" />
-      <div ref={dotRef} aria-hidden className="cursor-dot" />
-    </>
-  )
+  return <canvas ref={canvasRef} aria-hidden className="cursor-particles" />
 }

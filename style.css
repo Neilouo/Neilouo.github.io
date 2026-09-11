@@ -217,132 +217,17 @@ strong {
   opacity: 0.05;
 }
 
-/* ── Custom multi-layer cursor ── */
-
-/* Hide the native cursor only when JS has armed the custom cursor on a fine pointer. */
-@media (pointer: fine) {
-  body.cursor-custom,
-  body.cursor-custom * {
-    cursor: none !important;
-  }
-}
-
-/* Halo: large soft glow that drifts behind everything (screen blend over content). */
-.cursor-halo {
+/* ── Fluid particle cursor (canvas) ── */
+.cursor-particles {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 560px;
-  height: 560px;
-  border-radius: 9999px;
-  background: radial-gradient(circle, rgba(251, 146, 60, 0.42) 0%, rgba(251, 146, 60, 0.16) 38%, rgba(251, 146, 60, 0) 72%);
-  filter: blur(30px);
-  mix-blend-mode: screen;
-  will-change: transform;
-  z-index: 9998;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-body.cursor-visible .cursor-halo { opacity: 1; }
-.dark .cursor-halo {
-  background: radial-gradient(circle, rgba(251, 146, 60, 0.55) 0%, rgba(251, 146, 60, 0.22) 38%, rgba(251, 146, 60, 0) 72%);
-}
-
-/* FX layer: container for the comet trail sparks + click ripples (no visual itself). */
-.cursor-fx {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 0;
+  inset: 0;
   z-index: 9999;
   pointer-events: none;
-}
-
-/* Comet trail: each spark chases the previous pointer position. */
-.cursor-spark {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 12px;
-  height: 12px;
-  border-radius: 9999px;
-  background: radial-gradient(circle, rgba(251, 146, 60, 0.85) 0%, rgba(251, 146, 60, 0) 70%);
-  will-change: transform, opacity;
-  pointer-events: none;
-}
-.dark .cursor-spark {
-  background: radial-gradient(circle, rgba(255, 176, 96, 0.9) 0%, rgba(255, 176, 96, 0) 70%);
-}
-
-/* Ring: crisp outline with a gentle lag, morphs over interactive targets. */
-.cursor-ring {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 38px;
-  height: 38px;
-  border-radius: 9999px;
-  border: 2px solid rgba(251, 146, 60, 0.55);
-  box-shadow: 0 0 14px rgba(251, 146, 60, 0.35), inset 0 0 6px rgba(251, 146, 60, 0.15);
-  will-change: transform, border-color, background-color;
-  z-index: 10000;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.35s ease, border-color 0.25s ease, background-color 0.25s ease;
-}
-body.cursor-visible .cursor-ring { opacity: 1; }
-.dark .cursor-ring { border-color: rgba(251, 146, 60, 0.7); }
-
-/* Dot: precise core pinned to the pointer. */
-.cursor-dot {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 8px;
-  height: 8px;
-  border-radius: 9999px;
-  background: rgba(251, 146, 60, 0.95);
-  box-shadow: 0 0 10px rgba(251, 146, 60, 0.8);
-  will-change: transform;
-  z-index: 10001;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.35s ease;
-}
-body.cursor-visible .cursor-dot { opacity: 1; }
-.dark .cursor-dot {
-  background: rgba(255, 184, 112, 1);
-  box-shadow: 0 0 12px rgba(255, 184, 112, 0.9);
-}
-
-/* Click ripple: expanding ring burst. */
-.cursor-ripple {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 24px;
-  height: 24px;
-  margin: -12px 0 0 -12px;
-  border-radius: 9999px;
-  border: 2px solid rgba(251, 146, 60, 0.75);
-  box-shadow: 0 0 10px rgba(251, 146, 60, 0.4);
-  pointer-events: none;
-  animation: cursor-ripple 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
-}
-@keyframes cursor-ripple {
-  0% { transform: scale(0.25); opacity: 0.9; }
-  100% { transform: scale(4); opacity: 0; }
+  mix-blend-mode: screen;
 }
 
 @media (prefers-reduced-motion: reduce) {
   .ambient-blob { animation: none !important; }
   .ambient-blobs { transform: none !important; }
-  .cursor-halo,
-  .cursor-fx,
-  .cursor-ring,
-  .cursor-dot { display: none !important; }
-  body.cursor-custom,
-  body.cursor-custom * { cursor: auto !important; }
+  .cursor-particles { display: none !important; }
 }
