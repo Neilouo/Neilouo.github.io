@@ -225,7 +225,7 @@ strong {
   width: 640px;
   height: 640px;
   border-radius: 9999px;
-  background: radial-gradient(circle, rgba(251, 146, 60, 0.45) 0%, rgba(251, 146, 60, 0.18) 40%, rgba(251, 146, 60, 0) 72%);
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.45) 0%, rgba(59, 130, 246, 0.18) 40%, rgba(59, 130, 246, 0) 72%);
   filter: blur(40px);
   mix-blend-mode: screen;
   will-change: transform;
@@ -233,7 +233,7 @@ strong {
   pointer-events: none;
 }
 .dark .cursor-glow {
-  background: radial-gradient(circle, rgba(251, 146, 60, 0.6) 0%, rgba(251, 146, 60, 0.24) 40%, rgba(251, 146, 60, 0) 72%);
+  background: radial-gradient(circle, rgba(96, 165, 250, 0.6) 0%, rgba(96, 165, 250, 0.24) 40%, rgba(96, 165, 250, 0) 72%);
 }
 
 @media (prefers-reduced-motion: reduce) {
