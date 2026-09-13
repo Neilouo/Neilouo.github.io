@@ -10,6 +10,7 @@ import GitHubStatsCard from '../components/GitHubStatsCard'
 import Visitors from '../components/Visitor'
 import { certifications } from '../data/developerProfile'
 import Magnetic from '../components/Magnetic'
+import ArtisticName from '../components/ArtisticName'
 import { reveal, stagger, item } from '../lib/motion'
 
 export const fadeIn = {
@@ -136,9 +137,7 @@ export function LatestHighlights () {
 <motion.section {...fadeIn} className="pt-20 pb-16 md:pt-28 md:pb-20">
   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
     <div className="max-w-xl">
-      <h1 className="text-4xl md:text-5xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
-        <T k={'hero_name'} />
-      </h1>
+      <ArtisticName />
       <p className="mt-3 text-lg text-warm-600 dark:text-warm-300 leading-relaxed">
         <T k={'hero_sub'} />
       </p>
