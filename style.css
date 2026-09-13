@@ -2,13 +2,119 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ── Self-hosted LXGW WenKai (subset: 桑楠 Nan Sang) ── */
+/* ── Self-hosted fonts ── */
 @font-face {
   font-family: 'LXGW WenKai';
   src: url('/fonts/LXGWWenKai-Subset.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+}
+@font-face {
+  font-family: 'BaigeShoushu';
+  src: url('/fonts/BaigeShoushu.woff2') format('woff2'),
+       url('/fonts/BaigeShoushu.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ── Artistic hero name ── */
+.artistic-name-wrap {
+  position: relative;
+  display: inline-block;
+  padding: 1.5rem 2rem 1.5rem 0;
+  margin: -0.5rem 0;
+}
+
+.artistic-name {
+  position: relative;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.08em;
+  font-size: clamp(3.5rem, 10vw, 7rem);
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+  letter-spacing: 0;
+}
+
+.artistic-name-en {
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+
+/* Each character: staggered, animated entrance, ink-bleed shadow */
+.artistic-char {
+  display: inline-block;
+  will-change: transform, opacity;
+  opacity: 0;
+  animation: artistic-char-in 0.9s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
+  text-shadow:
+    0 0 18px rgba(59, 130, 246, 0.12),
+    0 2px 4px rgba(0, 0, 0, 0.06),
+    0 0 1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.dark .artistic-char {
+  text-shadow:
+    0 0 22px rgba(96, 165, 250, 0.25),
+    0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.artistic-char:hover {
+  transform: translateY(-0.12em) rotate(-1deg) scale(1.05) !important;
+}
+
+@keyframes artistic-char-in {
+  0% {
+    opacity: 0;
+    filter: blur(8px);
+    transform: translateY(0.3em) rotate(0deg) scale(0.85);
+  }
+  60% {
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+/* Paper grain texture overlay on the name */
+.artistic-name-wrap::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+  opacity: 0.06;
+  mix-blend-mode: multiply;
+  border-radius: 4px;
+}
+.dark .artistic-name-wrap::after {
+  opacity: 0.08;
+  mix-blend-mode: screen;
+}
+
+/* Ink-bleed diffusion behind the name */
+.artistic-name-wrap::before {
+  content: '';
+  position: absolute;
+  left: -0.5rem;
+  right: 1rem;
+  top: 20%;
+  bottom: 20%;
+  pointer-events: none;
+  background: radial-gradient(ellipse at 30% 50%, rgba(59, 130, 246, 0.08) 0%, transparent 60%),
+              radial-gradient(ellipse at 70% 40%, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
+  filter: blur(20px);
+  z-index: -1;
+}
+.dark .artistic-name-wrap::before {
+  background: radial-gradient(ellipse at 30% 50%, rgba(96, 165, 250, 0.15) 0%, transparent 60%),
+              radial-gradient(ellipse at 70% 40%, rgba(96, 165, 250, 0.08) 0%, transparent 50%);
 }
 
 /* Mobile base */
