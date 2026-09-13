@@ -217,17 +217,27 @@ strong {
   opacity: 0.05;
 }
 
-/* ── Fluid particle cursor (canvas) ── */
-.cursor-particles {
+/* ── Cursor glow ball (background layer) ── */
+.cursor-glow {
   position: fixed;
-  inset: 0;
-  z-index: 9999;
-  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 640px;
+  height: 640px;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(251, 146, 60, 0.45) 0%, rgba(251, 146, 60, 0.18) 40%, rgba(251, 146, 60, 0) 72%);
+  filter: blur(40px);
   mix-blend-mode: screen;
+  will-change: transform;
+  z-index: -1;
+  pointer-events: none;
+}
+.dark .cursor-glow {
+  background: radial-gradient(circle, rgba(251, 146, 60, 0.6) 0%, rgba(251, 146, 60, 0.24) 40%, rgba(251, 146, 60, 0) 72%);
 }
 
 @media (prefers-reduced-motion: reduce) {
   .ambient-blob { animation: none !important; }
   .ambient-blobs { transform: none !important; }
-  .cursor-particles { display: none !important; }
+  .cursor-glow { display: none !important; }
 }
