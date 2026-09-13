@@ -135,13 +135,13 @@ strong {
   opacity: 0.55;
 }
 
-/* Light: warm cream / amber / gold */
+/* Light: cool cyan / blue / sky */
 .blob-1 {
   top: -12%;
   left: -6%;
   width: 46vw;
   height: 46vw;
-  background: radial-gradient(circle at 30% 30%, rgba(251, 146, 60, 0.50), rgba(251, 146, 60, 0) 70%);
+  background: radial-gradient(circle at 30% 30%, rgba(59, 130, 246, 0.42), rgba(59, 130, 246, 0) 70%);
   animation: ambient-drift-a 24s ease-in-out infinite alternate;
 }
 .blob-2 {
@@ -149,7 +149,7 @@ strong {
   right: -10%;
   width: 40vw;
   height: 40vw;
-  background: radial-gradient(circle at 60% 40%, rgba(245, 158, 11, 0.42), rgba(245, 158, 11, 0) 70%);
+  background: radial-gradient(circle at 60% 40%, rgba(14, 165, 233, 0.38), rgba(14, 165, 233, 0) 70%);
   animation: ambient-drift-b 28s ease-in-out infinite alternate;
 }
 .blob-3 {
@@ -157,7 +157,7 @@ strong {
   left: 8%;
   width: 52vw;
   height: 52vw;
-  background: radial-gradient(circle at 50% 50%, rgba(217, 119, 6, 0.32), rgba(217, 119, 6, 0) 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.30), rgba(37, 99, 235, 0) 70%);
   animation: ambient-drift-c 32s ease-in-out infinite alternate;
 }
 .blob-4 {
@@ -165,25 +165,25 @@ strong {
   right: 4%;
   width: 34vw;
   height: 34vw;
-  background: radial-gradient(circle at 50% 50%, rgba(252, 211, 77, 0.38), rgba(252, 211, 77, 0) 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(125, 211, 252, 0.40), rgba(125, 211, 252, 0) 70%);
   animation: ambient-drift-d 26s ease-in-out infinite alternate;
 }
 
-/* Dark: deep amber, with one subtle indigo echo of the accent blue */
+/* Dark: deep blue / indigo */
 .dark .blob-1 {
-  background: radial-gradient(circle at 30% 30%, rgba(180, 83, 9, 0.50), rgba(180, 83, 9, 0) 70%);
+  background: radial-gradient(circle at 30% 30%, rgba(37, 99, 235, 0.50), rgba(37, 99, 235, 0) 70%);
   opacity: 0.6;
 }
 .dark .blob-2 {
-  background: radial-gradient(circle at 60% 40%, rgba(120, 53, 15, 0.50), rgba(120, 53, 15, 0) 70%);
+  background: radial-gradient(circle at 60% 40%, rgba(29, 78, 216, 0.46), rgba(29, 78, 216, 0) 70%);
   opacity: 0.6;
 }
 .dark .blob-3 {
-  background: radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.26), rgba(37, 99, 235, 0) 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.30), rgba(99, 102, 241, 0) 70%);
   opacity: 0.55;
 }
 .dark .blob-4 {
-  background: radial-gradient(circle at 50% 50%, rgba(146, 64, 14, 0.46), rgba(146, 64, 14, 0) 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(30, 64, 175, 0.46), rgba(30, 64, 175, 0) 70%);
   opacity: 0.6;
 }
 
@@ -225,15 +225,15 @@ strong {
   width: 640px;
   height: 640px;
   border-radius: 9999px;
-  background: radial-gradient(circle, rgba(59, 130, 246, 0.45) 0%, rgba(59, 130, 246, 0.18) 40%, rgba(59, 130, 246, 0) 72%);
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.5) 0%, rgba(59, 130, 246, 0.2) 40%, rgba(59, 130, 246, 0) 72%);
   filter: blur(40px);
-  mix-blend-mode: screen;
   will-change: transform;
   z-index: -1;
   pointer-events: none;
 }
 .dark .cursor-glow {
   background: radial-gradient(circle, rgba(96, 165, 250, 0.6) 0%, rgba(96, 165, 250, 0.24) 40%, rgba(96, 165, 250, 0) 72%);
+  mix-blend-mode: screen;
 }
 
 @media (prefers-reduced-motion: reduce) {
