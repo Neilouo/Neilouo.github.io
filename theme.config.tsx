@@ -1,5 +1,6 @@
 import React from 'react'
 import { LangToggle } from './components/I18nProvider'
+import I18nNavbar from './components/I18nNavbar'
 
 const config = {
   head: (
@@ -49,10 +50,11 @@ const config = {
   primaryHue: { dark: 35, light: 35 },
   logo: (
     <span className="text-xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
-      Nan's
+      Nan&apos;s
     </span>
   ),
   navbar: {
+    component: I18nNavbar,
     extraContent: <LangToggle />
   },
   useNextSeoProps () {
