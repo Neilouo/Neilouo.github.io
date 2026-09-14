@@ -333,14 +333,3 @@ strong {
   .ambient-blobs { transform: none !important; }
   .cursor-glow { display: none !important; }
 }
-
-/* ── CTA gradient shift ── */
-@keyframes gradient-shift {
-  0%, 100% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-}
-.cta-gradient {
-  background-size: 200% 200%;
-  animation: gradient-shift 6s ease infinite;
-}
-
