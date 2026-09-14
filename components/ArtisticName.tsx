@@ -47,8 +47,7 @@ export default function ArtisticName (): JSX.Element {
                 className="artistic-char"
                 style={{
                   fontSize: st.size,
-                  transform: `translateY(${st.offset}em) rotate(${st.rotate}deg)`,
-                  animationDelay: `${i * 0.15}s`
+                  transform: `translateY(${st.offset}em) rotate(${st.rotate}deg)`
                 }}
               >
                 {ch}

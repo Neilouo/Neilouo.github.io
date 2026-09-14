@@ -45,41 +45,18 @@
   line-height: 1.2;
 }
 
-/* Each character: staggered, animated entrance, ink-bleed shadow */
+/* Each character: staggered, ink-bleed shadow */
 .artistic-char {
   display: inline-block;
-  will-change: transform, opacity;
-  opacity: 0;
-  animation: artistic-char-in 0.9s cubic-bezier(0.22, 0.61, 0.36, 1) forwards;
   text-shadow:
     0 0 18px rgba(59, 130, 246, 0.12),
     0 2px 4px rgba(0, 0, 0, 0.06),
     0 0 1px rgba(0, 0, 0, 0.1);
-  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 .dark .artistic-char {
   text-shadow:
     0 0 22px rgba(96, 165, 250, 0.25),
     0 2px 6px rgba(0, 0, 0, 0.3);
-}
-
-.artistic-char:hover {
-  transform: translateY(-0.12em) rotate(-1deg) scale(1.05) !important;
-}
-
-@keyframes artistic-char-in {
-  0% {
-    opacity: 0;
-    filter: blur(8px);
-    transform: translateY(0.3em) rotate(0deg) scale(0.85);
-  }
-  60% {
-    filter: blur(2px);
-  }
-  100% {
-    opacity: 1;
-    filter: blur(0);
-  }
 }
 
 /* Paper grain texture overlay on the name */
