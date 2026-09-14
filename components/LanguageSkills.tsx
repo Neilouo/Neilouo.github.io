@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useRef } from 'react'
 import { useI18n } from './I18nProvider'
 import { Github } from 'lucide-react'
 import { fetchGitHubLanguages, LanguageData } from '../utils/githubLanguages'
@@ -76,6 +76,36 @@ function Skeleton () {
   )
 }
 
+function ProgressBar ({ percentage, color }: { percentage: number, color: string }) {
+  const ref = useRef<HTMLDivElement>(null)
+  const [visible, setVisible] = useState(false)
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setVisible(true)
+          observer.disconnect()
+        }
+      },
+      { threshold: 0.3 }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
+
+  return (
+    <div ref={ref} className="h-1.5 rounded-full bg-warm-100 dark:bg-warm-800 overflow-hidden">
+      <div
+        className={`h-full rounded-full transition-all duration-1000 ease-out ${color}`}
+        style={{ width: visible ? `${percentage}%` : '0%' }}
+      />
+    </div>
+  )
+}
+
 export default function LanguageSkills () {
   const { t } = useI18n()
   const [data, setData] = useState<LanguageData[] | null>(null)
@@ -123,12 +153,7 @@ export default function LanguageSkills () {
                     <span className="text-sm font-medium text-warm-800 dark:text-warm-100">{lang.name}</span>
                     <span className="text-[10px] text-warm-400 dark:text-warm-500 tabular-nums">{lang.percentage}%</span>
                   </div>
-                  <div className="h-1.5 rounded-full bg-warm-100 dark:bg-warm-800 overflow-hidden">
-                    <div
-                      className={`h-full rounded-full transition-all duration-700 ${meta.color}`}
-                      style={{ width: `${lang.percentage}%` }}
-                    />
-                  </div>
+                  <ProgressBar percentage={lang.percentage} color={meta.color} />
                 </div>
               </div>
             )

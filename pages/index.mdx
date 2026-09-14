@@ -12,11 +12,17 @@ import { certifications } from '../data/developerProfile'
 import Magnetic from '../components/Magnetic'
 import ArtisticName from '../components/ArtisticName'
 import { reveal, stagger, item } from '../lib/motion'
+import TypewriterText from '../components/TypewriterText'
 
 export const fadeIn = {
   initial: { opacity: 0, y: 8 },
   animate: { opacity: 1, y: 0 },
   transition: { duration: 0.4 }
+}
+
+export function TypewriterHeroSub () {
+  const { t } = useI18n()
+  return <TypewriterText text={t('hero_sub')} speed={80} startDelay={600} loop pauseDuration={2500} deleteSpeed={40} />
 }
 
 export function MiniGlobe () {
@@ -139,7 +145,7 @@ export function LatestHighlights () {
     <div className="max-w-xl">
       <ArtisticName />
       <p className="mt-8 text-lg text-warm-600 dark:text-warm-300 leading-relaxed">
-        <T k={'hero_sub'} />
+        <TypewriterHeroSub />
       </p>
       <div className="mt-6 flex flex-wrap gap-3">
         <Magnetic>
