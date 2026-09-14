@@ -75,7 +75,7 @@ export default function TypewriterText ({
   return (
     <span className={className}>
       {displayed}
-      <span className={`inline-block w-[2px] ml-0.5 ${done ? 'animate-pulse' : ''}`} style={{ height: '1em', backgroundColor: 'currentColor', verticalAlign: 'text-bottom' }} />
+      <span className={`inline-block w-[2px] ml-0.5 ${done ? 'animate-pulse' : ''}`} style={{ height: '1em', backgroundColor: 'currentColor', verticalAlign: 'middle' }} />
     </span>
   )
 }
