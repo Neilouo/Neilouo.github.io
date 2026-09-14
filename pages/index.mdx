@@ -72,111 +72,117 @@ export function VisitorLine () {
   )
 }
 
+export function HeroSection () {
+  const heroRef = useRef<HTMLDivElement>(null)
+  const { scrollYProgress: heroProgress } = useScroll({ target: heroRef, offset: ['start start', 'end start'] })
+  const heroY = useTransform(heroProgress, [0, 1], [0, -80])
+  const heroOpacity = useTransform(heroProgress, [0, 0.6, 1], [1, 0.6, 0])
+  const heroScale = useTransform(heroProgress, [0, 1], [1, 0.95])
+
+  return (
+    <motion.div ref={heroRef} style={{ y: heroY, opacity: heroOpacity, scale: heroScale }}>
+      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+        {/* 渐变光晕背景 */}
+        <div className="absolute inset-0 -z-10 overflow-hidden">
+          <div className="absolute top-1/4 -left-20 w-[400px] h-[400px] rounded-full bg-gradient-to-br from-accent/20 via-violet-500/10 to-transparent blur-3xl" />
+          <div className="absolute bottom-1/4 -right-20 w-[500px] h-[500px] rounded-full bg-gradient-to-tl from-emerald-500/15 via-cyan-500/10 to-transparent blur-3xl" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-gradient-to-r from-amber-500/10 to-pink-500/10 blur-3xl" />
+        </div>
+
+        <div className="w-full flex flex-col md:flex-row md:items-center md:justify-between gap-12">
+          <div className="max-w-xl">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+            >
+              <ArtisticName />
+            </motion.div>
+
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="mt-8 text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-warm-700 via-accent to-violet-500 dark:from-warm-200 dark:via-accent-light dark:to-violet-400 leading-relaxed font-medium"
+            >
+              <T k={'hero_sub'} />
+            </motion.p>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.5 }}
+              className="mt-6 flex items-center gap-3 text-warm-500 dark:text-warm-400"
+            >
+              <FiCommand className="w-4 h-4 text-accent" />
+              <span className="text-sm"><T k={'about_role'} /></span>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.7 }}
+              className="mt-8 flex flex-wrap gap-3"
+            >
+              <Magnetic>
+                <Link
+                  href="/projects"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-card text-white text-sm font-medium transition-all hover:shadow-lg bg-gradient-to-r from-accent to-violet-500 hover:from-accent-dark hover:to-violet-600"
+                >
+                  <T k={'projects'} /> <FiArrowRight className="w-4 h-4" />
+                </Link>
+              </Magnetic>
+              <Magnetic>
+                <Link
+                  href="/blog"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-card border border-warm-200 dark:border-warm-700 text-warm-700 dark:text-warm-200 text-sm font-medium hover:bg-warm-50 dark:hover:bg-warm-800 transition-colors"
+                >
+                  <T k={'blog'} /> <FiArrowRight className="w-4 h-4" />
+                </Link>
+              </Magnetic>
+            </motion.div>
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.8, delay: 0.4 }}
+            className="flex-shrink-0 relative"
+          >
+            <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-accent/30 via-violet-500/20 to-emerald-500/20 blur-2xl scale-110" />
+            <img
+              src="https://avatars.githubusercontent.com/u/125345731"
+              alt="Nan(Neil) Sang"
+              className="relative w-48 h-48 md:w-56 md:h-56 rounded-full border-2 border-warm-100 dark:border-warm-800"
+            />
+          </motion.div>
+        </div>
+
+        {/* 滚动提示 */}
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.2 }}
+          className="absolute bottom-8 left-1/2 -translate-x-1/2"
+        >
+          <div className="w-6 h-10 rounded-full border-2 border-warm-300 dark:border-warm-700 flex items-start justify-center p-1.5">
+            <motion.div
+              animate={{ y: [0, 8, 0] }}
+              transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
+              className="w-1.5 h-1.5 rounded-full bg-accent"
+            />
+          </div>
+        </motion.div>
+      </section>
+    </motion.div>
+  )
+}
+
 {/* ─────────────────────────────────────────────────────
     Section 1: Hero — 滚动视差 + 渐变标题
     ───────────────────────────────────────────────────── */}
 
-const heroRef = useRef<HTMLDivElement>(null)
-const { scrollYProgress: heroProgress } = useScroll({ target: heroRef, offset: ['start start', 'end start'] })
-const heroY = useTransform(heroProgress, [0, 1], [0, -80])
-const heroOpacity = useTransform(heroProgress, [0, 0.6, 1], [1, 0.6, 0])
-const heroScale = useTransform(heroProgress, [0, 1], [1, 0.95])
-
-<motion.div ref={heroRef} style={{ y: heroY, opacity: heroOpacity, scale: heroScale }}>
-  <section className="relative min-h-[90vh] flex items-center overflow-hidden">
-    {/* 渐变光晕背景 */}
-    <div className="absolute inset-0 -z-10 overflow-hidden">
-      <div className="absolute top-1/4 -left-20 w-[400px] h-[400px] rounded-full bg-gradient-to-br from-accent/20 via-violet-500/10 to-transparent blur-3xl" />
-      <div className="absolute bottom-1/4 -right-20 w-[500px] h-[500px] rounded-full bg-gradient-to-tl from-emerald-500/15 via-cyan-500/10 to-transparent blur-3xl" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] rounded-full bg-gradient-to-r from-amber-500/10 to-pink-500/10 blur-3xl" />
-    </div>
-
-    <div className="w-full flex flex-col md:flex-row md:items-center md:justify-between gap-12">
-      <div className="max-w-xl">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.1 }}
-        >
-          <ArtisticName />
-        </motion.div>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.3 }}
-          className="mt-8 text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-warm-700 via-accent to-violet-500 dark:from-warm-200 dark:via-accent-light dark:to-violet-400 leading-relaxed font-medium"
-        >
-          <T k={'hero_sub'} />
-        </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.5 }}
-          className="mt-6 flex items-center gap-3 text-warm-500 dark:text-warm-400"
-        >
-          <FiCommand className="w-4 h-4 text-accent" />
-          <span className="text-sm"><T k={'about_role'} /></span>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.7 }}
-          className="mt-8 flex flex-wrap gap-3"
-        >
-          <Magnetic>
-            <Link
-              href="/projects"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-card text-white text-sm font-medium transition-all hover:shadow-lg bg-gradient-to-r from-accent to-violet-500 hover:from-accent-dark hover:to-violet-600"
-            >
-              <T k={'projects'} /> <FiArrowRight className="w-4 h-4" />
-            </Link>
-          </Magnetic>
-          <Magnetic>
-            <Link
-              href="/blog"
-              className="inline-flex items-center gap-2 px-6 py-3 rounded-card border border-warm-200 dark:border-warm-700 text-warm-700 dark:text-warm-200 text-sm font-medium hover:bg-warm-50 dark:hover:bg-warm-800 transition-colors"
-            >
-              <T k={'blog'} /> <FiArrowRight className="w-4 h-4" />
-            </Link>
-          </Magnetic>
-        </motion.div>
-      </div>
-
-      <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8, delay: 0.4 }}
-        className="flex-shrink-0 relative"
-      >
-        <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-accent/30 via-violet-500/20 to-emerald-500/20 blur-2xl scale-110" />
-        <img
-          src="https://avatars.githubusercontent.com/u/125345731"
-          alt="Nan(Neil) Sang"
-          className="relative w-48 h-48 md:w-56 md:h-56 rounded-full border-2 border-warm-100 dark:border-warm-800"
-        />
-      </motion.div>
-    </div>
-
-    {/* 滚动提示 */}
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ delay: 1.2 }}
-      className="absolute bottom-8 left-1/2 -translate-x-1/2"
-    >
-      <div className="w-6 h-10 rounded-full border-2 border-warm-300 dark:border-warm-700 flex items-start justify-center p-1.5">
-        <motion.div
-          animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity, ease: 'easeInOut' }}
-          className="w-1.5 h-1.5 rounded-full bg-accent"
-        />
-      </div>
-    </motion.div>
-  </section>
-</motion.div>
+<HeroSection />
 
 {/* ─────────────────────────────────────────────────────
     Section 2: 最近工作 & 最近研究 — 左右交替滑入
