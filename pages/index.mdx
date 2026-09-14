@@ -14,7 +14,7 @@ import ArtisticName from '../components/ArtisticName'
 import { reveal, slideInLeft, slideInRight, stagger, item, staggerCards, cardItem, gradientReveal } from '../lib/motion'
 
 export function MiniGlobe () {
-  const canvasRef = useRef<HTMLCanvasElement>(null)
+  const canvasRef = useRef(null)
   const { t } = useI18n()
   useEffect(() => {
     let phi = 0
@@ -73,7 +73,7 @@ export function VisitorLine () {
 }
 
 export function HeroSection () {
-  const heroRef = useRef<HTMLDivElement>(null)
+  const heroRef = useRef(null)
   const { scrollYProgress: heroProgress } = useScroll({ target: heroRef, offset: ['start start', 'end start'] })
   const heroY = useTransform(heroProgress, [0, 1], [0, -80])
   const heroOpacity = useTransform(heroProgress, [0, 0.6, 1], [1, 0.6, 0])
