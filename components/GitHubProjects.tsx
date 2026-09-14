@@ -1,8 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { motion } from 'framer-motion'
 import ProjectCard, { ProjectMeta } from './ProjectCard'
 import ProjectCarousel from './ProjectCarousel'
 import { useI18n } from './I18nProvider'
 import { fetchGitHubProjects, ProjectRepo } from '../utils/githubProjects'
+import { staggerCardsMasonry, masonryCardEven, masonryCardOdd } from '../lib/motion'
 
 interface GitHubProjectsProps {
   onActiveChange?: (index: number, repo: ProjectRepo) => void
@@ -94,10 +96,11 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
   const displayProjects = limit ? projects.slice(0, limit) : projects
 
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+    <motion.div {...staggerCardsMasonry} className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
       {displayProjects.map((project, index) => (
-        <div
+        <motion.div
           key={project.id}
+          {...(index % 2 === 0 ? masonryCardEven : masonryCardOdd)}
           className="h-full"
           onMouseEnter={() => {
             setActiveIndex(index)
@@ -105,9 +108,9 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
           }}
         >
           <ProjectCard project={project} index={index} />
-        </div>
+        </motion.div>
       ))}
-    </div>
+    </motion.div>
   )
 }
 
