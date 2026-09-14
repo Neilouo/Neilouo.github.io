@@ -358,14 +358,3 @@ strong {
   0%, 50% { opacity: 1; }
   51%, 100% { opacity: 0; }
 }
-
-/* ── Animated gradient text ── */
-@keyframes gradient-pan {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-.animated-gradient-text {
-  background-size: 200% auto;
-  animation: gradient-pan 4s ease infinite;
-}

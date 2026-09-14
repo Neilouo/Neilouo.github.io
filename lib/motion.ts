@@ -54,35 +54,6 @@ export const cardItem = {
   }
 }
 
-export const staggerCardsMasonry = {
-  initial: {},
-  whileInView: 'animate',
-  viewport: { once: true, margin: '-60px' },
-  transition: { staggerChildren: 0.12 }
-}
-
-export const masonryCardEven = {
-  initial: { opacity: 0, y: 60, x: -20, scale: 0.95 },
-  animate: {
-    opacity: 1,
-    y: 0,
-    x: 0,
-    scale: 1,
-    transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] }
-  }
-}
-
-export const masonryCardOdd = {
-  initial: { opacity: 0, y: 60, x: 20, scale: 0.95 },
-  animate: {
-    opacity: 1,
-    y: 0,
-    x: 0,
-    scale: 1,
-    transition: { duration: 0.7, ease: [0.22, 1, 0.36, 1] as [number, number, number, number] }
-  }
-}
-
 export const gradientReveal = {
   initial: { opacity: 0, scale: 0.98 },
   whileInView: { opacity: 1, scale: 1 },

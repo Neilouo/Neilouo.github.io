@@ -12,8 +12,6 @@ import { certifications } from '../data/developerProfile'
 import Magnetic from '../components/Magnetic'
 import ArtisticName from '../components/ArtisticName'
 import TypewriterText from '../components/TypewriterText'
-import ScrollProgress from '../components/ScrollProgress'
-import { GradientHeading, SectionDivider, ScrollGradientBg } from '../components/ScrollNarrative'
 import { reveal, slideInLeft, slideInRight, stagger, item, staggerCards, cardItem, gradientReveal } from '../lib/motion'
 
 export function MiniGlobe () {
@@ -106,7 +104,7 @@ export function HeroSection () {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.3 }}
-              className="mt-8 text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-warm-700 via-accent to-violet-500 dark:from-warm-200 dark:via-accent-light dark:to-violet-400 leading-relaxed font-medium animated-gradient-text"
+              className="mt-8 text-xl md:text-2xl text-transparent bg-clip-text bg-gradient-to-r from-warm-700 via-accent to-violet-500 dark:from-warm-200 dark:via-accent-light dark:to-violet-400 leading-relaxed font-medium"
             >
               <TypewriterText text={t('hero_sub')} speed={80} startDelay={600} />
             </motion.p>
@@ -184,8 +182,6 @@ export function HeroSection () {
     Section 1: Hero — 滚动视差 + 渐变标题 + 打字机特效
     ───────────────────────────────────────────────────── */}
 
-<ScrollProgress />
-<ScrollGradientBg />
 <HeroSection />
 
 {/* ─────────────────────────────────────────────────────
@@ -267,9 +263,9 @@ export function HighlightCards () {
   </div>
 
   <motion.div {...reveal} className="mb-12">
-    <GradientHeading>
+    <h2 className="text-3xl md:text-4xl font-bold text-warm-900 dark:text-warm-50 tracking-tight">
       <T k={'about'} />
-    </GradientHeading>
+    </h2>
     <div className="mt-4 flex flex-wrap gap-x-6 gap-y-2 text-warm-600 dark:text-warm-300">
       <span className="flex items-center gap-2"><FiGlobe className="w-4 h-4 text-accent" /><T k={'about_school'} /></span>
       <span className="flex items-center gap-2"><FiBookOpen className="w-4 h-4 text-accent" /><T k={'about_major'} /></span>
@@ -279,8 +275,6 @@ export function HighlightCards () {
 
   <HighlightCards />
 </section>
-
-<SectionDivider />
 
 {/* ─────────────────────────────────────────────────────
     Section 3: 编程语言 — 滚动到可视区数字跳动
@@ -292,9 +286,9 @@ export function HighlightCards () {
   </div>
 
   <motion.div {...reveal} className="mb-10">
-    <GradientHeading>
+    <h2 className="text-3xl md:text-4xl font-bold text-warm-900 dark:text-warm-50 tracking-tight">
       <T k={'language_skills'} />
-    </GradientHeading>
+    </h2>
     <p className="mt-2 text-warm-500 dark:text-warm-400 text-sm">
       <T k={'tech_stack'} />
     </p>
@@ -318,8 +312,6 @@ export function HighlightCards () {
   </motion.div>
 </section>
 
-<SectionDivider />
-
 {/* ─────────────────────────────────────────────────────
     Section 4: 项目 — 卡片错落渐入 + GitHub 统计数字跳动
     ───────────────────────────────────────────────────── */}
@@ -330,9 +322,9 @@ export function HighlightCards () {
   </div>
 
   <motion.div {...reveal} className="flex items-center justify-between mb-10">
-    <GradientHeading>
+    <h2 className="text-3xl md:text-4xl font-bold text-warm-900 dark:text-warm-50 tracking-tight">
       <T k={'projects'} />
-    </GradientHeading>
+    </h2>
     <Link href="/projects" className="text-sm text-accent hover:underline inline-flex items-center gap-1">
       <T k={'project_more'} /> <FiArrowRight className="w-3.5 h-3.5" />
     </Link>
@@ -345,17 +337,15 @@ export function HighlightCards () {
   <GitHubProjects variant="grid" limit={6} />
 </section>
 
-<SectionDivider />
-
 {/* ─────────────────────────────────────────────────────
     Section 5: 内容导航 — 列表项渐入
     ───────────────────────────────────────────────────── */}
 
 <section className="relative py-24 md:py-32">
   <motion.div {...reveal} className="flex items-center justify-between mb-10">
-    <GradientHeading>
+    <h2 className="text-3xl md:text-4xl font-bold text-warm-900 dark:text-warm-50 tracking-tight">
       <T k={'blog'} />
-    </GradientHeading>
+    </h2>
     <Link href="/blog" className="text-sm text-accent hover:underline inline-flex items-center gap-1">
       <T k={'read_all_posts'} /> <FiArrowRight className="w-3.5 h-3.5" />
     </Link>
@@ -408,8 +398,6 @@ export function HighlightCards () {
     </motion.div>
   </motion.div>
 </section>
-
-<SectionDivider />
 
 {/* ─────────────────────────────────────────────────────
     Section 6: 底部 CTA — 渐变动画
