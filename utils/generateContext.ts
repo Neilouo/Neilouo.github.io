@@ -1,29 +1,27 @@
 import type { Context, contextChild, contextItems } from '../types'
 
-export default function generateContext (json: any, title: string): Context {
+export default function generateContext (json: Record<string, unknown> | null, title: string): Context {
   const context: Context = {
     title,
     children: []
   }
   
-  // 确保json不为空
   if (!json || typeof json !== 'object') {
     return context
   }
   
   for (const key in json) {
-    // eslint-disable-next-line
-    if (json.hasOwnProperty(key) && key) {
-      const value = json[key]
+    if (Object.prototype.hasOwnProperty.call(json, key) && key) {
+      const value = json[key] as { title?: string } | string | undefined
       if (key.startsWith('--')) {
         const child: contextItems = {
-          title: value?.title || '',
+          title: (typeof value === 'object' ? value?.title : undefined) || '',
           children: []
         }
         context.children.push(child)
       } else {
         const child: contextChild = {
-          link: value || key,
+          link: (typeof value === 'string' ? value : undefined) || key,
           title: key
         }
         if (context.children.length === 0) {

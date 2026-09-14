@@ -15,6 +15,8 @@ interface LeetCodeSolved {
 interface LeetCodeContest {
   rating: number
   attended: number
+  globalRanking?: number
+  totalParticipants?: number
 }
 
 interface LeetCodeStats {
@@ -83,18 +85,71 @@ function LeetCodeCard() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    const LEETCODE_USERNAME = 'NanSang2000'
+    const QUERY = `query ($username: String!) {
+      matchedUser(username: $username) {
+        username
+        profile { ranking realName userAvatar }
+        submitStats {
+          acSubmissionNum { difficulty count }
+          totalSubmissionNum { difficulty count }
+        }
+      }
+      userContestRanking(username: $username) {
+        attendedContestsCount rating globalRanking totalParticipants
+      }
+    }`
+
+    const fallback: LeetCodeStats = {
+      username: LEETCODE_USERNAME,
+      solved: { total: 303, easy: 201, medium: 68, hard: 34 },
+      submissions: { total: 1431 },
+      contest: null
+    }
+
     const load = async (): Promise<void> => {
       try {
-        const r = await fetch('/api/leetcode-stats')
-        const d = await r.json() as LeetCodeStats
-        setStats(d)
-      } catch {
-        setStats({
-          username: 'NanSang2000',
-          solved: { total: 303, easy: 201, medium: 68, hard: 34 },
-          submissions: { total: 1431 },
-          contest: null
+        const res = await fetch('https://leetcode.com/graphql', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query: QUERY, variables: { username: LEETCODE_USERNAME } }),
+          signal: AbortSignal.timeout(8000)
         })
+        if (!res.ok) throw new Error('LeetCode API error')
+        const json = await res.json()
+        const user = json.data?.matchedUser
+        const contest = json.data?.userContestRanking
+
+        if (!user) {
+          setStats(fallback)
+          return
+        }
+
+        const acMap: Record<string, number> = {}
+        user.submitStats.acSubmissionNum.forEach((s: { difficulty: string, count: number }) => {
+          acMap[s.difficulty] = s.count
+        })
+
+        setStats({
+          username: user.username,
+          solved: {
+            total: acMap.All ?? 0,
+            easy: acMap.Easy ?? 0,
+            medium: acMap.Medium ?? 0,
+            hard: acMap.Hard ?? 0
+          },
+          submissions: { total: acMap.All ?? 0 },
+          contest: contest != null
+            ? {
+                rating: Math.round(contest.rating),
+                attended: contest.attendedContestsCount,
+                globalRanking: contest.globalRanking,
+                totalParticipants: contest.totalParticipants
+              }
+            : null
+        })
+      } catch {
+        setStats(fallback)
       } finally {
         setLoading(false)
       }

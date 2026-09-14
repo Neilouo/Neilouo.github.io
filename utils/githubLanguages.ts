@@ -78,8 +78,7 @@ export async function fetchGitHubLanguages (): Promise<LanguageResult> {
       }))
 
     return { languages: sorted, source: 'github' }
-  } catch (error) {
-    console.error('Error fetching GitHub languages, using fallback:', error)
+  } catch {
     return { languages: FALLBACK_LANGUAGES, source: 'fallback' }
   }
 }

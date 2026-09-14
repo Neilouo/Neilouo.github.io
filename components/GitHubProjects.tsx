@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import ProjectCard, { ProjectMeta } from './ProjectCard'
 import ProjectCarousel from './ProjectCarousel'
 import { useI18n } from './I18nProvider'
@@ -25,19 +25,21 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
   const [repos, setRepos] = useState<ProjectRepo[]>([])
   const [loading, setLoading] = useState(true)
   const [activeIndex, setActiveIndex] = useState(0)
+  const onLoadedRef = useRef(onLoaded)
+  onLoadedRef.current = onLoaded
 
   useEffect(() => {
     let cancelled = false
     const load = async () => {
       const data = await fetchGitHubProjects()
       if (cancelled) return
-      onLoaded?.(data)
+      onLoadedRef.current?.(data)
       setRepos(data)
       setLoading(false)
     }
     void load()
     return () => { cancelled = true }
-  }, [onLoaded])
+  }, [])
 
   if (loading) {
     const skeletonCount = limit || 6

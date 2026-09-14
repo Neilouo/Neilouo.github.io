@@ -134,8 +134,7 @@ export async function fetchGitHubProjects (): Promise<ProjectRepo[]> {
     const repos: GitHubApiRepo[] = await response.json()
     const projects = transformRepos(repos)
     return projects.length > 0 ? projects : getFallback()
-  } catch (error) {
-    console.error('Error fetching GitHub repos, using fallback:', error)
+  } catch {
     return getFallback()
   }
 }

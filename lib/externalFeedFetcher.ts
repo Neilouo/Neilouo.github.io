@@ -189,27 +189,47 @@ const fetchSource = async (config: FeedConfig): Promise<ExternalArticle[]> => {
 
 /* ── Notion fetcher ─────────────────────────────────────── */
 
-const getNotionTextProp = (page: any, names: string[]): string => {
+interface NotionProp {
+  type?: string
+  title?: Array<{ plain_text?: string }>
+  rich_text?: Array<{ plain_text?: string }>
+  date?: { start?: string }
+  created_time?: string
+  last_edited_time?: string
+  url?: string
+  multi_select?: Array<{ name: string }>
+  select?: { name?: string }
+  checkbox?: boolean
+}
+
+interface NotionPage {
+  id: string
+  url?: string
+  created_time?: string
+  properties?: Record<string, NotionProp>
+}
+
+const getNotionTextProp = (page: NotionPage, names: string[]): string => {
   for (const name of names) {
     const prop = page.properties?.[name]
     if (!prop) continue
-    if (prop.type === 'title') return prop.title?.map((t: any) => t.plain_text).join('') ?? ''
-    if (prop.type === 'rich_text') return prop.rich_text?.map((t: any) => t.plain_text).join('') ?? ''
+    if (prop.type === 'title') return prop.title?.map((t) => t.plain_text ?? '').join('') ?? ''
+    if (prop.type === 'rich_text') return prop.rich_text?.map((t) => t.plain_text ?? '').join('') ?? ''
   }
   return ''
 }
 
-const getNotionDateProp = (page: any, names: string[]): string => {
+const getNotionDateProp = (page: NotionPage, names: string[]): string => {
   for (const name of names) {
     const prop = page.properties?.[name]
     if (prop?.type === 'date' && prop.date?.start) return prop.date.start
-    if (prop?.type === 'created_time') return prop.created_time
-    if (prop?.type === 'last_edited_time') return prop.last_edited_time
+    if (prop?.type === 'created_time') return prop.created_time ?? ''
+    if (prop?.type === 'last_edited_time') return prop.last_edited_time ?? ''
   }
   return page.created_time ?? new Date().toISOString()
 }
 
-const getNotionUrlProp = (page: any, names: string[]): string => {
+const getNotionUrlProp = (page: NotionPage, names: string[]): string => {
   for (const name of names) {
     const prop = page.properties?.[name]
     if (prop?.type === 'url' && prop.url) return prop.url
@@ -217,19 +237,19 @@ const getNotionUrlProp = (page: any, names: string[]): string => {
   return page.url ?? ''
 }
 
-const getNotionMultiSelectProp = (page: any, names: string[]): string[] => {
+const getNotionMultiSelectProp = (page: NotionPage, names: string[]): string[] => {
   for (const name of names) {
     const prop = page.properties?.[name]
-    if (prop?.type === 'multi_select') return prop.multi_select?.map((s: any) => s.name) ?? []
+    if (prop?.type === 'multi_select') return prop.multi_select?.map((s) => s.name) ?? []
     if (prop?.type === 'select' && prop.select?.name) return [prop.select.name]
   }
   return []
 }
 
-const getNotionCheckboxProp = (page: any, names: string[]): boolean | null => {
+const getNotionCheckboxProp = (page: NotionPage, names: string[]): boolean | null => {
   for (const name of names) {
     const prop = page.properties?.[name]
-    if (prop?.type === 'checkbox') return prop.checkbox
+    if (prop?.type === 'checkbox') return prop.checkbox ?? null
   }
   return null
 }
@@ -247,12 +267,12 @@ const fetchNotionArticles = async (): Promise<ExternalArticle[]> => {
       sorts: [{ timestamp: 'created_time', direction: 'descending' }]
     })
 
-    return response.results
-      .filter((page: any) => {
+    return (response.results as unknown as NotionPage[])
+      .filter((page) => {
         const published = getNotionCheckboxProp(page, ['Published', 'published', '已发布', 'public', 'Public'])
         return published === null || published === true
       })
-      .map((page: any) => {
+      .map((page) => {
         const title = getNotionTextProp(page, ['Name', 'name', 'Title', 'title', '标题', '名称'])
         const summary = getNotionTextProp(page, ['Summary', 'summary', 'Description', 'description', '摘要', '描述'])
         const url = getNotionUrlProp(page, ['URL', 'url', 'Link', 'link', '链接'])
@@ -263,7 +283,7 @@ const fetchNotionArticles = async (): Promise<ExternalArticle[]> => {
           id: `notion-${String(page.id)}`,
           title: title || 'Notion Page',
           summary: summary || '来自 Notion 的文章',
-          url: url || page.url,
+          url: url || page.url || '',
           source: 'notion' as ExternalSource,
           publishedAt,
           topics: topics.length > 0 ? topics : ['Notion']

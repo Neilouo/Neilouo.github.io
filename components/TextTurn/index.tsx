@@ -69,7 +69,7 @@ export default function TextTurn ({ items, activeIndex, autoPlay = true, interva
   // 监听页面广播的活动项目变更事件
   useEffect(() => {
     const handler = (e: Event) => {
-      const detail = (e as CustomEvent).detail as { index?: number, repo?: any }
+      const detail = (e as CustomEvent).detail as { index?: number, repo?: { name: string, description: string, language: string } }
       if (typeof detail?.index === 'number') setIndex(detail.index)
       if (detail?.repo) {
         const r = detail.repo

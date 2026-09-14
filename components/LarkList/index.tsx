@@ -9,9 +9,8 @@ import { FiArrowLeft, FiArrowRight, FiFileText, FiList, FiLayout, FiMap } from '
 const Lottie = dynamic(async () => await import('lottie-react'), { ssr: false })
 
 const LarkDocType = ({ type }: { type: string }): JSX.Element => {
-  const Icon = (type): JSX.Element => {
-    type = type.type
-    if (type === 'docx') {
+  const Icon = ({ type: t }: { type: string }): JSX.Element => {
+    if (t === 'docx') {
       return (
           <div className={'flex h-max justify-center items-center gap-1 text-sm'}>
             <FiFileText /> 文档
@@ -55,7 +54,7 @@ export default function LarkList (): JSX.Element {
   const [posts, setPosts] = useState<TypeLark[]>([])
   const [postsGroup, setPostsGroup] = useState<TypeLark[][]>([])
   const [nowPage, setNowPage] = useState(0)
-  const [animationData, setAnimationData] = useState<any>(null)
+  const [animationData, setAnimationData] = useState<Record<string, unknown> | null>(null)
   const [isClient, setIsClient] = useState(false)
 
   useEffect(() => {
@@ -63,8 +62,7 @@ export default function LarkList (): JSX.Element {
     // 动态导入动画数据
     void import('../../public/activity.json').then((data) => {
       setAnimationData(data.default)
-    }).catch((error) => {
-      console.warn('Failed to load animation data:', error)
+    }).catch(() => {
     })
   }, [])
 
@@ -72,8 +70,7 @@ export default function LarkList (): JSX.Element {
     void fetch('/CurriculumVitae').then(async (res) => await res.json()).then((data) => {
       setPosts(data.items.reverse())
       setFetched(true)
-    }).catch((error) => {
-      console.warn('Failed to fetch curriculum vitae data:', error)
+    }).catch(() => {
       setFetched(true)
     })
   }, [])

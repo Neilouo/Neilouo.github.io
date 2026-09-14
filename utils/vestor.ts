@@ -6,29 +6,26 @@ interface VestorProps {
   url: string
 }
 
-interface count {
+interface CountData {
   page_name: string
   visit_count: number
 }
 
-export default function Vestor ({ url }: VestorProps): count {
+export default function Vestor ({ url }: VestorProps): CountData | undefined {
   const [loaded, setLoaded] = useState<boolean>(false)
-  const [data, setData] = useState<count>()
-  // 获取当前页面的 host 后面的路径
-  // eslint-disable-next-line @typescript-eslint/naming-convention
-  let page_name
+  const [data, setData] = useState<CountData | undefined>(undefined)
+  let pageName: string
   if (typeof window !== 'undefined') {
-    page_name = window.location.pathname
+    pageName = window.location.pathname
   } else {
-    page_name = '/'
+    pageName = '/'
   }
-  if (page_name === '/') {
-    page_name = 'home'
+  if (pageName === '/') {
+    pageName = 'home'
   } else {
-    page_name = page_name.replace('/', '')
+    pageName = pageName.replace('/', '')
   }
-  // 获取用户的 ip 地址
-  const [ip, setIp] = useState<string>()
+  const [ip, setIp] = useState<string | undefined>(undefined)
 
   useEffect(() => {
     void fetch('https://api.ipify.org?format=json', {
@@ -36,38 +33,34 @@ export default function Vestor ({ url }: VestorProps): count {
       mode: 'cors'
     }).then(async (response) => {
       return await response.json()
-    }).then((data) => {
-      setIp(data.ip)
+    }).then((d: { ip: string }) => {
+      setIp(d.ip)
     })
-  }, [page_name])
+  }, [pageName])
 
   useEffect(() => {
-    // eslint-disable-next-line
-    if (!(Boolean(loaded))) {
-      // eslint-disable-next-line @typescript-eslint/restrict-plus-operands
-      void fetch(String(url) + '/visit?ip=' + ip + '&page_name=' + page_name, {
+    if (!loaded) {
+      void fetch(`${String(url)}/visit?ip=${ip ?? ''}&page_name=${pageName}`, {
         method: 'GET',
         mode: 'cors'
       }).then(async (response) => {
         return await response.json()
-      }).then((data) => {
-        console.log('🚀Use Vestor to track your website visit count. ' + 'https://github.com/inannan423/Vestor')
+      }).then(() => {
         setLoaded(true)
       })
     }
-  }, [url])
+  }, [url, loaded, ip, pageName])
 
   useEffect(() => {
-    void fetch(String(url) + '/data?page_name=' + page_name, {
+    void fetch(`${String(url)}/data?page_name=${pageName}`, {
       method: 'GET',
       mode: 'cors'
     }).then(async (response) => {
       return await response.json()
-    }).then((data) => {
-      setData(data)
+    }).then((d: CountData) => {
+      setData(d)
     })
-  }, [url, page_name])
+  }, [url, pageName])
 
-  // @ts-ignore
   return data
 }

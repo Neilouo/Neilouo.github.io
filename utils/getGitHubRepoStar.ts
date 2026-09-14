@@ -5,11 +5,9 @@ export default async function getGitHubRepoStar ({ username, repo }: { username:
   await fetch(`https://api.github.com/repos/${username}/${repo}`)
     .then(async response => await response.json())
     .then((repos: Repository) => {
-      console.log(repos)
       count = repos.stargazers_count
       return repos.stargazers_count
-    }).catch((err) => {
-      console.log(err)
+    }).catch(() => {
       return 0
     })
   return count

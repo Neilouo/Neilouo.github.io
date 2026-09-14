@@ -93,7 +93,7 @@ export interface Repository {
   allow_forking: boolean
   is_template: boolean
   web_commit_signoff_required: boolean
-  topics: any[]
+  topics: string[]
   visibility: string
   forks: number
   open_issues: number

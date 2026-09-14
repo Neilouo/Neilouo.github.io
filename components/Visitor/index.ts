@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 
 const VISITOR_COUNT_KEY = 'visitor_counted'
-const COUNT_EXPIRY = 24 * 60 * 60 * 1000 // 24 hours
+const COUNT_EXPIRY = 24 * 60 * 60 * 1000
 
 interface VisitorResult {
   count: number
@@ -22,19 +22,36 @@ function Visitors (): VisitorResult {
         setLoading(true)
         setError(null)
 
-        // Read current count
-        const getRes = await fetch('/api/visitor')
-        if (!getRes.ok) throw new Error('Failed to fetch visitor count')
-        const { count: currentCount } = await getRes.json() as { count: number }
+        const kvUrl = process.env.NEXT_PUBLIC_VERCEL_KV_URL
+        const kvToken = process.env.NEXT_PUBLIC_VERCEL_KV_REST_API_TOKEN
 
-        // Check if we should increment (once per 24h per browser)
+        if (!kvUrl || !kvToken) {
+          setCount(0)
+          return
+        }
+
+        const baseUrl = `${kvUrl}/get/${encodeURIComponent('visitor:count')}`
+        const getRes = await fetch(baseUrl, {
+          headers: { Authorization: `Bearer ${kvToken}` },
+          signal: AbortSignal.timeout(5000)
+        })
+
+        if (!getRes.ok) throw new Error('Failed to fetch visitor count')
+        const getData = await getRes.json() as { result: number | null }
+        const currentCount = getData.result ?? 0
+
         const shouldCount = checkShouldCount()
 
         if (shouldCount) {
-          const postRes = await fetch('/api/visitor', { method: 'POST' })
+          const incrUrl = `${kvUrl}/incr/${encodeURIComponent('visitor:count')}`
+          const postRes = await fetch(incrUrl, {
+            method: 'POST',
+            headers: { Authorization: `Bearer ${kvToken}` },
+            signal: AbortSignal.timeout(5000)
+          })
           if (!postRes.ok) throw new Error('Failed to update visitor count')
-          const { count: newCount } = await postRes.json() as { count: number }
-          setCount(newCount)
+          const postData = await postRes.json() as { result: number }
+          setCount(postData.result)
           localStorage.setItem(VISITOR_COUNT_KEY, Date.now().toString())
         } else {
           setCount(currentCount)

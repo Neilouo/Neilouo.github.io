@@ -7,10 +7,5 @@ export const getSupabaseUrl = (): string =>
 export const getSupabaseKey = (): string =>
   process.env.NEXT_PUBLIC_SUPABASE_KEY || FALLBACK_KEY
 
-export const logSupabaseConfig = (component: string): void => {
-  console.log(`${component} Supabase 配置:`, {
-    url: getSupabaseUrl(),
-    keySet: '✅ 已设置',
-    projectId: getSupabaseUrl().split('.')[0].split('//')[1]
-  })
-} 
+export const supabaseUrl = getSupabaseUrl()
+export const supabaseKey = getSupabaseKey()

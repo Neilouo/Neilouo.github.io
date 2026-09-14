@@ -42,7 +42,6 @@ const BlogPageWithData: React.FC = () => {
         }
       } catch (err) {
         if (!controller.signal.aborted) {
-          console.error('Failed to load external articles:', err)
           setError(t('external_unavailable'))
           setArticles(sampleArticles)
         }

@@ -1,49 +1,18 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useRef } from 'react'
+import { usePointerTracking } from '../hooks/usePointerTracking'
 
-/**
- * Ambient background layer: warm aurora blobs + fine grain + cursor spotlight
- * with subtle parallax. Sits behind all content (fixed, negative z-index),
- * respects prefers-reduced-motion and degrades on touch (pointer: coarse).
- */
 export default function AmbientBackground (): JSX.Element {
   const blobsRef = useRef<HTMLDivElement>(null)
 
-  useEffect(() => {
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    const fine = window.matchMedia('(pointer: fine)').matches
-    if (reduce || !fine) return
-
-    let tx = window.innerWidth / 2
-    let ty = window.innerHeight / 2
-    let cx = tx
-    let cy = ty
-    let raf = 0
-
-    const onMove = (e: MouseEvent): void => {
-      tx = e.clientX
-      ty = e.clientY
+  usePointerTracking(({ x, y }) => {
+    if (blobsRef.current != null) {
+      const dx = (x / window.innerWidth - 0.5) * 2
+      const dy = (y / window.innerHeight - 0.5) * 2
+      blobsRef.current.style.transform = `translate3d(${dx * -22}px, ${dy * -22}px, 0)`
     }
-
-    const loop = (): void => {
-      cx += (tx - cx) * 0.08
-      cy += (ty - cy) * 0.08
-      if (blobsRef.current != null) {
-        const dx = (cx / window.innerWidth - 0.5) * 2
-        const dy = (cy / window.innerHeight - 0.5) * 2
-        blobsRef.current.style.transform = `translate3d(${dx * -22}px, ${dy * -22}px, 0)`
-      }
-      raf = requestAnimationFrame(loop)
-    }
-
-    window.addEventListener('mousemove', onMove, { passive: true })
-    raf = requestAnimationFrame(loop)
-    return () => {
-      window.removeEventListener('mousemove', onMove)
-      cancelAnimationFrame(raf)
-    }
-  }, [])
+  }, 0.08)
 
   return (
     <div aria-hidden className="ambient-layer fixed inset-0 -z-10 overflow-hidden pointer-events-none">

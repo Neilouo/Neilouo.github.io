@@ -4,7 +4,8 @@
   "description": "Nan Sang's personal site: projects, blog, notes and CV.",
   "scripts": {
     "dev": "tsx scripts/external-posts-fetch.ts && tsx scripts/github-data-fetch.ts && next dev -p 6070",
-    "build": "tsx scripts/external-posts-fetch.ts && tsx scripts/github-data-fetch.ts && next build",
+    "build": "tsc --noEmit && tsx scripts/external-posts-fetch.ts && tsx scripts/github-data-fetch.ts && next build",
+    "typecheck": "tsc --noEmit",
     "start": "next start",
     "fetch:external": "tsx scripts/external-posts-fetch.ts",
     "fetch:github": "tsx scripts/github-data-fetch.ts",
@@ -29,7 +30,6 @@
     "@supabase/supabase-js": "^2.14.0",
     "@tailwindcss/typography": "^0.5.16",
     "@vercel/analytics": "^0.1.11",
-    "@vercel/kv": "^3.0.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^1.2.1",
     "cobe": "^0.6.3",

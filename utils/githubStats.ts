@@ -82,8 +82,7 @@ export async function fetchGitHubStats (): Promise<GitHubStats> {
       repos: user.public_repos,
       followers: user.followers
     }
-  } catch (error) {
-    console.error('Error fetching GitHub stats, using fallback:', error)
+  } catch {
     return fallbackStats
   }
 }

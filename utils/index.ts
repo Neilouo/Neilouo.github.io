@@ -34,14 +34,17 @@ export const getDeviceType = () => {
 export const isLowEndDevice = () => {
   if (typeof window === 'undefined') return false
   
-  const nav = navigator as any // 临时类型断言以使用新的Web API
+  const nav = navigator as Navigator & {
+    deviceMemory?: number
+    connection?: { effectiveType?: string }
+  }
   
   const checks = [
     navigator.hardwareConcurrency && navigator.hardwareConcurrency <= 2,
     nav.deviceMemory && nav.deviceMemory <= 2,
     isMobileDevice(),
     window.devicePixelRatio <= 1,
-    nav.connection && ['slow-2g', '2g', '3g'].includes(nav.connection.effectiveType)
+    nav.connection && ['slow-2g', '2g', '3g'].includes(nav.connection.effectiveType ?? '')
   ]
   
   return checks.filter(Boolean).length >= 2
@@ -60,12 +63,12 @@ export const optimizeForMobile = () => {
   document.body.classList.add('mobile-optimized')
   
   // 优化滚动性能
-  const bodyStyle = document.body.style as any
+  const bodyStyle = document.body.style as CSSStyleDeclaration & Record<string, string>
   bodyStyle.webkitOverflowScrolling = 'touch'
 }
 
 // 防抖函数，用于优化性能
-export const debounce = <T extends (...args: any[]) => any>(
+export const debounce = <T extends (...args: never[]) => unknown>(
   func: T,
   wait: number,
   immediate?: boolean
@@ -88,7 +91,7 @@ export const debounce = <T extends (...args: any[]) => any>(
 }
 
 // 节流函数，用于优化性能
-export const throttle = <T extends (...args: any[]) => any>(
+export const throttle = <T extends (...args: never[]) => unknown>(
   func: T,
   limit: number
 ): ((...args: Parameters<T>) => void) => {

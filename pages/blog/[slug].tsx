@@ -25,7 +25,7 @@ interface BlogPostProps {
 }
 
 const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
-  const { t, lang } = useI18n()
+  const { t } = useI18n()
   const shareUrl = typeof window !== 'undefined' ? window.location.href : ''
 
   const handleShare = async (): Promise<void> => {
@@ -36,8 +36,9 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
           text: post.excerpt,
           url: shareUrl
         })
-      } catch (err) {
-        console.log('Share failed:', err)
+      } catch {
+        void navigator.clipboard.writeText(shareUrl)
+        alert(t('link_copied'))
       }
     } else {
       void navigator.clipboard.writeText(shareUrl)
@@ -66,7 +67,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
           >
             <Link
               href="/blog"
-              className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 transition-colors duration-200 group"
+              className="inline-flex items-center text-accent hover:text-accent-dark transition-colors duration-200 group"
             >
               <ArrowLeft className="w-4 h-4 mr-2 group-hover:-translate-x-1 transition-transform duration-200" />
               {t('back_to_blog')}
@@ -80,12 +81,12 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
             transition={{ duration: 0.6 }}
             className="mb-12 text-center"
           >
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl font-bold text-warm-900 dark:text-warm-50 mb-6 leading-tight">
               {post.title}
             </h1>
 
             {/* 元信息 */}
-            <div className="flex flex-wrap items-center justify-center gap-4 text-gray-600 dark:text-gray-400 mb-6">
+            <div className="flex flex-wrap items-center justify-center gap-4 text-warm-600 dark:text-warm-400 mb-6">
               <div className="flex items-center">
                 <Calendar className="w-4 h-4 mr-2" />
                 {post.date}
@@ -98,7 +99,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
                 onClick={() => {
                   void handleShare()
                 }}
-                className="flex items-center hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
+                className="flex items-center hover:text-accent transition-colors duration-200"
               >
                 <Share2 className="w-4 h-4 mr-2" />
                 {t('share')}
@@ -110,7 +111,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
               {post.tags.map(tag => (
                 <span
                   key={tag}
-                  className="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 rounded-full text-sm font-medium"
+                  className="px-3 py-1 bg-accent/10 text-accent rounded-full text-sm font-medium"
                 >
                   <Tag className="inline w-3 h-3 mr-1" />
                   {tag}
@@ -124,33 +125,33 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100 dark:border-gray-700"
+            className="bg-white dark:bg-warm-900 rounded-card shadow-card p-8 md:p-12 border border-warm-100 dark:border-warm-800"
           >
             <div className="prose prose-lg dark:prose-invert max-w-none
-              prose-headings:font-bold prose-headings:text-gray-900 dark:prose-headings:text-white
+              prose-headings:font-bold prose-headings:text-warm-900 dark:prose-headings:text-warm-50
               prose-h1:text-3xl prose-h1:mb-6 prose-h1:mt-8
-              prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-6 prose-h2:border-b prose-h2:border-gray-200 dark:prose-h2:border-gray-700 prose-h2:pb-2
+              prose-h2:text-2xl prose-h2:mb-4 prose-h2:mt-6 prose-h2:border-b prose-h2:border-warm-200 dark:prose-h2:border-warm-800 prose-h2:pb-2
               prose-h3:text-xl prose-h3:mb-3 prose-h3:mt-5
-              prose-p:text-gray-700 dark:prose-p:text-gray-300 prose-p:leading-relaxed
-              prose-a:text-blue-600 dark:prose-a:text-blue-400 prose-a:no-underline hover:prose-a:underline
-              prose-strong:text-gray-900 dark:prose-strong:text-white
-              prose-code:bg-gray-100 dark:prose-code:bg-gray-800 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:text-sm
-              prose-pre:bg-gray-900 prose-pre:rounded-lg prose-pre:p-0
-              prose-blockquote:border-l-4 prose-blockquote:border-blue-500 prose-blockquote:bg-blue-50 dark:prose-blockquote:bg-blue-900/20 prose-blockquote:p-4 prose-blockquote:rounded-r-lg
+              prose-p:text-warm-700 dark:prose-p:text-warm-300 prose-p:leading-relaxed
+              prose-a:text-accent prose-a:no-underline hover:prose-a:underline
+              prose-strong:text-warm-900 dark:prose-strong:text-warm-50
+              prose-code:bg-warm-100 dark:prose-code:bg-warm-800 prose-code:px-1 prose-code:py-0.5 prose-code:rounded prose-code:text-sm
+              prose-pre:bg-warm-900 prose-pre:rounded-lg prose-pre:p-0
+              prose-blockquote:border-l-4 prose-blockquote:border-accent prose-blockquote:bg-accent/5 dark:prose-blockquote:bg-accent/10 prose-blockquote:p-4 prose-blockquote:rounded-r-lg
               prose-ul:space-y-2 prose-ol:space-y-2
-              prose-li:text-gray-700 dark:prose-li:text-gray-300
+              prose-li:text-warm-700 dark:prose-li:text-warm-300
               prose-table:w-full prose-table:border-collapse
-              prose-th:bg-gray-50 dark:prose-th:bg-gray-800 prose-th:p-3 prose-th:text-left prose-th:font-semibold
-              prose-td:p-3 prose-td:border prose-td:border-gray-200 dark:prose-td:border-gray-700"
+              prose-th:bg-warm-50 dark:prose-th:bg-warm-800 prose-th:p-3 prose-th:text-left prose-th:font-semibold
+              prose-td:p-3 prose-td:border prose-td:border-warm-200 dark:prose-td:border-warm-800"
             >
               <ReactMarkdown
                 components={{
-                  code({ node, inline, className, children, ...props }) {
+                  code ({ node: _node, inline, className, children, ...props }) {
                     const match = /language-(\w+)/.exec(className || '')
                     return !inline && match
                       ? (
                         <div className="relative">
-                          <div className="absolute top-2 right-2 text-xs text-gray-400 bg-gray-800 px-2 py-1 rounded">
+                          <div className="absolute top-2 right-2 text-xs text-warm-400 bg-warm-800 px-2 py-1 rounded">
                             {match[1]}
                           </div>
                           <SyntaxHighlighter
@@ -170,32 +171,32 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
                         </code>
                         )
                   },
-                  table({ children }) {
+                  table ({ children }) {
                     return (
                       <div className="overflow-x-auto my-6">
-                        <table className="min-w-full border border-gray-200 dark:border-gray-700 rounded-lg">
+                        <table className="min-w-full border border-warm-200 dark:border-warm-800 rounded-lg">
                           {children}
                         </table>
                       </div>
                     )
                   },
-                  th({ children }) {
+                  th ({ children }) {
                     return (
-                      <th className="bg-gray-50 dark:bg-gray-800 px-4 py-3 text-left font-semibold text-gray-900 dark:text-white border-b border-gray-200 dark:border-gray-700">
+                      <th className="bg-warm-50 dark:bg-warm-800 px-4 py-3 text-left font-semibold text-warm-900 dark:text-warm-50 border-b border-warm-200 dark:border-warm-800">
                         {children}
                       </th>
                     )
                   },
-                  td({ children }) {
+                  td ({ children }) {
                     return (
-                      <td className="px-4 py-3 text-gray-700 dark:text-gray-300 border-b border-gray-200 dark:border-gray-700">
+                      <td className="px-4 py-3 text-warm-700 dark:text-warm-300 border-b border-warm-200 dark:border-warm-800">
                         {children}
                       </td>
                     )
                   },
-                  blockquote({ children }) {
+                  blockquote ({ children }) {
                     return (
-                      <blockquote className="border-l-4 border-blue-500 bg-blue-50 dark:bg-blue-900/20 p-4 rounded-r-lg my-6 italic">
+                      <blockquote className="border-l-4 border-accent bg-accent/5 dark:bg-accent/10 p-4 rounded-r-lg my-6 italic">
                         {children}
                       </blockquote>
                     )
@@ -216,7 +217,7 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
           >
             <Link
               href="/blog"
-              className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition-colors duration-200 shadow-lg hover:shadow-xl"
+              className="inline-flex items-center px-6 py-3 bg-accent hover:bg-accent-dark text-white rounded-xl transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               <ArrowLeft className="w-4 h-4 mr-2" />
               {t('view_more_posts')}
@@ -230,26 +231,23 @@ const BlogPost: React.FC<BlogPostProps> = ({ post }) => {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const docsDirectory = path.join(process.cwd(), 'docs')
-  
+
   let paths: Array<{ params: { slug: string } }> = []
-  
+
   try {
     const filenames = fs.readdirSync(docsDirectory)
     const markdownFiles = filenames.filter(name => name.endsWith('.md'))
-    
+
     paths = markdownFiles.map(filename => ({
       params: {
         slug: filename.replace(/\.md$/, '')
       }
     }))
-  } catch (error) {
-    console.log('无法读取docs目录，返回空路径')
+  } catch {
+    return { paths, fallback: false }
   }
 
-  return {
-    paths,
-    fallback: false
-  }
+  return { paths, fallback: false }
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
@@ -261,7 +259,6 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     const fileContents = fs.readFileSync(filePath, 'utf8')
     const { data, content } = matter(fileContents)
 
-    // 生成摘要
     const excerpt = content
       .replace(/^#.*$/gm, '')
       .replace(/```[\s\S]*?```/g, '')
@@ -269,11 +266,9 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
       .trim()
       .substring(0, 150) + '...'
 
-    // 计算阅读时间
     const readTime = Math.max(1, Math.ceil(content.length / 200 / 5))
 
-    // 提取标签
-    const tags = data.tags || []
+    const tags: string[] = data.tags || []
 
     const post = {
       slug,
@@ -290,11 +285,11 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
         post
       }
     }
-  } catch (error) {
+  } catch {
     return {
       notFound: true
     }
   }
 }
 
-export default BlogPost 
+export default BlogPost
