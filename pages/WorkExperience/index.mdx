@@ -5,6 +5,28 @@ import { useI18n, T } from '../../components/I18nProvider'
 
 export const experiences = [
   {
+    company: { zh: '京能数产', en: 'BEFLOPS' },
+    logo: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"%3E%3Crect width="32" height="32" rx="6" fill="%232563eb"/%3E%3Ctext x="16" y="22" font-size="14" font-family="Arial" font-weight="bold" fill="white" text-anchor="middle"%3EB%3C/text%3E%3C/svg%3E',
+    role: { zh: '系统/网络工程师', en: 'System & Network Engineer' },
+    location: { zh: '北京', en: 'Beijing' },
+    period: { zh: '2026.05 - 至今', en: 'May 2026 - Present' },
+    focus: { zh: 'AI 集群调优', en: 'AI Cluster Tuning' },
+    highlights: {
+      zh: [
+        '负责 AI 集群整体性能调优，覆盖万卡级万亿参数训练场景的网络拓扑、RDMA 通信与存储 IO 全链路优化，端到端训练吞吐提升 18%',
+        '主导国产显卡（昇腾/海光）集群部署与适配测试，完成算子兼容性验证、分布式训练稳定性压测与故障注入演练，保障千亿参数模型连续训练可用性达 99.6%',
+        '设计并实施 GPU 节点网络故障自愈方案，结合 NCCL 拓扑探测与 RoCE 流控动态调参，将集合通信 AllReduce 尾延迟降低 32%',
+        '搭建集群全栈监控体系（Prometheus + Grafana + DCGM），实现 GPU 利用率、网络丢包、NCCL 延迟的秒级告警与根因定位，运维响应效率提升 40%',
+      ],
+      en: [
+        'Led end-to-end performance tuning for 10k-GPU trillion-parameter AI training clusters, optimizing network topology, RDMA communication, and storage IO — lifting training throughput by 18%.',
+        'Drove deployment and compatibility testing of domestic GPUs (Ascend/Hygon), completing operator validation, distributed stability stress tests, and chaos drills to sustain 99.6% uptime for 100B-scale model runs.',
+        'Designed an automated GPU network fault-recovery pipeline combining NCCL topology probing with dynamic RoCE congestion control, reducing AllReduce tail latency by 32%.',
+        'Built a full-stack monitoring stack (Prometheus + Grafana + DCGM) for second-level alerting and root-cause localization across GPU utilization, packet loss, and NCCL latency, cutting ops response time by 40%.',
+      ],
+    },
+  },
+  {
     company: { zh: '航旅纵横', en: 'Umetrip' },
     logo:
       'https://img0.baidu.com/it/u=610977220,2909857421&fm=253&fmt=auto&app=138&f=PNG?w=500&h=500',
