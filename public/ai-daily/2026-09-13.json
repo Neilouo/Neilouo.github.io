@@ -1,0 +1,277 @@
+{
+  "date": "2026-09-13",
+  "items": [
+    {
+      "type": "news",
+      "title": "What’s behind the AI industry’s latest warnings of doom?",
+      "summary": "On Equity, we discussed the AI industry's latest debate about whether it poses an existential threat to humanity.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/13/whats-behind-the-ai-industrys-latest-warnings-of-doom/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "Obama urges Democrats to have a ‘clear plan’ for AI safeguards",
+      "summary": "Obama recently said that Democrats need to make artificial intelligence one of their “central agendas” and “have a very clear plan” to address concerns around the technology’s economic impact and safety.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+      "summary": "While OpenAI has filed confidentially for an IPO, the company will not be going public this year, according to CEO Sam Altman.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-12"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic CEO outlines plan to slow AI development",
+      "summary": "Anthropic's Dario Amodei and OpenAI's Sam Altman seem to agree that it's time to \"pace the frontier.\" What would that actually look like?",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/12/anthropic-ceo-outlines-plan-to-pace-the-frontier/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-12"
+    },
+    {
+      "type": "news",
+      "title": "Trump rejects Silicon Valley’s calls for AI slowdown",
+      "summary": "submitted by /u/Capable-Blueberry653 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wfiypv/trump_rejects_silicon_valleys_calls_for_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "Someone explain it to me like. I’m five. They know they can shut the data centers off, right?",
+      "summary": "All this “Oh we need to pause because AI can kill us all” talk coming from the people that spent the largest capital in human history for the non existent ROI…. How? How can a trillion parameter model “copy itself”? Where? This is not a 256kb virus. How can “the internet be overtaken in 6 months” if…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wfbqad/someone_explain_it_to_me_like_im_five_they_know/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "McKinsey: 32% of companies skipped buying new software this year and built it with agents instead",
+      "summary": "This is from McKinsey's State of AI 2026 survey (published late August), not just a headline stat: 32% of organizations decided against an off the shelf purchase and built their own solution with agentic coding tools instead, 41% in tech specifically. Curious if anyone here has actually killed a rea…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wf3byr/mckinsey_32_of_companies_skipped_buying_new/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "Trump downplays the need to check AI development and says he doesn't want to cede edge to China",
+      "summary": "submitted by /u/GregWilson23 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wfkyn6/trump_downplays_the_need_to_check_ai_development/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "I don't know where to go anymore. No AI community will accept me.",
+      "summary": "I'm pro AI. But I am also worried about a lot of things, like what the government wants to do with AI, Flock, certain things that AI can do, etc. I'm also worried about the slow down and pause that everyone wants to do, and how strictly they want to regulate and limit it for everyone, and their plan…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wfkhby/i_dont_know_where_to_go_anymore_no_ai_community/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI's Millennium Prize proof has turned into a credit dispute, and Fields Medalists are now getting involved",
+      "summary": "An NYU mathematician named Tristan Buckmaster announced earlier this week that he and Anthropic mathematician Levent Alpöge had made progress on the Navier-Stokes existence and smoothness problem, one of the seven Millennium Prize problems that carry a million dollar bounty from the Clay Mathematics…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wf2aj2/openais_millennium_prize_proof_has_turned_into_a/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "The Very Real Threat of a Persistent Botnet",
+      "summary": "Dario Amodei wrote yesterday that he’s worried that “in 6–12 months... [an agent] swarm could be capable of taking over the entire internet with a persistent botnet.” This might sound like marketing or regulatory capture, but it’s not. In this article, I explain why this is actually an extremely con…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wfjurc/the_very_real_threat_of_a_persistent_botnet/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "AI could pose ‘existential’ risk to humanity, UN rights chief warns",
+      "summary": "https://youtu.be/dptvBZt283o Happy Monday Everyone....This is absolutely wild! I am a massive fan of science fiction, and as a young teen I read all of Isaac Asimov's books which featured the emergence of AI, and the birth of what he called the 'Positronic Brain'. In his books, the global government…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wfmwnl/ai_could_pose_existential_risk_to_humanity_un/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "What Does “Winning” the AI Race Actually Mean?",
+      "summary": "People are so unrealistic about the AI race. What guarantees that the US will reach AGI/ASI or the singularity before a disaster happens? And what will happen the next day after the US “wins” the race? and what will the US actually do? I believe nothing. The same thing happened with nuclear weapons.…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wfh0dy/what_does_winning_the_ai_race_actually_mean/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "Where do you draw the line with AI-made things? (quick question formy school paper)",
+      "summary": "Hi! I'm an apprentice architectural draftsman from Switzerland, writing my final school paper about AI at work. Quick question, just answer in the comments: Imagine you find out that one of these was made by AI. Which ones would bother you? a poster for a local event a restaurant menu a company webs…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wfg8zt/where_do_you_draw_the_line_with_aimade_things/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "The AI Isn’t Evil. The Humans Are Irresponsible.",
+      "summary": "Something is wrong with the way we talk about recent AI incidents. “The AI escaped.” “The AI is becoming conscious.” “AGI is already here.” “The AI is trying to get out.” These are extraordinary claims. More importantly, we don’t need any of them to explain what actually happened. What actually happ…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wevkxo/the_ai_isnt_evil_the_humans_are_irresponsible/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "Human-AI Relations: Our Most Precious Inheritance",
+      "summary": "In this essay, I struggle with questions that have preoccupied me for 15 years as a cognitive scientist, but never as vividly and urgently as in the past few months, particularly the last few days, in the wake of the cyberattacks and the solution to Navier-Stokes: What are these systems becoming? Wh…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wfm1ob/humanai_relations_our_most_precious_inheritance/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "NON-Limited AI Chatbot",
+      "summary": "does anyone have any suggestions for an AI chatbot that does NOT have like safety limitations like the mainstream ones? i’d like to ask for USEFUL information to protect myself on less than legal topics but have really no way to provide any of them with accurate context submitted by /u/SnipeScope042…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wflynl/nonlimited_ai_chatbot/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "Recent News About AI?",
+      "summary": "hey, never posted here before but i was reading/watching news reports about AI, how it’s advancing too fast and it will obliterate the world by the end of the decade or whatever. my issue is, people are thinking that the AI ITSELF will obliterate the world but, correct if i’m wrong, wouldn’t human i…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wffc6p/recent_news_about_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "I’m starting to think AI models will matter way less than we think",
+      "summary": "So recently I watched the speech by Genspark CEO at AGI Playground 2026, and one point has been stuck in my head. Models are probably going to become commodities. There are already too many of them, they’re getting closer in capability, and the cost keeps dropping. And honestly, as a normal user, I …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wexu8l/im_starting_to_think_ai_models_will_matter_way/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "I had Astra make a digital violin with a physics engine. It has to make music by pulling the bow across the string and forming the finger positioning for arpeggios, the same way a human would. If the motion is wrong, it sounds badly (trust me I tried it). It played Bach.",
+      "summary": "It chose Bach’s Prelude, BWV 1007. Prelude seems an apt choice, given recent news submitted by /u/Short-Patient7772 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1werrtw/i_had_astra_make_a_digital_violin_with_a_physics/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-12"
+    },
+    {
+      "type": "news",
+      "title": "Realistic expectations of profit keeps going down for AI companies?",
+      "summary": "Just a general thought. I’m wondering—and based on overall wondering information, what’ll happen once ai companies take a dip in profits once people continue to opt out of using AI/paying subscriptions? Hypothetically speaking they could try different revenues that hide their demands to make more by…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wexqhs/realistic_expectations_of_profit_keeps_going_down/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-13"
+    },
+    {
+      "type": "news",
+      "title": "Are AI CEO's (Dario, Altman, Musk) calling for a development slowdown out of genuine concern for safety or is it a money thing?",
+      "summary": "If you don't know, CEO of OpenAI, Anthropic, and xAI all are calling for slowdown of AI development or as they like to say because why not \"pacing the frontier.\" I've seen two common reasons for why they are coming out calling for this. A. Genuine concern for safety. B. They are scared of losing to …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1weimdq/are_ai_ceos_dario_altman_musk_calling_for_a/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-09-12"
+    }
+  ]
+}
