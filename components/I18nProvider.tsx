@@ -67,7 +67,7 @@ const DICT: Record<string, { zh: string, en: string }> = {
 
   // About page
   about_title: { zh: '关于', en: 'About' },
-  about_intro: { zh: '我是桑楠，一名全栈开发者和产品经理，目前就读于墨尔本大学数据科学专业。我热衷于构建连接工程与用户体验的产品，曾在腾讯、顺丰、滴滴、金山云、航旅纵横等公司工作。', en: "I'm Nan Sang — a full-stack developer and product manager currently studying Data Science at the University of Melbourne. I enjoy building products that bridge engineering and user experience, and I've worked across companies like Tencent、SF、DiDi, Kingsoft Cloud, and Umetrip." },
+  about_intro: { zh: '我是桑楠，一名全栈开发者和产品经理，毕业于墨尔本大学数据科学专业。我热衷于构建连接工程与用户体验的产品，曾在腾讯、顺丰、滴滴、金山云、航旅纵横等公司工作。', en: "I'm Nan Sang — a full-stack developer and product manager who graduated from the University of Melbourne with a degree in Data Science. I enjoy building products that bridge engineering and user experience, and I've worked across companies like Tencent、SF、DiDi, Kingsoft Cloud, and Umetrip." },
   work_experience: { zh: '工作经历', en: 'Work Experience' },
   research: { zh: '研究经历', en: 'Research' },
   latest_role: { zh: '最近工作', en: 'Latest Role' },
