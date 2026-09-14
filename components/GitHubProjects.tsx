@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import { motion } from 'framer-motion'
 import ProjectCard, { ProjectMeta } from './ProjectCard'
 import ProjectCarousel from './ProjectCarousel'
 import { useI18n } from './I18nProvider'
@@ -96,8 +97,16 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
       {displayProjects.map((project, index) => (
-        <div
+        <motion.div
           key={project.id}
+          initial={{ opacity: 0, y: 40, scale: 0.96 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, margin: '-60px' }}
+          transition={{
+            duration: 0.6,
+            delay: index * 0.12,
+            ease: [0.22, 1, 0.36, 1] as [number, number, number, number]
+          }}
           className="h-full"
           onMouseEnter={() => {
             setActiveIndex(index)
@@ -105,7 +114,7 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
           }}
         >
           <ProjectCard project={project} index={index} />
-        </div>
+        </motion.div>
       ))}
     </div>
   )
