@@ -11,6 +11,7 @@ interface GitHubProjectsProps {
   autoPlay?: boolean
   intervalMs?: number
   limit?: number
+  featuredFirst?: boolean
 }
 
 const GitHubProjects: React.FC<GitHubProjectsProps> = ({
@@ -19,7 +20,8 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
   variant = 'grid',
   autoPlay = true,
   intervalMs = 4000,
-  limit
+  limit,
+  featuredFirst = false
 }) => {
   const { t } = useI18n()
   const [repos, setRepos] = useState<ProjectRepo[]>([])
@@ -98,13 +100,13 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({
       {displayProjects.map((project, index) => (
         <div
           key={project.id}
-          className="h-full"
+          className={`h-full ${featuredFirst && index === 0 ? 'md:col-span-2 lg:row-span-2' : ''}`}
           onMouseEnter={() => {
             setActiveIndex(index)
             onActiveChange?.(index, repos[index])
           }}
         >
-          <ProjectCard project={project} index={index} />
+          <ProjectCard project={project} index={index} featured={featuredFirst && index === 0} />
         </div>
       ))}
     </div>

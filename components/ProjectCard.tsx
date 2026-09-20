@@ -22,6 +22,7 @@ export interface ProjectMeta {
 interface ProjectCardProps {
   project: ProjectMeta
   index?: number
+  featured?: boolean
 }
 
 const languageColors: Record<string, string> = {
@@ -37,7 +38,7 @@ const languageColors: Record<string, string> = {
   Swift: '#fa7343'
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({ project, featured = false }) => {
   const color = project.language ? (languageColors[project.language] || '#6b7280') : '#6b7280'
 
   const formatDate = (date: string) => new Date(date).toLocaleDateString('zh-CN', {
@@ -45,10 +46,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   })
 
   return (
-    <article className="group rounded-card border border-warm-100 dark:border-warm-800 bg-white/80 dark:bg-warm-950/80 backdrop-blur-sm hover:border-accent/30 dark:hover:border-accent/30 hover:shadow-card-hover transition-all overflow-hidden h-full flex flex-col">
-      <div className="p-5 space-y-3 flex-1 flex flex-col">
+    <article className={`group rounded-card border border-warm-100 dark:border-warm-800 bg-white/80 dark:bg-warm-950/80 backdrop-blur-sm hover:border-accent/30 dark:hover:border-accent/30 hover:shadow-card-hover transition-all overflow-hidden h-full flex flex-col ${featured ? 'shadow-card' : ''}`}>
+      <div className={`${featured ? 'p-6 md:p-7 space-y-4' : 'p-5 space-y-3'} flex-1 flex flex-col`}>
         <div className="flex items-start justify-between gap-3">
-          <h3 className="text-base font-semibold text-warm-900 dark:text-warm-50 tracking-tight leading-tight font-mono truncate">
+          <h3 className={`${featured ? 'text-lg md:text-xl' : 'text-base'} font-semibold text-warm-900 dark:text-warm-50 tracking-tight leading-tight font-mono truncate`}>
             {project.name}
           </h3>
           <div className="flex items-center gap-2 flex-shrink-0">
@@ -61,20 +62,20 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           </div>
         </div>
 
-        <p className="text-sm text-warm-600 dark:text-warm-300 leading-relaxed line-clamp-2 flex-1">
+        <p className={`text-sm text-warm-600 dark:text-warm-300 leading-relaxed flex-1 ${featured ? 'line-clamp-3 md:line-clamp-4' : 'line-clamp-2'}`}>
           {project.description}
         </p>
 
         {project.topics && project.topics.length > 0 && (
           <div className="flex flex-wrap gap-1.5">
-            {project.topics.slice(0, 4).map((t, i) => (
+            {project.topics.slice(0, featured ? 6 : 4).map((t, i) => (
               <span key={i} className="px-2 py-0.5 rounded text-xs bg-warm-50 dark:bg-warm-900 text-warm-600 dark:text-warm-300 border border-warm-100 dark:border-warm-800">
                 {t}
               </span>
             ))}
-            {project.topics.length > 4 && (
+            {project.topics.length > (featured ? 6 : 4) && (
               <span className="px-2 py-0.5 rounded text-xs text-warm-400">
-                +{project.topics.length - 4}
+                +{project.topics.length - (featured ? 6 : 4)}
               </span>
             )}
           </div>
@@ -108,7 +109,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                 href={project.homepage}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium bg-accent text-white hover:bg-accent-dark transition-colors"
+                className="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-medium bg-accent-solid text-white hover:bg-accent-solid-hover transition-colors"
               >
                 <AiOutlineLink /> Live
               </a>

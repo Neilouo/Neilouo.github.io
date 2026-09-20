@@ -5,18 +5,15 @@ description: '记录技术学习过程中的思考与实践'
 
 import { motion } from 'framer-motion'
 import BlogPageWithData from '../../components/BlogPageWithData'
+import PageHeader from '../../components/ui/PageHeader'
 import { T } from '../../components/I18nProvider'
 import { reveal } from '../../lib/motion'
 
 <div className="max-w-5xl mx-auto px-4 pt-12 pb-24">
-  <motion.header {...reveal} className="mb-12">
-    <h1 className="text-3xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
-      <T k={'blog'} />
-    </h1>
-    <p className="mt-2 text-warm-600 dark:text-warm-300">
-      <T k={'blog_subtitle'} />
-    </p>
-  </motion.header>
+  <PageHeader
+    title={<T k={'blog'} />}
+    description={<T k={'blog_subtitle'} />}
+  />
 
   <motion.div {...reveal}>
     <BlogPageWithData />

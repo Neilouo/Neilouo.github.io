@@ -24,7 +24,7 @@ export default function ResumeSection() {
 
   return (
     <section className="mb-16">
-      <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+      <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 mb-6 tracking-tight">
         <T k={'resume'} />
       </h2>
 

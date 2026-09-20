@@ -55,7 +55,7 @@ const BlogPageWithData: React.FC = () => {
     void load()
 
     return () => controller.abort()
-  }, [])
+  }, [t])
 
   const availableSources = useMemo(() => {
     return articles.reduce<Record<ExternalSource, number>>((acc, item) => {
@@ -81,30 +81,30 @@ const BlogPageWithData: React.FC = () => {
     )
   }, [activeSource, articles, sortMode])
 
+  const pillBase = 'rounded-full px-3 py-1 text-xs font-medium transition-colors'
+  const pillActive = 'bg-warm-900 text-white dark:bg-warm-100 dark:text-warm-900'
+  const pillIdle = 'bg-white/60 text-warm-500 hover:bg-warm-100 dark:bg-warm-800/60 dark:text-warm-300 dark:hover:bg-warm-800'
+
   return (
     <div className="space-y-6">
       <div className="flex flex-wrap items-center justify-between gap-4">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-[0.35em] text-slate-400 dark:text-slate-500">
+          <p className="text-xs font-medium uppercase tracking-[0.2em] text-warm-400 dark:text-warm-500">
             {t('external_feed')}
           </p>
-          <h3 className="text-left text-2xl font-semibold text-slate-900 dark:text-white">
+          <h3 className="text-left font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
             {t('external_articles')}
           </h3>
           {error && <p className="mt-2 text-xs text-amber-500">{error}</p>}
         </div>
         <div className="flex flex-col items-end gap-2">
           <div className="flex flex-wrap items-center gap-2 text-sm">
-            <span className="inline-flex items-center rounded-full border border-slate-200/70 px-3 py-1 text-slate-500 dark:border-white/10 dark:text-slate-300">
+            <span className="inline-flex items-center rounded-full border border-warm-200 px-3 py-1 text-warm-500 dark:border-warm-700 dark:text-warm-400">
               <Filter className="mr-1 h-3.5 w-3.5" />{t('filter_source')}
             </span>
             <button
               onClick={() => setActiveSource('all')}
-              className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] transition ${
-                activeSource === 'all'
-                  ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900'
-                  : 'bg-white/60 text-slate-500 hover:bg-slate-100 dark:bg-white/5 dark:text-slate-300'
-              }`}
+              className={`${pillBase} ${activeSource === 'all' ? pillActive : pillIdle}`}
             >
               {t('all')}
             </button>
@@ -113,9 +113,9 @@ const BlogPageWithData: React.FC = () => {
                 key={source}
                 onClick={() => setActiveSource(source)}
                 disabled={!availableSources[source]}
-                className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.25em] transition ${
+                className={`${pillBase} ${
                   activeSource === source
-                    ? `${sourceMeta[source].accent} shadow`
+                    ? `${sourceMeta[source].accent}`
                     : `${sourceMeta[source].text} opacity-70 hover:opacity-100`
                 } ${!availableSources[source] ? 'opacity-40 cursor-not-allowed' : ''}`}
               >
@@ -126,21 +126,13 @@ const BlogPageWithData: React.FC = () => {
           <div className="flex items-center gap-1.5">
             <button
               onClick={() => setSortMode('latest')}
-              className={`inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium transition ${
-                sortMode === 'latest'
-                  ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900'
-                  : 'bg-white/60 text-slate-500 hover:bg-slate-100 dark:bg-white/5 dark:text-slate-300'
-              }`}
+              className={`inline-flex items-center gap-1 ${pillBase} ${sortMode === 'latest' ? pillActive : pillIdle}`}
             >
               <Clock className="h-3 w-3" />{t('latest')}
             </button>
             <button
               onClick={() => setSortMode('popular')}
-              className={`inline-flex items-center gap-1 rounded-full px-3 py-1 text-xs font-medium transition ${
-                sortMode === 'popular'
-                  ? 'bg-slate-900 text-white dark:bg-white dark:text-slate-900'
-                  : 'bg-white/60 text-slate-500 hover:bg-slate-100 dark:bg-white/5 dark:text-slate-300'
-              }`}
+              className={`inline-flex items-center gap-1 ${pillBase} ${sortMode === 'popular' ? pillActive : pillIdle}`}
             >
               <Flame className="h-3 w-3" />{t('popular')}
             </button>
@@ -150,7 +142,7 @@ const BlogPageWithData: React.FC = () => {
 
       {loading
         ? (
-        <div className="flex min-h-[220px] items-center justify-center rounded-3xl border border-white/60 bg-white/70 text-sm text-slate-500 shadow-inner dark:border-white/10 dark:bg-slate-900/60 dark:text-slate-300">
+        <div className="flex min-h-[220px] items-center justify-center rounded-card border border-warm-100 bg-white/80 text-sm text-warm-500 dark:border-warm-800 dark:bg-warm-950/80 dark:text-warm-400">
           {t('loading_articles')}
         </div>
           )
@@ -160,35 +152,35 @@ const BlogPageWithData: React.FC = () => {
             const meta = sourceMeta[article.source]
             return (
               <Link key={article.id} href={article.url} target="_blank" rel="noopener noreferrer" className="group">
-                <article className="relative flex h-full flex-col rounded-3xl border border-white/60 bg-white/90 p-6 shadow-[0_25px_80px_-50px_rgba(15,23,42,0.7)] transition hover:-translate-y-1 hover:shadow-[0_35px_120px_-60px_rgba(15,23,42,0.8)] dark:border-white/10 dark:bg-slate-900/80">
+                <article className="relative flex h-full flex-col rounded-card border border-warm-100 bg-white/80 p-6 shadow-card backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 hover:border-accent/25 hover:shadow-card-hover dark:border-warm-800 dark:bg-warm-950/80">
                   <div className="flex items-start justify-between">
-                    <span className={`rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] ${meta.text}`}>
+                    <span className={`rounded-full px-3 py-1 text-xs font-medium ${meta.text}`}>
                       {meta.name}
                     </span>
-                    <div className="relative h-8 w-8 overflow-hidden rounded-full bg-white/80 p-1 shadow-inner dark:bg-white/10">
+                    <div className="relative h-8 w-8 overflow-hidden rounded-full bg-white/80 p-1 border border-warm-100 dark:border-warm-800 dark:bg-warm-900/60">
                       <img src={meta.logo} alt={meta.name} className="h-full w-full object-contain" />
                     </div>
                   </div>
 
-                  <div className="mt-6 space-y-3">
-                    <h3 className="text-xl font-semibold leading-snug text-slate-900 transition group-hover:text-slate-600 dark:text-white dark:group-hover:text-slate-200">
+                  <div className="mt-5 space-y-2.5">
+                    <h3 className="text-lg font-semibold leading-snug text-warm-900 transition-colors group-hover:text-accent dark:text-warm-50 dark:group-hover:text-accent">
                       {article.title}
                     </h3>
-                    <p className="text-sm text-slate-600 line-clamp-3 dark:text-slate-300">{article.summary}</p>
+                    <p className="text-sm text-warm-600 line-clamp-3 dark:text-warm-300">{article.summary}</p>
                   </div>
 
                   <div className="mt-4 flex flex-wrap gap-2">
                     {article.topics.map((topic) => (
-                      <span key={topic} className="rounded-full bg-slate-100 px-2 py-1 text-xs text-slate-500 dark:bg-white/10 dark:text-slate-200">
+                      <span key={topic} className="rounded-full bg-warm-100 px-2 py-1 text-xs text-warm-500 dark:bg-warm-800/80 dark:text-warm-300">
                         {topic}
                       </span>
                     ))}
                   </div>
 
-                  <div className="mt-auto flex items-center justify-between pt-6 text-sm text-slate-500 dark:text-slate-300">
+                  <div className="mt-auto flex items-center justify-between pt-5 text-sm text-warm-500 dark:text-warm-400">
                     <div>
-                      <p>{new Date(article.publishedAt).toLocaleDateString(lang === 'zh' ? 'zh-CN' : 'en-US')}</p>
-                      <p className="text-xs text-slate-400">
+                      <p className="tabular-nums">{new Date(article.publishedAt).toLocaleDateString(lang === 'zh' ? 'zh-CN' : 'en-US')}</p>
+                      <p className="text-xs text-warm-400 dark:text-warm-500">
                         {article.stats?.views
                           ? `${article.stats.views} ${t('views')}`
                           : ''}
@@ -200,7 +192,7 @@ const BlogPageWithData: React.FC = () => {
                           : ''}
                       </p>
                     </div>
-                    <ArrowUpRight className="h-4 w-4 text-slate-400 transition group-hover:text-slate-900 dark:group-hover:text-white" />
+                    <ArrowUpRight className="h-4 w-4 text-warm-300 transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-accent dark:text-warm-600" />
                   </div>
                 </article>
               </Link>

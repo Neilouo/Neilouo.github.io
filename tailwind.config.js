@@ -26,10 +26,15 @@ module.exports = {
           950: '#141210'
         },
         accent: {
-          DEFAULT: '#2563EB',
-          light: '#3B82F6',
-          dark: '#1D4ED8'
+          DEFAULT: 'rgb(var(--color-accent) / <alpha-value>)',
+          light: 'rgb(var(--color-accent-light) / <alpha-value>)',
+          dark: 'rgb(var(--color-accent-dark) / <alpha-value>)',
+          solid: 'rgb(var(--color-accent-solid) / <alpha-value>)',
+          'solid-hover': 'rgb(var(--color-accent-solid-hover) / <alpha-value>)'
         }
+      },
+      fontFamily: {
+        display: ['"Cormorant Garamond"', '"LXGW WenKai"', '"STKaiti"', 'Georgia', 'serif']
       },
       fontSize: {
         xs: ['0.75rem', { lineHeight: '1rem' }],
@@ -67,11 +72,13 @@ module.exports = {
         }
       },
       boxShadow: {
-        card: '0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.06)',
-        'card-hover': '0 4px 12px rgba(0,0,0,0.08), 0 2px 4px rgba(0,0,0,0.06)'
+        card: '0 1px 3px rgba(35,30,24,0.04), 0 1px 2px rgba(35,30,24,0.06)',
+        'card-hover': '0 8px 24px rgba(35,30,24,0.10), 0 2px 6px rgba(35,30,24,0.06)',
+        lift: '0 12px 32px rgba(194,65,12,0.10), 0 2px 8px rgba(35,30,24,0.06)'
       },
       borderRadius: {
-        card: '1rem'
+        card: '1rem',
+        tile: '0.75rem'
       }
     }
   },

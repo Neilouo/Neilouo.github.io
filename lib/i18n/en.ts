@@ -190,5 +190,16 @@ export const en: Record<string, string> = {
   nav_blog: 'Writing',
   nav_note: 'Notes',
   nav_projects: 'Projects',
-  nav_about: 'About'
+  nav_about: 'About',
+
+  home_available: 'Open to opportunities',
+  featured_projects: 'Featured Projects',
+  latest_writing: 'Latest Writing',
+  latest_writing_desc: 'Recently published across platforms',
+  writing_empty: 'No posts yet',
+  contact_cta_title: 'Have an idea in mind?',
+  contact_cta_desc: "Whether it's a collaboration, a technical discussion, or just a hello — my inbox is always open.",
+  get_in_touch: 'Get in touch',
+  view_resume: 'View résumé',
+  now_label: 'Now'
 }

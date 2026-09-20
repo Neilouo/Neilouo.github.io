@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { getNoteFilters, getNoteHighlights } from '../../data/noteContent'
 import { ArrowRight } from 'lucide-react'
 import { useI18n } from '../I18nProvider'
+import PageHeader from '../ui/PageHeader'
 import { reveal, stagger, item } from '../../lib/motion'
 
 interface NoteLandingProps {
@@ -18,18 +19,14 @@ export default function NoteLanding ({ contextJson }: NoteLandingProps): JSX.Ele
   const totalNotes = noteFilters.reduce((acc, item) => acc + item.count, 0)
   return (
     <div className="max-w-5xl mx-auto px-4 pt-12 pb-24">
-      <motion.header {...reveal} className="mb-12">
-        <h1 className="text-3xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
-          {t('notes')}
-        </h1>
-        <p className="mt-2 text-warm-600 dark:text-warm-300">
-          {t('note_subtitle_prefix')}{totalNotes}{t('note_subtitle_suffix')}
-        </p>
-      </motion.header>
+      <PageHeader
+        title={t('notes')}
+        description={`${t('note_subtitle_prefix')}${totalNotes}${t('note_subtitle_suffix')}`}
+      />
 
       {/* Quick filters */}
       <motion.section {...reveal} className="mb-16">
-        <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+        <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight mb-6">
           {t('note_categories')}
         </h2>
         <motion.div {...stagger} className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -82,7 +79,7 @@ export default function NoteLanding ({ contextJson }: NoteLandingProps): JSX.Ele
 
       {/* Trending */}
       <motion.section {...reveal}>
-        <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+        <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight mb-6">
           {t('note_recent')}
         </h2>
         <motion.div {...stagger} className="space-y-1">

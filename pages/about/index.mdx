@@ -8,6 +8,7 @@ import { frontEnd, OtherStacks } from '../../components/TextSwiper/data'
 import { T, useI18n } from '../../components/I18nProvider'
 import DeveloperProfile from '../../components/DeveloperProfile'
 import ResumeSection from '../../components/ResumeSection'
+import PageHeader from '../../components/ui/PageHeader'
 import { reveal, stagger, item } from '../../lib/motion'
 
 export const experiences = [
@@ -268,18 +269,16 @@ export function ExperienceTimeline() {
 <div className="max-w-3xl mx-auto px-4 pt-12 pb-24">
 
   {/* Header */}
-  <motion.header {...reveal} className="mb-16">
-    <h1 className="text-3xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
-      <T k={'about_title'} />
-    </h1>
-    <p className="mt-3 text-warm-600 dark:text-warm-300 leading-relaxed">
-      <T k={'about_intro'} />
-    </p>
-  </motion.header>
+  <div className="mb-16">
+    <PageHeader
+      title={<T k={'about_title'} />}
+      description={<T k={'about_intro'} />}
+    />
+  </div>
 
   {/* Work Experience */}
   <motion.section id="work-experience" {...reveal} className="mb-16 scroll-mt-24">
-    <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-8">
+    <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 mb-8 tracking-tight">
       <T k={'work_experience'} />
     </h2>
     <ExperienceTimeline />
@@ -287,7 +286,7 @@ export function ExperienceTimeline() {
 
   {/* Research */}
   <motion.section id="research" {...reveal} className="mb-16 scroll-mt-24">
-    <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-8">
+    <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 mb-8 tracking-tight">
       <T k={'research'} />
     </h2>
     <ResearchTimeline />
@@ -300,7 +299,7 @@ export function ExperienceTimeline() {
 
   {/* Tech Stack */}
   <motion.section {...reveal} className="mb-16">
-    <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+    <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 mb-6 tracking-tight">
       <T k={'tech_stack'} />
     </h2>
     <div className="space-y-6">
@@ -316,13 +315,13 @@ export function ExperienceTimeline() {
   </motion.section>
 
   {/* Resume Download */}
-  <motion.div {...reveal} className="mb-16">
+  <motion.div id="resume" {...reveal} className="mb-16 scroll-mt-24">
     <ResumeSection />
   </motion.div>
 
   {/* Contact */}
   <motion.section {...reveal}>
-    <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+    <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 mb-6 tracking-tight">
       <T k={'contact'} />
     </h2>
     <div className="flex items-center gap-5">

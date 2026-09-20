@@ -43,19 +43,19 @@
 
 /* 列表样式优化 */
 .prose ul > li::marker {
-  color: #3b82f6;
+  color: rgb(var(--color-accent));
 }
 
 .prose ol > li::marker {
-  color: #3b82f6;
+  color: rgb(var(--color-accent));
   font-weight: 600;
 }
 
 /* 链接悬停效果 */
 .prose a:hover {
-  color: #1d4ed8;
+  color: rgb(var(--color-accent-dark));
   text-decoration: underline;
-  text-decoration-color: #3b82f6;
+  text-decoration-color: rgb(var(--color-accent));
   text-decoration-thickness: 2px;
   text-underline-offset: 2px;
 }
@@ -63,16 +63,16 @@
 /* 深色模式优化 */
 @media (prefers-color-scheme: dark) {
   .prose a:hover {
-    color: #60a5fa;
-    text-decoration-color: #3b82f6;
+    color: rgb(var(--color-accent-light));
+    text-decoration-color: rgb(var(--color-accent));
   }
-  
+
   .prose ul > li::marker {
-    color: #60a5fa;
+    color: rgb(var(--color-accent));
   }
-  
+
   .prose ol > li::marker {
-    color: #60a5fa;
+    color: rgb(var(--color-accent));
   }
 }
 
@@ -108,7 +108,7 @@
 /* 搜索框焦点效果 */
 .search-input:focus {
   transform: scale(1.02);
-  box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.3);
+  box-shadow: 0 10px 25px -5px rgba(234, 88, 12, 0.3);
 }
 
 /* 标签悬停效果 */
@@ -118,7 +118,7 @@
 
 .tag-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+  box-shadow: 0 4px 12px rgba(234, 88, 12, 0.4);
 }
 
 /* 滚动条样式 */
@@ -158,7 +158,7 @@
 /* 打字机效果 */
 .typewriter {
   overflow: hidden;
-  border-right: 0.15em solid #3b82f6;
+  border-right: 0.15em solid rgb(var(--color-accent));
   white-space: nowrap;
   margin: 0 auto;
   letter-spacing: 0.15em;
@@ -180,7 +180,7 @@
     border-color: transparent;
   }
   50% {
-    border-color: #3b82f6;
+    border-color: rgb(var(--color-accent));
   }
 }
 

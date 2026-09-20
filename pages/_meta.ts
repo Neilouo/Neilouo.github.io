@@ -77,9 +77,6 @@ export default {
   Research: {
     display: 'hidden'
   },
-  CurriculumVitae: {
-    display: 'hidden'
-  },
   CodeSnippets: {
     display: 'hidden'
   },

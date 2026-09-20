@@ -2,6 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Design tokens: warm orange accent (unifies former blue/orange mix) ── */
+:root {
+  --color-accent: 194 65 12;          /* #C2410C — text/links on light, 5.9:1 on white */
+  --color-accent-light: 234 88 12;    /* #EA580C */
+  --color-accent-dark: 154 52 18;     /* #9A3412 — hover on light */
+  --color-accent-solid: 194 65 12;    /* button bg, white text 5.9:1 */
+  --color-accent-solid-hover: 154 52 18;
+}
+.dark {
+  --color-accent: 251 146 60;         /* #FB923C — text/links on dark, 7:1 on warm-950 */
+  --color-accent-light: 253 186 116;  /* #FDBA74 */
+  --color-accent-dark: 234 88 12;
+  --color-accent-solid: 234 88 12;    /* #EA580C — white text 4.6:1 */
+  --color-accent-solid-hover: 194 65 12;
+}
+
+/* Dark-mode fallback: keep legacy bg-accent buttons AA-compliant with white text */
+.dark .bg-accent {
+  background-color: rgb(234 88 12);
+}
+.dark .hover\:bg-accent-dark:hover {
+  background-color: rgb(194 65 12);
+}
+
+/* Accessible focus ring, applied site-wide */
+:focus-visible {
+  outline: 2px solid rgb(var(--color-accent));
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
 /* ── Self-hosted fonts ── */
 @font-face {
   font-family: 'LXGW WenKai';
@@ -49,13 +80,13 @@
 .artistic-char {
   display: inline-block;
   text-shadow:
-    0 0 18px rgba(59, 130, 246, 0.12),
+    0 0 18px rgba(194, 65, 12, 0.14),
     0 2px 4px rgba(0, 0, 0, 0.06),
     0 0 1px rgba(0, 0, 0, 0.1);
 }
 .dark .artistic-char {
   text-shadow:
-    0 0 22px rgba(96, 165, 250, 0.25),
+    0 0 22px rgba(251, 146, 60, 0.28),
     0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -84,14 +115,14 @@
   top: 20%;
   bottom: 20%;
   pointer-events: none;
-  background: radial-gradient(ellipse at 30% 50%, rgba(59, 130, 246, 0.08) 0%, transparent 60%),
-              radial-gradient(ellipse at 70% 40%, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
+  background: radial-gradient(ellipse at 30% 50%, rgba(234, 88, 12, 0.09) 0%, transparent 60%),
+              radial-gradient(ellipse at 70% 40%, rgba(217, 119, 6, 0.06) 0%, transparent 50%);
   filter: blur(20px);
   z-index: -1;
 }
 .dark .artistic-name-wrap::before {
-  background: radial-gradient(ellipse at 30% 50%, rgba(96, 165, 250, 0.15) 0%, transparent 60%),
-              radial-gradient(ellipse at 70% 40%, rgba(96, 165, 250, 0.08) 0%, transparent 50%);
+  background: radial-gradient(ellipse at 30% 50%, rgba(251, 146, 60, 0.16) 0%, transparent 60%),
+              radial-gradient(ellipse at 70% 40%, rgba(251, 146, 60, 0.09) 0%, transparent 50%);
 }
 
 /* Mobile base */
@@ -139,11 +170,11 @@ article > main > h3,
 article > main > h4,
 article > main > h5,
 article > main > h6 {
-  color: #2563eb !important;
+  color: rgb(var(--color-accent)) !important;
 }
 
 strong {
-  color: #2563eb !important;
+  color: rgb(var(--color-accent)) !important;
 }
 
 /* Scrollbar */
@@ -174,7 +205,7 @@ strong {
   left: 0;
   right: 0;
   height: 2px;
-  background: #2563eb;
+  background: rgb(var(--color-accent));
   border-radius: 1px;
 }
 
@@ -227,13 +258,13 @@ strong {
   opacity: 0.55;
 }
 
-/* Light: cool cyan / blue / sky */
+/* Light: warm orange / amber / peach */
 .blob-1 {
   top: -12%;
   left: -6%;
   width: 46vw;
   height: 46vw;
-  background: radial-gradient(circle at 30% 30%, rgba(59, 130, 246, 0.42), rgba(59, 130, 246, 0) 70%);
+  background: radial-gradient(circle at 30% 30%, rgba(234, 88, 12, 0.34), rgba(234, 88, 12, 0) 70%);
   animation: ambient-drift-a 24s ease-in-out infinite alternate;
 }
 .blob-2 {
@@ -241,7 +272,7 @@ strong {
   right: -10%;
   width: 40vw;
   height: 40vw;
-  background: radial-gradient(circle at 60% 40%, rgba(14, 165, 233, 0.38), rgba(14, 165, 233, 0) 70%);
+  background: radial-gradient(circle at 60% 40%, rgba(217, 119, 6, 0.32), rgba(217, 119, 6, 0) 70%);
   animation: ambient-drift-b 28s ease-in-out infinite alternate;
 }
 .blob-3 {
@@ -249,7 +280,7 @@ strong {
   left: 8%;
   width: 52vw;
   height: 52vw;
-  background: radial-gradient(circle at 50% 50%, rgba(37, 99, 235, 0.30), rgba(37, 99, 235, 0) 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(194, 65, 12, 0.26), rgba(194, 65, 12, 0) 70%);
   animation: ambient-drift-c 32s ease-in-out infinite alternate;
 }
 .blob-4 {
@@ -257,25 +288,25 @@ strong {
   right: 4%;
   width: 34vw;
   height: 34vw;
-  background: radial-gradient(circle at 50% 50%, rgba(125, 211, 252, 0.40), rgba(125, 211, 252, 0) 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(253, 186, 116, 0.42), rgba(253, 186, 116, 0) 70%);
   animation: ambient-drift-d 26s ease-in-out infinite alternate;
 }
 
-/* Dark: deep blue / indigo */
+/* Dark: deep ember / burnt orange */
 .dark .blob-1 {
-  background: radial-gradient(circle at 30% 30%, rgba(37, 99, 235, 0.50), rgba(37, 99, 235, 0) 70%);
+  background: radial-gradient(circle at 30% 30%, rgba(194, 65, 12, 0.46), rgba(194, 65, 12, 0) 70%);
   opacity: 0.6;
 }
 .dark .blob-2 {
-  background: radial-gradient(circle at 60% 40%, rgba(29, 78, 216, 0.46), rgba(29, 78, 216, 0) 70%);
+  background: radial-gradient(circle at 60% 40%, rgba(154, 52, 18, 0.44), rgba(154, 52, 18, 0) 70%);
   opacity: 0.6;
 }
 .dark .blob-3 {
-  background: radial-gradient(circle at 50% 50%, rgba(99, 102, 241, 0.30), rgba(99, 102, 241, 0) 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(217, 119, 6, 0.30), rgba(217, 119, 6, 0) 70%);
   opacity: 0.55;
 }
 .dark .blob-4 {
-  background: radial-gradient(circle at 50% 50%, rgba(30, 64, 175, 0.46), rgba(30, 64, 175, 0) 70%);
+  background: radial-gradient(circle at 50% 50%, rgba(124, 45, 18, 0.48), rgba(124, 45, 18, 0) 70%);
   opacity: 0.6;
 }
 
@@ -317,14 +348,14 @@ strong {
   width: 640px;
   height: 640px;
   border-radius: 9999px;
-  background: radial-gradient(circle, rgba(59, 130, 246, 0.5) 0%, rgba(59, 130, 246, 0.2) 40%, rgba(59, 130, 246, 0) 72%);
+  background: radial-gradient(circle, rgba(234, 88, 12, 0.42) 0%, rgba(234, 88, 12, 0.16) 40%, rgba(234, 88, 12, 0) 72%);
   filter: blur(40px);
   will-change: transform;
   z-index: -1;
   pointer-events: none;
 }
 .dark .cursor-glow {
-  background: radial-gradient(circle, rgba(96, 165, 250, 0.6) 0%, rgba(96, 165, 250, 0.24) 40%, rgba(96, 165, 250, 0) 72%);
+  background: radial-gradient(circle, rgba(251, 146, 60, 0.5) 0%, rgba(251, 146, 60, 0.2) 40%, rgba(251, 146, 60, 0) 72%);
   mix-blend-mode: screen;
 }
 

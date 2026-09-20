@@ -6,6 +6,7 @@ import '../styles/blog.css'
 import React from 'react'
 import localFont from 'next/font/local'
 import type { AppProps } from 'next/app'
+import { MotionConfig } from 'framer-motion'
 import { Analytics } from '@vercel/analytics/react'
 import ErrorBoundary from '../components/ErrorBoundary'
 import { I18nProvider } from '../components/I18nProvider'
@@ -25,12 +26,14 @@ export default function App ({ Component, pageProps }: AppProps): JSX.Element {
   return (
     <ErrorBoundary>
       <I18nProvider>
-        <AmbientBackground />
-        <CursorGlow />
-        <main className={myFont.className}>
-          <Component {...pageProps} />
-          <Analytics />
-        </main>
+        <MotionConfig reducedMotion="user">
+          <AmbientBackground />
+          <CursorGlow />
+          <main className={myFont.className}>
+            <Component {...pageProps} />
+            <Analytics />
+          </main>
+        </MotionConfig>
       </I18nProvider>
     </ErrorBoundary>
   )

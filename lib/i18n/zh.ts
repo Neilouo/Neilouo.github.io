@@ -190,5 +190,16 @@ export const zh: Record<string, string> = {
   nav_blog: '博客',
   nav_note: '笔记',
   nav_projects: '项目',
-  nav_about: '关于'
+  nav_about: '关于',
+
+  home_available: '开放合作机会',
+  featured_projects: '精选项目',
+  latest_writing: '最新写作',
+  latest_writing_desc: '近期发布在各平台的文章',
+  writing_empty: '暂无文章',
+  contact_cta_title: '有想法，想聊聊？',
+  contact_cta_desc: '无论是合作机会、技术交流，还是单纯打个招呼，都欢迎来信。',
+  get_in_touch: '联系我',
+  view_resume: '查看简历',
+  now_label: '现状'
 }

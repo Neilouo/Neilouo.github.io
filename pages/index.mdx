@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import { FiCommand, FiGlobe, FiBookOpen, FiArrowRight, FiGithub, FiLinkedin, FiMail, FiBriefcase, FiCpu } from 'react-icons/fi'
+import { FiCommand, FiGlobe, FiBookOpen, FiArrowRight, FiGithub, FiLinkedin, FiMail, FiBriefcase, FiCpu, FiRss, FiFileText, FiAward } from 'react-icons/fi'
 import Link from 'next/link'
 import createGlobe from 'cobe'
 import { motion } from 'framer-motion'
@@ -11,6 +11,10 @@ import Visitors from '../components/Visitor'
 import { certifications } from '../data/developerProfile'
 import Magnetic from '../components/Magnetic'
 import ArtisticName from '../components/ArtisticName'
+import LatestWriting from '../components/LatestWriting'
+import Button from '../components/ui/Button'
+import { BentoCard, BentoLabel } from '../components/ui/Card'
+import { SectionHeader } from '../components/ui/PageHeader'
 import { reveal, stagger, item } from '../lib/motion'
 import TypewriterText from '../components/TypewriterText'
 
@@ -25,7 +29,7 @@ export function TypewriterHeroSub () {
   return <TypewriterText text={t('hero_sub')} speed={80} startDelay={600} loop pauseDuration={2500} deleteSpeed={40} />
 }
 
-export function MiniGlobe () {
+export function MiniGlobe ({ size = 150 }) {
   const canvasRef = useRef()
   const { t } = useI18n()
   useEffect(() => {
@@ -59,14 +63,17 @@ export function MiniGlobe () {
     return () => { globe.destroy(); window.removeEventListener('resize', onResize) }
   }, [])
   return (
-    <div className="flex flex-col items-center gap-2">
-      <div className="w-[200px] h-[200px] md:w-[220px] md:h-[220px] rounded-2xl bg-warm-900 dark:bg-warm-950 overflow-hidden p-2.5">
+    <div className="flex flex-col items-center gap-2 h-full justify-center">
+      <div
+        className="rounded-2xl bg-warm-900 dark:bg-warm-950 overflow-hidden p-2"
+        style={{ width: size, height: size }}
+      >
         <canvas
           ref={canvasRef}
           style={{ width: '100%', height: '100%', opacity: 0, transition: 'opacity 0.8s ease', cursor: 'default' }}
         />
       </div>
-      <span className="text-sm text-warm-500 dark:text-warm-400">
+      <span className="text-xs text-warm-500 dark:text-warm-400">
         {t('about_location')}
       </span>
     </div>
@@ -107,11 +114,11 @@ export function LatestHighlights () {
     }
   }
   return (
-    <motion.div {...reveal} className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
-      <Link href="/about#work-experience" className="group h-full p-4 rounded-card border border-warm-100 dark:border-warm-800 hover:border-accent/30 dark:hover:border-accent/30 bg-white/80 dark:bg-warm-950/80 backdrop-blur-sm transition-colors">
-        <div className="flex items-center gap-2 mb-2">
-          <FiBriefcase className="w-4 h-4 text-accent flex-shrink-0" />
-          <span className="text-xs font-medium text-accent uppercase tracking-wider">
+    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+      <Link href="/about#work-experience" className="group h-full p-3.5 rounded-tile bg-warm-50/70 dark:bg-warm-900/50 hover:bg-accent/5 dark:hover:bg-accent/10 transition-colors">
+        <div className="flex items-center gap-2 mb-1.5">
+          <FiBriefcase className="w-3.5 h-3.5 text-accent flex-shrink-0" />
+          <span className="text-[11px] font-medium text-accent uppercase tracking-wider">
             {t('latest_role')}
           </span>
         </div>
@@ -119,12 +126,12 @@ export function LatestHighlights () {
           {work.company[lang]} · {work.role[lang]}
         </h4>
         <p className="text-xs text-warm-400 dark:text-warm-500 mt-0.5">{work.period[lang]}</p>
-        <p className="text-sm text-warm-600 dark:text-warm-300 mt-2 leading-relaxed">{work.desc[lang]}</p>
+        <p className="text-xs text-warm-600 dark:text-warm-300 mt-1.5 leading-relaxed line-clamp-2">{work.desc[lang]}</p>
       </Link>
-      <Link href="/about#research" className="group h-full p-4 rounded-card border border-warm-100 dark:border-warm-800 hover:border-emerald-400/30 dark:hover:border-emerald-400/30 bg-white/80 dark:bg-warm-950/80 backdrop-blur-sm transition-colors">
-        <div className="flex items-center gap-2 mb-2">
-          <FiCpu className="w-4 h-4 text-emerald-500 flex-shrink-0" />
-          <span className="text-xs font-medium text-emerald-500 uppercase tracking-wider">
+      <Link href="/about#research" className="group h-full p-3.5 rounded-tile bg-warm-50/70 dark:bg-warm-900/50 hover:bg-emerald-500/5 dark:hover:bg-emerald-500/10 transition-colors">
+        <div className="flex items-center gap-2 mb-1.5">
+          <FiCpu className="w-3.5 h-3.5 text-emerald-500 flex-shrink-0" />
+          <span className="text-[11px] font-medium text-emerald-500 uppercase tracking-wider">
             {t('latest_research')}
           </span>
         </div>
@@ -132,191 +139,223 @@ export function LatestHighlights () {
           {research.title[lang]}
         </h4>
         <p className="text-xs text-warm-400 dark:text-warm-500 mt-0.5">{research.institution[lang]}</p>
-        <p className="text-sm text-warm-600 dark:text-warm-300 mt-2 leading-relaxed">{research.desc[lang]}</p>
+        <p className="text-xs text-warm-600 dark:text-warm-300 mt-1.5 leading-relaxed line-clamp-2">{research.desc[lang]}</p>
       </Link>
-    </motion.div>
+    </div>
+  )
+}
+
+export function CertRow () {
+  const { t } = useI18n()
+  return (
+    <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+      {certifications.slice(0, 3).map((cert) => (
+        <Link key={cert.name} href="/about#developer-profile"
+          className="inline-flex items-center gap-1.5 text-xs text-warm-500 dark:text-warm-400 hover:text-accent dark:hover:text-accent transition-colors">
+          {cert.logo && <img src={cert.logo} alt="" className="w-3.5 h-3.5 rounded-sm object-contain" />}
+          <span className="truncate max-w-[160px]">{cert.name.split(' Certified')[0]}</span>
+        </Link>
+      ))}
+      <Link href="/about#developer-profile" className="text-xs text-warm-400 dark:text-warm-500 hover:text-accent transition-colors">
+        +{certifications.length - 3} {t('more_certifications')}
+      </Link>
+    </div>
+  )
+}
+
+export function QuickLinkCard ({ href, icon, title, desc }) {
+  return (
+    <Link href={href} className="group">
+      <BentoCard hover className="p-4 h-full flex items-center gap-3">
+        <span className="w-9 h-9 rounded-tile bg-accent/10 text-accent flex items-center justify-center flex-shrink-0">
+          {icon}
+        </span>
+        <div className="min-w-0 flex-1">
+          <div className="text-sm font-semibold text-warm-900 dark:text-warm-50 group-hover:text-accent dark:group-hover:text-accent transition-colors">
+            {title}
+          </div>
+          <p className="text-xs text-warm-500 dark:text-warm-400 truncate">{desc}</p>
+        </div>
+        <FiArrowRight className="w-4 h-4 text-warm-300 dark:text-warm-600 group-hover:text-accent group-hover:translate-x-0.5 transition-all flex-shrink-0" />
+      </BentoCard>
+    </Link>
   )
 }
 
 {/* ── Section 1: Hero ── */}
 
-<motion.section {...fadeIn} className="pt-24 pb-20 md:pt-36 md:pb-28">
-  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-12">
-    <div className="max-w-xl">
+<motion.section {...fadeIn} className="pt-14 pb-12 md:pt-20 md:pb-16">
+  <div className="flex flex-col sm:flex-row sm:items-center gap-8 sm:gap-12">
+    <div className="flex-1 min-w-0">
       <ArtisticName />
-      <p className="mt-8 text-lg text-warm-600 dark:text-warm-300 leading-relaxed">
+      <p className="mt-4 text-lg text-warm-600 dark:text-warm-300 leading-relaxed min-h-[1.75rem]">
         <TypewriterHeroSub />
       </p>
-      <div className="mt-6 flex flex-wrap gap-3">
+      <div className="mt-6 flex flex-wrap items-center gap-3">
         <Magnetic>
-          <Link
-            href="/projects"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-card bg-accent text-white text-sm font-medium hover:bg-accent-dark transition-colors"
-          >
+          <Button href="/projects" variant="primary">
             <T k={'projects'} /> <FiArrowRight className="w-4 h-4" />
-          </Link>
+          </Button>
         </Magnetic>
         <Magnetic>
-          <Link
-            href="/blog"
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-card border border-warm-200 dark:border-warm-700 text-warm-700 dark:text-warm-200 text-sm font-medium hover:bg-warm-50 dark:hover:bg-warm-800 transition-colors"
-          >
+          <Button href="/blog" variant="secondary">
             <T k={'blog'} /> <FiArrowRight className="w-4 h-4" />
-          </Link>
+          </Button>
         </Magnetic>
+        <Magnetic>
+          <Button href="/about#resume" variant="ghost">
+            <FiFileText className="w-4 h-4" /> <T k={'view_resume'} />
+          </Button>
+        </Magnetic>
+        <div className="flex items-center gap-1 ml-1">
+          <a href="https://github.com/Neilouo" target="_blank" rel="noreferrer" aria-label="GitHub"
+            className="p-2.5 text-warm-400 hover:text-accent transition-colors">
+            <FiGithub className="w-5 h-5" />
+          </a>
+          <a href="https://www.linkedin.com/in/nan-sang/" target="_blank" rel="noreferrer" aria-label="LinkedIn"
+            className="p-2.5 text-warm-400 hover:text-accent transition-colors">
+            <FiLinkedin className="w-5 h-5" />
+          </a>
+          <a href="mailto:Neilouuo@gmail.com" aria-label="Email"
+            className="p-2.5 text-warm-400 hover:text-accent transition-colors">
+            <FiMail className="w-5 h-5" />
+          </a>
+        </div>
       </div>
+      {/* Availability: mobile fallback (avatar hidden below sm) */}
+      <span className="sm:hidden mt-5 inline-flex items-center gap-2 text-xs text-warm-500 dark:text-warm-400">
+        <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+        <T k={'home_available'} />
+      </span>
     </div>
-    <div className="flex-shrink-0">
+    <div className="flex-shrink-0 hidden sm:flex sm:flex-col sm:items-center sm:gap-3">
       <img
         src="https://avatars.githubusercontent.com/u/125345731"
         alt="Nan(Neil) Sang"
-        className="w-48 h-48 md:w-64 md:h-64 rounded-full border-2 border-warm-100 dark:border-warm-800"
+        className="w-24 h-24 md:w-28 md:h-28 rounded-full border-2 border-warm-100 dark:border-warm-800 shadow-card"
       />
+      <span className="inline-flex items-center gap-2 text-xs text-warm-500 dark:text-warm-400 whitespace-nowrap">
+        <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse" />
+        <T k={'home_available'} />
+      </span>
     </div>
   </div>
 </motion.section>
 
-{/* ── Section 2: About + Globe + Highlights ── */}
+{/* ── Section 2: Bento grid (About / Globe / Stats / Skills) ── */}
 
-<motion.section {...reveal} className="py-16 border-t border-warm-100 dark:border-warm-800">
-  <div className="flex flex-col md:flex-row md:items-start gap-10">
-    <div className="flex-1">
-      <h2 className="text-2xl font-semibold text-warm-900 dark:text-warm-50">
-        <T k={'about'} />
-      </h2>
-      <motion.div {...stagger} className="space-y-3 mt-4">
-        <motion.div {...item} className="flex items-center gap-3 text-warm-700 dark:text-warm-300">
-          <FiCommand className="w-5 h-5 text-accent flex-shrink-0" />
-          <span><T k={'about_role'} /></span>
+<motion.section {...reveal} className="pb-16 md:pb-20">
+  <div className="grid md:grid-cols-3 gap-4">
+    <BentoCard className="md:col-span-2 md:row-span-2 p-6 flex flex-col gap-5">
+      <div>
+        <BentoLabel><T k={'about'} /></BentoLabel>
+        <motion.div {...stagger} className="space-y-2.5 mt-3">
+          <motion.div {...item} className="flex items-center gap-3 text-sm text-warm-700 dark:text-warm-300">
+            <FiCommand className="w-4 h-4 text-accent flex-shrink-0" />
+            <span><T k={'about_role'} /></span>
+          </motion.div>
+          <motion.div {...item} className="flex items-center gap-3 text-sm text-warm-700 dark:text-warm-300">
+            <FiGlobe className="w-4 h-4 text-accent flex-shrink-0" />
+            <span><T k={'about_school'} /> · <T k={'about_major'} /></span>
+          </motion.div>
+          <motion.div {...item} className="flex items-center gap-3 text-sm text-warm-700 dark:text-warm-300">
+            <FiBookOpen className="w-4 h-4 text-accent flex-shrink-0" />
+            <span><T k={'about_location'} /></span>
+          </motion.div>
         </motion.div>
-        <motion.div {...item} className="flex items-center gap-3 text-warm-700 dark:text-warm-300">
-          <FiGlobe className="w-5 h-5 text-accent flex-shrink-0" />
-          <span><T k={'about_school'} /></span>
-        </motion.div>
-        <motion.div {...item} className="flex items-center gap-3 text-warm-700 dark:text-warm-300">
-          <FiBookOpen className="w-5 h-5 text-accent flex-shrink-0" />
-          <span><T k={'about_major'} /></span>
-        </motion.div>
-      </motion.div>
+      </div>
       <LatestHighlights />
-      <div className="mt-6">
-        <LanguageSkills />
-      </div>
-      <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2">
-        {certifications.slice(0, 3).map((cert) => (
-          <Link key={cert.name} href="/about#developer-profile"
-            className="inline-flex items-center gap-2 text-xs text-warm-500 dark:text-warm-400 hover:text-accent dark:hover:text-accent transition-colors">
-            {cert.logo && <img src={cert.logo} alt="" className="w-4 h-4 rounded-sm object-contain" />}
-            <span className="truncate max-w-[200px]">{cert.name.split(' Certified')[0]}</span>
-          </Link>
-        ))}
-        <Link href="/about#developer-profile" className="text-xs text-warm-400 dark:text-warm-500 hover:text-accent transition-colors">
-          +{certifications.length - 3} <T k="more_certifications" />
-        </Link>
-      </div>
-      <div className="mt-4">
-        <Link href="/about#developer-profile" className="text-sm text-accent hover:underline inline-flex items-center gap-1">
+      <div className="mt-auto pt-4 border-t border-warm-50 dark:border-warm-900 flex flex-col gap-3">
+        <CertRow />
+        <Link href="/about#developer-profile" className="text-sm font-medium text-accent hover:underline underline-offset-4 inline-flex items-center gap-1 w-fit">
           <T k={'view_full_profile'} /> <FiArrowRight className="w-3.5 h-3.5" />
         </Link>
       </div>
-    </div>
-    <div className="flex-shrink-0 hidden md:block">
+    </BentoCard>
+
+    <BentoCard hover className="p-4 min-h-[190px]">
       <MiniGlobe />
+    </BentoCard>
+
+    <BentoCard hover className="p-5">
+      <GitHubStatsCard variant="compact" />
+    </BentoCard>
+
+    <div className="md:col-span-3">
+      <LanguageSkills />
     </div>
   </div>
 </motion.section>
 
-{/* ── Section 3: Featured Projects (top 3 + stats) ── */}
+{/* ── Section 3: Featured projects ── */}
 
-<motion.section {...reveal} className="py-16 border-t border-warm-100 dark:border-warm-800">
-  <div className="flex items-center justify-between mb-8">
-    <h2 className="text-2xl font-semibold text-warm-900 dark:text-warm-50">
-      <T k={'projects'} />
-    </h2>
-    <Link href="/projects" className="text-sm text-accent hover:underline inline-flex items-center gap-1">
-      <T k={'project_more'} /> <FiArrowRight className="w-3.5 h-3.5" />
-    </Link>
-  </div>
-  <div className="mb-6">
-    <GitHubStatsCard />
-  </div>
-  <GitHubProjects variant="grid" limit={3} />
+<motion.section {...reveal} className="pb-16 md:pb-20">
+  <SectionHeader
+    title={<T k={'featured_projects'} />}
+    linkHref="/projects"
+    linkText={<T k={'project_more'} />}
+  />
+  <GitHubProjects variant="grid" limit={3} featuredFirst />
 </motion.section>
 
-{/* ── Section 4: Writing & Content ── */}
+{/* ── Section 4: Latest writing + quick links ── */}
 
-<motion.section {...reveal} className="py-16 border-t border-warm-100 dark:border-warm-800">
-  <div className="flex items-center justify-between mb-8">
-    <h2 className="text-2xl font-semibold text-warm-900 dark:text-warm-50">
-      <T k={'blog'} />
-    </h2>
-    <Link href="/blog" className="text-sm text-accent hover:underline inline-flex items-center gap-1">
-      <T k={'read_all_posts'} /> <FiArrowRight className="w-3.5 h-3.5" />
-    </Link>
+<motion.section {...reveal} className="pb-16 md:pb-20">
+  <SectionHeader
+    title={<T k={'latest_writing'} />}
+    linkHref="/blog"
+    linkText={<T k={'read_all_posts'} />}
+  />
+  <LatestWriting limit={3} />
+  <div className="grid sm:grid-cols-3 gap-4 mt-8">
+    <QuickLinkCard
+      href="/ai-radar"
+      icon={<FiRss className="w-4 h-4" />}
+      title={<T k={'ai_radar'} />}
+      desc={<T k={'ai_radar_desc'} />}
+    />
+    <QuickLinkCard
+      href="/note"
+      icon={<FiFileText className="w-4 h-4" />}
+      title={<T k={'notes'} />}
+      desc={<T k={'notes_desc'} />}
+    />
+    <QuickLinkCard
+      href="/about#resume"
+      icon={<FiAward className="w-4 h-4" />}
+      title={<T k={'cv'} />}
+      desc={<T k={'cv_desc'} />}
+    />
   </div>
-  <motion.div {...stagger} className="space-y-1">
-    <motion.div {...item}>
-      <Link href="/ai-radar" className="group flex items-center justify-between py-4 border-b border-warm-100 dark:border-warm-800">
-        <div>
-          <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
-            <T k={'ai_radar'} />
-          </div>
-          <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'ai_radar_desc'} /></p>
-        </div>
-        <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
-      </Link>
-    </motion.div>
-    <motion.div {...item}>
-      <Link href="/note" className="group flex items-center justify-between py-4 border-b border-warm-100 dark:border-warm-800">
-        <div>
-          <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
-            <T k={'notes'} />
-          </div>
-          <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'notes_desc'} /></p>
-        </div>
-        <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
-      </Link>
-    </motion.div>
-    <motion.div {...item}>
-      <Link href="/blog" className="group flex items-center justify-between py-4 border-b border-warm-100 dark:border-warm-800">
-        <div>
-          <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
-            <T k={'blog'} />
-          </div>
-          <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'blog_desc'} /></p>
-        </div>
-        <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
-      </Link>
-    </motion.div>
-    <motion.div {...item}>
-      <Link href="/about" className="group flex items-center justify-between py-4">
-        <div>
-          <div className="font-medium text-warm-800 dark:text-warm-100 group-hover:text-accent transition-colors">
-            <T k={'cv'} />
-          </div>
-          <p className="text-sm text-warm-500 dark:text-warm-400 mt-0.5"><T k={'cv_desc'} /></p>
-        </div>
-        <FiArrowRight className="w-4 h-4 text-warm-400 group-hover:text-accent transition-colors flex-shrink-0 ml-4" />
-      </Link>
-    </motion.div>
-  </motion.div>
 </motion.section>
 
-{/* ── Section 5: Contact + Visitors ── */}
+{/* ── Section 5: Contact banner ── */}
 
-<motion.section {...reveal} className="py-16 border-t border-warm-100 dark:border-warm-800">
-  <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-    <div className="flex items-center gap-5">
-      <a href="https://github.com/Neilouo" target="_blank" rel="noreferrer" className="text-warm-500 hover:text-accent transition-colors" aria-label="GitHub">
-        <FiGithub className="w-5 h-5" />
-      </a>
-      <a href="https://www.linkedin.com/in/nan-sang/" target="_blank" rel="noreferrer" className="text-warm-500 hover:text-accent transition-colors" aria-label="LinkedIn">
-        <FiLinkedin className="w-5 h-5" />
-      </a>
-      <a href="mailto:Neilouuo@gmail.com" className="text-warm-500 hover:text-accent transition-colors" aria-label="Email">
-        <FiMail className="w-5 h-5" />
-      </a>
+<motion.section {...reveal} className="pb-8">
+  <div className="rounded-card bg-accent/5 dark:bg-accent/10 border border-accent/15 dark:border-accent/20 p-8 md:p-10">
+    <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+      <div className="max-w-lg">
+        <h2 className="font-display text-2xl md:text-3xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight">
+          <T k={'contact_cta_title'} />
+        </h2>
+        <p className="mt-2 text-sm md:text-base text-warm-600 dark:text-warm-300 leading-relaxed">
+          <T k={'contact_cta_desc'} />
+        </p>
+      </div>
+      <div className="flex flex-wrap items-center gap-3 flex-shrink-0">
+        <Button href="mailto:Neilouuo@gmail.com" variant="primary" external>
+          <FiMail className="w-4 h-4" /> <T k={'get_in_touch'} />
+        </Button>
+        <Button href="https://github.com/Neilouo" variant="secondary" external>
+          <FiGithub className="w-4 h-4" /> GitHub
+        </Button>
+        <Button href="https://www.linkedin.com/in/nan-sang/" variant="secondary" external>
+          <FiLinkedin className="w-4 h-4" /> LinkedIn
+        </Button>
+      </div>
     </div>
+  </div>
+  <div className="mt-6 flex justify-center md:justify-end">
     <VisitorLine />
   </div>
 </motion.section>
