@@ -12,24 +12,24 @@ export const reveal = {
 }
 
 /**
- * Parent/child stagger orchestration (variants-driven).
- * Parent spreads {...stagger}, children spread {...item}.
- * Children must NOT set their own initial/animate props —
- * they inherit the orchestration state names from the parent.
+ * Parent spread for stagger groups — intentionally EMPTY.
+ *
+ * We do NOT use variants-based parent/child orchestration here:
+ * with `whileInView + once: true`, children mounted LATER (e.g. expanding
+ * a collapsed list) may never inherit the parent's "visible" variant and
+ * stay stuck at opacity 0. Instead, every `item` observes the viewport
+ * independently, so dynamically added items always animate in.
  */
-export const stagger = {
-  initial: 'hidden',
-  whileInView: 'visible',
-  viewport: { once: true, margin: '-80px' },
-  variants: {
-    hidden: {},
-    visible: { transition: { staggerChildren: 0.07 } }
-  }
-}
+export const stagger = {}
 
+/**
+ * Self-contained viewport reveal for list items.
+ * Each item triggers on its own when scrolled into view, which also
+ * produces a natural stagger between siblings.
+ */
 export const item = {
-  variants: {
-    hidden: { opacity: 0, y: 16 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.45, ease: 'easeOut' } }
-  }
+  initial: { opacity: 0, y: 16 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, margin: '-40px' },
+  transition: { duration: 0.45, ease: 'easeOut' }
 }

@@ -21,40 +21,29 @@ export default function TableOfContents (): JSX.Element {
   const [activeId, setActiveId] = useState<string>('')
 
   useEffect(() => {
-    const observers: IntersectionObserver[] = []
-    const visibleMap = new Map<string, number>()
+    // Pick the last section whose top has crossed the reading line (below the navbar).
+    // Robust for sections of any height, unlike intersectionRatio-based spies.
+    const READING_LINE = 128
 
-    sections.forEach((s) => {
-      const el = document.getElementById(s.id)
-      if (el == null) return
-      const obs = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry) => {
-            if (entry.isIntersecting) {
-              visibleMap.set(s.id, entry.intersectionRatio)
-            } else {
-              visibleMap.delete(s.id)
-            }
-          })
-          let best: string | null = null
-          let bestRatio = 0
-          visibleMap.forEach((ratio, id) => {
-            if (ratio > bestRatio) {
-              bestRatio = ratio
-              best = id
-            }
-          })
-          if (best != null) {
-            setActiveId(best)
-          }
-        },
-        { rootMargin: '-80px 0px -60% 0px', threshold: [0, 0.25, 0.5, 0.75, 1] }
-      )
-      obs.observe(el)
-      observers.push(obs)
-    })
+    const updateActive = (): void => {
+      let current = ''
+      for (const s of sections) {
+        const el = document.getElementById(s.id)
+        if (el == null) continue
+        if (el.getBoundingClientRect().top <= READING_LINE) {
+          current = s.id
+        }
+      }
+      setActiveId(current)
+    }
 
-    return () => observers.forEach((o) => o.disconnect())
+    updateActive()
+    window.addEventListener('scroll', updateActive, { passive: true })
+    window.addEventListener('resize', updateActive)
+    return () => {
+      window.removeEventListener('scroll', updateActive)
+      window.removeEventListener('resize', updateActive)
+    }
   }, [])
 
   return (
