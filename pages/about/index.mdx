@@ -235,31 +235,22 @@ export function ResearchTimeline({ collapsible = false }) {
     </motion.div>
   ))
 
-  if (!collapsible) {
+  const VISIBLE_COUNT = 2
+  if (!collapsible || items.length <= VISIBLE_COUNT) {
     return <motion.div {...stagger} className="space-y-8">{items}</motion.div>
   }
 
   return (
     <div>
-      <motion.div
-        initial={false}
-        animate={{ height: expanded ? 'auto' : '14rem' }}
-        className="overflow-hidden relative"
-        transition={{ duration: 0.4, ease: 'easeInOut' }}
-      >
-        <motion.div {...stagger} className="space-y-8">
-          {items}
-        </motion.div>
-        {!expanded && (
-          <div className="absolute bottom-0 inset-x-0 h-20 bg-gradient-to-t from-warm-50 dark:from-warm-950 to-transparent pointer-events-none" />
-        )}
+      <motion.div {...stagger} className="space-y-8">
+        {expanded ? items : items.slice(0, VISIBLE_COUNT)}
       </motion.div>
       <button
         onClick={() => setExpanded(!expanded)}
-        className="mt-4 text-sm font-medium text-accent hover:underline underline-offset-4 inline-flex items-center gap-1"
+        className="mt-6 text-sm font-medium text-accent hover:underline underline-offset-4 inline-flex items-center gap-1"
       >
-        {expanded ? t('show_less') : t('show_more')}
-        <FiChevronDown className={`w-4 h-4 transition-transform ${expanded ? 'rotate-180' : ''}`} />
+        {expanded ? t('show_less') : `${t('show_more')} (${items.length - VISIBLE_COUNT})`}
+        <FiChevronDown className={`w-4 h-4 transition-transform duration-300 ${expanded ? 'rotate-180' : ''}`} />
       </button>
     </div>
   )
@@ -297,27 +288,18 @@ export function ExperienceTimeline({ collapsible = false }) {
     return <motion.div {...stagger} className="space-y-8">{items}</motion.div>
   }
 
+  const VISIBLE_COUNT = 3
   return (
     <div>
-      <motion.div
-        initial={false}
-        animate={{ height: expanded ? 'auto' : '16rem' }}
-        className="overflow-hidden relative"
-        transition={{ duration: 0.4, ease: 'easeInOut' }}
-      >
-        <motion.div {...stagger} className="space-y-8">
-          {items}
-        </motion.div>
-        {!expanded && (
-          <div className="absolute bottom-0 inset-x-0 h-20 bg-gradient-to-t from-warm-50 dark:from-warm-950 to-transparent pointer-events-none" />
-        )}
+      <motion.div {...stagger} className="space-y-8">
+        {expanded ? items : items.slice(0, VISIBLE_COUNT)}
       </motion.div>
       <button
         onClick={() => setExpanded(!expanded)}
-        className="mt-4 text-sm font-medium text-accent hover:underline underline-offset-4 inline-flex items-center gap-1"
+        className="mt-6 text-sm font-medium text-accent hover:underline underline-offset-4 inline-flex items-center gap-1"
       >
-        {expanded ? t('show_less') : t('show_more')}
-        <FiChevronDown className={`w-4 h-4 transition-transform ${expanded ? 'rotate-180' : ''}`} />
+        {expanded ? t('show_less') : `${t('show_more')} (${items.length - VISIBLE_COUNT})`}
+        <FiChevronDown className={`w-4 h-4 transition-transform duration-300 ${expanded ? 'rotate-180' : ''}`} />
       </button>
     </div>
   )
