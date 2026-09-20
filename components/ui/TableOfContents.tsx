@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import { motion } from 'framer-motion'
 import { useI18n } from '../I18nProvider'
 
 interface TocItem {
@@ -57,25 +58,35 @@ export default function TableOfContents (): JSX.Element {
   }, [])
 
   return (
-    <nav className="hidden lg:block">
+    <nav className="hidden lg:block" aria-label={t('toc_title')}>
       <p className="text-xs font-medium text-warm-400 dark:text-warm-500 uppercase tracking-[0.15em] mb-4">
         {t('toc_title')}
       </p>
       <ul className="space-y-1 border-l border-warm-100 dark:border-warm-800">
-        {sections.map((s) => (
-          <li key={s.id}>
-            <a
-              href={`#${s.id}`}
-              className={`block pl-4 py-1.5 text-sm transition-colors -ml-px border-l ${
-                activeId === s.id
-                  ? 'border-accent text-accent font-medium'
-                  : 'border-transparent text-warm-500 dark:text-warm-400 hover:text-warm-800 dark:hover:text-warm-200'
-              }`}
-            >
-              {t(s.labelKey)}
-            </a>
-          </li>
-        ))}
+        {sections.map((s) => {
+          const isActive = activeId === s.id
+          return (
+            <li key={s.id} className="relative">
+              {isActive && (
+                <motion.span
+                  layoutId="toc-active-indicator"
+                  className="absolute -left-px top-0 bottom-0 w-[2px] rounded-full bg-accent"
+                  transition={{ type: 'spring', stiffness: 380, damping: 32 }}
+                />
+              )}
+              <a
+                href={`#${s.id}`}
+                className={`block pl-4 py-1.5 text-sm transition-colors duration-200 ${
+                  isActive
+                    ? 'text-accent font-medium'
+                    : 'text-warm-500 dark:text-warm-400 hover:text-warm-800 dark:hover:text-warm-200'
+                }`}
+              >
+                {t(s.labelKey)}
+              </a>
+            </li>
+          )
+        })}
       </ul>
     </nav>
   )

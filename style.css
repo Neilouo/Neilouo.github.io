@@ -33,6 +33,13 @@
   border-radius: 4px;
 }
 
+/* Smooth anchor scrolling (TOC, #resume jumps); disabled for reduced motion */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 /* ── Self-hosted fonts ── */
 @font-face {
   font-family: 'LXGW WenKai';

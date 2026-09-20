@@ -11,14 +11,25 @@ export const reveal = {
   transition: { duration: 0.5, ease: 'easeOut' }
 }
 
+/**
+ * Parent/child stagger orchestration (variants-driven).
+ * Parent spreads {...stagger}, children spread {...item}.
+ * Children must NOT set their own initial/animate props —
+ * they inherit the orchestration state names from the parent.
+ */
 export const stagger = {
-  initial: {},
-  whileInView: 'animate',
+  initial: 'hidden',
+  whileInView: 'visible',
   viewport: { once: true, margin: '-80px' },
-  transition: { staggerChildren: 0.07 }
+  variants: {
+    hidden: {},
+    visible: { transition: { staggerChildren: 0.07 } }
+  }
 }
 
 export const item = {
-  initial: { opacity: 0, y: 16 },
-  animate: { opacity: 1, y: 0, transition: { duration: 0.45, ease: 'easeOut' } }
+  variants: {
+    hidden: { opacity: 0, y: 16 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.45, ease: 'easeOut' } }
+  }
 }
