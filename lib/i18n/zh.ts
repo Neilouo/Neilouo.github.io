@@ -201,5 +201,8 @@ export const zh: Record<string, string> = {
   contact_cta_desc: '无论是合作机会、技术交流，还是单纯打个招呼，都欢迎来信。',
   get_in_touch: '联系我',
   view_resume: '查看简历',
-  now_label: '现状'
+  now_label: '现状',
+  show_more: '展开更多',
+  show_less: '收起',
+  toc_title: '目录'
 }

@@ -1,14 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
 import dynamic from 'next/dynamic'
 import { motion } from 'framer-motion'
-import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi'
+import { FiGithub, FiLinkedin, FiMail, FiChevronDown } from 'react-icons/fi'
 import { Stacks } from '../../components/TextSwiper'
 import { frontEnd, OtherStacks } from '../../components/TextSwiper/data'
 import { T, useI18n } from '../../components/I18nProvider'
 import DeveloperProfile from '../../components/DeveloperProfile'
 import ResumeSection from '../../components/ResumeSection'
 import PageHeader from '../../components/ui/PageHeader'
+import TableOfContents from '../../components/ui/TableOfContents'
 import { reveal, stagger, item } from '../../lib/motion'
 
 export const experiences = [
@@ -201,72 +202,138 @@ export const researchProjects = [
   },
 ]
 
-export function ResearchTimeline() {
+export function ResearchTimeline({ collapsible = false }) {
   const { lang } = useI18n()
-  return (
-    <motion.div {...stagger} className="space-y-8">
-      {researchProjects.map((project) => (
-        <motion.div key={project.title.en} {...item} className="relative pl-6 border-l-2 border-warm-200 dark:border-warm-700">
-          <div className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-emerald-500" />
-          <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-2">
-            <div>
-              <h3 className="font-medium text-warm-900 dark:text-warm-50">{project.title[lang]}</h3>
-              <p className="text-sm text-warm-500 dark:text-warm-400">{project.institution[lang]}</p>
-            </div>
-            <div className="flex items-center gap-2 flex-shrink-0">
-              <span className="text-xs text-warm-400 dark:text-warm-500 whitespace-nowrap">
-                {project.period[lang]} · {project.location[lang]}
-              </span>
-              <span className="px-2 py-0.5 rounded text-xs bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 border border-emerald-100 dark:border-emerald-800/50">
-                {project.focus[lang]}
-              </span>
-            </div>
-          </div>
-          <ul className="space-y-1.5 mt-3">
-            {project.highlights[lang].map((h) => (
-              <li key={h} className="flex items-start gap-2 text-sm text-warm-600 dark:text-warm-300">
-                <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-warm-300 dark:bg-warm-600 flex-shrink-0" />
-                {h}
-              </li>
-            ))}
-          </ul>
-        </motion.div>
-      ))}
+  const { t } = useI18n()
+  const [expanded, setExpanded] = useState(false)
+
+  const items = researchProjects.map((project) => (
+    <motion.div key={project.title.en} {...item} className="relative pl-6 border-l-2 border-warm-200 dark:border-warm-700">
+      <div className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-emerald-500" />
+      <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1 mb-2">
+        <div>
+          <h3 className="font-medium text-warm-900 dark:text-warm-50">{project.title[lang]}</h3>
+          <p className="text-sm text-warm-500 dark:text-warm-400">{project.institution[lang]}</p>
+        </div>
+        <div className="flex items-center gap-2 flex-shrink-0">
+          <span className="text-xs text-warm-400 dark:text-warm-500 whitespace-nowrap">
+            {project.period[lang]} · {project.location[lang]}
+          </span>
+          <span className="px-2 py-0.5 rounded text-xs bg-emerald-50 dark:bg-emerald-900/30 text-emerald-600 dark:text-emerald-400 border border-emerald-100 dark:border-emerald-800/50">
+            {project.focus[lang]}
+          </span>
+        </div>
+      </div>
+      <ul className="space-y-1.5 mt-3">
+        {project.highlights[lang].map((h) => (
+          <li key={h} className="flex items-start gap-2 text-sm text-warm-600 dark:text-warm-300">
+            <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-warm-300 dark:bg-warm-600 flex-shrink-0" />
+            {h}
+          </li>
+        ))}
+      </ul>
     </motion.div>
+  ))
+
+  if (!collapsible) {
+    return <motion.div {...stagger} className="space-y-8">{items}</motion.div>
+  }
+
+  return (
+    <div>
+      <motion.div
+        initial={false}
+        animate={{ height: expanded ? 'auto' : '14rem' }}
+        className="overflow-hidden relative"
+        transition={{ duration: 0.4, ease: 'easeInOut' }}
+      >
+        <motion.div {...stagger} className="space-y-8">
+          {items}
+        </motion.div>
+        {!expanded && (
+          <div className="absolute bottom-0 inset-x-0 h-20 bg-gradient-to-t from-warm-50 dark:from-warm-950 to-transparent pointer-events-none" />
+        )}
+      </motion.div>
+      <button
+        onClick={() => setExpanded(!expanded)}
+        className="mt-4 text-sm font-medium text-accent hover:underline underline-offset-4 inline-flex items-center gap-1"
+      >
+        {expanded ? t('show_less') : t('show_more')}
+        <FiChevronDown className={`w-4 h-4 transition-transform ${expanded ? 'rotate-180' : ''}`} />
+      </button>
+    </div>
   )
 }
 
-export function ExperienceTimeline() {
+export function ExperienceTimeline({ collapsible = false }) {
   const { lang } = useI18n()
-  return (
-    <motion.div {...stagger} className="space-y-8">
-      {experiences.map((exp) => (
-        <motion.div key={exp.company[lang]} {...item} className="relative pl-6 border-l-2 border-warm-200 dark:border-warm-700">
-          <div className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent" />
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
-            <div>
-              <h3 className="font-medium text-warm-900 dark:text-warm-50">{exp.company[lang]}</h3>
-              <p className="text-sm text-warm-500 dark:text-warm-400">{exp.role[lang]}</p>
-            </div>
-            <p className="text-xs text-warm-400 dark:text-warm-500 whitespace-nowrap">
-              {exp.period[lang]} · {exp.location[lang]}
-            </p>
-          </div>
-          <ul className="space-y-1.5 mt-3">
-            {exp.highlights[lang].map((h) => (
-              <li key={h} className="flex items-start gap-2 text-sm text-warm-600 dark:text-warm-300">
-                <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-warm-300 dark:bg-warm-600 flex-shrink-0" />
-                {h}
-              </li>
-            ))}
-          </ul>
-        </motion.div>
-      ))}
+  const { t } = useI18n()
+  const [expanded, setExpanded] = useState(false)
+
+  const items = experiences.map((exp) => (
+    <motion.div key={exp.company[lang]} {...item} className="relative pl-6 border-l-2 border-warm-200 dark:border-warm-700">
+      <div className="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent" />
+      <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 mb-2">
+        <div>
+          <h3 className="font-medium text-warm-900 dark:text-warm-50">{exp.company[lang]}</h3>
+          <p className="text-sm text-warm-500 dark:text-warm-400">{exp.role[lang]}</p>
+        </div>
+        <p className="text-xs text-warm-400 dark:text-warm-500 whitespace-nowrap">
+          {exp.period[lang]} · {exp.location[lang]}
+        </p>
+      </div>
+      <ul className="space-y-1.5 mt-3">
+        {exp.highlights[lang].map((h) => (
+          <li key={h} className="flex items-start gap-2 text-sm text-warm-600 dark:text-warm-300">
+            <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-warm-300 dark:bg-warm-600 flex-shrink-0" />
+            {h}
+          </li>
+        ))}
+      </ul>
     </motion.div>
+  ))
+
+  if (!collapsible) {
+    return <motion.div {...stagger} className="space-y-8">{items}</motion.div>
+  }
+
+  return (
+    <div>
+      <motion.div
+        initial={false}
+        animate={{ height: expanded ? 'auto' : '16rem' }}
+        className="overflow-hidden relative"
+        transition={{ duration: 0.4, ease: 'easeInOut' }}
+      >
+        <motion.div {...stagger} className="space-y-8">
+          {items}
+        </motion.div>
+        {!expanded && (
+          <div className="absolute bottom-0 inset-x-0 h-20 bg-gradient-to-t from-warm-50 dark:from-warm-950 to-transparent pointer-events-none" />
+        )}
+      </motion.div>
+      <button
+        onClick={() => setExpanded(!expanded)}
+        className="mt-4 text-sm font-medium text-accent hover:underline underline-offset-4 inline-flex items-center gap-1"
+      >
+        {expanded ? t('show_less') : t('show_more')}
+        <FiChevronDown className={`w-4 h-4 transition-transform ${expanded ? 'rotate-180' : ''}`} />
+      </button>
+    </div>
   )
 }
 
-<div className="max-w-3xl mx-auto px-4 pt-12 pb-24">
+<div className="max-w-5xl mx-auto px-4 pt-12 pb-24">
+  <div className="flex gap-12">
+    {/* Sidebar TOC */}
+    <aside className="hidden lg:block w-48 flex-shrink-0">
+      <div className="sticky top-24">
+        <TableOfContents />
+      </div>
+    </aside>
+
+    {/* Main content */}
+    <div className="flex-1 min-w-0">
 
   {/* Header */}
   <div className="mb-16">
@@ -281,7 +348,7 @@ export function ExperienceTimeline() {
     <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 mb-8 tracking-tight">
       <T k={'work_experience'} />
     </h2>
-    <ExperienceTimeline />
+    <ExperienceTimeline collapsible />
   </motion.section>
 
   {/* Research */}
@@ -289,7 +356,7 @@ export function ExperienceTimeline() {
     <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 mb-8 tracking-tight">
       <T k={'research'} />
     </h2>
-    <ResearchTimeline />
+    <ResearchTimeline collapsible />
   </motion.section>
 
   {/* Competitive Coding & Certifications */}
@@ -298,7 +365,7 @@ export function ExperienceTimeline() {
   </motion.section>
 
   {/* Tech Stack */}
-  <motion.section {...reveal} className="mb-16">
+  <motion.section id="tech-stack" {...reveal} className="mb-16 scroll-mt-24">
     <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 mb-6 tracking-tight">
       <T k={'tech_stack'} />
     </h2>
@@ -320,7 +387,7 @@ export function ExperienceTimeline() {
   </motion.div>
 
   {/* Contact */}
-  <motion.section {...reveal}>
+  <motion.section id="contact" {...reveal} className="scroll-mt-24">
     <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 mb-6 tracking-tight">
       <T k={'contact'} />
     </h2>
@@ -340,4 +407,6 @@ export function ExperienceTimeline() {
     </div>
   </motion.section>
 
+    </div>
+  </div>
 </div>

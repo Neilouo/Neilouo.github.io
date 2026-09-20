@@ -201,5 +201,8 @@ export const en: Record<string, string> = {
   contact_cta_desc: "Whether it's a collaboration, a technical discussion, or just a hello — my inbox is always open.",
   get_in_touch: 'Get in touch',
   view_resume: 'View résumé',
-  now_label: 'Now'
+  now_label: 'Now',
+  show_more: 'Show more',
+  show_less: 'Show less',
+  toc_title: 'Contents'
 }
