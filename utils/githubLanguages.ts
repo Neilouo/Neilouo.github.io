@@ -9,7 +9,7 @@ export interface LanguageResult {
   source: 'github' | 'fallback'
 }
 
-const GITHUB_USERNAME = process.env.NEXT_PUBLIC_GITHUB_USERNAME || 'NanSang2000'
+const GITHUB_USERNAME = process.env.NEXT_PUBLIC_GITHUB_USERNAME || 'Neilouo'
 
 type LanguageBytes = Record<string, number>
 

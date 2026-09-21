@@ -152,7 +152,7 @@ const fallbackStats: GitHubStats = {
 async function main (): Promise<void> {
   const headers: Record<string, string> = {
     Accept: 'application/vnd.github.v3+json',
-    'User-Agent': 'Portfolio-Website-NanSang2000'
+    'User-Agent': 'Portfolio-Website-Neilouo'
   }
   if (GITHUB_TOKEN) headers.Authorization = `token ${GITHUB_TOKEN}`
 
