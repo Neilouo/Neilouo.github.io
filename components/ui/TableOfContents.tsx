@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import { useI18n } from '../I18nProvider'
 
@@ -16,21 +16,22 @@ const sections: TocItem[] = [
   { id: 'contact', labelKey: 'contact' }
 ]
 
+/** Scroll margin must match the scroll-mt-* class on each section. */
+const SCROLL_MARGIN = 96
+
 export default function TableOfContents (): JSX.Element {
   const { t } = useI18n()
   const [activeId, setActiveId] = useState<string>('')
+  const lockRef = useRef<number>(0)
 
   useEffect(() => {
-    // Pick the last section whose top has crossed the reading line (below the navbar).
-    // Robust for sections of any height, unlike intersectionRatio-based spies.
-    const READING_LINE = 128
-
     const updateActive = (): void => {
+      if (Date.now() < lockRef.current) return
       let current = ''
       for (const s of sections) {
         const el = document.getElementById(s.id)
         if (el == null) continue
-        if (el.getBoundingClientRect().top <= READING_LINE) {
+        if (el.getBoundingClientRect().top <= SCROLL_MARGIN + 4) {
           current = s.id
         }
       }
@@ -45,6 +46,11 @@ export default function TableOfContents (): JSX.Element {
       window.removeEventListener('resize', updateActive)
     }
   }, [])
+
+  const handleClick = (id: string): void => {
+    setActiveId(id)
+    lockRef.current = Date.now() + 800
+  }
 
   return (
     <nav className="hidden lg:block" aria-label={t('toc_title')}>
@@ -65,6 +71,7 @@ export default function TableOfContents (): JSX.Element {
               )}
               <a
                 href={`#${s.id}`}
+                onClick={() => handleClick(s.id)}
                 className={`block pl-4 py-1.5 text-sm transition-colors duration-200 ${
                   isActive
                     ? 'text-accent font-medium'
