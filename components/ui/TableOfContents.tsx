@@ -27,6 +27,12 @@ export default function TableOfContents (): JSX.Element {
   useEffect(() => {
     const updateActive = (): void => {
       if (Date.now() < lockRef.current) return
+      const scrollBottom = window.scrollY + window.innerHeight
+      const docHeight = document.documentElement.scrollHeight
+      if (docHeight - scrollBottom < 40) {
+        setActiveId(sections[sections.length - 1].id)
+        return
+      }
       let current = ''
       for (const s of sections) {
         const el = document.getElementById(s.id)
@@ -49,7 +55,7 @@ export default function TableOfContents (): JSX.Element {
 
   const handleClick = (id: string): void => {
     setActiveId(id)
-    lockRef.current = Date.now() + 800
+    lockRef.current = Date.now() + 1200
   }
 
   return (
