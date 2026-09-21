@@ -29,7 +29,7 @@ export default function TableOfContents (): JSX.Element {
       if (Date.now() < lockRef.current) return
       const scrollBottom = window.scrollY + window.innerHeight
       const docHeight = document.documentElement.scrollHeight
-      if (docHeight - scrollBottom < 40) {
+      if (docHeight - scrollBottom < 120) {
         setActiveId(sections[sections.length - 1].id)
         return
       }
@@ -39,6 +39,14 @@ export default function TableOfContents (): JSX.Element {
         if (el == null) continue
         if (el.getBoundingClientRect().top <= SCROLL_MARGIN + 4) {
           current = s.id
+        }
+      }
+      // Last section is too short to cross the reading line;
+      // if its top is past the viewport midpoint, prefer it over the previous section.
+      if (current === sections[sections.length - 2]?.id) {
+        const lastEl = document.getElementById(sections[sections.length - 1].id)
+        if (lastEl != null && lastEl.getBoundingClientRect().top < window.innerHeight / 2) {
+          current = sections[sections.length - 1].id
         }
       }
       setActiveId(current)
