@@ -108,16 +108,15 @@ const BlogPageWithData: React.FC = () => {
             >
               {t('all')}
             </button>
-            {(Object.keys(sourceMeta) as ExternalSource[]).map((source) => (
+            {(Object.keys(sourceMeta) as ExternalSource[]).filter((source) => availableSources[source] > 0).map((source) => (
               <button
                 key={source}
                 onClick={() => setActiveSource(source)}
-                disabled={!availableSources[source]}
                 className={`${pillBase} ${
                   activeSource === source
                     ? `${sourceMeta[source].accent}`
                     : `${sourceMeta[source].text} opacity-70 hover:opacity-100`
-                } ${!availableSources[source] ? 'opacity-40 cursor-not-allowed' : ''}`}
+                }`}
               >
                 {sourceMeta[source].name}
               </button>
