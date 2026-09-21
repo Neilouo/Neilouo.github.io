@@ -43,8 +43,8 @@ export const sourceMeta: Record<ExternalSource, { name: string; logo: string; ac
   notion: {
     name: 'Notion',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/notion.svg',
-    accent: 'bg-neutral-100 text-neutral-800 dark:bg-neutral-500/10 dark:text-neutral-200',
-    text: 'bg-neutral-100 text-neutral-700 dark:bg-neutral-500/20 dark:text-neutral-100'
+    accent: 'bg-neutral-200 text-neutral-900 dark:bg-neutral-500/20 dark:text-neutral-100',
+    text: 'bg-neutral-50 text-neutral-500 dark:bg-neutral-500/10 dark:text-neutral-400'
   }
 }
 
