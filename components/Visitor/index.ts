@@ -44,21 +44,15 @@ function Visitors (): VisitorResult {
           localStorage.setItem(VISITOR_COUNT_KEY, Date.now().toString())
         }
 
-        const countRes = await fetch(`${baseUrl}/rest/v1/visitor?select=count&limit=1`, {
-          headers: { ...headers, Prefer: 'count=exact' },
+        const countRes = await fetch(`${baseUrl}/rest/v1/visitor?select=count`, {
+          headers: { apikey: supabaseKey, Authorization: `Bearer ${supabaseKey}` },
           signal: AbortSignal.timeout(5000)
         })
         if (!countRes.ok) throw new Error('Failed to fetch visitor count')
 
-        const range = countRes.headers.get('content-range')
-        if (range != null) {
-          const total = range.split('/')[1]
-          setCount(Number(total) || 0)
-        } else {
-          const data = await countRes.json() as Array<{ count: number }>
-          const sum = data.reduce((acc, row) => acc + (row.count ?? 0), 0)
-          setCount(sum)
-        }
+        const data = await countRes.json() as Array<{ count: number }>
+        const total = data.reduce((acc, row) => acc + (row.count ?? 0), 0)
+        setCount(total)
       } catch (err) {
         const msg = err instanceof Error ? err.message : 'Visitor count error'
         setError(msg)
