@@ -27,32 +27,38 @@ function Visitors (): VisitorResult {
         const headers: Record<string, string> = {
           apikey: supabaseKey,
           Authorization: `Bearer ${supabaseKey}`,
-          'Content-Type': 'application/json',
-          Prefer: 'return=representation'
+          'Content-Type': 'application/json'
         }
 
         const shouldCount = checkShouldCount()
 
         if (shouldCount) {
+          const maxRes = await fetch(`${baseUrl}/rest/v1/visitor?select=count&order=count.desc&limit=1`, {
+            headers: { apikey: supabaseKey, Authorization: `Bearer ${supabaseKey}` },
+            signal: AbortSignal.timeout(5000)
+          })
+          if (!maxRes.ok) throw new Error('Failed to fetch current count')
+          const maxData = await maxRes.json() as Array<{ count: number }>
+          const nextCount = (maxData[0]?.count ?? 0) + 1
+
           const insertRes = await fetch(`${baseUrl}/rest/v1/visitor`, {
             method: 'POST',
             headers,
-            body: JSON.stringify({ count: 1 }),
+            body: JSON.stringify({ count: nextCount }),
             signal: AbortSignal.timeout(5000)
           })
           if (!insertRes.ok) throw new Error('Failed to record visit')
           localStorage.setItem(VISITOR_COUNT_KEY, Date.now().toString())
+          setCount(nextCount)
+        } else {
+          const countRes = await fetch(`${baseUrl}/rest/v1/visitor?select=count&order=count.desc&limit=1`, {
+            headers: { apikey: supabaseKey, Authorization: `Bearer ${supabaseKey}` },
+            signal: AbortSignal.timeout(5000)
+          })
+          if (!countRes.ok) throw new Error('Failed to fetch visitor count')
+          const data = await countRes.json() as Array<{ count: number }>
+          setCount(data[0]?.count ?? 0)
         }
-
-        const countRes = await fetch(`${baseUrl}/rest/v1/visitor?select=count`, {
-          headers: { apikey: supabaseKey, Authorization: `Bearer ${supabaseKey}` },
-          signal: AbortSignal.timeout(5000)
-        })
-        if (!countRes.ok) throw new Error('Failed to fetch visitor count')
-
-        const data = await countRes.json() as Array<{ count: number }>
-        const total = data.reduce((acc, row) => acc + (row.count ?? 0), 0)
-        setCount(total)
       } catch (err) {
         const msg = err instanceof Error ? err.message : 'Visitor count error'
         setError(msg)
