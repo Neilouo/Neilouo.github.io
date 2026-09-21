@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { supabaseUrl, supabaseKey } from '../../utils/supabaseConfig'
 
 const VISITOR_COUNT_KEY = 'visitor_counted'
 const COUNT_EXPIRY = 24 * 60 * 60 * 1000
@@ -22,39 +23,41 @@ function Visitors (): VisitorResult {
         setLoading(true)
         setError(null)
 
-        const kvUrl = process.env.NEXT_PUBLIC_VERCEL_KV_URL
-        const kvToken = process.env.NEXT_PUBLIC_VERCEL_KV_REST_API_TOKEN
-
-        if (!kvUrl || !kvToken) {
-          setCount(0)
-          return
+        const baseUrl = supabaseUrl
+        const headers: Record<string, string> = {
+          apikey: supabaseKey,
+          Authorization: `Bearer ${supabaseKey}`,
+          'Content-Type': 'application/json',
+          Prefer: 'return=representation'
         }
-
-        const baseUrl = `${kvUrl}/get/${encodeURIComponent('visitor:count')}`
-        const getRes = await fetch(baseUrl, {
-          headers: { Authorization: `Bearer ${kvToken}` },
-          signal: AbortSignal.timeout(5000)
-        })
-
-        if (!getRes.ok) throw new Error('Failed to fetch visitor count')
-        const getData = await getRes.json() as { result: number | null }
-        const currentCount = getData.result ?? 0
 
         const shouldCount = checkShouldCount()
 
         if (shouldCount) {
-          const incrUrl = `${kvUrl}/incr/${encodeURIComponent('visitor:count')}`
-          const postRes = await fetch(incrUrl, {
+          const insertRes = await fetch(`${baseUrl}/rest/v1/visitor`, {
             method: 'POST',
-            headers: { Authorization: `Bearer ${kvToken}` },
+            headers,
+            body: JSON.stringify({ count: 1 }),
             signal: AbortSignal.timeout(5000)
           })
-          if (!postRes.ok) throw new Error('Failed to update visitor count')
-          const postData = await postRes.json() as { result: number }
-          setCount(postData.result)
+          if (!insertRes.ok) throw new Error('Failed to record visit')
           localStorage.setItem(VISITOR_COUNT_KEY, Date.now().toString())
+        }
+
+        const countRes = await fetch(`${baseUrl}/rest/v1/visitor?select=count&limit=1`, {
+          headers: { ...headers, Prefer: 'count=exact' },
+          signal: AbortSignal.timeout(5000)
+        })
+        if (!countRes.ok) throw new Error('Failed to fetch visitor count')
+
+        const range = countRes.headers.get('content-range')
+        if (range != null) {
+          const total = range.split('/')[1]
+          setCount(Number(total) || 0)
         } else {
-          setCount(currentCount)
+          const data = await countRes.json() as Array<{ count: number }>
+          const sum = data.reduce((acc, row) => acc + (row.count ?? 0), 0)
+          setCount(sum)
         }
       } catch (err) {
         const msg = err instanceof Error ? err.message : 'Visitor count error'
