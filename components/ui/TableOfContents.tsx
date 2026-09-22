@@ -25,6 +25,13 @@ export default function TableOfContents (): JSX.Element {
   const lockRef = useRef<number>(0)
 
   useEffect(() => {
+    // If the page loaded with a hash (e.g. /about#resume), lock that section
+    const hash = window.location.hash.replace('#', '')
+    if (hash !== '' && sections.some((s) => s.id === hash)) {
+      setActiveId(hash)
+      lockRef.current = Date.now() + 1500
+    }
+
     const updateActive = (): void => {
       if (Date.now() < lockRef.current) return
       const scrollBottom = window.scrollY + window.innerHeight
