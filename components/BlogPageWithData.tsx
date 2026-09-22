@@ -112,7 +112,7 @@ const BlogPageWithData: React.FC = () => {
               <button
                 key={source}
                 onClick={() => setActiveSource(source)}
-                className={`${pillBase} ${activeSource === source ? pillActive : pillIdle}`}
+                className={`${pillBase} ${activeSource === source ? sourceMeta[source].accent : pillIdle}`}
               >
                 {sourceMeta[source].name}
               </button>
