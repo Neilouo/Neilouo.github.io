@@ -20,31 +20,31 @@ export const sourceMeta: Record<ExternalSource, { name: string; logo: string; ac
     name: 'CSDN',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/csdn.svg',
     accent: 'bg-red-50 text-red-600 ring-1 ring-red-300 dark:bg-red-500/10 dark:text-red-200 dark:ring-red-500/30',
-    text: 'bg-red-100 text-red-600 dark:bg-red-500/20 dark:text-red-100'
+    text: 'text-red-500 dark:text-red-400'
   },
   juejin: {
     name: '掘金 Juejin',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/juejin.svg',
     accent: 'bg-sky-50 text-sky-600 ring-1 ring-sky-300 dark:bg-sky-500/10 dark:text-sky-200 dark:ring-sky-500/30',
-    text: 'bg-sky-100 text-sky-600 dark:bg-sky-500/20 dark:text-sky-100'
+    text: 'text-sky-500 dark:text-sky-400'
   },
   cnblogs: {
     name: '博客园',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/cnblogs.svg',
     accent: 'bg-amber-50 text-amber-600 ring-1 ring-amber-300 dark:bg-amber-500/10 dark:text-amber-200 dark:ring-amber-500/30',
-    text: 'bg-amber-100 text-amber-600 dark:bg-amber-500/20 dark:text-amber-100'
+    text: 'text-amber-500 dark:text-amber-400'
   },
   stackoverflow: {
     name: 'Stack Overflow',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/stackoverflow.svg',
     accent: 'bg-orange-50 text-orange-600 ring-1 ring-orange-300 dark:bg-orange-500/10 dark:text-orange-200 dark:ring-orange-500/30',
-    text: 'bg-orange-100 text-orange-600 dark:bg-orange-500/20 dark:text-orange-100'
+    text: 'text-orange-500 dark:text-orange-400'
   },
   notion: {
     name: 'Notion',
     logo: 'https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/notion.svg',
     accent: 'bg-neutral-50 text-neutral-800 ring-1 ring-neutral-300 dark:bg-neutral-500/10 dark:text-neutral-200 dark:ring-neutral-500/30',
-    text: 'bg-neutral-100 text-neutral-500 dark:bg-neutral-500/20 dark:text-neutral-100'
+    text: 'text-neutral-500 dark:text-neutral-400'
   }
 }
 
