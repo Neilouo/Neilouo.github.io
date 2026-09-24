@@ -1,6 +1,17 @@
 {
   "articles": [
     {
+      "id": "notion-3e3b3d4e-5d48-801a-a02c-e7112e3f0d40",
+      "title": "AI infra 学习心得",
+      "summary": "一些AI infra 学习笔记",
+      "url": "https://app.notion.com/p/AI-infra-3e3b3d4e5d48801aa02ce7112e3f0d40",
+      "source": "notion",
+      "publishedAt": "2026-09-22",
+      "topics": [
+        "Notion"
+      ]
+    },
+    {
       "id": "notion-311b3d4e-5d48-80f4-80b4-e4f84adae94d",
       "title": "Prompt 设计工程",
       "summary": "自己使用Prompt技巧",
