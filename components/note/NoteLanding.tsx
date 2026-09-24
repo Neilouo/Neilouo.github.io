@@ -54,17 +54,17 @@ export default function NoteLanding ({ contextJson }: NoteLandingProps): JSX.Ele
 
       {/* Featured notes */}
       <motion.section {...reveal} className="mb-16">
-        <h2 className="text-lg font-semibold text-warm-800 dark:text-warm-100 mb-6">
+        <h2 className="font-display text-2xl font-semibold text-warm-900 dark:text-warm-50 tracking-tight mb-6">
           {t('note_featured')}
         </h2>
         <motion.div {...stagger} className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {noteHighlights.featured.map((featuredItem) => (
-            <motion.div key={featuredItem.title} {...item}>
+            <motion.div key={featuredItem.title} {...item} className="h-full">
               <Link
                 href={featuredItem.link}
-                className="group p-6 rounded-card border border-warm-100 dark:border-warm-800 hover:border-accent/30 dark:hover:border-accent/30 bg-white dark:bg-warm-950 transition-colors h-full"
+                className="group flex flex-col h-full p-6 rounded-card border border-warm-100 dark:border-warm-800 hover:border-accent/30 dark:hover:border-accent/30 bg-white dark:bg-warm-950 transition-colors"
               >
-                <span className="inline-block px-2 py-0.5 rounded text-xs font-medium bg-accent/10 text-accent mb-3">
+                <span className="inline-block px-2 py-0.5 rounded text-xs font-medium bg-accent/10 text-accent mb-3 w-fit">
                   {featuredItem.tag}
                 </span>
                 <h3 className="font-medium text-warm-900 dark:text-warm-50 group-hover:text-accent transition-colors">
