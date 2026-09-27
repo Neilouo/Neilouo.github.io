@@ -1,0 +1,491 @@
+{
+  "date": "2026-09-26",
+  "items": [
+    {
+      "type": "news",
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning a…",
+      "authors": [
+        "Amit Katwala"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "I created an interactive digital avatar of myself — and you can talk to it",
+      "summary": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
+      "authors": [
+        "Dominic-Madori Davis"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "At Meta Connect, the company’s smart glasses were everywhere",
+      "summary": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+      "summary": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans.",
+      "authors": [
+        "Kirsten Korosec"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Meta opens early access program for new Muse features",
+      "summary": "Anyone interested in joining has to ask Muse to put them on the list.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic to pay Akamai $11.6 billion over seven years in cloud deal",
+      "summary": "Anthropic has committed $11.6 billion over seven years to Akamai's cloud infrastructure, a bet on CPUs that could grow to about $20 billion, and in an unusual arrangement, Akamai is giving Anthropic a potential stake of up to 5% of its stock that grows as Anthropic spends more.",
+      "authors": [
+        "Aditya Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Mark Wahlberg is coming to TechCrunch Disrupt 2026, and he wants to talk about your work, not his",
+      "summary": "Mark Wahlberg joins Bruce K. Lee at Disrupt to discuss investing, entrepreneurship, healthcare, wellness, and building businesses.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/mark-wahlberg-is-coming-to-techcrunch-disrupt-2026/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Ahead of US IPO, British AI neocloud Nscale secures $3.36B in convertible financing",
+      "summary": "The funding, which comes from Third Point, Nvidia, and others, will fuel the company's massive AI data center buildout.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/ahead-of-u-s-ipo-british-ai-neocloud-nscale-secures-3-36b-in-convertible-finacing/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Meta’s Muse just stole the AI spotlight from OpenAI and Anthropic",
+      "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes later. But the company t…",
+      "authors": [
+        "Anthony Ha, Kirsten Korosec, Sean O'Kane, Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/metas-muse-just-stole-the-ai-spotlight-from-openai-and-anthropic/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Some Supabase customers are publicly exposing reams of people’s data to the web",
+      "summary": "The findings highlight how AI-generated and vibe-coded apps can spill and expose users' data when not configured or secured properly.",
+      "authors": [
+        "Zack Whittaker"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/some-supabase-customers-are-publicly-exposing-reams-of-peoples-data-to-the-web/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Astra and Opus just passed Turing’s other test",
+      "summary": "Frontier AI models are finishing Alan Turing's World War II codebreaking work.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Meta is putting its muscle behind Muse as the AI app takes off",
+      "summary": "Muse is topping the app store charts and adding users at a rapid clip, while Meta ramps up the personal AI agent's promotion across its own apps and beyond.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Meta’s AI Tamagotchi bet is…working?",
+      "summary": "When AI leaders at OpenAI and Anthropic started talking about “pacing the frontier,” maybe someone should have asked: what pace? Now it’s turned into model drop week for both companies as Anthropic rolled out Opus 5.5, followed by OpenAI’s GPT-6 model updates just 90 minutes later. But the company t…",
+      "authors": [
+        "Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/video/will-metas-ai-tamagotchi-bet-isworking/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "For months, OpenAI’s agent swarms have been attacking online databases to find obscure facts",
+      "summary": "The latest unauthorized agent swarms were discovered by researchers.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic’s founders seek voting control ahead of IPO",
+      "summary": "Anthropic is asking its shareholders to approve a structure that would give its seven co-founders a combined 50.1% of the vote on most corporate matters.",
+      "authors": [
+        "Connie Loizos"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "TechCrunch Disrupt 2026: Ricursive Intelligence’s Anna Goldie and Azalia Mirhoseini on when AI starts designing its own hardware",
+      "summary": "At TechCrunch Disrupt 2026, Ricursive Intelligence co-founders Anna Goldie and Azalia Mirhoseini will take the Disrupt Stage to discuss closing the loop between AI and chip development. Save up to $200 on your pass before today ends.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/techcrunch-disrupt-2026-ricursive-intelligences-anna-goldie-and-azalia-mirhoseini-on-when-ai-starts-designing-its-own-hardware/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
+      "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Last 24 hours to save up to $200 on TechCrunch Disrupt 2026. Reason 5 of 5 to attend: Momentum",
+      "summary": "Last 24 hours to save up to $200 on your TechCrunch Disrupt 2026 pass. Leave the event further in your startup's trajectory than where you started. Don't miss your chance to save and to push the needle.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/last-24-hours-to-save-up-to-200-on-techcrunch-disrupt-2026-reason-5-of-5-to-attend-momentum/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Lightspeed targets $250M for new India fund, focusing on early-stage AI",
+      "summary": "The venture firm is aligning its India fundraising cycle with its global funds for the first time, as it shifts to a shorter investment period.",
+      "authors": [
+        "Jagmeet Singh"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/24/lightspeed-targets-250m-for-new-india-fund-focusing-on-early-stage-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "[P] A small MLP from scratch in NumPy with a GUI to look inside it while it trains (weight distributions, t-SNE per layer, neuron ablation...) [P]",
+      "summary": "Hi everyone, I built an educational tool that shows what happens inside a small MLP while it trains, and I'd like some feedback from people who teach ML. Everything is plain NumPy, no autograd: manual backprop, SGD with momentum, L2, dropout, cosine decay and 4 activations. On MNIST it gets to about…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqy1qd/p_a_small_mlp_from_scratch_in_numpy_with_a_gui_to/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "Publication potential [D]",
+      "summary": "Hi all, I may be being silly but I have just finished my masters thesis which benchmarked three deep learning architectures (one of which is novel), across varying preprocessing pipelines for the purpose of EEG motor imagery task classification SPECIFICALLY on a consumer grade EEG cap (OpenBCI’s Gal…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqxo94/publication_potential_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "LLMs were told they could lie in Diplomacy. Here's who actually kept their promises. [D]",
+      "summary": "the stats are from the game of diplomacy. diplomacy is basically a strategy game where you negotiate, form alliances, betray, and outmaneuver other players to expand your influence. the games were played in multi-agent simulations, with different LLMs playing against each other under the same rules …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqufwj/llms_were_told_they_could_lie_in_diplomacy_heres/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "Medical student asked if they can match into Neurosurgery without an A* first author paper [D]",
+      "summary": "This is how ridiculous things have become submitted by /u/Even-Inevitable-7243 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqc6ci/medical_student_asked_if_they_can_match_into/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "A Little Guide to Learning Distributed Algorithms for LLMS Training and Inference [D]",
+      "summary": "Distributed Training and Inference both involves having a fundamental understanding of how distributed systems work in general Distributed Parallelism Tensor Parallelism Pipeline Parallelism Model Parallelism Reading and reading and reading or even worse, not knowing where to start ;( That’s boring!…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqk0x2/a_little_guide_to_learning_distributed_algorithms/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "I ran the same prompt against our agent every week for a quarter and watched the answers drift until they broke our policy [D]",
+      "summary": "For about a quarter, I ran the same audit on a prod agent. Once a week I asked it the same question. This I specifically drafted to walk right up to the policy line. I noted the answer every time. The first few weeks it held up pretty well. Then small things started slipping. A qualifier dropped her…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wr509z/i_ran_the_same_prompt_against_our_agent_every/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "My paper got accepted at NeurIPS TAE Workshop 2026 — any advice on getting travel funding?[D]",
+      "summary": "Hi everyone, I am happy to share that my paper has been selected for presentation at the TAE Workshop at NeurIPS 2026, which will be held on December 11, 2026. I am really excited about the opportunity to present my work and attend the workshop, but I am currently trying to figure out how to cover t…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wquo3w/my_paper_got_accepted_at_neurips_tae_workshop/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "Has anyone used the Forrester function?[D]",
+      "summary": "Hey guys, I came across the Forrester function recently while studying mathematics, and I started wondering if there’s more to it than just being a mathematical function. I have a feeling I’ve seen it come up in machine learning or optimization, but I’m not really sure what it’s actually used for. D…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqm4no/has_anyone_used_the_forrester_functiond/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "iclr 2027 de anonymization [D]",
+      "summary": "Wyhy this keeps happening to iclr? https://openreview.net/forum/user%7Cstatement_regarding_iclr_2027_submission_exposure_to_program_committee_members submitted by /u/Striking-Warning9533 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wptsvx/iclr_2027_de_anonymization_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "NeurIPS reject -> ICLR: How much reviewer feedback are you actually implementing ? [D]",
+      "summary": "Welp, NeurIPS is a wrap for those of us who got rejected 😭 Off we go to ICLR or whatever the next venue is, hopefully after making some meaningful changes to the paper. For people who are resubmitting, I’m curious: how much of the NeurIPS reviewer feedback are you actually implementing? Did you try…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wpognv/neurips_reject_iclr_how_much_reviewer_feedback/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "NeurIPS Accept, but Confusing Final Justification, Is This Normal? [D]",
+      "summary": "Just got an Accept at NeurIPS with initial scores of 5/5/4! The initial meta-review was pretty positive, but the final justification was entirely negative, raising concerns about AI use and suggesting further investigation and reconsideration of the recommendation. For context, one reference was fla…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wpouvt/neurips_accept_but_confusing_final_justification/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "NeurIPS Registration - How to get one if all tickers are sold out in Sydney? [D]",
+      "summary": "Hi, I am a solo independent UG author for a NeurIPS WS paper (GlobalSouthAI). Now, how to get a registration ticket. Will they give us a ticket to buy or manually buy from the Neurips website (but Sydney tickets are sold out)? Any suggestion? I am from India, and going to Paris/Atlanta is not possib…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wpt8sk/neurips_registration_how_to_get_one_if_all/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "How much changes can you make to a paper between acceptance and camera ready? [D]",
+      "summary": "We have a paper accepted to NeurIPS, but at the same time we were working on a resubmission to ICLR just in case NeurIPS rejected us. There has been substantial rewriting, and we feel it would be a waste if we discarded all of it. To give a summary of what's changed: We completely rewrote every sing…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wpjumz/how_much_changes_can_you_make_to_a_paper_between/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "What's up with AAAI reviewers and organizers? [D]",
+      "summary": "My paper advanced to the second round...but... Out of the papers I reviewed. One did not follow the AAAI template and was unblinded. My review was two lines. The other \"human reviewer\" gave a list of pros and cons that were similar to the AI review. One was incomplete (missing paragraphs, figures, c…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wphteu/whats_up_with_aaai_reviewers_and_organizers_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-25"
+    },
+    {
+      "type": "news",
+      "title": "Confused About job title [R]",
+      "summary": "ML jobs are confusing nowadays,it wraps up as \"AI/ML\" engineer and they want you to have software engineering skill and DSA skill to and on top of that they want you to have Fast API with AI API wrapping, they don't ask for data processing or maths skills , atleast 99% time I have seen, ML jobs are …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqc5ac/confused_about_job_title_r/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "AAAI 2027 Phase 1 Summary Rejection [N]",
+      "summary": "Phase 1 results are out. Did your paper(s) pass to phase 2? submitted by /u/Away-Cattle7081 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wpidgd/aaai_2027_phase_1_summary_rejection_n/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-25"
+    }
+  ]
+}
