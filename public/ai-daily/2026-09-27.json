@@ -1,0 +1,247 @@
+{
+  "date": "2026-09-27",
+  "items": [
+    {
+      "type": "news",
+      "title": "Anthropic’s CEO is about to have dinner with President Trump",
+      "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "type": "news",
+      "title": "Can Muse overcome Meta’s trust issues?",
+      "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic’s Dario Amodei gets the SNL treatment",
+      "summary": "\"AI is the devil and I its maker.\"",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "type": "news",
+      "title": "Google tests buying from Walmart-owned Flipkart through Gemini and AI Mode in India",
+      "summary": "The limited test covers select products and users, with a broader rollout planned for later in October.",
+      "authors": [
+        "Jagmeet Singh"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "type": "news",
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "I created an interactive digital avatar of myself — and you can talk to it",
+      "summary": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves.",
+      "authors": [
+        "Dominic-Madori Davis"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "At Meta Connect, the company’s smart glasses were everywhere",
+      "summary": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "Are there machine learning subfields that are becoming irrelevant (or is irrelevant)? [D]",
+      "summary": "I was reading a paper that surveyed the field of neural architecture search, where it said within 5 years, around 3000+ new models were proposed. The amount of compute and resources spent on this is absolutely astronomical. However, the transformer was notably not one of the models that was found th…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wrqoxp/are_there_machine_learning_subfields_that_are/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "type": "news",
+      "title": "ClashRoyaleAi: an open-source, deterministic Clash Royale simulator for RL, with recurrent PPO, lookahead search and expert iteration [P]",
+      "summary": "The opponent plans by simulation: every second it scores each candidate play by running the match 10 seconds ahead in the engine. Our PPO agent learned to park its Cannon behind its own King. Losing a building in a fight cost reward, and letting it decay cost nothing, so it found the loophole. It's …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wrj0t3/clashroyaleai_an_opensource_deterministic_clash/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "type": "news",
+      "title": "Two-stage shelf audit: YOLO finds the products, embeddings can't tell sibling SKUS apart. What should Stage 2 be? [P]",
+      "summary": "Help: Project l'm building a shelf audit tool. A photo goes through YOLO, which crops each product, and then I embed the crop and search a small gallery of reference photos to get the SKU. New products should be addable by just dropping in photos, no detector retrain. Detection is basically fine. ld…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wrxabu/twostage_shelf_audit_yolo_finds_the_products/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "type": "news",
+      "title": "Teaching Neural Nets to Fight with RL [P]",
+      "summary": "In this project I wanted to see if any interesting emergent behaviors would appear if we trained two agents to play a streetfighter-like game using RL. Maybe obvious in retrospect, but the agents are really good at reward hacking. I had to shape the rewards a bit to get them to even approach each ot…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wr99bn/teaching_neural_nets_to_fight_with_rl_p/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "type": "news",
+      "title": "[P] A small MLP from scratch in NumPy with a GUI to look inside it while it trains (weight distributions, t-SNE per layer, neuron ablation...) [P]",
+      "summary": "Hi everyone, I built an educational tool that shows what happens inside a small MLP while it trains, and I'd like some feedback from people who teach ML. Everything is plain NumPy, no autograd: manual backprop, SGD with momentum, L2, dropout, cosine decay and 4 activations. On MNIST it gets to about…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqy1qd/p_a_small_mlp_from_scratch_in_numpy_with_a_gui_to/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "When do ICLR submissions and reviews become public? [D]",
+      "summary": "Hi everyone, I have a question about ICLR’s open review process. I have experience with ICML/NeurIPS/AAAI, but this is my first time submitting to ICLR, and I understand that its public review process works differently. (1) The submission portal says that papers are made public to the community “fro…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wrctl5/when_do_iclr_submissions_and_reviews_become/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "type": "news",
+      "title": "Publication potential [D]",
+      "summary": "Hi all, I may be being silly but I have just finished my masters thesis which benchmarked three deep learning architectures (one of which is novel), across varying preprocessing pipelines for the purpose of EEG motor imagery task classification SPECIFICALLY on a consumer grade EEG cap (OpenBCI’s Gal…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqxo94/publication_potential_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "Medical student asked if they can match into Neurosurgery without an A* first author paper [D]",
+      "summary": "This is how ridiculous things have become submitted by /u/Even-Inevitable-7243 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqc6ci/medical_student_asked_if_they_can_match_into/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "A Little Guide to Learning Distributed Algorithms for LLMS Training and Inference [D]",
+      "summary": "Distributed Training and Inference both involves having a fundamental understanding of how distributed systems work in general Distributed Parallelism Tensor Parallelism Pipeline Parallelism Model Parallelism Reading and reading and reading or even worse, not knowing where to start ;( That’s boring!…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqk0x2/a_little_guide_to_learning_distributed_algorithms/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "Tauon: A new optimizer outperforming Muon on GPT-Mini (lower loss, ~8.5% faster step time) [P]",
+      "summary": "Hey r/MachineLearning! I’ve been working on a new optimizer called Tauon (turns out there is already \"teon\" but well if you have better idea, - i will gladly accept it! Anyway the core idea of optimizer is about polynomials and orthogonalization just like muon, the whole difference is that i managed…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wr9ryk/tauon_a_new_optimizer_outperforming_muon_on/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-27"
+    },
+    {
+      "type": "news",
+      "title": "Has anyone used the Forrester function?[D]",
+      "summary": "Hey guys, I came across the Forrester function recently while studying mathematics, and I started wondering if there’s more to it than just being a mathematical function. I have a feeling I’ve seen it come up in machine learning or optimization, but I’m not really sure what it’s actually used for. D…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wqm4no/has_anyone_used_the_forrester_functiond/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    },
+    {
+      "type": "news",
+      "title": "My paper got accepted at NeurIPS TAE Workshop 2026 — any advice on getting travel funding?[D]",
+      "summary": "Hi everyone, I am happy to share that my paper has been selected for presentation at the TAE Workshop at NeurIPS 2026, which will be held on December 11, 2026. I am really excited about the opportunity to present my work and attend the workshop, but I am currently trying to figure out how to cover t…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1wquo3w/my_paper_got_accepted_at_neurips_tae_workshop/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-09-26"
+    }
+  ]
+}
