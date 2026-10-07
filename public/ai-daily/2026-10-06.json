@@ -1,0 +1,553 @@
+{
+  "date": "2026-10-06",
+  "items": [
+    {
+      "type": "news",
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Connecting AI agents to enterprise knowledge",
+      "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to re…",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "type": "news",
+      "title": "Bringing predictive analytics to the agentic AI era",
+      "summary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from pr…",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "type": "news",
+      "title": "People really hate AI, so why can’t they get enough?",
+      "summary": "Over the summer I talked to the CEO of Springboards, a startup building an LLM that’s designed to come up with a wider variety of responses than its mainstream rivals do. At the start of the call, he said something that’s been stuck in my head since: “We often say that we’re a self-loathing AI…",
+      "authors": [
+        "Will Douglas Heaven"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/05/1145682/people-really-hate-ai-so-why-cant-they-get-enough/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "type": "news",
+      "title": "EmTech Future 2026: When AI Meets Everything",
+      "summary": "Yossi Matias, Vice President & Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields. Step inside the newsroom with our MIT Technology Review editors for sharp an…",
+      "authors": [
+        "MIT Technology Review"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "type": "news",
+      "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+      "summary": "Instead of helping marketers manage and optimize ad spend, the company is focusing on building the tools that generate the creative assets and campaigns.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "How AI decision models could change content moderation",
+      "summary": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights.",
+      "authors": [
+        "Russell Brandom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "AI computing startup Lambda to raise $4B ahead of planned IPO",
+      "summary": "Nvidia-backed Lambda is raising up to $4 billion at a $14.5 billion pre-money valuation ahead of a planned 2027 IPO, led by Coatue and Blackstone.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "The next hurdle for AI agents: getting websites to let them in",
+      "summary": "Personal AI agents promise to shop, book flights, and make reservations for you. But deliberate blocks and anti-bot defenses are getting in the way, leaving consumers caught in the middle. A new standard aims to help.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/06/the-next-hurdle-for-ai-agents-getting-websites-to-let-them-in/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Hark releases an AI personal assistant with a focus on privacy",
+      "summary": "The AI lab's personal assistant is an operating system from the future designed to compete with Muse, Dots, and Instinct.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Mirror Particle is building a ‘world model’ of human behavior",
+      "summary": "Mirror Particle will launch at TechCrunch Disrupt's Startup Battlefield 200 with a world model built from scratch to predict human behavior, arguing that LLM role-play falls short for market research and brand strategy.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/06/mirror-particle-is-building-a-world-model-of-human-behavior/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic is giving startups a free year of Claude Team and $1,000 in credits",
+      "summary": "\"We created this program because we believe the benefits of AI will reach most people through the companies that build on top of models, rather than through the models alone.\"",
+      "authors": [
+        "Russell Brandom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/06/anthropic-gives-startups-a-free-year-of-enterprise-service-and-1000-in-token-credits/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "LibreOffice says ‘no AI’ is now a software feature",
+      "summary": "The maker of the open source document editor says it has no plans to add AI to its software's default configuration, citing user privacy.",
+      "authors": [
+        "Zack Whittaker"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Mistral’s new 1T model aims to leapfrog closed and open rivals",
+      "summary": "French AI lab Mistral AI has released Mistral Large 4, a new large multimodal model aiming to leapfrog both American and Chinese rivals.",
+      "authors": [
+        "Anna Heim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/06/mistrals-new-1t-model-aims-to-leapfrog-closed-and-open-rivals/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Pinterest’s AI now turns beauty Pins into action plans",
+      "summary": "Pinterest’s new AI-powered Beauty Guides translate hair and nail Pins into salon terminology, with estimated costs, appointment times, and maintenance needs.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/06/pinterests-ai-now-turns-beauty-pins-into-action-plans/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Get all your questions answered at TechCrunch Disrupt 2026: The full breakout session agenda revealed",
+      "summary": "Get all of your scaling and tech questions answered at TechCrunch Disrupt 2026. Here's the full breakout session agenda, happening October 13-15 in San Francisco. Register now to join and save up to $100, and get a second pass at 50% off.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/06/get-all-your-questions-answered-at-techcrunch-disrupt-2026-the-full-breakout-session-agenda-revealed/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
+      "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says.",
+      "authors": [
+        "Aditya Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "type": "news",
+      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
+      "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "type": "news",
+      "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+      "summary": "Instinct is launching group chats that let friends use its AI agent together for tasks like planning trips, organizing carpools, and coordinating events. The company says personal accounts remain separate, with permission required before personal agents share information or take action.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "type": "news",
+      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+      "summary": "TikTok describes its new Shopping Assistant as a conversational AI agent designed to help users discover and purchase products.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "type": "news",
+      "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+      "summary": "Founded by two sisters, Hot Girl Hotline uses AI to give young women personalized dating and relationship advice, with an emphasis on safety and avoiding emotional dependency.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "type": "news",
+      "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+      "summary": "HackerRank’s AI interviewer has already conducted more than 500,000 interviews, with Snowflake, Snorkel, and Capgemini among its early testers.",
+      "authors": [
+        "Jagmeet Singh"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI launches visual ads that appear alongside image generation results",
+      "summary": "The new ads will begin to appear later this month in the U.S. only for now, and will feature products and services from an initial test group of advertisers.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-05"
+    },
+    {
+      "type": "news",
+      "title": "Has anybody noticed that the problem of machine translation has been, like, solved?",
+      "summary": "With all the fuss over AI and what it can do, I feel like we've totally glossed over the fact that AI has casually solved something that has been a problem for decades. I was born the year after the microprocessor was invented, and I've kept a very close eye on technology as it has developed. And th…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wz903r/has_anybody_noticed_that_the_problem_of_machine/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "People don't Google anymore. They ask AI. And AI doesn't know I exist",
+      "summary": "I run a small law firm. Family law. Wills. Estates. Nothing flashy. But we’re good at what we do. Our clients love us. We get referrals. We’ve been in business for 12 years But I keep hearing the same thing from potential clients. “I asked ChatGPT for a lawyer and your firm didn’t come up.” Or “Perp…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wza04r/people_dont_google_anymore_they_ask_ai_and_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Meta's Muse agent is creating dossiers on its 4 million users; Interaction data is shared between Muse agent instances",
+      "summary": "\"Each hour, Muse updates its dossiers on you and the people you’ve mentioned in chats, messages, and emails that Muse has read. These pages amount to a map of each user’s social relationships. They record details of how you and your contacts met, your shared interests, your disputes, and 'tensions a…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wz9fbj/metas_muse_agent_is_creating_dossiers_on_its_4/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Princeton researchers train a 4B LLM to reach 2700 Elo in chess (with no signs of a plateau when they stopped training) and can explain its moves accurately. They say the training technique can also be applied to other games, robotics, and computer use",
+      "summary": "submitted by /u/Eliv_nurotic [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wypjue/princeton_researchers_train_a_4b_llm_to_reach/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Introducing Mistral Large 4",
+      "summary": "submitted by /u/uusrikas [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wz2rfa/introducing_mistral_large_4/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Muse help us",
+      "summary": "submitted by /u/m3nt3_ [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wz6wfo/muse_help_us/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "I’m Looking For Web Designers",
+      "summary": "I hope most of you reading this are web designers because I’m genuinely curious about something. How are you getting clients in 2026? I’ve spoken to a lot of web designers and agency owners lately, and one thing keeps coming up again and again. Client acquisition. It seems like everyone can build we…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wzeein/im_looking_for_web_designers/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Chances of AI replacing radiologists?",
+      "summary": "After lets say 10 to 20 years. submitted by /u/avb707 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wz5vw9/chances_of_ai_replacing_radiologists/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Capcom announces plans to transform the RE Engine into an AI-generation game engine — ‘Our goal is a future where we create games together with AI’",
+      "summary": "submitted by /u/Fcking_Chuck [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wyxz0h/capcom_announces_plans_to_transform_the_re_engine/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Offset 3 years of heavy AI use with 1 month diet change",
+      "summary": "Whenever I show projects that use AI in less AI friendly subs, there's always someone bringing up the environmental impact of AI use. If you're like me, and do care about the environment, you can reclaim the moral high ground by reducing meat intake, or even going to a plant based diet for a short w…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wz6q1d/offset_3_years_of_heavy_ai_use_with_1_month_diet/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "AMA this Friday: Matthew Schwartz (Harvard) “Claude-shaped science,” on r/physics",
+      "summary": "Matthew Schwartz, professor of physics at Harvard and author of Quantum Field Theory and the Standard Model, will be doing an AMA this Friday at 12 PM ET. You may have seen his recent Anthropic blog post, “Claude-shaped science,” on using Claude as a research tool and what AI assisted scientific res…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wzbibm/ama_this_friday_matthew_schwartz_harvard/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Cacastral",
+      "summary": "submitted by /u/Longjumping-Elk-7756 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wzc9dp/cacastral/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Will SaaS companies repeat what the music industry did in the early 2000s?",
+      "summary": "I keep telling folks SaaS is dead, and those of you in this sub are probably also thinking along the same lines by now. Personally, I just don’t see companies outspending what the frontier models are capable of doing in terms of ripping SaaS products off. JetBrains for instance, reported it’s first …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wz366v/will_saas_companies_repeat_what_the_music/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "A multi-agent pipeline's biggest failure mode isn't any single agent being wrong, it's two correct agents disagreeing about what \"done\" means",
+      "summary": "Had a research pipeline where one agent gathered sources and a second agent synthesized them into a summary. Both performed well individually, tested extensively on their own. Chained together, the synthesis agent kept producing summaries missing obvious points the gathering agent had actually found…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wza7le/a_multiagent_pipelines_biggest_failure_mode_isnt/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "AI helps decode a 217-year-old message sent on Napoleon’s orders",
+      "summary": "submitted by /u/cjami [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wyxfui/ai_helps_decode_a_217yearold_message_sent_on/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Could AI-assisted nanorobotics be injeceted into the bloodstream and used to kill cancer cells in the future?",
+      "summary": "Could AI-assisted nanorobotics be injeceted into the bloodstream and used to kill cancer cells in the future? What about other potential medical uses other than cancer treatment? Such as clearing clogged arteries? submitted by /u/DoublePassRadiator [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wzalsp/could_aiassisted_nanorobotics_be_injeceted_into/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Finished a CPD-accredited AI mastery program — here are the 5 things actually worth knowing",
+      "summary": "Just wrapped a structured AI program covering ChatGPT, Claude, Midjourney, Lovable, and Jasper. Most of it was stuff you could pick up free, but five lessons stuck: Prompting is 80% of the skill. The tool matters less than how you talk to it. Stack tools instead of marrying one — draft in ChatGPT/Cl…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wz797w/finished_a_cpdaccredited_ai_mastery_program_here/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Is there a chance we may not actually achieve ASI that radically changes society?",
+      "summary": "Most of the AI Optimists believe that the ultimate achievement of AI will be arriving at \"ASI\" that radically changes our society. How would it change society? Well the sky is the limit but depending on whose opinion you are reading we are talking about post scarcity, humans never having to work aga…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wz77sy/is_there_a_chance_we_may_not_actually_achieve_asi/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    },
+    {
+      "type": "news",
+      "title": "Where does sim-to-real transfer actually work reliably right now?",
+      "summary": "Most papers claim great results in simulation but deployment videos are rare. Boston Dynamics and a few others clearly have it figured out for locomotion, but manipulation in messy homes seems stuck. Is the gap mostly sensor noise, actuator modeling, or something else? submitted by /u/vekswz [link] …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1wz5yyq/where_does_simtoreal_transfer_actually_work/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-06"
+    }
+  ]
+}
