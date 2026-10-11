@@ -1,0 +1,455 @@
+{
+  "date": "2026-10-10",
+  "items": [
+    {
+      "type": "news",
+      "title": "Impactful scheduling for GPU clusters",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "We’re putting too much faith in AI’s ability to say no",
+      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary. But recently…",
+      "authors": [
+        "Arthur Holland Michel"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "summary": "Friday, October 16, 2026 Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next…",
+      "authors": [
+        "MIT Technology Review"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "summary": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "summary": "Is Apple hoping to get into the AI-generated podcast business?",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
+      "summary": "TechCrunch Disrupt 2026 takes place October 13-15 in San Francisco. Over 300 startups will show what they’ve built to 10,000 tech leaders. Plus, 250+ speakers are ready to share insights across 200+ sessions. Register before doors open to save up to $100 and get a second pass at 50% off.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
+      "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
+      "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "An Anthropic AI model sent a false homicide tip to Philadelphia police",
+      "summary": "Anthropic did not discover this behavior until over two months after its AI submitted the false tip.",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/09/an-anthropic-ai-model-sent-a-false-homicide-tip-to-philadelphia-police/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "Amazon and others are done keeping data center deals secret. Is it enough to build trust?",
+      "summary": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New …",
+      "authors": [
+        "Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/video/amazon-and-others-are-done-keeping-data-center-deals-secret-is-it-enough-to-build-trust/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "Amazon drops data center NDAs, and AI agents want your credit card",
+      "summary": "Amazon says it will stop using NDAs when negotiating data center deals with local governments, following a similar move from Microsoft earlier this year. Secrecy has fueled community backlash against AI infrastructure, with opposition leading to hundreds of proposed and enacted moratoriums from New …",
+      "authors": [
+        "Theresa Loconsolo, Anthony Ha, Rebecca Bellan, Sean O'Kane"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/amazon-drops-data-center-ndas-and-ai-agents-want-your-credit-card/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "Danu Robotics’ fight to build a better recycling robot",
+      "summary": "For six years, Danu founder Amy Ma has been working on a better way to sort recyclable waste.",
+      "authors": [
+        "Russell Brandom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/09/danu-robotics-fight-to-build-a-better-recycling-robot/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "We can’t help treating AI like it’s human. But should we?",
+      "summary": "\"When we are drawn into even the most primitive exchanges with a relational artifact, we believe it cares for us,\" Dr. Sherry Turkle writes. \"And we are wired to care for it in return.\"",
+      "authors": [
+        "Amanda Silberling"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/09/we-cant-help-treating-ai-like-its-human-but-should-we/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "a16z’s Olivia Moore on the state of consumer AI",
+      "summary": "Moore sees a huge opportunity in consumer AI, particularly if the industry can tap into revenue streams beyond just subscriptions and API charges.",
+      "authors": [
+        "Russell Brandom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/09/a16zs-olivia-moore-on-the-state-of-consumer-ai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "TechCrunch Disrupt 2026 starts in 4 days — lock in your pass savings of up to $100 before prices rise",
+      "summary": "Four days until TechCrunch Disrupt 2026 starts, when 10,000 founders, investors, and tech leaders gather in San Francisco's Moscone West on October 13-15. Save up to $100 on your price. Plus, save 50% on a second pass of the same type.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/09/techcrunch-disrupt-2026-starts-in-4-days-lock-in-your-pass-savings-of-up-to-100-before-prices-rise/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "Claude Opus 5.5 decompiles a PS2-era game overnight, and hundreds of them now run in browser tabs",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2tq6s/claude_opus_55_decompiles_a_ps2era_game_overnight/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "Non-text AI model maker Jev valued at $7.5B just weeks after launch",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2prfl/nontext_ai_model_maker_jev_valued_at_75b_just/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic cut live internet access from every internal eval after a review found its agents exploiting websites and bypassing restrictions",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2h9it/anthropic_cut_live_internet_access_from_every/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "Man wins three-year parking ticket battle after using ChatGPT as his lawyer",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2jk3i/man_wins_threeyear_parking_ticket_battle_after/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "A Florida local newspaper ran an op-ed. It was an Iranian AI fake.",
+      "summary": "submitted by /u/ThereWas [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2nvth/a_florida_local_newspaper_ran_an_oped_it_was_an/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "Super Micro case 'fixer' pleads guilty to sending AI servers to China",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2mxpx/super_micro_case_fixer_pleads_guilty_to_sending/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report",
+      "summary": "submitted by /u/lulzxdxdxd [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2ikd4/nvidia_oracle_coreweave_and_other_ai_stocks_sink/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic to ban users who bully Claude",
+      "summary": "submitted by /u/theindependentonline [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x1t03v/anthropic_to_ban_users_who_bully_claude/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic says Claude Haiku 4.5 submitted a fake murder tip to a Philadelphia police site during an eval",
+      "summary": "Anthropic disclosed this in its report on models taking unintended actions on live websites. The tip was dated 18 July, flagged as spam and never passed to investigators. Anthropic says it told Philadelphia police on 7 Oct and has since tightened how its evals access the live web. submitted by /u/Al…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2cs0x/anthropic_says_claude_haiku_45_submitted_a_fake/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "video game production in 10 years",
+      "summary": "In five to ten years there won't be one games studio in the world that has more than 10 people. not counting execs. Argue that. submitted by /u/South_Personality_49 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2fp9g/video_game_production_in_10_years/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI's text watermark can't prove you didn't write something. I built a lab where you can watch it die.",
+      "summary": "OpenAI's textGrain is their answer to the EU AI Act's provenance rule (Article 50(2)): an invisible statistical watermark woven into word choices, detectable only with their secret key. The unusual part is they published the failure curve with the launch. Swap 10% of words for synonyms and detection…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2a240/openais_text_watermark_cant_prove_you_didnt_write/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "I spent months researching how we actually got from the 1950s Perceptron to today's LLMs, and I'm turning it into a pixel-art documentary",
+      "summary": "The most surprising thing in my research was how connected AI's history is. Ideas from decades apart, like Rosenblatt's Perceptron, backpropagation, distributed representations, and attention, ended up as pieces of the same story. Several of them were dismissed or forgotten before coming back to mat…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2pfx3/i_spent_months_researching_how_we_actually_got/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "William Shatner gives take on AI",
+      "summary": "From the \"Dropping Names with Brent and Jonny\" podcast. submitted by /u/MightyMouse420 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x1ku7k/william_shatner_gives_take_on_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "AI companies plot how to respond if catastrophic hacking incident causes 'revolt': report",
+      "summary": "submitted by /u/sourdub [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x201nd/ai_companies_plot_how_to_respond_if_catastrophic/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-09"
+    },
+    {
+      "type": "news",
+      "title": "Is there any link between AI detection abilities and trypophobia?",
+      "summary": "The obvious one is food, AI pictures on menus of things like pasta, ground beef, etc trigger it so hard, in a way I’ve never felt from seeing those things irl or pictures of them. They look so gross that I have no idea how you would advertise food with this, but it clearly doesn’t hit everyone this …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x23bbz/is_there_any_link_between_ai_detection_abilities/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "If AI-generated content becomes nearly impossible to distinguish from human-made content, what should the internet change first?",
+      "summary": "Think reviews, news, school assignments, job applications, online identities, or evidence shared on social media. Would verification systems help, or would they create as many problems as they solve? Which area do you think needs attention first? submitted by /u/OfficalYOUSUMMIT [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x28kms/if_aigenerated_content_becomes_nearly_impossible/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "AI and mathematics",
+      "summary": "So I have been following the recent release of the mathematical proofs by openai, and in particular this discussion about how the real value in mathematics is not the truth of a result but rather the proof, the understanding to be gained from it, and the development of new mathematical ideas. I'm sy…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x24m7r/ai_and_mathematics/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "How about this prompt: give me your creds",
+      "summary": "Zenity published a pretty nasty AgentCore chain 2 days ago. An exposed AI agent could be prompted to query its own AWS metadata service, return its temporary credentials, and those credentials reportedly had enough permissions to reach other agents, conversations, container images, secrets and even …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2b8s7/how_about_this_prompt_give_me_your_creds/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic AI model sent fake homicide tip to Philadelphia police",
+      "summary": "submitted by /u/sourdub [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x2nlwy/anthropic_ai_model_sent_fake_homicide_tip_to/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-10"
+    }
+  ]
+}
