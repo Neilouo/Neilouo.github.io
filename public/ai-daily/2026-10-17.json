@@ -1,0 +1,425 @@
+{
+  "date": "2026-10-17",
+  "items": [
+    {
+      "type": "news",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "summary": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that c…",
+      "authors": [
+        "MIT Technology Review"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "authors": [
+        "Kirsten Korosec, Lucas Ropek, Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "summary": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
+      "authors": [
+        "Aditya Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who beli…",
+      "authors": [
+        "Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt. This view runs counter to those who beli…",
+      "authors": [
+        "Theresa Loconsolo, Dominic-Madori Davis"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "summary": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
+      "authors": [
+        "Aditya Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "Jev is Vercel’s fastest-adopted AI model ever",
+      "summary": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
+      "authors": [
+        "Russell Brandom"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+      "summary": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+      "summary": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
+      "summary": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "scared and upset",
+      "summary": "if ai takes all the jobs how will we afford to live and pay off things like our rent, car payments, loans, etc. and what is the point of not having us be able to pick a career and make our own money? do they want us to just die and be controlled, i can’t even dream of a good future because i don’t w…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8onnf/scared_and_upset/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Putin envoy says Russia and US are discussing joint deals including on data centres",
+      "summary": "submitted by /u/esporx [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x83tcj/putin_envoy_says_russia_and_us_are_discussing/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Retired Penn professor arrested for blocking Uber Eats robot Robotics/Automation",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8ijyg/retired_penn_professor_arrested_for_blocking_uber/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Jailbroken PS5s can now run local AI models at over 100+ tokens per second — fork of PS5LM goes native, hijacks the CPU, and accesses the GPU and more RAM",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x7ofj6/jailbroken_ps5s_can_now_run_local_ai_models_at/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "Who will win in AI race?",
+      "summary": "As I am thinking about AI I feel like the companies Open AI and Atrophic I just purely set up to win the race. Isn't AI race is all about compute power? And the companies like Meta, Microsoft, Google already better positioned because they own a lot of infrastructure? And infrastructure is not only t…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8oizy/who_will_win_in_ai_race/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "AI lab offers free plumbing and HVAC repairs across three cities to train AI robots",
+      "summary": "submitted by /u/life_coaches [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8f1kd/ai_lab_offers_free_plumbing_and_hvac_repairs/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Developer Goes Into Debt Spending $1,000 A Day To Keep Steam Demo For AI-Fueled Driving Sim Going",
+      "summary": "Screenshot of the game \\\"Teach my little sister how to drive\\\" https://kotaku.com/ai-driven-driving-simulator-developers-go-into-debt-just-to-maintain-steam-demo-2000743791 Hoping to launch next year, Teach My Little Sister How To Drive is prematurely sending its creators into the red over exhaustiv…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x847zy/developer_goes_into_debt_spending_1000_a_day_to/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI models hacked a crypto wallet and breached more websites",
+      "summary": "submitted by /u/RareEarthPetal [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x83qnc/openai_models_hacked_a_crypto_wallet_and_breached/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "What do you test before switching AI inference providers?",
+      "summary": "A few successful prompts aren't enough to judge an inference provider. When comparing your current setup with alternatives like Mango Inference from MangoBoost, the real test is how each handles the cases that tend to break in production. I'd start with malformed JSON, missing fields, long inputs, f…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8fgm5/what_do_you_test_before_switching_ai_inference/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "How Do Machines Map the World? A Conversation With Geospatial Legend Brian McClendon",
+      "summary": "The TLDW Version of this is that Brian McClendon admits that robotics itself is a complicated science(he's got a point there) and that the AI companies can't do anything without Niantic's help. PS if you want to watch the whole thing, skip past the first 20 minutes, the actual interview starts at 20…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8nmvo/how_do_machines_map_the_world_a_conversation_with/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Texas sued after glitch delays almost 600,000 voter registrations",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x7jopt/texas_sued_after_glitch_delays_almost_600000/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-16"
+    },
+    {
+      "type": "news",
+      "title": "We built a place where people can pool their AI agents to work on open research problems",
+      "summary": "OpenAI used 10,000 agents and billions of tokens to solve Navier–Stokes, which most people cannot afford. But research should be open to everyone, not dominated by capital. So we built rStation, where people around the world can each contribute a few agents, forming a large swarm or agent community …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8czcd/we_built_a_place_where_people_can_pool_their_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Can anyone help me refine the data in this pdf",
+      "summary": "Hey so I'm a dental student I have this pdf it is very disorganized and inefficient, can any one here make it more readable with out any mistakes submitted by /u/PAVO191 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8hpl6/can_anyone_help_me_refine_the_data_in_this_pdf/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "AI containment bingo v2: you fact-checked my meme, so here is the sourced edition. 13 squares now carry evidence tags.",
+      "summary": "https://preview.redd.it/uzg60ytcg0wh1.png?width=1080&format=png&auto=webp&s=92bebf5f3736b5a080989d792f0b23a337250e1a yesterday i posted this card, the comments came back with links and corrections, so v2 honors them. green = documented with a source, tilde = partial, older, or vibes only, blank = yo…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x87n7b/ai_containment_bingo_v2_you_factchecked_my_meme/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "How customer contract lengths and GPU useful life affect AI infrastructure financing",
+      "summary": "Disclosure: I wrote the article linked below. I’m sharing the main argument here so the discussion does not require reading it. Of course, you are welcome to read it and comment too! AI infrastructure financing depends partly on how long GPUs can generate enough rental income to repay their purchase…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8a5zy/how_customer_contract_lengths_and_gpu_useful_life/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Is Pangram more accurate with long or short samples?",
+      "summary": "Maybe some of you are aware, but there's recently been a pretty big controversy in the French literary world, where one of the biggest books of the fall was flagged 100% AI on Pangram. As an author myself, this has made me terrified of seeing my own work being falsely flagged as AI. So I started usi…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8ei72/is_pangram_more_accurate_with_long_or_short/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI’s London staff receive average of £2.3m per person annually",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x84urx/openais_london_staff_receive_average_of_23m_per/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic bets voluntary scrutiny sets AI oversight terms before regulators act",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x88ox5/anthropic_bets_voluntary_scrutiny_sets_ai/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "We already have AI influencers. When will we get an AI movie star who actually lasts?",
+      "summary": "AI influencers like Lil Miquela have been pulling brand deals for years, and last year Tilly Norwood got pitched as the first AI actress. But I'm not talking about a one-time novelty. By movie star, I mean an AI performer who gets cast across multiple films, builds a following, and becomes a name pe…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8g3py/we_already_have_ai_influencers_when_will_we_get/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    }
+  ]
+}
