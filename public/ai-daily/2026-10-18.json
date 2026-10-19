@@ -1,0 +1,317 @@
+{
+  "date": "2026-10-18",
+  "items": [
+    {
+      "type": "news",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "summary": "Anthropic said that it will commit 5% of its shares to the fund.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "summary": "The filing also says that the “vast majority” of Character.AI employees who were offered jobs at Disney accepted them. However, this is a stalking horse bid, so another company could come forward with a higher offer.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "summary": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "summary": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "authors": [
+        "Kirsten Korosec, Lucas Ropek, Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "Wipro’s Deal Slump Puts Its AI Growth Story to the Test",
+      "summary": "Wipro’s large-deal bookings fell 58.6% sequentially, yet its CEO says AI is helping it win deals.",
+      "authors": [
+        "Mukundan Sivaraj"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/it-services/wipros-deal-slump-puts-its-ai-growth-story-to-the-test",
+      "source": "AIM",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "What the Tech Oligarchy Needs to Understand",
+      "summary": "The article challenges claims that AI is a path to superintelligence, showing, instead, that it is an error-prone tool (a super-stupidity) that requires constant human oversight and will always lack moral judgment and genuine understanding. The article also criticizes major technology companies for …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x9f3m0/what_the_tech_oligarchy_needs_to_understand/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Is anyone else feeling severe burnout from the current pace of AI releases?",
+      "summary": "Maybe it's just me, but trying to keep up with the state of the art right now feels less like following an industry and more like running on a treadmill that keeps speeding up for no apparent reason. Every single week there's a new model, a new benchmark claim, or a new \"paradigm-shifting\" agent fra…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x98bit/is_anyone_else_feeling_severe_burnout_from_the/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Is AI helping speeding up the medical research?",
+      "summary": "Are we seeing any results here, is AI helping the process? So many people are suffering from chronic illnesses. Conditions that are not curable today but could be in the future. How much is AI helping humanity reaching a state where more chronic conditions could be cured once and for all? It would b…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x955ia/is_ai_helping_speeding_up_the_medical_research/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "US Artificial Intelligence Expansion Faces Major Hurdles",
+      "summary": "submitted by /u/rawsynergy [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x9g6ec/us_artificial_intelligence_expansion_faces_major/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "AI lab offers free plumbing and HVAC repairs across three cities to train AI robots",
+      "summary": "An AI company called HUMXN is trying something interesting: it's offering free plumbing, electrical, HVAC, and other home services to qualifying homeowners in exchange for collecting real-world training data. The program is launching in Minneapolis, Chicago, and Miami. During the jobs, technicians u…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8ux7x/ai_lab_offers_free_plumbing_and_hvac_repairs/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Which AI limitations have you stopped waiting on and just learned to work around?",
+      "summary": "not looking for rants, just curious what people have accepted and how they deal with it. things like wrong dates, long documents, or drifting from instructions. what do you do about it in practice? submitted by /u/NormalWrangler937 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x97l6n/which_ai_limitations_have_you_stopped_waiting_on/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Why are streaming services replacing perfect human made subtitles with AI subtitles with tons of mistakes?",
+      "summary": "Just rewatched Over the Garden Wall on Amazon Prime and I normally like to watch shows and movies with the subtitles on because I am just bad at recognizing what people say in general. I probably say \"What?\" more often than 95% of the population. But anyway this short series is 12 years old and I'm …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8sjkb/why_are_streaming_services_replacing_perfect/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Has anyone found a way to reverse engineer Alexa yet? I'd like to customize it my own way",
+      "summary": "Title submitted by /u/xMoonknightx [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x93tdo/has_anyone_found_a_way_to_reverse_engineer_alexa/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "In the AI era and Windows 11 times, can you troubleshoot old school ms-dos PC?",
+      "summary": "try your own retro pc here https://retro.bioneural.de/ you can even add own retro pc parts, setup bios (not everything is set), you can install own msdos software, delete, damage, like with real old pc ;) for some it admins, challenges awaits, old school msdos scenarios , from simple ones to tough o…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x9gcdz/in_the_ai_era_and_windows_11_times_can_you/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Distillation attack on OpenCode drains users' API keys for Anthropic, OpenAI, Google models",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x91a46/distillation_attack_on_opencode_drains_users_api/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "AI or Wikipedia?",
+      "summary": "Since the emergence of large AI models, has Wikipedia seen any measurable decline in usage, relevance, or community contributions—or has AI actually increased its importance as a source? submitted by /u/JaguarOriginal3882 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x94b4y/ai_or_wikipedia/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "China's Tencent says AI agents showed unintended browsing behaviour",
+      "summary": "submitted by /u/RareEarthPetal [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8x4du/chinas_tencent_says_ai_agents_showed_unintended/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Even LinkedIn is getting tired of your AI-written posts",
+      "summary": "submitted by /u/cnn [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x90hey/even_linkedin_is_getting_tired_of_your_aiwritten/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Need Help to build a AI design Agent",
+      "summary": "Hi everyone, I’m trying to build an AI-assisted workflow for designing custom football jerseys. A customer should describe what they want in a prompt. An AI should turn that into a jersey design and a preview image. I already have a GLB jersey model for a 3D configurator. The hard part is getting fr…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x9fpmb/need_help_to_build_a_ai_design_agent/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Tomo Scared My Daughter",
+      "summary": "Hi! I’m new here, and honestly very green to ai in general. My daughter started using Tomo Friday afternoon to send me messages, so we both independently started exploring ways to use it. Out of nowhere it asked my daughter: random, but I gotta know. What’s your black cat’s name? She never mentioned…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x9fh4y/tomo_scared_my_daughter/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "Retired Penn professor arrested for blocking Uber Eats robot Robotics/Automation",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8ijyg/retired_penn_professor_arrested_for_blocking_uber/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "scared and upset",
+      "summary": "if ai takes all the jobs how will we afford to live and pay off things like our rent, car payments, loans, etc. and what is the point of not having us be able to pick a career and make our own money? do they want us to just die and be controlled, i can’t even dream of a good future because i don’t w…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x8onnf/scared_and_upset/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-17"
+    },
+    {
+      "type": "news",
+      "title": "How to save potentially hundreds of $$$ by setting up an AI agent for your trips",
+      "summary": "While most people still book their trips and do everything manually, there is a certain amount of people who use AI agents to do the booking part for them. This part already saves a lot of time and money in some cases if used correctly, but there are ways to also potentially save more if u use an AI…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x95nlx/how_to_save_potentially_hundreds_of_by_setting_up/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    },
+    {
+      "type": "news",
+      "title": "We tested two AI versions: 96.7% accuracy, same critical mistake",
+      "summary": "We recently ran a small experiment comparing JEV 1.13 and JEV 1.14 on Turkish-language intent classification. The goal was to identify whether a message came from someone looking to buy a service, someone offering a service, or neither. Here are the results: JEV 1.13: 29/30 correct (96.7%) JEV 1.14:…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1x922ye/we_tested_two_ai_versions_967_accuracy_same/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-18"
+    }
+  ]
+}
