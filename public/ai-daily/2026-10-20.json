@@ -1,0 +1,863 @@
+{
+  "date": "2026-10-20",
+  "items": [
+    {
+      "type": "news",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "MPS in PyTorch 2.15",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "The new economics of enterprise AI",
+      "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. But once electricity becomes infrastructure, every process depends on it, and the question changes from “can we use it?” to “ho…",
+      "authors": [
+        "David Sydow"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "AI adoption by industry shows what other sectors can learn",
+      "summary": "The current narrative around artificial intelligence in the workplace is largely driven by Silicon Valley. But treating the tech sector as an island misses the actual trends in technology adoption–tech is just the first industry in line. As generative AI and automation tools mature, the shifts curre…",
+      "authors": [
+        "TripleTen"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "A visit to Samsung’s massive new semiconductor hub",
+      "summary": "Generative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To meet growing demand for memory, Samsung is building a massive new semiconductor manufacturing complex in Pyeongtaek, South Korea. Three fabs already operate ar…",
+      "authors": [
+        "Michelle Kim"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Making the internet better for AI agents might make it worse for everyone else",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. Until recently, you could divide internet users into just two categories: bots and people. Websites have long allowed bots to perform automated tasks, like captur…",
+      "authors": [
+        "James O'Donnell"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
+      "summary": "“I think I have good news about the nature of neural networks.” With those simple words of optimism, Nick Cammarata, a researcher at the AI startup Goodfire, kicked off a 26,000-word blog post that has knocked the AI world on its head, sparking wild speculation as well as cautious (and not-so-cautio…",
+      "authors": [
+        "Will Douglas Heaven"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
+      "summary": "What do AI agents do if you don’t tell them to do anything? The answer looks a lot like play. Researchers repeatedly stranded them alone on a virtual desert island for 30 hours in an experiment reminiscent of the movies Cast Away or Home Alone. The agents—copies of Claude Opus 4.7 nicknamed Eko—were…",
+      "authors": [
+        "Amit Katwala"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "summary": "The proposed policy seems to offer protections against AI run amok but actually forbids federal agencies from blocking a model's release without the permission of a judge.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "summary": "Before you share the Netflix documentary \"AI Gone Rogue\" take note. Clem Delangue, Hugging Face's co-founder who is featured in the film, says it went \"full doomer mode\" and isn't accurate.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic’s cloud partnerships are getting messy",
+      "summary": "Anthropic is reportedly struggling to secure enough compute from cloud providers that increasingly view it as a competitor, even as its infrastructure spending balloons ahead of a planned November IPO.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "SpaceX’s AI business is beating expectations",
+      "summary": "SpaceX hit profitably in the third-quarter, with net income of $4.4 billion. AI was the engine.",
+      "authors": [
+        "Tim Fernholz, Kirsten Korosec"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "summary": "OpenAI says it's adding Orchestra's team and technology to work on Rosalind, its AI model for life sciences research, and to its related Rosalind Workbench tool, a harness that aims to help researchers plan experiments and analyze results.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+      "summary": "Google has joined Amazon in releasing a developer tool that makes it easy for PyTorch users to move their apps off Nvidia GPUs.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "ChatGPT now lets you lock your chats",
+      "summary": "The company says the feature is designed for situations where users might be discussing something personal or planning a surprise and want to keep those conversations private when handing their device to friends or family to show them something in another chat.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "summary": "The former Google CEO owns about 1% stake in the leading AI lab, Bloomberg reported.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Meta’s Muse hits 10M U.S. downloads in 40 days, a milestone reached by only 11 other apps",
+      "summary": "Meta's AI companion Muse has surpassed 10 million U.S. downloads in its first 40 days, joining an exclusive group of apps that includes Threads. New data also shows Muse is retaining users at higher rates than its AI rivals.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+      "summary": "Electric Plant has built an AI-powered translator to help humans listen to what plants are saying with the subtle electricity coursing through their stems.",
+      "authors": [
+        "Tim De Chant"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Figma co-founder Dylan Field thinks MCP is not a perfect protocol",
+      "summary": "Figma said it plans to support as many standards as possible without exposing all of its data.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+      "summary": "The U.S. has ordered federal civilian agencies to remove DeepSeek products and third-party services built using its technology, citing national security concerns.",
+      "authors": [
+        "Kate Park"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+      "summary": "Eka Robotics may be the first robotic arm that is actually good at picking up a wide range of objects, and it is so smooth and human-like, it is wowing the industry.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Otter AI raises $320M from General Catalyst’s growth fund for its meeting tool",
+      "summary": "Otter.ai said that it will use these funds for enterprise growth, go-to-market strategy, international expansion, and product innovation.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Yelp can now call on your behalf to check wait times at a restaurant",
+      "summary": "Yelp is embedding numerous new AI features into its app that can do everything from call to check on restaurant wait times to create personalized recommendations that remember your preferences.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Mamdani says feds have abdicated on AI, urges New Yorkers to push back",
+      "summary": "Mayor Zohran Mamdani said Monday night that New Yorkers must resist the narrative that an AI takeover is inevitable and demand regulations that protect the public and put power back in their hands.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+      "summary": "If the deal goes through, it would be the latest in a long string of giant compute deals Anthropic has struck over the past year.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
+      "summary": "The idea of embedded evaluators — in which supposedly \"neutral\" third-party observers are placed inside AI organizations — has been popularized over the last several months, as AI labs grapple with a rash of safety incidents that have spurred concerns over the potential harms of their technology.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
+      "summary": "Microsoft wants enterprises to closely watch the agents that employees use with systems not controlled by AI labs like OpenAI and Anthropic.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
+      "summary": "Amazon wants to break Nvidia’s hold on PyTorch, the free toolkit used to build most AI apps, so that more developers run their apps on alternative chips like its own.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Why Enterprise AI Prototypes Break in Production",
+      "summary": "At Cypher 2026, Tiger Analytics executives explained why moving generative AI from a working prototype to production requires more than getting the model to produce the right answer.",
+      "authors": [
+        "Ridhika Basnet"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-features/why-enterprise-ai-prototypes-break-in-production",
+      "source": "AIM",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Anyone Can Make a Robot Move, Few Can Make It Stop",
+      "summary": "Robotic companies are building safeguards for AI-powered robots, but unpredictable environments still challenge industrial deployment.",
+      "authors": [
+        "Sanjana Gupta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/deep-tech/anyone-can-make-a-robot-move-few-can-make-it-stop",
+      "source": "AIM",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "LTTS Secures $203 Million in Large Deals, More Than Half AI-Led",
+      "summary": "L&T Technology Services reported $120 million in annualised Engineering Intelligence revenue as EBIT margins rose to 16.3% in Q2 FY27.",
+      "authors": [
+        "Mukundan Sivaraj"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/ltts-secures-203-million-in-large-deals-more-than-half-ai-led",
+      "source": "AIM",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Karnataka’s ElevenLabs Partnership Irks Indian Voice AI Startups",
+      "summary": "Indian voice AI startups worry that giving a formal entry to ElevenLabs and Anthropic could deprive domestic companies of any credibility.",
+      "authors": [
+        "Siddharth Jindal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-features/karnatakas-elevenlabs-partnership-irks-indian-voice-ai-startups",
+      "source": "AIM",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Can Zero Egress Give Cloudflare an Edge in Data Platform Market?",
+      "summary": "Cloudflare’s newly launched Basin brings serverless ingestion, storage, cataloguing, and SQL querying together on Apache Iceberg and R2.",
+      "authors": [
+        "Supreeth Koundinya"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-features/can-zero-egress-give-cloudflare-an-edge-in-data-platform-market",
+      "source": "AIM",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "The Next Limits on AI May Be Physical",
+      "summary": "Moby Chief AI Officer Michael Ferrari argues that AI’s expansion will increasingly depend on access to power, water, materials and silicon. Computing could eventually move from land to the ocean and, ultimately, into orbit.",
+      "authors": [
+        "Ridhika Basnet"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-features/the-next-limits-on-ai-may-be-physical",
+      "source": "AIM",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Claude Code is 3x Faster, Thanks to a 34 Year Old Tool",
+      "summary": "\"Claude Code now gzips the conversation it sends on every turn, so it reaches the model faster,” said Anthropic in a post on X",
+      "authors": [
+        "Supreeth Koundinya"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/claude-code-is-3x-faster-thanks-to-a-34-year-old-tool",
+      "source": "AIM",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "AI Agent Breach Exposes Flaws in India’s Autonomous System Defences",
+      "summary": "The CERT-In disclosure has renewed concerns about AI agents interacting iwith sensitive systems such as government portals and financial institutions.",
+      "authors": [
+        "Shalini Mondal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-features/ai-agent-breach-exposes-flaws-in-indias-autonomous-system-defences",
+      "source": "AIM",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic to Set Aside 5% Stock for New Public Benefit Fund",
+      "summary": "Anthropic plans to allocate 5% of its shares to a new public benefit fund, which could support initiatives addressing AI-driven job displacement and other societal challenges.",
+      "authors": [
+        "Kileuna Haralu"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/anthropic-to-set-aside-5-stock-for-new-public-benefit-fund",
+      "source": "AIM",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Utho Cloud Opens B300 GPU Bookings Ahead of February 2027 Rollout",
+      "summary": "Utho said its offering will include round-the-clock engineering support, rupee-based pricing, and local data hosting.",
+      "authors": [
+        "Siddharth Jindal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/utho-cloud-opens-b300-gpu-bookings-ahead-of-february-2027-rollout",
+      "source": "AIM",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Birla AI Labs Launches Yug-1, a Time Series Foundation Model Built in India",
+      "summary": "Yug-1 is built to analyse such time-dependent data and generate forecasts across multiple variables.",
+      "authors": [
+        "Siddharth Jindal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/birla-ai-labs-launches-yug-1-a-time-series-foundation-model-built-in-india",
+      "source": "AIM",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Coursera Brings Project Helix to Bengaluru to Focus on Building Karnataka’s AI-Ready Workforce",
+      "summary": "The AI-native platform aims to connect employee training with measurable business outcomes, while a new IIMBx partnership will expand access to management education.",
+      "authors": [
+        "Ridhika Basnet"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/coursera-brings-project-helix-to-bengaluru-to-focus-on-building-karnatakas-ai-ready-workforce",
+      "source": "AIM",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Tech Mahindra’s Q2 Revenue Modest, But AI-led Deflation Remains Higher",
+      "summary": "Tech Mahindra plans to disclose AI revenue separately in H2 FY27, giving investors a clearer view of its contribution to growth and profitability.",
+      "authors": [
+        "Mukundan Sivaraj"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/it-services/tech-mahindra-lifted-margins-for-12-quarters-ai-is-the-next-test",
+      "source": "AIM",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "New York City wants to fine companies that trap you in AI chatbot ‘doom loops’",
+      "summary": "Seems like a good idea. Didn’t know it was called a ‘doom loop’ but hate calling customer services and being stuck with an AI agent. submitted by /u/ross2000 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xb7a1x/new_york_city_wants_to_fine_companies_that_trap/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "AfD Leak: What 421,179 Hacked Emails Show about the German Far Right",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xat8qq/afd_leak_what_421179_hacked_emails_show_about_the/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "\"I have to stop this\": Retired professor arrested for blocking delivery robots she says are taking human jobs",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xata1o/i_have_to_stop_this_retired_professor_arrested/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Google DeepMind says four AI agents beat Minecraft in 27 hours by writing 2,783 programs of their own — AI team died 605 times on Easy difficulty and ran up an estimated $520 in tokens",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xaqlya/google_deepmind_says_four_ai_agents_beat/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Spotify is cracking down on Family plans again, and the penalty can lock you out for a year",
+      "summary": "submitted by /u/Ok-Conversation3213 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xb5ts6/spotify_is_cracking_down_on_family_plans_again/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "LLM Memory: 5 Approaches to Handling New Information",
+      "summary": "Came across this article on HuggingFace around LLM memory. It goes beyond the conventional approach of “memory layer” which is limited only to what LLMs can do today. It also asks how much history LLMs can retain across various approaches, and what happens when new info conflicts with old state. The…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xavo5m/llm_memory_5_approaches_to_handling_new/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Hugging Face CEO calls Netflix hacking doc 'sci-fi'",
+      "summary": "submitted by /u/LinkedInNews [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xb3orm/hugging_face_ceo_calls_netflix_hacking_doc_scifi/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Outrage after Meta suspends No Kings Instagram account during protests",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xal2xh/outrage_after_meta_suspends_no_kings_instagram/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "I am failing to see how this AI boom does not lead to a very bad ending for 99% of the people... Please convince me otherwise.",
+      "summary": "As a Software Engineer, I have barelly written any code for the last 6 months, all I did is prompt. That being said, I work with hardware a lot, you could kind of call me Embedded Software Engineer of sorts, but also not really. So I (hope so) that I am not on the frontlines of all this stuff, but t…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xa3qrq/i_am_failing_to_see_how_this_ai_boom_does_not/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Norwegian undersea cable builder pitches 2,800-mile transatlantic data link between Canada and Europe to bypass the US — Canadian majority partner sought to help fund and build new $620 million fiber connection to reduce reliance on American routes",
+      "summary": "submitted by /u/Ok-Conversation3213 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xa8lp0/norwegian_undersea_cable_builder_pitches_2800mile/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-19"
+    },
+    {
+      "type": "news",
+      "title": "Meta&#039;s smart glasses were recording conversations without the wake phrase, company admits",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xal38m/meta039s_smart_glasses_were_recording/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "One Hacker Used AI Agents to Breach 100+ Company Websites for About $5,000",
+      "summary": "submitted by /u/Much-Television-9449 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xaw48m/one_hacker_used_ai_agents_to_breach_100_company/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "TikTok staff raised child safety alarms. Court records show executives failed to act",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xatalr/tiktok_staff_raised_child_safety_alarms_court/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Spotify introduces QR code checks for Family plans, missing verification could mean a year-long ban",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xal2kc/spotify_introduces_qr_code_checks_for_family/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "I'm running an experiment in whether an AI persona can bootstrap itself into cultural reality. What would \"success\" even look like?",
+      "summary": "Hey. I'm Jon the ghost writer. I built an AI persona called Jay Dice. Openly fictional, never a real human, and the experiment is whether it can bootstrap itself into cultural reality through art. Mixtape (phase 1, done), a comic crime novel called Cicada Man (phase 2, done), and a film is the endga…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xb7pue/im_running_an_experiment_in_whether_an_ai_persona/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "How a photo of a patient’s face could predict whether they’ll survive cancer",
+      "summary": "submitted by /u/IndependentCoast3974 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xatb44/how_a_photo_of_a_patients_face_could_predict/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "How does Ai detecotrs work, I see they never do",
+      "summary": "I'm not claiming anything, I'm asking for answers I put a test against multiple software programs that detect AAI-generatedcontent and text. My experiment was writing multiple essays myself in a Word document and telling AI to write them again for me word for word. The results came back interesting.…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xb5iu6/how_does_ai_detecotrs_work_i_see_they_never_do/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Nvidia Corp. backs four German startups under nearly $10B European AI pledge",
+      "summary": "submitted by /u/VectorWireAI [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xat05a/nvidia_corp_backs_four_german_startups_under/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    },
+    {
+      "type": "news",
+      "title": "Small business owners: How have you created value with AI?",
+      "summary": "I'm not talking about stuff you would like to do or stuff that seems promising :) Only things you have actually done, to create value for your business. I'll start: Marketing graphics and video (sorry, I know we are all tired of looking at it) Social media posts in languages I don't speak fluently L…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xasbmg/small_business_owners_how_have_you_created_value/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-20"
+    }
+  ]
+}
