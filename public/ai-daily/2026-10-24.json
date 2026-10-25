@@ -1,0 +1,455 @@
+{
+  "date": "2026-10-24",
+  "items": [
+    {
+      "type": "news",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "type": "news",
+      "title": "Block’s new voice model sounds eerily human",
+      "summary": "Block said that the voice model can run locally on a MacBook M4 Max",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "type": "news",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "summary": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "type": "news",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "summary": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "summary": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "summary": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "summary": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scaling companies both inside and outside traditional startup hubs…",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "summary": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "authors": [
+        "Jagmeet Singh"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "summary": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "authors": [
+        "Aditya Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "DrizzVision’s AI App Testing Ambition Meets Reality",
+      "summary": "This Bengaluru startup is betting that AI can test mobile apps by seeing and using them like a person. Its benchmark shows results depend heavily on the task an",
+      "authors": [
+        "Ridhika Basnet"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-startups/drizzvisions-ai-app-testing-ambition-meets-reality",
+      "source": "AIM",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "type": "news",
+      "title": "Coforge Revenue Rises 54% as AI Engineering and Deal Bookings Gain Momentum",
+      "summary": "Coforge’s revenue grew 53.6% year-on-year in Q2 FY27 as order intake reached $1.04 billion and the company raised its FY27 EBIT margin guidance to 16%.",
+      "authors": [
+        "Mukundan Sivaraj"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/coforge-revenue-rises-54-as-ai-engineering-and-deal-bookings-gain-momentum",
+      "source": "AIM",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Tech Mahindra Partners With SpaceXSI to Bring AI Into Software Engineering",
+      "summary": "The collaboration targets enterprise clients across six industries, with joint programmes focused on application modernisation, code quality and developer productivity.",
+      "authors": [
+        "Mukundan Sivaraj"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/tech-mahindra-partners-with-spacexsi-to-bring-ai-into-software-engineering",
+      "source": "AIM",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Infosys AI Revenue Rises 29% in Q2, FY27 Growth Guidance Cut",
+      "summary": "Infosys recorded $5.2 billion in large-deal contract value, with 62% classified as net new business, as it lowered its full-year growth outlook.",
+      "authors": [
+        "Mukundan Sivaraj"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/infosys-ai-revenue-rises-29-in-q2-fy27-growth-guidance-cut",
+      "source": "AIM",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "LTM Launches BlueVerse Industrial AI Lab in Chennai",
+      "summary": "The facility will support testing of industrial AI, robotics and digital twins, including solutions for factories with legacy equipment and limited connectivity.",
+      "authors": [
+        "Mukundan Sivaraj"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/ltm-launches-blueverse-industrial-ai-lab-in-chennai",
+      "source": "AIM",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Chariot Launches Speech Recognition Model for 10 Indian Languages",
+      "summary": "Discover Chariot's new model that outperforms competitors in Indian languages. Learn more about its capabilities and applications!",
+      "authors": [
+        "Ridhika Basnet"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/chariot-launches-speech-recognition-model-for-10-indian-languages",
+      "source": "AIM",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "AMD’s Server CPU Business Faces a New AI Boom",
+      "summary": "AI agents have put CPU back in the spotlight after years of being relatively overshadowed by GPUs.",
+      "authors": [
+        "Supreeth Koundinya"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-features/amds-server-cpu-business-faces-a-new-ai-boom",
+      "source": "AIM",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Meta Expects Up To $145 Billion In Capex As AI Investments Expand",
+      "summary": "The company expects capital expenditure of $135-145 billion in 2026 as it expands AI infrastructure and develops new products.",
+      "authors": [
+        "Kileuna Haralu"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/meta-expects-up-to-145-billion-in-capex-as-ai-investments-expand",
+      "source": "AIM",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Cyient's Technology Order Intake Rises 39.7% as It Expands AI Capabilities",
+      "summary": "The engineering company reported $233.9 million in revenue, while DET's EBIT margin reached 14.2% and semiconductor supply constraints threatened growth.",
+      "authors": [
+        "Mukundan Sivaraj"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/cyients-technology-order-intake-rises-397-as-it-expands-ai-capabilities",
+      "source": "AIM",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "How an Engineer Is Using AI to Bridge the Accessible Education Gap",
+      "summary": "Discover how AI is transforming accessible education. Learn more about innovative tools like ListenToMe that bridge the learning gap today!",
+      "authors": [
+        "Ridhika Basnet"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-features/how-an-engineer-is-using-ai-to-bridge-the-accessible-education-gap",
+      "source": "AIM",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Former OpenAI Exec Raises $215 Mn to Build AI-Powered Drug Research Labs",
+      "summary": "Warp Sciences will initially focus on synthesising molecular variations for drug candidates, combining chemists, robotics, and AI models trained on laboratory experiments.",
+      "authors": [
+        "Siddharth Jindal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/former-openai-exec-raises-215-mn-to-build-ai-powered-drug-research-labs",
+      "source": "AIM",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Lincoln Tech Deploys LeadSquared AI Agents Across Student Enrolment Operations",
+      "summary": "The AI agents will handle lead prioritisation, application checks and follow-ups, with human oversight for key admissions decisions.",
+      "authors": [
+        "Siddharth Jindal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/lincoln-tech-deploys-leadsquared-ai-agents-across-student-enrolment-operations",
+      "source": "AIM",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Increasing number of UG authors in A* conferences with no supervisor [D]",
+      "summary": "What do you all think about this? It seems increasingly common for undergraduate students to conduct research and publish at A* conferences without a supervisor. As a graduate student, I find it both impressive and intimidating, and it sometimes makes me question my own progress. submitted by /u/Inv…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xe9uoh/increasing_number_of_ug_authors_in_a_conferences/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "type": "news",
+      "title": "Got a pretrained music transformer to jam with me live, no fine-tuning, just steering the sampling [P]",
+      "summary": "I wanted to see how far you can get making a pretrained symbolic music model \"listen\" to a live player without training it. Turns out pretty far. Setup: I play a MIDI keyboard, the Anticipatory Music Transformer (Thickstun et al., music-medium-800k) plays a second piano. While I play I track my key,…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xe4pex/got_a_pretrained_music_transformer_to_jam_with_me/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-24"
+    },
+    {
+      "type": "news",
+      "title": "[R] The Hive Mind is a Single Reinforcement Learning Agent: Deriving the Exact Equivalence Between Swarm Dynamics and Multi-Armed Bandits",
+      "summary": "TL;DR We prove a mathematical equivalence between collective decision-making via local imitation (such as honey bees choosing a nest site via the waggle dance) and single-agent Reinforcement Learning (RL) in a multi-armed bandit setting. Even when individual members have no learning capability and m…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdhf7r/r_the_hive_mind_is_a_single_reinforcement/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Is symbolic ai dead? [D]",
+      "summary": "New research keeps finding things that keep reintroducing symbolic ai structures to machine learning and I have wondered why more research hasnt been done with it. There was a heyday in the 70s for it but after neural nets came out it seems to be completely out of the discussions. I think it could m…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdekrf/is_symbolic_ai_dead_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "AAAI 2027 phase 2 reviews discussion [D]",
+      "summary": "AAAI phase 2 reviews are expected to be visible in the next 24 hours (24/10). Hope for the best outcomes for those who stay in this phase, and let's share your reviews! submitted by /u/Away-Cattle7081 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xddbgv/aaai_2027_phase_2_reviews_discussion_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Are we solving LLM memory by remembering more, when the real problem is knowing what to forget?[D]",
+      "summary": "Long-context models can now handle hundreds of thousands, even millions of tokens. But I've been wondering if we're focusing too much on recall and not enough on what happens when information changes. Say a coding agent reads that an API timeout is 30 seconds. Later, the documentation changes it to …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdpek9/are_we_solving_llm_memory_by_remembering_more/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "I just came across Next-Concept Modeling and the idea is fascinating[R]",
+      "summary": "I've been learning how language models work, especially next-token prediction, and came across this paper on Next-Concept Modeling (NCM). The interesting part is how it generates text. Instead of predicting tokens one by one, NCM learns a hierarchy of discrete codes. It generates the coarse level fi…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xd7bsu/i_just_came_across_nextconcept_modeling_and_the/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Study Notes on Transformers and Hamiltonian Monte Carlo [P]",
+      "summary": "I’m sharing my study notes in case they might be useful to someone else. The Transformer notes are mostly based on the original architecture described in Attention Is All You Need. https://doi.org/10.5281/zenodo.22031925 I’ve also written notes on Hamiltonian Monte Carlo (HMC). https://doi.org/10.52…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdfeki/study_notes_on_transformers_and_hamiltonian_monte/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "How does arXiv prepublishing work with ICLR's double-blind review? [R]",
+      "summary": "Hey folks, maybe a really dumb question from an inexperienced PhD student. I recently submitted to ICLR and spotted a bunch of papers that I was already familiar with because I had seen them on arXiv before. Doesn't this break the double-blind review process? I mean, on the one hand, people pre-publ…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdbvrf/how_does_arxiv_prepublishing_work_with_iclrs/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "Stenosis detection in coronary angiograms, need recall over precision [D]",
+      "summary": "Starting a project to detect candidate stenoses in x-ray coronary angiograms. The goal is high recall, false positives are fine as long as it doesn't flag half the image. I already tried YOLO on a couple of in-house datasets earlier. It looked fine in-domain and fell apart on the other dataset, and …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdkcav/stenosis_detection_in_coronary_angiograms_need/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-23"
+    },
+    {
+      "type": "news",
+      "title": "I made Transformer Architecture from scratch [P]",
+      "summary": "I implemented the 2017 transformer architecture using pytorch, the model right now doesn't predict very good due to the fact that I am using on 2 layers of encoder and decoder with just 1000 words to train it , due to the fact that it takes a lot of time to train my implementation. Looking at the co…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xdctou/i_made_transformer_architecture_from_scratch_p/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-23"
+    }
+  ]
+}
