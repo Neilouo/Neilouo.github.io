@@ -1,6 +1,19 @@
 {
   "projects": [
     {
+      "id": 1432348878,
+      "name": "mcd-luckin-duet",
+      "description": "一顿饭 + 一杯咖啡的跨品牌联合决策器 · 麦当劳 × 瑞幸官方 MCP · 2026 麦当劳程序员创意开发大赛参赛作品",
+      "html_url": "https://github.com/Neilouo/mcd-luckin-duet",
+      "homepage": null,
+      "stargazers_count": 1,
+      "forks_count": 0,
+      "language": "Python",
+      "topics": [],
+      "updated_at": "2026-10-24T16:03:42Z",
+      "banner": "https://github-readme-stats.vercel.app/api/pin/?username=Neilouo&repo=mcd-luckin-duet&theme=default&show_owner=false&bg_color=ffffff&title_color=2f80ed&text_color=333333&icon_color=3776ab"
+    },
+    {
       "id": 1091481726,
       "name": "AI-FortuneTeller",
       "description": "基于大语言模型的AI算命产品，融合八字计算与心理共鸣对话，提升用户娱乐体验。",
