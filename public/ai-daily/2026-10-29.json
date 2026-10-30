@@ -1,0 +1,845 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "type": "news",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+      "summary": "",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "source": "Hugging Face - Blog",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "type": "news",
+      "title": "We urgently need to monitor AI agents’ actions in real time",
+      "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Aus…",
+      "authors": [
+        "Madhulika Srikumar, Claire Leibowicz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Creating AI value with enterprise context",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outc…",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "type": "news",
+      "title": "Pairing industrial AI autonomy and human control",
+      "summary": "",
+      "authors": [
+        "MIT Technology Review Insights"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/",
+      "source": "Artificial intelligence – MIT Technology Review",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "type": "news",
+      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "summary": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "summary": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+      "authors": [
+        "Kirsten Korosec"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "summary": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "summary": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+      "authors": [
+        "Aisha Malik"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "summary": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "summary": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+      "authors": [
+        "Lucas Ropek"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+      "summary": "A top executive of a Singapore AI cloud company that was accused of illegally selling Nvidia chips to China could also have been a Chinese spy, sources have told the New York Times.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "summary": "Dream is grounded in real physics and construction standards. Just as LLMs learn from text, Dream's world model is trained on more than 100 million square feet of building data gathered from permit archives across the United States.",
+      "authors": [
+        "Marina Temkin"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "summary": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+      "authors": [
+        "Sarah Perez"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "summary": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
+      "summary": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
+      "authors": [
+        "Ivan Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "summary": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS.",
+      "authors": [
+        "Aditya Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "type": "news",
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion.",
+      "authors": [
+        "Lauren Forristal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "type": "news",
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+      "authors": [
+        "Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "type": "news",
+      "title": "Microsoft hits 10 quarters of record-breaking revenue in a row",
+      "summary": "Whatever the future of AI might be, the current situation is still very good for Microsoft. The tech giant reported yet another record for quarterly revenue on Wednesday: $92.3 billion, a 19% increase over the year-ago quarter.",
+      "authors": [
+        "Julie Bort"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/28/microsoft-hits-10-quarters-of-record-breaking-revenue-in-a-row/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic just launched tools to show companies what their AI spending is buying",
+      "summary": "The frontier lab is lifting the curtain on how users spend money on its models ahead of a planned IPO.",
+      "authors": [
+        "Tim Fernholz"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "type": "news",
+      "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+      "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. Accord…",
+      "authors": [
+        "Theresa Loconsolo"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "type": "news",
+      "title": "The ‘Vulnpocalypse’ is coming for the internet’s aging code, says Wiz’s CTO",
+      "summary": "The PHP scare may have faded from your feed, but the cleanup is far from over. Last week, two critical bugs in the open source language behind roughly 70% of websites left organizations scrambling to fix their systems, with some taking sites offline until the vulnerabilities could be patched. Accord…",
+      "authors": [
+        "Theresa Loconsolo, Rebecca Bellan"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/podcast/the-vulnpocalypse-is-coming-for-the-internets-aging-code-says-wizs-cto/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "type": "news",
+      "title": "Amazon Warns Engineers Against AI Productivity Traps in Latest Memo",
+      "summary": "The company said that metrics that often grab attention, such as token usage, the number of AI tools used, code changes, the number of reviews, and more, are “d",
+      "authors": [
+        "Supreeth Koundinya"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/amazon-warns-engineers-against-ai-productivity-traps-in-latest-memo",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Gnani AI Launches Prisma v3.0 Speech Recognition Model for 10 Languages",
+      "summary": "The company’s Prisma v3.0 supports nine Indian languages and English, with the company reporting lower transcription error rates than competing models on a mult",
+      "authors": [
+        "Kileuna Haralu"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/gnani-ai-launches-prisma-v30-speech-recognition-model-for-10-languages",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Venttup Raises $3 Million To Expand Precision Manufacturing",
+      "summary": "The company will use AI to improve supplier intelligence and B2B sourcing as it expands its precision manufacturing capabilities.",
+      "authors": [
+        "Kileuna Haralu"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/venttup-raises-3-million-to-expand-precision-manufacturing",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Anthropic Makes $2.08 in Revenue for Every $1 Spent on Compute — Here’s the Full IPO Story",
+      "summary": "Anthropic has filed to go public in the US. Its IPO filing offers a closer look at its exponential revenue growth, mounting infrastructure costs, potential loss",
+      "authors": [
+        "Siddharth Jindal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/global-tech/anthropic-makes-208-in-revenue-for-every-1-spent-on-compute-heres-the-full-ipo-story",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Indian IT’s New Workforces Come with a Margin Challenge",
+      "summary": "Indian IT firms are taking over technology teams and specialist businesses. Integrating their workforces while protecting client relationships and margins prese",
+      "authors": [
+        "Mukundan Sivaraj"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/it-services/indian-its-new-workforces-come-with-a-margin-challenge",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Articul8 Launches Bivia To Help Enterprise AI Agents Make Decisions",
+      "summary": "The company has launched Bivia, a multimodal decision model designed to help enterprise AI agents make domain-specific decisions and verify evidence across diff",
+      "authors": [
+        "Kileuna Haralu"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/articul8-launches-bivia-to-help-enterprise-ai-agents-make-decisions",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "The AI Slowdown Narrative Doesn’t Reflect Enterprise Reality",
+      "summary": "Industry leaders say the focus is moving from building increasingly capable models to enterprise readiness, governance, reliable execution and measurable return",
+      "authors": [
+        "AIM Media House"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-features/the-ai-slowdown-narrative-doesnt-reflect-enterprise-reality",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "NVIDIA Launches Open-Weight Transcription Model for 40 Languages",
+      "summary": "NVIDIA's Nemotron 3.5 Transcribe supports transcription in 40 languages with advanced features like speaker attribution and speech translation.",
+      "authors": [
+        "Ridhika Basnet"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/nvidia-launches-open-weight-transcription-model-for-40-languages",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "India’s Enterprises are Scaling AI. Is the Infrastructure Ready?",
+      "summary": "Legacy systems, fragmented data and infrastructure gaps could slow Indian enterprises as they move AI agents from pilots into production.",
+      "authors": [
+        "Kileuna Haralu"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-features/indias-enterprises-are-scaling-ai-is-the-infrastructure-ready",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Sarvam AI Rolls Out Indus Cowork to 2,500 Maharashtra Govt Officials",
+      "summary": "Sarvam AI's Indus Cowork is launched for 2,500 Maharashtra officials, enhancing productivity with AI-driven administrative tools.",
+      "authors": [
+        "Ridhika Basnet"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/sarvam-ai-rolls-out-indus-cowork-to-2500-maharashtra-govt-officials",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Coforge Introduces Autonomous Software Factory to Coordinate AI Agents",
+      "summary": "The IT services firm has not disclosed customer deployments or quantified gains from its new model for AI-driven software engineering.",
+      "authors": [
+        "Mukundan Sivaraj"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/coforge-introduces-autonomous-software-factory-to-coordinate-ai-agents",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "The Economics of Continuous Inference",
+      "summary": "An AI model may prove its capabilities during evaluation, but the real test begins when users start using it at scale. Inference is not a one-time compute event",
+      "authors": [
+        "Siddharth Jindal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-highlights/the-economics-of-continuous-inference",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "SAP India Targets 2 Million People for AI Skilling by 2030",
+      "summary": "SAP India aims to equip 2 million people with AI skills by 2030, with 13% already participating through various educational programs.",
+      "authors": [
+        "Ridhika Basnet"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/sap-india-targets-2-million-people-for-ai-skilling-by-2030",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Google Announces Gemini 4 Carbon With Focus on Cybersecurity and Coding",
+      "summary": "Discover Google Gemini 4 Carbon's capabilities in cybersecurity and coding, including its benchmark scores and advanced features for software vulnerability dete",
+      "authors": [
+        "Ridhika Basnet"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/google-announces-gemini-4-carbon-with-focus-on-cybersecurity-and-coding",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Sarvam, Krutrim Account for 68% of Indic AI Funding as Sector Raises $687 Million: Tracxn",
+      "summary": "In 2026, Indic AI firms raised $399 million, with Sarvam leading at 87%. Explore insights from Tracxn's latest report on AI funding.",
+      "authors": [
+        "Ridhika Basnet"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/sarvam-krutrim-account-for-68-of-indic-ai-funding-as-sector-raises-687-million-tracxn",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Alphabet Revenue Jumps 25% as Google Cloud Doubles & Search Growth Slows",
+      "summary": "Alphabet, Google’s parent company, reported a 25% year-on-year increase in third-quarter revenue to $127.6 billion, driven by strong growth in its cloud busines",
+      "authors": [
+        "Siddharth Jindal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/alphabet-revenue-jumps-25-as-google-cloud-doubles-search-growth-slows",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "‘You’re Not Doing This AI Stuff,’ Databricks CEO Tells Snowflake",
+      "summary": "Ali Ghodsi claims its AI platform has helped customers cut token spending by 30% even as usage increased, while Snowflake’s CEO seeks greater transparency on re",
+      "authors": [
+        "Siddharth Jindal"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/youre-not-doing-this-ai-stuff-databricks-ceo-tells-snowflake",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "HCLTech Launches Nano GCC Model With AWS to Build AI Operations",
+      "summary": "The offering targets enterprises with existing GCCs and mid-market companies seeking to establish AI-focused teams in India, with an initial rollout across APAC",
+      "authors": [
+        "Mukundan Sivaraj"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/hcltech-launches-nano-gcc-model-with-aws-to-build-ai-operations",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Microsoft’s Azure Revenue Grows 48% in September Quarter",
+      "summary": "CFO Amy Hood said the company expects capital expenditure to reach approximately $170 billion for calendar-year 2026, with spending accelerating in the second h",
+      "authors": [
+        "Supreeth Koundinya"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/microsofts-azure-revenue-grows-48-in-september-quarter",
+      "source": "AIM",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "GitHub Expands Infra With 4 Mn Cores, Debuts Copilot Fusion for Multi-Model Routing",
+      "summary": "GitHub is also rolling out critical safeguards to protect software supply chains, including AI-powered code scanning to check every pull request and repository.",
+      "authors": [
+        "AIM Media House"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-news/github-expands-infra-with-4-mn-cores-debuts-copilot-fusion-for-multi-model-routing",
+      "source": "AIM",
+      "publishedAt": "2026-10-28"
+    },
+    {
+      "type": "news",
+      "title": "Modders unlock hidden AI power on Nvidia RTX 20, 30, and 40 series GPUs, nearly doubling some benchmarks",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xingp7/modders_unlock_hidden_ai_power_on_nvidia_rtx_20/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "31-Year-Old Woman Reduced Epilepsy Medication After ChatGPT Advice: Report Links Case to Her Death",
+      "summary": "submitted by /u/beingmodest [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xiwxih/31yearold_woman_reduced_epilepsy_medication_after/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Fujifilm plans 5x production boost of 100TB magnetic storage tapes driven by skyrocketing AI storage demand — $63 million injection is the largest investment in tape for 20 years",
+      "summary": "submitted by /u/ControlCAD [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xivhhm/fujifilm_plans_5x_production_boost_of_100tb/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "GLM 5.3 can autonomously compromise recent versions of Mozilla Firefox",
+      "summary": "https://epoch.ai/publications/open-weight-models-patch-gap submitted by /u/Eliv_nurotic [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xiyu6e/glm_53_can_autonomously_compromise_recent/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Microsoft just shared Azure's actual revenue in dollars: $33.2 billion | TechCrunch",
+      "summary": "submitted by /u/Resident-Fall4351 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xinf2c/microsoft_just_shared_azures_actual_revenue_in/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Working on a Jarvis invoice inspired Voice Agent.",
+      "summary": "Only a couple hours at this, taking shape. Hardest thing is the layout what to include. Back-end is complete, just need a face, Ive been running my voice agent in the background for a while with no interface. What you think. Cool fun project. will probs be so over engineered lol. will MIT opensource…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xivelj/working_on_a_jarvis_invoice_inspired_voice_agent/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "A one-person studio shipped a Steam demo of a 12-chapter FPS coded by AI agents in 20 working days. Here is what the agents could and could not do.",
+      "summary": "I am Ekin, a one-person game studio in Turkey. On 28 October the free demo of Iron Curtain Call went live on Steam: a fast cartoon-noir FPS set in an alternate 1965 where a customer-service AI runs World War III. The code is written by Claude Code agents working from my design documents: 3,929 commi…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xikfco/a_oneperson_studio_shipped_a_steam_demo_of_a/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Google unveils Gemini 4 Carbon, a cybersecurity-focused frontier model — and vetted defenders get it first",
+      "summary": "Google announced Gemini 4 Carbon on Oct 28, calling it its strongest Gemini 4-era model, built for cybersecurity and long-horizon engineering work. Per Google’s figures, it scores 88.2% on SEC-bench Pro (finding real vulnerabilities), 54.8% on ExploitGym (validating exploits), and 71.0% on CWE-bench…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xiuc3w/google_unveils_gemini_4_carbon_a/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "San Francisco startup offered $20 an hour to walk robot dogs for AI training: report",
+      "summary": "submitted by /u/Medical-Decision-125 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xip880/san_francisco_startup_offered_20_an_hour_to_walk/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Insurance tech just got a $2B AI deal. Are our rates cooked?",
+      "summary": "Guidewire is acquiring AI underwriting startup hyperexponential for $1.7B in cash, with the total deal potentially reaching $2.1B. I think this will only enable them to connect more dots and eventually squeeze even more money out of us. AI deciding how much to pay. Almost exactly what IBM warned us …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1ximm2m/insurance_tech_just_got_a_2b_ai_deal_are_our/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Europe's data centers are booming. Who gets first dibs on electricity?",
+      "summary": "submitted by /u/kindermaxi123 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xifxgv/europes_data_centers_are_booming_who_gets_first/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "New AA intelligence index v5 with “Private tests” conveniently upranks GPT, Google’s models, while open weights chinese models downrank",
+      "summary": "The new Artificial Analysis intelligence index v5, is being criticised, because its introduction of \"trust me bro\" private tests on private datasets, significantly downranking current open weights models on the index. Just after its published, google announces Carbon 4, which is placed on the top of…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xiein9/new_aa_intelligence_index_v5_with_private_tests/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Apple And Google Fined In South Korea Over App Store Violations",
+      "summary": "submitted by /u/Ok-Conversation3213 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xin9g3/apple_and_google_fined_in_south_korea_over_app/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "if ai is already here to stay and we can’t get rid of it, are there was to make clear rules on using clean energy, keeping humans employed even at entry level jobs like cashier or working at coffee shop, human doctors, and just have ai help out not completely take over the world? includes humanoids.",
+      "summary": "just wondering. submitted by /u/Opposite_List_303 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xivz66/if_ai_is_already_here_to_stay_and_we_cant_get_rid/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Being early may buy an AI agent startup time, but it doesn’t guarantee a lasting business",
+      "summary": "My blunt six-month prediction: more general-purpose agent startups will discover that their early lead is temporary. Shipping first can get you users and attention. But if the main features are reproducible and customers can switch easily, that lead may disappear once a larger company offers somethi…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xidt73/being_early_may_buy_an_ai_agent_startup_time_but/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    },
+    {
+      "type": "news",
+      "title": "Facebook tries to grab all news publisher website content for training for free",
+      "summary": "submitted by /u/Ok-Conversation3213 [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/artificial/comments/1xinbiz/facebook_tries_to_grab_all_news_publisher_website/",
+      "source": "Artificial Intelligence (AI)",
+      "publishedAt": "2026-10-29"
+    }
+  ]
+}
