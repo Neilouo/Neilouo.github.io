@@ -1,0 +1,275 @@
+{
+  "date": "2026-11-01",
+  "items": [
+    {
+      "type": "news",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "type": "news",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "type": "news",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "type": "news",
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "summary": "On November 4 at Boston’s SoWa Power Station, get ready for a full day packed with meaningful networking opportunities, actionable insights, and connections that could change the trajectory of your idea and startup. Register before all prices go up at the door.",
+      "authors": [
+        "TechCrunch Events"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "type": "news",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "type": "news",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "summary": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "authors": [
+        "Anthony Ha"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "type": "news",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "summary": "When investors get nervous about AI spending, it helps to have the chipmaker that sells the chips offer to cosign the loan.",
+      "authors": [
+        "Aditya Mehta"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "source": "AI News & Artificial Intelligence | TechCrunch",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "type": "news",
+      "title": "The Bengaluru Founder Building a Bridge to San Francisco",
+      "summary": "Indian engineers found that replicating San Francisco’s model wasn’t enough to scale. Success required a deeper understanding of user behaviour and engagement,",
+      "authors": [
+        "Supreeth Koundinya"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/ai-startups/the-bengaluru-founder-building-a-bridge-to-san-francisco",
+      "source": "AIM",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "type": "news",
+      "title": "Are Boutique AI Firms India’s Next Big Thing?",
+      "summary": "AI-native consultancies are positioning themselves as smaller, faster engineering partners that can take AI projects from concept to production in days, not mon",
+      "authors": [
+        "Supreeth Koundinya"
+      ],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://analyticsindiamag.com/it-services/are-boutique-ai-firms-indias-next-big-thing",
+      "source": "AIM",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "type": "news",
+      "title": "[D] Simple Questions Thread",
+      "summary": "Please post your questions here instead of creating a new thread. Encourage others who create new posts for questions to post here instead! Thread will stay alive until next one so keep posting after the date in the title. Thanks to everyone for answering questions in the previous thread! submitted …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xl6og2/d_simple_questions_thread/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "type": "news",
+      "title": "[D] Monthly Who's Hiring and Who wants to be Hired?",
+      "summary": "For Job Postings please use this template Hiring: [Location], Salary:[], [Remote | Relocation], [Full Time | Contract | Part Time] and [Brief overview, what you're looking for] For Those looking for jobs please use this template Want to be Hired: [Location], Salary Expectation:[], [Remote | Relocati…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xjyo89/d_monthly_whos_hiring_and_who_wants_to_be_hired/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "type": "news",
+      "title": "Why do all NN optimizers have weird names? [d]",
+      "summary": "SOAP, Shampoo, FOAM. Muon is a bit better but it has the same name as the particle from physics. Whenever I want to search about these tones of completely irrelevant results come up because of their non-unqiue names. Adam would have the same problem if it wasn't so famous. This has been giving me a …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xl7yv0/why_do_all_nn_optimizers_have_weird_names_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "type": "news",
+      "title": "Are there fundamental repeating patterns in ML techniques across modalities (text, image, audio) that let us group them? [R]",
+      "summary": "I’ve been noticing that a lot of techniques seem to repeat across modalities with just a different name. For example, tokenisation, masking (MLM / MAE / audio masking), diffusion, next-token / next-frame prediction, etc. Is there an existing taxonomy or mental model that groups ML techniques by thei…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkp8e9/are_there_fundamental_repeating_patterns_in_ml/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "type": "news",
+      "title": "Data augmentation question. How do I characterise an original and augmented datasets where the augmentation parameters were zoom and crop? [P]",
+      "summary": "For context, I am a new postgraduate student in machine learning (but not a very good one). I have produced some augmented datasets (TIFF files where each file contains one object to be detected / classified) which I used in training deep learning models. I used fairly aggressive cropping (random cr…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xl1uba/data_augmentation_question_how_do_i_characterise/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "type": "news",
+      "title": "Best option for local models [D]",
+      "summary": "Hi there, wanted a suggestion from the community regarding the hardware to run local models. The first option was just to get a MacBook Pro with 32 GB RAM, and the second one was to invest into Mac Mini (256 GB SSD and 32 GB RAM), and get an iPAD as well PS; I have access to B200, and multiple A100s…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkwrp3/best_option_for_local_models_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "type": "news",
+      "title": "LSREP: A Longitudinal State-Replay Protocol for Evaluating Conversational Memory [R]",
+      "summary": "I'm an undergraduate researcher working independently on conversational memory systems. I developed LSREP to evaluate how persistent memory accumulates, changes and retrieves information over the course of an evolving conversation. Instead of relying only on isolated endpoint questions, LSREP combin…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkzwz9/lsrep_a_longitudinal_statereplay_protocol_for/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "type": "news",
+      "title": "I animated what GPT-4o's tokenizer does to \"strawberry\": real token ids, a tiny BPE run, and why the space belongs to the word (6 min video) [D]",
+      "summary": "I made this explainer for my small channel and would like feedback from people learning this, especially if anything is wrong. It follows one word the whole way: \"How many r's are in strawberry?\" is 8 tokens in o200k_base (the GPT-4o / GPT-5 tokenizer). \" strawberry\" is a single token, id 101830, so…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xl9sv7/i_animated_what_gpt4os_tokenizer_does_to/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-11-01"
+    },
+    {
+      "type": "news",
+      "title": "Hierarchical detection of neonatal brain pathologies using a two-stage deep learning framework from magnetic resonance imaging [R]",
+      "summary": "submitted by /u/rottoneuro [link] [comments]",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkcy83/hierarchical_detection_of_neonatal_brain/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "type": "news",
+      "title": "I built a scikit-learn for RSI [P]",
+      "summary": "After reading a bunch of RSI papers, I keep coming back to familiar problems from RL and evolutionary search: Sampling: How do we find promising changes efficiently? Evaluation: How do we know a new variant actually improves the agent? Diversity: How do we avoid converging too early? That motivated …",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkeq7d/i_built_a_scikitlearn_for_rsi_p/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "type": "news",
+      "title": "Is neuro-evolution relevant? [D]",
+      "summary": "I've experimented using neuro-evolution to train AI to play a variety of different games and I'm just curious as to how or if this technique is actually really used anywhere in industry or if people are doing research on this. I'd assume it'd probably relate with reinforcement learning in some way b…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkh5bw/is_neuroevolution_relevant_d/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-31"
+    },
+    {
+      "type": "news",
+      "title": "Is it okay to share my experiments implementing research papers on my own LLM here? [P]",
+      "summary": "Hey everyone! I've built and trained a small LLM (~8M parameters) from scratch using PyTorch, mainly as an experimental lab where I can implement and test ideas from different research papers. I've been documenting the whole journey through casual blogs, including my mistakes, experiments, and thing…",
+      "authors": [],
+      "affiliations": [],
+      "primaryArea": "其他",
+      "tags": [],
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1xkgtly/is_it_okay_to_share_my_experiments_implementing/",
+      "source": "Machine Learning",
+      "publishedAt": "2026-10-31"
+    }
+  ]
+}
