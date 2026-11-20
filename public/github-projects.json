@@ -1,6 +1,19 @@
 {
   "projects": [
     {
+      "id": 779878643,
+      "name": "XiaoAiTimetable",
+      "description": "Xiaomi Timetable at Unimelb",
+      "html_url": "https://github.com/Neilouo/XiaoAiTimetable",
+      "homepage": "",
+      "stargazers_count": 2,
+      "forks_count": 0,
+      "language": "JavaScript",
+      "topics": [],
+      "updated_at": "2026-11-19T22:07:11Z",
+      "banner": "https://github-readme-stats.vercel.app/api/pin/?username=Neilouo&repo=XiaoAiTimetable&theme=default&show_owner=false&bg_color=ffffff&title_color=2f80ed&text_color=333333&icon_color=f7df1e"
+    },
+    {
       "id": 1432348878,
       "name": "mcd-luckin-duet",
       "description": "一顿饭 + 一杯咖啡的跨品牌联合决策器 · 麦当劳 × 瑞幸官方 MCP · 2026 麦当劳程序员创意开发大赛参赛作品",
@@ -38,19 +51,6 @@
       "topics": [],
       "updated_at": "2026-02-01T11:28:02Z",
       "banner": "https://github-readme-stats.vercel.app/api/pin/?username=Neilouo&repo=macOS2.0.3.flow&theme=default&show_owner=false&bg_color=ffffff&title_color=2f80ed&text_color=333333&icon_color=586069"
-    },
-    {
-      "id": 779878643,
-      "name": "XiaoAiTimetable",
-      "description": "Xiaomi Timetable at Unimelb",
-      "html_url": "https://github.com/Neilouo/XiaoAiTimetable",
-      "homepage": "",
-      "stargazers_count": 2,
-      "forks_count": 0,
-      "language": "JavaScript",
-      "topics": [],
-      "updated_at": "2025-03-04T10:36:16Z",
-      "banner": "https://github-readme-stats.vercel.app/api/pin/?username=Neilouo&repo=XiaoAiTimetable&theme=default&show_owner=false&bg_color=ffffff&title_color=2f80ed&text_color=333333&icon_color=f7df1e"
     },
     {
       "id": 860797675,
